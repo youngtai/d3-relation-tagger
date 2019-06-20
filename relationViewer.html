@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <link rel="stylesheet" type="text/css" href="enamex-tag-style.css">
+</head>
+<style>
+
+.links line {
+  stroke:#999;
+  stroke-width: 2px;
+}
+
+.nodes circle{
+  stroke:darkgrey;
+  stroke-width: 0px;
+}
+
+text {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.relationship-button {
+  background-color: #757973;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.relationship-button:hover {
+  background-color: #40c702;
+  color: #fefff0;
+}
+
+#page {
+  background-color: #ffffff;
+  height: 98vh;
+  width: 100%;
+}
+
+#top-panel {
+  display: flex;
+  flex-direction: row;
+  float: top;
+  background-color: #f3f3f3;
+  height: 5%;
+}
+
+#file-io {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+#file-intake {
+  width: 80%;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px 5px;
+}
+
+#export {
+  width: 20%;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  margin: 10px;
+  color:rgb(59, 59, 59);
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: auto;
+}
+
+#export:hover {
+  background-color: #027465;
+  color:#ffffff;
+}
+
+#export:active {
+  background-color: #f24545;
+  color: #ffffff;
+}
+
+#option-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+#toggle-same-as {
+  width: 15%;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  margin: 10px;
+  color:rgb(59, 59, 59);
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}
+
+#toggle-same-as:hover {
+  background-color: #3b3b3b;
+  color:#ffffff;
+}
+
+#scissors {
+  width: 15%;
+  background-color: #f3f3f3;
+  border: none;
+  margin: 10px;
+  color:#3b3b3b;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#scissors:hover {
+  background-color: #3b3b3b;
+  color:#ffffff;
+}
+
+#reload-displayedGraph {
+  width: 15%;
+  background-color: #f3f3f3;
+  border: none;
+  margin: 10px;
+  color:#3b3b3b;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#reload-displayedGraph:hover {
+  background-color: #3b3b3b;
+  color:#fefff0;
+}
+
+#main {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height:95%;
+  display: flex;
+  flex-direction: row;
+}
+
+#data-display {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  height:100%;
+}
+
+#svg-container {
+    background-color: #fffcf8;
+    float: left;
+    width: 65%;
+    height:100%;
+}
+
+#text-div {
+  background-color: rgb(255, 255, 255);
+  float: left;
+  width: 35%;
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 18px;
+}
+
+#relationships-panel {
+    background-color: rgb(181, 181, 190);
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#relationships-panel > div {
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+<div id = "page">
+  <div id = "top-panel">
+    <div id="file-io">
+      <div id = "file-intake">
+        Load a GedcomX or relex<input type="file" id="file-intake-button">
+      </div>
+      <button id="export" type="button">Export</button>
+    </div>
+    <div id="option-buttons">
+      <button id="toggle-same-as" type="button">Show "Same As"</button>
+      <button id="scissors" type="button">Scissors</button>
+      <button id="reload-displayedGraph" type="button">Show All Relations</button>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="data-display">
+        <div id="text-div">Labeled text shows up here.</div>
+        <div id="svg-container">
+          <svg width="1100" height="900"></svg>
+        </div>
+    </div>
+    <div id="relationships-panel">  
+      <button class="relationship-button" id="has-start-date" type="button">has start date</button>
+      <button class="relationship-button" id="has-start-place" type="button">has start place</button>
+      <button class="relationship-button" id="has-start-time" type="button">has start time</button>
+      <button class="relationship-button" id="has-end-date" type="button">has end date</button>
+      <button class="relationship-button" id="has-end-place" type="button">has end place</button>
+      <button class="relationship-button" id="has-end-time" type="button">has end time</button>
+      <button class="relationship-button" id="has-event" type="button">has event</button>
+      <button class="relationship-button" id="has-event-fact" type="button">has event fact</button>
+      <button class="relationship-button" id="is-event-fact" type="button">is event fact</button>
+      <button class="relationship-button" id="has-spouse" type="button">has spouse</button>
+      <button class="relationship-button" id="has-father" type="button">has father</button>
+      <button class="relationship-button" id="has-mother" type="button">has mother</button>
+      <button class="relationship-button" id="age-of" type="button">age of</button>
+      <button class="relationship-button" id="attended" type="button">attended</button>
+      <button class="relationship-button" id="caused-by" type="button">caused by</button>
+      <button class="relationship-button" id="contact-info" type="button">contact info</button>
+      <button class="relationship-button" id="created" type="button">created</button>
+      <button class="relationship-button" id="has-duration" type="button">has duration</button>
+      <button class="relationship-button" id="employed-by" type="button">employed by</button>
+      <button class="relationship-button" id="has-family-member" type="button">has family member</button>
+      <button class="relationship-button" id="is-female" type="button">is female</button>
+      <button class="relationship-button" id="is-fictional" type="button">is fictional</button>
+      <button class="relationship-button" id="is-male" type="button">is male</button>
+      <button class="relationship-button" id="is-member-of" type="button">is member of</button>
+      <button class="relationship-button" id="name-combiner" type="button">name combiner</button>
+      <button class="relationship-button" id="has-occupation" type="button">has occupation</button>
+      <button class="relationship-button" id="owns" type="button">owns</button>
+      <button class="relationship-button" id="precedes-recently" type="button">precedes recently</button>
+      <button class="relationship-button" id="principals-associate" type="button">principal's associate</button>
+      <button class="relationship-button" id="is-principal-person" type="button">is principal person</button>
+      <button class="relationship-button" id="quantity" type="button">quantity</button>
+      <button class="relationship-button" id="has-residence-place" type="button">has residence place</button>
+      <button class="relationship-button" id="same-as" type="button">same as</button>
+      <button class="relationship-button" id="is-subplace-of" type="button">is subplace of</button>
+      <button class="relationship-button" id="has-title" type="button">has title</button>
+    </div>
+  </div>
+</div>
+  
+<script type="text/javascript" src="resources/nbx-parse.js"></script>
+<script type="text/javascript" src="resources/relation-functions.js"></script>
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+<script src="resources/d3-v4-min.js"></script>
+<script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script>
+
+<script>
+// var colors = d3.scaleOrdinal(d3.schemeCategory20),
+var svg,
+    radius,
+    simulation = d3.forceSimulation(),
+    node,
+    link;
+var displayedGraph,
+    editedGraph,
+    originalGraph,
+    file;
+var originalRelex,
+    filename;
+
+// -------------------------------EVENT LISTENERS-----------------------------------------
+// ---------------------------------------------------------------------------------------
+// -------------------------------TOP PANEL-----------------------------------------------
+document.getElementById("file-intake-button").addEventListener("change", loadDocument);
+document.getElementById("export").addEventListener("click", exportDocument);
+// document.getElementById("toggle-same-as").addEventListener("click", showSameAsOn);
+// document.getElementById("toggle-same-as").addEventListener("click", showSameAsOff);
+document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonStyle);
+document.getElementById("scissors").addEventListener("click", toggleScissors);
+document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
+document.getElementById("reload-displayedGraph").addEventListener("click", setShowSameAsVisibility);
+document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
+document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
+document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
+// -------------------------------RELATIONSHIP PANEL--------------------------------------
+document.getElementById("has-start-date").addEventListener("click", hasStartDate);
+document.getElementById("has-start-place").addEventListener("click", hasStartPlace);
+document.getElementById("has-start-time").addEventListener("click", hasStartTime);
+document.getElementById("has-end-date").addEventListener("click", hasEndDate);
+document.getElementById("has-end-place").addEventListener("click", hasEndPlace);
+document.getElementById("has-end-time").addEventListener("click", hasEndTime);
+document.getElementById("has-event").addEventListener("click", hasEvent);
+document.getElementById("has-event-fact").addEventListener("click", hasEventFact);
+document.getElementById("is-event-fact").addEventListener("click", isEventFact);
+document.getElementById("has-spouse").addEventListener("click", hasSpouse);
+document.getElementById("has-father").addEventListener("click", hasFather);
+document.getElementById("has-mother").addEventListener("click", hasMother);
+document.getElementById("age-of").addEventListener("click", ageOf);
+document.getElementById("attended").addEventListener("click", attended);
+document.getElementById("caused-by").addEventListener("click", causedBy);
+document.getElementById("contact-info").addEventListener("click", contactInfo);
+document.getElementById("created").addEventListener("click", created);
+document.getElementById("has-duration").addEventListener("click", hasDuration);
+document.getElementById("employed-by").addEventListener("click", employedBy);
+document.getElementById("has-family-member").addEventListener("click", hasFamilyMember);
+document.getElementById("is-female").addEventListener("click", isFemale);
+document.getElementById("is-fictional").addEventListener("click", isFictional);
+document.getElementById("is-male").addEventListener("click", isMale);
+document.getElementById("is-member-of").addEventListener("click", isMemberOf);
+document.getElementById("name-combiner").addEventListener("click", nameCombiner);
+document.getElementById("has-occupation").addEventListener("click", hasOccupation);
+document.getElementById("owns").addEventListener("click", owns);
+document.getElementById("precedes-recently").addEventListener("click", precedesRecently);
+document.getElementById("principals-associate").addEventListener("click", principalsAssociate);
+document.getElementById("is-principal-person").addEventListener("click", isPrincipalPerson);
+document.getElementById("quantity").addEventListener("click", quantity);
+document.getElementById("has-residence-place").addEventListener("click", hasResidencePlace);
+document.getElementById("same-as").addEventListener("click", sameAs);
+document.getElementById("is-subplace-of").addEventListener("click", subplaceOf); 
+document.getElementById("has-title").addEventListener("click", hasTitle);
+
+var relationshipButtonClass = document.getElementsByClassName("relationship-button");
+for (var i = 0; i < relationshipButtonClass.length; i++) {
+  relationshipButtonClass[i].addEventListener("click", setShowSameAsVisibility);
+  relationshipButtonClass[i].addEventListener("click", showSameAs);
+  relationshipButtonClass[i].addEventListener("click", relButtonStyle);
+  relationshipButtonClass[i].addEventListener("click", relButtonStyleOff);
+  relationshipButtonClass[i].addEventListener("click", clearSelection);
+  relationshipButtonClass[i].addEventListener("click", reloadDisplayedGraphToggleOff);
+  relationshipButtonClass[i].id = relationshipButtonClass[i].id;
+}
+
+function reloadDisplayedGraphToggleOn() {
+  document.getElementById("reload-displayedGraph").style.border = "0px solid";
+  document.getElementById("reload-displayedGraph").style.backgroundColor = "#40c702";
+  document.getElementById("reload-displayedGraph").style.color = "#ffffff";
+}
+function reloadDisplayedGraphToggleOff() {
+  document.getElementById("reload-displayedGraph").style.border = "none";
+  document.getElementById("reload-displayedGraph").style.backgroundColor = "";
+  document.getElementById("reload-displayedGraph").style.color = "";
+}
+
+function setShowSameAsVisibility() {
+  if (getCurrentRelationship() != "R40:IS_SAME_AS" && getCurrentRelationship() != "UNSELECTED") {
+    document.getElementById("toggle-same-as").style.display = "block";
+  } else {
+    document.getElementById("toggle-same-as").style.display = "none";
+  }
+}
+function showSameAs() {
+  // If we're already viewing "is same as" or all relations then we don't need to do anything - "UNSELECTED" means no relation filter
+  if (showSameAsToggled()) {
+    console.log("Showing 'same as' links.");
+    showSameAsOn();
+  } else if (!showSameAsToggled()) {
+    console.log("Hiding 'same as' links.");
+    showSameAsOff();
+  }
+}
+function showSameAsButtonStyle() {
+  var element = document.querySelector("#toggle-same-as");
+  var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
+  var backgroundColor = window.getComputedStyle(element).getPropertyValue("background-color");
+  if (borderStyle == "solid") {
+    // untoggle - make it default color
+    // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(243, 243, 243)";
+    document.getElementById("toggle-same-as").style.border = "none";
+    document.getElementById("toggle-same-as").style.backgroundColor = "";
+    document.getElementById("toggle-same-as").style.color = "";
+    showSameAsOff();
+  // } else if (borderStyle == "none") {
+  } else {
+    // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(204, 51, 51)";
+    document.getElementById("toggle-same-as").style.border = "0px solid #cc3333";
+    document.getElementById("toggle-same-as").style.backgroundColor = "#40c702";
+    document.getElementById("toggle-same-as").style.color = "#ffffff";
+    showSameAsOn();
+  }
+}
+function showSameAsOn() {
+  if (getCurrentRelationship() != "R40:IS_SAME_AS") {
+    console.log("Show Same As is toggled");
+    // used to determine if an entity from a same-as relationship in editedGraph.relations is in displayedGraph.entities
+    function isADisplayedEntity(entity) {
+      for (var i = 0; i < displayedGraph.entities.length; i++) {
+        if (displayedGraph.entities[i].id == entity) {
+          return true;
+        }
+      }
+      return false;
+    }
+    editedGraph.relations.forEach(function(relation) {
+      if (relation.type == "R40:IS_SAME_AS") {
+        if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
+          // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
+          // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
+          displayedGraph.relations.push({type : relation.type,
+                                  startToken : relation.startToken, 
+                                      source : relation.source, 
+                                    endToken : relation.endToken, 
+                                      target : relation.target,
+                                    distance : linkDistance(relation.type)});
+          sameAsRestart();
+        }
+      }
+    });
+  }
+}
+function showSameAsOff() {
+  if (getCurrentRelationship() != "R40:IS_SAME_AS") {
+    console.log("show same as button toggled off");
+    for (var i = displayedGraph.relations.length - 1; i >= 0; i--) {
+      if (displayedGraph.relations[i].type == "R40:IS_SAME_AS") {
+        displayedGraph.relations.splice(i,1);
+      }
+    }
+    restart();
+  }
+}
+// is "show same as" button toggled
+function showSameAsToggled() {
+  var element = document.querySelector("#toggle-same-as");
+  var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
+  if (borderStyle == "none") {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+// make relation buttons appear "clicked"
+function relButtonStyle(buttonId) {
+  var buttonIdString = buttonId.target.id;
+  var idSelector = "#" + buttonIdString;
+  var element = document.querySelector(idSelector);
+  var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
+  document.getElementById(buttonIdString).style.border = "0px solid #cc3333";
+  document.getElementById(buttonIdString).style.backgroundColor = "#40c702";
+  document.getElementById(buttonIdString).style.color = "#fefff0";
+}
+function relButtonStyleOff(buttonId) {
+  var relationshipButtonClass = document.getElementsByClassName("relationship-button");
+  var buttonIdString = buttonId.target.id;
+  for (var i = 0; i < relationshipButtonClass.length; i++) {
+    var relationId = relationshipButtonClass[i].id;
+    if (relationId != buttonIdString) {
+      document.getElementById(relationId).style.border = "none";
+      document.getElementById(relationId).style.backgroundColor = "";
+      document.getElementById(relationId).style.color = "";
+    }
+  }
+}
+
+function colorizeText(relex) {
+  // we replace with "<-span..." because we need to go through after one at a time and
+  // add a unique id according to the order the enamex shows up in the text. This is so
+  // that we can have text highlighting when a node is hovered over.
+  relex = relex
+          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='STRUCTURE_addr'>")
+          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='AGE'>")
+          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ANIMAL'>")
+          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='CHEMICAL'>")
+          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='DURATANNIV'>")
+          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='COREF_gen'>")
+          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='COREF_loc'>")
+          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='COREF_dat'>")
+          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='COREF'>")
+          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='DATE'>")
+          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='DATE_non'>")
+          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='EVENT'>")
+          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='EVENT_rel'>")
+          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='EVENT_xlife'>")
+          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='FAMILYMEMBER'>")
+          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='NONFAMILY'>")
+          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='FOOD_DRINK'>")
+          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='GAME'>")
+          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='HEALTH_CONDITION'>")
+          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='LOCALE'>")
+          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='LOCALE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ITE_gpe'>")
+          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ITE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ITE_org'>")
+          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='STRUCTURE'>")
+          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='MONEY'>")
+          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='OCCUPATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ORGANIZATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ORGANIZATION_edu'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ORGANIZATION_mil'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ORGANIZATION_music'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ORGANIZATION_pub'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ORGANIZATION_rel'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ORGANIZATION_sports'>")
+          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ETPLACE'>")
+          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='PERCENT'>")
+          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='PERSON'>")
+          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='PHONENUMBER'>")
+          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='FLORA'>")
+          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='QUANTITY'>")
+          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIME'>")
+          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='TITLE'>")
+          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='TITLEFPH'>")
+          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='VEHICLE'>")
+          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='WEAPON'>")
+          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='URL'>")
+          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='WORK_OF_ART'>")
+          .replace(/<\/ENAMEX>/g, "</span>")
+          .replace(/<\/TIMEX>/g, "</span>")
+          .replace(/<\/NUMEX>/g, "</span>");
+
+  for (i = 0; i < originalGraph.entities.length; i++) {
+    var replacementString = "<span id='" + i + "'";
+    // var included = relex.includes("<span");
+    relex = relex.replace("<-span", replacementString);
+  }
+  return relex;
+}
+// for coloring nodes according to enamex type
+function colors(type) {
+  if (type == "STRUCTURE.addr") {return "#999000"}
+  else if (type == "AGE") { return "#669ac4"}
+  else if (type == "ANIMAL") { return "#80771f"}
+  else if (type == "CHEMICAL") { return "#aaff0d"}
+  else if (type == "COREF.gen") { return "#e5ccff"}
+  else if (type == "COREF.loc") { return "#6a5abd"}
+  else if (type == "COREF.dat") { return "#089977"}
+  else if (type == "COREF") { return "#7b68ee"}
+  else if (type == "DATE") { return "#0400ff"}
+  else if (type == "DATE.non") { return "#20b2aa"}
+  else if (type == "DURATANNIV") { return "#1e90ff"}
+  else if (type == "EVENT") { return "#00ff51"}
+  else if (type == "EVENT.rel") { return "#99ff99"}
+  else if (type == "EVENT.xlife") { return "#ccffcc"}
+  else if (type == "ITE.et") { return "#e6cce2"}
+  else if (type == "FAMILYMEMBER") { return "#ee6a69"}
+  else if (type == "NONFAMILY") { return "#f5deb3"}
+  else if (type == "FOOD_DRINK") { return "#ffe5cc"}
+  else if (type == "GAME") { return "#99004c"}
+  else if (type == "HEALTH_CONDITION") { return "#cedcba"}
+  else if (type == "ITE.gpe") { return "#ff00d0"}
+  else if (type == "ITE.notgpe") { return "#e65ecd"}
+  else if (type == "ITE.org") { return "#eb9ddc"}
+  else if (type == "LOCALE") { return "#9c6927"}
+  else if (type == "LOCALE.notgpe") { return "#cfaf59"}
+  else if (type == "STRUCTURE") { return "#ffbe0d"}
+  else if (type == "MONEY") { return "#fedcba"}
+  else if (type == "OCCUPATION") { return "#ff6a00"}
+  else if (type == "ORGANIZATION") { return "#cc0000"}
+  else if (type == "ORGANIZATION.edu") { return "#ff2638"}
+  else if (type == "ORGANIZATION.mil") { return "#94323a"}
+  else if (type == "ORGANIZATION.music") { return "#fad9dc"}
+  else if (type == "ORGANIZATION.pub") { return "#c36276"}
+  else if (type == "ORGANIZATION.rel") { return "#ed8089"}
+  else if (type == "ORGANIZATION.sports") { return "#e34451"}
+  else if (type == "ETPLACE") { return "#bfbfbf"}
+  else if (type == "PERCENT") { return "#005e7d"}
+  else if (type == "PERSON") { return "#3f9c05"}
+  else if (type == "PHONENUMBER") { return "#a9a9a9"}
+  else if (type == "FLORA") { return "#abcdef"}
+  else if (type == "QUANTITY") { return "#66b2ff"}
+  else if (type == "TIME") { return "#6686c4"}
+  else if (type == "TITLE") { return "#ffa266"}
+  else if (type == "TITLEFPH") { return "#ffc266"}
+  else if (type == "VEHICLE") { return "#8e44fc"}
+  else if (type == "WEAPON") { return "#6600ff"}
+  else if (type == "URL") { return "#606060"}
+  else if (type == "WORK_OF_ART") { return "#fafa02"}
+  else { return "#ff69b4" }
+}
+// for setting link distance based on relationship type
+function linkDistance(type) {
+  if (type == "R40:IS_SAME_AS") {
+    return 35;
+  } else {
+    return 90;
+  }
+}
+
+//uploading a GedcomX
+function loadDocument(event) {
+  if (!event || !event.target || !event.target.files || event.target.files.length === 0) { alert("Try another file?"); }
+  file = event.target.files[0];
+  filename = file.name.replace(/\..+/, ".relex");
+  d3.selectAll("g").remove();
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    const lastDot = file.name.lastIndexOf('.');
+    const extension = file.name.substring(lastDot + 1);
+    var content = e.target.result;
+    if (extension == "json") {
+      obj = JSON.parse(content);
+      // parsed = parseNbx((obj.records[0].documents[0].text).replace(/ \n/g, " ").replace(/\n/g, " "));
+      var parsed = parseNbx((obj.records[0].documents[0].text));
+      // console.log("Parsed:");
+      // console.log(parsed);
+      displayedGraph = buildAllData(parsed);
+      editedGraph = buildAllData(parsed);
+      originalGraph = buildAllData(parsed);
+      var relex = obj.records[0].documents[0].text;
+      originalRelex = relex;
+      relex = colorizeText(relex);
+        console.log(relex);
+      document.getElementById("text-div").innerHTML = relex;
+      //displayedGraph = buildAllData(parsed);
+      // console.log("JSON");
+      // console.log(parsed);
+    }
+    if (extension == "relex") {
+      parsed = parseNbx(content);
+      offsetChange(parsed);
+      console.log("Parsed:");
+      console.log(parsed);
+      displayedGraph = buildAllData(parsed);
+      editedGraph = buildAllData(parsed);
+      originalGraph = buildAllData(parsed);
+      originalRelex = content;
+      var relex = colorizeText(content);
+        console.log(relex);
+      document.getElementById("text-div").innerHTML = relex;
+      // console.log("RELEX");
+      //console.log(parsed);
+    }
+    console.log("Whole Graph:");
+    console.log(originalGraph);
+    // console.log("displayedGraph:");
+    // console.log(displayedGraph);
+    // console.log(displayedGraph.entities);
+    // console.log(displayedGraph.relations);
+    reloadDisplayedGraphToggleOn();
+    //make D3 happen
+    runD3();
+  };
+  reader.readAsText(file);
+}
+function exportDocument() {
+  var originalNbx = originalRelex.replace(/<RELEX.+\n/g, "");
+  var outputRelex = originalNbx;
+  for (i = 0; i < editedGraph.relations.length; i++) {
+    var rel = editedGraph.relations[i];
+    var relString = "<RELEX TYPE=" + '"' + rel.type + '"'
+                  + "_STID=" + '"' + rel.source + '"'
+                  + "_ENDID=" + '"' + rel.target + '"'
+                  + "_STTOKEN=" + '"' + rel.startToken + '"'
+                  + "_ENDTOKEN=" + '"' + rel.endToken + '"' + ">";
+    outputRelex += relString;
+    if (i < editedGraph.relations.length - 1) {
+      outputRelex += "\n";
+    }
+  }
+  console.log("Output");
+  console.log(outputRelex);
+  var outfile = null;
+  var makeFile = function(string) {
+    var text = new Blob([string], {type: 'text/plain'});
+    outfile = window.URL.createObjectURL(text);
+    return outfile;
+  };
+  var link = document.createElement('a');
+  link.setAttribute('download', filename);
+  link.href = makeFile(outputRelex);
+  document.body.appendChild(link);
+
+  window.requestAnimationFrame(function () {
+    var event = new MouseEvent('click');
+    link.dispatchEvent(event);
+    document.body.removeChild(link);
+  });
+}
+// offsetChange is for processing (some?) relex that have gone through PATMAT before. The offsets are different because
+// of newlines getting changed to spaces
+function offsetChange(parsedRelex) {
+  for (i in parsedRelex.metadata) {
+    var entity = parsedRelex.metadata[i].content;
+    for (j in entity) {
+      if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
+        entity[j].offset = (entity[j].offset) + 5;
+      }
+    }
+  }
+  for (i in parsedRelex.sbody) {
+    var entity = parsedRelex.sbody[i];
+    //console.log(entity);
+    if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
+      entity.offset = (entity.offset) + 6;
+    }
+  }
+}
+
+//---------------------------------Node/Link Interactions------------------------------
+function toggleScissors() {
+  var element = document.querySelector("#svg-container");
+  var cursorStyle = window.getComputedStyle(element).getPropertyValue("cursor");
+  // console.log(cursorStyle);
+  if (cursorStyle == "auto") {
+    document.getElementById("svg-container").style.cursor = 'url("resources/scissor.png") 15 15, auto';
+    // document.getElementById("scissors").style.border = "2px solid #cc3333";
+    document.getElementById("scissors").style.backgroundColor = "#40c702";
+    document.getElementById("scissors").style.color = "#ffffff";
+    // console.log("Set to scissors");
+  } else {
+    document.getElementById("svg-container").style.cursor = "auto";
+    // document.getElementById("scissors").style.border = "none";
+    document.getElementById("scissors").style.backgroundColor = "";
+    document.getElementById("scissors").style.color = "";
+    // console.log("Set to default");
+  }
+}
+function scissorsToggled() {
+  var element = document.querySelector("#svg-container");
+  var cursorStyle = window.getComputedStyle(element).getPropertyValue("cursor");
+  if (cursorStyle == "auto") {
+    return false;
+  } else if (cursorStyle == "crosshair") {
+    return false;
+  } else {
+    return true;
+  }
+}
+function linkMouseOver(d) {
+  if (scissorsToggled()) {
+    d3.select(this)
+      .style("stroke-width", 6)
+      // .attr("markerWidth",1)  //These two determine arrowhead size
+      // .attr("markerHeight",1)
+      // .attr("refX",14)    //arrow placement:how far it is from node center
+      .style("stroke", "red");
+  }
+}
+function linkMouseOut(d) {
+  if (scissorsToggled()) {
+    d3.select(this)
+      // .attr("markerWidth",3)  //These two determine arrowhead size
+      // .attr("markerHeight",4)
+      .style("stroke", "black")
+      .style("stroke-width", 4);
+  }
+}
+function linkCut(d) {
+  if (scissorsToggled()) {
+    // console.log(d);
+    var toCutIndex = displayedGraph.relations.findIndex( function(element) {
+      return element == d;
+    });
+    console.log("Cutting at index: " + toCutIndex);
+    displayedGraph.relations.splice(toCutIndex,1);
+    restart();
+    // now remove it from editedGraph
+    toCutIndex = editedGraph.relations.findIndex( function(element) {
+      return element == d;
+    });
+    editedGraph.relations.splice(toCutIndex,1);
+    console.log(displayedGraph);
+    console.log(editedGraph);
+  }
+}
+
+function highlightText(d) {
+  document.getElementById(d.arrayindex).style.fontWeight = "900";
+  document.getElementById(d.arrayindex).style.border = "3px solid #000000";
+  document.getElementById(d.arrayindex).style.backgroundColor = "#ffff00";
+  document.getElementById(d.arrayindex).style.color = "black";
+  autoScrollText(d);
+}
+function unhighlightText(d) {
+  document.getElementById(d.arrayindex).style.fontWeight = "normal";
+  document.getElementById(d.arrayindex).style.border = "none";
+  document.getElementById(d.arrayindex).style.backgroundColor = "";
+  document.getElementById(d.arrayindex).style.color = "";
+}
+function autoScrollText(d) {
+  document.getElementById(d.arrayindex).scrollIntoView({behavior: "smooth", block: "center"});
+}
+
+var hover = false;
+function nodeMouseOver(d) {
+  // console.log("Hovering over " + d.text);
+  if (!scissorsToggled()) {
+    document.getElementById("svg-container").style.cursor = "crosshair";
+  }
+  highlightText(d);
+  hover = true;
+}
+function nodeMouseOut(d) {
+  // console.log("Left node " + d.text);
+  if (!scissorsToggled()) {
+    document.getElementById("svg-container").style.cursor = "auto";
+  }
+  // document.getElementById(d.arrayindex).style.fontWeight = "normal";
+  // document.getElementById(d.arrayindex).style.border = "none";
+  // document.getElementById(d.arrayindex).style.backgroundColor = "";
+  // document.getElementById(d.arrayindex).style.color = "";
+  if (!selectedNodes.includes(d)) {
+    unhighlightText(d);
+  }
+  hover = false;
+}
+// double-click a node after making a selection of nodes to create a link between the selected, and the target.
+function nodeDoubleClick(d) {
+  console.log("Double-clicked node " + d.text);
+  // console.log(selectedNodes);
+  // if ctrl key not pressed and nodes are selected, make links [selected ndoes]->(clicked node)
+  if (!d3.event.ctrlKey && selectedNodes.length > 0) {
+    for (i in selectedNodes) {
+      var targetNode = d;
+      displayedGraph.relations.push({type : getCurrentRelationship(), 
+                      startToken : selectedNodes[i].text, 
+                          source : selectedNodes[i].id, 
+                        endToken : targetNode.text, 
+                          target : targetNode.id,
+                        distance : linkDistance(getCurrentRelationship())});
+      console.log("Added link between " + selectedNodes[i].text + " and " + targetNode.text);
+      editedGraph.relations.push({type : getCurrentRelationship(), 
+                      startToken : selectedNodes[i].text, 
+                          source : selectedNodes[i].id, 
+                        endToken : targetNode.text, 
+                          target : targetNode.id,
+                        distance : linkDistance(getCurrentRelationship())});
+    }
+    // console.log("Relationships displayedGraph");
+    // console.log(displayedGraph.relations);
+    console.log("editedGraph relations");
+    console.log(editedGraph.relations);
+    clearSelection();
+    restart();
+  }
+}
+// these are relation sources
+var selectedNodes = [];
+// these are the visible dots on the screen
+var selectedNodeElements = [];
+// ctrl-click a node to make a selection. Multiple nodes may be selected for linking to a single target.
+function nodeClick(d) {
+  // if ctrl key pressed down
+  // add clicked node as relation source
+  if (d3.event.ctrlKey && getCurrentRelationship() != "UNSELECTED") {
+    if (selectedNodes.includes(d)) {
+      selectedNodes.splice(selectedNodes.indexOf(d),1);
+      d3.select(selectedNodeElements[selectedNodeElements.indexOf(this)]).select("circle")
+      .transition()
+      .attr('r', radius);
+      selectedNodeElements.splice(selectedNodeElements.indexOf(this),1);
+      console.log("Node unselected");
+    } else {
+      highlightText(d);
+      d3.select(this).select("circle")
+        .transition()
+        .attr('r', 18);
+      selectedNodes.push(d);
+      selectedNodeElements.push(this);                 
+      console.log("Node selected");
+    }
+  } else if (d3.event.ctrlKey && getCurrentRelationship() == "UNSELECTED") {
+    alert("Please select a relationship type first.");
+  }
+}
+function clearSelection() {
+  // check if none are selected at all so that clicks on empty space don't trigger this function
+  if (selectedNodes.length != 0) {
+    for (i in selectedNodeElements) {
+      // console.log(selectedNodes[i]);
+      d3.select(selectedNodeElements[i]).select("circle")
+        .transition()
+        .attr('r', radius);
+    }
+    for (i in selectedNodes) {
+      unhighlightText(selectedNodes[i]);
+    }
+    selectedNodes = [];
+    selectedNodeElements = [];
+    console.log("Selected nodes cleared.");
+  }
+}
+function onClick() {
+  if (!d3.event.ctrlKey && !hover) {
+    // // if ctrl not pressed and click is on empty space
+    // for (i in selectedNodeElements) {
+    //     // console.log(selectedNodes[i]);
+    //     d3.select(selectedNodeElements[i]).select("circle")
+    //       .transition()
+    //       .attr('r', radius);
+    //   }
+    //   selectedNodes = [];
+    //   selectedNodeElements = [];
+    //   console.log("Selected nodes cleared.");
+    clearSelection();
+  }
+  if (!d3.event.ctrlKey && hover) {
+    console.log("hovering over a node");
+  }
+}
+
+function ctrlKeydown(d) {
+  if (d3.event.ctrlKey) {
+    console.log("CTRL key pressed.");
+    document.getElementById("svg-container").style.cursor = "crosshair";
+  }
+}
+function ctrlKeyup(d) {
+  if (!d3.event.ctrlKey) {
+    console.log("CTRL key released.");
+    document.getElementById("svg-container").style.cursor = "auto";
+  }
+}
+
+// If the relationship isn't valid, hide the relationship button. This means that the entities required to make the relation don't exist. (Principal persons, but no people entities)
+function relationValidator() {
+  // if there are no events and no persons, or there are no dates, invalid
+  // for (i = 0; i < originalGraph.relations.length; i++) {
+
+  // }
+}
+//-------------------------------------D3 Simulation-----------------------------------------
+function runD3() {
+  //create somewhere to put the force directed displayedGraph
+  svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+  radius = 10;
+
+  d3.select("svg")
+    .on("keydown", ctrlKeydown)
+    .on("keyup", ctrlKeyup)
+    .on("click", onClick);
+  //add arrow styling to links
+  svg.append("svg:defs").selectAll("marker")
+    .data(["arrowhead"])    //different link types defined here
+    .enter().append("svg:marker")   //section adds the arrows
+    .attr("id", String) //without this no arrows show up
+    .attr("viewBox","0 -5 10 10")   //this cuts off the arrow image - you could use this to show half an arrow
+    .attr("refX",18)    //arrow placement:how far it is from node center
+    .attr("refY",0)     //arrow placement:offset from center line of node
+    .attr("markerWidth",3)  //These two determine arrowhead size
+    .attr("markerHeight",3)
+    .attr("orient","auto")  //this makes arrowheads aline with link lines
+    .append("svg:path") //without the next two no arrows show up
+    .attr("d", "M 0,-5 L 10, 0 L 0, 5");
+    //svg path attributes - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+
+  //draw links
+  link = svg.append("g")
+    .attr("class", "links")
+    .selectAll("line")
+    .data(displayedGraph.relations)
+    .enter().append("line")
+    .attr('marker-end','url(#arrowhead)')
+    .style("stroke-width", 4)
+    .style("stroke", "black")
+    // .style("stroke-width", function(d) {return Math.sqrt(d.value);}) //makes all arrows same size
+    .on("mouseover", linkMouseOver)
+    .on("mouseout", linkMouseOut)
+    .on("click", linkCut);
+
+  //draw nodes
+  node = svg.append("g")
+    .attr("class", "nodes")
+    .selectAll("circle")
+    .data(displayedGraph.entities)
+    .enter().append("g")
+    .on("mouseover", nodeMouseOver)
+    .on("mouseout", nodeMouseOut)
+    .on("click", nodeClick)
+    .on("dblclick", nodeDoubleClick);
+  
+    var m = displayedGraph.entities.length;
+  node._groups[0].forEach(function(d, i) {
+    d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();  
+  });
+  
+  node.call(d3.drag()
+    .on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended));
+  //draw circles for nodes    
+  node.append("circle")
+      .attr("r", radius)
+      .attr("fill", function(d) {return colors(d.type);});
+      
+  //show text labels next to nodes
+  node.append("text")
+      .text(function(d) { return d.text;})
+      .attr("x", 8)
+      .attr("y", 8);
+
+  //set up the simulation 
+  simulation = d3.forceSimulation()
+    // .force("link", d3.forceLink().id(function(d) {return d.id;}))
+    .force("link", d3.forceLink(link).id(function(d) {return d.id;}).distance(function(d) {return d.distance}))
+    // .distance( linkDistance(function(d) {return d.type;}) ).strength(1) 
+    // .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(75).strength(.9))
+    .force("charge_force", d3.forceManyBody().strength(-50))
+    .force("center_force", d3.forceCenter(width / 2, height / 2))
+    .force("x", d3.forceX().strength(.010))
+    .force("y", d3.forceY().strength(.010));
+  // simulation = cola.d3adaptor().linkDistance(50).size([width, height]);
+
+  simulation
+    .nodes(displayedGraph.entities)
+    .on("tick", tickActions );
+
+  simulation
+    .force("link")
+    .links(displayedGraph.relations);
+
+  simulation.alphaDecay(.015);
+  //update circle positions to reflect node updates on each tick of the simulation     
+  function tickActions() {
+    node
+      .attr("transform", function(d) {
+        return "translate(" 
+        + Math.max(radius, Math.min(width - 75 - radius, d.x)) 
+        + ", " 
+        + Math.max(radius, Math.min(height - radius, d.y)) 
+        + ")";});
+      /*.attr("x", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
+      .attr("y", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); })*/
+    link
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.source.x));})
+      .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.target.x));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+  }
+  //for node dragging
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+}
+// restarts d3 simulation after the displayedGraph has been updated.
+function restart() {
+  function tickActions() {
+    node
+      .attr("transform", function(d) {
+        return "translate(" 
+        + Math.max(radius, Math.min(width - 100 - radius, d.x)) 
+        + ", " 
+        + Math.max(radius, Math.min(height - radius, d.y)) 
+        + ")";});
+    link
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
+      .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+  }
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+
+node = node.data(displayedGraph.entities, function(d) { return d.id;});
+
+node.exit().transition()
+    .attr("r", 0)
+    .remove();
+
+enter = node.enter()
+  .append("g")
+  .on("mouseover", nodeMouseOver)
+  .on("mouseout", nodeMouseOut)
+  .on("click", nodeClick)
+  .on("dblclick", nodeDoubleClick);
+
+enter.call(d3.drag()
+  .on("start", dragstarted)
+  .on("drag", dragged)
+  .on("end", dragended));
+
+enter.append("circle")
+    .attr("fill", function(d) {
+      // console.log("after append circle: " + d.text);
+      return colors(d.type); })
+    .call(function(node) { node.transition().attr("r", radius); });
+    
+// console.log("after append circle:");
+// console.log(enter);    
+enter.append("text")
+    .text(function(d) {
+// console.log("after append text: " + d.text);
+      return d.text;})
+    .attr("x", 8)
+    .attr("y", 9);   
+// console.log("nodes after text:");
+// console.log(enter);
+node = enter.merge(node);
+node.select("circle")
+      
+// console.log("nodes after merge:");
+// console.log(node);
+
+// Try to set intial position near center of svg
+var m = displayedGraph.entities.length;
+  node._groups[0].forEach(function(d, i) {
+    d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();  
+  });
+
+// Apply the general update pattern to the links.
+link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+
+// Keep the exiting links connected to the moving remaining nodes.
+link.exit().transition()
+    .attr("stroke-opacity", 0)
+    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+    .remove();
+
+link = link.enter().append("line")
+    .call(function(link) { link.transition().attr("stroke-opacity", 1); })
+    .attr('marker-end','url(#arrowhead)')
+    .style("stroke-width", 4) 
+    .style("stroke", "black")
+    .merge(link)
+    .on("mouseover", linkMouseOver)
+    .on("mouseout", linkMouseOut)
+    .on("click", linkCut);   
+
+// Update and restart the simulation.
+simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+simulation.force("link").links(displayedGraph.relations);
+simulation.alpha(1).restart();
+console.log("Simulation restarted.");
+console.log(displayedGraph);
+console.log(editedGraph);
+}
+// modified restart
+function sameAsRestart() {
+  function tickActions() {
+    node
+      .attr("transform", function(d) {
+        return "translate(" 
+        + Math.max(radius, Math.min(width - 100 - radius, d.x)) 
+        + ", " 
+        + Math.max(radius, Math.min(height - radius, d.y)) 
+        + ")";});
+    link
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
+      .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+  }
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+
+  // Apply the general update pattern to the links.
+link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+
+// Keep the exiting links connected to the moving remaining nodes.
+link.exit().transition()
+    .attr("stroke-opacity", 0)
+    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+    .remove();
+
+link = link.enter().append("line")
+    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
+    .style("stroke-width", 2) 
+    .style("stroke", "black") 
+    .merge(link);
+
+// Update and restart the simulation.
+simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+simulation.force("link").links(displayedGraph.relations);
+simulation.alpha(1).restart();
+console.log("Simulation restarted.");
+}  
+// function forceCluster() {
+//   const strength = 0.2;
+  
+//   function force(alpha) {
+    
+//   }
+// }
+// key thing about building the displayedGraph is that the entities for each end of a link must
+// exist and match the link names precisely otherwise it errors and doesn't show anything
+function buildAllData(parsedRelex) {
+  var obj = new Object();
+  obj.entities = [];
+  obj.relations = [];
+  //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
+  for (i in parsedRelex.metadata) {
+    var entity = parsedRelex.metadata[i].content;
+    for (j in entity) {
+      if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
+        var textentity = entity[j].text.replace(/ \n/g, " ").replace(/\n/g, " ");
+        obj.entities.push({tag : entity[j].tag, type : entity[j].type, text : textentity, id : entity[j].offset});
+      }
+    }
+  }
+  for (i in parsedRelex.sbody) {
+    var entity = parsedRelex.sbody[i];
+    //console.log(entity);
+    if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
+      var textentity = entity.text.replace(/ \n/g, " ").replace(/\n/g, " ");
+      obj.entities.push({tag : entity.tag, type : entity.type, text : textentity, id : entity.offset});
+    }
+  }
+  for (i in parsedRelex.relex) {
+    var relation = parsedRelex.relex[i];
+    //Not sure how to handle the surname relationship thing yet. So just don't add them.
+    if (!/S=\d\+|S=\d/.test(relation.type)) {
+      obj.relations.push({type : relation.type, 
+                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "), 
+                        source : relation.startOffset, 
+                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "), 
+                        target : relation.endOffset,
+                      distance : linkDistance(relation.type)});
+    }
+  }
+  // change node radius depending on number of entities - more => smaller radius, less => larger radius
+
+  // Now we make a copy that adds an index according to the element position in the array, which should follow the order
+  // it shows up in the text (for highlighting on hover both ways)
+  var copy = new Object();
+  copy.entities = [];
+  copy.relations = [];
+  for (i in obj.entities) {
+    var entity = obj.entities[i];
+    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});  
+  }
+  for (i in obj.relations) {
+    var relation = obj.relations[i];
+    copy.relations.push({ type : relation.type, 
+                    startToken : relation.startToken, 
+                        source : relation.source, 
+                      endToken : relation.endToken,
+                        target : relation.target,
+                      distance : linkDistance(relation.type)});
+  }
+  // return obj;
+  return copy;
+}
+
+</script>

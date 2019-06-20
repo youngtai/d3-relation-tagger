@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"id": "Lehi", "group": "LOCALE"},
+    {"id": "Utah", "group": "LOCALE"},
+    {"id": "United States", "group": "LOCALE"},
+    {"id": "Young Tai", "group": "PERSON"},
+    {"id": "TJ", "group": "PERSON"},
+    {"id": "Person 1", "group": "PERSON"},
+    {"id": "Person 2", "group": "PERSON"},
+    {"id": "Appa", "group": "PERSON"},
+    {"id": "Umma", "group": "PERSON"},
+    {"id": "Family Search", "group": "ORGANIZATION"},
+    {"id": "Church of Jesus Christ", "group": "ORGANIZATION"}
+  ],
+  "relations": [
+    {"source": "Lehi", "target": "Utah", "value": "IS_SUBPLACE_OF"},
+    {"source": "Utah", "target": "United States", "value": "IS_SUBPLACE_OF"},
+    {"source": "Young Tai", "target": "TJ", "value": "IS_SPOUSE_OF"},
+    {"source": "TJ", "target": "Young Tai", "value": "IS_SPOUSE_OF"},
+    {"source": "Person 1", "target": "Person 2", "value": "IS_FRIEND"},
+    {"source": "Appa", "target": "Umma", "value": "IS_SPOUSE_OF"},
+    {"source": "Family Search", "target": "Church of Jesus Christ", "value": "IS MEMBER OF"}
+  ]
+}

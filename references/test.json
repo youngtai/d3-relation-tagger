@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {"fun": "Lehi", "group": "LOCALE", "n": 1},
+    {"fun": "Utah", "group": "LOCALE", "n": 2},
+    {"fun": "United States", "group": "LOCALE", "n": 3},
+    {"fun": "Lehi", "group": "LOCALE", "n": 4},
+    {"fun": "Utah", "group": "LOCALE", "n": 5},
+    {"fun": "United States", "group": "LOCALE", "n": 6}
+  ],
+  "links": [
+    {"source": "1", "target": "2", "value": "IS_SUBPLACE_OF"},
+    {"source": "2", "target": "3", "value": "IS_SUBPLACE_OF"},
+    {"source": "4", "target": "5", "value": "IS_SUBPLACE_OF"}
+  ]
+}

@@ -1,0 +1,67 @@
+
+
+.STRUCTURE_addr { background-color: #999900; 
+                  color:#ffffff;}
+.AGE { background-color: #669AC4; }
+.ANIMAL { background-color: #80771F; 
+          color:#ffffff;}
+.CHEMICAL { background-color: #AAFF0D; }
+.COREF_gen { background-color: #E5CCFF; }
+.COREF_loc{ background-color:#6A5abd; 
+        color:#ffffff;}
+.COREF_dat{ background-color:#089977; 
+        color:#ffffff;}
+.COREF{ background-color:#7b68ee; 
+        color:#ffffff;}
+.DATE{ background-color:#0400ff;
+        color:#ffffff; }
+.DATE_non{ background-color:#20b2aa; }
+.DURATANNIV { background-color: #1E90FF; 
+        color:#ffffff;}
+.EVENT{ background-color:#00ff51; }
+.EVENT_rel{ background-color:#99ff99; }
+.EVENT_xlife{ background-color:#ccffcc; }
+.ITE_et{ background-color: #e6cce2;}
+.FAMILYMEMBER{ background-color:#ee6a69; 
+              color:#ffffff}
+.NONFAMILY{ background-color:#f5deb3; }
+.FOOD_DRINK{ background-color:#ffe5cc; }
+.GAME{ background-color:#99004c; 
+        color:#ffffff;}
+.HEALTH_CONDITION{ background-color:#cedcba; }
+.ITE_gpe{ background-color:#ff00d0; }
+.ITE_notgpe{ background-color:#e65ecd; }
+.ITE_org{ background-color:#eb9ddc; }
+.LOCALE{ background-color:#9c6927;
+        color:#ffffff; }
+.LOCALE_notgpe{ background-color:#cfaf59; }
+.STRUCTURE{ background-color:#ffbe0d; }
+.MONEY{ background-color:#fedcba; }
+.OCCUPATION{ background-color:#ff6a00; }
+.ORGANIZATION{ background-color:#cc0000; 
+              color:#ffffff;}
+.ORGANIZATION_edu{ background-color:#ff2638; 
+              color:#ffffff;}
+.ORGANIZATION_mil{ background-color:#94323a; 
+              color:#ffffff;}
+.ORGANIZATION_music{ background-color:#fad9dc; }
+.ORGANIZATION_pub{ background-color:#c36276; }
+.ORGANIZATION_rel{ background-color:#ed8089; }
+.ORGANIZATION_sports{ background-color:#e34451; }
+.ETPLACE{ background-color:#bfbfbf; }
+.PERCENT{ background-color:#005e7d; 
+          color:#ffffff;}
+.PERSON{ background-color:#3f9c05; }
+.PHONENUMBER{ background-color:#a9a9a9; }
+.FLORA{ background-color:#abcdef; }
+.QUANTITY{ background-color:#66b2ff; }
+.TIME{ background-color:#6686c4; }
+.TITLE{ background-color:#ffa266; }
+.TITLEFPH{ background-color:#ffc266; }
+.VEHICLE{ background-color:#8e44fc; 
+          color:#ffffff;}
+.WEAPON{ background-color:#6600ff; 
+        color:#ffffff;}
+.URL{ background-color:#606060; 
+      color:#ffffff;}
+.WORK_OF_ART{ background-color:#ffff4d; }
