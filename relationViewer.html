@@ -214,7 +214,7 @@ text {
     <div id="data-display">
         <div id="text-div">Labeled text shows up here.</div>
         <div id="svg-container">
-          <svg width="1100" height="900"></svg>
+          <svg id="simulation-display-space"></svg>
         </div>
     </div>
     <div id="relationships-panel">  
@@ -265,7 +265,7 @@ text {
 
 <script>
 // var colors = d3.scaleOrdinal(d3.schemeCategory20),
-var svg,
+var svg,  // I think this variable needs to be here so that I can possibly add svg resize w/ window resize
     radius,
     simulation = d3.forceSimulation(),
     node,
@@ -360,10 +360,10 @@ function setShowSameAsVisibility() {
 function showSameAs() {
   // If we're already viewing "is same as" or all relations then we don't need to do anything - "UNSELECTED" means no relation filter
   if (showSameAsToggled()) {
-    console.log("Showing 'same as' links.");
+    // console.log("Showing 'same as' links.");
     showSameAsOn();
   } else if (!showSameAsToggled()) {
-    console.log("Hiding 'same as' links.");
+    // console.log("Hiding 'same as' links.");
     showSameAsOff();
   }
 }
@@ -918,13 +918,25 @@ function relationValidator() {
 
   // }
 }
+
+function getSimulationDisplaySpaceDimensions() {
+  var width = window.getComputedStyle(document.querySelector("#svg-container")).getPropertyValue("width").replace(/\..+/, ""),
+    height = window.getComputedStyle(document.querySelector("#svg-container")).getPropertyValue("height").replace(/\..+/, "");
+  return [width, height];
+}
+function getNodeDefaultRadius() {
+  return 10;
+}
 //-------------------------------------D3 Simulation-----------------------------------------
 function runD3() {
   //create somewhere to put the force directed displayedGraph
-  svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
-  radius = 10;
+  var width = getSimulationDisplaySpaceDimensions()[0],
+    height = getSimulationDisplaySpaceDimensions()[1],
+    radius = getNodeDefaultRadius();
+  svg = d3.select("svg")
+    .style("width", width + 'px')
+    .style("height", height + 'px');
+  
 
   d3.select("svg")
     .on("keydown", ctrlKeydown)
@@ -999,8 +1011,8 @@ function runD3() {
     // .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(75).strength(.9))
     .force("charge_force", d3.forceManyBody().strength(-50))
     .force("center_force", d3.forceCenter(width / 2, height / 2))
-    .force("x", d3.forceX().strength(.010))
-    .force("y", d3.forceY().strength(.010));
+    .force("x", d3.forceX(width / 2).strength(.010))
+    .force("y", d3.forceY(height / 2).strength(.010));
   // simulation = cola.d3adaptor().linkDistance(50).size([width, height]);
 
   simulation
@@ -1078,6 +1090,10 @@ function restart() {
     d.fy = null;
   }
 
+  var width = getSimulationDisplaySpaceDimensions()[0],
+    height = getSimulationDisplaySpaceDimensions()[1],
+    radius = getNodeDefaultRadius();
+
 node = node.data(displayedGraph.entities, function(d) { return d.id;});
 
 node.exit().transition()
@@ -1152,11 +1168,15 @@ simulation.nodes(displayedGraph.entities).on("tick", tickActions);
 simulation.force("link").links(displayedGraph.relations);
 simulation.alpha(1).restart();
 console.log("Simulation restarted.");
-console.log(displayedGraph);
-console.log(editedGraph);
+// console.log(displayedGraph);
+// console.log(editedGraph);
 }
-// modified restart
+// modified restart for "same as"
 function sameAsRestart() {
+  var width = getSimulationDisplaySpaceDimensions()[0],
+    height = getSimulationDisplaySpaceDimensions()[1],
+    radius = getNodeDefaultRadius();
+  
   function tickActions() {
     node
       .attr("transform", function(d) {

@@ -55,7 +55,7 @@ function loadWholeGraph() {
     }
   }
   console.log("Showing All Relationships: ");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   restart();
   currentRelationship = "UNSELECTED";
 }
@@ -145,7 +145,7 @@ function hasStartDate() {
     }
   }
   console.log("Updated to 'has start date' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -233,7 +233,7 @@ function hasStartPlace() {
     }
   }
   console.log("Updated to 'has start place' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -322,7 +322,7 @@ function hasStartTime() {
     }
   }
   console.log("Updated to 'has start time' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -411,7 +411,7 @@ function hasEndDate() {
     }
   }
   console.log("Updated to 'has end date' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -500,7 +500,7 @@ function hasEndPlace() {
     }
   }
   console.log("Updated to 'has end place' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -589,7 +589,7 @@ function hasEndTime() {
     }
   }
   console.log("Updated to 'has end time' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -678,7 +678,7 @@ function hasEvent() {
     }
   }
   console.log("Updated to 'has event' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -767,7 +767,7 @@ function hasEventFact() {
     }
   }
   console.log("Updated to 'has event fact' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -857,7 +857,7 @@ function isEventFact() {
     }
   }
   console.log("Updated to 'is event fact' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -946,7 +946,7 @@ function hasSpouse() {
     }
   }
   console.log("Updated to 'has spouse' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1035,7 +1035,7 @@ function hasFather() {
     }
   }
   console.log("Updated to 'has father' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1124,7 +1124,7 @@ function hasMother() {
     }
   }
   console.log("Updated to 'has mother' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1213,7 +1213,7 @@ function ageOf() {
     }
   }
   console.log("Updated to 'age of' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1302,7 +1302,7 @@ function attended() {
     }
   }
   console.log("Updated to 'attended' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1391,7 +1391,7 @@ function causedBy() {
     }
   }
   console.log("Updated to 'caused by' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1480,7 +1480,7 @@ function contactInfo() {
     }
   }
   console.log("Updated to 'entitie's phone number' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1569,7 +1569,7 @@ function created() {
     }
   }
   console.log("Updated to 'created' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1657,7 +1657,7 @@ function hasDuration() {
     }
   }
   console.log("Updated to 'has duration' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1746,7 +1746,7 @@ function employedBy() {
     }
   }
   console.log("Updated to 'employed by' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1835,7 +1835,7 @@ function hasFamilyMember() {
     }
   }
   console.log("Updated to 'has family member' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1924,7 +1924,7 @@ function isFemale() {
     }
   }
   console.log("Updated to 'is female' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -1953,7 +1953,7 @@ function isFictional() {
     }
   }
   console.log("Updated to 'is fictional' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2042,7 +2042,7 @@ function isMale() {
     }
   }
   console.log("Updated to 'is male' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2131,7 +2131,7 @@ function isMemberOf() {
     }
   }
   console.log("Updated to 'is member of' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2220,7 +2220,7 @@ function nameCombiner() {
     }
   }
   console.log("Updated to 'name combiner' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2309,7 +2309,7 @@ function hasOccupation() {
     }
   }
   console.log("Updated to 'occupation of' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2398,7 +2398,7 @@ function owns() {
     }
   }
   console.log("Updated to 'owns' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2487,7 +2487,7 @@ function precedesRecently() {
     }
   }
   console.log("Updated to 'precedes recently' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2576,7 +2576,7 @@ function principalsAssociate() {
     }
   }
   console.log("Updated to 'principal's associate' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2665,7 +2665,7 @@ function isPrincipalPerson() {
     }
   }
   console.log("Updated to 'is principal person' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2755,7 +2755,7 @@ function quantity() {
     }
   }
   console.log("Updated to 'quantity' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2844,7 +2844,7 @@ function hasResidencePlace() {
     }
   }
   console.log("Updated to 'residence place' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -2933,7 +2933,7 @@ function subplaceOf() {
     }
   }
   console.log("Updated 'is subplace of' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -3026,7 +3026,7 @@ function sameAs() {
     }
   }
   console.log("Updated 'is same as' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
@@ -3115,7 +3115,7 @@ function hasTitle() {
     }
   }
   console.log("Updated to 'title of' displayedGraph:");
-  console.log(displayedGraph);
+  // console.log(displayedGraph);
   // simulation.force("x", d3.forceX().strength(.020))
   //           .force("y", d3.forceY().strength(.020));
   // edit link strength to be stronger
