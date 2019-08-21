@@ -16,6 +16,13 @@
   stroke-width: 0px;
 }
 
+.hull {
+  fill: lightcoral;
+  stroke: steelblue;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+}
+
 text {
     font-family: sans-serif;
     font-size: 14px;
@@ -156,7 +163,7 @@ text {
 }
 
 #svg-container {
-    background-color: #fffcf8;
+    background-color: #ffffff;
     float: left;
     width: 65%;
     height:100%;
@@ -199,7 +206,7 @@ text {
   <div id = "top-panel">
     <div id="file-io">
       <div id = "file-intake">
-        Load a GedcomX or relex<input type="file" id="file-intake-button">
+        <input type="file" id="file-intake-button">
       </div>
       <button id="export" type="button">Export</button>
     </div>
@@ -264,10 +271,8 @@ text {
 <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script>
 
 <script>
-// var colors = d3.scaleOrdinal(d3.schemeCategory20),
-var svg,  // I think this variable needs to be here so that I can possibly add svg resize w/ window resize
-    radius,
-    simulation = d3.forceSimulation(),
+
+var simulation,
     node,
     link;
 var displayedGraph,
@@ -350,6 +355,16 @@ function reloadDisplayedGraphToggleOff() {
   document.getElementById("reload-displayedGraph").style.color = "";
 }
 
+function getSameAs(relations) {
+  var sameAsRelations = [];
+  relations.forEach(function(relation) {
+    if (relation.type == "R40:IS_SAME_AS") {
+      sameAsRelations.push(relation);
+    }
+  });
+  return sameAsRelations;
+}
+
 function setShowSameAsVisibility() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS" && getCurrentRelationship() != "UNSELECTED") {
     document.getElementById("toggle-same-as").style.display = "block";
@@ -399,20 +414,19 @@ function showSameAsOn() {
       }
       return false;
     }
-    editedGraph.relations.forEach(function(relation) {
-      if (relation.type == "R40:IS_SAME_AS") {
-        if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
-          // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
-          // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
-          displayedGraph.relations.push({type : relation.type,
-                                  startToken : relation.startToken, 
-                                      source : relation.source, 
-                                    endToken : relation.endToken, 
-                                      target : relation.target,
-                                    distance : linkDistance(relation.type)});
-          sameAsRestart();
-        }
+    let relations = getSameAs(editedGraph.relations);
+    relations.forEach(function(relation) {
+      if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
+// we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
+// the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
+        displayedGraph.relations.push({type : relation.type,
+                                startToken : relation.startToken, 
+                                    source : relation.source, 
+                                  endToken : relation.endToken, 
+                                    target : relation.target,
+                                  distance : linkDistance(relation.type)});
       }
+      sameAsRestart();
     });
   }
 }
@@ -846,7 +860,7 @@ function nodeClick(d) {
       selectedNodes.splice(selectedNodes.indexOf(d),1);
       d3.select(selectedNodeElements[selectedNodeElements.indexOf(this)]).select("circle")
       .transition()
-      .attr('r', radius);
+      .attr('r', getNodeDefaultRadius());
       selectedNodeElements.splice(selectedNodeElements.indexOf(this),1);
       console.log("Node unselected");
     } else {
@@ -869,7 +883,7 @@ function clearSelection() {
       // console.log(selectedNodes[i]);
       d3.select(selectedNodeElements[i]).select("circle")
         .transition()
-        .attr('r', radius);
+        .attr('r', getNodeDefaultRadius());
     }
     for (i in selectedNodes) {
       unhighlightText(selectedNodes[i]);
@@ -925,7 +939,7 @@ function getSimulationDisplaySpaceDimensions() {
   return [width, height];
 }
 function getNodeDefaultRadius() {
-  return 10;
+  return 14;
 }
 //-------------------------------------D3 Simulation-----------------------------------------
 function runD3() {
@@ -953,9 +967,11 @@ function runD3() {
     .attr("markerWidth",3)  //These two determine arrowhead size
     .attr("markerHeight",3)
     .attr("orient","auto")  //this makes arrowheads aline with link lines
-    .append("svg:path") //without the next two no arrows show up
+    .append("svg:path") //svg path attributes - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
     .attr("d", "M 0,-5 L 10, 0 L 0, 5");
-    //svg path attributes - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+
+  // var convexHull = svg.append("path")
+  //                     .attr("class","hull");
 
   //draw links
   link = svg.append("g")
@@ -970,7 +986,7 @@ function runD3() {
     .on("mouseover", linkMouseOver)
     .on("mouseout", linkMouseOut)
     .on("click", linkCut);
-
+  
   //draw nodes
   node = svg.append("g")
     .attr("class", "nodes")
@@ -1040,6 +1056,9 @@ function runD3() {
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+    
+    // var hull = d3.polygonHull(node.data().map(function(d) { return [d.x,d.y]; }) );
+    // convexHull.datum(hull).attr("d", function(d) { return "M" + d.join("L") + "Z"; });
   }
   //for node dragging
   function dragstarted(d) {
@@ -1178,6 +1197,9 @@ function sameAsRestart() {
     radius = getNodeDefaultRadius();
   
   function tickActions() {
+    // var hull = d3.polygonHull(node.data().map(function(d) { return [d.x,d.y]; }) );
+    //     convexHull.datum(hull).attr("d", function(d) { return "M" + d.join("L") + "Z"; });
+    
     node
       .attr("transform", function(d) {
         return "translate(" 
@@ -1205,30 +1227,33 @@ function sameAsRestart() {
     d.fx = null;
     d.fy = null;
   }
+  
+  // var convexHull = svg.append("path")
+  //                     .attr("class", "hull");
 
   // Apply the general update pattern to the links.
-link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+  link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
 
-// Keep the exiting links connected to the moving remaining nodes.
-link.exit().transition()
-    .attr("stroke-opacity", 0)
-    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-    .remove();
+  // Keep the exiting links connected to the moving remaining nodes.
+  link.exit().transition()
+      .attr("stroke-opacity", 0)
+      .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+      .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+      .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+      .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+      .remove();
 
-link = link.enter().append("line")
-    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
-    .style("stroke-width", 2) 
-    .style("stroke", "black") 
-    .merge(link);
+  link = link.enter().append("line")
+      .call(function(link) { link.transition().attr("stroke-opacity", .3); })
+      .style("stroke-width", 2) 
+      .style("stroke", "black") 
+      .merge(link);
 
-// Update and restart the simulation.
-simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-simulation.force("link").links(displayedGraph.relations);
-simulation.alpha(1).restart();
-console.log("Simulation restarted.");
+  // Update and restart the simulation.
+  simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+  simulation.force("link").links(displayedGraph.relations);
+  simulation.alpha(1).restart();
+  console.log("Simulation restarted.");
 }  
 // function forceCluster() {
 //   const strength = 0.2;
