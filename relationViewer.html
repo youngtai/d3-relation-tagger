@@ -355,21 +355,6 @@ function reloadDisplayedGraphToggleOff() {
   document.getElementById("reload-displayedGraph").style.color = "";
 }
 
-function sameAsRels(relations) {
-  var sameAsRelations = [];
-  relations.forEach(function(relation) {
-    if (relation.type == "R40:IS_SAME_AS") {
-      sameAsRelations.push(relation);
-    }
-  });
-  var obj = {
-    groupSameAs() {
-
-    }
-  }
-  return obj;
-}
-
 function setShowSameAsVisibility() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS" && getCurrentRelationship() != "UNSELECTED") {
     document.getElementById("toggle-same-as").style.display = "block";
@@ -419,8 +404,7 @@ function showSameAsOn() {
       }
       return false;
     }
-    let relations = sameAsRels(editedGraph.relations);
-    relations.forEach(function(relation) {
+    editedGraph.getSameAsRels().forEach(function(relation) {
       if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
 // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
 // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
