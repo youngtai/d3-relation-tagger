@@ -355,14 +355,19 @@ function reloadDisplayedGraphToggleOff() {
   document.getElementById("reload-displayedGraph").style.color = "";
 }
 
-function getSameAs(relations) {
+function sameAsRels(relations) {
   var sameAsRelations = [];
   relations.forEach(function(relation) {
     if (relation.type == "R40:IS_SAME_AS") {
       sameAsRelations.push(relation);
     }
   });
-  return sameAsRelations;
+  var obj = {
+    groupSameAs() {
+
+    }
+  }
+  return obj;
 }
 
 function setShowSameAsVisibility() {
@@ -414,7 +419,7 @@ function showSameAsOn() {
       }
       return false;
     }
-    let relations = getSameAs(editedGraph.relations);
+    let relations = sameAsRels(editedGraph.relations);
     relations.forEach(function(relation) {
       if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
 // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
@@ -1268,6 +1273,41 @@ function buildAllData(parsedRelex) {
   var obj = new Object();
   obj.entities = [];
   obj.relations = [];
+  obj.getSameAsRels = function() {
+    var sameAsRelations = [];
+    this.relations.forEach(function(relation) {
+      if (relation.type == "R40:IS_SAME_AS") {
+        sameAsRelations.push(relation);
+      }
+    });
+    return sameAsRelations;
+  }
+  obj.getSameAsGroups = function() {
+    var sameAsGroups = [];
+    this.getSameAsRels().forEach(function(relation) {
+      if (sameAsGroups.length > 0) {
+        var nodesAdded = false;
+        for (let i = 0; i < sameAsGroups.length; i++) {
+          if (sameAsGroups[i].includes(relation.source) || sameAsGroups[i].includes(relation.target)) {
+            if (!sameAsGroups[i].includes(relation.source)) {
+              sameAsGroups[i].push(relation.source);
+              nodesAdded = true;
+            }
+            if (!sameAsGroups[i].includes(relation.target)) {
+              sameAsGroups[i].push(relation.target);
+              nodesAdded = true;
+            }
+          }
+        }
+        if (!nodesAdded) {
+          sameAsGroups.push([relation.source, relation.target]);
+        }
+      } else { // This handles the first case, when no groups exist yet.
+        sameAsGroups.push([relation.source, relation.target]);
+      }
+    });
+    return sameAsGroups;
+  }
   //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
   for (i in parsedRelex.metadata) {
     var entity = parsedRelex.metadata[i].content;
@@ -1318,6 +1358,8 @@ function buildAllData(parsedRelex) {
                         target : relation.target,
                       distance : linkDistance(relation.type)});
   }
+  copy.getSameAsGroups = obj.getSameAsGroups;
+  copy.getSameAsRels = obj.getSameAsRels;
   // return obj;
   return copy;
 }
