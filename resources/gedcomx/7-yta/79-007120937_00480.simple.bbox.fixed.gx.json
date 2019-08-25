@@ -1,0 +1,845 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028312812556",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557427871229
+    },
+    "description" : "#s_6917529028312812556",
+    "persons" : [ {
+      "id" : "p_6917529030773507356",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "E L Barley",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "E L",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "E L"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Barley",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Barley"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "E L Barley"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.34756577,0.15506329,0.3548133,0.16749547",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3576493,0.15506329,0.36269104,0.16749547",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37009612,0.15506329,0.42996693,0.16749547",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "E. L. Barley"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36899322,0.8155515,0.37718606,0.83725137",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "E.L."
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030773507456",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94C8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "M T Minor",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "M T",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "M T"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Minor",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Minor"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "M T Minor"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.29856625,0.18105787,0.30943754,0.1891953",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35749173,0.18105787,0.39089334,0.1891953",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "M.T. Minor"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94C8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030773507556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lawrence R Keife Jr",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lawrence R",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lawrence R"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Keife",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Keife"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Suffix",
+            "value" : "Jr",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Suffix",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SUF",
+                "text" : "Jr"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lawrence R Keife Jr"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27776903,0.45524412,0.3119584,0.47219712",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3136915,0.45524412,0.31841815,0.47219712",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32566568,0.45524412,0.35434064,0.47219712",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35607374,0.45524412,0.3959351,0.47219712",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lawrence R. Keife Jr"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030773507656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Reed",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Reed",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Reed"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Reed"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.23034504,0.55786616,0.24925162,0.5660036",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Reed"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2977785,0.55786616,0.3415787,0.5660036",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Reed"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030773507756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Philip State Of Hem Hort",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Philip",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Philip"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "State Of Hem Hort",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "State Of Hem Hort"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Philip State Of Hem Hort"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.25775957,0.8471971,0.29021585,0.875",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.57192373,0.12138336,0.58862454,0.13562387",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5914605,0.12138336,0.5988656,0.13562387",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60438,0.12138336,0.6190326,0.13562387",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6253348,0.12138336,0.64219314,0.13562387",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Philip State of Hem Hort"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "CITY AND COUNTY OF ALBANY",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24767607,0.19755878,0.256184,0.20637432",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.25744447,0.19755878,0.26169845,0.20637432",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26358908,0.19755878,0.27776903,0.20637432",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            }, {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.572554,0.14037071,0.58232236,0.14692585",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.58295256,0.14037071,0.59161806,0.14692585",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.59161806,0.14037071,0.60674334,0.14692585",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60737354,0.14037071,0.6122578,0.14692585",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.61336064,0.14037071,0.62864345,0.14692585",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "CITY AND COUNTY OF ALBANY"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030773507856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "H Bender",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "H",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "H"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Bender",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Bender"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "H Bender"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.736726,0.22513562,0.7428706,0.23282097",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.74822754,0.22513562,0.7543721,0.23282097",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.76193476,0.22513562,0.79817235,0.23282097",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "H. H. Bender"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030773507956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Cabe Clerk Pew",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Cabe",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Cabe"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Clerk Pew",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Clerk Pew"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Cabe Clerk Pew"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6458169,0.27418625,0.6800063,0.2924955",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.68079406,0.27418625,0.713723,0.2924955",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.71577126,0.27418625,0.72427917,0.2924955",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "PEW Cabe Clerk"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-94CB-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://familysearch.org/types/relationships/NonRelative",
+      "person1" : {
+        "resource" : "#p_6917529030773507956",
+        "resourceId" : "p_6917529030773507956"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030773507356",
+        "resourceId" : "p_6917529030773507356"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Non-Relative",
+          "resource" : "http://familysearch.org/types/relationships/NonRelative"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Nonrelative"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Non-Relative"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028312812556",
+      "about" : "#r_6917529028312812556",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Albany, Albany, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-PZ6B-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9WQ-PWVH",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9WQ-PWVH" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007120937_00480_TXT</UNQ>\n<IMID>007120937_00480</IMID>\n<APID>TH-1971-32543-5948-55</APID>\n<IMGSIZE>6347,4424</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>SOLD FOR TAXES AND WATER RENTS\n<ENAMEX TYPE=\"ITE.org\">Whig</ENAMEX> Wilttitre, Made the <TIMEX TYPE=\"DATE\">day of in the year of our Lord one\nsed and Ninety Eight</TIMEX> Between <ENAMEX TYPE=\"PERSON\">E. L. Barley</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, of the first part, and\nthe <ENAMEX TYPE=\"LOCALE\">City of Auny</ENAMEX>, <ENAMEX TYPE=\"PERSON\">M.T. Minor</ENAMEX>\nBitursseth: That whereas, by char-\nhundred and <NUMEX TYPE=\"QUANTITY\">thirty-five</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">April 9th, 1850</TIMEX>, entitled, \"An act to provide for a supply\nof water in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and an act amendatory thereof, passed <TIMEX TYPE=\"DATE\">April 15th, 1854</TIMEX>, it is among other things enacted\nthat the <ENAMEX TYPE=\"OCCUPATION\">Water Commissioners</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX> \"shall establish a scale of annual rents, to be charged and paid annually.\nfor the supply of water or for benefits resulting therefrom, to be called 'Water Rents, and apportioned to vacant lots and\n<ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>;\" and further, that said water rents should be, like <ENAMEX TYPE=\"LOCALE\">State and County</ENAMEX> taxes, a lien\nand lots upon which said rents are assessed. And it is further enacted that said water ren-\n\"shall be collected in the same manner as is or may be prescribed by law for the collection of taxes for city purposes in the\n<ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>;\" and in all respects the like proceedings shall be had by the Receiver of Taxes and the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>\nprovided by law for the collection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>.\"\nof the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, as is or may be provided\n<ENAMEX TYPE=\"LOCALE\">Ind</ENAMEX> Whereas, By chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">March 23 d, 1850</TIMEX>, entitled\n\"An act to provide for the assessment and collection of taxes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" which last mentioned act is the law\npurposes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and the proceedings to be had <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nthe ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">county of Albany</ENAMEX> for the conection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>, referred\nin the first above mentioned acts, it is among other things enacted, that \"whenever any tax charged on real estate returned\nto the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>, and the interest thereon, at the rate of <NUMEX TYPE=\"PERCENT\">twelve per cent</NUMEX> per annum, to be computed from the\n<TIMEX TYPE=\"DATE.non\">Fifteenth day of\nwhen</TIMEX> such tax was payable, shall remain unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX>\nfrom the said <TIMEX TYPE=\"COREF.dat\">yesterday</TIMEX> of\nat the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> shall proceed to advertise\nand sell such real estate in the manner herein provided,\nvided for the payment of such tax and interest, and the expenses of such\nlists and notices, and of conducting the sale, shall be added to the tax and interest.\nsale. The expense of publishing lists at\nMud Whereas, Default was made in the payment of the taxes and water rents legally charged upon sundry\nparcels or lots of real estate among which were the premises hereinafter described, returned to the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX> with the\ninterest thereon, which said taxes and water rents and interest had remained unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX> from the\nday of following the time when such taxes and water rents were payable.\nand Whereas, The <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, for the time being, in virtue of the power in <ENAMEX TYPE=\"COREF\">him</ENAMEX> vested.\nand after due notice for that purpose published according to law, did sell at public auction, at the <ENAMEX TYPE=\"STRUCTURE\">City Hall</ENAMEX>, in the <ENAMEX TYPE=\"LOCALE\">City of\nAlbany</ENAMEX>, on the\n<TIMEX TYPE=\"DATE\">day of in the year of our Lord one thousand eight\nhundred</TIMEX> and\neach of the said parcels or lots of real estate so as aforesaid charged with taxes and\nwater rents and interest remaining unpaid, for the lowest term of years at which any person offered to take the same in\nconsideration of advancing the sum necessary to discharge the taxes and water rents, interest and expenses aforesaid due\nthereon at the time of sale.\nAnd Whereas, <ENAMEX TYPE=\"PERSON\">Lawrence R. Keife Jr</ENAMEX>\nbecame the purchaser, at such sale, of the following parcel or lot of real estate situate in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>, for the term\nof <ENAMEX TYPE=\"DURATANNIV\">One Thousand years</ENAMEX>, or the sum of five\nwith the interest and expenses due thereon at the time of such tham Property on the North side of <ENAMEX TYPE=\"LOCALE\">Wash</ENAMEX>\nare between <ENAMEX TYPE=\"STRUCTURE\">Partridge and Erie Streets</ENAMEX>, Street No\nMap No, 43 being <NUMEX TYPE=\"QUANTITY\">33</NUMEX> feet front and <NUMEX TYPE=\"QUANTITY\">172</NUMEX> feet in depth, and\nbounded on the North by <ENAMEX TYPE=\"STRUCTURE\">Benson st South</ENAMEX> by <ENAMEX TYPE=\"STRUCTURE\">Wash ave East</ENAMEX>\nby <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX> and West by <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX>\nwhich said parcel or lot of real estate was sold at said sale\nthe under and by virtue of the said chapter 235 of the Laws of\namendatory thereto, and of\nthe said chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of\nthe Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> passed <TIMEX TYPE=\"DATE\">March 2nd, 1856</TIMEX>, and Chapter <NUMEX TYPE=\"QUANTITY\">four hundred and eighty-six</NUMEX> of said Laws amende-\ntory thereof, passed <TIMEX TYPE=\"DATE\">July 10th, in the year of our Lord one thousand eight hundred and fifty-one</TIMEX>, entitled, \"An act to amend\n\" and Chapter <ENAMEX TYPE=\"WORK_OF_ART\">298 of ththe acts</ENAMEX> relating to the <NUMEX TYPE=\"QUANTITY\">two</NUMEX> <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> passed <TIMEX TYPE=\"DATE.non\">March 2nd</TIMEX>, and put it\nAnd Whereas, be for the term aforesaid, has not been redeemed within the <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> prescribed by law for the redemption thereof.\nAnd whereas.\nHow, Wherefore. The said party of the first part, by virtue of the authority vested in <ENAMEX TYPE=\"COREF\">him</ENAMEX> by law, and for and\nin consideration of the premises and of the sum of\n<NUMEX TYPE=\"MONEY\">dollars and\ncents</NUMEX> paid as aforesaid to\nthe <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, hath granted, bargained, sold, conveyed and released, and by these presents doth\ngrant, bargain, sell, convey and release to the said part of the second part, and to for <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> for the term\naforesaid, the said parcel or lot of real estate above described, with the hereditaments and appurtenances to the same\nbelonging. To have and to hold the same to the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, for the term of\nyears aforesaid; subject, how\nIn witness adherent. The said party of the first part, as <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>\nfor the time being, hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E.L.</ENAMEX> - - -\n<ENAMEX TYPE=\"PERSON\">Philip State of Hem Hort</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CITY AND COUNTY OF ALBANY</ENAMEX>.\nOn this <TIMEX TYPE=\"DATE\">187</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, a\nComm of Deeds\nresiding in the <ENAMEX TYPE=\"LOCALE\">City and County of Albany</ENAMEX>, appeared\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, and acknowledged that <ENAMEX TYPE=\"COREF\">he</ENAMEX> had\nexecuted the within instrument. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the person <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be\nthe individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">H. H. Bender</ENAMEX>\n<TIMEX TYPE=\"DATE\">August 1877</TIMEX> Court of Deeds\n<ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> <ENAMEX TYPE=\"COREF\">my</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">PEW Cabe Clerk</ENAMEX>.\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"1785\"_ENDID=\"1825\"_STTOKEN=\"he\"_ENDTOKEN=\"county of Albany\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"5688\"_ENDID=\"5714\"_STTOKEN=\"Philip State of Hem Hort\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1258\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"145\"_ENDID=\"137\"_STTOKEN=\"Albany\"_ENDTOKEN=\"Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1450\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"153\"_ENDID=\"490\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1547\"_ENDID=\"490\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1669\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1738\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1825\"_ENDID=\"342\"_STTOKEN=\"county of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2229\"_ENDID=\"5643\"_STTOKEN=\"yesterday\"_ENDTOKEN=\"day and year first above written\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2996\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3191\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3764\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4123\"_ENDID=\"4106\"_STTOKEN=\"Reed\"_ENDTOKEN=\"Reed\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4327\"_ENDID=\"490\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4607\"_ENDID=\"137\"_STTOKEN=\"Albany\"_ENDTOKEN=\"Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4872\"_ENDID=\"3060\"_STTOKEN=\"him\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5007\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5566\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5621\"_ENDID=\"5422\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5677\"_ENDID=\"312\"_STTOKEN=\"E.L.\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5812\"_ENDID=\"5714\"_STTOKEN=\"City and County of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5865\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5905\"_ENDID=\"312\"_STTOKEN=\"he\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"591\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5948\"_ENDID=\"5760\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5971\"_ENDID=\"5760\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6136\"_ENDID=\"137\"_STTOKEN=\"Albany\"_ENDTOKEN=\"Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6143\"_ENDID=\"5760\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"733\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"S=1\"_STID=\"6146\"_ENDID=\"6146\"_STTOKEN=\"PEW Cabe Clerk\"_ENDTOKEN=\"PEW Cabe Clerk\">\n<RELEX TYPE=\"S=2+\"_STID=\"401\"_ENDID=\"401\"_STTOKEN=\"M.T. Minor\"_ENDTOKEN=\"M.T. Minor\">\n<RELEX TYPE=\"S=2+\"_STID=\"5688\"_ENDID=\"5688\"_STTOKEN=\"Philip State of Hem Hort\"_ENDTOKEN=\"Philip State of Hem Hort\">\n<RELEX TYPE=\"S=3\"_STID=\"3646\"_ENDID=\"3646\"_STTOKEN=\"Lawrence R. Keife Jr\"_ENDTOKEN=\"Lawrence R. Keife Jr\">\n<RELEX TYPE=\"S=3+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"E. L. Barley\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"S=3+\"_STID=\"6096\"_ENDID=\"6096\"_STTOKEN=\"H. H. Bender\"_ENDTOKEN=\"H. H. Bender\">\n<RELEX TYPE=\"S=3+\"_STID=\"6146\"_ENDID=\"6146\"_STTOKEN=\"PEW Cabe Clerk\"_ENDTOKEN=\"PEW Cabe Clerk\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5422\"_ENDID=\"5426\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5422\"_ENDID=\"5436\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"312\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"E. L. Barley\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"5621\"_ENDID=\"5549\"_STTOKEN=\"his\"_ENDTOKEN=\"Treasurer\">\n<RELEX TYPE=\"Z:PRIN_ASSOC\"_STID=\"312\"_ENDID=\"6146\"_STTOKEN=\"E. L. Barley\"_ENDTOKEN=\"PEW Cabe Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"145\"_ENDID=\"153\"_STTOKEN=\"Albany\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"153\"_ENDID=\"163\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1877\"_ENDID=\"1825\"_STTOKEN=\"said city\"_ENDTOKEN=\"county of Albany\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2249\"_ENDID=\"1547\"_STTOKEN=\"said County\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"4089\"_ENDID=\"3933\"_STTOKEN=\"Wash ave East\"_ENDTOKEN=\"Wash\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007120937_00480_TXT</UNQ>\n<IMID>007120937_00480</IMID>\n<APID>TH-1971-32543-5948-55</APID>\n<IMGSIZE>6347,4424</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>SOLD FOR TAXES AND WATER RENTS\n<ENAMEX TYPE=\"ITE.org\">Whig</ENAMEX> Wilttitre, Made the <TIMEX TYPE=\"DATE\">day of in the year of our Lord one\nsed and Ninety Eight</TIMEX> Between <ENAMEX TYPE=\"PERSON\">E. L. Barley</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, of the first part, and\nthe <ENAMEX TYPE=\"LOCALE\">City of Auny</ENAMEX>, <ENAMEX TYPE=\"PERSON\">M.T. Minor</ENAMEX>\nBitursseth: That whereas, by char-\nhundred and <NUMEX TYPE=\"QUANTITY\">thirty-five</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">April 9th, 1850</TIMEX>, entitled, \"An act to provide for a supply\nof water in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and an act amendatory thereof, passed <TIMEX TYPE=\"DATE\">April 15th, 1854</TIMEX>, it is among other things enacted\nthat the <ENAMEX TYPE=\"OCCUPATION\">Water Commissioners</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX> \"shall establish a scale of annual rents, to be charged and paid annually.\nfor the supply of water or for benefits resulting therefrom, to be called 'Water Rents, and apportioned to vacant lots and\n<ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>;\" and further, that said water rents should be, like <ENAMEX TYPE=\"LOCALE\">State and County</ENAMEX> taxes, a lien\nand lots upon which said rents are assessed. And it is further enacted that said water ren-\n\"shall be collected in the same manner as is or may be prescribed by law for the collection of taxes for city purposes in the\n<ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>;\" and in all respects the like proceedings shall be had by the Receiver of Taxes and the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>\nprovided by law for the collection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>.\"\nof the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, as is or may be provided\n<ENAMEX TYPE=\"LOCALE\">Ind</ENAMEX> Whereas, By chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">March 23 d, 1850</TIMEX>, entitled\n\"An act to provide for the assessment and collection of taxes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" which last mentioned act is the law\npurposes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and the proceedings to be had <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nthe ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">county of Albany</ENAMEX> for the conection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>, referred\nin the first above mentioned acts, it is among other things enacted, that \"whenever any tax charged on real estate returned\nto the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>, and the interest thereon, at the rate of <NUMEX TYPE=\"PERCENT\">twelve per cent</NUMEX> per annum, to be computed from the\n<TIMEX TYPE=\"DATE.non\">Fifteenth day of\nwhen</TIMEX> such tax was payable, shall remain unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX>\nfrom the said <TIMEX TYPE=\"COREF.dat\">yesterday</TIMEX> of\nat the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> shall proceed to advertise\nand sell such real estate in the manner herein provided,\nvided for the payment of such tax and interest, and the expenses of such\nlists and notices, and of conducting the sale, shall be added to the tax and interest.\nsale. The expense of publishing lists at\nMud Whereas, Default was made in the payment of the taxes and water rents legally charged upon sundry\nparcels or lots of real estate among which were the premises hereinafter described, returned to the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX> with the\ninterest thereon, which said taxes and water rents and interest had remained unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX> from the\nday of following the time when such taxes and water rents were payable.\nand Whereas, The <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, for the time being, in virtue of the power in <ENAMEX TYPE=\"COREF\">him</ENAMEX> vested.\nand after due notice for that purpose published according to law, did sell at public auction, at the <ENAMEX TYPE=\"STRUCTURE\">City Hall</ENAMEX>, in the <ENAMEX TYPE=\"LOCALE\">City of\nAlbany</ENAMEX>, on the\n<TIMEX TYPE=\"DATE\">day of in the year of our Lord one thousand eight\nhundred</TIMEX> and\neach of the said parcels or lots of real estate so as aforesaid charged with taxes and\nwater rents and interest remaining unpaid, for the lowest term of years at which any person offered to take the same in\nconsideration of advancing the sum necessary to discharge the taxes and water rents, interest and expenses aforesaid due\nthereon at the time of sale.\nAnd Whereas, <ENAMEX TYPE=\"PERSON\">Lawrence R. Keife Jr</ENAMEX>\nbecame the purchaser, at such sale, of the following parcel or lot of real estate situate in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>, for the term\nof <ENAMEX TYPE=\"DURATANNIV\">One Thousand years</ENAMEX>, or the sum of five\nwith the interest and expenses due thereon at the time of such tham Property on the North side of <ENAMEX TYPE=\"LOCALE\">Wash</ENAMEX>\nare between <ENAMEX TYPE=\"STRUCTURE\">Partridge and Erie Streets</ENAMEX>, Street No\nMap No, 43 being <NUMEX TYPE=\"QUANTITY\">33</NUMEX> feet front and <NUMEX TYPE=\"QUANTITY\">172</NUMEX> feet in depth, and\nbounded on the North by <ENAMEX TYPE=\"STRUCTURE\">Benson st South</ENAMEX> by <ENAMEX TYPE=\"STRUCTURE\">Wash ave East</ENAMEX>\nby <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX> and West by <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX>\nwhich said parcel or lot of real estate was sold at said sale\nthe under and by virtue of the said chapter 235 of the Laws of\namendatory thereto, and of\nthe said chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of\nthe Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> passed <TIMEX TYPE=\"DATE\">March 2nd, 1856</TIMEX>, and Chapter <NUMEX TYPE=\"QUANTITY\">four hundred and eighty-six</NUMEX> of said Laws amende-\ntory thereof, passed <TIMEX TYPE=\"DATE\">July 10th, in the year of our Lord one thousand eight hundred and fifty-one</TIMEX>, entitled, \"An act to amend\n\" and Chapter <ENAMEX TYPE=\"WORK_OF_ART\">298 of ththe acts</ENAMEX> relating to the <NUMEX TYPE=\"QUANTITY\">two</NUMEX> <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> passed <TIMEX TYPE=\"DATE.non\">March 2nd</TIMEX>, and put it\nAnd Whereas, be for the term aforesaid, has not been redeemed within the <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> prescribed by law for the redemption thereof.\nAnd whereas.\nHow, Wherefore. The said party of the first part, by virtue of the authority vested in <ENAMEX TYPE=\"COREF\">him</ENAMEX> by law, and for and\nin consideration of the premises and of the sum of\n<NUMEX TYPE=\"MONEY\">dollars and\ncents</NUMEX> paid as aforesaid to\nthe <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, hath granted, bargained, sold, conveyed and released, and by these presents doth\ngrant, bargain, sell, convey and release to the said part of the second part, and to for <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> for the term\naforesaid, the said parcel or lot of real estate above described, with the hereditaments and appurtenances to the same\nbelonging. To have and to hold the same to the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, for the term of\nyears aforesaid; subject, how\nIn witness adherent. The said party of the first part, as <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>\nfor the time being, hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E.L.</ENAMEX> - - -\n<ENAMEX TYPE=\"PERSON\">Philip State of Hem Hort</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CITY AND COUNTY OF ALBANY</ENAMEX>.\nOn this <TIMEX TYPE=\"DATE\">187</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, a\nComm of Deeds\nresiding in the <ENAMEX TYPE=\"LOCALE\">City and County of Albany</ENAMEX>, appeared\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, and acknowledged that <ENAMEX TYPE=\"COREF\">he</ENAMEX> had\nexecuted the within instrument. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the person <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be\nthe individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">H. H. Bender</ENAMEX>\n<TIMEX TYPE=\"DATE\">August 1877</TIMEX> Court of Deeds\n<ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> <ENAMEX TYPE=\"COREF\">my</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">PEW Cabe Clerk</ENAMEX>.\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"1785\"_ENDID=\"1825\"_STTOKEN=\"he\"_ENDTOKEN=\"county of Albany\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"5688\"_ENDID=\"5714\"_STTOKEN=\"Philip State of Hem Hort\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1258\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"145\"_ENDID=\"137\"_STTOKEN=\"Albany\"_ENDTOKEN=\"Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1450\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"153\"_ENDID=\"490\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1547\"_ENDID=\"490\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1669\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1738\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1825\"_ENDID=\"342\"_STTOKEN=\"county of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2229\"_ENDID=\"5643\"_STTOKEN=\"yesterday\"_ENDTOKEN=\"day and year first above written\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2996\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3191\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3764\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4123\"_ENDID=\"4106\"_STTOKEN=\"Reed\"_ENDTOKEN=\"Reed\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4327\"_ENDID=\"490\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4607\"_ENDID=\"137\"_STTOKEN=\"Albany\"_ENDTOKEN=\"Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4872\"_ENDID=\"3060\"_STTOKEN=\"him\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5007\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5566\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5621\"_ENDID=\"5422\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5677\"_ENDID=\"312\"_STTOKEN=\"E.L.\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5812\"_ENDID=\"5714\"_STTOKEN=\"City and County of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5865\"_ENDID=\"342\"_STTOKEN=\"County of Albany\"_ENDTOKEN=\"County of Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5905\"_ENDID=\"312\"_STTOKEN=\"he\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"591\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5948\"_ENDID=\"5760\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5971\"_ENDID=\"5760\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6136\"_ENDID=\"137\"_STTOKEN=\"Albany\"_ENDTOKEN=\"Albany\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6143\"_ENDID=\"5760\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"733\"_ENDID=\"5714\"_STTOKEN=\"City of Albany\"_ENDTOKEN=\"CITY AND COUNTY OF ALBANY\">\n<RELEX TYPE=\"S=1\"_STID=\"6146\"_ENDID=\"6146\"_STTOKEN=\"PEW Cabe Clerk\"_ENDTOKEN=\"PEW Cabe Clerk\">\n<RELEX TYPE=\"S=2+\"_STID=\"401\"_ENDID=\"401\"_STTOKEN=\"M.T. Minor\"_ENDTOKEN=\"M.T. Minor\">\n<RELEX TYPE=\"S=2+\"_STID=\"5688\"_ENDID=\"5688\"_STTOKEN=\"Philip State of Hem Hort\"_ENDTOKEN=\"Philip State of Hem Hort\">\n<RELEX TYPE=\"S=3\"_STID=\"3646\"_ENDID=\"3646\"_STTOKEN=\"Lawrence R. Keife Jr\"_ENDTOKEN=\"Lawrence R. Keife Jr\">\n<RELEX TYPE=\"S=3+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"E. L. Barley\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"S=3+\"_STID=\"6096\"_ENDID=\"6096\"_STTOKEN=\"H. H. Bender\"_ENDTOKEN=\"H. H. Bender\">\n<RELEX TYPE=\"S=3+\"_STID=\"6146\"_ENDID=\"6146\"_STTOKEN=\"PEW Cabe Clerk\"_ENDTOKEN=\"PEW Cabe Clerk\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5422\"_ENDID=\"5426\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5422\"_ENDID=\"5436\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"E. L. Barley\"_ENDTOKEN=\"E. L. Barley\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"5621\"_ENDID=\"5549\"_STTOKEN=\"his\"_ENDTOKEN=\"Treasurer\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"145\"_ENDID=\"153\"_STTOKEN=\"Albany\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"153\"_ENDID=\"163\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1877\"_ENDID=\"1825\"_STTOKEN=\"said city\"_ENDTOKEN=\"county of Albany\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2249\"_ENDID=\"1547\"_STTOKEN=\"said County\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007120937_00480_TXT</UNQ>\n<IMID>007120937_00480</IMID>\n<APID>TH-1971-32543-5948-55</APID>\n<IMGSIZE>6347,4424</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>SOLD FOR TAXES AND WATER RENTS\n<ENAMEX TYPE=\"ITE.org\">Whig</ENAMEX> Wilttitre, Made the <TIMEX TYPE=\"DATE\">day of in the year of our Lord one\nsed and Ninety Eight</TIMEX> Between <ENAMEX TYPE=\"PERSON\">E. L. Barley</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, of the first part, and\nthe <ENAMEX TYPE=\"LOCALE\">City of Auny</ENAMEX>, <ENAMEX TYPE=\"PERSON\">M.T. Minor</ENAMEX>\nBitursseth: That whereas, by char-\nhundred and <NUMEX TYPE=\"QUANTITY\">thirty-five</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">April 9th, 1850</TIMEX>, entitled, \"An act to provide for a supply\nof water in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and an act amendatory thereof, passed <TIMEX TYPE=\"DATE\">April 15th, 1854</TIMEX>, it is among other things enacted\nthat the <ENAMEX TYPE=\"OCCUPATION\">Water Commissioners</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX> \"shall establish a scale of annual rents, to be charged and paid annually.\nfor the supply of water or for benefits resulting therefrom, to be called 'Water Rents, and apportioned to vacant lots and\n<ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>;\" and further, that said water rents should be, like <ENAMEX TYPE=\"LOCALE\">State and County</ENAMEX> taxes, a lien\nand lots upon which said rents are assessed. And it is further enacted that said water ren-\n\"shall be collected in the same manner as is or may be prescribed by law for the collection of taxes for city purposes in the\n<ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>;\" and in all respects the like proceedings shall be had by the Receiver of Taxes and the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>\nprovided by law for the collection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>.\"\nof the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, as is or may be provided\n<ENAMEX TYPE=\"LOCALE\">Ind</ENAMEX> Whereas, By chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">March 23 d, 1850</TIMEX>, entitled\n\"An act to provide for the assessment and collection of taxes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" which last mentioned act is the law\npurposes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and the proceedings to be had <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nthe ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">county of Albany</ENAMEX> for the conection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>, referred\nin the first above mentioned acts, it is among other things enacted, that \"whenever any tax charged on real estate returned\nto the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>, and the interest thereon, at the rate of <NUMEX TYPE=\"PERCENT\">twelve per cent</NUMEX> per annum, to be computed from the\n<TIMEX TYPE=\"DATE.non\">Fifteenth day of\nwhen</TIMEX> such tax was payable, shall remain unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX>\nfrom the said <TIMEX TYPE=\"COREF.dat\">yesterday</TIMEX> of\nat the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> shall proceed to advertise\nand sell such real estate in the manner herein provided,\nvided for the payment of such tax and interest, and the expenses of such\nlists and notices, and of conducting the sale, shall be added to the tax and interest.\nsale. The expense of publishing lists at\nMud Whereas, Default was made in the payment of the taxes and water rents legally charged upon sundry\nparcels or lots of real estate among which were the premises hereinafter described, returned to the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX> with the\ninterest thereon, which said taxes and water rents and interest had remained unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX> from the\nday of following the time when such taxes and water rents were payable.\nand Whereas, The <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, for the time being, in virtue of the power in <ENAMEX TYPE=\"COREF\">him</ENAMEX> vested.\nand after due notice for that purpose published according to law, did sell at public auction, at the <ENAMEX TYPE=\"STRUCTURE\">City Hall</ENAMEX>, in the <ENAMEX TYPE=\"LOCALE\">City of\nAlbany</ENAMEX>, on the\n<TIMEX TYPE=\"DATE\">day of in the year of our Lord one thousand eight\nhundred</TIMEX> and\neach of the said parcels or lots of real estate so as aforesaid charged with taxes and\nwater rents and interest remaining unpaid, for the lowest term of years at which any person offered to take the same in\nconsideration of advancing the sum necessary to discharge the taxes and water rents, interest and expenses aforesaid due\nthereon at the time of sale.\nAnd Whereas, <ENAMEX TYPE=\"PERSON\">Lawrence R. Keife Jr</ENAMEX>\nbecame the purchaser, at such sale, of the following parcel or lot of real estate situate in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>, for the term\nof <ENAMEX TYPE=\"DURATANNIV\">One Thousand years</ENAMEX>, or the sum of five\nwith the interest and expenses due thereon at the time of such tham Property on the North side of <ENAMEX TYPE=\"LOCALE\">Wash</ENAMEX>\nare between <ENAMEX TYPE=\"STRUCTURE\">Partridge and Erie Streets</ENAMEX>, Street No\nMap No, 43 being <NUMEX TYPE=\"QUANTITY\">33</NUMEX> feet front and <NUMEX TYPE=\"QUANTITY\">172</NUMEX> feet in depth, and\nbounded on the North by <ENAMEX TYPE=\"STRUCTURE\">Benson st South</ENAMEX> by <ENAMEX TYPE=\"STRUCTURE\">Wash ave East</ENAMEX>\nby <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX> and West by <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX>\nwhich said parcel or lot of real estate was sold at said sale\nthe under and by virtue of the said chapter 235 of the Laws of\namendatory thereto, and of\nthe said chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of\nthe Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> passed <TIMEX TYPE=\"DATE\">March 2nd, 1856</TIMEX>, and Chapter <NUMEX TYPE=\"QUANTITY\">four hundred and eighty-six</NUMEX> of said Laws amende-\ntory thereof, passed <TIMEX TYPE=\"DATE\">July 10th, in the year of our Lord one thousand eight hundred and fifty-one</TIMEX>, entitled, \"An act to amend\n\" and Chapter <ENAMEX TYPE=\"WORK_OF_ART\">298 of ththe acts</ENAMEX> relating to the <NUMEX TYPE=\"QUANTITY\">two</NUMEX> <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> passed <TIMEX TYPE=\"DATE.non\">March 2nd</TIMEX>, and put it\nAnd Whereas, be for the term aforesaid, has not been redeemed within the <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> prescribed by law for the redemption thereof.\nAnd whereas.\nHow, Wherefore. The said party of the first part, by virtue of the authority vested in <ENAMEX TYPE=\"COREF\">him</ENAMEX> by law, and for and\nin consideration of the premises and of the sum of\n<NUMEX TYPE=\"MONEY\">dollars and\ncents</NUMEX> paid as aforesaid to\nthe <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, hath granted, bargained, sold, conveyed and released, and by these presents doth\ngrant, bargain, sell, convey and release to the said part of the second part, and to for <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> for the term\naforesaid, the said parcel or lot of real estate above described, with the hereditaments and appurtenances to the same\nbelonging. To have and to hold the same to the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, for the term of\nyears aforesaid; subject, how\nIn witness adherent. The said party of the first part, as <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>\nfor the time being, hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E.L.</ENAMEX> - - -\n<ENAMEX TYPE=\"PERSON\">Philip State of Hem Hort</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CITY AND COUNTY OF ALBANY</ENAMEX>.\nOn this <TIMEX TYPE=\"DATE\">187</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, a\nComm of Deeds\nresiding in the <ENAMEX TYPE=\"LOCALE\">City and County of Albany</ENAMEX>, appeared\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, and acknowledged that <ENAMEX TYPE=\"COREF\">he</ENAMEX> had\nexecuted the within instrument. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the person <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be\nthe individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">H. H. Bender</ENAMEX>\n<TIMEX TYPE=\"DATE\">August 1877</TIMEX> Court of Deeds\n<ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> <ENAMEX TYPE=\"COREF\">my</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">PEW Cabe Clerk</ENAMEX>.\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007120937_00480_TXT</UNQ>\n<IMID>007120937_00480</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32543-<TIMEX TYPE=\"DATE\">5948-55</TIMEX></APID>\n<IMGSIZE>6347,4424</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>SOLD FOR TAXES AND WATER RENTS\n<ENAMEX TYPE=\"ITE.org\">Whig</ENAMEX> Wilttitre, Made the <TIMEX TYPE=\"DATE\">day of in the year of our Lord one\nsed and Ninety Eight</TIMEX> Between <ENAMEX TYPE=\"PERSON\">E. L. Barley</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, of the first part, and\nthe <ENAMEX TYPE=\"LOCALE\">City of Auny</ENAMEX>, <ENAMEX TYPE=\"PERSON\">M.T. Minor</ENAMEX>\nBitursseth: That whereas, by char-\nhundred and <NUMEX TYPE=\"QUANTITY\">thirty-five</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">April 9th, 1850</TIMEX>, entitled, \"An act to provide for a supply\nof water in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and an act amendatory thereof, passed <TIMEX TYPE=\"DATE\">April 15th, 1854</TIMEX>, it is among other things enacted\nthat the <ENAMEX TYPE=\"OCCUPATION\">Water Commissioners</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX> \"shall establish a scale of annual rents, to be charged and paid annually.\nfor the supply of water or for benefits resulting therefrom, to be called 'Water Rents, and apportioned to vacant lots and\n<ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>;\" and further, that said water rents should be, like <ENAMEX TYPE=\"LOCALE\">State and County</ENAMEX> taxes, a lien\nand lots upon which said rents are assessed. And it is further enacted that said water ren-\n\"shall be collected in the same manner as is or may be prescribed by law for the collection of taxes for city purposes in the\n<ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>;\" and in all respects the like proceedings shall be had by the Receiver of Taxes and the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>\nprovided by law for the collection of city taxes in <ENAMEX TYPE=\"COREF.loc\">said city</ENAMEX>.\"\nof the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, as is or may be provided\n<ENAMEX TYPE=\"LOCALE\">Ind</ENAMEX> Whereas, By chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of the Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, passed <TIMEX TYPE=\"DATE\">March 23 d, 1850</TIMEX>, entitled\n\"An act to provide for the assessment and collection of taxes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" which last mentioned act is the law\npurposes in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>,\" and the proceedings to be had <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nthe ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">county of Albany</ENAMEX> for the conection of city taxes in said city, referred\nin the first above mentioned acts, it is among other things enacted, that \"whenever any tax charged on real estate returned\nto the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX>, and the interest thereon, at the rate of <NUMEX TYPE=\"PERCENT\">twelve per cent</NUMEX> per annum, to be computed from the\n<TIMEX TYPE=\"DATE.non\">Fifteenth day of\nwhen</TIMEX> such tax was payable, shall remain unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX>\nfrom the said <TIMEX TYPE=\"COREF.dat\">yesterday</TIMEX> of\nat the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> shall proceed to advertise\nand sell such real estate in the manner herein provided,\nvided for the payment of such tax and interest, and the expenses of such\nlists and notices, and of conducting the sale, shall be added to the tax and interest.\nsale. The expense of publishing lists at\nMud Whereas, Default was made in the payment of the taxes and water rents legally charged upon sundry\nparcels or lots of real estate among which were the premises hereinafter described, returned to the <ENAMEX TYPE=\"OCCUPATION\">County Treasurer</ENAMEX> with the\ninterest thereon, which said taxes and water rents and interest had remained unpaid for <ENAMEX TYPE=\"DURATANNIV\">one year</ENAMEX> from the\nday of following the time when such taxes and water rents were payable.\nand Whereas, The <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, for the time being, in virtue of the power in <ENAMEX TYPE=\"COREF\">him</ENAMEX> vested.\nand after due notice for that purpose published according to law, did sell at public auction, at the <ENAMEX TYPE=\"STRUCTURE\">City Hall</ENAMEX>, in the <ENAMEX TYPE=\"LOCALE\">City of\nAlbany</ENAMEX>, on the\n<TIMEX TYPE=\"DATE\">day of in the year of our Lord one thousand eight\nhundred</TIMEX> and\neach of the said parcels or lots of real estate so as aforesaid charged with taxes and\nwater rents and interest remaining unpaid, for the lowest term of years at which any person offered to take the same in\nconsideration of advancing the sum necessary to discharge the taxes and water rents, interest and expenses aforesaid due\nthereon at the time of sale.\nAnd Whereas, <ENAMEX TYPE=\"PERSON\">Lawrence R. Keife Jr</ENAMEX>\nbecame the purchaser, at such sale, of the following parcel or lot of real estate situate in the <ENAMEX TYPE=\"LOCALE\">City of Albany</ENAMEX>, for the term\nof <ENAMEX TYPE=\"DURATANNIV\">One Thousand years</ENAMEX>, or the sum of five\nwith the interest and expenses due thereon at the time of such tham Property on the North side of <ENAMEX TYPE=\"LOCALE\">Wash</ENAMEX>\nare between <ENAMEX TYPE=\"STRUCTURE\">Partridge and Erie Streets</ENAMEX>, Street No\nMap No, 43 being <NUMEX TYPE=\"QUANTITY\">33</NUMEX> feet front and <NUMEX TYPE=\"QUANTITY\">172</NUMEX> feet in depth, and\nbounded on the North by <ENAMEX TYPE=\"STRUCTURE\">Benson st South</ENAMEX> by <ENAMEX TYPE=\"STRUCTURE\">Wash ave East</ENAMEX>\nby <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX> and West by <ENAMEX TYPE=\"PERSON\">Reed</ENAMEX>\nwhich said parcel or lot of real estate was sold at said sale\nthe under and by virtue of the said chapter 235 of the Laws of\namendatory thereto, and of\nthe said chapter <NUMEX TYPE=\"QUANTITY\">eighty-six</NUMEX> of\nthe Laws of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> passed <TIMEX TYPE=\"DATE\">March 2nd, 1856</TIMEX>, and Chapter <NUMEX TYPE=\"QUANTITY\">four hundred and eighty-six</NUMEX> of said Laws amende-\ntory thereof, passed <TIMEX TYPE=\"DATE\">July 10th, in the year of our Lord one thousand eight hundred and fifty-one</TIMEX>, entitled, \"An act to amend\n\" and Chapter <ENAMEX TYPE=\"WORK_OF_ART\">298 of ththe acts</ENAMEX> relating to the <NUMEX TYPE=\"QUANTITY\">two</NUMEX> <ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> passed <TIMEX TYPE=\"DATE.non\">March 2nd</TIMEX>, and put it\nAnd Whereas, be for the term aforesaid, has not been redeemed within the <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> prescribed by law for the redemption thereof.\nAnd whereas.\nHow, Wherefore. The said party of the first part, by virtue of the authority vested in <ENAMEX TYPE=\"COREF\">him</ENAMEX> by law, and for and\nin consideration of the premises and of the sum of\n<NUMEX TYPE=\"MONEY\">dollars and\ncents</NUMEX> paid as aforesaid to\nthe <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, hath granted, bargained, sold, conveyed and released, and by these presents doth\ngrant, bargain, sell, convey and release to the said part of the second part, and to for <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> for the term\naforesaid, the said parcel or lot of real estate above described, with the hereditaments and appurtenances to the same\nbelonging. To have and to hold the same to the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, for the term of\nyears aforesaid; subject, how\nIn witness adherent. The said party of the first part, as <ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>\nfor the time being, hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E.L.</ENAMEX> - - -\n<ENAMEX TYPE=\"PERSON\">Philip State of Hem Hort</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CITY AND COUNTY OF ALBANY</ENAMEX>.\nOn this <TIMEX TYPE=\"DATE\">187</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, a\nComm of Deeds\nresiding in the <ENAMEX TYPE=\"LOCALE\">City and County of Albany</ENAMEX>, appeared\n<ENAMEX TYPE=\"OCCUPATION\">Treasurer</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Albany</ENAMEX>, and acknowledged that <ENAMEX TYPE=\"COREF\">he</ENAMEX> had\nexecuted the within instrument. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the person <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be\nthe individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">H. H. Bender</ENAMEX>\n<TIMEX TYPE=\"DATE\">August 1877</TIMEX> Court of Deeds\n<ENAMEX TYPE=\"LOCALE\">Albany</ENAMEX> <ENAMEX TYPE=\"COREF\">my</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">PEW Cabe Clerk</ENAMEX>.\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007120937_00480_TXT</UNQ>\n<IMID>007120937_00480</IMID>\n<APID>TH-1971-32543-5948-55</APID>\n<IMGSIZE>6347,4424</IMGSIZE>\n<PLACE>Albany, Albany, New York, United States</PLACE>\n<SBODY>[2558,569:2615,590] SOLD [2619,569:2665,590] FOR [2667,569:2738,590] TAXES [2742,569:2791,590] AND [2801,569:2875,590] WATER [2879,569:3018,590] RENTS\n[1410,631:1531,712] Whig [1581,631:1858,712] Wilttitre, [1889,631:1954,712] Made [1954,631:2023,712] the [2258,631:2304,712] day [2313,631:2350,712] of [2631,631:2664,712] in [2663,631:2714,712] the [2718,631:2779,712] year [2783,631:2811,712] of [2815,631:2866,712] our [2870,631:2935,712] Lord [2939,631:3066,712] one\n[1360,686:1635,741] sed [1632,686:1699,741] and [1725,686:1857,741] Ninety [1861,686:1958,741] Eight [1962,686:2201,741] Between [2206,686:2252,741] E. [2270,686:2302,741] L. [2349,686:2729,741] Barley\n[1367,741:1478,793] Treasurer [1480,741:1510,793] of [1512,741:1554,793] the [1560,741:1642,793] County [1644,741:1674,793] of [1680,741:1762,793] Albany, [1773,741:1799,793] of [1801,741:1847,793] the [1845,741:1895,793] first [1901,741:1951,793] part, [1957,741:2574,793] and\n[1376,801:1488,837] the [1500,801:1612,837] City [1617,801:1671,837] of [1698,801:1847,837] Auny, [1895,801:1964,837] M.T. [2269,801:2481,837] Minor\n[2462,798:2591,824] Bitursseth: [2616,798:2682,824] That [2693,798:2791,824] whereas, [2809,798:2843,824] by [2851,798:2910,824] char-\n[1370,840:1477,874] hundred [1475,840:1525,874] and [1524,840:1604,874] thirty-five [1656,840:1683,874] of [1682,840:1732,874] the [1730,840:1802,874] Laws [1805,840:1833,874] of [1831,840:1877,874] the [1880,840:1947,874] State [1950,840:1978,874] of [1990,840:2044,874] New [2047,840:2110,874] York, [2122,840:2202,874] passed [2210,840:2277,874] April [2280,840:2325,874] 9th, [2337,840:2396,874] 1850, [2403,840:2506,874] entitled, [2518,840:2550,874] \"An [2579,840:2624,874] act [2623,840:2655,874] to [2663,840:2756,874] provide [2759,840:2800,874] for [2803,840:2822,874] a [2825,840:3007,874] supply\n[1370,874:1402,913] of [1409,874:1481,913] water [1480,874:1512,913] in [1511,874:1560,913] the [1572,874:1626,913] City [1634,874:1661,913] of [1673,874:1763,913] Albany,\" [1783,874:1837,913] and [1841,874:1881,913] an [1885,874:1930,913] act [1933,874:2084,913] amendatory [2087,874:2181,913] thereof, [2193,874:2278,913] passed [2285,874:2352,913] April [2360,874:2418,913] 15th, [2426,874:2489,913] 1854, [2492,874:2524,913] it [2527,874:2559,913] is [2562,874:2652,913] among [2659,874:2726,913] other [2730,874:2814,913] things [2818,874:3014,913] enacted\n[1369,910:1430,944] that [1429,910:1476,944] the [1493,910:1563,944] Water [1572,910:1762,944] Commissioners [1765,910:1794,944] of [1798,910:1845,944] the [1853,910:1909,944] City [1913,910:1941,944] of [1950,910:2043,944] Albany [2051,910:2075,944] \"shall [2134,910:2250,944] establish [2259,910:2278,944] a [2277,910:2347,944] scale [2351,910:2384,944] of [2388,910:2476,944] annual [2480,910:2550,944] rents, [2563,910:2596,944] to [2600,910:2633,944] be [2637,910:2744,944] charged [2748,910:2799,944] and [2808,910:2864,944] paid [2868,910:2979,944] annually.\n[1368,942:1413,981] for [1412,942:1458,981] the [1462,942:1548,981] supply [1555,942:1583,981] of [1596,942:1668,981] water [1676,942:1708,981] or [1707,942:1753,981] for [1761,942:1861,981] benefits [1864,942:1981,981] resulting [1980,942:2111,981] therefrom, [2119,942:2156,981] to [2164,942:2196,981] be [2199,942:2281,981] called [2284,942:2326,981] 'Water [2396,942:2469,981] Rents, [2485,942:2540,981] and [2548,942:2706,981] apportioned [2714,942:2746,981] to [2749,942:2835,981] vacant [2834,942:2884,981] lots [2888,942:3036,981] and\n[1792,978:1840,1009] said [1845,978:1897,1009] city;\" [1917,978:1965,1009] and [1970,978:2056,1009] further, [2061,978:2117,1009] that [2122,978:2174,1009] said [2186,978:2253,1009] water [2258,978:2322,1009] rents [2327,978:2409,1009] should [2410,978:2443,1009] be, [2448,978:2500,1009] like [2501,978:2564,1009] State [2566,978:2614,1009] and [2619,978:2705,1009] County [2706,978:2773,1009] taxes, [2778,978:2799,1009] a [2793,978:3020,1009] lien\n[1736,989:1788,1049] and [1792,989:1848,1049] lots [1861,989:1926,1049] upon [1939,989:2018,1049] which [2022,989:2082,1049] said [2086,989:2156,1049] rents [2164,989:2211,1049] are [2219,989:2326,1049] assessed. [2362,989:2418,1049] And [2417,989:2450,1049] it [2449,989:2482,1049] is [2486,989:2588,1049] further [2597,989:2699,1049] enacted [2707,989:2768,1049] that [2772,989:2832,1049] said [2845,989:2915,1049] water [2914,989:2975,1049] ren-\n[1369,1049:1397,1083] \"shall [1459,1049:1487,1083] be [1490,1049:1603,1083] collected [1607,1049:1639,1083] in [1638,1049:1689,1083] the [1688,1049:1756,1083] same [1768,1049:1859,1083] manner [1863,1049:1890,1083] as [1894,1049:1922,1083] is [1925,1049:1958,1083] or [1970,1049:2020,1083] may [2028,1049:2061,1083] be [2073,1049:2204,1083] prescribed [2208,1049:2240,1083] by [2244,1049:2298,1083] law [2302,1049:2348,1083] for [2347,1049:2393,1083] the [2396,1049:2527,1083] collection [2535,1049:2563,1083] of [2566,1049:2644,1083] taxes [2643,1049:2689,1083] for [2692,1049:2742,1083] city [2750,1049:2863,1083] purposes [2862,1049:2895,1083] in [2894,1049:3045,1083] the\n[1377,1090:1436,1119] City [1443,1090:1473,1119] of [1484,1090:1589,1119] Albany;\" [1636,1090:1687,1119] and [1690,1090:1725,1119] in [1727,1090:1766,1119] all [1768,1090:1881,1119] respects [1879,1090:1931,1119] the [1933,1090:1988,1119] like [1995,1090:2157,1119] proceedings [2164,1090:2232,1119] shall [2238,1090:2273,1119] be [2279,1090:2335,1119] had [2345,1090:2380,1119] by [2386,1090:2438,1119] the [2448,1090:2561,1119] Receiver [2568,1090:2598,1119] of [2609,1090:2693,1119] Taxes [2700,1090:2751,1119] and [2753,1090:2805,1119] the [2811,1090:2916,1119] County [2922,1090:3078,1119] Treasurer\n[1938,1119:2057,1148] provided [2063,1119:2098,1148] by [2100,1119:2154,1148] law [2152,1119:2199,1148] for [2201,1119:2247,1148] the [2253,1119:2380,1148] collection [2387,1119:2421,1148] of [2427,1119:2482,1148] city [2484,1119:2558,1148] taxes [2560,1119:2595,1148] in [2597,1119:2655,1148] said [2661,1119:2716,1148] city.\"\n[1369,1129:1397,1156] of [1401,1129:1447,1156] the [1452,1129:1548,1156] County [1552,1129:1580,1156] of [1592,1129:1681,1156] Albany, [1692,1129:1724,1156] as [1721,1129:1753,1156] is [1757,1129:1785,1156] or [1800,1129:1846,1156] may [1850,1129:1886,1156] be [1890,1129:2029,1156] provided\n[1497,1174:1568,1223] Ind [1604,1174:1736,1223] Whereas, [1754,1174:1787,1223] By [1791,1174:1895,1223] chapter [1904,1174:1993,1223] eighty-six [2044,1174:2077,1223] of [2081,1174:2133,1223] the [2137,1174:2213,1223] Laws [2221,1174:2250,1223] of [2254,1174:2302,1223] the [2310,1174:2381,1223] State [2390,1174:2423,1223] of [2437,1174:2493,1223] New [2502,1174:2568,1223] York, [2581,1174:2671,1223] passed [2689,1174:2764,1223] March [2768,1174:2821,1223] 23 [2811,1174:2830,1223] d, [2829,1174:2895,1223] 1850, [2909,1174:3050,1223] entitled\n[1370,1216:1402,1252] \"An [1432,1216:1478,1252] act [1477,1216:1509,1252] to [1513,1216:1612,1252] provide [1611,1216:1661,1252] for [1665,1216:1711,1252] the [1714,1216:1849,1252] assessment [1853,1216:1907,1252] and [1915,1216:2046,1252] collection [2054,1216:2082,1252] of [2085,1216:2162,1252] taxes [2166,1216:2202,1252] in [2206,1216:2256,1252] the [2264,1216:2323,1252] City [2331,1216:2363,1252] of [2376,1216:2466,1252] Albany,\" [2496,1216:2569,1252] which [2572,1216:2627,1252] last [2640,1216:2766,1252] mentioned [2769,1216:2811,1252] act [2809,1216:2842,1252] is [2841,1216:2887,1252] the [2885,1216:3042,1252] law\n[2149,1252:2264,1283] purposes [2262,1252:2298,1283] in [2301,1252:2351,1283] the [2354,1252:2416,1283] City [2419,1252:2450,1283] of [2462,1252:2559,1283] Albany,\" [2584,1252:2637,1283] and [2636,1252:2685,1283] the [2692,1252:2850,1283] proceedings [2853,1252:2885,1283] to [2892,1252:2924,1283] be [2931,1252:2976,1283] had [2983,1252:3078,1283] he\n[1515,1257:1561,1320] the [1587,1257:1700,1320] ⌨⌨⌨⌨⌨⌨ [1704,1257:1849,1320] ⌨⌨⌨⌨⌨⌨⌨⌨ [1852,1257:1979,1320] Treasurer [1978,1257:2011,1320] of [2014,1257:2060,1320] the [2068,1257:2159,1320] county [2163,1257:2195,1320] of [2198,1257:2289,1320] Albany [2293,1257:2339,1320] for [2338,1257:2384,1320] the [2387,1257:2514,1320] conection [2522,1257:2550,1320] of [2554,1257:2604,1320] city [2608,1257:2681,1320] taxes [2680,1257:2712,1320] in [2716,1257:2775,1320] said [2779,1257:2829,1320] city, [2837,1257:2996,1320] referred\n[1363,1323:1399,1354] in [1398,1323:1446,1354] the [1445,1323:1502,1354] first [1505,1323:1584,1354] above [1595,1323:1722,1354] mentioned [1729,1323:1782,1354] acts, [1789,1323:1816,1354] it [1815,1323:1842,1354] is [1849,1323:1937,1354] among [1940,1323:2010,1354] other [2013,1323:2100,1354] things [2107,1323:2208,1354] enacted, [2219,1323:2277,1354] that [2284,1323:2320,1354] \"whenever [2430,1323:2487,1354] any [2490,1323:2539,1354] tax [2542,1323:2651,1354] charged [2658,1323:2698,1354] on [2701,1323:2763,1354] real [2770,1323:2849,1354] estate [2852,1323:3038,1354] returned\n[1362,1362:1394,1396] to [1397,1362:1443,1396] the [1451,1362:1541,1396] County [1549,1362:1671,1396] Treasurer, [1688,1362:1738,1396] and [1746,1362:1792,1396] the [1795,1362:1903,1396] interest [1907,1362:2006,1396] thereon, [2018,1362:2051,1396] at [2054,1362:2104,1396] the [2112,1362:2171,1396] rate [2179,1362:2207,1396] of [2211,1362:2306,1396] twelve [2313,1362:2359,1396] per [2367,1362:2426,1396] cent [2434,1362:2484,1396] per [2492,1362:2583,1396] annum, [2590,1362:2627,1396] to [2635,1362:2672,1396] be [2680,1362:2811,1396] computed [2814,1362:2882,1396] from [2885,1362:3023,1396] the\n[1399,1406:1631,1432] Fifteenth [1638,1406:1682,1432] day [1678,1406:1804,1432] of\n[2198,1403:2261,1432] when [2262,1403:2325,1432] such [2326,1403:2374,1432] tax [2387,1403:2431,1432] was [2440,1403:2540,1432] payable, [2553,1403:2619,1432] shall [2624,1403:2717,1432] remain [2726,1403:2819,1432] unpaid [2820,1403:2864,1432] for [2869,1403:2913,1432] one [2918,1403:3056,1432] year\n[1360,1442:1426,1479] from [1425,1442:1470,1479] the [1473,1442:1544,1479] said [1560,1442:1844,1479] yesterday [1847,1442:1952,1479] of\n[2291,1448:2333,1476] at [2335,1448:2385,1476] the [2386,1448:2444,1476] said [2450,1448:2551,1476] County [2557,1448:2686,1476] Treasurer [2688,1448:2757,1476] shall [2763,1448:2864,1476] proceed [2866,1448:2900,1476] to [2906,1448:3076,1476] advertise\n[1367,1484:1418,1510] and [1423,1484:1470,1510] sell [1471,1484:1536,1510] such [1537,1484:1588,1510] real [1593,1484:1673,1510] estate [1670,1484:1706,1510] in [1707,1484:1754,1510] the [1766,1484:1857,1510] manner [1869,1484:1953,1510] herein [1958,1484:2071,1510] provided,\n[2035,1487:2114,1508] vided [2119,1487:2164,1508] for [2163,1487:2212,1508] the [2226,1487:2341,1508] payment [2351,1487:2379,1508] of [2387,1487:2454,1508] such [2459,1487:2511,1508] tax [2519,1487:2570,1508] and [2572,1487:2681,1508] interest, [2692,1487:2744,1508] and [2745,1487:2797,1508] the [2802,1487:2920,1508] expenses [2928,1487:2956,1508] of [2963,1487:3035,1508] such\n[1814,1521:1872,1544] lists [1874,1521:1923,1544] and [1929,1521:2018,1544] notices, [2027,1521:2079,1544] and [2085,1521:2111,1544] of [2120,1521:2264,1544] conducting [2267,1521:2312,1544] the [2315,1521:2369,1544] sale, [2378,1521:2443,1544] shall [2445,1521:2481,1544] be [2484,1521:2564,1544] added [2563,1521:2599,1544] to [2598,1521:2647,1544] the [2646,1521:2695,1544] tax [2697,1521:2749,1544] and [2748,1521:2851,1544] interest.\n[1362,1529:1412,1552] sale. [1440,1529:1493,1552] The [1493,1529:1590,1552] expense [1595,1529:1621,1552] of [1633,1529:1761,1552] publishing [1761,1529:1814,1552] lists [1820,1529:1885,1552] at\n[1485,1570:1551,1617] Mud [1589,1570:1707,1617] Whereas, [1728,1570:1820,1617] Default [1828,1570:1873,1617] was [1889,1570:1951,1617] made [1949,1570:1985,1617] in [1989,1570:2038,1617] the [2045,1570:2155,1617] payment [2158,1570:2190,1617] of [2193,1570:2242,1617] the [2245,1570:2320,1617] taxes [2323,1570:2376,1617] and [2388,1570:2459,1617] water [2462,1570:2533,1617] rents [2536,1570:2624,1617] legally [2627,1570:2728,1617] charged [2736,1570:2802,1617] upon [2805,1570:3029,1617] sundry\n[1371,1615:1460,1649] parcels [1469,1615:1498,1649] or [1502,1615:1559,1649] lots [1563,1615:1591,1649] of [1591,1615:1648,1649] real [1652,1615:1732,1649] estate [1736,1615:1826,1649] among [1834,1615:1905,1649] which [1919,1615:1976,1649] were [1975,1615:2022,1649] the [2031,1615:2144,1649] premises [2148,1615:2299,1649] hereinafter [2303,1615:2430,1649] described, [2439,1615:2561,1649] returned [2561,1615:2599,1649] to [2598,1615:2650,1649] the [2654,1615:2758,1649] County [2762,1615:2894,1649] Treasurer [2903,1615:2959,1649] with [2959,1615:3067,1649] the\n[1359,1649:1466,1688] interest [1465,1649:1567,1688] thereon, [1585,1649:1660,1688] which [1663,1649:1719,1688] said [1719,1649:1793,1688] taxes [1797,1649:1848,1688] and [1857,1649:1927,1688] water [1930,1649:2000,1688] rents [2004,1649:2056,1688] and [2055,1649:2161,1688] interest [2170,1649:2221,1688] had [2225,1649:2350,1688] remained [2359,1649:2447,1688] unpaid [2451,1649:2498,1688] for [2501,1649:2553,1688] one [2557,1649:2617,1688] year [2617,1649:2686,1688] from [2690,1649:2981,1688] the\n[1368,1688:1418,1716] day [1425,1688:1455,1716] of [1826,1688:1957,1716] following [1955,1688:2002,1716] the [2004,1688:2071,1716] time [2081,1688:2148,1716] when [2150,1688:2217,1716] such [2215,1688:2294,1716] taxes [2296,1688:2350,1716] and [2361,1688:2431,1716] water [2433,1688:2508,1716] rents [2519,1688:2577,1716] were [2587,1688:2691,1716] payable.\n[1486,1750:1554,1802] and [1592,1750:1717,1802] Whereas, [1743,1750:1788,1802] The [1796,1750:1916,1802] Treasurer [1919,1750:1952,1802] of [1950,1750:1996,1802] the [2003,1750:2093,1802] County [2096,1750:2124,1802] of [2132,1750:2221,1802] Albany, [2229,1750:2274,1802] for [2273,1750:2319,1802] the [2317,1750:2380,1802] time [2384,1750:2456,1802] being, [2463,1750:2500,1802] in [2503,1750:2579,1802] virtue [2587,1750:2615,1802] of [2618,1750:2663,1802] the [2667,1750:2743,1802] power [2742,1750:2778,1802] in [2782,1750:2831,1802] him [2830,1750:2911,1802] vested.\n[1365,1800:1419,1831] and [1422,1800:1489,1831] after [1492,1800:1541,1831] due [1549,1800:1629,1831] notice [1627,1800:1677,1831] for [1680,1800:1738,1831] that [1750,1800:1851,1831] purpose [1863,1800:1991,1831] published [1999,1800:2131,1831] according [2134,1800:2170,1831] to [2173,1800:2223,1831] law, [2239,1800:2288,1831] did [2291,1800:2340,1831] sell [2344,1800:2375,1831] at [2383,1800:2467,1831] public [2470,1800:2572,1831] auction, [2579,1800:2611,1831] at [2614,1800:2659,1831] the [2667,1800:2729,1831] City [2741,1800:2795,1831] Hall, [2802,1800:2838,1831] in [2837,1800:2886,1831] the [2894,1800:2947,1831] City [2955,1800:3055,1831] of\n[1368,1839:1462,1868] Albany, [1476,1839:1514,1868] on [1520,1839:1616,1868] the\n[1959,1836:2009,1865] day [2016,1836:2283,1865] of [2433,1836:2471,1865] in [2473,1836:2520,1865] the [2526,1836:2588,1865] year [2594,1836:2624,1865] of [2634,1836:2680,1865] our [2682,1836:2761,1865] Lord [2767,1836:2817,1865] one [2819,1836:2945,1865] thousand [2947,1836:3071,1865] eight\n[1362,1876:1468,1902] hundred [1468,1876:1707,1902] and\n[1913,1878:1975,1909] each [1982,1878:2013,1909] of [2016,1878:2061,1909] the [2064,1878:2121,1909] said [2128,1878:2220,1909] parcels [2223,1878:2255,1909] or [2253,1878:2311,1909] lots [2314,1878:2345,1909] of [2348,1878:2406,1909] real [2409,1878:2488,1909] estate [2491,1878:2522,1909] so [2525,1878:2557,1909] as [2555,1878:2678,1909] aforesaid [2685,1878:2794,1909] charged [2801,1878:2859,1909] with [2857,1878:2932,1909] taxes [2935,1878:3025,1909] and\n[1370,1915:1444,1946] water [1452,1915:1526,1946] rents [1534,1915:1590,1946] and [1593,1915:1699,1946] interest [1707,1915:1849,1946] remaining [1857,1915:1953,1946] unpaid, [1962,1915:2012,1946] for [2016,1915:2072,1946] the [2075,1915:2167,1946] lowest [2171,1915:2244,1946] term [2253,1915:2285,1946] of [2293,1915:2372,1946] years [2380,1915:2413,1946] at [2425,1915:2508,1946] which [2512,1915:2567,1946] any [2580,1915:2672,1946] person [2680,1915:2776,1946] offered [2780,1915:2813,1946] to [2816,1915:2886,1946] take [2889,1915:2940,1946] the [2948,1915:3017,1946] same [3017,1915:3077,1946] in\n[1366,1954:1546,1982] consideration [1556,1954:1587,1982] of [1593,1954:1735,1982] advancing [1738,1954:1789,1982] the [1795,1954:1859,1982] sum [1866,1954:1999,1982] necessary [2002,1954:2036,1982] to [2043,1954:2173,1982] discharge [2179,1954:2230,1982] the [2233,1954:2313,1982] taxes [2319,1954:2375,1982] and [2389,1954:2465,1982] water [2468,1954:2544,1982] rents, [2554,1954:2667,1982] interest [2674,1954:2729,1982] and [2736,1954:2857,1982] expenses [2864,1954:2985,1982] aforesaid [2992,1954:3070,1982] due\n[1360,1988:1466,2011] thereon [1477,1988:1507,2011] at [1511,1988:1562,2011] the [1566,1988:1634,2011] time [1641,1988:1672,2011] of [1679,1988:1733,2011] sale.\n[1467,2014:1532,2089] And [1549,2014:1670,2089] Whereas, [1763,2014:1980,2089] Lawrence [1991,2014:2021,2089] R. [2067,2014:2249,2089] Keife [2260,2014:2513,2089] Jr\n[1357,2082:1455,2118] became [1459,2082:1505,2118] the [1514,2082:1643,2118] purchaser, [1656,2082:1690,2118] at [1693,2082:1763,2118] such [1767,2082:1818,2118] sale, [1836,2082:1869,2118] of [1868,2082:1920,2118] the [1923,2082:2053,2118] following [2062,2082:2141,2118] parcel [2149,2082:2182,2118] or [2181,2082:2228,2118] lot [2237,2082:2270,2118] of [2273,2082:2329,2118] real [2333,2082:2412,2118] estate [2411,2082:2504,2118] situate [2508,2082:2541,2118] in [2540,2082:2592,2118] the [2596,2082:2656,2118] City [2660,2082:2693,2118] of [2706,2082:2799,2118] Albany, [2807,2082:2854,2118] for [2858,2082:2905,2118] the [2904,2082:3044,2118] term\n[1341,2123:1460,2186] of [1471,2123:1577,2186] One [1574,2123:1803,2186] Thousand [1807,2123:1865,2186] years, [1882,2123:1913,2186] or [1910,2123:1954,2186] the [1951,2123:2002,2186] sum [2006,2123:2077,2186] of [2081,2123:2355,2186] five\n[1360,2186:1415,2254] with [1414,2186:1464,2254] the [1463,2186:1563,2254] interest [1571,2186:1622,2254] and [1630,2186:1743,2254] expenses [1752,2186:1798,2254] due [1801,2186:1906,2254] thereon [1914,2186:1942,2254] at [1950,2186:1996,2254] the [1999,2186:2063,2254] time [2067,2186:2099,2254] of [2103,2186:2167,2254] such [1337,2267:1818,2309] tham [1822,2267:2020,2309] Property [2025,2267:2093,2309] on [2097,2267:2194,2309] the [2220,2267:2353,2309] North [2365,2267:2476,2309] side [2481,2267:2542,2309] of [2553,2267:2844,2309] Wash\n[1386,2309:1467,2355] are [1474,2309:1620,2355] between [1634,2309:1815,2355] Partridge [1822,2309:1897,2355] and [1905,2309:2015,2355] Erie [2023,2309:2133,2355] Streets, [2176,2309:2322,2355] Street [2347,2309:2820,2355] No\n[1386,2363:1473,2410] Map [1491,2363:1536,2410] No, [1568,2363:1655,2410] 43 [1659,2363:1788,2410] being [1813,2363:1872,2410] 33 [1876,2363:1970,2410] feet [1974,2363:2082,2410] front [2093,2363:2173,2410] and [2177,2363:2270,2410] 172 [2281,2363:2368,2410] feet [2365,2363:2417,2410] in [2435,2363:2543,2410] depth, [2568,2363:2917,2410] and\n[1375,2405:1519,2470] bounded [1523,2405:1569,2470] on [1566,2405:1646,2470] the [1665,2405:1767,2470] North [1771,2405:1837,2470] by [1848,2405:2000,2470] Benson [2004,2405:2085,2470] st [2096,2405:2205,2470] South [2216,2405:2297,2470] by [2322,2405:2452,2470] Wash [2471,2405:2573,2470] ave [2584,2405:2941,2470] East\n[1384,2468:1446,2504] by [1462,2468:1582,2504] Reed [1592,2468:1686,2504] and [1702,2468:1796,2504] West [1805,2468:1874,2504] by [1890,2468:2168,2504] Reed\n[1449,2572:1527,2629] which [1531,2572:1589,2629] said [1598,2572:1680,2629] parcel [1690,2572:1719,2629] or [1723,2572:1762,2629] lot [1771,2572:1801,2629] of [1805,2572:1858,2629] real [1867,2572:1950,2629] estate [1959,2572:2007,2629] was [2012,2572:2070,2629] sold [2079,2572:2108,2629] at [2113,2572:2171,2629] said [2175,2572:2288,2629] sale\n[2187,2572:2224,2598] the [2231,2572:2305,2598] under [2305,2572:2356,2598] and [2360,2572:2394,2598] by [2394,2572:2472,2598] virtue [2475,2572:2506,2598] of [2509,2572:2553,2598] the [2557,2572:2611,2598] said [2615,2572:2706,2598] chapter [2710,2572:2754,2598] 235 [2757,2572:2788,2598] of [2791,2572:2838,2598] the [2839,2572:2906,2598] Laws [2910,2572:3045,2598] of\n[2266,2608:2430,2635] amendatory [2432,2608:2534,2635] thereto, [2547,2608:2599,2635] and [2605,2608:2681,2635] of\n[2638,2606:2687,2635] the [2688,2606:2744,2635] said [2746,2606:2848,2635] chapter [2849,2606:2936,2635] eighty-six [2980,2606:3073,2635] of\n[1343,2608:1394,2671] the [1394,2608:1468,2671] Laws [1477,2608:1510,2671] of [1509,2608:1556,2671] the [1559,2608:1629,2671] State [1633,2608:1666,2671] of [1679,2608:1735,2671] New [1739,2608:1809,2671] York [1822,2608:1910,2671] passed [1923,2608:1998,2671] March [2006,2608:2053,2671] 2nd, [2066,2608:2126,2671] 1856, [2139,2608:2191,2671] and [2195,2608:2297,2671] Chapter [2301,2608:2361,2671] four [2365,2608:2481,2671] hundred [2485,2608:2536,2671] and [2540,2608:2628,2671] eighty-six [2678,2608:2711,2671] of [2715,2608:2776,2671] said [2775,2608:2854,2671] Laws [2858,2608:2960,2671] amende-\n[1341,2676:1402,2708] tory [1401,2676:1500,2708] thereof, [1512,2676:1594,2708] passed [1597,2676:1653,2708] July [1656,2676:1717,2708] 10th, [1720,2676:1756,2708] in [1754,2676:1802,2708] the [1805,2676:1866,2708] year [1869,2676:1900,2708] of [1907,2676:1955,2708] our [1958,2676:2028,2708] Lord [2035,2676:2083,2708] one [2082,2676:2207,2708] thousand [2214,2676:2283,2708] eight [2290,2676:2398,2708] hundred [2405,2676:2458,2708] and [2456,2676:2517,2708] fifty-one, [2579,2676:2683,2708] entitled, [2699,2676:2730,2708] \"An [2762,2676:2806,2708] act [2805,2676:2840,2708] to [2843,2676:3033,2708] amend\n[2483,2702:2499,2731] \" [2520,2702:2579,2731] and [2587,2702:2708,2731] Chapter [2716,2702:2794,2731] 298 [2790,2702:2831,2731] of [2839,2702:3001,2731] ththe [1394,2713:1445,2768] acts [1448,2713:1552,2768] relating [1551,2713:1584,2768] to [1582,2713:1628,2768] the [1659,2713:1727,2768] two [1739,2713:1830,2768] Albany [1842,2713:1924,2768] passed [1941,2713:2013,2768] March [2017,2713:2067,2768] 2nd, [2147,2713:2197,2768] and [2227,2713:2273,2768] put [2277,2713:2492,2768] it\n[1432,2731:1500,2809] And [1510,2731:1617,2809] Whereas, [1349,2809:1385,2841] be [1384,2809:1429,2841] for [1433,2809:1478,2841] the [1481,2809:1549,2841] term [1552,2809:1672,2841] aforesaid, [1684,2809:1730,2841] has [1737,2809:1783,2841] not [1790,2809:1854,2841] been [1857,2809:1986,2841] redeemed [1998,2809:2079,2841] within [2078,2809:2127,2841] the [2131,2809:2185,2841] two [2193,2809:2264,2841] years [2272,2809:2410,2841] prescribed [2418,2809:2450,2841] by [2453,2809:2508,2841] law [2506,2809:2556,2841] for [2555,2809:2605,2841] the [2608,2809:2764,2841] redemption [2763,2809:2866,2841] thereof.\n[1464,2864:1530,2914] And [1564,2864:1692,2914] whereas.\n[1476,3109:1547,3159] How, [1589,3109:1754,3159] Wherefore. [1777,3109:1829,3159] The [1833,3109:1890,3159] said [1899,3109:1970,3159] party [1974,3109:2008,3159] of [2012,3109:2059,3159] the [2059,3109:2120,3159] first [2129,3109:2186,3159] part, [2200,3109:2233,3159] by [2237,3109:2322,3159] virtue [2327,3109:2360,3159] of [2364,3109:2412,3159] the [2421,3109:2548,3159] authority [2552,3109:2642,3159] vested [2641,3109:2675,3159] in [2679,3109:2736,3159] him [2740,3109:2778,3159] by [2778,3109:2830,3159] law, [2844,3109:2896,3159] and [2900,3109:2943,3159] for [2947,3109:3053,3159] and\n[1337,3164:1369,3190] in [1374,3164:1545,3190] consideration [1550,3164:1578,3190] of [1583,3164:1630,3190] the [1634,3164:1747,3190] premises [1752,3164:1806,3190] and [1814,3164:1846,3190] of [1847,3164:1897,3190] the [1902,3164:1963,3190] sum [1972,3164:2062,3190] of\n[2019,3198:2115,3242] dollars [2128,3198:2411,3242] and\n[2657,3211:2733,3242] cents [2745,3211:2808,3242] paid [2815,3211:2852,3242] as [2859,3211:2984,3242] aforesaid [2992,3211:3074,3242] to\n[1334,3211:1385,3281] the [1398,3211:1528,3281] Treasurer [1536,3211:1565,3281] of [1569,3211:1620,3281] the [1633,3211:1731,3281] County [1739,3211:1772,3281] of [1780,3211:1873,3281] Albany, [1886,3211:1952,3281] hath [1960,3211:2067,3281] granted, [2080,3211:2210,3281] bargained, [2223,3211:2279,3281] sold, [2292,3211:2417,3281] conveyed [2425,3211:2481,3281] and [2490,3211:2601,3281] released, [2614,3211:2665,3281] and [2674,3211:2707,3281] by [2711,3211:2780,3281] these [2789,3211:2896,3281] presents [2899,3211:3041,3281] doth\n[1344,3281:1416,3323] grant, [1430,3281:1535,3323] bargain, [1545,3281:1593,3323] sell, [1607,3281:1698,3323] convey [1702,3281:1760,3323] and [1760,3281:1856,3323] release [1860,3281:1894,3323] to [1893,3281:1946,3323] the [1951,3281:2013,3323] said [2022,3281:2080,3323] part [2146,3281:2180,3323] of [2185,3281:2233,3323] the [2237,3281:2333,3323] second [2342,3281:2400,3323] part, [2409,3281:2462,3323] and [2462,3281:2505,3323] to [2548,3281:2605,3323] for [2624,3281:2691,3323] heirs [2696,3281:2749,3323] and [2753,3281:2854,3323] assigns [2853,3281:2902,3323] for [2901,3281:2949,3323] the [2954,3281:3057,3323] term\n[1335,3328:1452,3357] aforesaid, [1457,3328:1506,3357] the [1511,3328:1567,3357] said [1576,3328:1655,3357] parcel [1664,3328:1694,3357] or [1699,3328:1744,3357] lot [1753,3328:1782,3357] of [1787,3328:1843,3357] real [1852,3328:1928,3357] estate [1933,3328:2012,3357] above [2025,3328:2146,3357] described, [2167,3328:2223,3357] with [2232,3328:2280,3357] the [2293,3328:2480,3357] hereditaments [2485,3328:2537,3357] and [2546,3328:2733,3357] appurtenances [2738,3328:2775,3357] to [2780,3328:2829,3357] the [2838,3328:3014,3357] same\n[1338,3365:1471,3399] belonging. [1509,3365:1547,3399] To [1551,3365:1613,3399] have [1617,3365:1665,3399] and [1669,3365:1703,3399] to [1707,3365:1764,3399] hold [1764,3365:1816,3399] the [1825,3365:1897,3399] same [1896,3365:1930,3399] to [1934,3365:1982,3399] the [1986,3365:2043,3399] said [2052,3365:2114,3399] part [2175,3365:2209,3399] of [2213,3365:2266,3399] the [2270,3365:2365,3399] second [2374,3365:2431,3399] part, [2478,3365:2549,3399] his [2563,3365:2630,3399] heirs [2634,3365:2686,3399] and [2691,3365:2795,3399] assigns, [2799,3365:2847,3399] for [2851,3365:2899,3399] the [2899,3365:2970,3399] term [2974,3365:3055,3399] of\n[1339,3404:1415,3430] years [1416,3404:1542,3430] aforesaid; [1551,3404:1654,3430] subject, [1663,3404:1702,3430] how\n[1611,3472:1657,3511] In [1667,3472:1809,3511] witness [1819,3472:1970,3511] adherent. [1984,3472:2034,3511] The [2036,3472:2086,3511] said [2088,3472:2154,3511] party [2156,3472:2186,3511] of [2188,3472:2234,3511] the [2232,3472:2286,3511] first [2292,3472:2342,3511] part, [2348,3472:2378,3511] as [2380,3472:2494,3511] Treasurer [2500,3472:2526,3511] of [2528,3472:2570,3511] the [2576,3472:2662,3511] County [2668,3472:2694,3511] of [2704,3472:2982,3511] Albany\n[2001,3516:2048,3545] for [2045,3516:2092,3545] the [2093,3516:2154,3545] time [2158,3516:2231,3545] being, [2242,3516:2300,3545] hath [2308,3516:2417,3545] hereunto [2421,3516:2464,3545] set [2469,3516:2512,3545] his [2516,3516:2581,3545] hand [2586,3516:2640,3545] and [2644,3516:2694,3545] seal [2695,3516:2742,3545] the [2750,3516:2797,3545] day [2798,3516:2848,3545] and [2849,3516:3025,3545] year\n[2012,3555:2074,3576] first [2085,3555:2164,3576] above [2178,3555:2273,3576] written.\n[2342,3608:2394,3704] E.L. [2543,3608:2990,3704] - [1262,3704:1676,3735] - [1666,3704:1738,3735] -\n[1636,3748:1842,3871] Philip [3630,537:3736,600] State [3754,537:3801,600] of [3836,537:3929,600] Hem [3969,537:4076,600] Hort,\n[3634,621:3696,650] CITY [3700,621:3755,650] AND [3755,621:3851,650] COUNTY [3855,621:3886,650] OF [3893,621:3990,650] ALBANY.\n[3758,681:3795,725] On [3803,681:3859,725] this [4754,668:4847,728] 187 [4888,668:4972,728] before [4985,668:5018,728] me, [5031,668:5082,728] the [5086,668:5225,728] subscriber, [5238,668:5324,728] a\n[3656,756:3865,777] Comm [3865,756:3939,777] of [3949,756:4159,777] Deeds\n[4568,754:4673,785] residing [4675,754:4705,785] in [4707,754:4753,785] the [4759,754:4812,785] City [4814,754:4864,785] and [4866,754:4955,785] County [4961,754:4987,785] of [4997,754:5083,785] Albany, [5093,754:5308,785] appeared\n[4309,790:4430,837] Treasurer [4433,790:4464,837] of [4467,790:4511,837] the [4519,790:4610,837] County [4613,790:4644,837] of [4651,790:4739,837] Albany, [4750,790:4799,837] and [4801,790:4974,837] acknowledged [4977,790:5030,837] that [5037,790:5068,837] he [5071,790:5272,837] had\n[3606,858:3729,887] executed [3731,858:3781,887] the [3792,858:3874,887] within [3876,858:4028,887] instrument. [4062,858:4121,887] And [4123,858:4141,887] I [4143,858:4242,887] further [4248,858:4339,887] certify [4341,858:4403,887] that [4410,858:4432,887] I [4438,858:4517,887] know [4519,858:4569,887] the [4579,858:4670,887] person [4680,858:4739,887] who [4753,858:4820,887] made [4826,858:4876,887] the [4882,858:4941,887] said [4947,858:5175,887] acknowledgment [5181,858:5215,887] to [5226,858:5316,887] be\n[3588,910:3628,936] the [3627,910:3744,936] individual [3746,910:3848,936] described [3847,910:3875,936] in [3877,910:3923,936] and [3928,910:3973,936] who [3972,910:4071,936] executed [4070,910:4110,936] the [4118,910:4184,936] within [4183,910:4303,936] instrument.\n[4676,996:4715,1030] H. [4749,996:4788,1030] H. [4836,996:5066,1030] Bender\n[3900,1017:4100,1137] August [4099,1017:4398,1137] 1877 [4631,1064:4775,1109] Court [4778,1064:4852,1109] of [4867,1064:5150,1109] Deeds\n[4923,1119:5121,1163] Albany [5153,1119:5307,1163] my\n[4099,1213:4316,1294] PEW [4321,1213:4530,1294] Cabe [4543,1213:4597,1294] Clerk.\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007120937"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00480"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007120937_00480"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-PZ6B-N"
+      } ]
+    } ]
+  } ]
+}

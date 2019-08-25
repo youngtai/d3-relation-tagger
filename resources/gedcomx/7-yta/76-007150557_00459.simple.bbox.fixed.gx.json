@@ -1,0 +1,1255 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028315458256",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557432079373
+    },
+    "description" : "#s_6917529028315458256",
+    "persons" : [ {
+      "id" : "p_6917529030805495356",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "L Sia Brant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "L Sia",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "L Sia"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "L Sia Brant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.47253096,0.1179898,0.48904413,0.12891479",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.48809147,0.1179898,0.5338203,0.12891479",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53477293,0.1179898,0.60971737,0.12891479",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "L Sia Brant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Town of Lowville",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.65925694,0.1179898,0.70308036,0.12891479",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.70212764,0.1179898,0.7205462,0.12891479",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7195935,0.1179898,0.7980311,0.12891479",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Town of Lowville"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805495456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Arunah Brant Herman E Cart",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Arunah",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Arunah"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant Herman E Cart",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant Herman E Cart"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Arunah Brant Herman E Cart"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2975548,0.15440641,0.37630993,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37789774,0.15440641,0.45030168,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4518895,0.15440641,0.5350905,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5366783,0.15440641,0.5560495,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.55763733,0.15440641,0.62591296,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Arunah Brant Herman E Cart"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805495556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Rufus M Great",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Rufus M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Rufus M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Great",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Great"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Rufus M Great"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6275008,0.15440641,0.68085104,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.68243885,0.15440641,0.70212764,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.70149255,0.15440641,0.76659256,0.1663025",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Rufus M Great"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805495656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Nelson Brant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Nelson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Nelson"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Nelson Brant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.19244204,0.16751638,0.25309622,0.18062636",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.25531915,0.16751638,0.308987,0.18062636",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Nelson Brant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805495756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "James Brant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "James",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "James"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "James Brant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3413782,0.16751638,0.4020324,0.18062636",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40425533,0.16751638,0.4649095,0.18062636",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "James Brant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZG9B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805495856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGS9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "James M Brant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "James M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "James M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "James M Brant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36138457,0.43092984,0.4077485,0.44064093",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4083836,0.43092984,0.42680216,0.44064093",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42743728,0.43092984,0.475389,0.44064093",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "James M. Brant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGS9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805495956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGS7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Seth",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Seth",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Seth"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Seth"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.45728803,0.45399368,0.4992061,0.46176258",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Seth"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGS7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805496056",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Nogether",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Nogether",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Nogether"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Nogether"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.19434741,0.52949744,0.2442045,0.53823745",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Nogether"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805496156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGS8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Earl Brant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Earl",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Earl"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Earl Brant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2540489,0.5503763,0.3080343,0.5593591",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3080343,0.5503763,0.36932358,0.5593591",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Earl Brant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGS8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805496256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Elosa Crouch",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Elosa",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Elosa"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Crouch",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Crouch"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Elosa Crouch"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.63639253,0.6632678,0.6992696,0.67395",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7005398,0.6632678,0.76913303,0.67395",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elosa Crouch"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805496356",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Elosca Grant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Elosca",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Elosca"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Grant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Grant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Elosca Grant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.44331533,0.7256616,0.5030168,0.7378004",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5049222,0.7256616,0.5646237,0.7378004",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elosca Grant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805496456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lovina Brant",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lovina",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lovina"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brant",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brant"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lovina Brant"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7294379,0.7256616,0.79136235,0.7378004",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.19085424,0.7365866,0.25214353,0.7465404",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lovina Brant"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "town of Portville",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2981899,0.7365866,0.3391553,0.7465404",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3397904,0.7365866,0.35725626,0.7465404",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35820895,0.7365866,0.42457923,0.7465404",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "town of Portville"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805496556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "W V Smith",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "W V",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "W V"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Smith",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Smith"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "W V Smith"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5188949,0.76571983,0.53572565,0.77518815",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.537631,0.76571983,0.5493808,0.77518815",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5496983,0.76571983,0.61479837,0.77518815",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "W. V. Smith"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-ZGSR-W"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://familysearch.org/types/relationships/NonRelative",
+      "person1" : {
+        "resource" : "#p_6917529030805495956",
+        "resourceId" : "p_6917529030805495956"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030805495356",
+        "resourceId" : "p_6917529030805495356"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Non-Relative",
+          "resource" : "http://familysearch.org/types/relationships/NonRelative"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Nonrelative"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Non-Relative"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028315458256",
+      "about" : "#r_6917529028315458256",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TV6V-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-99W6-J92J-D",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-99W6-J92J-D" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150557_00459_TXT</UNQ>\n<IMID>007150557_00459</IMID>\n<APID>TH-1951-32807-45522-29</APID>\n<IMGSIZE>3149,4119</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>441 Liber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 475, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty ninth day of ⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨ in the year\neighteen hundred and ninety- six</TIMEX>, Between <ENAMEX TYPE=\"PERSON\">L Sia Brant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Lowville</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> 114.\nof the first part, and <ENAMEX TYPE=\"PERSON\">Arunah Brant Herman E Cart</ENAMEX> <ENAMEX TYPE=\"PERSON\">Rufus M Great</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Nelson Brant</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">James Brant</ENAMEX> of the same place of the second part, Witnesseth.\nThat the said part of the first part, for and in consideration of the sum of\nDollars,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said partake of the second part, do hereby grant and release unto the said part one of the second\nart, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, described as follows to wit; of lands deeded to <ENAMEX TYPE=\"TITLE\">Doctor</ENAMEX> being part of lots 4 & 30. thence South 3⌨⌨⌨ west\n<NUMEX TYPE=\"QUANTITY\">six</NUMEX> chain, twenty. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to the center of the highway Brook; thence south 20 <NUMEX TYPE=\"QUANTITY\">15</NUMEX> West <NUMEX TYPE=\"QUANTITY\">four</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">three</NUMEX> links along the ⌨⌨⌨⌨⌨⌨⌨ of highway to a stake; thence north <NUMEX TYPE=\"QUANTITY\">eighty seven and a half</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">twenty two</NUMEX>\nchains and <NUMEX TYPE=\"QUANTITY\">sixty seven</NUMEX> links to a stake on west boundary line of lot fourteen\ntown one, range three; thence North <NUMEX TYPE=\"QUANTITY\">32</NUMEX> degrees East along the north line of lot by\n<NUMEX TYPE=\"QUANTITY\">twenty three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eighty six</NUMEX> links to the place of bequining containing twenty-\nthill or <NUMEX TYPE=\"QUANTITY\">Two</NUMEX> acres more or less.\nAlso the Northeast corner of Notice town or ⌨⌨⌨⌨⌨ three commercial at ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Corner of Said Lot 30 - and the north west corner to lot by theme worth 372° west lest\nChains along the East line of said lot to the Chains to a stake thence North 372° East <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains to a stake on the line between\nLots 30 and <NUMEX TYPE=\"QUANTITY\">31</NUMEX> commonly called the section line, thence South 87 ½° East to\nalong the north line of Lot 30. to the ⌨⌨⌨⌨ of or in both the above described lot letter Say of ⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ Receving ⌨⌨⌨⌨⌨⌨⌨⌨ to the party of the fast part as the valelect in & to the above described\npieces or parcels of land with the full enjoyment & west three for and during <ENAMEX TYPE=\"COREF\">her</ENAMEX> natural life\nThis conveyance is also made subject to the Tenancy by the Courts of the Just word. ⎬\nthe party of the first part <ENAMEX TYPE=\"PERSON\">James M. Brant</ENAMEX>, which said <ENAMEX TYPE=\"PERSON\">Jared</ENAMEX> <ENAMEX TYPE=\"COREF\">I</ENAMEX> want would have had\nthereon had this conveyance not been made and the party <NUMEX TYPE=\"QUANTITY\">six</NUMEX> minty of the first part deed\nseized thereof and intestate, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> <ENAMEX TYPE=\"PERSON\">Seth</ENAMEX> of on the condition subsequent that the said parties of the second part shall will ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ the said lands abre described for the beach to by the said <ENAMEX TYPE=\"COREF\">grantor</ENAMEX> and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> for <ENAMEX TYPE=\"COREF\">their</ENAMEX> proper support & maintenance while.\n<ENAMEX TYPE=\"COREF\">they</ENAMEX> or either of <ENAMEX TYPE=\"COREF\">them</ENAMEX> due, and in case of failure of the second praties to proventy <ENAMEX TYPE=\"PERSON\">Hanto</ENAMEX> & to support and provide for said party of the first part and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> then the estate\nherein granted shall cease, determine & be and remain said\n<ENAMEX TYPE=\"PERSON\">Nogether</ENAMEX>, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to bold,\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">Earl Brant</ENAMEX>\ndote covenant with the said parts of the\nthe second part as follows:\nThat the parties of the second part shall quietly Enjoy the said premises\nThat the said will forever warrant the Title to said premises.\nIn Witness unbere of, the said part of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">Elosa Crouch</ENAMEX> [ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF City of Escart</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">2 d\nday of November\nin the year eighteen\nhundred and ninety- six</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">Elosca Grant</ENAMEX> commonly known as <ENAMEX TYPE=\"PERSON\">Lovina\nBrant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">town of Portville</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Catt Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and the thereupon a\nacknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that the executed the same.\nL. S.\n<ENAMEX TYPE=\"PERSON\">W. V. Smith</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nand diedy or is\n__<TIMEX TYPE=\"TIME\">odock A.M.</TIMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"245\"_ENDID=\"265\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Twenty ninth day of ⌨⌨\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"346\"_ENDID=\"365\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"Town of Lowville\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3788\"_ENDID=\"3808\"_STTOKEN=\"Lovina Brant\"_ENDTOKEN=\"town of Portville\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1038\"_ENDID=\"2646\"_STTOKEN=\"his\"_ENDTOKEN=\"grantor\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"895\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2171\"_ENDID=\"346\"_STTOKEN=\"her\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2335\"_ENDID=\"2483\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2658\"_ENDID=\"346\"_STTOKEN=\"her\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2739\"_ENDID=\"2721\"_STTOKEN=\"them\"_ENDTOKEN=\"they\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2874\"_ENDID=\"346\"_STTOKEN=\"her\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3178\"_ENDID=\"2486\"_STTOKEN=\"his\"_ENDTOKEN=\"Seth\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3509\"_ENDID=\"2483\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3614\"_ENDID=\"895\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3737\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3845\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3867\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3983\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"656\"_ENDID=\"161\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"786\"_ENDID=\"2646\"_STTOKEN=\"his\"_ENDTOKEN=\"grantor\">\n<RELEX TYPE=\"S=1+\"_STID=\"2966\"_ENDID=\"2966\"_STTOKEN=\"Nogether\"_ENDTOKEN=\"Nogether\">\n<RELEX TYPE=\"S=2\"_STID=\"429\"_ENDID=\"429\"_STTOKEN=\"Arunah Brant Herman E Cart\"_ENDTOKEN=\"Arunah Brant Herman E Cart\">\n<RELEX TYPE=\"S=2+\"_STID=\"3222\"_ENDID=\"3222\"_STTOKEN=\"Earl Brant\"_ENDTOKEN=\"Earl Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"346\"_ENDID=\"346\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"3583\"_ENDID=\"3583\"_STTOKEN=\"Elosa Crouch\"_ENDTOKEN=\"Elosa Crouch\">\n<RELEX TYPE=\"S=2+\"_STID=\"3757\"_ENDID=\"3757\"_STTOKEN=\"Elosca Grant\"_ENDTOKEN=\"Elosca Grant\">\n<RELEX TYPE=\"S=2+\"_STID=\"3788\"_ENDID=\"3788\"_STTOKEN=\"Lovina Brant\"_ENDTOKEN=\"Lovina Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"470\"_ENDID=\"470\"_STTOKEN=\"Nelson Brant\"_ENDTOKEN=\"Nelson Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"488\"_ENDID=\"488\"_STTOKEN=\"James Brant\"_ENDTOKEN=\"James Brant\">\n<RELEX TYPE=\"S=3+\"_STID=\"2302\"_ENDID=\"2302\"_STTOKEN=\"James M. Brant\"_ENDTOKEN=\"James M. Brant\">\n<RELEX TYPE=\"S=3+\"_STID=\"4020\"_ENDID=\"4020\"_STTOKEN=\"W. V. Smith\"_ENDTOKEN=\"W. V. Smith\">\n<RELEX TYPE=\"S=3+\"_STID=\"456\"_ENDID=\"456\"_STTOKEN=\"Rufus M Great\"_ENDTOKEN=\"Rufus M Great\">\n<RELEX TYPE=\"S=5+\"_STID=\"429\"_ENDID=\"429\"_STTOKEN=\"Arunah Brant Herman E Cart\"_ENDTOKEN=\"Arunah Brant Herman E Cart\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1038\"_ENDID=\"1042\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2658\"_ENDID=\"2667\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2874\"_ENDID=\"2883\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3178\"_ENDID=\"3182\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3178\"_ENDID=\"3192\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"786\"_ENDID=\"790\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"786\"_ENDID=\"800\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"346\"_ENDID=\"214\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"346\"_ENDID=\"245\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"470\"_ENDID=\"245\"_STTOKEN=\"Nelson Brant\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"488\"_ENDID=\"245\"_STTOKEN=\"James Brant\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"346\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"2486\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Seth\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"346\"_ENDID=\"346\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3633\"_ENDID=\"3836\"_STTOKEN=\"COUNTY OF City of Escart\"_ENDTOKEN=\"N. Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3827\"_ENDID=\"3836\"_STTOKEN=\"Catt Co.\"_ENDTOKEN=\"N. Y.\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150557_00459_TXT</UNQ>\n<IMID>007150557_00459</IMID>\n<APID>TH-1951-32807-45522-29</APID>\n<IMGSIZE>3149,4119</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>441 Liber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 475, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty ninth day of ⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨ in the year\neighteen hundred and ninety- six</TIMEX>, Between <ENAMEX TYPE=\"PERSON\">L Sia Brant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Lowville</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> 114.\nof the first part, and <ENAMEX TYPE=\"PERSON\">Arunah Brant Herman E Cart</ENAMEX> <ENAMEX TYPE=\"PERSON\">Rufus M Great</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Nelson Brant</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">James Brant</ENAMEX> of the same place of the second part, Witnesseth.\nThat the said part of the first part, for and in consideration of the sum of\nDollars,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said partake of the second part, do hereby grant and release unto the said part one of the second\nart, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, described as follows to wit; of lands deeded to <ENAMEX TYPE=\"TITLE\">Doctor</ENAMEX> being part of lots 4 & 30. thence South 3⌨⌨⌨ west\n<NUMEX TYPE=\"QUANTITY\">six</NUMEX> chain, twenty. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to the center of the highway Brook; thence south 20 <NUMEX TYPE=\"QUANTITY\">15</NUMEX> West <NUMEX TYPE=\"QUANTITY\">four</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">three</NUMEX> links along the ⌨⌨⌨⌨⌨⌨⌨ of highway to a stake; thence north <NUMEX TYPE=\"QUANTITY\">eighty seven and a half</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">twenty two</NUMEX>\nchains and <NUMEX TYPE=\"QUANTITY\">sixty seven</NUMEX> links to a stake on west boundary line of lot fourteen\ntown one, range three; thence North <NUMEX TYPE=\"QUANTITY\">32</NUMEX> degrees East along the north line of lot by\n<NUMEX TYPE=\"QUANTITY\">twenty three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eighty six</NUMEX> links to the place of bequining containing twenty-\nthill or <NUMEX TYPE=\"QUANTITY\">Two</NUMEX> acres more or less.\nAlso the Northeast corner of Notice town or ⌨⌨⌨⌨⌨ three commercial at ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Corner of Said Lot 30 - and the north west corner to lot by theme worth 372° west lest\nChains along the East line of said lot to the Chains to a stake thence North 372° East <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains to a stake on the line between\nLots 30 and <NUMEX TYPE=\"QUANTITY\">31</NUMEX> commonly called the section line, thence South 87 ½° East to\nalong the north line of Lot 30. to the ⌨⌨⌨⌨ of or in both the above described lot letter Say of ⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ Receving ⌨⌨⌨⌨⌨⌨⌨⌨ to the party of the fast part as the valelect in & to the above described\npieces or parcels of land with the full enjoyment & west three for and during <ENAMEX TYPE=\"COREF\">her</ENAMEX> natural life\nThis conveyance is also made subject to the Tenancy by the Courts of the Just word. ⎬\nthe party of the first part <ENAMEX TYPE=\"PERSON\">James M. Brant</ENAMEX>, which said <ENAMEX TYPE=\"PERSON\">Jared</ENAMEX> <ENAMEX TYPE=\"COREF\">I</ENAMEX> want would have had\nthereon had this conveyance not been made and the party <NUMEX TYPE=\"QUANTITY\">six</NUMEX> minty of the first part deed\nseized thereof and intestate, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> <ENAMEX TYPE=\"PERSON\">Seth</ENAMEX> of on the condition subsequent that the said parties of the second part shall will ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ the said lands abre described for the beach to by the said <ENAMEX TYPE=\"COREF\">grantor</ENAMEX> and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> for <ENAMEX TYPE=\"COREF\">their</ENAMEX> proper support & maintenance while.\n<ENAMEX TYPE=\"COREF\">they</ENAMEX> or either of <ENAMEX TYPE=\"COREF\">them</ENAMEX> due, and in case of failure of the second praties to proventy <ENAMEX TYPE=\"PERSON\">Hanto</ENAMEX> & to support and provide for said party of the first part and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> then the estate\nherein granted shall cease, determine & be and remain said\n<ENAMEX TYPE=\"PERSON\">Nogether</ENAMEX>, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to bold,\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">Earl Brant</ENAMEX>\ndote covenant with the said parts of the\nthe second part as follows:\nThat the parties of the second part shall quietly Enjoy the said premises\nThat the said will forever warrant the Title to said premises.\nIn Witness unbere of, the said part of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">Elosa Crouch</ENAMEX> [ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF City of Escart</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">2 d\nday of November\nin the year eighteen\nhundred and ninety- six</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">Elosca Grant</ENAMEX> commonly known as <ENAMEX TYPE=\"PERSON\">Lovina\nBrant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">town of Portville</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Catt Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and the thereupon a\nacknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that the executed the same.\nL. S.\n<ENAMEX TYPE=\"PERSON\">W. V. Smith</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nand diedy or is\n__<TIMEX TYPE=\"TIME\">odock A.M.</TIMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"245\"_ENDID=\"265\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Twenty ninth day of ⌨⌨\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"346\"_ENDID=\"365\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"Town of Lowville\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3788\"_ENDID=\"3808\"_STTOKEN=\"Lovina Brant\"_ENDTOKEN=\"town of Portville\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1038\"_ENDID=\"2646\"_STTOKEN=\"his\"_ENDTOKEN=\"grantor\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"895\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2171\"_ENDID=\"346\"_STTOKEN=\"her\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2335\"_ENDID=\"2483\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2658\"_ENDID=\"346\"_STTOKEN=\"her\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2739\"_ENDID=\"2721\"_STTOKEN=\"them\"_ENDTOKEN=\"they\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2874\"_ENDID=\"346\"_STTOKEN=\"her\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3178\"_ENDID=\"2486\"_STTOKEN=\"his\"_ENDTOKEN=\"Seth\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3509\"_ENDID=\"2483\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3614\"_ENDID=\"895\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3737\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3845\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3867\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3983\"_ENDID=\"2483\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"656\"_ENDID=\"161\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"786\"_ENDID=\"2646\"_STTOKEN=\"his\"_ENDTOKEN=\"grantor\">\n<RELEX TYPE=\"S=1+\"_STID=\"2966\"_ENDID=\"2966\"_STTOKEN=\"Nogether\"_ENDTOKEN=\"Nogether\">\n<RELEX TYPE=\"S=2\"_STID=\"429\"_ENDID=\"429\"_STTOKEN=\"Arunah Brant Herman E Cart\"_ENDTOKEN=\"Arunah Brant Herman E Cart\">\n<RELEX TYPE=\"S=2+\"_STID=\"3222\"_ENDID=\"3222\"_STTOKEN=\"Earl Brant\"_ENDTOKEN=\"Earl Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"346\"_ENDID=\"346\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"3583\"_ENDID=\"3583\"_STTOKEN=\"Elosa Crouch\"_ENDTOKEN=\"Elosa Crouch\">\n<RELEX TYPE=\"S=2+\"_STID=\"3757\"_ENDID=\"3757\"_STTOKEN=\"Elosca Grant\"_ENDTOKEN=\"Elosca Grant\">\n<RELEX TYPE=\"S=2+\"_STID=\"3788\"_ENDID=\"3788\"_STTOKEN=\"Lovina Brant\"_ENDTOKEN=\"Lovina Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"470\"_ENDID=\"470\"_STTOKEN=\"Nelson Brant\"_ENDTOKEN=\"Nelson Brant\">\n<RELEX TYPE=\"S=2+\"_STID=\"488\"_ENDID=\"488\"_STTOKEN=\"James Brant\"_ENDTOKEN=\"James Brant\">\n<RELEX TYPE=\"S=3+\"_STID=\"2302\"_ENDID=\"2302\"_STTOKEN=\"James M. Brant\"_ENDTOKEN=\"James M. Brant\">\n<RELEX TYPE=\"S=3+\"_STID=\"4020\"_ENDID=\"4020\"_STTOKEN=\"W. V. Smith\"_ENDTOKEN=\"W. V. Smith\">\n<RELEX TYPE=\"S=3+\"_STID=\"456\"_ENDID=\"456\"_STTOKEN=\"Rufus M Great\"_ENDTOKEN=\"Rufus M Great\">\n<RELEX TYPE=\"S=5+\"_STID=\"429\"_ENDID=\"429\"_STTOKEN=\"Arunah Brant Herman E Cart\"_ENDTOKEN=\"Arunah Brant Herman E Cart\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1038\"_ENDID=\"1042\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2658\"_ENDID=\"2667\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2874\"_ENDID=\"2883\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3178\"_ENDID=\"3182\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3178\"_ENDID=\"3192\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"786\"_ENDID=\"790\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"786\"_ENDID=\"800\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"470\"_ENDID=\"245\"_STTOKEN=\"Nelson Brant\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"488\"_ENDID=\"245\"_STTOKEN=\"James Brant\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"346\"_ENDID=\"346\"_STTOKEN=\"L Sia Brant\"_ENDTOKEN=\"L Sia Brant\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3633\"_ENDID=\"3836\"_STTOKEN=\"COUNTY OF City of Escart\"_ENDTOKEN=\"N. Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3827\"_ENDID=\"3836\"_STTOKEN=\"Catt Co.\"_ENDTOKEN=\"N. Y.\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150557_00459_TXT</UNQ>\n<IMID>007150557_00459</IMID>\n<APID>TH-1951-32807-45522-29</APID>\n<IMGSIZE>3149,4119</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>441 Liber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 475, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty ninth day of ⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨ in the year\neighteen hundred and ninety- six</TIMEX>, Between <ENAMEX TYPE=\"PERSON\">L Sia Brant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Lowville</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> 114.\nof the first part, and <ENAMEX TYPE=\"PERSON\">Arunah Brant Herman E Cart</ENAMEX> <ENAMEX TYPE=\"PERSON\">Rufus M Great</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Nelson Brant</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">James Brant</ENAMEX> of the same place of the second part, Witnesseth.\nThat the said part of the first part, for and in consideration of the sum of\nDollars,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said partake of the second part, do hereby grant and release unto the said part one of the second\nart, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, described as follows to wit; of lands deeded to <ENAMEX TYPE=\"TITLE\">Doctor</ENAMEX> being part of lots 4 & 30. thence South 3⌨⌨⌨ west\n<NUMEX TYPE=\"QUANTITY\">six</NUMEX> chain, twenty. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to the center of the highway Brook; thence south 20 <NUMEX TYPE=\"QUANTITY\">15</NUMEX> West <NUMEX TYPE=\"QUANTITY\">four</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">three</NUMEX> links along the ⌨⌨⌨⌨⌨⌨⌨ of highway to a stake; thence north <NUMEX TYPE=\"QUANTITY\">eighty seven and a half</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">twenty two</NUMEX>\nchains and <NUMEX TYPE=\"QUANTITY\">sixty seven</NUMEX> links to a stake on west boundary line of lot fourteen\ntown one, range three; thence North <NUMEX TYPE=\"QUANTITY\">32</NUMEX> degrees East along the north line of lot by\n<NUMEX TYPE=\"QUANTITY\">twenty three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eighty six</NUMEX> links to the place of bequining containing twenty-\nthill or <NUMEX TYPE=\"QUANTITY\">Two</NUMEX> acres more or less.\nAlso the Northeast corner of Notice town or ⌨⌨⌨⌨⌨ three commercial at ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Corner of Said Lot 30 - and the north west corner to lot by theme worth 372° west lest\nChains along the East line of said lot to the Chains to a stake thence North 372° East <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains to a stake on the line between\nLots 30 and <NUMEX TYPE=\"QUANTITY\">31</NUMEX> commonly called the section line, thence South 87 ½° East to\nalong the north line of Lot 30. to the ⌨⌨⌨⌨ of or in both the above described lot letter Say of ⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ Receving ⌨⌨⌨⌨⌨⌨⌨⌨ to the party of the fast part as the valelect in & to the above described\npieces or parcels of land with the full enjoyment & west three for and during <ENAMEX TYPE=\"COREF\">her</ENAMEX> natural life\nThis conveyance is also made subject to the Tenancy by the Courts of the Just word. ⎬\nthe party of the first part <ENAMEX TYPE=\"PERSON\">James M. Brant</ENAMEX>, which said <ENAMEX TYPE=\"PERSON\">Jared</ENAMEX> <ENAMEX TYPE=\"COREF\">I</ENAMEX> want would have had\nthereon had this conveyance not been made and the party <NUMEX TYPE=\"QUANTITY\">six</NUMEX> minty of the first part deed\nseized thereof and intestate, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> <ENAMEX TYPE=\"PERSON\">Seth</ENAMEX> of on the condition subsequent that the said parties of the second part shall will ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ the said lands abre described for the beach to by the said <ENAMEX TYPE=\"COREF\">grantor</ENAMEX> and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> for <ENAMEX TYPE=\"COREF\">their</ENAMEX> proper support & maintenance while.\n<ENAMEX TYPE=\"COREF\">they</ENAMEX> or either of <ENAMEX TYPE=\"COREF\">them</ENAMEX> due, and in case of failure of the second praties to proventy <ENAMEX TYPE=\"PERSON\">Hanto</ENAMEX> & to support and provide for said party of the first part and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> then the estate\nherein granted shall cease, determine & be and remain said\n<ENAMEX TYPE=\"PERSON\">Nogether</ENAMEX>, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to bold,\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">Earl Brant</ENAMEX>\ndote covenant with the said parts of the\nthe second part as follows:\nThat the parties of the second part shall quietly Enjoy the said premises\nThat the said will forever warrant the Title to said premises.\nIn Witness unbere of, the said part of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">Elosa Crouch</ENAMEX> [ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF City of Escart</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">2 d\nday of November\nin the year eighteen\nhundred and ninety- six</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">Elosca Grant</ENAMEX> commonly known as <ENAMEX TYPE=\"PERSON\">Lovina\nBrant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">town of Portville</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Catt Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and the thereupon a\nacknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that the executed the same.\nL. S.\n<ENAMEX TYPE=\"PERSON\">W. V. Smith</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nand diedy or is\n__<TIMEX TYPE=\"TIME\">odock A.M.</TIMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150557_00459_TXT</UNQ>\n<IMID>007150557_00459</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1951</TIMEX>-32807-45522-29</APID>\n<IMGSIZE>3149,4119</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>441 Liber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 475, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty ninth day of ⌨⌨⌨⌨⌨⌨ in the year\neighteen hundred and ninety- six</TIMEX>, Between <ENAMEX TYPE=\"PERSON\">L Sia Brant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Lowville</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> 114.\nof the first part, and <ENAMEX TYPE=\"PERSON\">Arunah Brant Herman E Cart</ENAMEX> <ENAMEX TYPE=\"PERSON\">Rufus M Great</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Nelson Brant</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">James Brant</ENAMEX> of the same place of the second part, Witnesseth.\nThat the said part of the first part, for and in consideration of the sum of\nDollars,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said partake of the second part, do hereby grant and release unto the said part one of the second\nart, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, described as follows to wit; of lands deeded to <ENAMEX TYPE=\"TITLE\">Doctor</ENAMEX> being part of lots 4 & 30. thence South 3⌨⌨⌨ west\n<NUMEX TYPE=\"QUANTITY\">six</NUMEX> chain, twenty. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to the center of the highway Brook; thence south 20 <NUMEX TYPE=\"QUANTITY\">15</NUMEX> West <NUMEX TYPE=\"QUANTITY\">four</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">three</NUMEX> links along the ⌨⌨⌨⌨⌨⌨⌨ of highway to a stake; thence north <NUMEX TYPE=\"QUANTITY\">eighty seven and a half</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">twenty two</NUMEX>\nchains and <NUMEX TYPE=\"QUANTITY\">sixty seven</NUMEX> links to a stake on west boundary line of lot fourteen\ntown one, range three; thence North <NUMEX TYPE=\"QUANTITY\">32</NUMEX> degrees East along the north line of lot by\n<NUMEX TYPE=\"QUANTITY\">twenty three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eighty six</NUMEX> links to the place of bequining containing twenty-\nthill or <NUMEX TYPE=\"QUANTITY\">Two</NUMEX> acres more or less.\nAlso the Northeast corner of Notice town or ⌨⌨⌨⌨⌨ three commercial at ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Corner of Said Lot 30 - and the north west corner to lot by theme worth 372° west lest\nChains along the East line of said lot to the Chains to a stake thence North 372° East <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains to a stake on the line between\nLots 30 and <NUMEX TYPE=\"QUANTITY\">31</NUMEX> commonly called the section line, thence South 87 ½° East to\nalong the north line of Lot 30. to the ⌨⌨⌨⌨ of or in both the above described lot letter Say of ⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ Receving ⌨⌨⌨⌨⌨⌨⌨⌨ to the party of the fast part as the valelect in & to the above described\npieces or parcels of land with the full enjoyment & west three for and during <ENAMEX TYPE=\"COREF\">her</ENAMEX> natural life\nThis conveyance is also made subject to the Tenancy by the Courts of the Just word. ⎬\nthe party of the first part <ENAMEX TYPE=\"PERSON\">James M. Brant</ENAMEX>, which said <ENAMEX TYPE=\"PERSON\">Jared</ENAMEX> <ENAMEX TYPE=\"COREF\">I</ENAMEX> want would have had\nthereon had this conveyance not been made and the party <NUMEX TYPE=\"QUANTITY\">six</NUMEX> minty of the first part deed\nseized thereof and intestate, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> <ENAMEX TYPE=\"PERSON\">Seth</ENAMEX> of on the condition subsequent that the said parties of the second part shall will ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨⌨ the said lands abre described for the beach to by the said <ENAMEX TYPE=\"COREF\">grantor</ENAMEX> and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> for <ENAMEX TYPE=\"COREF\">their</ENAMEX> proper support & maintenance while.\n<ENAMEX TYPE=\"COREF\">they</ENAMEX> or either of <ENAMEX TYPE=\"COREF\">them</ENAMEX> due, and in case of failure of the second praties to proventy <ENAMEX TYPE=\"PERSON\">Hanto</ENAMEX> & to support and provide for said party of the first part and <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> then the estate\nherein granted shall cease, determine & be and remain said\n<ENAMEX TYPE=\"PERSON\">Nogether</ENAMEX>, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to bold,\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">Earl Brant</ENAMEX>\ndote covenant with the said parts of the\nthe second part as follows:\nThat the parties of the second part shall quietly Enjoy the said premises\nThat the said will forever warrant the Title to said premises.\nIn Witness unbere of, the said part of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">Elosa Crouch</ENAMEX> [ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF City of Escart</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">2 d\nday of November\nin the year eighteen\nhundred and ninety- six</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">Elosca Grant</ENAMEX> commonly known as <ENAMEX TYPE=\"PERSON\">Lovina\nBrant</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">town of Portville</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Catt Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and the thereupon a\nacknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that the executed the same.\nL. S.\n<ENAMEX TYPE=\"PERSON\">W. V. Smith</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nand diedy or is\n__<TIMEX TYPE=\"TIME\">odock A.M.</TIMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150557_00459_TXT</UNQ>\n<IMID>007150557_00459</IMID>\n<APID>TH-1951-32807-45522-29</APID>\n<IMGSIZE>3149,4119</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[2498,248:2638,306] 441 [1420,300:1618,341] Liber [1625,300:1743,341] 184.\n[676,329:871,356] WARRANTY [868,329:956,356] DEED. [953,329:983,356] -- [976,329:1041,356] Chap. [1041,329:1087,356] 475, [1087,329:1145,356] 1890.\n[638,390:861,476] This [870,390:1349,476] Indenture, [1382,390:1461,476] Made [1454,390:1533,476] the [1542,390:1716,476] Twenty [1717,390:1908,476] ninth [1909,390:1972,476] day [1965,390:2020,476] of [2021,390:2372,476] ⌨⌨⌨⌨⌨⌨ [2373,390:2412,476] in [2405,390:2460,476] the [2453,390:2573,476] year\n[612,486:738,531] eighteen [729,486:854,531] hundred [845,486:903,531] and [900,486:1007,531] ninety- [1017,486:1099,531] six, [1323,486:1491,531] Between [1488,486:1540,531] L [1537,486:1681,531] Sia [1684,486:1920,531] Brant [1923,486:1987,531] of [1991,486:2073,531] the [2076,486:2214,531] Town [2211,486:2269,531] of [2266,486:2513,531] Lowville\n[604,543:940,577] Cattaraugus [939,543:1150,577] County [1145,543:1241,577] 114.\n[611,636:653,685] of [651,636:706,685] the [704,636:772,685] first [771,636:839,685] part, [844,636:932,685] and [937,636:1185,685] Arunah [1190,636:1418,685] Brant [1423,636:1685,685] Herman [1690,636:1751,685] E [1756,636:1971,685] Cart [1976,636:2144,685] Rufus [2149,636:2211,685] M [2209,636:2414,685] Great\n[606,690:797,744] Nelson [804,690:973,744] Brant, [994,690:1060,744] and [1075,690:1266,744] James [1273,690:1464,744] Brant [1471,690:1530,744] of [1529,690:1618,744] the [1617,690:1757,744] same [1764,690:2087,744] place [2086,690:2123,744] of [2123,690:2175,744] the [2167,690:2263,744] second [2262,690:2329,744] part, [2343,690:2519,744] Witnesseth.\n[617,753:687,785] That [681,753:737,785] the [731,753:795,785] said [794,753:900,785] part [898,753:936,785] of [930,753:986,785] the [980,753:1044,785] first [1038,753:1103,785] part, [1106,753:1162,785] for [1156,753:1216,785] and [1210,753:1248,785] in [1247,753:1425,785] consideration [1423,753:1461,785] of [1455,753:1511,785] the [1505,753:1570,785] sum [1568,753:1761,785] of\n[2411,760:2515,785] Dollars,\n[609,797:705,831] lawful [700,797:801,831] money [796,797:835,831] of [829,797:887,831] the [882,797:983,831] United [978,797:1070,831] States, [1074,797:1142,831] paid [1136,797:1185,831] by [1179,797:1233,831] the [1227,797:1295,831] said [1290,797:1405,831] partake [1400,797:1439,831] of [1434,797:1492,831] the [1486,797:1588,831] second [1582,797:1645,831] part, [1654,797:1732,831] do [1731,797:1832,831] hereby [1827,797:1909,831] grant [1904,797:1962,831] and [1956,797:2063,831] release [2057,797:2125,831] unto [2120,797:2173,831] the [2172,797:2235,831] said [2230,797:2302,831] part [2297,797:2346,831] one [2340,797:2379,831] of [2374,797:2432,831] the [2426,797:2573,831] second\n[625,842:679,872] art, [693,842:874,872] his [868,842:947,872] heirs [940,842:1002,872] and [995,842:1108,872] assigns [1102,842:1210,872] forever,\n[611,887:681,917] ALL [679,887:762,917] THAT [760,887:851,917] TRACT [849,887:898,917] OR [896,887:1005,917] PARCEL [1002,887:1047,917] OF [1045,887:1128,917] LAND, [1134,887:1235,917] situate [1228,887:1269,917] in [1262,887:1618,917] the [1616,887:1933,917] of\n[2217,892:2321,922] County [2315,892:2355,922] of [2349,892:2566,922] Cattaraugus\n[609,931:671,962] and [669,931:748,962] State [746,931:782,962] of [780,931:855,962] New [852,931:927,962] York, [946,931:1179,962] described [1176,931:1243,962] as [1240,931:1439,962] follows [1441,931:1494,962] to [1492,931:1588,962] wit; [590,974:634,1008] of [642,974:811,1008] lands [810,974:988,1008] deeded [988,974:1055,1008] to [1060,974:1348,1008] Doctor [1347,974:1482,1008] being [1481,974:1616,1008] part [1616,974:1674,1008] of [1678,974:1784,1008] lots [1783,974:1846,1008] 4 [1846,974:1875,1008] & [1884,974:1957,1008] 30. [1985,974:2134,1008] thence [2133,974:2278,1008] South [2277,974:2369,1008] 3⌨⌨⌨ [2368,974:2516,1008] west\n[591,1021:704,1051] six [706,1021:879,1051] chain, [907,1021:1071,1051] twenty. [1081,1021:1186,1051] his [1188,1021:1348,1051] wife [1350,1021:1416,1051] to [1418,1021:1505,1051] the [1507,1021:1655,1051] center [1657,1021:1731,1051] of [1729,1021:1817,1051] the [1819,1021:2038,1051] highway [595,1064:751,1094] Brook; [779,1064:952,1094] thence [949,1064:1088,1094] south [1082,1064:1152,1094] 20 [1141,1064:1224,1094] 15 [1222,1064:1352,1094] West [1350,1064:1467,1094] four [1465,1064:1642,1094] chains [1640,1064:1749,1094] and [1747,1064:1868,1094] three [1866,1064:2009,1094] links [2011,1064:2154,1094] along [2152,1064:2235,1094] the [2233,1064:2371,1094] ⌨⌨⌨⌨⌨⌨⌨ [2369,1064:2427,1094] of [585,1105:780,1144] highway [781,1105:840,1144] to [841,1105:900,1144] a [901,1105:1053,1144] stake; [1087,1105:1239,1144] thence [1240,1105:1375,1144] north [1382,1105:1523,1144] eighty [1524,1105:1665,1144] seven [1666,1105:1769,1144] and [1770,1105:1818,1144] a [1825,1105:1938,1144] half [1945,1105:2107,1144] degrees [2103,1105:2233,1144] west [2234,1105:2397,1144] twenty [2393,1105:2520,1144] two\n[587,1144:767,1189] chains [765,1144:896,1189] and [899,1144:1049,1189] sixty [1046,1144:1202,1189] seven [1206,1144:1337,1189] links [1340,1144:1398,1189] to [1402,1144:1453,1189] a [1457,1144:1619,1189] stake [1622,1144:1698,1189] on [1696,1144:1821,1189] west [1824,1144:2048,1189] boundary [2045,1144:2176,1189] line [2180,1144:2231,1189] of [2235,1144:2317,1189] lot [2314,1144:2506,1189] fourteen\n[585,1192:715,1230] town [715,1192:798,1230] one, [824,1192:985,1230] range [986,1192:1104,1230] three; [1136,1192:1286,1230] thence [1287,1192:1437,1230] North [1438,1192:1520,1230] 32 [1526,1192:1702,1230] degrees [1703,1192:1822,1230] East [1822,1192:1972,1230] along [1973,1192:2061,1230] the [2061,1192:2191,1230] north [2191,1192:2310,1230] line [2311,1192:2373,1230] of [2373,1192:2456,1230] lot [2451,1192:2545,1230] by\n[583,1235:751,1282] twenty [749,1235:879,1282] three [890,1235:1078,1282] chains [1075,1235:1193,1282] and [1190,1235:1353,1282] eighty [1350,1235:1461,1282] six [1465,1235:1615,1282] links [1619,1235:1672,1282] to [1670,1235:1743,1282] the [1740,1235:1871,1282] place [1868,1235:1915,1282] of [1913,1235:2126,1282] bequining [2131,1235:2363,1282] containing [2361,1235:2510,1282] twenty-\n[583,1287:696,1318] thill [694,1287:772,1318] or [775,1287:879,1318] Two [877,1287:1015,1318] acres [1013,1287:1143,1318] more [1141,1287:1207,1318] or [1209,1287:1301,1318] less.\n[606,1335:721,1364] Also [718,1335:805,1364] the [806,1335:1045,1364] Northeast [1046,1335:1217,1364] corner [1218,1335:1272,1364] of [1273,1335:1432,1364] Notice [1425,1335:1560,1364] town [1557,1335:1656,1364] or [1653,1335:1800,1364] ⌨⌨⌨⌨⌨ [1797,1335:1932,1364] three [1933,1335:2208,1364] commercial [2205,1335:2260,1364] at [2257,1335:2328,1364] ⌨⌨⌨ [2325,1335:2444,1364] ⌨⌨⌨⌨⌨⌨ [574,1382:756,1412] Corner [758,1382:815,1412] of [813,1382:956,1412] Said [954,1382:1054,1412] Lot [1052,1382:1114,1412] 30 [1103,1382:1127,1412] - [1137,1382:1254,1412] and [1252,1382:1335,1412] the [1333,1382:1459,1412] north [1457,1382:1574,1412] west [1572,1382:1706,1412] corner [1704,1382:1762,1412] to [1759,1382:1834,1412] lot [1832,1382:1907,1412] by [1900,1382:2043,1412] theme [2037,1382:2167,1412] worth [2164,1382:2260,1412] 372° [2258,1382:2376,1412] west [2373,1382:2471,1412] lest\n[584,1425:753,1450] Chains [753,1425:897,1450] along [893,1425:980,1450] the [979,1425:1106,1450] East [1101,1425:1214,1450] line [1209,1425:1275,1450] of [1274,1425:1397,1450] said [1393,1425:1480,1450] lot [1479,1425:1544,1450] to [1544,1425:1609,1450] the [570,1466:753,1498] Chains [751,1466:807,1498] to [810,1466:866,1498] a [860,1466:1047,1498] stake [1046,1466:1192,1498] thence [1195,1466:1323,1498] North [1326,1466:1436,1498] 372° [1435,1466:1559,1498] East [1557,1466:1654,1498] ten [1652,1466:1821,1498] chains [1820,1466:1880,1498] to [1879,1466:1925,1498] a [1924,1466:2057,1498] stake [2055,1466:2129,1498] on [2128,1466:2206,1498] the [2200,1466:2301,1498] line [2300,1466:2513,1498] between\n[574,1505:671,1545] Lots [672,1505:736,1545] 30 [732,1505:829,1545] and [830,1505:905,1545] 31 [907,1505:1146,1545] commonly [1147,1505:1304,1545] called [1300,1505:1381,1545] the [1377,1505:1561,1545] section [1562,1505:1659,1545] line, [1683,1505:1812,1545] thence [1808,1505:1927,1545] South [1928,1505:1987,1545] 87 [1983,1505:2047,1545] ½° [2049,1505:2167,1545] East [2158,1505:2204,1545] to\n[586,1559:725,1586] along [722,1559:825,1586] the [826,1559:972,1586] north [969,1559:1084,1586] line [1081,1559:1150,1586] of [1146,1559:1242,1586] Lot [1239,1559:1300,1586] 30. [1316,1559:1381,1586] to [1374,1559:1455,1586] the [1451,1559:1582,1586] ⌨⌨⌨⌨ [1579,1559:1648,1586] of [591,1600:663,1634] or [662,1600:745,1634] in [744,1600:855,1634] both [854,1600:951,1634] the [950,1600:1085,1634] above [1085,1600:1306,1634] described [1305,1600:1406,1634] lot [1406,1600:1517,1634] letter [1516,1600:1632,1634] Say [1622,1600:1680,1634] of [1689,1600:1781,1634] ⌨⌨⌨ [1775,1600:1920,1634] ⌨⌨⌨⌨⌨ [1914,1600:2059,1634] ⌨⌨⌨⌨ [615,1647:826,1677] Receving [824,1647:1005,1677] ⌨⌨⌨⌨⌨⌨⌨⌨ [1003,1647:1069,1677] to [1067,1647:1146,1677] the [1144,1647:1269,1677] party [1267,1647:1325,1677] of [1318,1647:1406,1677] the [1404,1647:1517,1677] fast [1519,1647:1640,1677] part [1638,1647:1692,1677] as [1694,1647:1785,1677] the [1783,1647:1990,1677] valelect [1992,1647:2058,1677] in [2056,1647:2084,1677] & [2103,1647:2152,1677] to [2150,1647:2229,1677] the [2227,1647:2352,1677] above [2355,1647:2562,1677] described\n[586,1688:716,1722] pieces [715,1688:773,1722] or [768,1688:927,1722] parcels [926,1688:975,1722] of [970,1688:1085,1722] land [1085,1688:1196,1722] with [1195,1688:1272,1722] the [1272,1688:1364,1722] full [1358,1688:1575,1722] enjoyment [1574,1688:1599,1722] & [1608,1688:1695,1722] west [1694,1688:1848,1722] three [1847,1688:1930,1722] for [1929,1688:2026,1722] and [2025,1688:2160,1722] during [2159,1688:2246,1722] her [2246,1688:2428,1722] natural [2428,1688:2545,1722] life\n[618,1731:725,1772] This [727,1731:960,1772] conveyance [956,1731:1017,1772] is [1014,1731:1115,1772] also [1111,1731:1246,1772] made [1249,1731:1418,1772] subject [1421,1731:1476,1772] to [1472,1731:1556,1772] the [1558,1731:1751,1772] Tenancy [1753,1731:1819,1772] by [1822,1731:1905,1772] the [1908,1731:2100,1772] Courts [2097,1731:2146,1772] of [2148,1731:2221,1772] the [2217,1731:2318,1772] Just [2320,1731:2398,1772] word. [2423,1731:2509,1772] ⎬\n[587,1775:662,1815] the [658,1775:771,1815] party [773,1775:820,1815] of [822,1775:897,1815] the [898,1775:1006,1815] first [1002,1775:1132,1815] part [1138,1775:1284,1815] James [1286,1775:1344,1815] M. [1346,1775:1497,1815] Brant, [1515,1775:1672,1815] which [1673,1775:1798,1815] said [1794,1775:1923,1815] Jared [1919,1775:1983,1815] I [1985,1775:2142,1815] want [2137,1775:2289,1815] would [2290,1775:2415,1815] have [2410,1775:2548,1815] had\n[581,1818:711,1870] thereon [717,1818:826,1870] had [825,1818:934,1870] this [933,1818:1200,1870] conveyance [1206,1818:1293,1870] not [1293,1818:1401,1870] been [1408,1818:1559,1870] made [1559,1818:1660,1870] and [1659,1818:1725,1870] the [1731,1818:1847,1870] party [1846,1818:1962,1870] six [1961,1818:2084,1870] minty [2084,1818:2127,1870] of [2127,1818:2199,1870] the [2199,1818:2307,1870] first [2299,1818:2408,1870] part [2407,1818:2548,1870] deed\n[584,1870:744,1902] seized [742,1870:898,1902] thereof [896,1870:1002,1902] and [1000,1870:1197,1902] intestate, [1213,1870:1351,1902] before [1349,1870:1437,1902] me [1440,1870:1572,1902] Seth [1571,1870:1636,1902] of [591,1916:634,1945] on [631,1916:690,1945] the [683,1916:874,1945] condition [871,1916:1089,1945] subsequent [1086,1916:1173,1945] that [1174,1916:1241,1945] the [1234,1916:1341,1945] said [1338,1916:1473,1945] parties [1470,1916:1517,1945] of [1510,1916:1589,1945] the [1590,1916:1737,1945] second [1734,1916:1836,1945] part [1833,1916:1932,1945] shall [1929,1916:2000,1945] will [1997,1916:2076,1945] ⌨⌨⌨ [2073,1916:2216,1945] ⌨⌨⌨⌨⌨⌨⌨⌨ [2213,1916:2280,1945] the [2277,1916:2364,1945] said [2361,1916:2468,1945] lands [2465,1916:2604,1945] abre [581,1959:752,1997] described [753,1959:815,1997] for [810,1959:882,1997] the [878,1959:981,1997] beach [976,1959:1012,1997] to [1013,1959:1059,1997] by [1059,1959:1132,1997] the [1132,1959:1236,1997] said [1231,1959:1397,1997] grantor [1392,1959:1475,1997] and [1470,1959:1558,1997] her [1558,1959:1651,1997] said [1647,1959:1823,1997] husband [1818,1959:1880,1997] for [1881,1959:1974,1997] their [1969,1959:2098,1997] proper [2094,1959:2228,1997] support [2224,1959:2249,1997] & [2260,1959:2483,1997] maintenance [2478,1959:2566,1997] while.\n[577,2004:664,2034] they [662,2004:715,2034] or [709,2004:831,2034] either [828,2004:873,2034] of [867,2004:967,2034] them [965,2004:1039,2034] due, [1050,2004:1142,2034] and [1139,2004:1201,2034] in [1199,2004:1312,2034] case [1310,2004:1359,2034] of [1353,2004:1495,2034] failure [1493,2004:1534,2034] of [1527,2004:1593,2034] the [1591,2004:1730,2034] second [1723,2004:1875,2034] praties [1872,2004:1926,2034] to [1924,2004:2092,2034] proventy [572,2047:703,2083] Hanto [698,2047:718,2083] & [734,2047:784,2083] to [784,2047:941,2083] support [941,2047:1027,2083] and [1027,2047:1194,2083] provide [1189,2047:1260,2083] for [1255,2047:1361,2083] said [1361,2047:1472,2083] party [1473,2047:1528,2083] of [1528,2047:1599,2083] the [1599,2047:1710,2083] first [1705,2047:1811,2083] part [1807,2047:1892,2083] and [1893,2047:1973,2083] her [1968,2047:2075,2083] said [2070,2047:2257,2083] husband [2257,2047:2348,2083] then [2348,2047:2409,2083] the [2404,2047:2555,2083] estate\n[573,2090:707,2127] herein [708,2090:884,2127] granted [884,2090:998,2127] shall [999,2090:1097,2127] cease, [1118,2090:1320,2127] determine [1320,2090:1346,2127] & [1357,2090:1419,2127] be [1414,2090:1507,2127] and [1502,2090:1673,2127] remain [1668,2090:1810,2127] said\n[571,2181:612,2217]  [612,2181:769,2217] Nogether, [774,2181:844,2217] with [840,2181:890,2217] the [890,2181:1087,2217] appurtenances; [1093,2181:1148,2217] and [1143,2181:1189,2217] all [1184,2181:1234,2217] the [1234,2181:1320,2217] estate [1310,2181:1371,2217] and [1366,2181:1452,2217] rights [1447,2181:1482,2217] of [1477,2181:1533,2217] the [1523,2181:1589,2217] said [1584,2181:1695,2217] part [1690,2181:1730,2217] of [1726,2181:1776,2217] the [1771,2181:1837,2217] first [1832,2181:1897,2217] part, [1898,2181:1938,2217] in [1928,2181:1989,2217] and [1984,2181:2019,2217] to [2014,2181:2080,2217] said [2075,2181:2196,2217] premises. [2212,2181:2262,2217] To [2257,2181:2333,2217] have [2328,2181:2394,2217] and [2389,2181:2434,2217] to [2429,2181:2505,2217] bold,\n[608,2222:663,2263] the [660,2222:743,2263] above [740,2222:852,2263] granted [849,2222:972,2263] premises [969,2222:1041,2263] unto [1038,2222:1087,2263] the [1083,2222:1150,2263] said [1141,2222:1259,2263] part [1255,2222:1293,2263] of [1284,2222:1339,2263] the [1335,2222:1436,2263] second [1427,2222:1493,2263] part, [1513,2222:1659,2263] his [1662,2222:1734,2263] heirs [1730,2222:1791,2263] and [1788,2222:1888,2263] assigns [1885,2222:1986,2263] forever.\n[613,2267:675,2304] And [670,2267:727,2304] the [722,2267:794,2304] said [800,2267:970,2304] Earl [970,2267:1163,2304] Brant\n[1651,2279:1726,2308] dote [1722,2279:1849,2308] covenant [1842,2279:1913,2308] with [1906,2279:1961,2308] the [1958,2279:2020,2308] said [2017,2279:2128,2308] parts [2125,2279:2160,2308] of [2157,2279:2239,2308] the\n[2160,2279:2211,2308] the [2208,2279:2302,2308] second [2299,2279:2366,2308] part [2359,2279:2402,2308] as [2395,2279:2506,2308] follows:\n[614,2317:726,2358] That [729,2317:812,2358] the [809,2317:973,2358] parties [969,2317:1018,2358] of [1021,2317:1093,2358] the [1089,2317:1259,2358] second [1261,2317:1379,2358] part [1381,2317:1517,2358] shall [1513,2317:1688,2358] quietly [1691,2317:1826,2358] Enjoy [1822,2317:1912,2358] the [1914,2317:2026,2358] said [2028,2317:2260,2358] premises\n[752,2615:828,2660] That [820,2615:877,2660] the [869,2615:939,2660] said [1899,2633:1961,2664] will [1955,2633:2059,2664] forever [2057,2633:2170,2664] warrant [2163,2633:2221,2664] the [2219,2633:2289,2664] Title [2287,2633:2323,2664] to [2316,2633:2383,2664] said [2376,2633:2502,2664] premises.\n[613,2685:670,2723] In [670,2685:831,2723] Witness [831,2685:950,2723] unbere [946,2685:987,2723] of, [993,2685:1049,2723] the [1044,2685:1106,2723] said [1102,2685:1215,2723] part [1211,2685:1252,2723] of [1247,2685:1304,2723] the [1294,2685:1361,2723] first [1356,2685:1423,2723] part [1418,2685:1506,2723] ha [1502,2685:1631,2723] hereunto [1621,2685:1693,2723] set [1714,2685:1818,2723] my [1813,2685:1906,2723] hand [1901,2685:1963,2723] and [1959,2685:2036,2723] seal [2031,2685:2088,2723] the [2083,2685:2140,2723] day [2135,2685:2197,2723] and [2192,2685:2259,2723] year [2255,2685:2316,2723] first [2317,2685:2400,2723] above [2395,2685:2503,2723] written.\n[748,2750:792,2775] In [788,2750:842,2775] the [838,2750:964,2775] presence [960,2750:1051,2775] of\n[2004,2732:2202,2776] Elosa [2206,2732:2422,2776] Crouch [2426,2732:2453,2776] [ [2438,2732:2471,2776] L. [2469,2732:2502,2776] S.]\n[2424,2789:2449,2825] [ [2434,2789:2470,2825] L. [2465,2789:2505,2825] S.]\n[655,2873:826,2916] STATE [829,2873:904,2916] OF [907,2873:1047,2916] NEW [1050,2873:1185,2916] YORK. [610,2907:723,2937] COUNTY [717,2907:774,2937] OF [680,2955:809,2989] City [809,2955:862,2989] of [861,2955:1093,2989] Escart\n[1321,2955:1365,2986] On [1359,2955:1450,2986] the [1444,2955:1550,2986] 2 d\n[1752,2955:1799,2987] day [1797,2955:1848,2987] of [1847,2955:2126,2987] November\n[2292,2964:2324,2989] in [2320,2964:2364,2989] the [2360,2964:2418,2989] year [2410,2964:2562,2989] eighteen\n[613,2989:711,3039] hundred [703,2989:753,3039] and [745,2989:836,3039] ninety- [849,2989:1072,3039] six [1071,2989:1155,3039] before [1147,2989:1190,3039] me, [1188,2989:1307,3039] personally [1299,2989:1390,3039] came [1396,2989:1584,3039] Elosca [1590,2989:1778,3039] Grant [1784,2989:2035,3039] commonly [2041,2989:2208,3039] known [2214,2989:2291,3039] as [2297,2989:2492,3039] Lovina\n[601,3034:794,3075] Brant [796,3034:851,3075] of [847,3034:937,3075] the [939,3034:1068,3075] town [1070,3034:1125,3075] of [1128,3034:1337,3075] Portville, [1357,3034:1475,3075] Catt [1477,3034:1537,3075] Co. [1557,3034:1606,3075] N. [1608,3034:1658,3075] Y.\n[607,3084:642,3132] to [641,3084:682,3132] me [674,3084:755,3132] known [754,3084:802,3132] and [794,3084:875,3132] known [874,3084:902,3132] to [900,3084:942,3132] me [933,3084:968,3132] to [960,3084:1002,3132] be [993,3084:1042,3132] the [1033,3084:1155,3132] individual [1160,3084:1268,3132] described [1260,3084:1295,3132] in, [1293,3084:1341,3132] and [1340,3084:1394,3132] who [1386,3084:1488,3132] executed [1486,3084:1528,3132] the [1526,3084:1634,3132] foregoing [1626,3084:1754,3132] instrument [1746,3084:1801,3132] and [1792,3084:1874,3132] the [1872,3084:1994,3132] thereupon [2025,3084:2154,3132] a\n[2359,3089:2566,3112] acknowledged\n[608,3132:644,3154] to [635,3132:681,3154] me [675,3132:733,3154] that [727,3132:812,3154] the [806,3132:913,3154] executed [904,3132:949,3154] the [941,3132:1007,3154] same.\n[1168,3163:1226,3197] L. [1230,3163:1274,3197] S.\n[1634,3154:1687,3193] W. [1693,3154:1730,3193] V. [1731,3154:1936,3193] Smith\n[1680,3191:1848,3238] Notary [1852,3191:2063,3238] Public\n[418,3202:503,3191] and [418,3189:503,3137] diedy [418,3138:503,3127] or [418,3126:503,2118] is\n[489,3126:534,3113] __odock [489,3095:534,3090] A.M.\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150557"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00459"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150557_00459"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TV6V-N"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,447 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028316614256",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557432694042
+    },
+    "description" : "#s_6917529028316614256",
+    "persons" : [ {
+      "id" : "p_6917529030814985056",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Bryor",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Bryor",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Bryor"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Bryor"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.39860836,0.19616205,0.44333997,0.20990287",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Bryor"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030814985156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Augustus C Martin",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Augustus C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Augustus C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Martin",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Martin"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Augustus C Martin"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4459907,0.19616205,0.50397617,0.20990287",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5043075,0.19616205,0.5198807,0.20990287",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.52021205,0.19616205,0.5675944,0.20990287",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Augustus C Martin"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030814985256",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Moon",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Moon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Moon"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Moon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24784626,0.2241175,0.29257786,0.23785833",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Moon"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030814985356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Westerm",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Westerm",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Westerm"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Westerm"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.1742876,0.24283345,0.22100729,0.25752193",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "WESTERM"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-G6FB-N"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028316614256",
+      "about" : "#r_6917529028316614256",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-B9H9-T" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QSQ-G9WX-7RWF",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QSQ-G9WX-7RWF" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150924_00795_TXT</UNQ>\n<IMID>007150924_00795</IMID>\n<APID>TH-1942-32825-22695-34</APID>\n<IMGSIZE>3018,4221</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 8 4\n<ENAMEX TYPE=\"EVENT.xlife\">Deed</ENAMEX>, with Covenant of <ENAMEX TYPE=\"LOCALE\">Selzin</ENAMEX>,\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">winty second day of Sum\nin the year\nfour Lord one thousand eight hundred and ty</TIMEX> fear <ENAMEX TYPE=\"PERSON\">Bryor</ENAMEX> <ENAMEX TYPE=\"PERSON\">Augustus C Martin</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Cantined</ENAMEX> this to be\n4th Sale of estate <ENAMEX TYPE=\"COREF\">he</ENAMEX> County & pate of New <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nof the first part, and\nbeing a <ENAMEX TYPE=\"PERSON\">Moon</ENAMEX> of the same place\nof the second part.\n<ENAMEX TYPE=\"PERSON\">WESTERM</ENAMEX>, That the said party of the fat part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">twenty thousand dollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>.\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged, has <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold,\nremised, released, aliened, conveyed and confirmed</ENAMEX>, and by these presents do <ENAMEX TYPE=\"EVENT.xlife\">grant bargain, sell, remise, release, alien, convey and confirm</ENAMEX>, inte\nthe said party of the second part, and to the <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, All that certain piece or parcel of Land.\nand <NUMEX TYPE=\"QUANTITY\">five</NUMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> in <ENAMEX TYPE=\"LOCALE\">Culy</ENAMEX> and just ⌨⌨⌨⌨⌨⌨⌨⌨ and County after\n<ENAMEX TYPE=\"COREF\">I</ENAMEX> purport in the southerly ⌨⌨⌨⌨⌨ of ⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ for set of the <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\nfound of ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Easterly Set overly line of fell and <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> and ⌨⌨⌨⌨ to the west line of \n⌨all <ENAMEX TYPE=\"COREF\">ye</ENAMEX> the well seal and <ENAMEX TYPE=\"PERSON\">Tommy</ENAMEX> with all and singular the tenements, hereditaments and appurtenances thereunto belonging or in anywise appertaining, and the\nreversion and reversions, remainder and remainders, rents, issues and profits thereon, and all the estate, right, title, interest, dower and right of\ndower. Property. Possession, Claim and demand whatsoever, of the said party of the first part, either in law or equity, of, in and to the above\nbargained premises, with the said hereditaments and appurtenances, to HAVE AN To Hose, the said premises of lace desired, with the\nappurtenances unto the said party of the second part, and to <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant, bargain and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX>\nthat at the time of the ensealing and delivery of these presents, so well served of the premises are conveyed as a\nMoore, perfect, absolute and indefensible estate of inheritance in the law in fee simple. And that the above bargained premises, in a\nquiet and peaceable possession of the said party of the second part ...\\+ <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against all and every person or persons, <ENAMEX TYPE=\"COREF\">we</ENAMEX>\nchanting or to\nclaim the whole of any\napart thereof. <ENAMEX TYPE=\"COREF\">She</ENAMEX> will forever warrant and defend\nIN <ENAMEX TYPE=\"LOCALE\">WINES WETENON</ENAMEX>. The party of the first part have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nOn the ⌨ of the day of rest to <ENAMEX TYPE=\"COREF\">me</ENAMEX> the country really offer\nof <ENAMEX TYPE=\"COREF\">his</ENAMEX> wit, and acknowledged that\nof private mantle, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that the executed the within instrument freely and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify.\nthe act the poor <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said as knowlsigement to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\nof </SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"225\"_ENDID=\"245\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"winty second day of Sum in the year four Lord one thousand eight hundred and ty\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1130\"_ENDID=\"2678\"_STTOKEN=\"I\"_ENDTOKEN=\"my\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"2776\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"154\"_ENDID=\"628\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States of America\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2522\"_ENDID=\"1335\"_STTOKEN=\"we\"_ENDTOKEN=\"ye\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2826\"_ENDID=\"2678\"_STTOKEN=\"me\"_ENDTOKEN=\"my\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2918\"_ENDID=\"2578\"_STTOKEN=\"her\"_ENDTOKEN=\"She\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3029\"_ENDID=\"2578\"_STTOKEN=\"her\"_ENDTOKEN=\"She\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"397\"_ENDID=\"421\"_STTOKEN=\"he\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"S=3+\"_STID=\"336\"_ENDID=\"336\"_STTOKEN=\"Augustus C Martin\"_ENDTOKEN=\"Augustus C Martin\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2918\"_ENDID=\"2922\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3029\"_ENDID=\"3033\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"330\"_ENDID=\"189\"_STTOKEN=\"Bryor\"_ENDTOKEN=\"Deed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"397\"_ENDID=\"189\"_STTOKEN=\"he\"_ENDTOKEN=\"Deed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"397\"_ENDID=\"225\"_STTOKEN=\"he\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"456\"_ENDID=\"189\"_STTOKEN=\"Moon\"_ENDTOKEN=\"Deed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"499\"_ENDID=\"767\"_STTOKEN=\"WESTERM\"_ENDTOKEN=\"granted, bargained, sold, remised, released, aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"144\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150924_00795_TXT</UNQ>\n<IMID>007150924_00795</IMID>\n<APID>TH-1942-32825-22695-34</APID>\n<IMGSIZE>3018,4221</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 8 4\n<ENAMEX TYPE=\"EVENT.xlife\">Deed</ENAMEX>, with Covenant of <ENAMEX TYPE=\"LOCALE\">Selzin</ENAMEX>,\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">winty second day of Sum\nin the year\nfour Lord one thousand eight hundred and ty</TIMEX> fear <ENAMEX TYPE=\"PERSON\">Bryor</ENAMEX> <ENAMEX TYPE=\"PERSON\">Augustus C Martin</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Cantined</ENAMEX> this to be\n4th Sale of estate <ENAMEX TYPE=\"COREF\">he</ENAMEX> County & pate of New <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nof the first part, and\nbeing a <ENAMEX TYPE=\"PERSON\">Moon</ENAMEX> of the same place\nof the second part.\n<ENAMEX TYPE=\"PERSON\">WESTERM</ENAMEX>, That the said party of the fat part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">twenty thousand dollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>.\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged, has <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold,\nremised, released, aliened, conveyed and confirmed</ENAMEX>, and by these presents do <ENAMEX TYPE=\"EVENT.xlife\">grant bargain, sell, remise, release, alien, convey and confirm</ENAMEX>, inte\nthe said party of the second part, and to the <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, All that certain piece or parcel of Land.\nand <NUMEX TYPE=\"QUANTITY\">five</NUMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> in <ENAMEX TYPE=\"LOCALE\">Culy</ENAMEX> and just ⌨⌨⌨⌨⌨⌨⌨⌨ and County after\n<ENAMEX TYPE=\"COREF\">I</ENAMEX> purport in the southerly ⌨⌨⌨⌨⌨ of ⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ for set of the <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\nfound of ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Easterly Set overly line of fell and <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> and ⌨⌨⌨⌨ to the west line of \n⌨all <ENAMEX TYPE=\"COREF\">ye</ENAMEX> the well seal and <ENAMEX TYPE=\"PERSON\">Tommy</ENAMEX> with all and singular the tenements, hereditaments and appurtenances thereunto belonging or in anywise appertaining, and the\nreversion and reversions, remainder and remainders, rents, issues and profits thereon, and all the estate, right, title, interest, dower and right of\ndower. Property. Possession, Claim and demand whatsoever, of the said party of the first part, either in law or equity, of, in and to the above\nbargained premises, with the said hereditaments and appurtenances, to HAVE AN To Hose, the said premises of lace desired, with the\nappurtenances unto the said party of the second part, and to <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant, bargain and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX>\nthat at the time of the ensealing and delivery of these presents, so well served of the premises are conveyed as a\nMoore, perfect, absolute and indefensible estate of inheritance in the law in fee simple. And that the above bargained premises, in a\nquiet and peaceable possession of the said party of the second part ...\\+ <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against all and every person or persons, <ENAMEX TYPE=\"COREF\">we</ENAMEX>\nchanting or to\nclaim the whole of any\napart thereof. <ENAMEX TYPE=\"COREF\">She</ENAMEX> will forever warrant and defend\nIN <ENAMEX TYPE=\"LOCALE\">WINES WETENON</ENAMEX>. The party of the first part have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nOn the ⌨ of the day of rest to <ENAMEX TYPE=\"COREF\">me</ENAMEX> the country really offer\nof <ENAMEX TYPE=\"COREF\">his</ENAMEX> wit, and acknowledged that\nof private mantle, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that the executed the within instrument freely and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify.\nthe act the poor <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said as knowlsigement to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\nof </SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"225\"_ENDID=\"245\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"winty second day of Sum in the year four Lord one thousand eight hundred and ty\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1130\"_ENDID=\"2678\"_STTOKEN=\"I\"_ENDTOKEN=\"my\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"2776\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"154\"_ENDID=\"628\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States of America\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2522\"_ENDID=\"1335\"_STTOKEN=\"we\"_ENDTOKEN=\"ye\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2826\"_ENDID=\"2678\"_STTOKEN=\"me\"_ENDTOKEN=\"my\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2918\"_ENDID=\"2578\"_STTOKEN=\"her\"_ENDTOKEN=\"She\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3029\"_ENDID=\"2578\"_STTOKEN=\"her\"_ENDTOKEN=\"She\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"397\"_ENDID=\"421\"_STTOKEN=\"he\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"S=3+\"_STID=\"336\"_ENDID=\"336\"_STTOKEN=\"Augustus C Martin\"_ENDTOKEN=\"Augustus C Martin\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2918\"_ENDID=\"2922\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3029\"_ENDID=\"3033\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"330\"_ENDID=\"189\"_STTOKEN=\"Bryor\"_ENDTOKEN=\"Deed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"397\"_ENDID=\"189\"_STTOKEN=\"he\"_ENDTOKEN=\"Deed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"397\"_ENDID=\"225\"_STTOKEN=\"he\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"456\"_ENDID=\"189\"_STTOKEN=\"Moon\"_ENDTOKEN=\"Deed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"499\"_ENDID=\"767\"_STTOKEN=\"WESTERM\"_ENDTOKEN=\"granted, bargained, sold, remised, released, aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150924_00795_TXT</UNQ>\n<IMID>007150924_00795</IMID>\n<APID>TH-1942-32825-22695-34</APID>\n<IMGSIZE>3018,4221</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 8 4\n<ENAMEX TYPE=\"EVENT.xlife\">Deed</ENAMEX>, with Covenant of <ENAMEX TYPE=\"LOCALE\">Selzin</ENAMEX>,\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">winty second day of Sum\nin the year\nfour Lord one thousand eight hundred and ty</TIMEX> fear <ENAMEX TYPE=\"PERSON\">Bryor</ENAMEX> <ENAMEX TYPE=\"PERSON\">Augustus C Martin</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Cantined</ENAMEX> this to be\n4th Sale of estate <ENAMEX TYPE=\"COREF\">he</ENAMEX> County & pate of New <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nof the first part, and\nbeing a <ENAMEX TYPE=\"PERSON\">Moon</ENAMEX> of the same place\nof the second part.\n<ENAMEX TYPE=\"PERSON\">WESTERM</ENAMEX>, That the said party of the fat part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">twenty thousand dollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>.\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged, has <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold,\nremised, released, aliened, conveyed and confirmed</ENAMEX>, and by these presents do <ENAMEX TYPE=\"EVENT.xlife\">grant bargain, sell, remise, release, alien, convey and confirm</ENAMEX>, inte\nthe said party of the second part, and to the <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, All that certain piece or parcel of Land.\nand <NUMEX TYPE=\"QUANTITY\">five</NUMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> in <ENAMEX TYPE=\"LOCALE\">Culy</ENAMEX> and just ⌨⌨⌨⌨⌨⌨⌨⌨ and County after\n<ENAMEX TYPE=\"COREF\">I</ENAMEX> purport in the southerly ⌨⌨⌨⌨⌨ of ⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ for set of the <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\nfound of ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Easterly Set overly line of fell and <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> and ⌨⌨⌨⌨ to the west line of \n⌨all ye the well seal and <ENAMEX TYPE=\"PERSON\">Tommy</ENAMEX> with all and singular the tenements, hereditaments and appurtenances thereunto belonging or in anywise appertaining, and the\nreversion and reversions, remainder and remainders, rents, issues and profits thereon, and all the estate, right, title, interest, dower and right of\ndower. Property. Possession, Claim and demand whatsoever, of the said party of the first part, either in law or equity, of, in and to the above\nbargained premises, with the said hereditaments and appurtenances, to HAVE AN To Hose, the said premises of lace desired, with the\nappurtenances unto the said party of the second part, and to <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant, bargain and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX>\nthat at the time of the ensealing and delivery of these presents, so well served of the premises are conveyed as a\nMoore, perfect, absolute and indefensible estate of inheritance in the law in fee simple. And that the above bargained premises, in a\nquiet and peaceable possession of the said party of the second part ...\\+ <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against all and every person or persons, <ENAMEX TYPE=\"COREF\">we</ENAMEX>\nchanting or to\nclaim the whole of any\napart thereof. <ENAMEX TYPE=\"COREF\">She</ENAMEX> will forever warrant and defend\nIN <ENAMEX TYPE=\"LOCALE\">WINES WETENON</ENAMEX>. The party of the first part have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nOn the ⌨ of the day of rest to <ENAMEX TYPE=\"COREF\">me</ENAMEX> the country really offer\nof <ENAMEX TYPE=\"COREF\">his</ENAMEX> wit, and acknowledged that\nof private mantle, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that the executed the within instrument freely and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify.\nthe act the poor <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said as knowlsigement to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\nof </SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150924_00795_TXT</UNQ>\n<IMID>007150924_00795</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1942</TIMEX>-32825-22695-34</APID>\n<IMGSIZE><TIMEX TYPE=\"DATE\">3018,4221</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 8 4\n<ENAMEX TYPE=\"EVENT.xlife\">Deed</ENAMEX>, with Covenant of <ENAMEX TYPE=\"LOCALE\">Selzin</ENAMEX>,\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">winty second day of Sum\nin the year\nfour Lord one thousand eight hundred and ty</TIMEX> <ENAMEX TYPE=\"PERSON\">fear Bryor</ENAMEX> <ENAMEX TYPE=\"PERSON\">Augustus C Martin</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Cantined</ENAMEX> this to be\n4th Sale of estate <ENAMEX TYPE=\"COREF\">he</ENAMEX> County & pate of New <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nof the first part, and\nbeing a <ENAMEX TYPE=\"PERSON\">Moon</ENAMEX> of the same place\nof the second part.\n<ENAMEX TYPE=\"PERSON\">WESTERM</ENAMEX>, That the said party of the fat part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">twenty thousand dollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>.\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged, has <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold,\nremised, released, aliened, conveyed and confirmed</ENAMEX>, and by these presents do <ENAMEX TYPE=\"EVENT.xlife\">grant bargain, sell, remise, release, alien, convey and confirm</ENAMEX>, inte\nthe said party of the second part, and to the <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, All that certain piece or parcel of Land.\nand <NUMEX TYPE=\"QUANTITY\">five</NUMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> in <ENAMEX TYPE=\"LOCALE\">Culy</ENAMEX> and just ⌨⌨⌨⌨⌨⌨⌨⌨ and County after\n<ENAMEX TYPE=\"COREF\">I</ENAMEX> purport in the southerly ⌨⌨⌨⌨⌨ of ⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ for set of the <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\nfound of ⌨⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ Easterly Set overly line of fell and <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> and ⌨⌨⌨⌨ to the west line of \n⌨all ye the well seal and <ENAMEX TYPE=\"PERSON\">Tommy</ENAMEX> with all and singular the tenements, hereditaments and appurtenances thereunto belonging or in anywise appertaining, and the\nreversion and reversions, remainder and remainders, rents, issues and profits thereon, and all the estate, right, title, interest, dower and right of\ndower. Property. Possession, Claim and demand whatsoever, of the said party of the first part, either in law or equity, of, in and to the above\nbargained premises, with the said hereditaments and appurtenances, to HAVE AN To Hose, the said premises of lace desired, with the\nappurtenances unto the said party of the second part, and to <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant, bargain and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX>\nthat at the time of the ensealing and delivery of these presents, so well served of the premises are conveyed as a\nMoore, perfect, absolute and indefensible estate of inheritance in the law in fee simple. And that the above bargained premises, in a\nquiet and peaceable possession of the said party of the second part ...\\+ <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against all and every person or persons, <ENAMEX TYPE=\"COREF\">we</ENAMEX>\nchanting or to\nclaim the whole of any\napart thereof. <ENAMEX TYPE=\"COREF\">She</ENAMEX> will forever warrant and defend\nIN <ENAMEX TYPE=\"LOCALE\">WINES WETENON</ENAMEX>. The party of the first part have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nOn the ⌨ of the day of rest to <ENAMEX TYPE=\"COREF\">me</ENAMEX> the country really offer\nof <ENAMEX TYPE=\"COREF\">his</ENAMEX> wit, and acknowledged that\nof private mantle, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that the executed the within instrument freely and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further certify.\nthe act the poor <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said as knowlsigement to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\nof </SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150924_00795_TXT</UNQ>\n<IMID>007150924_00795</IMID>\n<APID>TH-1942-32825-22695-34</APID>\n<IMGSIZE>3018,4221</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[468,642:608,686] 1 8 4\n[642,714:694,740] Deed, [694,714:743,740] with [735,714:820,740] Covenant [813,714:843,740] of [835,714:898,740] Selzin,\n[543,705:693,839] This [705,705:944,839] Indenture, [965,705:1070,839] Made [1073,705:1142,839] the [1154,705:1286,839] winty [1289,705:1501,839] second [1504,705:1573,839] day [1576,705:1654,839] of [1657,705:1816,839] Sum\n[1956,781:2008,814] in [2007,781:2082,814] the [2081,781:2211,814] year\n[531,828:602,886] four [595,828:658,886] Lord [651,828:698,886] one [691,828:802,886] thousand [795,828:866,886] eight [859,828:954,886] hundred [955,828:1002,886] and [1003,828:1066,886] ty [1075,828:1202,886] fear [1203,828:1338,886] Bryor [1346,828:1521,886] Augustus [1522,828:1569,886] C [1570,828:1713,886] Martin [1722,828:1809,886] and [1810,828:1985,886] Cantined [1986,828:2041,886] this [2042,828:2081,886] to [2082,828:2215,886] be\n[542,876:637,943] 4th [630,876:725,943] Sale [726,876:772,943] of [813,876:940,943] estate [949,876:1020,943] he [1021,876:1156,943] County [1157,876:1188,943] & [1197,876:1284,943] pate [1285,876:1331,943] of [1332,876:1411,943] New [1420,876:1568,943] his\n[1934,934:1964,960] of [1960,934:2005,960] the [1997,934:2057,960] first [2049,934:2105,960] part, [2109,934:2211,960] and\n[549,946:676,1004] being [684,946:747,1004] a [748,946:883,1004] Moon [884,946:931,1004] of [924,946:995,1004] the [1004,946:1114,1004] same [1115,946:1254,1004] place\n[1944,1018:1978,1045] of [1974,1018:2023,1045] the [2019,1018:2104,1045] second [2097,1018:2156,1045] part.\n[526,1025:667,1087] WESTERM, [668,1025:725,1087] That [727,1025:776,1087] the [769,1025:826,1087] said [819,1025:885,1087] party [878,1025:918,1087] of [912,1025:960,1087] the [954,1025:1011,1087] fat [1004,1025:1061,1087] part, [1063,1025:1103,1087] for [1096,1025:1145,1087] and [1147,1025:1179,1087] in [1172,1025:1321,1087] consideration [1323,1025:1355,1087] of [1348,1025:1397,1087] the [1390,1025:1447,1087] sum [1441,1025:1506,1087] of [1508,1025:1665,1087] twenty [1675,1025:1892,1087] thousand [1894,1025:2064,1087] dollars\n[1618,1090:1698,1122] lawful [1692,1090:1777,1122] money [1771,1090:1803,1122] of [1797,1090:1843,1122] the [1841,1090:1926,1122] United [1920,1090:2001,1122] States [1995,1090:2031,1122] of [2025,1090:2123,1122] America.\n[619,1129:656,1161] in [650,1129:722,1161] hand [716,1129:779,1161] paid [773,1129:814,1161] by [808,1129:858,1161] the [852,1129:911,1161] said [905,1129:977,1161] party [971,1129:1003,1161] of [997,1129:1043,1161] the [1041,1129:1126,1161] second [1120,1129:1179,1161] part, [1182,1129:1228,1161] the [1226,1129:1311,1161] receipt [1305,1129:1403,1161] whereof [1397,1129:1430,1161] is [1428,1129:1513,1161] hereby [1507,1129:1619,1161] confessed [1613,1129:1667,1161] and [1661,1129:1821,1161] acknowledged, [1824,1129:1891,1161] has [1885,1129:1979,1161] granted, [1977,1129:2094,1161] bargained, [2101,1129:2155,1161] sold,\n[524,1173:619,1194] remised, [622,1173:720,1194] released, [723,1173:811,1194] aliened, [818,1173:931,1194] conveyed [925,1173:983,1194] and [977,1173:1093,1194] confirmed, [1097,1173:1151,1194] and [1149,1173:1188,1194] by [1185,1173:1255,1194] these [1250,1173:1350,1194] presents [1345,1173:1412,1194] do [1406,1173:1485,1194] grant [1479,1173:1571,1194] bargain, [1577,1173:1626,1194] sell, [1629,1173:1709,1194] remise, [1715,1173:1798,1194] release, [1801,1173:1868,1194] alien, [1868,1173:1960,1194] convey [1951,1173:2012,1194] and [2006,1173:2095,1194] confirm, [2104,1173:2208,1194] inte\n[524,1199:574,1242] the [571,1199:627,1242] said [623,1199:691,1242] party [688,1199:720,1242] of [711,1199:761,1242] the [758,1199:843,1242] second [840,1199:896,1242] part, [899,1199:949,1242] and [945,1199:1013,1242] to [1010,1199:1083,1242] the [1086,1199:1154,1242] heirs [1150,1199:1206,1242] and [1203,1199:1288,1242] assigns [1285,1199:1370,1242] forever, [1379,1199:1435,1242] All [1426,1199:1488,1242] that [1484,1199:1570,1242] certain [1566,1199:1634,1242] piece [1625,1199:1663,1242] or [1660,1199:1740,1242] parcel [1730,1199:1769,1242] of [1766,1199:1833,1242] Land.\n[684,1228:762,1273] and [760,1228:868,1273] five [872,1228:912,1273] of [910,1228:969,1273] the [966,1228:1056,1273] City [1054,1228:1094,1273] of [1092,1228:1251,1273] Buffalo [1248,1228:1313,1273] in [1304,1228:1432,1273] Culy [1430,1228:1507,1273] and [1505,1228:1601,1273] just [1599,1228:1802,1273] ⌨⌨⌨⌨⌨⌨⌨⌨ [1806,1228:1889,1273] and [1887,1228:2021,1273] County [2025,1228:2229,1273] after\n[469,1268:511,1317] I [510,1268:668,1317] purport [666,1268:708,1317] in [707,1268:776,1317] the [775,1268:953,1317] southerly [952,1268:1082,1317] ⌨⌨⌨⌨⌨ [1081,1268:1123,1317] of [1122,1268:1198,1317] ⌨⌨⌨⌨ [1196,1268:1300,1317] ⌨⌨⌨⌨⌨ [1298,1268:1368,1317] ⌨⌨⌨ [1366,1268:1544,1317] ⌨⌨⌨⌨⌨⌨⌨ [1536,1268:1680,1317] ⌨⌨⌨⌨⌨⌨ [1692,1268:1823,1317] ⌨⌨⌨⌨⌨⌨ [1815,1268:1891,1317] for [1903,1268:1972,1317] set [1978,1268:2020,1317] of [2012,1268:2074,1317] the [2080,1268:2194,1317] one\n[471,1305:604,1347] found [600,1305:650,1347] of [647,1305:791,1347] ⌨⌨⌨⌨⌨⌨ [794,1305:920,1347] ⌨⌨⌨⌨⌨ [917,1305:1020,1347] ⌨⌨⌨⌨⌨⌨ [1016,1305:1154,1347] Easterly [1157,1305:1242,1347] Set [1245,1305:1383,1347] overly [1380,1305:1465,1347] line [1462,1305:1500,1347] of [1497,1305:1582,1347] fell [1579,1305:1682,1347] and [1679,1305:1735,1347] one [1737,1305:1910,1347] hundred [1913,1305:1992,1347] and [712,1345:844,1386] ⌨⌨⌨⌨ [851,1345:889,1386] to [885,1345:939,1386] the [941,1345:1040,1386] west [1036,1345:1129,1386] line [1126,1345:1168,1386] of [1165,1345:2277,1386] \n[1212,1412:1320,1469] ⌨all [1320,1412:1382,1469] ye [1374,1412:1428,1469] the [1428,1412:1513,1469] well [1521,1412:1621,1469] seal [1622,1412:1691,1469] and [607,2096:723,2123] Tommy [715,2096:778,2123] with [775,2096:816,2123] all [808,2096:868,2123] and [860,2096:961,2123] singular [957,2096:1006,2123] the [1002,2096:1118,2123] tenements, [1125,2096:1293,2123] hereditaments [1285,2096:1349,2123] and [1341,2096:1513,2123] appurtenances [1505,2096:1621,2123] thereunto [1617,2096:1744,2123] belonging [1736,2096:1781,2123] or [1773,2096:1815,2123] in [1807,2096:1915,2123] anywise [1911,2096:2057,2123] appertaining, [2060,2096:2120,2123] and [2113,2096:2204,2123] the\n[602,2128:713,2156] reversion [710,2128:765,2156] and [758,2128:876,2156] reversions, [877,2128:1000,2156] remainder [993,2128:1044,2156] and [1041,2128:1172,2156] remainders, [1173,2128:1236,2156] rents, [1237,2128:1316,2156] issues [1309,2128:1364,2156] and [1361,2128:1444,2156] profits [1437,2128:1523,2156] thereon, [1524,2128:1579,2156] and [1576,2128:1619,2156] all [1612,2128:1659,2156] the [1656,2128:1727,2156] estate, [1728,2128:1795,2156] right, [1792,2128:1847,2156] title, [1848,2128:1943,2156] interest, [1944,2128:2019,2156] dower [2012,2128:2071,2156] and [2064,2128:2135,2156] right [2128,2128:2208,2156] of\n[603,2172:678,2198] dower. [681,2172:786,2198] Property. [789,2172:909,2198] Possession, [912,2172:991,2198] Claim [983,2172:1036,2198] and [1028,2172:1129,2198] demand [1125,2172:1252,2198] whatsoever, [1256,2172:1293,2198] of [1285,2172:1338,2198] the [1330,2172:1390,2198] said [1386,2172:1457,2198] party [1450,2172:1487,2198] of [1479,2172:1528,2198] the [1520,2172:1580,2198] first [1576,2172:1632,2198] part, [1632,2172:1707,2198] either [1699,2172:1737,2198] in [1729,2172:1782,2198] law [1778,2172:1811,2198] or [1808,2172:1886,2198] equity, [1890,2172:1923,2198] of, [1927,2172:1964,2198] in [1957,2172:2016,2198] and [2009,2172:2046,2198] to [2039,2172:2091,2198] the [2084,2172:2201,2198] above\n[603,2211:718,2235] bargained [714,2211:815,2235] premises, [818,2211:881,2235] with [876,2211:926,2235] the [918,2211:975,2235] said [973,2211:1137,2235] hereditaments [1133,2211:1189,2235] and [1181,2211:1345,2235] appurtenances, [1351,2211:1394,2235] to [1393,2211:1466,2235] HAVE [1462,2211:1518,2235] AN [1510,2211:1550,2235] To [1545,2211:1615,2235] Hose, [1618,2211:1674,2235] the [1666,2211:1726,2235] said [1722,2211:1834,2235] premises [1825,2211:1868,2235] of [1874,2211:1941,2235] lace [1936,2211:2048,2235] desired, [2054,2211:2121,2235] with [2113,2211:2201,2235] the\n[603,2248:775,2274] appurtenances [763,2248:827,2274] unto [819,2248:864,2274] the [856,2248:916,2274] said [912,2248:980,2274] party [976,2248:1009,2274] of [1002,2248:1050,2274] the [1043,2248:1125,2274] second [1121,2248:1177,2274] part, [1177,2248:1229,2274] and [1222,2248:1375,2274] to [1364,2248:1427,2274] heirs [1423,2248:1472,2274] and [1468,2248:1557,2274] assigns [1550,2248:1636,2274] forever. [1658,2248:1714,2274] And [1707,2248:1755,2274] the [1748,2248:1851,2274] said\n[600,2334:671,2353] heirs [664,2334:780,2353] executors [774,2334:831,2353] and [824,2334:987,2353] administrators, [989,2334:1054,2353] do [1048,2334:1166,2353] covenant [1160,2334:1228,2353] grant, [1230,2334:1326,2353] bargain [1319,2334:1376,2353] and [1369,2334:1440,2353] agree [1434,2334:1468,2353] to [1462,2334:1516,2353] and [1509,2334:1569,2353] with [1562,2334:1614,2353] the [1604,2334:1667,2353] said [1660,2334:1731,2353] party [1725,2334:1759,2353] of [1753,2334:1801,2353] the [1795,2334:1882,2353] second [1876,2334:1930,2353] part, [2035,2334:2204,2353] their\n[688,2367:747,2399] that [737,2367:774,2399] at [768,2367:813,2399] the [807,2367:866,2399] time [860,2367:897,2399] of [886,2367:932,2399] the [930,2367:1037,2399] ensealing [1031,2367:1086,2399] and [1080,2367:1178,2399] delivery [1172,2367:1209,2399] of [1203,2367:1270,2399] these [1264,2367:1363,2399] presents, [1427,2367:1578,2399] so [1572,2367:1631,2399] well [1624,2367:1710,2399] served [1703,2367:1740,2399] of [1734,2367:1784,2399] the [1778,2367:1885,2399] premises [1879,2367:1960,2399] are [1954,2367:2074,2399] conveyed [2068,2367:2136,2399] as [2130,2367:2204,2399] a\n[619,2401:724,2441] Moore, [731,2401:813,2441] perfect, [821,2401:920,2441] absolute [916,2401:970,2441] and [966,2401:1104,2441] indefensible [1100,2401:1177,2441] estate [1167,2401:1205,2441] of [1201,2401:1333,2441] inheritance [1324,2401:1361,2441] in [1358,2401:1406,2441] the [1402,2401:1456,2441] law [1453,2401:1490,2441] in [1486,2401:1529,2441] fee [1525,2401:1613,2441] simple. [1632,2401:1697,2441] And [1687,2401:1747,2441] that [1738,2401:1786,2441] the [1782,2401:1865,2441] above [1861,2401:1976,2441] bargained [1973,2401:2077,2441] premises, [2079,2401:2116,2441] in [2129,2401:2190,2441] a\n[603,2446:670,2475] quiet [663,2446:714,2475] and [711,2446:826,2475] peaceable [819,2446:938,2475] possession [931,2446:966,2475] of [959,2446:1006,2475] the [999,2446:1054,2475] said [1051,2446:1117,2475] party [1114,2446:1145,2475] of [1142,2446:1185,2475] the [1178,2446:1265,2475] second [1258,2446:1317,2475] part [1302,2446:1337,2475] ...\\+ [1418,2446:1489,2475] heirs [1482,2446:1537,2475] and [1534,2446:1621,2475] assigns, [1622,2446:1713,2475] against [1706,2446:1749,2475] all [1746,2446:1797,2475] and [1790,2446:1865,2475] every [1858,2446:1945,2475] person [1938,2446:1973,2475] or [1970,2446:2061,2475] persons, [2082,2446:2194,2475] we\n[599,2492:707,2510] chanting [699,2492:735,2510] or [727,2492:828,2510] to\n[756,2487:827,2506] claim [820,2487:869,2506] the [862,2487:935,2506] whole [929,2487:963,2506] of [956,2487:1051,2506] any\n[998,2482:1064,2511] apart [1057,2482:1145,2511] thereof. [1176,2482:1260,2511] She [1257,2482:1311,2511] will [1304,2482:1391,2511] forever [1385,2482:1481,2511] warrant [1474,2482:1528,2511] and [1521,2482:1656,2511] defend\n[649,2529:687,2562] IN [686,2529:785,2562] WINES [784,2529:892,2562] WETENON. [900,2529:953,2562] The [947,2529:1013,2562] party [1008,2529:1041,2562] of [1036,2529:1079,2562] the [1073,2529:1130,2562] first [1124,2529:1181,2562] part [1175,2529:1242,2562] have [1236,2529:1344,2562] hereunto [1338,2529:1386,2562] set [1380,2529:1493,2562] my [1487,2529:1563,2562] hand [1557,2529:1610,2562] and [1604,2529:1670,2562] seal [1664,2529:1707,2562] the [1706,2529:1759,2562] day [1748,2529:1805,2562] and [1800,2529:1857,2562] year [1851,2529:1908,2562] first [1902,2529:1978,2562] above [1972,2529:2110,2562] written\n[656,2584:729,2601] Signed, [731,2584:807,2601] sealed [800,2584:847,2601] and [840,2584:946,2601] Delivered [938,2584:974,2601] in [966,2584:1065,2601] Presence [1060,2584:1139,2601] of\n[672,2712:753,2737] STATE [748,2712:787,2737] OF [779,2712:842,2737] NEW [837,2712:901,2737] YORK.\n[954,2767:989,2816] On [981,2767:1037,2816] the [1056,2767:1091,2816] ⌨ [1090,2767:1132,2816] of [1124,2767:1207,2816] the [1199,2767:1247,2816] day [1239,2767:1281,2816] of [1490,2767:1553,2816] rest [1552,2767:1614,2816] to [1606,2767:1641,2816] me [1640,2767:1675,2816] the [1674,2767:1764,2816] country [1782,2767:1859,2816] really [1850,2767:1928,2816] offer\n[874,2853:996,2886] of [991,2853:1029,2886] his [1023,2853:1066,2886] wit, [1065,2853:1108,2886] and [1102,2853:1229,2886] acknowledged [1223,2853:1266,2886] that\n[602,2891:649,2920] of [638,2891:709,2920] private [714,2891:813,2920] mantle, [810,2891:869,2920] apart [862,2891:913,2920] from [902,2891:945,2920] her [934,2891:1017,2920] husband, [1014,2891:1140,2920] acknowledged [1133,2891:1180,2920] that [1173,2891:1212,2920] the [1205,2891:1288,2920] executed [1281,2891:1320,2920] the [1313,2891:1380,2920] within [1373,2891:1476,2920] instrument [1469,2891:1528,2920] freely [1521,2891:1564,2920] and [1557,2891:1636,2920] without [1629,2891:1672,2920] any [1665,2891:1708,2920] fear [1697,2891:1728,2920] or [1721,2891:1824,2920] compulsion [1821,2891:1848,2920] of [1841,2891:1880,2920] her [1873,2891:1956,2920] husband. [1969,2891:2016,2920] And [2009,2891:2032,2920] I [2025,2891:2096,2920] further [2089,2891:2152,2920] certify.\n[597,2928:659,2951] the [661,2928:709,2951] act [700,2928:742,2951] the [734,2928:809,2951] poor [804,2928:849,2951] who [840,2928:899,2951] made [890,2928:932,2951] the [920,2928:968,2951] said [960,2928:988,2951] as [980,2928:1118,2951] knowlsigement [1110,2928:1138,2951] to [1133,2928:1165,2951] be [1156,2928:1195,2951] the [1186,2928:1291,2951] individual [1286,2928:1378,2951] described [1366,2928:1398,2951] in, [1396,2928:1438,2951] and [1433,2928:1478,2951] who [1469,2928:1554,2951] executed [1546,2928:1588,2951] the [1579,2928:1644,2951] within [1636,2928:1691,2951] in\n[1892,2932:1939,3002] of </SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150924"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00795"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150924_00795"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-B9H9-T"
+      } ]
+    } ]
+  } ]
+}
