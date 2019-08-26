@@ -21,7 +21,7 @@
   fill-opacity: 1;
   stroke: slategray;
   stroke-opacity: 1;
-  stroke-width: 75px;
+  /*stroke-width: 75px;*/
   stroke-linejoin: round;
 }
 
@@ -226,7 +226,7 @@ text {
           <svg id="simulation-display-space"></svg>
         </div>
     </div>
-    <div id="relationships-panel">  
+    <div id="relationships-panel">
       <button class="relationship-button" id="has-start-date" type="button">has start date</button>
       <button class="relationship-button" id="has-start-place" type="button">has start place</button>
       <button class="relationship-button" id="has-start-time" type="button">has start time</button>
@@ -332,7 +332,7 @@ document.getElementById("is-principal-person").addEventListener("click", isPrinc
 document.getElementById("quantity").addEventListener("click", quantity);
 document.getElementById("has-residence-place").addEventListener("click", hasResidencePlace);
 document.getElementById("same-as").addEventListener("click", sameAs);
-document.getElementById("is-subplace-of").addEventListener("click", subplaceOf); 
+document.getElementById("is-subplace-of").addEventListener("click", subplaceOf);
 document.getElementById("has-title").addEventListener("click", hasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
@@ -411,9 +411,9 @@ function showSameAsOn() {
 // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
 // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
         displayedGraph.relations.push({type : relation.type,
-                                startToken : relation.startToken, 
-                                    source : relation.source, 
-                                  endToken : relation.endToken, 
+                                startToken : relation.startToken,
+                                    source : relation.source,
+                                  endToken : relation.endToken,
                                     target : relation.target,
                                   distance : linkDistance(relation.type)});
       }
@@ -693,17 +693,17 @@ function nodeDoubleClick(d) {
   if (!d3.event.ctrlKey && selectedNodes.length > 0) {
     for (i in selectedNodes) {
       var targetNode = d;
-      displayedGraph.relations.push({type : getCurrentRelationship(), 
-                      startToken : selectedNodes[i].text, 
-                          source : selectedNodes[i].id, 
-                        endToken : targetNode.text, 
+      displayedGraph.relations.push({type : getCurrentRelationship(),
+                      startToken : selectedNodes[i].text,
+                          source : selectedNodes[i].id,
+                        endToken : targetNode.text,
                           target : targetNode.id,
                         distance : linkDistance(getCurrentRelationship())});
       console.log("Added link between " + selectedNodes[i].text + " and " + targetNode.text);
-      editedGraph.relations.push({type : getCurrentRelationship(), 
-                      startToken : selectedNodes[i].text, 
-                          source : selectedNodes[i].id, 
-                        endToken : targetNode.text, 
+      editedGraph.relations.push({type : getCurrentRelationship(),
+                      startToken : selectedNodes[i].text,
+                          source : selectedNodes[i].id,
+                        endToken : targetNode.text,
                           target : targetNode.id,
                         distance : linkDistance(getCurrentRelationship())});
     }
@@ -737,7 +737,7 @@ function nodeClick(d) {
         .transition()
         .attr('r', 18);
       selectedNodes.push(d);
-      selectedNodeElements.push(this);                 
+      selectedNodeElements.push(this);
       console.log("Node selected");
     }
   } else if (d3.event.ctrlKey && getCurrentRelationship() == "UNSELECTED") {
@@ -979,9 +979,9 @@ function colors(type) {
 // for setting link distance based on relationship type
 function linkDistance(type) {
   if (type == "R40:IS_SAME_AS") {
-    return 60;
+    return 70;
   } else {
-    return 120;
+    return 130;
   }
 }
 function getNodeTextPlacement(text) {
@@ -1046,14 +1046,14 @@ function runD3() {
     var m = displayedGraph.entities.length;
   node._groups[0].forEach(function(d, i) {
     d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();  
+    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
   });
   
   node.call(d3.drag()
     .on("start", dragstarted)
     .on("drag", dragged)
     .on("end", dragended));
-  //draw circles for nodes    
+  //draw circles for nodes
   node.append("circle")
       .attr("r", radius)
       .attr("fill", function(d) {return colors(d.type);});
@@ -1073,11 +1073,11 @@ function runD3() {
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];})
       .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];});
 
-  //set up the simulation 
+  //set up the simulation
   simulation = d3.forceSimulation()
     // .force("link", d3.forceLink().id(function(d) {return d.id;}))
     .force("link", d3.forceLink(link).id(function(d) {return d.id;}).distance(function(d) {return d.distance}))
-    // .distance( linkDistance(function(d) {return d.type;}) ).strength(1) 
+    // .distance( linkDistance(function(d) {return d.type;}) ).strength(1)
     // .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(75).strength(.9))
     .force("charge_force", d3.forceManyBody().strength(-50))
     .force("center_force", d3.forceCenter(width / 2, height / 2))
@@ -1095,14 +1095,14 @@ function runD3() {
 
   simulation.alphaDecay(.015);
 
-  //update circle positions to reflect node updates on each tick of the simulation     
+  //update circle positions to reflect node updates on each tick of the simulation
   function tickActions() {
     node
       .attr("transform", function(d) {
-        return "translate(" 
-        + Math.max(radius, Math.min(width - 75 - radius, d.x)) 
-        + ", " 
-        + Math.max(radius, Math.min(height - radius, d.y)) 
+        return "translate("
+        + Math.max(radius, Math.min(width - 75 - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
       /*.attr("x", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
       .attr("y", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); })*/
@@ -1133,6 +1133,7 @@ function runD3() {
         .enter()
         .append("path");
     hulls.selectAll("path")
+        .attr("stroke-width", "75px")
         .attr("d", function(d) {return groupPath(d);});
 
   }
@@ -1159,16 +1160,34 @@ function restart() {
   function tickActions() {
     node
       .attr("transform", function(d) {
-        return "translate(" 
-        + Math.max(radius, Math.min(width - 100 - radius, d.x)) 
-        + ", " 
-        + Math.max(radius, Math.min(height - radius, d.y)) 
+        return "translate("
+        + Math.max(radius, Math.min(width - 100 - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
     link
       .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+      
+
+    function groupPath(d) {
+      if (d.values.length === 2) {
+        var arr = d.values.map(function(i) {
+          return [i.x, i.y];
+        });
+        arr.push([arr[0][0], arr[0][1]]);
+        return "M" + d3.polygonHull(arr).join("L") + "Z";
+      } else {
+        return "M" + d3.polygonHull(d.values.map(function(entity) {
+          return [entity.x, entity.y];
+        })).join("L") + "Z";
+      }
+    };
+
+    d3.select(".hull").selectAll("path")
+        .attr("d", function(d) {return groupPath(d);});
   }
   function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -1188,93 +1207,110 @@ function restart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
-
-node = node.data(displayedGraph.entities, function(d) { return d.id;});
-
-node.exit().transition()
-    .attr("r", 0)
-    .remove();
-
-enter = node.enter()
-  .append("g")
-  .on("mouseover", nodeMouseOver)
-  .on("mouseout", nodeMouseOut)
-  .on("click", nodeClick)
-  .on("dblclick", nodeDoubleClick);
-
-enter.call(d3.drag()
-  .on("start", dragstarted)
-  .on("drag", dragged)
-  .on("end", dragended));
-
-enter.append("circle")
-    .attr("fill", function(d) {return colors(d.type); })
-    .call(function(node) { node.transition().attr("r", radius); });
-    
-// console.log("after append circle:");
-// console.log(enter);    
-enter.append("text")
-    .text(function(d) {
-      if (d.text.length > 6) {
-        return d.text.substr(0,5) + "...";
-      } else {
-        return d.text;
-      }
-    })
-    .style("fill", function(d) {return textColors(d.type);})
-    .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];} )
-    .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];} );   
-// console.log("nodes after text:");
-// console.log(enter);
-node = enter.merge(node);
-node.select("circle")
-node.append("svg:title")
-    .text(function(d) { return d.text; });      
-// console.log("nodes after merge:");
-// console.log(node);
-
-// Try to set intial position near center of svg
-var m = displayedGraph.entities.length;
-  node._groups[0].forEach(function(d, i) {
-    d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();  
-  });
-
-// Apply the general update pattern to the links.
-link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
-
-// Keep the exiting links connected to the moving remaining nodes.
-link.exit().transition()
-    .attr("stroke-opacity", 0)
-    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-    .remove();
-
-link = link.enter().append("line")
-    .call(function(link) { link.transition().attr("stroke-opacity", 1); })
-    .attr('marker-end','url(#arrowhead)')
-    .style("stroke-width", 4) 
-    .style("stroke", "black")
-    .merge(link)
-    .on("mouseover", linkMouseOver)
-    .on("mouseout", linkMouseOut)
-    .on("click", linkCut);   
-
-// Update and restart the simulation.
-simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-simulation.force("link").links(displayedGraph.relations);
-simulation.alpha(1).restart();
-console.log("Simulation restarted.");
-// console.log(displayedGraph);
-// console.log(editedGraph);
+  
+  var groups = displayedGraph.getSameAsGroupsForHull();
+  d3.select(".hull").selectAll("path")
+    .transition().attr("stroke-width", "0px")
+    .transition().attr("fill-opacity", 0).remove();
+  var hulls = d3.select(".hull")
+                .selectAll("path")
+                .data(groups)
+                .enter()
+                .append("path");
+  
+  node = node.data(displayedGraph.entities, function(d) { return d.id;});
+  
+  node.exit().transition()
+      .attr("r", 0)
+      .remove();
+  
+  enter = node.enter()
+    .append("g")
+    .on("mouseover", nodeMouseOver)
+    .on("mouseout", nodeMouseOut)
+    .on("click", nodeClick)
+    .on("dblclick", nodeDoubleClick);
+  
+  enter.call(d3.drag()
+    .on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended));
+  
+  enter.append("circle")
+      .attr("fill", function(d) {return colors(d.type); })
+      .call(function(node) { node.transition().attr("r", radius); });
+      
+  // console.log("after append circle:");
+  // console.log(enter);
+  enter.append("text")
+      .text(function(d) {
+        if (d.text.length > 6) {
+          return d.text.substr(0,5) + "...";
+        } else {
+          return d.text;
+        }
+      })
+      .style("fill", function(d) {return textColors(d.type);})
+      .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];} )
+      .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];} );
+  // console.log("nodes after text:");
+  // console.log(enter);
+  node = enter.merge(node);
+  node.select("circle")
+  node.append("svg:title")
+      .text(function(d) { return d.text; });
+  // console.log("nodes after merge:");
+  // console.log(node);
+  
+  // Try to set intial position near center of svg
+  var m = displayedGraph.entities.length;
+    node._groups[0].forEach(function(d, i) {
+      d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+      d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
+    });
+  
+  // Apply the general update pattern to the links.
+  link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+  
+  // Keep the exiting links connected to the moving remaining nodes.
+  link.exit().transition()
+      .attr("stroke-opacity", 0)
+      .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+      .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+      .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+      .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+      .remove();
+  
+  link = link.enter().append("line")
+      .call(function(link) { link.transition().attr("stroke-opacity", 1); })
+      .attr('marker-end','url(#arrowhead)')
+      .style("stroke-width", 4)
+      .style("stroke", "black")
+      .merge(link)
+      .on("mouseover", linkMouseOver)
+      .on("mouseout", linkMouseOut)
+      .on("click", linkCut);
+  
+  // Update and restart the simulation.
+  simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+  simulation.force("link").links(displayedGraph.relations);
+  simulation.alpha(1).restart();
+  console.log("Simulation restarted.");
+  // console.log(displayedGraph);
+  // console.log(editedGraph);
 }
 // modified restart for "same as"
 function sameAsRestart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
+    
+  var groups = displayedGraph.getSameAsGroupsForHull();
+  d3.select(".hull")
+      .selectAll("path")
+      .data(groups)
+      .enter()
+      .append("path");
   
   function tickActions() {
     // var hull = d3.polygonHull(node.data().map(function(d) { return [d.x,d.y]; }) );
@@ -1282,16 +1318,35 @@ function sameAsRestart() {
     
     node
       .attr("transform", function(d) {
-        return "translate(" 
-        + Math.max(radius, Math.min(width - 100 - radius, d.x)) 
-        + ", " 
-        + Math.max(radius, Math.min(height - radius, d.y)) 
+        return "translate("
+        + Math.max(radius, Math.min(width - 100 - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
     link
       .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
-      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
+    
+
+    function groupPath(d) {
+      if (d.values.length === 2) {
+        var arr = d.values.map(function(i) {
+          return [i.x, i.y];
+        });
+        arr.push([arr[0][0], arr[0][1]]);
+        return "M" + d3.polygonHull(arr).join("L") + "Z";
+      } else {
+        return "M" + d3.polygonHull(d.values.map(function(entity) {
+          return [entity.x, entity.y];
+        })).join("L") + "Z";
+      }
+    };
+
+    d3.select(".hull").selectAll("path")
+        .attr("stroke-width", "75px")
+        .attr("d", function(d) {return groupPath(d);});
   }
   function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -1307,9 +1362,6 @@ function sameAsRestart() {
     d.fx = null;
     d.fy = null;
   }
-  
-  // var convexHull = svg.append("path")
-  //                     .attr("class", "hull");
 
   // Apply the general update pattern to the links.
   link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
@@ -1325,8 +1377,8 @@ function sameAsRestart() {
 
   link = link.enter().append("line")
       .call(function(link) { link.transition().attr("stroke-opacity", .3); })
-      .style("stroke-width", 2) 
-      .style("stroke", "black") 
+      .style("stroke-width", 2)
+      .style("stroke", "black")
       .merge(link);
 
   // Update and restart the simulation.
@@ -1334,7 +1386,7 @@ function sameAsRestart() {
   simulation.force("link").links(displayedGraph.relations);
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
-}  
+}
 // function forceCluster() {
 //   const strength = 0.2;
   
@@ -1414,10 +1466,10 @@ function buildAllData(parsedRelex) {
     var relation = parsedRelex.relex[i];
     //Not sure how to handle the surname relationship thing yet. So just don't add them.
     if (!/S=\d\+|S=\d/.test(relation.type)) {
-      obj.relations.push({type : relation.type, 
-                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "), 
-                        source : relation.startOffset, 
-                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "), 
+      obj.relations.push({type : relation.type,
+                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "),
+                        source : relation.startOffset,
+                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "),
                         target : relation.endOffset,
                       distance : linkDistance(relation.type)});
     }
@@ -1431,13 +1483,13 @@ function buildAllData(parsedRelex) {
   copy.relations = [];
   for (i in obj.entities) {
     var entity = obj.entities[i];
-    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});  
+    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});
   }
   for (i in obj.relations) {
     var relation = obj.relations[i];
-    copy.relations.push({ type : relation.type, 
-                    startToken : relation.startToken, 
-                        source : relation.source, 
+    copy.relations.push({ type : relation.type,
+                    startToken : relation.startToken,
+                        source : relation.source,
                       endToken : relation.endToken,
                         target : relation.target,
                       distance : linkDistance(relation.type)});
