@@ -17,11 +17,11 @@
 }
 
 .hull path{
-  fill: slategray;
+  fill: #abbaca;
   fill-opacity: 1;
-  stroke: slategray;
+  stroke: #abbaca;
   stroke-opacity: 1;
-  /*stroke-width: 75px;*/
+  /*stroke-width: 67px;*/
   stroke-linejoin: round;
 }
 
@@ -417,8 +417,8 @@ function showSameAsOn() {
                                     target : relation.target,
                                   distance : linkDistance(relation.type)});
       }
-      sameAsRestart();
     });
+    sameAsRestart();
   }
 }
 function showSameAsOff() {
@@ -709,8 +709,8 @@ function nodeDoubleClick(d) {
     }
     // console.log("Relationships displayedGraph");
     // console.log(displayedGraph.relations);
-    console.log("editedGraph relations");
-    console.log(editedGraph.relations);
+    // console.log("editedGraph relations");
+    // console.log(editedGraph.relations);
     clearSelection();
     restart();
   }
@@ -981,12 +981,25 @@ function linkDistance(type) {
   if (type == "R40:IS_SAME_AS") {
     return 70;
   } else {
-    return 130;
+    return 120;
   }
 }
 function getNodeTextPlacement(text) {
   return [Math.log(text.length) / Math.log(1.5) * -3.2, 4];
 }
+function groupPath(d) {
+    if (d.length === 2) {
+      var arr = d.map(function(i) {
+        return [i.x, i.y];
+      });
+      arr.push([arr[0][0], arr[0][1]]);
+      return "M" + d3.polygonHull(arr).join("L") + "Z";
+    } else {
+      return "M" + d3.polygonHull(d.map(function(entity) {
+        return [entity.x, entity.y];
+      })).join("L") + "Z";
+    }
+  };
 //-------------------------------------D3 Simulation-----------------------------------------
 function runD3() {
   //create somewhere to put the force directed displayedGraph
@@ -1016,8 +1029,8 @@ function runD3() {
     .attr("d", "M 0,-5 L 10,0 L 0,5");
 
   var hulls = svg.append("g")
-                .attr("class", "hull");
-
+                  .attr("class", "hull")
+                .selectAll("path");
   //draw links
   link = svg.append("g")
     .attr("class", "links")
@@ -1043,11 +1056,11 @@ function runD3() {
     .on("click", nodeClick)
     .on("dblclick", nodeDoubleClick);
   
-    var m = displayedGraph.entities.length;
-  node._groups[0].forEach(function(d, i) {
-    d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
-  });
+  //   var m = displayedGraph.entities.length;
+  // node._groups[0].forEach(function(d, i) {
+  //   d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+  //   d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
+  // });
   
   node.call(d3.drag()
     .on("start", dragstarted)
@@ -1079,8 +1092,9 @@ function runD3() {
     .force("link", d3.forceLink(link).id(function(d) {return d.id;}).distance(function(d) {return d.distance}))
     // .distance( linkDistance(function(d) {return d.type;}) ).strength(1)
     // .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(75).strength(.9))
-    .force("charge_force", d3.forceManyBody().strength(-50))
-    .force("center_force", d3.forceCenter(width / 2, height / 2))
+    .force("charge-force", d3.forceManyBody().strength(-30))
+    .force("collision-force", d3.forceCollide(35).strength(.5))
+    .force("center-force", d3.forceCenter(width / 2, height / 2))
     .force("x", d3.forceX(width / 2).strength(.010))
     .force("y", d3.forceY(height / 2).strength(.010));
   // simulation = cola.d3adaptor().linkDistance(50).size([width, height]);
@@ -1093,7 +1107,13 @@ function runD3() {
     .force("link")
     .links(displayedGraph.relations);
 
-  simulation.alphaDecay(.015);
+  // This must come after the simulation.links() otherwise the source and target of a relationship return ids, not entities
+  var groups = displayedGraph.getSameAsGroups();
+  
+  hulls.data(groups).enter()
+      .append("path");
+
+  simulation.alphaDecay(.01).velocityDecay(.075);
 
   //update circle positions to reflect node updates on each tick of the simulation
   function tickActions() {
@@ -1112,30 +1132,8 @@ function runD3() {
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
     
-    var groups = displayedGraph.getSameAsGroupsForHull();
-
-    function groupPath(d) {
-      if (d.values.length === 2) {
-        var arr = d.values.map(function(i) {
-          return [i.x, i.y];
-        });
-        arr.push([arr[0][0], arr[0][1]]);
-        return "M" + d3.polygonHull(arr).join("L") + "Z";
-      } else {
-        return "M" + d3.polygonHull(d.values.map(function(entity) {
-          return [entity.x, entity.y];
-        })).join("L") + "Z";
-      }
-    };
-
-    hulls.selectAll("path")
-        .data(groups)
-        .enter()
-        .append("path");
-    hulls.selectAll("path")
-        .attr("stroke-width", "75px")
+    d3.select(".hull").selectAll("path").attr("stroke-width", "67px")
         .attr("d", function(d) {return groupPath(d);});
-
   }
   //for node dragging
   function dragstarted(d) {
@@ -1172,22 +1170,22 @@ function restart() {
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
       
 
-    function groupPath(d) {
-      if (d.values.length === 2) {
-        var arr = d.values.map(function(i) {
-          return [i.x, i.y];
-        });
-        arr.push([arr[0][0], arr[0][1]]);
-        return "M" + d3.polygonHull(arr).join("L") + "Z";
-      } else {
-        return "M" + d3.polygonHull(d.values.map(function(entity) {
-          return [entity.x, entity.y];
-        })).join("L") + "Z";
-      }
-    };
+    // function groupPath(d) {
+    //   if (d.values.length === 2) {
+    //     var arr = d.values.map(function(i) {
+    //       return [i.x, i.y];
+    //     });
+    //     arr.push([arr[0][0], arr[0][1]]);
+    //     return "M" + d3.polygonHull(arr).join("L") + "Z";
+    //   } else {
+    //     return "M" + d3.polygonHull(d.values.map(function(entity) {
+    //       return [entity.x, entity.y];
+    //     })).join("L") + "Z";
+    //   }
+    // };
 
-    d3.select(".hull").selectAll("path")
-        .attr("d", function(d) {return groupPath(d);});
+    // d3.select(".hull").selectAll("path")
+    //     .attr("d", function(d) {return groupPath(d);});
   }
   function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -1208,15 +1206,12 @@ function restart() {
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
   
-  var groups = displayedGraph.getSameAsGroupsForHull();
   d3.select(".hull").selectAll("path")
-    .transition().attr("stroke-width", "0px")
-    .transition().attr("fill-opacity", 0).remove();
-  var hulls = d3.select(".hull")
-                .selectAll("path")
-                .data(groups)
-                .enter()
-                .append("path");
+    .transition().attr("fill-opacity", 0)
+    .transition().attr("stroke-width", "0px").remove();
+  
+  // var hulls = d3.select(".hull")
+  //             .selectAll("path");
   
   node = node.data(displayedGraph.entities, function(d) { return d.id;});
   
@@ -1239,9 +1234,7 @@ function restart() {
   enter.append("circle")
       .attr("fill", function(d) {return colors(d.type); })
       .call(function(node) { node.transition().attr("r", radius); });
-      
-  // console.log("after append circle:");
-  // console.log(enter);
+
   enter.append("text")
       .text(function(d) {
         if (d.text.length > 6) {
@@ -1253,21 +1246,17 @@ function restart() {
       .style("fill", function(d) {return textColors(d.type);})
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];} )
       .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];} );
-  // console.log("nodes after text:");
-  // console.log(enter);
   node = enter.merge(node);
   node.select("circle")
   node.append("svg:title")
       .text(function(d) { return d.text; });
-  // console.log("nodes after merge:");
-  // console.log(node);
   
   // Try to set intial position near center of svg
-  var m = displayedGraph.entities.length;
-    node._groups[0].forEach(function(d, i) {
-      d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-      d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
-    });
+  // var m = displayedGraph.entities.length;
+  //   node._groups[0].forEach(function(d, i) {
+  //     d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+  //     d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
+  //   });
   
   // Apply the general update pattern to the links.
   link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
@@ -1294,10 +1283,13 @@ function restart() {
   // Update and restart the simulation.
   simulation.nodes(displayedGraph.entities).on("tick", tickActions);
   simulation.force("link").links(displayedGraph.relations);
+
+  // var groups = displayedGraph.getSameAsGroupsForHull();
+  // hulls.data(groups).enter()
+  //   .append("path");
+
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
-  // console.log(displayedGraph);
-  // console.log(editedGraph);
 }
 // modified restart for "same as"
 function sameAsRestart() {
@@ -1305,17 +1297,58 @@ function sameAsRestart() {
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
     
-  var groups = displayedGraph.getSameAsGroupsForHull();
-  d3.select(".hull")
-      .selectAll("path")
-      .data(groups)
-      .enter()
-      .append("path");
-  
-  function tickActions() {
-    // var hull = d3.polygonHull(node.data().map(function(d) { return [d.x,d.y]; }) );
-    //     convexHull.datum(hull).attr("d", function(d) { return "M" + d.join("L") + "Z"; });
+    var hulls = d3.select(".hull")
+        .selectAll("path");
+    // Apply the general update pattern to the links.
+    link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
     
+    // Keep the exiting links connected to the moving remaining nodes.
+    link.exit().transition()
+    .attr("stroke-opacity", 0)
+    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+    .remove();
+    
+    link = link.enter().append("line")
+    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
+    .style("stroke-width", 2)
+    .style("stroke", "black")
+    .merge(link);
+    
+    // var groups = displayedGraph.getSameAsGroups();
+    // function groupPath(d) {
+    //   if (d.length === 2) {
+    //     var arr = d.map(function(i) {
+    //       return [i.x, i.y];
+    //     });
+    //     arr.push([arr[0][0], arr[0][1]]);
+    //     return "M" + d3.polygonHull(arr).join("L") + "Z";
+    //   } else {
+    //     return "M" + d3.polygonHull(d.map(function(entity) {
+    //       return [entity.x, entity.y];
+    //     })).join("L") + "Z";
+    //   }
+    // };
+    
+    // Update and restart the simulation.
+    simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+    simulation.force("link").links(displayedGraph.relations);
+    
+    var groups = displayedGraph.getSameAsGroups();
+    hulls.exit().remove();
+    hulls
+      .data(groups).enter()
+      .append("path")
+        .attr("d", function(d) {return groupPath(d);})
+        .attr("stroke-width", "0px")
+        .transition().attr("stroke-width", "67px");
+
+  simulation.alpha(1).restart();
+  console.log("Simulation restarted showing 'same as'.");
+
+  function tickActions() {  
     node
       .attr("transform", function(d) {
         return "translate("
@@ -1328,24 +1361,9 @@ function sameAsRestart() {
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
-    
-
-    function groupPath(d) {
-      if (d.values.length === 2) {
-        var arr = d.values.map(function(i) {
-          return [i.x, i.y];
-        });
-        arr.push([arr[0][0], arr[0][1]]);
-        return "M" + d3.polygonHull(arr).join("L") + "Z";
-      } else {
-        return "M" + d3.polygonHull(d.values.map(function(entity) {
-          return [entity.x, entity.y];
-        })).join("L") + "Z";
-      }
-    };
 
     d3.select(".hull").selectAll("path")
-        .attr("stroke-width", "75px")
+        // .attr("stroke-width", "0px")
         .attr("d", function(d) {return groupPath(d);});
   }
   function dragstarted(d) {
@@ -1362,38 +1380,8 @@ function sameAsRestart() {
     d.fx = null;
     d.fy = null;
   }
-
-  // Apply the general update pattern to the links.
-  link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
-
-  // Keep the exiting links connected to the moving remaining nodes.
-  link.exit().transition()
-      .attr("stroke-opacity", 0)
-      .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-      .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-      .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-      .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-      .remove();
-
-  link = link.enter().append("line")
-      .call(function(link) { link.transition().attr("stroke-opacity", .3); })
-      .style("stroke-width", 2)
-      .style("stroke", "black")
-      .merge(link);
-
-  // Update and restart the simulation.
-  simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-  simulation.force("link").links(displayedGraph.relations);
-  simulation.alpha(1).restart();
-  console.log("Simulation restarted.");
 }
-// function forceCluster() {
-//   const strength = 0.2;
-  
-//   function force(alpha) {
-    
-//   }
-// }
+
 // key thing about building the displayedGraph is that the entities for each end of a link must
 // exist and match the link names precisely otherwise it errors and doesn't show anything
 function buildAllData(parsedRelex) {
@@ -1413,20 +1401,19 @@ function buildAllData(parsedRelex) {
     var sameAsGroups = [];
     this.getSameAsRels().forEach(function(relation) {
       if (sameAsGroups.length > 0) {
-        var nodesAdded = false;
+        var nodeInGroup = false;
         for (let i = 0; i < sameAsGroups.length; i++) {
           if (sameAsGroups[i].includes(relation.source) || sameAsGroups[i].includes(relation.target)) {
+            nodeInGroup = true;
             if (!sameAsGroups[i].includes(relation.source)) {
               sameAsGroups[i].push(relation.source);
-              nodesAdded = true;
             }
             if (!sameAsGroups[i].includes(relation.target)) {
               sameAsGroups[i].push(relation.target);
-              nodesAdded = true;
             }
           }
         }
-        if (!nodesAdded) {
+        if (!nodeInGroup) {
           sameAsGroups.push([relation.source, relation.target]);
         }
       } else { // This handles the first case, when no groups exist yet.
@@ -1436,14 +1423,14 @@ function buildAllData(parsedRelex) {
     return sameAsGroups;
   }
   // This array needs to look like the result of d3.nest() to use with d3.polygonHull()
-  obj.getSameAsGroupsForHull = function() {
-    var nestedSameAsGroups = [];
-    var sameAsGroups = this.getSameAsGroups();
-    for (let i = 0; i < sameAsGroups.length; i++) {
-      nestedSameAsGroups.push({key:i.toString(), values:sameAsGroups[i]});
-    }
-    return nestedSameAsGroups;
-  }
+  // obj.getSameAsGroupsForHull = function() {
+  //   var nestedSameAsGroups = [];
+  //   var sameAsGroups = this.getSameAsGroups();
+  //   for (let i = 0; i < sameAsGroups.length; i++) {
+  //     nestedSameAsGroups.push({key:i.toString(), values:sameAsGroups[i]});
+  //   }
+  //   return nestedSameAsGroups;
+  // }
   //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
   for (i in parsedRelex.metadata) {
     var entity = parsedRelex.metadata[i].content;
@@ -1496,7 +1483,7 @@ function buildAllData(parsedRelex) {
   }
   copy.getSameAsGroups = obj.getSameAsGroups;
   copy.getSameAsRels = obj.getSameAsRels;
-  copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
+  // copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
   // return obj;
   return copy;
 }
