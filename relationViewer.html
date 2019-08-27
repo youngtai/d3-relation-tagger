@@ -12,8 +12,8 @@
 }
 
 .nodes circle{
-  stroke:#dfdfdf;
-  stroke-width: 2px;
+  /* stroke:#dfdfdf;
+  stroke-width: 2px; */
 }
 
 .hull path{
@@ -42,7 +42,7 @@ text {
 }
 
 .relationship-button:hover {
-  background-color: #40c702;
+  background-color: #309700;
   color: #fefff0;
 }
 
@@ -86,7 +86,7 @@ text {
 }
 
 #export:hover {
-  background-color: #027465;
+  background-color: #00927f;
   color:#ffffff;
 }
 
@@ -139,7 +139,10 @@ text {
   width: 15%;
   background-color: #f3f3f3;
   border: none;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
   color:#3b3b3b;
   padding: 5px 5px;
   text-align: center;
@@ -729,14 +732,19 @@ function nodeClick(d) {
       selectedNodes.splice(selectedNodes.indexOf(d),1);
       d3.select(selectedNodeElements[selectedNodeElements.indexOf(this)]).select("circle")
       .transition()
-      .attr('r', getNodeDefaultRadius());
+      .attr('r', getNodeDefaultRadius())
+      .attr("stroke", "#dfdfdf")
+      .attr("stroke-width", "2px")
+      .attr("fill", function(d) {return colors(d.type);});
       selectedNodeElements.splice(selectedNodeElements.indexOf(this),1);
       console.log("Node unselected");
     } else {
       highlightText(d);
       d3.select(this).select("circle")
         .transition()
-        .attr('r', 18);
+        .attr("stroke", "#ff0000")
+        .attr("stroke-width", "4px")
+        .attr('r', getNodeDefaultRadius() * .7);
       selectedNodes.push(d);
       selectedNodeElements.push(this);
       console.log("Node selected");
@@ -752,7 +760,10 @@ function clearSelection() {
       // console.log(selectedNodes[i]);
       d3.select(selectedNodeElements[i]).select("circle")
         .transition()
-        .attr('r', getNodeDefaultRadius());
+        .attr('r', getNodeDefaultRadius())
+        .attr("stroke", "#dfdfdf")
+        .attr("stroke-width", "2px")
+        .attr("fill", function(d) {return colors(d.type);});
     }
     for (i in selectedNodes) {
       unhighlightText(selectedNodes[i]);
@@ -1069,6 +1080,8 @@ function startSimulation() {
     .on("end", dragended));
   //draw circles for nodes
   node.append("circle")
+      .attr("stroke", "#dfdfdf")
+      .attr("stroke-width", "2px")
       .attr("r", radius)
       .attr("fill", function(d) {return colors(d.type);});
    
@@ -1208,6 +1221,8 @@ function restart() {
     .on("end", dragended));
   
   enter.append("circle")
+      .attr("stroke", "#dfdfdf")
+      .attr("stroke-width", "2px")
       .attr("fill", function(d) {return colors(d.type); })
       .call(function(node) { node.transition().attr("r", radius); });
   
