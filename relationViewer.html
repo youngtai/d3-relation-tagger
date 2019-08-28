@@ -219,7 +219,7 @@ text {
     <div id="option-buttons">
       <button id="toggle-same-as" type="button">Show "Same As"</button>
       <button id="scissors" type="button">Scissors</button>
-      <button id="reload-displayedGraph" type="button">Show All Relations</button>
+      <button id="reload-displayedGraph" type="button">All Relations</button>
     </div>
   </div>
 
@@ -1134,16 +1134,16 @@ function startSimulation() {
     node
       .attr("transform", function(d) {
         return "translate("
-        + Math.max(radius, Math.min(width - 75 - radius, d.x))
+        + Math.max(radius, Math.min(width - radius, d.x))
         + ", "
         + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
       /*.attr("x", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
       .attr("y", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); })*/
     link
-      .attr("x1", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.source.x));})
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
-      .attr("x2", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.target.x));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
     
     d3.select(".hull").selectAll("path").attr("stroke-width", "67px")
@@ -1336,7 +1336,7 @@ function sameAsRestart() {
   simulation.alpha(1).restart();
   console.log("Simulation restarted showing 'same as'.");
 
-  function tickActions() {  
+  function tickActions() {
     node
       .attr("transform", function(d) {
         return "translate("
