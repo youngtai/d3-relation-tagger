@@ -1,0 +1,1569 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028313193856",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557430635532
+    },
+    "description" : "#s_6917529028313193856",
+    "persons" : [ {
+      "id" : "p_6917529030791440656",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8F7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Th",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Th",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Th"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Th"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "TH"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8F7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791440756",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Gideon Olean",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Gideon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Gideon"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Olean",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Olean"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Gideon Olean"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6020408,0.15631175,0.64606416,0.18397366",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.28221574,0.1780461,0.3309038,0.19253567",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Gideon Olean"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791440856",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8F8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Anna J Haman",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Anna J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Anna J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Haman",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Haman"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Anna J Haman"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3504373,0.19253567,0.38979593,0.20856202",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.39241982,0.19253567,0.4037901,0.20856202",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40408164,0.19253567,0.46180758,0.20856202",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Anna J. Haman"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8F8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791440956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "F J Gosseline Esq",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "F J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "F J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Gosseline",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Gosseline"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Suffix",
+            "value" : "Esq",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Suffix",
+              "sources" : [ {
+                "description" : "#sd_img",
+                "qualifiers" : [ {
+                  "value" : "0.5215743,0.2812294,0.54227406,0.29110867",
+                  "name" : "http://gedcomx.org/RectangleRegion"
+                } ]
+              } ],
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SUF",
+                "text" : "Esq"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "F J Gosseline Esq"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4431487,0.2812294,0.45306122,0.29110867",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.46501458,0.2812294,0.52040815,0.29110867",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "F.J. Gosseline"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Charles L Hamar",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Charles L",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Charles L"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hamar",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hamar"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Charles L Hamar"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.63965017,0.34621295,0.6877551,0.3565313",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.687172,0.34621295,0.70116615,0.3565313",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7005831,0.34621295,0.7600583,0.3565313",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Charles L. Hamar"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Helen G Strong",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Helen G",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Helen G"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Strong",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Strong"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Helen G Strong"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.35947523,0.35521406,0.40495628,0.36641052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40670553,0.35521406,0.42157435,0.36641052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42740524,0.35521406,0.47696793,0.36641052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Helen G. Strong"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.29329446,0.39341384,0.33760932,0.40373215",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33877552,0.39341384,0.35072887,0.40373215",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3521866,0.39341384,0.40991253,0.40373215",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Helen G. Strong"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Themto",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Themto"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Eliza Hamar",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Eliza",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Eliza"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hamar",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hamar"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Eliza Hamar"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6206997,0.37453347,0.6568513,0.3852909",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.65860057,0.37453347,0.71428573,0.3852909",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Eliza Hamar"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Charles Gillingham",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Charles",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Charles"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Gillingham",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Gillingham"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Charles Gillingham"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7297376,0.37453347,0.77959186,0.3852909",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7851312,0.37453347,0.85685134,0.3852909",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Charles Gillingham"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8FB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8N9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "William D Moore",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "William D",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "William D"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Moore",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Moore"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "William D Moore"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27376094,0.38397366,0.33352768,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33352768,0.38397366,0.34868804,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35072887,0.38397366,0.393586,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William D. Moore"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8N9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8N7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Albert Judge",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Albert",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Albert"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Judge",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Judge"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Albert Judge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.39766765,0.38397366,0.44489795,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44693878,0.38397366,0.48542273,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Albert Judge"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8N7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Weston Brothers",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Weston",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Weston"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brothers",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brothers"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Weston Brothers"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.64752185,0.38397366,0.69271135,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6924198,0.38397366,0.7501458,0.39560923",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Weston Brothers"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8N8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Gideon H Strong",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Gideon H",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Gideon H"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Strong",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Strong"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Gideon H Strong"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.66734695,0.6750823,0.6810496,0.6895719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.68367344,0.6750823,0.7020408,0.6895719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7043732,0.6750823,0.7690962,0.6895719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "G. H. Strong"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.50932944,0.7222832,0.5644315,0.73150384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.56355685,0.7222832,0.57842565,0.73150384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.58104956,0.7222832,0.6379009,0.73150384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Gideon H. Strong"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8N8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441856",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Dillage",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Dillage",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Dillage"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Dillage"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36909622,0.7084522,0.396793,0.72250277",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Dillage"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791441956",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Olean",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Olean",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Olean"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Olean"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.40408164,0.7084522,0.42944607,0.72250277",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Olean"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.65451896,0.7222832,0.7110787,0.73150384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Olean"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791442056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "C P Moulton",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "C P",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "C P"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Moulton",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Moulton"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "C P Moulton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.54023325,0.7756312,0.5536443,0.788584",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5539359,0.7756312,0.5653061,0.788584",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.56793004,0.7756312,0.6303207,0.788584",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "C. P. Moulton"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Notary Public",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Notary Public"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791442156",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Sedom Th",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Sedom Th",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Sedom Th"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Sedom Th"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.20204082,0.81668496,0.22536443,0.8017563",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20204082,0.8017563,0.22536443,0.605708",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sedom th"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030791442256",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "M J Rich",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "M J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "M J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Rich",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Rich"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "M J Rich"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.22332361,0.6311745,0.24664722,0.6291987",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22332361,0.6287596,0.24664722,0.62744236",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22332361,0.6267837,0.24664722,0.5097695",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "M. J. Rich"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-P8NB-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://familysearch.org/types/relationships/NonRelative",
+      "person1" : {
+        "resource" : "#p_6917529030791441156",
+        "resourceId" : "p_6917529030791441156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030791440856",
+        "resourceId" : "p_6917529030791440856"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Non-Relative",
+          "resource" : "http://familysearch.org/types/relationships/NonRelative"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Nonrelative"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Non-Relative"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028313193856",
+      "about" : "#r_6917529028313193856",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-P5JV-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-99W6-J1SP",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-99W6-J1SP" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150393_00047_TXT</UNQ>\n<IMID>007150393_00047</IMID>\n<APID><ENAMEX TYPE=\"PERSON\">TH</ENAMEX>-1951-32807-26183-78</APID>\n<IMGSIZE>3430,4555</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 3\nQUIT-CLAIM <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Fifth\nof our Lord one thousand eight hundred and eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Gideon Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Anna J. Haman</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">One Dollar</NUMEX> ( <NUMEX TYPE=\"MONEY\">$1/6/10</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">him</ENAMEX> in hand paid by the said party of the second part, the receipt whereof is\nhereby confessed and acknowledged, hath bargained, sold, remised and <ENAMEX TYPE=\"ORGANIZATION\">QUTT-CLAIMED</ENAMEX>, and by these Presents do th bargain, sell, remise <ENAMEX TYPE=\"EVENT.xlife\">and Quit-Claim</ENAMEX>\nunto the said party of the second part,\nand to <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, ALL that tract or parcel of land situate in\nthe <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and distinguished on a\nmap of <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">F.J. Gosseline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> bounded and described as follows: Commenc-\ning at the Northwest corner of lot number thirty five ( 35) in Block number one <NUMEX TYPE=\"QUANTITY\">hundred and\nfour ( 104)</NUMEX> running thence Southerly <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) thence easterly to first street <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> \nfeet ( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) thence northerly along <ENAMEX TYPE=\"STRUCTURE\">First street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>), thence westerly <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> feet\n( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) to the place of beginning. \nThis deed is given and executed subject to a certain <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX> of Mortgage given to secure. \nthe payment of the sum of <NUMEX TYPE=\"MONEY\">Seven hundred twenty six dollars and thirty seven cents</NUMEX> and the in- \nterest thereon and to become due thereon, made by the said <ENAMEX TYPE=\"PERSON\">Charles L. Hamar</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> and running to <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">Administratrix</ENAMEX>, said mortgage bearing date about the\n<TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, and also subject to the payment of a certain Mortgage with \ninterest thereon and to become due thereon made by <ENAMEX TYPE=\"PERSON\">Eliza Hamar</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Charles Gillingham</ENAMEX> \n<ENAMEX TYPE=\"PERSON\">William D. Moore</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Albert Judge</ENAMEX>, and assigned by <ENAMEX TYPE=\"COREF\">them</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Weston Brothers</ENAMEX> and by <ENAMEX TYPE=\"OCCUPATION\">them-\nto</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">administratrix</ENAMEX> on or about the <TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, said mort- gage was given for the security of the payment of the sum of <NUMEX TYPE=\"MONEY\">six hundred seventy three dollars and sixty three cents</NUMEX>.\nTogether with all and singular the hereditaments and appurtenances thereto belonging or in any wise appertaining, and the reversion and reversions,\nremainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim and demand whatsoever of the said part if of the\nfirst part, either in law or equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances, to Have and to Hold the said\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The party of the first part hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of --\n<ENAMEX TYPE=\"PERSON\">G. H. Strong</ENAMEX>\n[ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of ⌨⌨⌨ U <ENAMEX TYPE=\"PERSON\">Dillage</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Olean</ENAMEX> ⎬ s on the <TIMEX TYPE=\"DATE\">Fifth\nday of May\nin the year one thousand eight hundred and\neighty two</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Gideon H. Strong</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Olean</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and eey acknowledged that the executed the same; the\ned apeirateeneminationby meapart from hersaidusbondeinewledged that sheexecuted the same freely and withestany fee or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> saidhusband\nAll erasures and interlineations in this deed were made before the execution and delivery\nof this instrument.\n<ENAMEX TYPE=\"PERSON\">C. P. Moulton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Sedom th</ENAMEX>\n<TIMEX TYPE=\"DATE\">___ day of May 1882</TIMEX>\nat__<TIMEX TYPE=\"TIME\">o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">M. J. Rich</ENAMEX> =====\n⌨ ⌨ &\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"940\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2023\"_ENDID=\"1692\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2070\"_ENDID=\"1762\"_STTOKEN=\"15th day of December 1881\"_ENDTOKEN=\"15th day of December 1881\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2729\"_ENDID=\"1692\"_STTOKEN=\"her\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2837\"_ENDID=\"818\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2935\"_ENDID=\"545\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3061\"_ENDID=\"940\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3242\"_ENDID=\"3030\"_STTOKEN=\"Gideon H. Strong\"_ENDTOKEN=\"G. H. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3262\"_ENDID=\"3107\"_STTOKEN=\"Olean\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3271\"_ENDID=\"3202\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3551\"_ENDID=\"1692\"_STTOKEN=\"her\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"72\"_ENDID=\"545\"_STTOKEN=\"TH\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"914\"_ENDID=\"318\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"S=1+\"_STID=\"3096\"_ENDID=\"3096\"_STTOKEN=\"Dillage\"_ENDTOKEN=\"Dillage\">\n<RELEX TYPE=\"S=2+\"_STID=\"1016\"_ENDID=\"1016\"_STTOKEN=\"F.J. Gosseline\"_ENDTOKEN=\"F.J. Gosseline\">\n<RELEX TYPE=\"S=2+\"_STID=\"1900\"_ENDID=\"1900\"_STTOKEN=\"Eliza Hamar\"_ENDTOKEN=\"Eliza Hamar\">\n<RELEX TYPE=\"S=2+\"_STID=\"1915\"_ENDID=\"1915\"_STTOKEN=\"Charles Gillingham\"_ENDTOKEN=\"Charles Gillingham\">\n<RELEX TYPE=\"S=2+\"_STID=\"1953\"_ENDID=\"1953\"_STTOKEN=\"Albert Judge\"_ENDTOKEN=\"Albert Judge\">\n<RELEX TYPE=\"S=2+\"_STID=\"1991\"_ENDID=\"1991\"_STTOKEN=\"Weston Brothers\"_ENDTOKEN=\"Weston Brothers\">\n<RELEX TYPE=\"S=2+\"_STID=\"305\"_ENDID=\"305\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"Gideon Olean\">\n<RELEX TYPE=\"S=3+\"_STID=\"1651\"_ENDID=\"1651\"_STTOKEN=\"Charles L. Hamar\"_ENDTOKEN=\"Charles L. Hamar\">\n<RELEX TYPE=\"S=3+\"_STID=\"1692\"_ENDID=\"1692\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"1935\"_ENDID=\"1935\"_STTOKEN=\"William D. Moore\"_ENDTOKEN=\"William D. Moore\">\n<RELEX TYPE=\"S=3+\"_STID=\"2023\"_ENDID=\"2023\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"3030\"_ENDID=\"3030\"_STTOKEN=\"G. H. Strong\"_ENDTOKEN=\"G. H. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"3242\"_ENDID=\"3242\"_STTOKEN=\"Gideon H. Strong\"_ENDTOKEN=\"Gideon H. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"3677\"_ENDID=\"3677\"_STTOKEN=\"C. P. Moulton\"_ENDTOKEN=\"C. P. Moulton\">\n<RELEX TYPE=\"S=3+\"_STID=\"3754\"_ENDID=\"3754\"_STTOKEN=\"M. J. Rich\"_ENDTOKEN=\"M. J. Rich\">\n<RELEX TYPE=\"S=3+\"_STID=\"385\"_ENDID=\"385\"_STTOKEN=\"Anna J. Haman\"_ENDTOKEN=\"Anna J. Haman\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1651\"_ENDID=\"1672\"_STTOKEN=\"Charles L. Hamar\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2729\"_ENDID=\"2733\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2729\"_ENDID=\"2743\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2837\"_ENDID=\"2841\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2837\"_ENDID=\"2851\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"818\"_ENDID=\"822\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"818\"_ENDID=\"832\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1692\"_ENDID=\"1457\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1692\"_ENDID=\"205\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1692\"_ENDID=\"216\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"305\"_ENDID=\"216\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"305\"_ENDID=\"756\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"and Quit-Claim\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"385\"_ENDID=\"216\"_STTOKEN=\"Anna J. Haman\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"545\"_ENDID=\"756\"_STTOKEN=\"him\"_ENDTOKEN=\"and Quit-Claim\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"1692\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"305\"_ENDID=\"305\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"Gideon Olean\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3707\"_ENDID=\"3707\"_STTOKEN=\"Sedom th\"_ENDTOKEN=\"Sedom th\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"385\"_ENDID=\"385\"_STTOKEN=\"Anna J. Haman\"_ENDTOKEN=\"Anna J. Haman\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"1692\"_ENDID=\"1709\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Administratrix\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2023\"_ENDID=\"2039\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"administratrix\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"2023\"_ENDID=\"2014\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"themto\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3677\"_ENDID=\"3692\"_STTOKEN=\"C. P. Moulton\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"318\"_ENDID=\"344\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"897\"_ENDID=\"914\"_STTOKEN=\"Village of Olean\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"914\"_ENDID=\"940\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"1016\"_ENDID=\"1031\"_STTOKEN=\"F.J. Gosseline\"_ENDTOKEN=\"Esq.\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"2023\"_ENDID=\"2014\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"themto\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150393_00047_TXT</UNQ>\n<IMID>007150393_00047</IMID>\n<APID><ENAMEX TYPE=\"PERSON\">TH</ENAMEX>-1951-32807-26183-78</APID>\n<IMGSIZE>3430,4555</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 3\nQUIT-CLAIM <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Fifth\nof our Lord one thousand eight hundred and eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Gideon Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Anna J. Haman</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">One Dollar</NUMEX> ( <NUMEX TYPE=\"MONEY\">$1/6/10</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">him</ENAMEX> in hand paid by the said party of the second part, the receipt whereof is\nhereby confessed and acknowledged, hath bargained, sold, remised and <ENAMEX TYPE=\"ORGANIZATION\">QUTT-CLAIMED</ENAMEX>, and by these Presents do th bargain, sell, remise <ENAMEX TYPE=\"EVENT.xlife\">and Quit-Claim</ENAMEX>\nunto the said party of the second part,\nand to <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, ALL that tract or parcel of land situate in\nthe <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and distinguished on a\nmap of <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">F.J. Gosseline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> bounded and described as follows: Commenc-\ning at the Northwest corner of lot number thirty five ( 35) in Block number one <NUMEX TYPE=\"QUANTITY\">hundred and\nfour ( 104)</NUMEX> running thence Southerly <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) thence easterly to first street <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> \nfeet ( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) thence northerly along <ENAMEX TYPE=\"STRUCTURE\">First street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>), thence westerly <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> feet\n( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) to the place of beginning. \nThis deed is given and executed subject to a certain <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX> of Mortgage given to secure. \nthe payment of the sum of <NUMEX TYPE=\"MONEY\">Seven hundred twenty six dollars and thirty seven cents</NUMEX> and the in- \nterest thereon and to become due thereon, made by the said <ENAMEX TYPE=\"PERSON\">Charles L. Hamar</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> and running to <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">Administratrix</ENAMEX>, said mortgage bearing date about the\n<TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, and also subject to the payment of a certain Mortgage with \ninterest thereon and to become due thereon made by <ENAMEX TYPE=\"PERSON\">Eliza Hamar</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Charles Gillingham</ENAMEX> \n<ENAMEX TYPE=\"PERSON\">William D. Moore</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Albert Judge</ENAMEX>, and assigned by <ENAMEX TYPE=\"COREF\">them</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Weston Brothers</ENAMEX> and by <ENAMEX TYPE=\"OCCUPATION\">them-\nto</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">administratrix</ENAMEX> on or about the <TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, said mort- gage was given for the security of the payment of the sum of <NUMEX TYPE=\"MONEY\">six hundred seventy three dollars and sixty three cents</NUMEX>.\nTogether with all and singular the hereditaments and appurtenances thereto belonging or in any wise appertaining, and the reversion and reversions,\nremainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim and demand whatsoever of the said part if of the\nfirst part, either in law or equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances, to Have and to Hold the said\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The party of the first part hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of --\n<ENAMEX TYPE=\"PERSON\">G. H. Strong</ENAMEX>\n[ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of ⌨⌨⌨ U <ENAMEX TYPE=\"PERSON\">Dillage</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Olean</ENAMEX> ⎬ s on the <TIMEX TYPE=\"DATE\">Fifth\nday of May\nin the year one thousand eight hundred and\neighty two</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Gideon H. Strong</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Olean</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and eey acknowledged that the executed the same; the\ned apeirateeneminationby meapart from hersaidusbondeinewledged that sheexecuted the same freely and withestany fee or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> saidhusband\nAll erasures and interlineations in this deed were made before the execution and delivery\nof this instrument.\n<ENAMEX TYPE=\"PERSON\">C. P. Moulton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Sedom th</ENAMEX>\n<TIMEX TYPE=\"DATE\">___ day of May 1882</TIMEX>\nat__<TIMEX TYPE=\"TIME\">o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">M. J. Rich</ENAMEX> =====\n⌨ ⌨ &\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"940\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2023\"_ENDID=\"1692\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2070\"_ENDID=\"1762\"_STTOKEN=\"15th day of December 1881\"_ENDTOKEN=\"15th day of December 1881\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2729\"_ENDID=\"1692\"_STTOKEN=\"her\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2837\"_ENDID=\"818\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2935\"_ENDID=\"545\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3061\"_ENDID=\"940\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3242\"_ENDID=\"3030\"_STTOKEN=\"Gideon H. Strong\"_ENDTOKEN=\"G. H. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3262\"_ENDID=\"3107\"_STTOKEN=\"Olean\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3271\"_ENDID=\"3202\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3551\"_ENDID=\"1692\"_STTOKEN=\"her\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"72\"_ENDID=\"545\"_STTOKEN=\"TH\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"914\"_ENDID=\"318\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"S=1+\"_STID=\"3096\"_ENDID=\"3096\"_STTOKEN=\"Dillage\"_ENDTOKEN=\"Dillage\">\n<RELEX TYPE=\"S=2+\"_STID=\"1016\"_ENDID=\"1016\"_STTOKEN=\"F.J. Gosseline\"_ENDTOKEN=\"F.J. Gosseline\">\n<RELEX TYPE=\"S=2+\"_STID=\"1900\"_ENDID=\"1900\"_STTOKEN=\"Eliza Hamar\"_ENDTOKEN=\"Eliza Hamar\">\n<RELEX TYPE=\"S=2+\"_STID=\"1915\"_ENDID=\"1915\"_STTOKEN=\"Charles Gillingham\"_ENDTOKEN=\"Charles Gillingham\">\n<RELEX TYPE=\"S=2+\"_STID=\"1953\"_ENDID=\"1953\"_STTOKEN=\"Albert Judge\"_ENDTOKEN=\"Albert Judge\">\n<RELEX TYPE=\"S=2+\"_STID=\"1991\"_ENDID=\"1991\"_STTOKEN=\"Weston Brothers\"_ENDTOKEN=\"Weston Brothers\">\n<RELEX TYPE=\"S=2+\"_STID=\"305\"_ENDID=\"305\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"Gideon Olean\">\n<RELEX TYPE=\"S=3+\"_STID=\"1651\"_ENDID=\"1651\"_STTOKEN=\"Charles L. Hamar\"_ENDTOKEN=\"Charles L. Hamar\">\n<RELEX TYPE=\"S=3+\"_STID=\"1692\"_ENDID=\"1692\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"1935\"_ENDID=\"1935\"_STTOKEN=\"William D. Moore\"_ENDTOKEN=\"William D. Moore\">\n<RELEX TYPE=\"S=3+\"_STID=\"2023\"_ENDID=\"2023\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Helen G. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"3030\"_ENDID=\"3030\"_STTOKEN=\"G. H. Strong\"_ENDTOKEN=\"G. H. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"3242\"_ENDID=\"3242\"_STTOKEN=\"Gideon H. Strong\"_ENDTOKEN=\"Gideon H. Strong\">\n<RELEX TYPE=\"S=3+\"_STID=\"3677\"_ENDID=\"3677\"_STTOKEN=\"C. P. Moulton\"_ENDTOKEN=\"C. P. Moulton\">\n<RELEX TYPE=\"S=3+\"_STID=\"3754\"_ENDID=\"3754\"_STTOKEN=\"M. J. Rich\"_ENDTOKEN=\"M. J. Rich\">\n<RELEX TYPE=\"S=3+\"_STID=\"385\"_ENDID=\"385\"_STTOKEN=\"Anna J. Haman\"_ENDTOKEN=\"Anna J. Haman\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1651\"_ENDID=\"1672\"_STTOKEN=\"Charles L. Hamar\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2729\"_ENDID=\"2733\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2729\"_ENDID=\"2743\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2837\"_ENDID=\"2841\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2837\"_ENDID=\"2851\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"818\"_ENDID=\"822\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"818\"_ENDID=\"832\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"305\"_ENDID=\"216\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"305\"_ENDID=\"756\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"and Quit-Claim\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"385\"_ENDID=\"216\"_STTOKEN=\"Anna J. Haman\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"545\"_ENDID=\"756\"_STTOKEN=\"him\"_ENDTOKEN=\"and Quit-Claim\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"305\"_ENDID=\"305\"_STTOKEN=\"Gideon Olean\"_ENDTOKEN=\"Gideon Olean\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3707\"_ENDID=\"3707\"_STTOKEN=\"Sedom th\"_ENDTOKEN=\"Sedom th\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"385\"_ENDID=\"385\"_STTOKEN=\"Anna J. Haman\"_ENDTOKEN=\"Anna J. Haman\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"1692\"_ENDID=\"1709\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"Administratrix\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2023\"_ENDID=\"2039\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"administratrix\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"2023\"_ENDID=\"2014\"_STTOKEN=\"Helen G. Strong\"_ENDTOKEN=\"themto\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3677\"_ENDID=\"3692\"_STTOKEN=\"C. P. Moulton\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"318\"_ENDID=\"344\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"897\"_ENDID=\"914\"_STTOKEN=\"Village of Olean\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"914\"_ENDID=\"940\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"1016\"_ENDID=\"1031\"_STTOKEN=\"F.J. Gosseline\"_ENDTOKEN=\"Esq.\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150393_00047_TXT</UNQ>\n<IMID>007150393_00047</IMID>\n<APID><ENAMEX TYPE=\"PERSON\">TH</ENAMEX>-1951-32807-26183-78</APID>\n<IMGSIZE>3430,4555</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 3\nQUIT-CLAIM <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Fifth\nof our Lord one thousand eight hundred and eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Gideon Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Anna J. Haman</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">One Dollar</NUMEX> ( <NUMEX TYPE=\"MONEY\">$1/6/10</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">him</ENAMEX> in hand paid by the said party of the second part, the receipt whereof is\nhereby confessed and acknowledged, hath bargained, sold, remised and <ENAMEX TYPE=\"ORGANIZATION\">QUTT-CLAIMED</ENAMEX>, and by these Presents do th bargain, sell, remise <ENAMEX TYPE=\"EVENT.xlife\">and Quit-Claim</ENAMEX>\nunto the said party of the second part,\nand to <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, ALL that tract or parcel of land situate in\nthe <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and distinguished on a\nmap of <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">F.J. Gosseline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> bounded and described as follows: Commenc-\ning at the Northwest corner of lot number thirty five ( 35) in Block number one <NUMEX TYPE=\"QUANTITY\">hundred and\nfour ( 104)</NUMEX> running thence Southerly <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) thence easterly to first street <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> \nfeet ( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) thence northerly along <ENAMEX TYPE=\"STRUCTURE\">First street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>), thence westerly <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> feet\n( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) to the place of beginning. \nThis deed is given and executed subject to a certain <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX> of Mortgage given to secure. \nthe payment of the sum of <NUMEX TYPE=\"MONEY\">Seven hundred twenty six dollars and thirty seven cents</NUMEX> and the in- \nterest thereon and to become due thereon, made by the said <ENAMEX TYPE=\"PERSON\">Charles L. Hamar</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> and running to <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">Administratrix</ENAMEX>, said mortgage bearing date about the\n<TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, and also subject to the payment of a certain Mortgage with \ninterest thereon and to become due thereon made by <ENAMEX TYPE=\"PERSON\">Eliza Hamar</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Charles Gillingham</ENAMEX> \n<ENAMEX TYPE=\"PERSON\">William D. Moore</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Albert Judge</ENAMEX>, and assigned by <ENAMEX TYPE=\"COREF\">them</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Weston Brothers</ENAMEX> and by <ENAMEX TYPE=\"OCCUPATION\">them-\nto</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">administratrix</ENAMEX> on or about the <TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, said mort- gage was given for the security of the payment of the sum of <NUMEX TYPE=\"MONEY\">six hundred seventy three dollars and sixty three cents</NUMEX>.\nTogether with all and singular the hereditaments and appurtenances thereto belonging or in any wise appertaining, and the reversion and reversions,\nremainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim and demand whatsoever of the said part if of the\nfirst part, either in law or equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances, to Have and to Hold the said\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The party of the first part hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of --\n<ENAMEX TYPE=\"PERSON\">G. H. Strong</ENAMEX>\n[ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of ⌨⌨⌨ U <ENAMEX TYPE=\"PERSON\">Dillage</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Olean</ENAMEX> ⎬ s on the <TIMEX TYPE=\"DATE\">Fifth\nday of May\nin the year one thousand eight hundred and\neighty two</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Gideon H. Strong</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Olean</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and eey acknowledged that the executed the same; the\ned apeirateeneminationby meapart from hersaidusbondeinewledged that sheexecuted the same freely and withestany fee or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> saidhusband\nAll erasures and interlineations in this deed were made before the execution and delivery\nof this instrument.\n<ENAMEX TYPE=\"PERSON\">C. P. Moulton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Sedom th</ENAMEX>\n<TIMEX TYPE=\"DATE\">___ day of May 1882</TIMEX>\nat__<TIMEX TYPE=\"TIME\">o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">M. J. Rich</ENAMEX> =====\n⌨ ⌨ &\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150393_00047_TXT</UNQ>\n<IMID>007150393_00047</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1951</TIMEX>-32807-26183<TIMEX TYPE=\"DATE\">-78</TIMEX></APID>\n<IMGSIZE>3430,<TIMEX TYPE=\"DATE\">4555</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 3\nQUIT-CLAIM <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Fifth\nof our Lord one thousand eight hundred and eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Gideon Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Anna J. Haman</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">One Dollar</NUMEX> ( <NUMEX TYPE=\"MONEY\">$1/6/10</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">him</ENAMEX> in hand paid by the said party of the second part, the receipt whereof is\nhereby confessed and acknowledged, hath bargained, sold, remised and <ENAMEX TYPE=\"ORGANIZATION\">QUTT-CLAIMED</ENAMEX>, and by these Presents do th bargain, sell, remise <ENAMEX TYPE=\"EVENT.xlife\">and Quit-Claim</ENAMEX>\nunto the said party of the second part,\nand to <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, ALL that tract or parcel of land situate in\nthe <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and distinguished on a\nmap of <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">F.J. Gosseline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> bounded and described as follows: Commenc-\ning at the Northwest corner of lot number thirty five ( 35) in Block number one <NUMEX TYPE=\"QUANTITY\">hundred and\nfour ( 104)</NUMEX> running thence Southerly <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) thence easterly to first street <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> \nfeet ( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) thence northerly along <ENAMEX TYPE=\"STRUCTURE\">First street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> feet ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>), thence westerly <NUMEX TYPE=\"QUANTITY\">one hundred</NUMEX> feet\n( <NUMEX TYPE=\"QUANTITY\">100</NUMEX>) to the place of beginning. \nThis deed is given and executed subject to a certain Indenture of Mortgage given to secure. \nthe payment of the sum of <NUMEX TYPE=\"MONEY\">Seven hundred twenty six dollars and thirty seven cents</NUMEX> and the in- \nterest thereon and to become due thereon, made by the said <ENAMEX TYPE=\"PERSON\">Charles L. Hamar</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> and running to <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">Administratrix</ENAMEX>, said mortgage bearing date about the\n<TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, and also subject to the payment of a certain Mortgage with \ninterest thereon and to become due thereon made by <ENAMEX TYPE=\"PERSON\">Eliza Hamar</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Charles Gillingham</ENAMEX> \n<ENAMEX TYPE=\"PERSON\">William D. Moore</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Albert Judge</ENAMEX>, and assigned by <ENAMEX TYPE=\"COREF\">them</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Weston Brothers</ENAMEX> and by <ENAMEX TYPE=\"OCCUPATION\">them-\nto</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen G. Strong</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">administratrix</ENAMEX> on or about the <TIMEX TYPE=\"DATE\">15th day of December 1881</TIMEX>, said mort- gage was given for the security of the payment of the sum of <NUMEX TYPE=\"MONEY\">six hundred seventy three dollars and sixty three cents</NUMEX>.\nTogether with all and singular the hereditaments and appurtenances thereto belonging or in any wise appertaining, and the reversion and reversions,\nremainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim and demand whatsoever of the said part if of the\nfirst part, either in law or equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances, to Have and to Hold the said\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The party of the first part hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of --\n<ENAMEX TYPE=\"PERSON\">G. H. Strong</ENAMEX>\n[ L. S.]\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of ⌨⌨⌨ U <ENAMEX TYPE=\"PERSON\">Dillage</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> ⎬ s on the <TIMEX TYPE=\"DATE\">Fifth\nday of May\nin the year one thousand eight hundred and\neighty two</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Gideon H. Strong</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and eey acknowledged that the executed the same; the\ned apeirateeneminationby meapart from hersaidusbondeinewledged that sheexecuted the same freely and withestany fee or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> saidhusband\nAll erasures and interlineations in this deed were made before the execution and delivery\nof this instrument.\n<ENAMEX TYPE=\"PERSON\">C. P. Moulton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Sedom th</ENAMEX>\n<TIMEX TYPE=\"DATE\">___ day of May 1882</TIMEX>\nat__<TIMEX TYPE=\"TIME\">o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">M. J. Rich</ENAMEX> =====\n⌨ ⌨ &\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150393_00047_TXT</UNQ>\n<IMID>007150393_00047</IMID>\n<APID>TH-1951-32807-26183-78</APID>\n<IMGSIZE>3430,4555</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[2820,495:2955,560] 4 3\n[1027,612:1128,642] QUIT-CLAIM [1274,612:1395,642] DEED.\n[946,673:1176,776] This [1185,673:1640,776] Indenture, [1673,673:1751,776] Made [1744,673:1815,776] this [1824,673:2006,776] Fifth\n[914,712:953,838] of [946,712:1001,838] our [1002,712:1073,838] Lord [1066,712:1121,838] one [1122,712:1249,838] thousand [1242,712:1321,838] eight [1314,712:1432,838] hundred [1425,712:1480,838] and [1481,712:1584,838] eighty [1593,712:1864,838] two [1873,712:2048,838] Between [2065,712:2216,838] Gideon [968,811:1135,877] Olean [1136,811:1318,877] County [1319,811:1382,877] of [1391,811:1710,877] Cattaraugus [1711,811:1814,877] and [1815,811:1926,877] State [1926,811:1989,877] of [1998,811:2093,877] New [2094,811:2270,877] York\n[914,877:953,950] of [946,877:1001,950] the [994,877:1065,950] first [1058,877:1121,950] part, [1130,877:1185,950] and [1202,877:1337,950] Anna [1346,877:1385,950] J. [1386,877:1584,950] Haman [1585,877:1632,950] of [1633,877:1712,950] the [1713,877:1840,950] same [1849,877:1976,950] place.\n[2622,991:2659,1022] of [2653,991:2707,1022] the [2701,991:2799,1022] second [2793,991:2856,1022] part,\n[918,1022:1123,1072] Witnesseth, [1136,1022:1208,1072] That [1207,1022:1257,1072] the [1249,1022:1314,1072] said [1313,1022:1427,1072] party [1419,1022:1462,1072] of [1454,1022:1504,1072] the [1503,1022:1568,1072] first [1560,1022:1624,1072] part, [1630,1022:1666,1072] in [1666,1022:1843,1072] consideration [1835,1022:1878,1072] of [1870,1022:1921,1072] the [1920,1022:1984,1072] sum [1976,1022:2026,1072] of [2033,1022:2125,1072] One [2131,1022:2288,1072] Dollar [2294,1022:2316,1072] ( [2301,1022:2365,1072] $1/6/10)\n[1741,1078:1788,1111] to [1787,1078:1914,1111] him [1909,1078:1952,1111] in [1946,1078:2021,1111] hand [2016,1078:2087,1111] paid [2086,1078:2129,1111] by [2123,1078:2180,1111] the [2174,1078:2236,1111] said [2230,1078:2343,1111] party [2342,1078:2380,1111] of [2374,1078:2427,1111] the [2421,1078:2520,1111] second [2514,1078:2576,1111] part, [2579,1078:2632,1111] the [2631,1078:2729,1111] receipt [2724,1078:2836,1111] whereof [2831,1078:2917,1111] is\n[911,1113:1014,1150] hereby [1010,1113:1139,1150] confessed [1134,1113:1191,1150] and [1186,1113:1373,1150] acknowledged, [1379,1113:1466,1150] hath [1462,1113:1596,1150] bargained, [1597,1113:1664,1150] sold, [1664,1113:1778,1150] remised [1773,1113:1835,1150] and [1836,1113:1903,1150] QUTT-CLAIMED, [2023,1113:2084,1150] and [2085,1113:2131,1150] by [2127,1113:2209,1150] these [2204,1113:2328,1150] Presents [2324,1113:2370,1150] do [2365,1113:2412,1150] th [2407,1113:2510,1150] bargain, [2511,1113:2567,1150] sell, [2573,1113:2666,1150] remise [2661,1113:2718,1150] and [2719,1113:2780,1150] Quit-Claim\n[911,1164:983,1195] unto [977,1164:1032,1195] the [1025,1164:1089,1195] said [1087,1164:1198,1195] party [1192,1164:1233,1195] of [1227,1164:1281,1195] the [1275,1164:1373,1195] second [1367,1164:1430,1195] part,\n[1465,1205:1524,1244] and [1520,1205:1578,1244] to [1585,1205:1720,1244] her [1716,1205:1797,1244] heirs [1787,1205:1846,1244] and [1842,1205:1938,1244] assigns [1934,1205:2042,1244] forever, [2049,1205:2124,1244] ALL [2120,1205:2206,1244] that [2202,1205:2326,1244] tract [2327,1205:2386,1244] or [2382,1205:2517,1244] parcel [2513,1205:2561,1244] of [2567,1205:2681,1244] land [2682,1205:2828,1244] situate [2824,1205:2932,1244] in\n[938,1236:997,1289] the [1004,1236:1129,1289] Village [1121,1236:1166,1289] of [1165,1236:1298,1289] Olean [1297,1236:1451,1289] County [1451,1236:1495,1289] of [1495,1236:1752,1289] Cattaraugus [1751,1236:1854,1289] and [1854,1236:1949,1289] State [1949,1236:2001,1289] of [2000,1236:2089,1289] New [2088,1236:2177,1289] York. [2191,1236:2360,1289] Known [2359,1236:2462,1289] and [2462,1236:2755,1289] distinguished [2755,1236:2814,1289] on [2821,1236:2909,1289] a\n[938,1281:1047,1326] map [1044,1281:1103,1326] of [1101,1281:1209,1326] said [1207,1281:1347,1326] Village [1345,1281:1466,1326] made [1464,1281:1516,1326] by [1520,1281:1554,1326] F.J. [1595,1281:1785,1326] Gosseline [1789,1281:1860,1326] Esq. [1908,1281:2111,1326] bounded [2108,1281:2217,1326] and [2221,1281:2417,1326] described [2415,1281:2468,1326] as [2465,1281:2630,1326] follows: [2647,1281:2887,1326] Commenc-\n[944,1326:1046,1371] ing [1044,1326:1103,1371] at [1100,1326:1171,1371] the [1169,1326:1372,1371] Northwest [1376,1326:1528,1371] corner [1526,1326:1585,1371] of [1582,1326:1654,1371] lot [1651,1326:1835,1371] number [1833,1326:1960,1371] thirty [1958,1326:2035,1371] five [2027,1326:2048,1371] ( [2033,1326:2104,1371] 35) [2133,1326:2192,1371] in [2196,1326:2323,1371] Block [2321,1326:2499,1371] number [2509,1326:2593,1371] one [2596,1326:2787,1371] hundred [2791,1326:2936,1371] and\n[938,1369:1041,1418] four [1033,1369:1062,1418] ( [1047,1369:1143,1418] 104) [1169,1369:1381,1418] running [1380,1369:1544,1418] thence [1543,1369:1755,1418] Southerly [1753,1369:1863,1418] forty [1862,1369:1965,1418] feet [1957,1369:1986,1418] ( [1971,1369:2033,1418] 40) [2059,1369:2217,1418] thence [2222,1369:2393,1418] easterly [2399,1369:2434,1418] to [2439,1369:2556,1418] first [2562,1369:2692,1418] street [2691,1369:2767,1418] one [2765,1369:2943,1418] hundred [880,1406:939,1459] \n[938,1406:1019,1459] feet [1019,1406:1041,1459] ( [1026,1406:1093,1459] 100) [1129,1406:1276,1459] thence [1276,1406:1496,1459] northerly [1495,1406:1650,1459] along [1649,1406:1767,1459] First [1767,1406:1899,1459] street [1899,1406:2024,1459] forty [2023,1406:2119,1459] feet [2119,1406:2141,1459] ( [2126,1406:2192,1459] 40), [2221,1406:2361,1459] thence [2361,1406:2522,1459] westerly [2522,1406:2595,1459] one [2595,1406:2779,1459] hundred [2778,1406:2917,1459] feet\n[910,1449:948,1503] ( [933,1449:994,1503] 100) [1017,1449:1069,1503] to [1070,1449:1130,1503] the [1130,1449:1251,1503] place [1252,1449:1304,1503] of [1297,1449:1539,1503] beginning. [880,1492:924,1544] \n[931,1492:1027,1544] This [1026,1492:1144,1544] deed [1144,1492:1195,1544] is [1195,1492:1327,1544] given [1334,1492:1437,1544] and [1437,1492:1627,1544] executed [1634,1492:1789,1544] subject [1788,1492:1840,1544] to [1840,1492:1891,1544] a [1891,1492:2082,1544] certain [2089,1492:2338,1544] Indenture [2338,1492:2397,1544] of [2396,1492:2602,1544] Mortgage [2601,1492:2719,1544] given [2719,1492:2763,1544] to [2762,1492:2902,1544] secure. [875,1540:942,1577] \n[943,1540:1020,1577] the [1016,1540:1223,1577] payment [1218,1540:1270,1577] of [1265,1540:1343,1577] the [1343,1540:1472,1577] sum [1468,1540:1519,1577] of [1520,1540:1644,1577] Seven [1639,1540:1862,1577] hundred [1863,1540:1997,1577] twenty [1998,1540:2075,1577] six [2076,1540:2242,1577] dollars [2237,1540:2335,1577] and [2336,1540:2434,1577] thirty [2429,1540:2538,1577] seven [2554,1540:2678,1577] cents [2684,1540:2782,1577] and [2778,1540:2845,1577] the [2845,1540:2902,1577] in- [876,1577:943,1624] \n[941,1577:1080,1624] terest [1084,1577:1256,1624] thereon [1261,1577:1360,1624] and [1365,1577:1406,1624] to [1404,1577:1582,1624] become [1580,1577:1667,1624] due [1665,1577:1811,1624] thereon, [1815,1577:1948,1624] made [1946,1577:2000,1624] by [1998,1577:2072,1624] the [2070,1577:2189,1624] said [2194,1577:2359,1624] Charles [2357,1577:2405,1624] L. [2403,1577:2607,1624] Hamar [2612,1577:2711,1624] and [2716,1577:2822,1624] wife [2827,1577:2946,1624] and [951,1618:1184,1669] running [1184,1618:1234,1669] to [1233,1618:1389,1669] Helen [1395,1618:1446,1669] G. [1466,1618:1636,1669] Strong, [1650,1618:2032,1669] Administratrix, [2052,1618:2173,1669] said [2172,1618:2392,1669] mortgage [2391,1618:2575,1669] bearing [2574,1618:2674,1669] date [2680,1618:2808,1669] about [2807,1618:2936,1669] the\n[945,1663:1058,1714] 15th [1058,1663:1143,1714] day [1142,1663:1193,1714] of [1192,1663:1433,1714] December [1432,1663:1524,1714] 1881, [1545,1663:1666,1714] and [1665,1663:1764,1714] also [1764,1663:1934,1714] subject [1940,1663:1990,1714] to [1990,1663:2061,1714] the [2060,1663:2273,1714] payment [2272,1663:2336,1714] of [2343,1663:2386,1714] a [2392,1663:2584,1714] certain [2583,1663:2802,1714] Mortgage [2802,1663:2930,1714] with [880,1706:949,1755] \n[955,1706:1133,1755] interest [1145,1706:1316,1755] thereon [1321,1706:1425,1755] and [1423,1706:1472,1755] to [1477,1706:1655,1755] become [1661,1706:1751,1755] due [1749,1706:1927,1755] thereon [1926,1706:2063,1755] made [2062,1706:2124,1755] by [2129,1706:2253,1755] Eliza [2259,1706:2450,1755] Hamar [2449,1706:2498,1755] to [2503,1706:2674,1755] Charles [2693,1706:2939,1755] Gillingham [880,1749:939,1802] \n[939,1749:1144,1802] William [1144,1749:1196,1802] D. [1203,1749:1350,1802] Moore, [1364,1749:1526,1802] Albert [1533,1749:1665,1802] Judge, [1686,1749:1789,1802] and [1789,1749:1995,1802] assigned [1987,1749:2053,1802] by [2053,1749:2163,1802] them [2170,1749:2214,1802] to [2221,1749:2376,1802] Weston [2375,1749:2573,1802] Brothers [2573,1749:2676,1802] and [2676,1749:2735,1802] by [2734,1749:2852,1802] them-\n[953,1792:1007,1839] to [1006,1792:1158,1839] Helen [1162,1792:1203,1839] G. [1208,1792:1406,1839] Strong [1404,1792:1798,1839] administratrix [1796,1792:1850,1839] on [1854,1792:1909,1839] or [1913,1792:2039,1839] about [2044,1792:2118,1839] the [2116,1792:2235,1839] 15th [2233,1792:2307,1839] day [2305,1792:2353,1839] of [2351,1792:2588,1839] December [2586,1792:2673,1839] 1881, [2684,1792:2790,1839] said [2788,1792:2901,1839] mort- [960,1835:1079,1901] gage [1080,1835:1167,1901] was [1168,1835:1287,1901] given [1288,1835:1367,1901] for [1368,1835:1438,1901] the [1439,1835:1638,1901] security [1639,1835:1678,1901] of [1671,1835:1742,1901] the [1743,1835:1934,1901] payment [1935,1835:1974,1901] of [1975,1835:2030,1901] the [2031,1835:2134,1901] sum [2135,1835:2182,1901] of [2183,1835:2254,1901] six [2255,1835:2453,1901] hundred [2454,1835:2605,1901] seventy [2606,1835:2741,1901] three [2742,1835:2925,1901] dollars [960,1882:1074,1936] and [1074,1882:1195,1936] sixty [1196,1882:1309,1936] three [1317,1882:1438,1936] cents.\n[922,2599:1100,2648] Together [1098,2599:1161,2648] with [1160,2599:1209,2648] all [1200,2599:1256,2648] and [1255,2599:1365,2648] singular [1363,2599:1412,2648] the [1411,2599:1602,2648] hereditaments [1594,2599:1657,2648] and [1649,2599:1840,2648] appurtenances [1832,2599:1935,2648] thereto [1934,2599:2078,2648] belonging [2076,2599:2112,2648] or [2104,2599:2146,2648] in [2144,2599:2200,2648] any [2199,2599:2261,2648] wise [2260,2599:2424,2648] appertaining, [2430,2599:2492,2648] and [2491,2599:2547,2648] the [2538,2599:2676,2648] reversion [2667,2599:2730,2648] and [2728,2599:2866,2648] reversions,\n[916,2646:1062,2677] remainder [1056,2646:1115,2677] and [1109,2646:1256,2677] remainders, [1258,2646:1335,2677] rents, [1337,2646:1423,2677] issues [1417,2646:1476,2677] and [1474,2646:1563,2677] profits [1557,2646:1660,2677] thereof, [1667,2646:1726,2677] and [1720,2646:1766,2677] all [1759,2646:1810,2677] the [1808,2646:1889,2677] estate, [1891,2646:1968,2677] right, [1970,2646:2034,2677] title, [2036,2646:2144,2677] interest, [2151,2646:2227,2677] claim [2221,2646:2280,2677] and [2278,2646:2390,2677] demand [2384,2646:2535,2677] whatsoever [2533,2646:2570,2677] of [2564,2646:2618,2677] the [2612,2646:2675,2677] said [2669,2646:2737,2677] part [2731,2646:2781,2677] if [2779,2646:2821,2677] of [2819,2646:2925,2677] the\n[915,2679:981,2712] first [975,2679:1041,2712] part, [1045,2679:1130,2712] either [1124,2679:1163,2712] in [1157,2679:1214,2712] law [1213,2679:1251,2712] or [1246,2679:1335,2712] equity, [1343,2679:1382,2712] of, [1381,2679:1424,2712] in [1418,2679:1475,2712] and [1474,2679:1512,2712] to [1507,2679:1559,2712] the [1558,2679:1643,2712] above [1637,2679:1773,2712] bargained [1768,2679:1890,2712] premises, [1894,2679:1960,2712] with [1954,2679:2011,2712] the [2005,2679:2067,2712] said [2061,2679:2249,2712] hereditaments [2243,2679:2300,2712] and [2294,2679:2482,2712] appurtenances, [2486,2679:2529,2712] to [2523,2679:2603,2712] Have [2597,2679:2659,2712] and [2653,2679:2692,2712] to [2686,2679:2766,2712] Hold [2761,2679:2813,2712] the [2807,2679:2925,2712] said\n[917,2763:957,2808] to [954,2763:1007,2808] the [998,2763:1063,2808] said [1061,2763:1169,2808] party [1167,2763:1207,2808] of [1205,2763:1257,2808] the [1248,2763:1345,2808] second [1342,2763:1407,2808] part, [1461,2763:1633,2808] her [1630,2763:1702,2808] heirs [1699,2763:1758,2808] and [1749,2763:1852,2808] assigns, [1856,2763:1889,2808] to [1887,2763:1939,2808] the [1931,2763:1996,2808] sole [1993,2763:2046,2808] and [2043,2763:2115,2808] only [2106,2763:2202,2808] proper [2200,2763:2296,2808] benefit [2294,2763:2352,2808] and [2344,2763:2446,2808] behoof [2438,2763:2478,2808] of [2475,2763:2528,2808] the [2519,2763:2584,2808] said [2582,2763:2690,2808] party [2688,2763:2728,2808] of [2726,2763:2778,2808] the [2776,2763:2925,2808] second\n[914,2806:981,2839] part, [1003,2806:1153,2839] her [1152,2806:1227,2839] heirs [1221,2806:1278,2839] and [1272,2806:1371,2839] assigns [1365,2806:1473,2839] forever.\n[975,3026:1039,3077] In [1038,3026:1201,3077] Witness [1193,3026:1364,3077] Whereoff, [1370,3026:1427,3077] The [1419,3026:1533,3077] party [1532,3026:1575,3077] of [1568,3026:1618,3077] the [1610,3026:1681,3077] first [1673,3026:1738,3077] part [1730,3026:1815,3077] hath [1815,3026:1943,3077] hereunto [1935,3026:1999,3077] set [2005,3026:2147,3077] his [2146,3026:2239,3077] hand [2231,3026:2288,3077] and [2288,3026:2366,3077] seal [2358,3026:2415,3077] the [2415,3026:2465,3077] day [2464,3026:2521,3077] and [2513,3026:2585,3077] year [2577,3026:2641,3077] first [2633,3026:2719,3077] above [2718,3026:2818,3077] written.\n[918,3087:1019,3108] Sealed [1013,3087:1083,3108] and [1077,3087:1220,3108] Delivered [1211,3087:1260,3108] in [1254,3087:1385,3108] Presence [1382,3087:1419,3108] of [1407,3087:1493,3108] --\n[2289,3075:2336,3141] G. [2345,3075:2408,3141] H. [2416,3075:2638,3141] Strong\n[2784,3083:2810,3110] [ [2795,3083:2829,3110] L. [2822,3083:2856,3110] S.]\n[2787,3122:2814,3149] [ [2799,3122:2833,3149] L. [2822,3122:2856,3149] S.]\n[920,3198:1089,3229] STATE [1091,3198:1172,3229] OF [1175,3198:1317,3229] NEW [1319,3198:1457,3229] YORK.\n[915,3227:1050,3291] County [1051,3227:1097,3291] of [1114,3227:1201,3291] ⌨⌨⌨ [1202,3227:1257,3291] U [1266,3227:1361,3291] Dillage [1354,3227:1385,3291] of [1386,3227:1473,3291] Olean [1466,3227:1489,3291] ⎬ [1490,3227:1545,3291] s [1546,3227:1584,3291] on [1577,3227:1640,3291] the [1649,3227:1815,3291] Fifth\n[1958,3243:2007,3291] day [2006,3243:2048,3291] of [2053,3243:2213,3291] May\n[2359,3260:2397,3288] in [2390,3260:2439,3288] the [2436,3260:2497,3288] year [2490,3260:2544,3288] one [2536,3260:2655,3288] thousand [2648,3260:2717,3288] eight [2710,3260:2821,3288] hundred [2814,3260:2925,3288] and\n[920,3290:1013,3332] eighty [1016,3290:1181,3332] two [1184,3290:1265,3332] before [1262,3290:1307,3332] me, [1310,3290:1355,3332] the [1352,3290:1481,3332] subscriber, [1484,3290:1613,3332] personally [1610,3290:1738,3332] appeared [1747,3290:1936,3332] Gideon [1933,3290:1984,3332] H. [1993,3290:2188,3332] Strong [2191,3290:2242,3332] of [2245,3290:2439,3332] Olean\n[1796,3327:1836,3387] to [1829,3327:1877,3387] me [1870,3327:2042,3387] personally [2035,3327:2125,3387] known [2118,3327:2158,3387] to [2151,3327:2191,3387] be [2184,3327:2232,3387] the [2225,3327:2298,3387] same [2292,3327:2389,3387] person [2391,3327:2505,3387] described [2498,3327:2538,3387] in [2531,3327:2587,3387] and [2581,3327:2637,3387] who [2630,3327:2744,3387] executed [2738,3327:2786,3387] the [2787,3327:2921,3387] within\n[919,3364:1056,3412] instrument, [1062,3364:1104,3412] and [1109,3364:1226,3412] eey [1218,3364:1389,3412] acknowledged [1387,3364:1450,3412] that [1448,3364:1491,3412] the [1503,3364:1613,3412] executed [1611,3364:1660,3412] the [1652,3364:1728,3412] same; [1733,3364:1945,3412] the\n[919,3426:959,3451] ed [951,3426:1251,3451] apeirateeneminationby [1243,3426:1366,3451] meapart [1358,3426:1427,3451] from [1419,3426:1804,3451] hersaidusbondeinewledged [1796,3426:1862,3451] that [1850,3426:2013,3451] sheexecuted [2005,3426:2052,3451] the [2048,3426:2117,3451] same [2109,3426:2196,3451] freely [2188,3426:2246,3451] and [2242,3426:2387,3451] withestany [2382,3426:2441,3451] fee [2436,3426:2473,3451] or [2469,3426:2606,3451] compulsion [2602,3426:2638,3451] of [2631,3426:2682,3451] her [2674,3426:2894,3451] saidhusband\n[923,3463:1004,3510] All [1008,3463:1193,3510] erasures [1191,3463:1284,3510] and [1289,3463:1630,3510] interlineations [1628,3463:1689,3510] in [1687,3463:1774,3510] this [1778,3463:1891,3510] deed [1896,3463:1996,3510] were [1994,3463:2120,3510] made [2124,3463:2257,3510] before [2255,3463:2322,3510] the [2327,3463:2550,3510] execution [2555,3463:2655,3510] and [2653,3463:2875,3510] delivery\n[937,3506:984,3574] of [985,3506:1079,3574] this [1088,3506:1374,3574] instrument.\n[1853,3533:1899,3592] C. [1900,3533:1939,3592] P. [1948,3533:2162,3592] Moulton,\n[2201,3572:2383,3648] Notary [2392,3572:2551,3648] Public.\n[693,3720:773,3652] Sedom [693,3652:773,2759] th\n[704,2794:773,2786] ___ [704,2783:773,2776] day [704,2777:773,2769] of [704,2766:773,2739] May [704,2739:773,2248] 1882\n[789,3642:861,3636] at__o'clock [789,3596:861,3585] P. [789,3584:861,3200] M.\n[766,2875:846,2866] M. [766,2864:846,2858] J. [766,2855:846,2322] Rich =====\n[969,3415:923,3419] ⌨ [969,3429:923,3574] ⌨ &\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150393"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00047"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150393_00047"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-P5JV-N"
+      } ]
+    } ]
+  } ]
+}

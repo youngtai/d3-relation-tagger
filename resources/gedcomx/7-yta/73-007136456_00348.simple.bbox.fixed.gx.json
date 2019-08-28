@@ -1,0 +1,1090 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028312695656",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557428327920
+    },
+    "description" : "#s_6917529028312695656",
+    "persons" : [ {
+      "id" : "p_6917529030776393556",
+      "extracted" : true,
+      "principal" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5W7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lisween",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lisween",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lisween"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lisween"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.07676151,0.12154561,0.12067978,0.13230619",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lisween"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5W7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776393656",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Richard H Murphy",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Richard H",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Richard H"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Murphy",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Murphy"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Richard H Murphy"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.10941379,0.1227684,0.1550506,0.14673515",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15524155,0.1227684,0.16727135,0.14673515",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17051747,0.1227684,0.21138056,0.14673515",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Richard H. Murphy"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.1651709,0.59867936,0.21080771,0.6189777",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21099867,0.59867936,0.22455604,0.6189777",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22627458,0.59867936,0.26866525,0.6189777",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Richard H. Murphy"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.69276303,0.2851553,0.7412641,0.3081438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.741455,0.2851553,0.7550124,0.3081438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7597861,0.2851553,0.81134236,0.3081438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Richard H. Murphy"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.49914074,0.39178282,0.535612,0.41061383",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53580296,0.39178282,0.5478327,0.41061383",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.54955125,0.39178282,0.58888674,0.41061383",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Richard H. Murphy"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776393756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5W8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Mary A Murphy",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Mary A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Mary A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Murphy",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Murphy"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Mary A Murphy"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.07695245,0.18977745,0.10578576,0.21472242",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.1059767,0.18977745,0.114951305,0.21472242",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.11819744,0.18977745,0.15295017,0.21472242",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary A. Murphy"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5W8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776393856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Samuel D Backus",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Samuel D",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Samuel D"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Backus",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Backus"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Samuel D Backus"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.08821844,0.4414282,0.1277449,0.4580582",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12793584,0.4414282,0.13843803,0.4580582",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14321177,0.4414282,0.17796448,0.4580582",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Samuel D. Backus"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776393956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Thomas H Bent",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Thomas H",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Thomas H"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Bent",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Bent"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Thomas H Bent"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.38113424,0.5698215,0.42352492,0.5920763",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42371586,0.5698215,0.43574566,0.5920763",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4374642,0.5698215,0.46782508,0.5920763",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Thomas H. Bent"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776394056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Sidney S Mallory",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Sidney S",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Sidney S"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Mallory",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Mallory"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Sidney S Mallory"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.07256062,0.64734656,0.101966776,0.6769381",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.10234867,0.64734656,0.111323275,0.6769381",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.11323277,0.64734656,0.15199542,0.6769381",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sidney S. Mallory"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776394156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Clista Mallory",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Clista",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Clista"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Mallory",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Mallory"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Clista Mallory"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.1756731,0.64734656,0.20679778,0.6769381",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20851633,0.64734656,0.24899752,0.6769381",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clista Mallory"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776394256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George S Hickox",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George S",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George S"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hickox",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hickox"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George S Hickox"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4164598,0.64734656,0.4592324,0.6769381",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.070269234,0.6735143,0.07962574,0.703595",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.081344284,0.6735143,0.117624596,0.703595",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George S. Hickox"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q5WB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776394356",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q549-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Libertic",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Libertic",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Libertic"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Libertic"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6580103,0.08755197,0.7101394,0.09929078",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "LIBERTIC"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q549-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776394456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q547-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "John S Coe",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "John S",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "John S"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Coe",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Coe"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "John S Coe"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.70574754,0.44411838,0.7374451,0.46490586",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.737636,0.44411838,0.74661064,0.46490586",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.74985677,0.44411838,0.7821272,0.46490586",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John S. Coe"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q547-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030776394556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q54H-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "F R Hoog",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "F R",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "F R"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hoog",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hoog"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "F R Hoog"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7821272,0.88725847,0.79262936,0.90462214",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.79262936,0.88725847,0.8031316,0.90462214",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8048501,0.88725847,0.84284896,0.90462214",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "F R Hoog"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Clerk",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Clerk"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-Q54H-N"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028312695656",
+      "about" : "#r_6917529028312695656",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Ontario, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-PWQ9-T" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9WC-46YH",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9WC-46YH" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007136456_00348_TXT</UNQ>\n<IMID>007136456_00348</IMID>\n<APID>TH-1971-32677-12518-50</APID>\n<IMGSIZE>5237,4089</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 2\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Second day of January in the year eighteen hundred and ninety seven</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lisween</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, party of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of\nOntario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">sigar - maker</ENAMEX>, party \n<ENAMEX TYPE=\"PERSON\">Mary A. Murphy</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigna</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">housewife</ENAMEX>,\nof the second part\nWitnesseth, That the said part of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One Dollars</NUMEX>, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, doth hereby\nremise, quit claim and release\nunto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and\n<ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall that tract or parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and described as Subdivision \"C\" of \"Parcel Fourteen\"\nand Subdivision \"C\" of \"Parcel Fifteen\" of the lands and premises described in\nthe said Judgment as the \"<ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> Parcel\" and as the \"<ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcel \"\nrespectively, and being Subdivision \"C\" of said <ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> and <ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcela-\nas marked and designated on a map of the premises hereby conveyed, made \nby <ENAMEX TYPE=\"PERSON\">Samuel D. Backus</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, <TIMEX TYPE=\"DATE\">March 5th 1895</TIMEX>, and filed with said <ENAMEX TYPE=\"LOCALE.notgpe\">Referees \nReport</ENAMEX> in the Office of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Ontario County</ENAMEX>. Said premises hereby \nconveyed lying and being on the west side of <ENAMEX TYPE=\"STRUCTURE\">Adelaide Avenue</ENAMEX> in <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> and being <NUMEX TYPE=\"QUANTITY\">about fifty seven</NUMEX> feet front and rear and about <NUMEX TYPE=\"QUANTITY\">One Hundred\nand ninety-six</NUMEX> feet deep, as shown on said map.\nThe above description is taken from a deed executed by <ENAMEX TYPE=\"PERSON\">Thomas H. Bent</ENAMEX>\nnett, as <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX>, to <ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, <TIMEX TYPE=\"DATE\">15th April, 1895</TIMEX>, <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX> in an actions in partition in the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX> wherein-\n<ENAMEX TYPE=\"PERSON\">Sidney S. Mallory</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clista Mallory</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, were <ENAMEX TYPE=\"COREF\">plaintiffs</ENAMEX> and <ENAMEX TYPE=\"PERSON\">George\nS. Hickox</ENAMEX> and others were <ENAMEX TYPE=\"COREF\">defendants</ENAMEX>, to which action and the survey or map therein made and used, reference is hereto made.\n<ENAMEX TYPE=\"PERSON\">LIBERTIC</ENAMEX>.\n5 3\nCogether with the appurtenances and all the estate and rights of the said party of the first part, in and to the said premises.\nto have and to hold the above entitled premisses unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nthesaid\nare by senesatwith thesaid\npart of the secondpart thatthesaid part -- of theirstpartha not done\nanythingherebytheabove described premises\nhavebeenencumberedinanywaywhatever\nIn Witness Whereof. The said party of the first part to these presents hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nin Presence of\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX> ( L.S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\nS.\n<ENAMEX TYPE=\"LOCALE\">County of Ontario \nVillage of Canandaigual</ENAMEX>\nOn this\n<TIMEX TYPE=\"DATE\">4 th day of\nJanuary in the year eighteen hundred and\nninety-seven</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared at <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigan</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known, and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\ndistrument\nh e\nacknowledged that the executed the same\n<ENAMEX TYPE=\"PERSON\">John S. Coe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nA true copy of the original. Recorded this <TIMEX TYPE=\"DATE\">4 th day of January__1897</TIMEX>, at <TIMEX TYPE=\"TIME\">35 o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">F R Hoog</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"835\"_ENDID=\"138\"_STTOKEN=\"her\"_ENDTOKEN=\"Ontario\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1242\"_ENDID=\"1144\"_STTOKEN=\"Fourteenth\"_ENDTOKEN=\"Fourteenth\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1257\"_ENDID=\"1175\"_STTOKEN=\"Fifteenth\"_ENDTOKEN=\"Fifteenth\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"147\"_ENDID=\"370\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1787\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1887\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1958\"_ENDID=\"291\"_STTOKEN=\"his\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2652\"_ENDID=\"291\"_STTOKEN=\"his\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2723\"_ENDID=\"1787\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2723\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2749\"_ENDID=\"370\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2952\"_ENDID=\"2723\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2952\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3002\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3021\"_ENDID=\"370\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3043\"_ENDID=\"2895\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3077\"_ENDID=\"2895\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3119\"_ENDID=\"2723\"_STTOKEN=\"who\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3270\"_ENDID=\"2822\"_STTOKEN=\"4 th day of January__1897\"_ENDTOKEN=\"4 th day of January in the year eighteen hundred and ninety-seven\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"347\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"443\"_ENDID=\"291\"_STTOKEN=\"his\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"484\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"507\"_ENDID=\"370\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"694\"_ENDID=\"157\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"914\"_ENDID=\"323\"_STTOKEN=\"Village of Canandaigua\"_ENDTOKEN=\"Village of Canandaigua\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"937\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"960\"_ENDID=\"370\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=1+\"_STID=\"2120\"_ENDID=\"2120\"_STTOKEN=\"LIBERTIC\"_ENDTOKEN=\"LIBERTIC\">\n<RELEX TYPE=\"S=1+\"_STID=\"283\"_ENDID=\"283\"_STTOKEN=\"Lisween\"_ENDTOKEN=\"Lisween\">\n<RELEX TYPE=\"S=2+\"_STID=\"1942\"_ENDID=\"1942\"_STTOKEN=\"Clista Mallory\"_ENDTOKEN=\"Clista Mallory\">\n<RELEX TYPE=\"S=3+\"_STID=\"1352\"_ENDID=\"1352\"_STTOKEN=\"Samuel D. Backus\"_ENDTOKEN=\"Samuel D. Backus\">\n<RELEX TYPE=\"S=3+\"_STID=\"1751\"_ENDID=\"1751\"_STTOKEN=\"Thomas H. Bent\"_ENDTOKEN=\"Thomas H. Bent\">\n<RELEX TYPE=\"S=3+\"_STID=\"1787\"_ENDID=\"1787\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"1920\"_ENDID=\"1920\"_STTOKEN=\"Sidney S. Mallory\"_ENDTOKEN=\"Sidney S. Mallory\">\n<RELEX TYPE=\"S=3+\"_STID=\"1988\"_ENDID=\"1988\"_STTOKEN=\"George S. Hickox\"_ENDTOKEN=\"George S. Hickox\">\n<RELEX TYPE=\"S=3+\"_STID=\"2723\"_ENDID=\"2723\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"291\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"2952\"_ENDID=\"2952\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"3201\"_ENDID=\"3201\"_STTOKEN=\"John S. Coe\"_ENDTOKEN=\"John S. Coe\">\n<RELEX TYPE=\"S=3+\"_STID=\"3317\"_ENDID=\"3317\"_STTOKEN=\"F R Hoog\"_ENDTOKEN=\"F R Hoog\">\n<RELEX TYPE=\"S=3+\"_STID=\"427\"_ENDID=\"427\"_STTOKEN=\"Mary A. Murphy\"_ENDTOKEN=\"Mary A. Murphy\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1958\"_ENDID=\"1962\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2351\"_ENDID=\"2355\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2351\"_ENDID=\"2365\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"443\"_ENDID=\"447\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"835\"_ENDID=\"839\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"835\"_ENDID=\"849\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"291\"_ENDID=\"195\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"291\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"291\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3317\"_ENDID=\"3326\"_STTOKEN=\"F R Hoog\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"147\"_STTOKEN=\"Ontario\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"147\"_ENDID=\"157\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1887\"_ENDID=\"1906\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"N.Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2978\"_ENDID=\"3002\"_STTOKEN=\"Village of Canandaigan\"_ENDTOKEN=\"County of Ontario\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3002\"_ENDID=\"2978\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"Village of Canandaigan\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3002\"_ENDID=\"3021\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"347\"_ENDID=\"370\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"484\"_ENDID=\"507\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"937\"_ENDID=\"960\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007136456_00348_TXT</UNQ>\n<IMID>007136456_00348</IMID>\n<APID>TH-1971-32677-12518-50</APID>\n<IMGSIZE>5237,4089</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 2\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Second day of January in the year eighteen hundred and ninety seven</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lisween</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, party of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of\nOntario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">sigar - maker</ENAMEX>, party \n<ENAMEX TYPE=\"PERSON\">Mary A. Murphy</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigna</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">housewife</ENAMEX>,\nof the second part\nWitnesseth, That the said part of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One Dollars</NUMEX>, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, doth hereby\nremise, quit claim and release\nunto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and\n<ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall that tract or parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and described as Subdivision \"C\" of \"Parcel Fourteen\"\nand Subdivision \"C\" of \"Parcel Fifteen\" of the lands and premises described in\nthe said Judgment as the \"<ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> Parcel\" and as the \"<ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcel \"\nrespectively, and being Subdivision \"C\" of said <ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> and <ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcela-\nas marked and designated on a map of the premises hereby conveyed, made \nby <ENAMEX TYPE=\"PERSON\">Samuel D. Backus</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, <TIMEX TYPE=\"DATE\">March 5th 1895</TIMEX>, and filed with said <ENAMEX TYPE=\"LOCALE.notgpe\">Referees \nReport</ENAMEX> in the Office of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Ontario County</ENAMEX>. Said premises hereby \nconveyed lying and being on the west side of <ENAMEX TYPE=\"STRUCTURE\">Adelaide Avenue</ENAMEX> in <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> and being <NUMEX TYPE=\"QUANTITY\">about fifty seven</NUMEX> feet front and rear and about <NUMEX TYPE=\"QUANTITY\">One Hundred\nand ninety-six</NUMEX> feet deep, as shown on said map.\nThe above description is taken from a deed executed by <ENAMEX TYPE=\"PERSON\">Thomas H. Bent</ENAMEX>\nnett, as <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX>, to <ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, <TIMEX TYPE=\"DATE\">15th April, 1895</TIMEX>, <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX> in an actions in partition in the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX> wherein-\n<ENAMEX TYPE=\"PERSON\">Sidney S. Mallory</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clista Mallory</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, were <ENAMEX TYPE=\"COREF\">plaintiffs</ENAMEX> and <ENAMEX TYPE=\"PERSON\">George\nS. Hickox</ENAMEX> and others were <ENAMEX TYPE=\"COREF\">defendants</ENAMEX>, to which action and the survey or map therein made and used, reference is hereto made.\n<ENAMEX TYPE=\"PERSON\">LIBERTIC</ENAMEX>.\n5 3\nCogether with the appurtenances and all the estate and rights of the said party of the first part, in and to the said premises.\nto have and to hold the above entitled premisses unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nthesaid\nare by senesatwith thesaid\npart of the secondpart thatthesaid part -- of theirstpartha not done\nanythingherebytheabove described premises\nhavebeenencumberedinanywaywhatever\nIn Witness Whereof. The said party of the first part to these presents hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nin Presence of\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX> ( L.S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\nS.\n<ENAMEX TYPE=\"LOCALE\">County of Ontario \nVillage of Canandaigual</ENAMEX>\nOn this\n<TIMEX TYPE=\"DATE\">4 th day of\nJanuary in the year eighteen hundred and\nninety-seven</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared at <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigan</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known, and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\ndistrument\nh e\nacknowledged that the executed the same\n<ENAMEX TYPE=\"PERSON\">John S. Coe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nA true copy of the original. Recorded this <TIMEX TYPE=\"DATE\">4 th day of January__1897</TIMEX>, at <TIMEX TYPE=\"TIME\">35 o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">F R Hoog</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"835\"_ENDID=\"138\"_STTOKEN=\"her\"_ENDTOKEN=\"Ontario\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1242\"_ENDID=\"1144\"_STTOKEN=\"Fourteenth\"_ENDTOKEN=\"Fourteenth\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1257\"_ENDID=\"1175\"_STTOKEN=\"Fifteenth\"_ENDTOKEN=\"Fifteenth\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"147\"_ENDID=\"370\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1787\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1887\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1958\"_ENDID=\"291\"_STTOKEN=\"his\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2652\"_ENDID=\"291\"_STTOKEN=\"his\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2723\"_ENDID=\"1787\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2749\"_ENDID=\"370\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2952\"_ENDID=\"2723\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3002\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3021\"_ENDID=\"370\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3043\"_ENDID=\"2895\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3077\"_ENDID=\"2895\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3119\"_ENDID=\"2723\"_STTOKEN=\"who\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3270\"_ENDID=\"2822\"_STTOKEN=\"4 th day of January__1897\"_ENDTOKEN=\"4 th day of January in the year eighteen hundred and ninety-seven\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"347\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"443\"_ENDID=\"291\"_STTOKEN=\"his\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"484\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"507\"_ENDID=\"370\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"694\"_ENDID=\"157\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"914\"_ENDID=\"323\"_STTOKEN=\"Village of Canandaigua\"_ENDTOKEN=\"Village of Canandaigua\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"937\"_ENDID=\"2771\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"County of Ontario Village of Canandaigual\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"960\"_ENDID=\"370\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=1+\"_STID=\"2120\"_ENDID=\"2120\"_STTOKEN=\"LIBERTIC\"_ENDTOKEN=\"LIBERTIC\">\n<RELEX TYPE=\"S=1+\"_STID=\"283\"_ENDID=\"283\"_STTOKEN=\"Lisween\"_ENDTOKEN=\"Lisween\">\n<RELEX TYPE=\"S=2+\"_STID=\"1942\"_ENDID=\"1942\"_STTOKEN=\"Clista Mallory\"_ENDTOKEN=\"Clista Mallory\">\n<RELEX TYPE=\"S=3+\"_STID=\"1352\"_ENDID=\"1352\"_STTOKEN=\"Samuel D. Backus\"_ENDTOKEN=\"Samuel D. Backus\">\n<RELEX TYPE=\"S=3+\"_STID=\"1751\"_ENDID=\"1751\"_STTOKEN=\"Thomas H. Bent\"_ENDTOKEN=\"Thomas H. Bent\">\n<RELEX TYPE=\"S=3+\"_STID=\"1787\"_ENDID=\"1787\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"1920\"_ENDID=\"1920\"_STTOKEN=\"Sidney S. Mallory\"_ENDTOKEN=\"Sidney S. Mallory\">\n<RELEX TYPE=\"S=3+\"_STID=\"1988\"_ENDID=\"1988\"_STTOKEN=\"George S. Hickox\"_ENDTOKEN=\"George S. Hickox\">\n<RELEX TYPE=\"S=3+\"_STID=\"2723\"_ENDID=\"2723\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"291\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"2952\"_ENDID=\"2952\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"S=3+\"_STID=\"3201\"_ENDID=\"3201\"_STTOKEN=\"John S. Coe\"_ENDTOKEN=\"John S. Coe\">\n<RELEX TYPE=\"S=3+\"_STID=\"3317\"_ENDID=\"3317\"_STTOKEN=\"F R Hoog\"_ENDTOKEN=\"F R Hoog\">\n<RELEX TYPE=\"S=3+\"_STID=\"427\"_ENDID=\"427\"_STTOKEN=\"Mary A. Murphy\"_ENDTOKEN=\"Mary A. Murphy\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1958\"_ENDID=\"1962\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2351\"_ENDID=\"2355\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2351\"_ENDID=\"2365\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"443\"_ENDID=\"447\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"835\"_ENDID=\"839\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"835\"_ENDID=\"849\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"291\"_ENDID=\"195\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"291\"_ENDID=\"291\"_STTOKEN=\"Richard H. Murphy\"_ENDTOKEN=\"Richard H. Murphy\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3317\"_ENDID=\"3326\"_STTOKEN=\"F R Hoog\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"147\"_STTOKEN=\"Ontario\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"147\"_ENDID=\"157\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1887\"_ENDID=\"1906\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"N.Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2978\"_ENDID=\"3002\"_STTOKEN=\"Village of Canandaigan\"_ENDTOKEN=\"County of Ontario\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3002\"_ENDID=\"2978\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"Village of Canandaigan\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3002\"_ENDID=\"3021\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"347\"_ENDID=\"370\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"484\"_ENDID=\"507\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"937\"_ENDID=\"960\"_STTOKEN=\"County of Ontario\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007136456_00348_TXT</UNQ>\n<IMID>007136456_00348</IMID>\n<APID>TH-1971-32677-12518-50</APID>\n<IMGSIZE>5237,4089</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 2\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Second day of January in the year eighteen hundred and ninety seven</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lisween</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, party of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of\nOntario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">sigar - maker</ENAMEX>, party \n<ENAMEX TYPE=\"PERSON\">Mary A. Murphy</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigna</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">housewife</ENAMEX>,\nof the second part\nWitnesseth, That the said part of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One Dollars</NUMEX>, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, doth hereby\nremise, quit claim and release\nunto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and\n<ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall that tract or parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and described as Subdivision \"C\" of \"Parcel Fourteen\"\nand Subdivision \"C\" of \"Parcel Fifteen\" of the lands and premises described in\nthe said Judgment as the \"<ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> Parcel\" and as the \"<ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcel \"\nrespectively, and being Subdivision \"C\" of said <ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> and <ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcela-\nas marked and designated on a map of the premises hereby conveyed, made \nby <ENAMEX TYPE=\"PERSON\">Samuel D. Backus</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, <TIMEX TYPE=\"DATE\">March 5th 1895</TIMEX>, and filed with said <ENAMEX TYPE=\"LOCALE.notgpe\">Referees \nReport</ENAMEX> in the Office of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Ontario County</ENAMEX>. Said premises hereby \nconveyed lying and being on the west side of <ENAMEX TYPE=\"STRUCTURE\">Adelaide Avenue</ENAMEX> in <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> and being <NUMEX TYPE=\"QUANTITY\">about fifty seven</NUMEX> feet front and rear and about <NUMEX TYPE=\"QUANTITY\">One Hundred\nand ninety-six</NUMEX> feet deep, as shown on said map.\nThe above description is taken from a deed executed by <ENAMEX TYPE=\"PERSON\">Thomas H. Bent</ENAMEX>\nnett, as <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX>, to <ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, <TIMEX TYPE=\"DATE\">15th April, 1895</TIMEX>, <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX> in an actions in partition in the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX> wherein-\n<ENAMEX TYPE=\"PERSON\">Sidney S. Mallory</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clista Mallory</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, were <ENAMEX TYPE=\"COREF\">plaintiffs</ENAMEX> and <ENAMEX TYPE=\"PERSON\">George\nS. Hickox</ENAMEX> and others were <ENAMEX TYPE=\"COREF\">defendants</ENAMEX>, to which action and the survey or map therein made and used, reference is hereto made.\n<ENAMEX TYPE=\"PERSON\">LIBERTIC</ENAMEX>.\n5 3\nCogether with the appurtenances and all the estate and rights of the said party of the first part, in and to the said premises.\nto have and to hold the above entitled premisses unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nthesaid\nare by senesatwith thesaid\npart of the secondpart thatthesaid part -- of theirstpartha not done\nanythingherebytheabove described premises\nhavebeenencumberedinanywaywhatever\nIn Witness Whereof. The said party of the first part to these presents hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nin Presence of\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX> ( L.S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\nS.\n<ENAMEX TYPE=\"LOCALE\">County of Ontario \nVillage of Canandaigual</ENAMEX>\nOn this\n<TIMEX TYPE=\"DATE\">4 th day of\nJanuary in the year eighteen hundred and\nninety-seven</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared at <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigan</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known, and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\ndistrument\nh e\nacknowledged that the executed the same\n<ENAMEX TYPE=\"PERSON\">John S. Coe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nA true copy of the original. Recorded this <TIMEX TYPE=\"DATE\">4 th day of January__1897</TIMEX>, at <TIMEX TYPE=\"TIME\">35 o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">F R Hoog</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007136456_00348_TXT</UNQ>\n<IMID>007136456_00348</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32677-12518<TIMEX TYPE=\"DATE\">-50</TIMEX></APID>\n<IMGSIZE><TIMEX TYPE=\"DATE\">5237,4089</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 2\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Second day of January in the year eighteen hundred and ninety seven</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lisween</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, party of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of\nOntario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">sigar - maker</ENAMEX>, party \n<ENAMEX TYPE=\"PERSON\">Mary A. Murphy</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigna</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, by occupation a <ENAMEX TYPE=\"OCCUPATION\">housewife</ENAMEX>,\nof the second part\nWitnesseth, That the said part of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One Dollars</NUMEX>, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, doth hereby\nremise, quit claim and release\nunto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and\n<ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall that tract or parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigua</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>. Known and described as Subdivision \"C\" of \"Parcel Fourteen\"\nand Subdivision \"C\" of \"Parcel Fifteen\" of the lands and premises described in\nthe said Judgment as the \"Fourteenth Parcel\" and as the \"Fifteenth Parcel \"\nrespectively, and being Subdivision \"C\" of said <ENAMEX TYPE=\"ITE.org\">Fourteenth</ENAMEX> and <ENAMEX TYPE=\"ITE.gpe\">Fifteenth</ENAMEX> Parcela-\nas marked and designated on a map of the premises hereby conveyed, made \nby <ENAMEX TYPE=\"PERSON\">Samuel D. Backus</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, <TIMEX TYPE=\"DATE\">March 5th 1895</TIMEX>, and filed with said <ENAMEX TYPE=\"LOCALE.notgpe\">Referees \nReport</ENAMEX> in the Office of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Ontario County</ENAMEX>. Said premises hereby \nconveyed lying and being on the west side of <ENAMEX TYPE=\"STRUCTURE\">Adelaide Avenue</ENAMEX> in <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> and being <NUMEX TYPE=\"QUANTITY\">about fifty seven</NUMEX> feet front and rear and about <NUMEX TYPE=\"QUANTITY\">One Hundred\nand ninety-six</NUMEX> feet deep, as shown on said map.\nThe above description is taken from a deed executed by <ENAMEX TYPE=\"PERSON\">Thomas H. Bent</ENAMEX>\nnett, as <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX>, to <ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, <TIMEX TYPE=\"DATE\">15th April, 1895</TIMEX>, <ENAMEX TYPE=\"OCCUPATION\">Referee</ENAMEX> in an actions in partition in the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX> wherein-\n<ENAMEX TYPE=\"PERSON\">Sidney S. Mallory</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clista Mallory</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, were <ENAMEX TYPE=\"COREF\">plaintiffs</ENAMEX> and <ENAMEX TYPE=\"PERSON\">George\nS. Hickox</ENAMEX> and others were <ENAMEX TYPE=\"COREF\">defendants</ENAMEX>, to which action and the survey or map therein made and used, reference is hereto made.\n<ENAMEX TYPE=\"PERSON\">LIBERTIC</ENAMEX>.\n5 3\nCogether with the appurtenances and all the estate and rights of the said party of the first part, in and to the said premises.\nto have and to hold the above entitled premisses unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nthesaid\nare by senesatwith thesaid\npart of the secondpart thatthesaid part -- of theirstpartha not done\nanythingherebytheabove described premises\nhavebeenencumberedinanywaywhatever\nIn Witness Whereof. The said party of the first part to these presents hath hereunto set <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nin Presence of\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX> ( L.S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\nS.\n<ENAMEX TYPE=\"LOCALE\">County of Ontario \nVillage of Canandaigual</ENAMEX>\nOn this\n<TIMEX TYPE=\"DATE\">4 th day of\nJanuary in the year eighteen hundred and\nninety-seven</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared at <ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Richard H. Murphy</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">Village of Canandaigan</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Ontario</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known, and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\ndistrument\nh e\nacknowledged that the executed the same\n<ENAMEX TYPE=\"PERSON\">John S. Coe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nA true copy of the original. Recorded this <TIMEX TYPE=\"DATE\">4 th day of January__1897</TIMEX>, at <TIMEX TYPE=\"TIME\">35 o'clock P. M.</TIMEX>\n<ENAMEX TYPE=\"PERSON\">F R Hoog</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007136456_00348_TXT</UNQ>\n<IMID>007136456_00348</IMID>\n<APID>TH-1971-32677-12518-50</APID>\n<IMGSIZE>5237,4089</IMGSIZE>\n<PLACE>Ontario, New York, United States</PLACE>\n<SBODY>[349,372:500,438] 5 2\n[414,399:509,493] This [510,399:693,493] Indenture, [702,399:789,493] Made [782,399:876,493] the [893,399:1116,493] Second [1125,399:1180,493] day [1181,399:1324,493] of [1333,399:1628,493] January [1629,399:1668,493] in [1669,399:1724,493] the [1717,399:1796,493] year [1789,399:1923,493] eighteen [1924,399:2059,493] hundred [2060,399:2123,493] and [2124,399:2235,493] ninety [2236,399:2428,493] seven\n[402,497:632,541] Lisween\n[573,502:812,600] Richard [813,502:876,600] H. [893,502:1107,600] Murphy, [1132,502:1275,600] party [1284,502:1347,600] of [1348,502:1443,600] the [1444,502:1611,600] Village [1612,502:1691,600] of [1692,502:2018,600] Canandaigua, [2043,502:2242,600] County [2243,502:2378,600] of\n[409,616:600,723] Ontario, [617,616:728,723] and [737,616:879,723] State [880,616:951,723] of [960,616:1071,723] New [1080,616:1223,723] York, [1248,616:1319,723] by [1320,616:1607,723] occupation [1616,616:1663,723] a [1664,616:1815,723] sigar [1816,616:1839,723] - [1848,616:2054,723] maker, [2079,616:2374,723] party [363,776:394,878] \n[403,776:554,878] Mary [555,776:602,878] A. [619,776:801,878] Murphy, [826,776:905,878] his [906,776:1033,878] wife, [1058,776:1121,878] of [1122,776:1225,878] the [1234,776:1400,878] Village [1409,776:1464,878] of [1473,776:1824,878] Canandaigna, [1849,776:2040,878] County [2040,776:2111,878] of [2128,776:2311,878] Ontario, [391,885:502,970] and [511,885:654,970] State [654,885:725,970] of [734,885:837,970] New [838,885:973,970] York, [998,885:1061,970] by [1062,885:1325,970] occupation [1326,885:1372,970] a [1381,885:1652,970] housewife,\n[2113,899:2152,942] of [2143,899:2207,942] the [2198,899:2304,942] second [2302,899:2432,942] part\n[398,947:600,1009] Witnesseth, [611,947:685,1009] That [679,947:737,1009] the [739,947:805,1009] said [798,947:924,1009] part [918,947:958,1009] of [960,947:1009,1009] the [1011,947:1077,1009] first [1071,947:1146,1009] part, [1148,947:1205,1009] for [1199,947:1265,1009] and [1258,947:1299,1009] in [1293,947:1495,1009] consideration [1489,947:1529,1009] of [1531,947:1580,1009] the [1574,947:1657,1009] sum [1650,947:1755,1009] of\n[786,1004:931,1059] One [938,1004:1044,1059] Dollars, [1052,1004:1151,1059] lawful [1143,1004:1257,1059] money [1249,1004:1287,1059] of [1287,1004:1340,1059] the [1341,1004:1447,1059] United [1447,1004:1545,1059] States, [1553,1004:1621,1059] paid [1621,1004:1667,1059] by [1667,1004:1720,1059] the [1720,1004:1788,1059] said [1788,1004:1910,1059] party [1910,1004:1955,1059] of [1948,1004:2008,1059] the [2001,1004:2114,1059] second [2115,1004:2183,1059] part, [2191,1004:2281,1059] doth [2274,1004:2437,1059] hereby\n[393,1118:503,1182] remise, [520,1118:607,1182] quit [600,1118:750,1182] claim [751,1118:846,1182] and [847,1118:1086,1182] release\n[1467,1114:1541,1166] unto [1540,1114:1599,1166] the [1592,1114:1658,1166] said [1657,1114:1782,1166] party [1782,1114:1826,1166] of [1818,1114:1877,1166] the [1877,1114:1987,1166] second [1987,1114:2060,1166] part, [2111,1114:2236,1166] her [2243,1114:2324,1166] heirs [2316,1114:2437,1166] and\n[398,1184:506,1221] assigns [501,1184:609,1221] forever,\n[406,1207:464,1269] all [457,1207:532,1269] that [543,1207:643,1269] tract [636,1207:686,1269] or [688,1207:805,1269] parcel [807,1207:856,1269] of [858,1207:950,1269] Land [943,1207:1052,1269] situate [1046,1207:1086,1269] in [1088,1207:1188,1269] the [1199,1207:1402,1269] Village [1404,1207:1546,1269] of [1566,1207:2101,1269] Canandaigua [2111,1207:2220,1269] County [2222,1207:2263,1269] of [2265,1207:2365,1269] Ontario,\n[405,1269:467,1326] and [467,1269:553,1326] State [546,1269:585,1326] of [585,1269:655,1326] New [656,1269:742,1326] York. [774,1269:954,1326] Known [947,1269:1064,1326] and [1065,1269:1323,1326] described [1332,1269:1410,1326] as [1418,1269:1716,1326] Subdivision [1717,1269:1740,1326] \"C\" [1819,1269:1873,1326] of [1866,1269:1897,1326] \"Parcel [2094,1269:2297,1326] Fourteen\"\n[383,1376:502,1449] and [519,1376:766,1449] Subdivision [759,1376:790,1449] \"C\" [862,1376:909,1449] of [902,1376:925,1449] \"Parcel [1094,1376:1261,1449] Fifteen\" [1286,1376:1357,1449] of [1358,1376:1453,1449] the [1462,1376:1613,1449] lands [1614,1376:1733,1449] and [1742,1376:2004,1449] premises [2005,1376:2260,1449] described [2261,1376:2396,1449] in\n[391,1476:486,1577] the [495,1476:614,1577] said [623,1476:877,1577] Judgment [878,1476:949,1577] as [950,1476:1029,1577] the [1022,1476:1053,1577] \"Fourteenth [1326,1476:1493,1577] Parcel\" [1526,1476:1653,1577] and [1654,1476:1733,1577] as [1734,1476:1821,1577] the [1822,1476:1845,1577] \"Fifteenth [2109,1476:2284,1577] Parcel [2277,1476:2300,1577] \"\n[391,1584:677,1675] respectively, [694,1584:797,1675] and [806,1584:941,1675] being [958,1584:1253,1675] Subdivision [1254,1584:1277,1675] \"C\" [1350,1584:1428,1675] of [1429,1584:1556,1675] said [1565,1584:1860,1675] Fourteenth [1861,1584:1980,1675] and [1989,1584:2227,1675] Fifteenth [2228,1584:2387,1675] Parcela-\n[387,1702:458,1784] as [467,1702:681,1784] marked [682,1702:801,1784] and [802,1702:1065,1784] designated [1066,1702:1153,1784] on [1162,1702:1217,1784] a [1218,1702:1361,1784] map [1361,1702:1424,1784] of [1425,1702:1536,1784] the [1545,1702:1792,1784] premises [1793,1702:1968,1784] hereby [1969,1702:2215,1784] conveyed, [2232,1702:2375,1784] made [358,1805:389,1873] \n[390,1805:453,1873] by [462,1805:669,1873] Samuel [670,1805:725,1873] D. [750,1805:932,1873] Backus, [949,1805:1188,1873] Surveyor, [1213,1805:1396,1873] March [1397,1805:1484,1873] 5th [1477,1805:1580,1873] 1895, [1597,1805:1724,1873] and [1725,1805:1884,1873] filed [1893,1805:2043,1873] with [2044,1805:2187,1873] said [2196,1805:2371,1873] Referees [350,1903:381,2003] \n[382,1903:565,2003] Report [566,1903:637,2003] in [638,1903:741,2003] the [750,1903:908,2003] Office [917,1903:972,2003] of [981,1903:1076,2003] the [1085,1903:1260,2003] Clerk [1269,1903:1332,2003] of [1341,1903:1532,2003] Ontario [1541,1903:1756,2003] County. [1821,1903:1963,2003] Said [1972,1903:2243,2003] premises [2244,1903:2379,2003] hereby [350,2026:381,2095] \n[382,2026:597,2095] conveyed [606,2026:748,2095] lying [749,2026:876,2095] and [877,2026:1020,2095] being [1021,2026:1108,2095] on [1109,2026:1212,2095] the [1213,2026:1340,2095] west [1341,2026:1475,2095] side [1476,2026:1539,2095] of [1540,2026:1771,2095] Adelaide [1772,2026:1979,2095] Avenue [1980,2026:2059,2095] in [2068,2026:2194,2095] said [2203,2026:2370,2095] Village [382,2129:485,2216] and [494,2129:629,2216] being [638,2129:805,2216] about [806,2129:924,2216] fifty [925,2129:1076,2216] seven [1077,2129:1180,2216] feet [1189,2129:1340,2216] front [1341,2129:1468,2216] and [1477,2129:1620,2216] rear [1621,2129:1756,2216] and [1765,2129:1931,2216] about [1940,2129:2051,2216] One [2052,2129:2355,2216] Hundred\n[382,2236:493,2307] and [502,2236:668,2307] ninety-six [773,2236:876,2307] feet [869,2236:1004,2307] deep, [1020,2236:1099,2307] as [1108,2236:1291,2307] shown [1292,2236:1379,2307] on [1380,2236:1514,2307] said [1523,2236:1682,2307] map.\n[470,2330:581,2421] The [582,2330:748,2421] above [749,2330:1060,2421] description [1061,2330:1140,2421] is [1149,2330:1332,2421] taken [1333,2330:1491,2421] from [1492,2330:1547,2421] a [1556,2330:1691,2421] deed [1692,2330:1923,2421] executed [1924,2330:1987,2421] by [1996,2330:2218,2421] Thomas [2219,2330:2282,2421] H. [2291,2330:2450,2421] Bent\n[378,2448:473,2531] nett, [490,2448:561,2531] as [570,2448:776,2531] Referee, [793,2448:856,2531] to [865,2448:1104,2531] Richard [1105,2448:1176,2531] H. [1185,2448:1407,2531] Murphy, [1416,2448:1511,2531] 15th [1504,2448:1671,2531] April, [1680,2448:1783,2531] 1895, [1816,2448:2039,2531] Referee [2040,2448:2134,2531] in [2135,2448:2230,2531] an [2231,2448:2366,2531] actions [379,2556:450,2661] in [459,2556:705,2661] partition [706,2556:777,2661] in [778,2556:873,2661] the [882,2556:1121,2661] Supreme [1130,2556:1321,2661] Court [1322,2556:1392,2661] of [1393,2556:1504,2661] the [1513,2556:1704,2661] County [1705,2556:1760,2661] of [1769,2556:1976,2661] Ontario, [2001,2556:2056,2661] N.Y. [2136,2556:2383,2661] wherein-\n[380,2647:534,2768] Sidney [536,2647:583,2768] S. [593,2647:796,2768] Mallory [798,2647:911,2768] and [920,2647:1083,2768] Clista [1092,2647:1304,2768] Mallory, [1322,2647:1427,2768] his [1428,2647:1566,2768] wife, [1584,2647:1738,2768] were [1747,2647:2041,2768] plaintiffs [2042,2647:2163,2768] and [2181,2647:2405,2768] George\n[368,2754:417,2877] S. [426,2754:616,2877] Hickox [618,2754:733,2877] and [734,2754:924,2877] others [926,2754:1074,2877] were [1067,2754:1365,2877] defendants, [1392,2754:1448,2877] to [1450,2754:1623,2877] which [1625,2754:1798,2877] action [1808,2754:1931,2877] and [1933,2754:2039,2877] the [2041,2754:2231,2877] survey [2232,2754:2314,2877] or [373,2873:508,2969] map [509,2873:715,2969] therein [724,2873:867,2969] made [868,2873:987,2969] and [996,2873:1139,2969] used, [1164,2873:1419,2969] reference [1428,2873:1499,2969] is [1500,2873:1690,2969] hereto [1691,2873:1866,2969] made.\n[3446,358:3719,406] LIBERTIC.\n[4549,390:4682,440] 5 3\n[2583,436:2734,502] Cogether [2735,436:2806,502] with [2799,436:2854,502] the [2855,436:3069,502] appurtenances [3070,436:3133,502] and [3126,436:3181,502] all [3174,436:3229,502] the [3230,436:3325,502] estate [3326,436:3389,502] and [3382,436:3485,502] rights [3478,436:3517,502] of [3518,436:3573,502] the [3566,436:3637,502] said [3638,436:3757,502] party [3758,436:3797,502] of [3790,436:3845,502] the [3846,436:3917,502] first [3910,436:3980,502] part, [3989,436:4028,502] in [4029,436:4092,502] and [4085,436:4124,502] to [4125,436:4180,502] the [4173,436:4244,502] said [4245,436:4380,502] premises.\n[2579,580:2634,675] to [2643,580:2730,675] have [2731,580:2810,675] and [2811,580:2857,675] to [2866,580:2945,675] hold [2946,580:2993,675] the [2994,580:3081,675] above [3106,580:3241,675] entitled [3242,580:3385,675] premisses [3378,580:3457,675] unto [3450,580:3513,675] the [3506,580:3576,675] said [3569,580:3696,675] party [3697,580:3736,675] of [3729,580:3784,675] the [3785,580:3896,675] second [3889,580:3960,675] part, [3993,580:4136,675] her [4137,580:4216,675] heirs [4209,580:4279,675] and [4272,580:4391,675] assigns [4392,580:4503,675] forever.\n[2560,730:2882,805] thesaid\n[4163,762:4212,792] are [4205,762:4254,792] by [4252,762:4462,792] senesatwith [4452,762:4646,792] thesaid\n[2568,817:2697,853] part [2692,817:2733,853] of [2729,817:2785,853] the [2786,817:2961,853] secondpart [2952,817:3148,853] thatthesaid [3138,817:3216,853] part [3206,817:3273,853] -- [3268,817:3309,853] of [3304,817:3589,853] theirstpartha [3590,817:3651,853] not [3652,817:3791,853] done\n[3890,815:4299,851] anythingherebytheabove [4294,815:4444,851] described [4439,815:4646,851] premises\n[2559,867:3323,904] havebeenencumberedinanywaywhatever\n[2582,1018:2645,1104] In [2646,1018:2805,1104] Witness [2806,1018:2964,1104] Whereof. [2981,1018:3052,1104] The [3045,1018:3116,1104] said [3109,1018:3236,1104] party [3237,1018:3284,1104] of [3277,1018:3340,1104] the [3333,1018:3412,1104] first [3405,1018:3484,1104] part [3477,1018:3524,1104] to [3517,1018:3603,1104] these [3604,1018:3731,1104] presents [3732,1018:3827,1104] hath [3828,1018:3963,1104] hereunto [3964,1018:4035,1104] set [4044,1018:4147,1104] his [4148,1018:4243,1104] hand [4244,1018:4314,1104] and [4307,1018:4394,1104] seal [4395,1018:4450,1104] the [4451,1018:4514,1104] day [4507,1018:4586,1104] and [2572,1088:2644,1125] year [2639,1088:2706,1125] first [2701,1088:2799,1125] above [2799,1088:2907,1125] written.\n[2568,1127:2610,1177] in [2637,1127:2796,1177] Presence [2795,1127:2900,1177] of\n[3628,1166:3882,1260] Richard [3883,1166:3954,1260] H. [3979,1166:4249,1260] Murphy [4250,1166:4281,1260] ( [4266,1166:4321,1260] L.S.)\n[2573,1280:2746,1314] STATE [2745,1280:2824,1314] OF [2824,1280:2957,1314] NEW [2956,1280:3089,1314] YORK,\n[3116,1314:3176,1369] S.\n[2582,1342:2772,1415] County [2781,1342:2835,1415] of [2844,1342:3090,1415] Ontario [2548,1371:2579,1467] \n[2588,1371:2762,1467] Village [2755,1371:2818,1467] of [2819,1371:3182,1467] Canandaigual\n[2634,1456:2689,1483] On [2686,1456:2891,1483] this\n[2891,1456:3107,1490] 4 th [3107,1456:3166,1490] day [3166,1456:3269,1490] of\n[3337,1438:3719,1501] January [3720,1438:3759,1501] in [3760,1438:3815,1501] the [3808,1438:3887,1501] year [3896,1438:4119,1501] eighteen [4120,1438:4334,1501] hundred [4335,1438:4519,1501] and\n[2641,1504:2799,1581] ninety-seven\n[3231,1499:3334,1552] before [3334,1499:3385,1552] me, [3392,1499:3451,1552] the [3451,1499:3605,1552] subscriber, [3612,1499:3766,1552] personally [3765,1499:3942,1552] appeared [3956,1499:4037,1552] at [4044,1499:4168,1552] said [4168,1499:4351,1552] Village,\n[2614,1602:2805,1679] Richard [2806,1602:2869,1679] H. [2878,1602:3084,1679] Murphy, [3101,1602:3156,1679] of [3165,1602:3244,1679] the [3253,1602:3412,1679] Village [3413,1602:3460,1679] of [3461,1602:3732,1679] Canandaigan, [3749,1602:3900,1679] County [3901,1602:3956,1679] of [3965,1602:4115,1679] Ontario, [4132,1602:4251,1679] State [4252,1602:4307,1679] of [4308,1602:4411,1679] New [4412,1602:4531,1679] York,\n[2562,1714:2609,1800] to [2602,1714:2657,1800] me [2658,1714:2809,1800] personally [2809,1714:2912,1800] known, [2921,1714:2984,1800] and [2985,1714:3088,1800] known [3089,1714:3128,1800] to [3129,1714:3176,1800] me [3177,1714:3216,1800] to [3217,1714:3272,1800] be [3265,1714:3328,1800] the [3321,1714:3408,1800] same [3409,1714:3551,1800] person [3552,1714:3695,1800] described [3688,1714:3735,1800] in [3736,1714:3807,1800] and [3800,1714:3871,1800] who [3864,1714:4007,1800] executed [4008,1714:4086,1800] the [4087,1714:4364,1800] foregoing\n[4410,1730:4641,1752] distrument\n[2837,1771:2973,1814] h e\n[3280,1762:3477,1816] acknowledged [3492,1762:3567,1816] that [3560,1762:3643,1816] the [3651,1762:3787,1816] executed [3780,1762:3840,1816] the [3833,1762:3982,1816] same\n[3696,1816:3862,1901] John [3863,1816:3910,1901] S. [3927,1816:4096,1901] Coe\n[4023,1867:4189,1953] Notary [4198,1867:4446,1953] Public\n[2616,3562:2655,3662] A [2648,3562:2727,3662] true [2720,3562:2799,3662] copy [2800,3562:2839,3662] of [2832,3562:2887,3662] the [2888,3562:3007,3662] original. [3040,3562:3182,3662] Recorded [3183,3562:3350,3662] this [3359,3562:3526,3662] 4 th [3535,3562:3598,3662] day [3591,3562:3662,3662] of [3679,3562:3958,3662] January__1897, [4142,3562:4181,3662] at [4182,3562:4269,3662] 35 [4270,3562:4293,3662] o'clock [4390,3562:4445,3662] P. [4438,3562:4551,3662] M.\n[4096,3628:4151,3699] F [4151,3628:4206,3699] R [4215,3628:4414,3699] Hoog [4423,3628:4578,3699] Clerk\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007136456"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00348"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007136456_00348"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-PWQ9-T"
+      } ]
+    } ]
+  } ]
+}

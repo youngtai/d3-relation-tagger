@@ -1,0 +1,797 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028314091056",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557430837110
+    },
+    "description" : "#s_6917529028314091056",
+    "persons" : [ {
+      "id" : "p_6917529030796146756",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1757-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Elizabeth Secrited Secretter Rudolph Sureiter Secrister",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Elizabeth",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Elizabeth"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Secrited Secretter Rudolph Sureiter Secrister",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Secrited Secretter Rudolph Sureiter Secrister"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Elizabeth Secrited Secretter Rudolph Sureiter Secrister"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5665222,0.15573569,0.6595532,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.66522175,0.15573569,0.7315772,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth Secrited"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.20073357,0.17882584,0.28142715,0.19356424",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.28476158,0.17882584,0.37379128,0.19356424",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth Rudolph"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.71257085,0.57479733,0.8299433,0.5937116",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20573525,0.58904445,0.27842614,0.5998526",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth Secretter"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.35345116,0.58904445,0.44414806,0.5998526",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44714904,0.58904445,0.53117704,0.5998526",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth Rudolph"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.64354783,0.6887742,0.7392464,0.71014494",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7422474,0.6887742,0.8322774,0.71014494",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth Sureiter"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.45681894,0.7487104,0.54684895,0.77130926",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5498499,0.7487104,0.6162054,0.77130926",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth Secrister"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4888296,0.7786785,0.59486496,0.7924343",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Elizabeth"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Buffalo, State of New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.39846617,0.17882584,0.4684895,0.19356424",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Buffalo"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.33077693,0.28543356,0.37912637,0.30017194",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37945983,0.28543356,0.40346783,0.30017194",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4121374,0.28543356,0.4498166,0.30017194",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.45015004,0.28543356,0.4931644,0.30017194",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_STATE_ORIG",
+              "text" : "State of New York"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "1874",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6065355,0.1434537,0.6275425,0.16654384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6252084,0.1434537,0.6552184,0.16654384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8059353,0.15622698,0.8189396,0.16359617",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8166055,0.15622698,0.8356119,0.16359617",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.83461154,0.15622698,0.8726242,0.16359617",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20140047,0.15573569,0.2144048,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21207069,0.15573569,0.22774258,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22807603,0.15573569,0.2517506,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24941647,0.15573569,0.26775593,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26808935,0.15573569,0.30776927,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30543515,0.15573569,0.33177724,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32944316,0.15573569,0.36912304,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36678892,0.15573569,0.38512838,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3854618,0.15573569,0.42780927,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.43081027,0.15573569,0.5128376,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "1874"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1757-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796146856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-175H-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Thomas McKay",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Thomas",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Thomas"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "McKay",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "McKay"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Thomas McKay"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.29209736,0.19602063,0.37445816,0.22181283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3801267,0.19602063,0.47549182,0.22181283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Thomas McKay"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Oleca Cattaraugus",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4971657,0.19602063,0.5501834,0.22181283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5531844,0.19602063,0.65155053,0.22181283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Oleca Cattaraugus"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-175H-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796146956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1758-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "J Gossline Esq",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Gossline",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Gossline"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Suffix",
+            "value" : "Esq",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Suffix",
+              "sources" : [ {
+                "description" : "#sd_img",
+                "qualifiers" : [ {
+                  "value" : "0.5201734,0.30901498,0.5501834,0.3203144",
+                  "name" : "http://gedcomx.org/RectangleRegion"
+                } ]
+              } ],
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SUF",
+                "text" : "Esq"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "J Gossline Esq"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.40713573,0.30901498,0.4228076,0.3203144",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44481495,0.30901498,0.51683897,0.3203144",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "J.J. Gossline"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1758-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796147056",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-175F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "L J Lawton",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "L J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "L J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lawton",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lawton"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "L J Lawton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6595532,0.8010317,0.67822605,0.8111029",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.684895,0.8010317,0.69756585,0.8111029",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7062354,0.8010317,0.78326106,0.8111029",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "L. J. Lawton"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-175F-W"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028314091056",
+      "about" : "#r_6917529028314091056",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "temporal" : {
+          "original" : "1874",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6065355,0.1434537,0.6275425,0.16654384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6252084,0.1434537,0.6552184,0.16654384",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8059353,0.15622698,0.8189396,0.16359617",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8166055,0.15622698,0.8356119,0.16359617",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.83461154,0.15622698,0.8726242,0.16359617",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20140047,0.15573569,0.2144048,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21207069,0.15573569,0.22774258,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22807603,0.15573569,0.2517506,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24941647,0.15573569,0.26775593,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26808935,0.15573569,0.30776927,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30543515,0.15573569,0.33177724,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32944316,0.15573569,0.36912304,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36678892,0.15573569,0.38512838,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3854618,0.15573569,0.42780927,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.43081027,0.15573569,0.5128376,0.18398428",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "1874"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5Y5F-W" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-89W6-JDY7",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-89W6-JDY7" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150399_00994_TXT</UNQ>\n<IMID>007150399_00994</IMID>\n<APID>TH-1961-32807-11615-78</APID>\n<IMGSIZE>2999,4071</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 3 6\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">day of\nin the year\nof our Lord one thousand eight hundred and seventy four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Elizabeth Secrited</ENAMEX> formerly\n<ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Thomas McKay</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Oleca Cattaraugus</ENAMEX> County\nof the second part\n<ENAMEX TYPE=\"LOCALE\">Wis</ENAMEX>, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">four hundred\nDollars</NUMEX>,\nto be duly paid, hath sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>,\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT TRACT OR PARCE OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Village of Olera</ENAMEX> in the <ENAMEX TYPE=\"LOCALE\">County of\nCataraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and Known as the east undivided <NUMEX TYPE=\"QUANTITY\">one\nhalf</NUMEX> part of all that piece or parcel of land described on a map of\n<ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">J.J. Gossline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> and which said map is now\non file in the office of the <ENAMEX TYPE=\"OCCUPATION\">Comptroller</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> as Block\nseventy six ( <ENAMEX TYPE=\"AGE\">76</ENAMEX>) in said <ENAMEX TYPE=\"LOCALE\">village of Oliver</ENAMEX>, containing <NUMEX TYPE=\"QUANTITY\">two ( 2)</NUMEX> acres be the\nsame more or less,\nThe party of the first part to put the party of second part in possession\nof said premises at <ENAMEX TYPE=\"COREF\">her</ENAMEX> own costs & expeace.\nWit SppurtaHEES, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Elizabeth\nSecretter</ENAMEX> formerly <ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX>\ndoth hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness whereof, The party of the first part, hath hereunto set <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Elizabeth Sureiter</ENAMEX> ℗\n[ L.S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, S.\n<ENAMEX TYPE=\"LOCALE\">CATTARAGUS COUNTY</ENAMEX>.\n<TIMEX TYPE=\"DATE\">ninth day of\nseventy four</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Elizabeth Secrister</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same, and the said <ENAMEX TYPE=\"PERSON\">Elizabeth</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">L. J. Lawton</ENAMEX>,\nRecord and an end in the\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"216\"_ENDID=\"237\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"day of in the year of our Lord one thousand eight hundred and seventy four\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"348\"_ENDID=\"369\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Buffalo\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"409\"_ENDID=\"425\"_STTOKEN=\"Thomas McKay\"_ENDTOKEN=\"Oleca Cattaraugus\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1031\"_ENDID=\"795\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1388\"_ENDID=\"348\"_STTOKEN=\"Elizabeth Secretter\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1417\"_ENDID=\"1388\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Secretter\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"795\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1644\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1844\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1936\"_ENDID=\"1417\"_STTOKEN=\"Elizabeth Sureiter\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1965\"_ENDID=\"795\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2079\"_ENDID=\"1936\"_STTOKEN=\"Elizabeth Secrister\"_ENDTOKEN=\"Elizabeth Sureiter\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2102\"_ENDID=\"2039\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2256\"_ENDID=\"2079\"_STTOKEN=\"Elizabeth\"_ENDTOKEN=\"Elizabeth Secrister\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2294\"_ENDID=\"2039\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2309\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2345\"_ENDID=\"1249\"_STTOKEN=\"she\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2413\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"348\"_ENDID=\"320\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Secrited\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"377\"_ENDID=\"795\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=2+\"_STID=\"1388\"_ENDID=\"1388\"_STTOKEN=\"Elizabeth Secretter\"_ENDTOKEN=\"Elizabeth Secretter\">\n<RELEX TYPE=\"S=2+\"_STID=\"1417\"_ENDID=\"1417\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"S=2+\"_STID=\"1936\"_ENDID=\"1936\"_STTOKEN=\"Elizabeth Sureiter\"_ENDTOKEN=\"Elizabeth Sureiter\">\n<RELEX TYPE=\"S=2+\"_STID=\"2079\"_ENDID=\"2079\"_STTOKEN=\"Elizabeth Secrister\"_ENDTOKEN=\"Elizabeth Secrister\">\n<RELEX TYPE=\"S=2+\"_STID=\"320\"_ENDID=\"320\"_STTOKEN=\"Elizabeth Secrited\"_ENDTOKEN=\"Elizabeth Secrited\">\n<RELEX TYPE=\"S=2+\"_STID=\"348\"_ENDID=\"348\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"S=2+\"_STID=\"409\"_ENDID=\"409\"_STTOKEN=\"Thomas McKay\"_ENDTOKEN=\"Thomas McKay\">\n<RELEX TYPE=\"S=2+\"_STID=\"938\"_ENDID=\"938\"_STTOKEN=\"J.J. Gossline\"_ENDTOKEN=\"J.J. Gossline\">\n<RELEX TYPE=\"S=3+\"_STID=\"2431\"_ENDID=\"2431\"_STTOKEN=\"L. J. Lawton\"_ENDTOKEN=\"L. J. Lawton\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1513\"_ENDID=\"1517\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1513\"_ENDID=\"1527\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1644\"_ENDID=\"1648\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1644\"_ENDID=\"1658\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2256\"_ENDID=\"2422\"_STTOKEN=\"Elizabeth\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2309\"_ENDID=\"2318\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2413\"_ENDID=\"2422\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"674\"_ENDID=\"678\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1388\"_ENDID=\"205\"_STTOKEN=\"Elizabeth Secretter\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1388\"_ENDID=\"216\"_STTOKEN=\"Elizabeth Secretter\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"320\"_ENDID=\"216\"_STTOKEN=\"Elizabeth Secrited\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"320\"_ENDID=\"320\"_STTOKEN=\"Elizabeth Secrited\"_ENDTOKEN=\"Elizabeth Secrited\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"348\"_ENDID=\"348\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"369\"_ENDID=\"377\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"938\"_ENDID=\"952\"_STTOKEN=\"J.J. Gossline\"_ENDTOKEN=\"Esq.\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150399_00994_TXT</UNQ>\n<IMID>007150399_00994</IMID>\n<APID>TH-1961-32807-11615-78</APID>\n<IMGSIZE>2999,4071</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 3 6\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">day of\nin the year\nof our Lord one thousand eight hundred and seventy four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Elizabeth Secrited</ENAMEX> formerly\n<ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Thomas McKay</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Oleca Cattaraugus</ENAMEX> County\nof the second part\n<ENAMEX TYPE=\"LOCALE\">Wis</ENAMEX>, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">four hundred\nDollars</NUMEX>,\nto be duly paid, hath sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>,\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT TRACT OR PARCE OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Village of Olera</ENAMEX> in the <ENAMEX TYPE=\"LOCALE\">County of\nCataraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and Known as the east undivided <NUMEX TYPE=\"QUANTITY\">one\nhalf</NUMEX> part of all that piece or parcel of land described on a map of\n<ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">J.J. Gossline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> and which said map is now\non file in the office of the <ENAMEX TYPE=\"OCCUPATION\">Comptroller</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> as Block\nseventy six ( <ENAMEX TYPE=\"AGE\">76</ENAMEX>) in said <ENAMEX TYPE=\"LOCALE\">village of Oliver</ENAMEX>, containing <NUMEX TYPE=\"QUANTITY\">two ( 2)</NUMEX> acres be the\nsame more or less,\nThe party of the first part to put the party of second part in possession\nof said premises at <ENAMEX TYPE=\"COREF\">her</ENAMEX> own costs & expeace.\nWit SppurtaHEES, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Elizabeth\nSecretter</ENAMEX> formerly <ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX>\ndoth hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness whereof, The party of the first part, hath hereunto set <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Elizabeth Sureiter</ENAMEX> ℗\n[ L.S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, S.\n<ENAMEX TYPE=\"LOCALE\">CATTARAGUS COUNTY</ENAMEX>.\n<TIMEX TYPE=\"DATE\">ninth day of\nseventy four</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Elizabeth Secrister</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same, and the said <ENAMEX TYPE=\"PERSON\">Elizabeth</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">L. J. Lawton</ENAMEX>,\nRecord and an end in the\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"216\"_ENDID=\"237\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"day of in the year of our Lord one thousand eight hundred and seventy four\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"348\"_ENDID=\"369\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Buffalo\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"409\"_ENDID=\"425\"_STTOKEN=\"Thomas McKay\"_ENDTOKEN=\"Oleca Cattaraugus\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1031\"_ENDID=\"795\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1388\"_ENDID=\"348\"_STTOKEN=\"Elizabeth Secretter\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1417\"_ENDID=\"1388\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Secretter\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"795\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1644\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1844\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1936\"_ENDID=\"1417\"_STTOKEN=\"Elizabeth Sureiter\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1965\"_ENDID=\"795\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2079\"_ENDID=\"1936\"_STTOKEN=\"Elizabeth Secrister\"_ENDTOKEN=\"Elizabeth Sureiter\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2102\"_ENDID=\"2039\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2256\"_ENDID=\"2079\"_STTOKEN=\"Elizabeth\"_ENDTOKEN=\"Elizabeth Secrister\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2294\"_ENDID=\"2039\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2309\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2345\"_ENDID=\"1249\"_STTOKEN=\"she\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2413\"_ENDID=\"1249\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"348\"_ENDID=\"320\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Secrited\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"377\"_ENDID=\"795\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=2+\"_STID=\"1388\"_ENDID=\"1388\"_STTOKEN=\"Elizabeth Secretter\"_ENDTOKEN=\"Elizabeth Secretter\">\n<RELEX TYPE=\"S=2+\"_STID=\"1417\"_ENDID=\"1417\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"S=2+\"_STID=\"1936\"_ENDID=\"1936\"_STTOKEN=\"Elizabeth Sureiter\"_ENDTOKEN=\"Elizabeth Sureiter\">\n<RELEX TYPE=\"S=2+\"_STID=\"2079\"_ENDID=\"2079\"_STTOKEN=\"Elizabeth Secrister\"_ENDTOKEN=\"Elizabeth Secrister\">\n<RELEX TYPE=\"S=2+\"_STID=\"320\"_ENDID=\"320\"_STTOKEN=\"Elizabeth Secrited\"_ENDTOKEN=\"Elizabeth Secrited\">\n<RELEX TYPE=\"S=2+\"_STID=\"348\"_ENDID=\"348\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"S=2+\"_STID=\"409\"_ENDID=\"409\"_STTOKEN=\"Thomas McKay\"_ENDTOKEN=\"Thomas McKay\">\n<RELEX TYPE=\"S=2+\"_STID=\"938\"_ENDID=\"938\"_STTOKEN=\"J.J. Gossline\"_ENDTOKEN=\"J.J. Gossline\">\n<RELEX TYPE=\"S=3+\"_STID=\"2431\"_ENDID=\"2431\"_STTOKEN=\"L. J. Lawton\"_ENDTOKEN=\"L. J. Lawton\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1513\"_ENDID=\"1517\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1513\"_ENDID=\"1527\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1644\"_ENDID=\"1648\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1644\"_ENDID=\"1658\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2256\"_ENDID=\"2422\"_STTOKEN=\"Elizabeth\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2309\"_ENDID=\"2318\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2413\"_ENDID=\"2422\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"674\"_ENDID=\"678\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"320\"_ENDID=\"216\"_STTOKEN=\"Elizabeth Secrited\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"320\"_ENDID=\"320\"_STTOKEN=\"Elizabeth Secrited\"_ENDTOKEN=\"Elizabeth Secrited\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"348\"_ENDID=\"348\"_STTOKEN=\"Elizabeth Rudolph\"_ENDTOKEN=\"Elizabeth Rudolph\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"369\"_ENDID=\"377\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"938\"_ENDID=\"952\"_STTOKEN=\"J.J. Gossline\"_ENDTOKEN=\"Esq.\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150399_00994_TXT</UNQ>\n<IMID>007150399_00994</IMID>\n<APID>TH-1961-32807-11615-78</APID>\n<IMGSIZE>2999,4071</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 3 6\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">day of\nin the year\nof our Lord one thousand eight hundred and seventy four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Elizabeth Secrited</ENAMEX> formerly\n<ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Thomas McKay</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Oleca Cattaraugus</ENAMEX> County\nof the second part\n<ENAMEX TYPE=\"LOCALE\">Wis</ENAMEX>, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">four hundred\nDollars</NUMEX>,\nto be duly paid, hath sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>,\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT TRACT OR PARCE OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Village of Olera</ENAMEX> in the <ENAMEX TYPE=\"LOCALE\">County of\nCataraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and Known as the east undivided <NUMEX TYPE=\"QUANTITY\">one\nhalf</NUMEX> part of all that piece or parcel of land described on a map of\n<ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">J.J. Gossline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> and which said map is now\non file in the office of the <ENAMEX TYPE=\"OCCUPATION\">Comptroller</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> as Block\nseventy six ( <ENAMEX TYPE=\"AGE\">76</ENAMEX>) in said <ENAMEX TYPE=\"LOCALE\">village of Oliver</ENAMEX>, containing <NUMEX TYPE=\"QUANTITY\">two ( 2)</NUMEX> acres be the\nsame more or less,\nThe party of the first part to put the party of second part in possession\nof said premises at <ENAMEX TYPE=\"COREF\">her</ENAMEX> own costs & expeace.\nWit SppurtaHEES, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Elizabeth\nSecretter</ENAMEX> formerly <ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX>\ndoth hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness whereof, The party of the first part, hath hereunto set <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Elizabeth Sureiter</ENAMEX> ℗\n[ L.S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, S.\n<ENAMEX TYPE=\"LOCALE\">CATTARAGUS COUNTY</ENAMEX>.\n<TIMEX TYPE=\"DATE\">ninth day of\nseventy four</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Elizabeth Secrister</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same, and the said <ENAMEX TYPE=\"PERSON\">Elizabeth</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">L. J. Lawton</ENAMEX>,\nRecord and an end in the\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150399_00994_TXT</UNQ>\n<IMID>007150399_00994</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1961</TIMEX>-32807-<TIMEX TYPE=\"DATE\">11615-78</TIMEX></APID>\n<IMGSIZE>2999,<TIMEX TYPE=\"DATE\">4071</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 3 6\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">day of\nin the year\nof our Lord one thousand eight hundred and seventy four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Elizabeth Secrited</ENAMEX> formerly\n<ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Thomas McKay</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Oleca Cattaraugus</ENAMEX> County\nof the second part\n<ENAMEX TYPE=\"LOCALE\">Wis</ENAMEX>, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">four hundred\nDollars</NUMEX>,\nto be duly paid, hath sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>,\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT TRACT OR PARCE OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Village of Olera</ENAMEX> in the <ENAMEX TYPE=\"LOCALE\">County of\nCataraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and Known as the east undivided <NUMEX TYPE=\"QUANTITY\">one\nhalf</NUMEX> part of all that piece or parcel of land described on a map of\n<ENAMEX TYPE=\"COREF.loc\">said Village</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">J.J. Gossline</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> and which said map is now\non file in the office of the <ENAMEX TYPE=\"OCCUPATION\">Comptroller</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> as Block\nseventy six ( <ENAMEX TYPE=\"AGE\">76</ENAMEX>) in said <ENAMEX TYPE=\"LOCALE\">village of Oliver</ENAMEX>, containing <NUMEX TYPE=\"QUANTITY\">two ( 2)</NUMEX> acres be the\nsame more or less,\nThe party of the first part to put the party of second part in possession\nof said premises at <ENAMEX TYPE=\"COREF\">her</ENAMEX> own costs & expeace.\nWit SppurtaHEES, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Elizabeth\nSecretter</ENAMEX> formerly <ENAMEX TYPE=\"PERSON\">Elizabeth Rudolph</ENAMEX>\ndoth hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness whereof, The party of the first part, hath hereunto set <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Elizabeth Sureiter</ENAMEX> ℗\n[ L.S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, S.\n<ENAMEX TYPE=\"LOCALE\">CATTARAGUS COUNTY</ENAMEX>.\n<TIMEX TYPE=\"DATE\">ninth day of\nseventy four</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Elizabeth Secrister</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same, and the said <ENAMEX TYPE=\"PERSON\">Elizabeth</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">L. J. Lawton</ENAMEX>,\nRecord and an end in the\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150399_00994_TXT</UNQ>\n<IMID>007150399_00994</IMID>\n<APID>TH-1961-32807-11615-78</APID>\n<IMGSIZE>2999,4071</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[388,415:555,478] 3 3 6\n[664,502:866,525] WARRANTY [864,502:965,525] DEED.\n[644,584:827,678] This [844,584:1235,678] Indenture, [1259,584:1338,678] Made [1339,584:1482,678] this [1819,584:1882,678] day [1875,584:1965,678] of\n[2417,636:2456,666] in [2449,636:2506,666] the [2503,636:2617,666] year\n[604,634:643,749] of [636,634:683,749] our [684,634:755,749] Lord [748,634:803,749] one [804,634:923,749] thousand [916,634:995,749] eight [988,634:1107,749] hundred [1100,634:1155,749] and [1156,634:1283,749] seventy [1292,634:1538,749] four [1547,634:1698,749] Between [1699,634:1978,749] Elizabeth [1995,634:2194,749] Secrited [2203,634:2451,749] formerly\n[602,728:844,788] Elizabeth [854,728:1121,788] Rudolph [1122,728:1186,788] of [1195,728:1405,788] Buffalo [1422,728:1519,788] New [1528,728:1677,788] York\n[604,798:635,903] of [636,798:683,903] the [676,798:739,903] first [732,798:803,903] part, [804,798:867,903] and [876,798:1123,903] Thomas [1140,798:1426,903] McKay [1427,798:1490,903] of [1491,798:1650,903] Oleca [1659,798:1954,903] Cattaraugus [1963,798:2180,903] County\n[2344,925:2379,955] of [2372,925:2424,955] the [2422,925:2515,955] second [2508,925:2621,955] part\n[603,974:802,1035] Wis, [812,974:886,1035] That [880,974:928,1035] the [922,974:987,1035] said [980,974:1062,1035] party [1056,974:1088,1035] of [1089,974:1138,1035] the [1131,974:1197,1035] first [1190,974:1255,1035] part, [1257,974:1297,1035] in [1291,974:1465,1035] consideration [1458,974:1499,1035] of [1492,974:1541,1035] the [1534,974:1599,1035] sum [1593,974:1658,1035] of [1668,974:1792,1035] four [1794,974:2065,1035] hundred\n[2471,1042:2569,1070] Dollars,\n[606,1058:663,1119] to [673,1058:789,1119] be [790,1058:864,1119] duly [858,1058:923,1119] paid, [925,1058:998,1119] hath [992,1058:1057,1119] sold, [1059,1058:1116,1119] and [1109,1058:1150,1119] by [1151,1058:1225,1119] these [1218,1058:1334,1119] presents [1336,1058:1401,1119] do [1403,1058:1477,1119] grant [1479,1058:1536,1119] and [1529,1058:1620,1119] convey [1621,1058:1653,1119] to [1655,1058:1703,1119] the [1697,1058:1754,1119] said [1756,1058:1829,1119] party [1823,1058:1863,1119] of [1856,1058:1905,1119] the [1907,1058:1997,1119] second [1991,1058:2056,1119] part, [2200,1058:2333,1119] his\n[2495,1091:2569,1117] heirs,\n[605,1119:666,1175] and [659,1119:759,1175] assigns, [760,1119:821,1175] ALL [814,1119:883,1175] THAT [883,1119:968,1175] TRACT [961,1119:999,1175] OR [991,1119:1091,1175] PARCE [1084,1119:1130,1175] OF [1123,1119:1200,1175] LAND, [1200,1119:1292,1175] situate [1285,1119:1323,1175] in [1316,1119:1470,1175] the [1486,1119:1748,1175] Village [1749,1119:1795,1175] of [1795,1119:1957,1175] Olera [1965,1119:2050,1175] in [2058,1119:2135,1175] the [2135,1119:2335,1175] County [2336,1119:2461,1175] of\n[602,1162:861,1222] Cataraugus [862,1162:983,1222] and [992,1162:1137,1222] State [1138,1162:1210,1222] of [1236,1162:1349,1222] New [1350,1162:1479,1222] York [1480,1162:1600,1222] and [1602,1162:1755,1222] Known [1748,1162:1820,1222] as [1821,1162:1901,1222] the [1911,1162:2031,1222] east [2041,1162:2299,1222] undivided [2301,1162:2458,1222] one\n[595,1215:725,1267] half [724,1215:876,1267] part [875,1215:933,1267] of [940,1215:1034,1267] all [1040,1215:1199,1267] that [1206,1215:1350,1267] piece [1357,1215:1422,1267] or [1429,1215:1580,1267] parcel [1580,1215:1659,1267] of [1673,1215:1825,1267] land [1831,1215:2069,1267] described [2069,1215:2141,1267] on [2148,1215:2199,1267] a [2205,1215:2357,1267] map [2356,1215:2471,1267] of\n[601,1258:748,1304] said [758,1258:961,1304] Village [965,1258:1117,1304] made [1115,1258:1218,1304] by [1221,1258:1268,1304] J.J. [1334,1258:1550,1304] Gossline [1560,1258:1650,1304] Esq. [1666,1258:1800,1304] and [1804,1258:1982,1304] which [1980,1258:2114,1304] said [2111,1258:2258,1304] map [2268,1258:2320,1304] is [2318,1258:2458,1304] now\n[594,1304:663,1352] on [662,1304:786,1352] file [791,1304:894,1352] in [900,1304:1003,1352] the [1009,1304:1173,1352] office [1172,1304:1241,1352] of [1246,1304:1343,1352] the [1348,1304:1622,1352] Comptroller [1620,1304:1676,1352] of [1681,1304:1771,1352] the [1777,1304:1907,1352] State [1906,1304:1961,1352] of [1967,1304:2063,1352] New [2069,1304:2172,1352] York [2171,1304:2226,1352] as [2232,1304:2454,1352] Block\n[603,1344:778,1415] seventy [779,1344:858,1415] six [859,1344:890,1415] ( [875,1344:954,1415] 76) [1011,1344:1098,1415] in [1099,1344:1266,1415] said [1267,1344:1474,1415] village [1475,1344:1529,1415] of [1538,1344:1705,1415] Oliver, [1730,1344:1993,1415] containing [1994,1344:2089,1415] two [2082,1344:2105,1415] ( [2090,1344:2145,1415] 2) [2178,1344:2289,1415] acres [2290,1344:2337,1415] be [2338,1344:2461,1415] the\n[598,1394:756,1441] same [761,1394:886,1441] more [884,1394:945,1441] or [943,1394:1030,1441] less,\n[660,1422:747,1513] The [756,1422:907,1513] party [900,1422:971,1513] of [980,1422:1067,1513] the [1068,1422:1219,1513] first [1236,1422:1355,1513] part [1356,1422:1419,1513] to [1436,1422:1554,1513] put [1555,1422:1650,1513] the [1651,1422:1802,1513] party [1803,1422:1866,1513] of [1859,1422:2010,1513] second [2011,1422:2122,1513] part [2123,1422:2186,1513] in [2195,1422:2451,1513] possession\n[591,1478:657,1541] of [668,1478:777,1541] said [787,1478:981,1541] premises [983,1478:1067,1541] at [1069,1478:1143,1541] her [1145,1478:1254,1541] own [1265,1478:1391,1541] costs [1393,1478:1416,1541] & [1427,1478:1612,1541] expeace.\n[578,2340:609,2417]  [618,2340:753,2417] Wit [746,2340:977,2417] SppurtaHEES, [978,2340:1033,2417] and [1026,2340:1073,2417] all [1066,2340:1121,2417] the [1114,2340:1201,2417] estate, [1202,2340:1265,2417] title [1258,2340:1313,2417] and [1306,2340:1417,2417] interest [1410,2340:1513,2417] therein [1506,2340:1544,2417] of [1537,2340:1584,2417] the [1577,2340:1640,2417] said [1641,2340:1720,2417] party [1713,2340:1744,2417] of [1745,2340:1792,2417] the [1785,2340:1856,2417] first [1849,2340:1912,2417] part. [1929,2340:1992,2417] And [1985,2340:2040,2417] the [2033,2340:2120,2417] said [2137,2340:2489,2417] Elizabeth\n[617,2398:835,2442] Secretter [838,2398:1051,2442] formerly [1060,2398:1332,2442] Elizabeth [1341,2398:1593,2442] Rudolph\n[613,2442:698,2483] doth [695,2442:792,2483] hereby [788,2442:903,2483] covenant [900,2442:956,2483] and [952,2442:1038,2483] agree [1034,2442:1073,2483] to [1064,2442:1126,2483] and [1122,2442:1184,2483] with [1181,2442:1231,2483] the [1228,2442:1290,2483] said [1286,2442:1366,2483] party [1357,2442:1395,2483] of [1392,2442:1442,2483] the [1433,2442:1530,2483] second [1527,2442:1589,2483] part, [1679,2442:1917,2483] his [1919,2442:1993,2483] heirs [1984,2442:2040,2483] and [2036,2442:2183,2483] assigns\n[611,2640:675,2699] that [668,2640:715,2699] the [716,2640:837,2699] premises [830,2640:894,2699] thus [887,2640:1016,2699] conveyed, [1017,2640:1048,2699] in [1050,2640:1105,2699] the [1098,2640:1170,2699] quiet [1171,2640:1227,2699] and [1220,2640:1349,2699] peaceable [1342,2640:1479,2699] possession [1472,2640:1511,2699] of [1504,2640:1552,2699] the [1553,2640:1617,2699] said [1610,2640:1690,2699] party [1683,2640:1714,2699] of [1716,2640:1763,2699] the [1756,2640:1852,2699] second [1846,2640:1917,2699] part, [1959,2640:2064,2699] her [2065,2640:2137,2699] heirs [2138,2640:2194,2699] and [2187,2640:2291,2699] assigns,\n[612,2708:668,2738] will [665,2708:763,2738] forever [760,2708:883,2738] WARRANT [876,2708:936,2738] AND [930,2708:1031,2738] DEFEND [1029,2708:1126,2738] against [1124,2708:1180,2738] any [1173,2708:1267,2738] person [1260,2708:1420,2738] whomsoever [1413,2708:1523,2738] lawfully [1520,2708:1634,2738] claiming [1628,2708:1680,2738] the [1673,2708:1750,2738] same [1743,2708:1783,2738] or [1776,2708:1833,2738] any [1830,2708:1894,2738] part [1888,2708:1985,2738] thereof.\n[691,2752:754,2835] In [755,2752:906,2835] Witness [907,2752:1058,2835] whereof, [1075,2752:1130,2835] The [1131,2752:1234,2835] party [1235,2752:1274,2835] of [1267,2752:1322,2835] the [1315,2752:1386,2835] first [1387,2752:1450,2835] part, [1459,2752:1530,2835] hath [1523,2752:1641,2835] hereunto [1642,2752:1761,2835] set [1762,2752:1865,2835] her [1874,2752:1961,2835] hand [1962,2752:2025,2835] and [2018,2752:2097,2835] seal [2090,2752:2153,2835] the [2146,2752:2209,2835] day [2202,2752:2265,2835] and [2258,2752:2329,2835] year [2322,2752:2393,2835] first [2386,2752:2465,2835] above [2466,2752:2569,2835] written.\n[613,2825:710,2849] Sealed [706,2825:773,2849] and [768,2825:904,2849] Delivered [899,2825:945,2849] in [940,2825:1066,2849] Presence [1061,2825:1152,2849] of\n[1930,2804:2217,2891] Elizabeth [2226,2804:2496,2891] Sureiter [2497,2804:2621,2891] ℗\n[2497,2875:2522,2900] [ [2507,2875:2546,2900] L.S.]\n[610,2977:760,3041] STATE [761,2977:824,3041] OF [825,2977:944,3041] NEW [945,2977:1071,3041] YORK, [1128,2977:1218,3041] S.\n[716,3018:890,3039] CATTARAGUS [884,3018:994,3039] COUNTY.\n[1329,3029:1619,3086] ninth [1611,3029:1666,3086] day [1658,3029:1746,3086] of\n[610,3048:721,3140] seventy [730,3048:865,3140] four [866,3048:945,3140] before [938,3048:985,3140] me, [986,3048:1025,3140] the [1018,3048:1137,3140] subscriber, [1146,3048:1257,3140] personally [1250,3048:1369,3140] appeared [1370,3048:1640,3140] Elizabeth [1649,3048:1848,3140] Secrister [1759,3137:1797,3170] to [1792,3137:1839,3170] me [1833,3137:1914,3170] known [1908,3137:1942,3170] to [1936,3137:1974,3170] be [1964,3137:2012,3170] the [2001,3137:2068,3170] same [2057,3137:2151,3170] persons [2146,3137:2249,3170] described [2244,3137:2277,3170] in [2272,3137:2324,3170] and [2318,3137:2370,3170] who [2365,3137:2464,3170] executed [2458,3137:2501,3170] the [2495,3137:2624,3170] within\n[616,3170:739,3226] instrument, [739,3170:785,3226] and [778,3170:886,3226] severally [879,3170:1033,3226] acknowledged [1025,3170:1079,3226] that [1072,3170:1125,3226] they [1118,3170:1226,3226] executed [1219,3170:1257,3226] the [1257,3170:1326,3226] same, [1327,3170:1380,3226] and [1373,3170:1411,3226] the [1412,3170:1465,3226] said [1466,3170:1784,3226] Elizabeth\n[612,3226:651,3269] on [642,3226:669,3269] a [660,3226:747,3269] private [744,3226:879,3269] examination [870,3226:909,3269] by [906,3226:945,3269] me, [948,3226:1010,3269] apart [1007,3226:1070,3269] from [1061,3226:1112,3269] her [1103,3226:1154,3269] said [1151,3226:1250,3269] husband, [1247,3226:1400,3269] acknowledged [1397,3226:1448,3269] that [1439,3226:1490,3269] she [1481,3226:1580,3269] executed [1577,3226:1622,3269] the [1613,3226:1676,3269] same [1673,3226:1742,3269] freely, [1745,3226:1789,3269] and [1786,3226:1879,3269] without [1870,3226:1921,3269] any [1912,3226:1969,3269] fear [1960,3226:1993,3269] or [1990,3226:2113,3269] compulsion [2110,3226:2143,3269] of [2140,3226:2185,3269] her [2176,3226:2233,3269] said [2224,3226:2329,3269] husband.\n[1978,3261:2034,3302] L. [2054,3261:2092,3302] J. [2118,3261:2349,3302] Lawton,\n[469,3433:559,3417] Record [469,3415:559,3403] and [469,3403:559,3398] an [469,3397:559,3382] end [469,3367:559,3357] in [469,3355:559,2875] the\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150399"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00994"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150399_00994"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5Y5F-W"
+      } ]
+    } ]
+  } ]
+}

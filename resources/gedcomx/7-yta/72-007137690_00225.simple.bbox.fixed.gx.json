@@ -1,0 +1,1764 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028313719856",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557429942532
+    },
+    "description" : "#s_6917529028313719856",
+    "persons" : [ {
+      "id" : "p_6917529030784622056",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XBBB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Sarah A Johnson",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Sarah A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Sarah A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Johnson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Johnson"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Sarah A Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.11612381,0.13746631,0.18389642,0.16522911",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33926764,0.13746631,0.4149302,0.16522911",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7141412,0.5722372,0.7784746,0.5954178",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7802954,0.5722372,0.7995145,0.5954178",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.81428283,0.5722372,0.8970261,0.5954178",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah A. Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.75015175,0.66603774,0.79526603,0.69838274",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.80032367,0.66603774,0.81448513,0.69838274",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah A."
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XBBB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB19-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Mary Johnson",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Mary",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Mary"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Johnson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Johnson"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Mary Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.29071414,0.13746631,0.33259153,0.16522911",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33926764,0.13746631,0.4149302,0.16522911",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary Johnson"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB19-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB17-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Catrin",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Catrin",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Catrin"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Catrin"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.11531459,0.1574124,0.15719199,0.17843665",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Catrin"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB17-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1H-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Clifford B Johnson",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Clifford B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Clifford B"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Johnson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Johnson"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Clifford B Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.42079708,0.1574124,0.4756221,0.17843665",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clifford"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6220918,0.38113207,0.6799514,0.4045822",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.68177223,0.38113207,0.69289905,0.4045822",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.69633824,0.38113207,0.75682783,0.4045822",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clifford B. Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6461663,0.502965,0.7040259,0.52560645",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.70584667,0.502965,0.7218289,0.52560645",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7236496,0.502965,0.80598825,0.52560645",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clifford B Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7141412,0.5374663,0.7817115,0.56145555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.78353226,0.5374663,0.8011329,0.56145555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8045721,0.5374663,0.88772,0.56145555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clifford B. Johnson"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1H-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622456",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB18-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Johnson",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Johnson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Johnson"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.17539956,0.1703504,0.23002225,0.19191375",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Johnson"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB18-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Johnson Calvin",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Johnson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Johnson"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Calvin",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Calvin"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Johnson Calvin"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.123406835,0.18760107,0.16690269,0.21428572",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.1768157,0.18760107,0.23953065,0.21428572",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Calvin, Johnson"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Russell R Jacques",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Russell R",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Russell R"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Jacques",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Jacques"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Russell R Jacques"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.1930002,0.37493262,0.24620676,0.39272237",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24802752,0.37493262,0.2640097,0.39272237",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26744893,0.37493262,0.32692698,0.39272237",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Russell R. Jacques"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Beadle Brothers",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Beadle Brothers",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Beadle Brothers"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Beadle Brothers"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.34816912,0.37493262,0.3981388,0.39272237",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Beadle"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.33380538,0.41428572,0.38215658,0.43692723",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38397735,0.41428572,0.44507384,0.43692723",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Beadle Brothers"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "William W Beadle",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "William W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "William W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Beadle",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Beadle"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "William W Beadle"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.22779688,0.6436658,0.28424034,0.6625337",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.28444263,0.6436658,0.29718795,0.6625337",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30042484,0.6436658,0.34877604,0.6625337",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William W. Beadle"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784622956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Thomas S Beadle",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Thomas S",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Thomas S"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Beadle",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Beadle"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Thomas S Beadle"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3667813,0.6436658,0.4183694,0.6625337",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42019016,0.6436658,0.4311147,0.6625337",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.43293548,0.6436658,0.47966823,0.6625337",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Thomas S. Beadle"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-XB1B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1M9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George Beadle",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Beadle",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Beadle"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George Beadle"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.15011127,0.6563342,0.19664171,0.6824798",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.19684403,0.6563342,0.25005057,0.6824798",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George Beadle"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1M9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1M7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Beadle",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Beadle",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Beadle"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Beadle"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.14707668,0.71239895,0.19198868,0.7334232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Beadle"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1M7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1MH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Roscoe B Ashley",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Roscoe B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Roscoe B"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ashley",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ashley"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Roscoe B Ashley"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27796885,0.71239895,0.32611775,0.7334232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3279385,0.71239895,0.3406838,0.7334232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.344123,0.71239895,0.3860004,0.7334232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Roscoe B. Ashley"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1MH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1M8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Mary E Johnson",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Mary E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Mary E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Johnson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Johnson"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Mary E Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7139389,0.5908356,0.76633626,0.6245283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7683593,0.5908356,0.78312767,0.6245283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7938499,0.5908356,0.8733563,0.6245283",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary E. Johnson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6085373,0.6927224,0.6552701,0.71428573",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.65709084,0.6927224,0.6698361,0.71428573",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.67327535,0.6927224,0.745701,0.71428573",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary E. Johnson"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1M8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623456",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1MF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "L J King",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "L J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "L J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "King",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "King"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "L J King"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6550678,0.7169811,0.6661946,0.7425876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6823791,0.7169811,0.74529636,0.7425876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "L.J. King"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1MF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1MV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Monroe",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Monroe",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Monroe"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Monroe"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.865264,0.73746634,0.91584057,0.7533693",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Monroe"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Monroe County",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/County",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.57657295,0.74150944,0.62977946,0.7722372",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.63160026,0.74150944,0.67651224,0.7722372",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_COUNTY_ORIG",
+              "text" : "Monroe County"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1MV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030784623656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1ML-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "L F Kirk Esq",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "L F",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "L F"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Kirk",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Kirk"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Suffix",
+            "value" : "Esq",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Suffix",
+              "sources" : [ {
+                "description" : "#sd_img",
+                "qualifiers" : [ {
+                  "value" : "0.8367388,0.7778976,0.8624317,0.81374663",
+                  "name" : "http://gedcomx.org/RectangleRegion"
+                } ]
+              } ],
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SUF",
+                "text" : "Esq"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "L F Kirk Esq"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.77361923,0.7778976,0.78312767,0.81374663",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.797896,0.7778976,0.8365365,0.81374663",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "L.F. Kirk"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-X1ML-T"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030784622256",
+        "resourceId" : "p_6917529030784622256"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030784622056",
+        "resourceId" : "p_6917529030784622056"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Husband"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030784622356",
+        "resourceId" : "p_6917529030784622356"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030784622056",
+        "resourceId" : "p_6917529030784622056"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Husband"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/relationships/Sibling",
+      "person1" : {
+        "resource" : "#p_6917529030784622756",
+        "resourceId" : "p_6917529030784622756"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030784622056",
+        "resourceId" : "p_6917529030784622056"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Brother",
+          "resource" : "http://familysearch.org/types/relationships/Sibling"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Brother"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Sister"
+        } ]
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/relationships/Sibling",
+      "person1" : {
+        "resource" : "#p_6917529030784623156",
+        "resourceId" : "p_6917529030784623156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030784622056",
+        "resourceId" : "p_6917529030784622056"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Brother",
+          "resource" : "http://familysearch.org/types/relationships/Sibling"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Brother"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Sister"
+        } ]
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/relationships/Sibling",
+      "person1" : {
+        "resource" : "#p_6917529030784623256",
+        "resourceId" : "p_6917529030784623256"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030784622056",
+        "resourceId" : "p_6917529030784622056"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Brother",
+          "resource" : "http://familysearch.org/types/relationships/Sibling"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Sibling"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Sister"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028313719856",
+      "about" : "#r_6917529028313719856",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Livingston, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5XS9-T" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-99WC-ZNM2",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-99WC-ZNM2" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007137690_00225_TXT</UNQ>\n<IMID>007137690_00225</IMID>\n<APID>TH-1951-32680-14420-92</APID>\n<IMGSIZE>4943,3710</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Livingston</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 2 0\nLIBER 185.\nDEED with Full Covenants -- <ENAMEX TYPE=\"COREF\">I</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the ⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> and\nin the ver-\n<ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">Mary Johnson</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">widow</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Catrin</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, all of <ENAMEX TYPE=\"LOCALE\">Rochester Jr.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clifford</ENAMEX> of the first part and <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> as <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Calvin, Johnson</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, of the first part, and the <ENAMEX TYPE=\"LOCALE\">City of\nRochester</ENAMEX>, a <ENAMEX TYPE=\"ORGANIZATION\">Municipal Corporation</ENAMEX>\nof the second part\nThitnesseth, That the said parties of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One\nDollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the party of the second part, do hereby grant and release unto the said party of the\nsecond part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"LOCALE\">Il</ENAMEX> that Tract of <ENAMEX TYPE=\"PERSON\">Marcel</ENAMEX> of Land situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Livonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Livingston</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being part of Lot No. 66 in the original survey\nand bounded and described as follows.\nBeginning at a point on the West share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hombock\nLake</ENAMEX>, at highwater mark a little South of a black\n<ENAMEX TYPE=\"FLORA\">walnut</ENAMEX> tree, and running thence south along the\nshare of said bake <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to the corner of a Lot\ndeeded by <ENAMEX TYPE=\"PERSON\">Russell R. Jacques</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">Brothers</ENAMEX> by\ndeed dated <TIMEX TYPE=\"DATE\">August 12, 1879</TIMEX> and recorded in <ENAMEX TYPE=\"LOCALE\">Livingston\nCounty</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Lib. 1100 of Deeds</ENAMEX> page 443.\nThence westerly along said <ENAMEX TYPE=\"PERSON\">Beadle Brothers</ENAMEX> worth\nline to a stake at <ENAMEX TYPE=\"COREF\">their</ENAMEX> northwest corner in the center\nof a roadway about <NUMEX TYPE=\"QUANTITY\">two hundred and ten ( 210)</NUMEX> feet,\nt Thence North <NUMEX TYPE=\"QUANTITY\">20th</NUMEX> degrees east along the center of said\nroadway <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to a stake.\nThence easterly to the place of beginning, containing\n<NUMEX TYPE=\"QUANTITY\">about a half</NUMEX> an acre of land, be the same more or less:\n1 8\nExcepting thereout all that portion there of that lies\nwest of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX> feet west of and parallel\nto highwater mark on the share of said Lake.\n<ENAMEX TYPE=\"PERSON\">Alice</ENAMEX>\nAll that other tract or parcel of land lying in said\ntown on the west share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX> and bounded\nand described as follows.\nBeing <NUMEX TYPE=\"QUANTITY\">forty seven ( 47)</NUMEX> feet in width off from the northerly side of tract or parcel of land conveyed by <ENAMEX TYPE=\"PERSON\">Russell R.</ENAMEX>\n✓ <ENAMEX TYPE=\"PERSON\">R.</ENAMEX>\nfacques, to said <ENAMEX TYPE=\"PERSON\">William W. Beadle</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Thomas S. Beadle</ENAMEX>,\nand <ENAMEX TYPE=\"PERSON\">George Beadle</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">August 12. 1879</TIMEX>,\ndescribed as follows: viz:-\nBeginning at a stake and stones on the west share of\n<ENAMEX TYPE=\"LOCALE.notgpe\">H Anback Lake</ENAMEX> at the Northeast corner of a Lot deeded by\nsaid <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">brothers</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Roscoe B. Ashley</ENAMEX>, and running\nthence North <NUMEX TYPE=\"QUANTITY\">142</NUMEX> degrees east <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the share of said Lake to a stake.\n⌨ ⌨ Thence, north <NUMEX TYPE=\"QUANTITY\">75 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">25</NUMEX> links\nto a stake and stones in the center of a roadway.\nThence South <NUMEX TYPE=\"QUANTITY\">14 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the center of said road to the center of a Carine ⌨ ⌨ \nor gally. Thence eastwardly along the center of said fully\nto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">about 5/100</NUMEX> of and\nacre of land be the same more or less.\nExcepting therefrom\nso much of said land as lies west of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX>\nfeet west of and parallel to high water mark on the west\nshare of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX>.\nLot\nat <TIMEX TYPE=\"TIME\">4 th clock A. M.</TIMEX>\n333 -\n⌨\nDow⌨ and 2 2 0\n---\\+\nTogether with the appurtenances and all the estate and rights of the parties of the first part has roused\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nTO HAVE AND TO HOLD the above granted premises unto the said party of the second part\ndoes covenant\nAND the said <ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\nwith the said party of the second part as follows:\nFIRST -- That the parties of the first part, <ENAMEX TYPE=\"EVENT.rel\">died</ENAMEX> of the said premises in fee simple, and have good right to convey the same\nSECOND -- That the party of the second part shall quietly enjoy the said premises.\nTHIRD -- That the said premises are free from encumbrances.\nFOURTH -- That the parties of the first part well execute or procure any further necessary assurance of the title to said premises\nFIFTH -- That the said <ENAMEX TYPE=\"PERSON\">Clifford B Johnson</ENAMEX> will forever warrant the tide the said premise\n<ENAMEX TYPE=\"LOCALE\">Tn</ENAMEX> onitness athereof, the said parties of the first part have <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\n( L.S)\nIN PRESENCE OF\n[ L.S.]\nas <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX>, & Individually.\n<ENAMEX TYPE=\"PERSON\">Sarah A. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">COUNTY OF Monize</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">City of Rochester</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">8\nday of\n⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨ford Johnson before me,\nnineteen hundred and one</TIMEX>\nindividually & as <ENAMEX TYPE=\"OCCUPATION\">Ex.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Sarah A.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nknown and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX>\nand <ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\nseveralty\nto be the individual's described in and the executed the foregoing instrument, and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that\nbeney executed the same. <ENAMEX TYPE=\"PERSON\">L.J. King</ENAMEX> ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Monroe</ENAMEX> of the\n<ENAMEX TYPE=\"LOCALE\">Monroe County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Verkes Folice</ENAMEX> ⎬ County ⌨⌨⌨⌨⌨⌨ of <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nRock\nof the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX>, Hath being Courts of having a\nCommon seal To Certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX>, <ENAMEX TYPE=\"PERSON\">L.F. Kirk</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> ⌨⌨⌨⌨⌨ at the date\nacknowledgment of the of the certificate of proof or\nInstrument in writing a <ENAMEX TYPE=\"OCCUPATION\">commissioner of Deeds</ENAMEX> in and for said\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nCity duly authorized to take the same.\n& verily believe that the signature to said\nor ith <ENAMEX TYPE=\"COREF\">his</ENAMEX> handwriting and\n, and that the annexed instrument is execute\ncertificate is \" according to the laws of <ENAMEX TYPE=\"COREF.loc\">this State</ENAMEX>.\nand acknowledged\nIn Testimony of thereof. <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and ed the seal of said ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ the day of <TIMEX TYPE=\"DATE\">July A.D. 1911</TIMEX> Seal. <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\nwith the original, this\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"4617\"_ENDID=\"4631\"_STTOKEN=\"Monroe\"_ENDTOKEN=\"Monroe County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1404\"_ENDID=\"1265\"_STTOKEN=\"Beadle Brothers\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"150\"_ENDID=\"929\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2231\"_ENDID=\"1295\"_STTOKEN=\"August 12. 1879\"_ENDTOKEN=\"August 12, 1879\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"234\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3062\"_ENDID=\"1973\"_STTOKEN=\"Hemlock Lake\"_ENDTOKEN=\"Hemlock Lake\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3375\"_ENDID=\"377\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3868\"_ENDID=\"3375\"_STTOKEN=\"Clifford B Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4052\"_ENDID=\"3375\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4052\"_ENDID=\"3868\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4131\"_ENDID=\"292\"_STTOKEN=\"Sarah A. Johnson\"_ENDTOKEN=\"Sarah\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4182\"_ENDID=\"929\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4218\"_ENDID=\"515\"_STTOKEN=\"City of Rochester\"_ENDTOKEN=\"City of Rochester\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4334\"_ENDID=\"4131\"_STTOKEN=\"Sarah A.\"_ENDTOKEN=\"Sarah A. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4343\"_ENDID=\"3375\"_STTOKEN=\"his\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4378\"_ENDID=\"4157\"_STTOKEN=\"Mary E. Johnson\"_ENDTOKEN=\"Mary E. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4523\"_ENDID=\"4371\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4598\"_ENDID=\"929\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4775\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4931\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5042\"_ENDID=\"3375\"_STTOKEN=\"his\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5203\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5223\"_ENDID=\"4371\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"694\"_ENDID=\"160\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"S=1\"_STID=\"462\"_ENDID=\"462\"_STTOKEN=\"Calvin, Johnson\"_ENDTOKEN=\"Calvin, Johnson\">\n<RELEX TYPE=\"S=1+\"_STID=\"1265\"_ENDID=\"1265\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"S=1+\"_STID=\"1404\"_ENDID=\"1404\"_STTOKEN=\"Beadle Brothers\"_ENDTOKEN=\"Beadle Brothers\">\n<RELEX TYPE=\"S=1+\"_STID=\"2391\"_ENDID=\"2391\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"S=1+\"_STID=\"408\"_ENDID=\"408\"_STTOKEN=\"Johnson\"_ENDTOKEN=\"Johnson\">\n<RELEX TYPE=\"S=2+\"_STID=\"2203\"_ENDID=\"2203\"_STTOKEN=\"George Beadle\"_ENDTOKEN=\"George Beadle\">\n<RELEX TYPE=\"S=2+\"_STID=\"292\"_ENDID=\"312\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Mary Johnson\">\n<RELEX TYPE=\"S=2+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"Mary Johnson\"_ENDTOKEN=\"Mary Johnson\">\n<RELEX TYPE=\"S=2+\"_STID=\"4556\"_ENDID=\"4556\"_STTOKEN=\"L.J. King\"_ENDTOKEN=\"L.J. King\">\n<RELEX TYPE=\"S=2+\"_STID=\"4778\"_ENDID=\"4778\"_STTOKEN=\"L.F. Kirk\"_ENDTOKEN=\"L.F. Kirk\">\n<RELEX TYPE=\"S=3+\"_STID=\"1243\"_ENDID=\"1243\"_STTOKEN=\"Russell R. Jacques\"_ENDTOKEN=\"Russell R. Jacques\">\n<RELEX TYPE=\"S=3+\"_STID=\"2162\"_ENDID=\"2162\"_STTOKEN=\"William W. Beadle\"_ENDTOKEN=\"William W. Beadle\">\n<RELEX TYPE=\"S=3+\"_STID=\"2181\"_ENDID=\"2181\"_STTOKEN=\"Thomas S. Beadle\"_ENDTOKEN=\"Thomas S. Beadle\">\n<RELEX TYPE=\"S=3+\"_STID=\"2410\"_ENDID=\"2410\"_STTOKEN=\"Roscoe B. Ashley\"_ENDTOKEN=\"Roscoe B. Ashley\">\n<RELEX TYPE=\"S=3+\"_STID=\"3375\"_ENDID=\"3375\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"3868\"_ENDID=\"3868\"_STTOKEN=\"Clifford B Johnson\"_ENDTOKEN=\"Clifford B Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4052\"_ENDID=\"4052\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4131\"_ENDID=\"4131\"_STTOKEN=\"Sarah A. Johnson\"_ENDTOKEN=\"Sarah A. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4157\"_ENDID=\"4157\"_STTOKEN=\"Mary E. Johnson\"_ENDTOKEN=\"Mary E. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4378\"_ENDID=\"4378\"_STTOKEN=\"Mary E. Johnson\"_ENDTOKEN=\"Mary E. Johnson\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2410\"_ENDID=\"2398\"_STTOKEN=\"Roscoe B. Ashley\"_ENDTOKEN=\"brothers\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"298\"_ENDID=\"302\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"298\"_ENDID=\"325\"_STTOKEN=\"his\"_ENDTOKEN=\"widow\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"334\"_ENDID=\"325\"_STTOKEN=\"Catrin\"_ENDTOKEN=\"widow\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4343\"_ENDID=\"4347\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"298\"_ENDID=\"435\"_STTOKEN=\"his\"_ENDTOKEN=\"Last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"342\"_STTOKEN=\"Catrin\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3375\"_ENDID=\"241\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3375\"_ENDID=\"3491\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"died\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3375\"_ENDID=\"435\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"462\"_ENDID=\"478\"_STTOKEN=\"Calvin, Johnson\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"4131\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Sarah A. Johnson\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"1404\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Beadle Brothers\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"2391\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"3375\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"292\"_ENDID=\"292\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Sarah\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"1265\"_ENDID=\"1272\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"Brothers\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2391\"_ENDID=\"2398\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"brothers\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"292\"_ENDID=\"302\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"312\"_ENDID=\"325\"_STTOKEN=\"Mary Johnson\"_ENDTOKEN=\"widow\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"4334\"_ENDID=\"4347\"_STTOKEN=\"Sarah A.\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"150\"_STTOKEN=\"Livingston\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"150\"_ENDID=\"160\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"4778\"_ENDID=\"4788\"_STTOKEN=\"L.F. Kirk\"_ENDTOKEN=\"Esq.\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007137690_00225_TXT</UNQ>\n<IMID>007137690_00225</IMID>\n<APID>TH-1951-32680-14420-92</APID>\n<IMGSIZE>4943,3710</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Livingston</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 2 0\nLIBER 185.\nDEED with Full Covenants -- <ENAMEX TYPE=\"COREF\">I</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the ⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> and\nin the ver-\n<ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">Mary Johnson</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">widow</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Catrin</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, all of <ENAMEX TYPE=\"LOCALE\">Rochester Jr.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clifford</ENAMEX> of the first part and <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> as <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Calvin, Johnson</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, of the first part, and the <ENAMEX TYPE=\"LOCALE\">City of\nRochester</ENAMEX>, a <ENAMEX TYPE=\"ORGANIZATION\">Municipal Corporation</ENAMEX>\nof the second part\nThitnesseth, That the said parties of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One\nDollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the party of the second part, do hereby grant and release unto the said party of the\nsecond part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"LOCALE\">Il</ENAMEX> that Tract of <ENAMEX TYPE=\"PERSON\">Marcel</ENAMEX> of Land situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Livonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Livingston</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being part of Lot No. 66 in the original survey\nand bounded and described as follows.\nBeginning at a point on the West share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hombock\nLake</ENAMEX>, at highwater mark a little South of a black\n<ENAMEX TYPE=\"FLORA\">walnut</ENAMEX> tree, and running thence south along the\nshare of said bake <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to the corner of a Lot\ndeeded by <ENAMEX TYPE=\"PERSON\">Russell R. Jacques</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">Brothers</ENAMEX> by\ndeed dated <TIMEX TYPE=\"DATE\">August 12, 1879</TIMEX> and recorded in <ENAMEX TYPE=\"LOCALE\">Livingston\nCounty</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Lib. 1100 of Deeds</ENAMEX> page 443.\nThence westerly along said <ENAMEX TYPE=\"PERSON\">Beadle Brothers</ENAMEX> worth\nline to a stake at <ENAMEX TYPE=\"COREF\">their</ENAMEX> northwest corner in the center\nof a roadway about <NUMEX TYPE=\"QUANTITY\">two hundred and ten ( 210)</NUMEX> feet,\nt Thence North <NUMEX TYPE=\"QUANTITY\">20th</NUMEX> degrees east along the center of said\nroadway <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to a stake.\nThence easterly to the place of beginning, containing\n<NUMEX TYPE=\"QUANTITY\">about a half</NUMEX> an acre of land, be the same more or less:\n1 8\nExcepting thereout all that portion there of that lies\nwest of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX> feet west of and parallel\nto highwater mark on the share of said Lake.\n<ENAMEX TYPE=\"PERSON\">Alice</ENAMEX>\nAll that other tract or parcel of land lying in said\ntown on the west share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX> and bounded\nand described as follows.\nBeing <NUMEX TYPE=\"QUANTITY\">forty seven ( 47)</NUMEX> feet in width off from the northerly side of tract or parcel of land conveyed by <ENAMEX TYPE=\"PERSON\">Russell R.</ENAMEX>\n✓ <ENAMEX TYPE=\"PERSON\">R.</ENAMEX>\nfacques, to said <ENAMEX TYPE=\"PERSON\">William W. Beadle</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Thomas S. Beadle</ENAMEX>,\nand <ENAMEX TYPE=\"PERSON\">George Beadle</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">August 12. 1879</TIMEX>,\ndescribed as follows: viz:-\nBeginning at a stake and stones on the west share of\n<ENAMEX TYPE=\"LOCALE.notgpe\">H Anback Lake</ENAMEX> at the Northeast corner of a Lot deeded by\nsaid <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">brothers</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Roscoe B. Ashley</ENAMEX>, and running\nthence North <NUMEX TYPE=\"QUANTITY\">142</NUMEX> degrees east <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the share of said Lake to a stake.\n⌨ ⌨ Thence, north <NUMEX TYPE=\"QUANTITY\">75 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">25</NUMEX> links\nto a stake and stones in the center of a roadway.\nThence South <NUMEX TYPE=\"QUANTITY\">14 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the center of said road to the center of a Carine ⌨ ⌨ \nor gally. Thence eastwardly along the center of said fully\nto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">about 5/100</NUMEX> of and\nacre of land be the same more or less.\nExcepting therefrom\nso much of said land as lies west of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX>\nfeet west of and parallel to high water mark on the west\nshare of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX>.\nLot\nat <TIMEX TYPE=\"TIME\">4 th clock A. M.</TIMEX>\n333 -\n⌨\nDow⌨ and 2 2 0\n---\\+\nTogether with the appurtenances and all the estate and rights of the parties of the first part has roused\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nTO HAVE AND TO HOLD the above granted premises unto the said party of the second part\ndoes covenant\nAND the said <ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\nwith the said party of the second part as follows:\nFIRST -- That the parties of the first part, <ENAMEX TYPE=\"EVENT.rel\">died</ENAMEX> of the said premises in fee simple, and have good right to convey the same\nSECOND -- That the party of the second part shall quietly enjoy the said premises.\nTHIRD -- That the said premises are free from encumbrances.\nFOURTH -- That the parties of the first part well execute or procure any further necessary assurance of the title to said premises\nFIFTH -- That the said <ENAMEX TYPE=\"PERSON\">Clifford B Johnson</ENAMEX> will forever warrant the tide the said premise\n<ENAMEX TYPE=\"LOCALE\">Tn</ENAMEX> onitness athereof, the said parties of the first part have <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\n( L.S)\nIN PRESENCE OF\n[ L.S.]\nas <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX>, & Individually.\n<ENAMEX TYPE=\"PERSON\">Sarah A. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">COUNTY OF Monize</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">City of Rochester</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">8\nday of\n⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨ford Johnson before me,\nnineteen hundred and one</TIMEX>\nindividually & as <ENAMEX TYPE=\"OCCUPATION\">Ex.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Sarah A.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nknown and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX>\nand <ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\nseveralty\nto be the individual's described in and the executed the foregoing instrument, and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that\nbeney executed the same. <ENAMEX TYPE=\"PERSON\">L.J. King</ENAMEX> ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Monroe</ENAMEX> of the\n<ENAMEX TYPE=\"LOCALE\">Monroe County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Verkes Folice</ENAMEX> ⎬ County ⌨⌨⌨⌨⌨⌨ of <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nRock\nof the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX>, Hath being Courts of having a\nCommon seal To Certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX>, <ENAMEX TYPE=\"PERSON\">L.F. Kirk</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> ⌨⌨⌨⌨⌨ at the date\nacknowledgment of the of the certificate of proof or\nInstrument in writing a <ENAMEX TYPE=\"OCCUPATION\">commissioner of Deeds</ENAMEX> in and for said\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nCity duly authorized to take the same.\n& verily believe that the signature to said\nor ith <ENAMEX TYPE=\"COREF\">his</ENAMEX> handwriting and\n, and that the annexed instrument is execute\ncertificate is \" according to the laws of <ENAMEX TYPE=\"COREF.loc\">this State</ENAMEX>.\nand acknowledged\nIn Testimony of thereof. <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and ed the seal of said ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ the day of <TIMEX TYPE=\"DATE\">July A.D. 1911</TIMEX> Seal. <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\nwith the original, this\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"4617\"_ENDID=\"4631\"_STTOKEN=\"Monroe\"_ENDTOKEN=\"Monroe County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1404\"_ENDID=\"1265\"_STTOKEN=\"Beadle Brothers\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"150\"_ENDID=\"929\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2231\"_ENDID=\"1295\"_STTOKEN=\"August 12. 1879\"_ENDTOKEN=\"August 12, 1879\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"234\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3062\"_ENDID=\"1973\"_STTOKEN=\"Hemlock Lake\"_ENDTOKEN=\"Hemlock Lake\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3375\"_ENDID=\"377\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3868\"_ENDID=\"3375\"_STTOKEN=\"Clifford B Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4052\"_ENDID=\"3375\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4052\"_ENDID=\"3868\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4131\"_ENDID=\"292\"_STTOKEN=\"Sarah A. Johnson\"_ENDTOKEN=\"Sarah\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4182\"_ENDID=\"929\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4218\"_ENDID=\"515\"_STTOKEN=\"City of Rochester\"_ENDTOKEN=\"City of Rochester\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4334\"_ENDID=\"4131\"_STTOKEN=\"Sarah A.\"_ENDTOKEN=\"Sarah A. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4343\"_ENDID=\"3375\"_STTOKEN=\"his\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4378\"_ENDID=\"4157\"_STTOKEN=\"Mary E. Johnson\"_ENDTOKEN=\"Mary E. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4523\"_ENDID=\"4371\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4598\"_ENDID=\"929\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4775\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4931\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5042\"_ENDID=\"3375\"_STTOKEN=\"his\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5203\"_ENDID=\"4371\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5223\"_ENDID=\"4371\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"694\"_ENDID=\"160\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"S=1\"_STID=\"462\"_ENDID=\"462\"_STTOKEN=\"Calvin, Johnson\"_ENDTOKEN=\"Calvin, Johnson\">\n<RELEX TYPE=\"S=1+\"_STID=\"1265\"_ENDID=\"1265\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"S=1+\"_STID=\"1404\"_ENDID=\"1404\"_STTOKEN=\"Beadle Brothers\"_ENDTOKEN=\"Beadle Brothers\">\n<RELEX TYPE=\"S=1+\"_STID=\"2391\"_ENDID=\"2391\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"Beadle\">\n<RELEX TYPE=\"S=1+\"_STID=\"408\"_ENDID=\"408\"_STTOKEN=\"Johnson\"_ENDTOKEN=\"Johnson\">\n<RELEX TYPE=\"S=2+\"_STID=\"2203\"_ENDID=\"2203\"_STTOKEN=\"George Beadle\"_ENDTOKEN=\"George Beadle\">\n<RELEX TYPE=\"S=2+\"_STID=\"292\"_ENDID=\"312\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Mary Johnson\">\n<RELEX TYPE=\"S=2+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"Mary Johnson\"_ENDTOKEN=\"Mary Johnson\">\n<RELEX TYPE=\"S=2+\"_STID=\"4556\"_ENDID=\"4556\"_STTOKEN=\"L.J. King\"_ENDTOKEN=\"L.J. King\">\n<RELEX TYPE=\"S=2+\"_STID=\"4778\"_ENDID=\"4778\"_STTOKEN=\"L.F. Kirk\"_ENDTOKEN=\"L.F. Kirk\">\n<RELEX TYPE=\"S=3+\"_STID=\"1243\"_ENDID=\"1243\"_STTOKEN=\"Russell R. Jacques\"_ENDTOKEN=\"Russell R. Jacques\">\n<RELEX TYPE=\"S=3+\"_STID=\"2162\"_ENDID=\"2162\"_STTOKEN=\"William W. Beadle\"_ENDTOKEN=\"William W. Beadle\">\n<RELEX TYPE=\"S=3+\"_STID=\"2181\"_ENDID=\"2181\"_STTOKEN=\"Thomas S. Beadle\"_ENDTOKEN=\"Thomas S. Beadle\">\n<RELEX TYPE=\"S=3+\"_STID=\"2410\"_ENDID=\"2410\"_STTOKEN=\"Roscoe B. Ashley\"_ENDTOKEN=\"Roscoe B. Ashley\">\n<RELEX TYPE=\"S=3+\"_STID=\"3375\"_ENDID=\"3375\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"3868\"_ENDID=\"3868\"_STTOKEN=\"Clifford B Johnson\"_ENDTOKEN=\"Clifford B Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4052\"_ENDID=\"4052\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"Clifford B. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4131\"_ENDID=\"4131\"_STTOKEN=\"Sarah A. Johnson\"_ENDTOKEN=\"Sarah A. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4157\"_ENDID=\"4157\"_STTOKEN=\"Mary E. Johnson\"_ENDTOKEN=\"Mary E. Johnson\">\n<RELEX TYPE=\"S=3+\"_STID=\"4378\"_ENDID=\"4378\"_STTOKEN=\"Mary E. Johnson\"_ENDTOKEN=\"Mary E. Johnson\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"298\"_ENDID=\"302\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"298\"_ENDID=\"325\"_STTOKEN=\"his\"_ENDTOKEN=\"widow\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"334\"_ENDID=\"325\"_STTOKEN=\"Catrin\"_ENDTOKEN=\"widow\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4343\"_ENDID=\"4347\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"298\"_ENDID=\"435\"_STTOKEN=\"his\"_ENDTOKEN=\"Last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3375\"_ENDID=\"3491\"_STTOKEN=\"Clifford B. Johnson\"_ENDTOKEN=\"died\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"462\"_ENDID=\"478\"_STTOKEN=\"Calvin, Johnson\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"292\"_ENDID=\"292\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Sarah\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"1265\"_ENDID=\"1272\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"Brothers\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2391\"_ENDID=\"2398\"_STTOKEN=\"Beadle\"_ENDTOKEN=\"brothers\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"292\"_ENDID=\"302\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"312\"_ENDID=\"325\"_STTOKEN=\"Mary Johnson\"_ENDTOKEN=\"widow\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"4334\"_ENDID=\"4347\"_STTOKEN=\"Sarah A.\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"150\"_ENDID=\"160\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"4778\"_ENDID=\"4788\"_STTOKEN=\"L.F. Kirk\"_ENDTOKEN=\"Esq.\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007137690_00225_TXT</UNQ>\n<IMID>007137690_00225</IMID>\n<APID>TH-1951-32680-14420-92</APID>\n<IMGSIZE>4943,3710</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Livingston</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 2 0\nLIBER 185.\nDEED with Full Covenants -- <ENAMEX TYPE=\"COREF\">I</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the ⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> and\nin the ver-\n<ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">Mary Johnson</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">widow</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Catrin</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, all of <ENAMEX TYPE=\"LOCALE\">Rochester Jr.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clifford</ENAMEX> of the first part and <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> as <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Calvin, Johnson</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, of the first part, and the <ENAMEX TYPE=\"LOCALE\">City of\nRochester</ENAMEX>, a <ENAMEX TYPE=\"ORGANIZATION\">Municipal Corporation</ENAMEX>\nof the second part\nThitnesseth, That the said parties of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One\nDollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the party of the second part, do hereby grant and release unto the said party of the\nsecond part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"LOCALE\">Il</ENAMEX> that Tract of <ENAMEX TYPE=\"PERSON\">Marcel</ENAMEX> of Land situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Livonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Livingston</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being part of Lot No. 66 in the original survey\nand bounded and described as follows.\nBeginning at a point on the West share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hombock\nLake</ENAMEX>, at highwater mark a little South of a black\n<ENAMEX TYPE=\"FLORA\">walnut</ENAMEX> tree, and running thence south along the\nshare of said bake <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to the corner of a Lot\ndeeded by <ENAMEX TYPE=\"PERSON\">Russell R. Jacques</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">Brothers</ENAMEX> by\ndeed dated <TIMEX TYPE=\"DATE\">August 12, 1879</TIMEX> and recorded in <ENAMEX TYPE=\"LOCALE\">Livingston\nCounty</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Lib. 1100 of Deeds</ENAMEX> page 443.\nThence westerly along said <ENAMEX TYPE=\"PERSON\">Beadle Brothers</ENAMEX> worth\nline to a stake at <ENAMEX TYPE=\"COREF\">their</ENAMEX> northwest corner in the center\nof a roadway about <NUMEX TYPE=\"QUANTITY\">two hundred and ten ( 210)</NUMEX> feet,\nt Thence North <NUMEX TYPE=\"QUANTITY\">20th</NUMEX> degrees east along the center of said\nroadway <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to a stake.\nThence easterly to the place of beginning, containing\n<NUMEX TYPE=\"QUANTITY\">about a half</NUMEX> an acre of land, be the same more or less:\n1 8\nExcepting thereout all that portion there of that lies\nwest of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX> feet west of and parallel\nto highwater mark on the share of said Lake.\n<ENAMEX TYPE=\"PERSON\">Alice</ENAMEX>\nAll that other tract or parcel of land lying in said\ntown on the west share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX> and bounded\nand described as follows.\nBeing <NUMEX TYPE=\"QUANTITY\">forty seven ( 47)</NUMEX> feet in width off from the northerly side of tract or parcel of land conveyed by <ENAMEX TYPE=\"PERSON\">Russell R.</ENAMEX>\n✓ <ENAMEX TYPE=\"PERSON\">R.</ENAMEX>\nfacques, to said <ENAMEX TYPE=\"PERSON\">William W. Beadle</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Thomas S. Beadle</ENAMEX>,\nand <ENAMEX TYPE=\"PERSON\">George Beadle</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">August 12. 1879</TIMEX>,\ndescribed as follows: viz:-\nBeginning at a stake and stones on the west share of\n<ENAMEX TYPE=\"LOCALE.notgpe\">H Anback Lake</ENAMEX> at the Northeast corner of a Lot deeded by\nsaid <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">brothers</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Roscoe B. Ashley</ENAMEX>, and running\nthence North <NUMEX TYPE=\"QUANTITY\">142</NUMEX> degrees east <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the share of said Lake to a stake.\n⌨ ⌨ Thence, north <NUMEX TYPE=\"QUANTITY\">75 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">25</NUMEX> links\nto a stake and stones in the center of a roadway.\nThence South <NUMEX TYPE=\"QUANTITY\">14 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the center of said road to the center of a Carine ⌨ ⌨ \nor gally. Thence eastwardly along the center of said fully\nto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">about 5/100</NUMEX> of and\nacre of land be the same more or less.\nExcepting therefrom\nso much of said land as lies west of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX>\nfeet west of and parallel to high water mark on the west\nshare of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX>.\nLot\nat <TIMEX TYPE=\"TIME\">4 th clock A. M.</TIMEX>\n333 -\n⌨\nDow⌨ and 2 2 0\n---\\+\nTogether with the appurtenances and all the estate and rights of the parties of the first part has roused\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nTO HAVE AND TO HOLD the above granted premises unto the said party of the second part\ndoes covenant\nAND the said <ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\nwith the said party of the second part as follows:\nFIRST -- That the parties of the first part, <ENAMEX TYPE=\"EVENT.rel\">died</ENAMEX> of the said premises in fee simple, and have good right to convey the same\nSECOND -- That the party of the second part shall quietly enjoy the said premises.\nTHIRD -- That the said premises are free from encumbrances.\nFOURTH -- That the parties of the first part well execute or procure any further necessary assurance of the title to said premises\nFIFTH -- That the said <ENAMEX TYPE=\"PERSON\">Clifford B Johnson</ENAMEX> will forever warrant the tide the said premise\n<ENAMEX TYPE=\"LOCALE\">Tn</ENAMEX> onitness athereof, the said parties of the first part have <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\n( L.S)\nIN PRESENCE OF\n[ L.S.]\nas <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX>, & Individually.\n<ENAMEX TYPE=\"PERSON\">Sarah A. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">COUNTY OF Monize</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">City of Rochester</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">8\nday of\n⌨⌨</TIMEX><TIMEX TYPE=\"DATE\">⌨⌨ford Johnson before me,\nnineteen hundred and one</TIMEX>\nindividually & as <ENAMEX TYPE=\"OCCUPATION\">Ex.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Sarah A.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nknown and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX>\nand <ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\nseveralty\nto be the individual's described in and the executed the foregoing instrument, and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that\nbeney executed the same. <ENAMEX TYPE=\"PERSON\">L.J. King</ENAMEX> ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Monroe</ENAMEX> of the\n<ENAMEX TYPE=\"LOCALE\">Monroe County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Verkes Folice</ENAMEX> ⎬ County ⌨⌨⌨⌨⌨⌨ of <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nRock\nof the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX>, Hath being Courts of having a\nCommon seal To Certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX>, <ENAMEX TYPE=\"PERSON\">L.F. Kirk</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> ⌨⌨⌨⌨⌨ at the date\nacknowledgment of the of the certificate of proof or\nInstrument in writing a <ENAMEX TYPE=\"OCCUPATION\">commissioner of Deeds</ENAMEX> in and for said\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nCity duly authorized to take the same.\n& verily believe that the signature to said\nor ith <ENAMEX TYPE=\"COREF\">his</ENAMEX> handwriting and\n, and that the annexed instrument is execute\ncertificate is \" according to the laws of <ENAMEX TYPE=\"COREF.loc\">this State</ENAMEX>.\nand acknowledged\nIn Testimony of thereof. <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and ed the seal of said ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ the day of <TIMEX TYPE=\"DATE\">July A.D. 1911</TIMEX> Seal. <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\nwith the original, this\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007137690_00225_TXT</UNQ>\n<IMID>007137690_00225</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1951</TIMEX>-32680-14420<TIMEX TYPE=\"DATE\">-92</TIMEX></APID>\n<IMGSIZE>4943,3710</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Livingston</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 2 0\nLIBER 185.\nDEED with Full Covenants -- <ENAMEX TYPE=\"COREF\">I</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the ⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> and\nin the ver-\n<ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and <ENAMEX TYPE=\"PERSON\">Mary Johnson</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">widow</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Catrin</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, all of <ENAMEX TYPE=\"LOCALE\">Rochester Jr.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Clifford</ENAMEX> of the first part and <ENAMEX TYPE=\"PERSON\">Johnson</ENAMEX> as <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Calvin, Johnson</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>, of the first part, and the <ENAMEX TYPE=\"LOCALE\">City of\nRochester</ENAMEX>, a <ENAMEX TYPE=\"ORGANIZATION\">Municipal Corporation</ENAMEX>\nof the second part\nThitnesseth, That the said parties of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One\nDollars</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the party of the second part, do hereby grant and release unto the said party of the\nsecond part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"LOCALE\">Il</ENAMEX> that Tract of <ENAMEX TYPE=\"PERSON\">Marcel</ENAMEX> of Land situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Livonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Livingston</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being part of Lot No. 66 in the original survey\nand bounded and described as follows.\nBeginning at a point on the West share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hombock\nLake</ENAMEX>, at highwater mark a little South of a black\n<ENAMEX TYPE=\"FLORA\">walnut</ENAMEX> tree, and running thence south along the\nshare of said bake <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to the corner of a Lot\ndeeded by <ENAMEX TYPE=\"PERSON\">Russell R. Jacques</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> Brothers by\ndeed dated <TIMEX TYPE=\"DATE\">August 12, 1879</TIMEX> and recorded in <ENAMEX TYPE=\"LOCALE\">Livingston\nCounty</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Lib. 1100 of Deeds</ENAMEX> page 443.\nThence westerly along said <ENAMEX TYPE=\"PERSON\">Beadle Brothers</ENAMEX> worth\nline to a stake at <ENAMEX TYPE=\"COREF\">their</ENAMEX> northwest corner in the center\nof a roadway about <NUMEX TYPE=\"QUANTITY\">two hundred and ten ( 210)</NUMEX> feet,\nt Thence North <NUMEX TYPE=\"QUANTITY\">20th</NUMEX> degrees east along the center of said\nroadway <NUMEX TYPE=\"QUANTITY\">100</NUMEX> feet to a stake.\nThence easterly to the place of beginning, containing\n<NUMEX TYPE=\"QUANTITY\">about a half</NUMEX> an acre of land, be the same more or less:\n1 8\nExcepting thereout all that portion there of that lies\nwest of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX> feet west of and parallel\nto highwater mark on the share of said Lake.\n<ENAMEX TYPE=\"PERSON\">Alice</ENAMEX>\nAll that other tract or parcel of land lying in said\ntown on the west share of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX> and bounded\nand described as follows.\nBeing <NUMEX TYPE=\"QUANTITY\">forty seven ( 47)</NUMEX> feet in width off from the northerly side of tract or parcel of land conveyed by <ENAMEX TYPE=\"PERSON\">Russell R.</ENAMEX>\n✓ <ENAMEX TYPE=\"PERSON\">R.\nfacques</ENAMEX>, to said <ENAMEX TYPE=\"PERSON\">William W. Beadle</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Thomas S. Beadle</ENAMEX>,\nand <ENAMEX TYPE=\"PERSON\">George Beadle</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">August 12. 1879</TIMEX>,\ndescribed as follows: viz:-\nBeginning at a stake and stones on the west share of\n<ENAMEX TYPE=\"LOCALE.notgpe\">H Anback Lake</ENAMEX> at the Northeast corner of a Lot deeded by\nsaid <ENAMEX TYPE=\"PERSON\">Beadle</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">brothers</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Roscoe B. Ashley</ENAMEX>, and running\nthence North <NUMEX TYPE=\"QUANTITY\">142</NUMEX> degrees east <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the share of said Lake to a stake.\n⌨ ⌨ Thence, north <NUMEX TYPE=\"QUANTITY\">75 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">25</NUMEX> links\nto a stake and stones in the center of a roadway.\nThence South <NUMEX TYPE=\"QUANTITY\">14 ½</NUMEX> degrees west <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">63 ½</NUMEX> links\nalong the center of said road to the center of a Carine ⌨ ⌨ \nor gally. Thence eastwardly along the center of said fully\nto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">about 5/100</NUMEX> of and\nacre of land be the same more or less.\nExcepting therefrom\nso much of said land as lies west of a line <NUMEX TYPE=\"QUANTITY\">two hundred</NUMEX>\nfeet west of and parallel to high water mark on the west\nshare of <ENAMEX TYPE=\"LOCALE.notgpe\">Hemlock Lake</ENAMEX>.\nLot\nat <TIMEX TYPE=\"TIME\">4 th clock A. M.</TIMEX>\n333 -\n⌨\nDow⌨ and 2 2 0\n---\\+\nTogether with the appurtenances and all the estate and rights of the parties of the first part has roused\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nTO HAVE AND TO HOLD the above granted premises unto the said party of the second part\ndoes covenant\nAND the said <ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\nwith the said party of the second part as follows:\nFIRST -- That the parties of the first part, <ENAMEX TYPE=\"EVENT.rel\">died</ENAMEX> of the said premises in fee simple, and have good right to convey the same\nSECOND -- That the party of the second part shall quietly enjoy the said premises.\nTHIRD -- That the said premises are free from encumbrances.\nFOURTH -- That the parties of the first part well execute or procure any further necessary assurance of the title to said premises\nFIFTH -- That the said <ENAMEX TYPE=\"PERSON\">Clifford B Johnson</ENAMEX> will forever warrant the tide the said premise\n<ENAMEX TYPE=\"LOCALE\">Tn</ENAMEX> onitness athereof, the said parties of the first part have <ENAMEX TYPE=\"COREF\">her</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year\nfirst above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">Clifford B. Johnson</ENAMEX>\n( L.S)\nIN PRESENCE OF\n[ L.S.]\nas <ENAMEX TYPE=\"NONFAMILY\">Executor</ENAMEX>, & Individually.\n<ENAMEX TYPE=\"PERSON\">Sarah A. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">COUNTY OF Monize</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">City of Rochester</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">8\nday of\n⌨⌨⌨⌨ford Johnson before me,\nnineteen hundred and one</TIMEX>\nindividually & as <ENAMEX TYPE=\"OCCUPATION\">Ex.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Sarah A.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nknown and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX>\nand <ENAMEX TYPE=\"PERSON\">Mary E. Johnson</ENAMEX>\nseveralty\nto be the individual's described in and the executed the foregoing instrument, and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that\nbeney executed the same. <ENAMEX TYPE=\"PERSON\">L.J. King</ENAMEX> ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Monroe</ENAMEX> of the\n<ENAMEX TYPE=\"LOCALE\">Monroe County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Verkes Folice</ENAMEX> ⎬ County ⌨⌨⌨⌨⌨⌨ of <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nRock\nof the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX>, Hath being Courts of having a\nCommon seal To Certify that <ENAMEX TYPE=\"COREF\">I</ENAMEX>, <ENAMEX TYPE=\"PERSON\">L.F. Kirk</ENAMEX> <ENAMEX TYPE=\"TITLE\">Esq.</ENAMEX> ⌨⌨⌨⌨⌨ at the date\nacknowledgment of the of the certificate of proof or\nInstrument in writing a <ENAMEX TYPE=\"OCCUPATION\">commissioner of Deeds</ENAMEX> in and for said\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nCity duly authorized to take the same.\n& verily believe that the signature to said\nor ith <ENAMEX TYPE=\"COREF\">his</ENAMEX> handwriting and\n, and that the annexed instrument is execute\ncertificate is \" according to the laws of <ENAMEX TYPE=\"COREF.loc\">this State</ENAMEX>.\nand acknowledged\nIn Testimony of thereof. <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and ed the seal of said ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ the day of <TIMEX TYPE=\"DATE\">July A.D. 1911</TIMEX> Seal. <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\nwith the original, this\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007137690_00225_TXT</UNQ>\n<IMID>007137690_00225</IMID>\n<APID>TH-1951-32680-14420-92</APID>\n<IMGSIZE>4943,3710</IMGSIZE>\n<PLACE>Livingston, New York, United States</PLACE>\n<SBODY>[356,215:534,266] 2 2 0\n[1366,289:1580,331] LIBER [1582,289:1697,331] 185.\n[582,339:679,360] DEED [674,339:737,360] with [731,339:792,360] Full [786,339:905,360] Covenants [896,339:926,360] -- [917,339:939,360] I\n[602,422:781,565] This [805,422:1167,565] Indenture, [1191,422:1274,565] Made [1278,422:1341,565] the [1355,422:1843,565] ⌨⌨⌨⌨⌨⌨ [1857,422:2201,565] Johnson [2215,422:2417,565] and\n[2323,474:2365,512] in [2360,474:2407,512] the [2403,474:2449,512] ver-\n[574,510:909,613] Sarah [918,510:1028,613] his [1037,510:1204,613] wife, [1245,510:1428,613] and [1437,510:1644,613] Mary [1677,510:2051,613] Johnson [2060,510:2347,613] widow [2348,510:2484,613] of\n[570,584:777,662] Catrin, [802,584:1088,662] deceased, [1137,584:1264,662] all [1265,584:1336,662] of [1353,584:1704,662] Rochester [1713,584:1832,662] Jr. [1937,584:2071,662] and [2080,584:2351,662] Clifford [579,632:618,712] of [619,632:674,712] the [675,632:738,712] first [739,632:802,712] part [803,632:866,712] and [867,632:1137,712] Johnson [1146,632:1225,712] as [1226,632:1505,712] Executor [1506,632:1577,712] of [1586,632:1681,712] the [1682,632:1849,712] Last [1850,632:2032,712] Will [2033,632:2168,712] and [2169,632:2522,712] Testament\n[546,696:609,795] of [610,696:825,795] Calvin, [874,696:1184,795] Johnson [1185,696:1480,795] deceased, [1545,696:1616,795] of [1617,696:1712,795] the [1713,696:1856,795] first [1857,696:2000,795] part, [2040,696:2207,795] and [2208,696:2303,795] the [2312,696:2399,795] City [2400,696:2530,795] of\n[564,750:922,818] Rochester, [947,750:1010,818] a [1019,750:1369,818] Municipal [1378,750:1816,818] Corporation\n[2238,784:2277,826] of [2267,784:2323,826] the [2320,784:2417,826] second [2408,784:2522,826] part\n[593,820:865,864] Thitnesseth, [880,820:957,864] That [954,820:1006,864] the [1003,820:1073,864] said [1070,820:1190,864] parties [1187,820:1226,864] of [1217,820:1275,864] the [1273,820:1343,864] first [1340,820:1410,864] part, [1413,820:1453,864] in [1450,820:1649,864] consideration [1646,820:1686,864] of [1683,820:1741,864] the [1738,820:1808,864] sum [1806,820:1900,864] of\n[1630,858:1837,913] One\n[2368,896:2530,938] Dollars\n[579,900:682,991] lawful [675,900:786,991] money [779,900:818,991] of [811,900:866,991] the [867,900:978,991] United [971,900:1073,991] States [1074,900:1137,991] paid [1138,900:1185,991] by [1178,900:1241,991] the [1242,900:1377,991] party [1378,900:1417,991] of [1418,900:1473,991] the [1466,900:1577,991] second [1570,900:1641,991] part, [1650,900:1737,991] do [1730,900:1849,991] hereby [1842,900:1929,991] grant [1930,900:1993,991] and [1986,900:2096,991] release [2097,900:2168,991] unto [2169,900:2224,991] the [2217,900:2288,991] said [2281,900:2392,991] party [2385,900:2424,991] of [2417,900:2522,991] the\n[583,993:687,1022] second [685,993:751,1022] part, [889,993:968,1022] heirs [966,993:1027,1022] and [1025,993:1138,1022] assigns [1132,993:1244,1022] forever,\n[591,1010:678,1092] Il [679,1010:782,1092] that [783,1010:918,1092] Tract [919,1010:974,1092] of [975,1010:1134,1092] Marcel [1135,1010:1198,1092] of [1199,1010:1334,1092] Land [1335,1010:1438,1092] situate [1439,1010:1478,1092] in [1471,1010:1526,1092] the [1526,1010:1725,1092] ⌨own [1726,1010:1781,1092] of [1790,1010:2181,1092] Livonia [2182,1010:2293,1092] County [2286,1010:2325,1092] of [2326,1010:2522,1092] Livingston\n[583,1075:646,1174] and [647,1075:726,1174] State [719,1075:766,1174] of [759,1075:830,1174] New [831,1075:902,1174] York, [943,1075:1149,1174] being [1158,1075:1333,1174] part [1334,1075:1405,1174] of [1414,1075:1541,1174] Lot [1558,1075:1645,1174] No. [1662,1075:1749,1174] 66 [1750,1075:1861,1174] in [1862,1075:1981,1174] the [1990,1075:2292,1174] original [2293,1075:2526,1174] survey\n[566,1126:725,1195] and [726,1126:1060,1195] bounded [1093,1126:1276,1195] and [1285,1126:1620,1195] described [1621,1126:1699,1195] as [1700,1126:1947,1195] follows.\n[631,1161:998,1248] Beginning [1006,1161:1109,1248] at [1110,1161:1173,1248] a [1174,1161:1397,1248] point [1398,1161:1525,1248] on [1526,1161:1629,1248] the [1638,1161:1813,1248] West [1814,1161:2020,1248] share [2021,1161:2100,1248] of [2109,1161:2451,1248] Hombock\n[558,1229:725,1301] Lake, [766,1229:869,1301] at [878,1229:1220,1301] highwater [1237,1229:1476,1301] mark [1485,1229:1564,1301] a [1573,1229:1764,1301] little [1765,1229:1979,1301] South [1988,1229:2075,1301] of [2084,1229:2171,1301] a [2180,1229:2451,1301] black\n[559,1290:842,1347] walnut [850,1290:983,1347] tree, [1007,1290:1187,1347] and [1204,1290:1517,1347] running [1518,1290:1753,1347] thence [1754,1290:2005,1347] south [2029,1290:2280,1347] along [2281,1290:2434,1347] the\n[554,1332:745,1412] share [746,1332:833,1412] of [842,1332:1024,1412] said [1041,1332:1256,1412] bake [1265,1332:1360,1412] 100 [1361,1332:1528,1412] feet [1545,1332:1632,1412] to [1633,1332:1752,1412] the [1761,1332:2015,1412] corner [2024,1332:2119,1412] of [2128,1332:2223,1412] a [2232,1332:2409,1412] Lot\n[571,1391:833,1457] deeded [842,1391:937,1457] by [954,1391:1217,1457] Russell [1226,1391:1305,1457] R. [1322,1391:1616,1457] Jacques [1625,1391:1704,1457] to [1721,1391:1968,1457] Beadle [1985,1391:2279,1457] Brothers [2288,1391:2417,1457] by\n[562,1440:729,1543] deed [738,1440:953,1543] dated [970,1440:1232,1543] August [1233,1440:1280,1543] 12, [1337,1440:1488,1543] 1879 [1489,1440:1664,1543] and [1673,1440:1984,1543] recorded [1984,1440:2095,1543] in [2096,1440:2484,1543] Livingston\n[570,1497:832,1564] County [833,1497:920,1564] in [929,1497:1032,1564] Lib. [1049,1497:1184,1564] 1100 [1184,1497:1271,1564] of [1280,1497:1495,1564] Deeds [1504,1497:1678,1564] page [1679,1497:1790,1564] 443.\n[595,1537:866,1621] Thence [883,1537:1209,1621] westerly [1242,1537:1441,1621] along [1450,1537:1641,1621] said [1650,1537:1889,1621] Beadle [1898,1537:2200,1621] Brothers [2217,1537:2476,1621] worth\n[560,1596:722,1659] line [733,1596:817,1659] to [837,1596:904,1659] a [906,1596:1129,1659] stake [1148,1596:1233,1659] at [1244,1596:1415,1659] their [1443,1596:1795,1659] northwest [1806,1596:2029,1659] corner [2031,1596:2133,1659] in [2135,1596:2245,1659] the [2256,1596:2463,1659] center\n[562,1653:625,1743] of [634,1653:697,1743] a [706,1653:1032,1743] roadway [1033,1653:1240,1743] about [1249,1653:1384,1743] two [1393,1653:1696,1743] hundred [1697,1653:1856,1743] and [1865,1653:1991,1743] ten [1984,1653:2007,1743] ( [1992,1653:2095,1743] 210) [2128,1653:2279,1743] feet,\n[2131,1617:2275,1747] t [564,1710:867,1804] Thence [884,1710:1130,1804] North [1139,1710:1250,1804] 20th [1251,1710:1466,1804] degrees [1467,1710:1634,1804] east [1643,1710:1858,1804] along [1859,1710:1962,1804] the [1971,1710:2177,1804] center [2178,1710:2265,1804] of [2274,1710:2476,1804] said\n[553,1760:855,1825] roadway [856,1760:943,1825] 100 [944,1760:1087,1825] feet [1096,1760:1175,1825] to [1184,1760:1247,1825] a [1247,1760:1438,1825] stake.\n[604,1798:835,1889] Thence [843,1798:1114,1889] easterly [1123,1798:1202,1889] to [1211,1798:1314,1889] the [1315,1798:1521,1889] place [1522,1798:1617,1889] of [1626,1798:1985,1889] beginning, [2018,1798:2442,1889] containing\n[558,1863:749,1935] about [766,1863:829,1935] a [837,1863:980,1935] half [997,1863:1108,1935] an [1117,1863:1292,1935] acre [1301,1863:1380,1935] of [1397,1863:1587,1935] land, [1628,1863:1723,1935] be [1732,1863:1859,1935] the [1860,1863:2075,1935] same [2084,1863:2274,1935] more [2283,1863:2370,1935] or [2371,1863:2458,1935] less:\n[3473,1861:3611,1899] 1 8\n[616,1918:933,1979] Excepting [951,1918:1235,1979] thereout [1245,1918:1352,1979] all [1354,1918:1520,1979] that [1530,1918:1780,1979] portion [1790,1918:1956,1979] there [1966,1918:2057,1979] of [2067,1918:2224,1979] that [2243,1918:2409,1979] lies\n[558,1965:733,2059] west [742,1965:813,2059] of [821,1965:900,2059] a [909,1965:1100,2059] line [1109,1965:1244,2059] two [1253,1965:1547,2059] hundred [1548,1965:1699,2059] feet [1708,1965:1891,2059] west [1900,1965:1971,2059] of [2012,1965:2178,2059] and [2187,1965:2513,2059] parallel\n[566,2024:629,2091] to [638,2024:948,2091] highwater [957,2024:1156,2091] mark [1165,2024:1276,2091] on [1285,2024:1396,2091] the [1405,2024:1612,2091] share [1613,2024:1700,2091] of [1708,2024:1867,2091] said [1868,2024:2035,2091] Lake.\n[560,2076:710,2125] Alice\n[579,2112:698,2192] All [699,2112:889,2192] that [890,2112:1089,2192] other [1098,2112:1305,2192] tract [1314,2112:1401,2192] or [1410,2112:1648,2192] parcel [1657,2112:1736,2192] of [1745,2112:1936,2192] land [1945,2112:2152,2192] lying [2152,2112:2263,2192] in [2264,2112:2492,2192] said\n[563,2182:765,2241] town [774,2182:887,2241] on [888,2182:1009,2241] the [1018,2182:1204,2241] west [1205,2182:1399,2241] share [1408,2182:1480,2241] of [1489,2182:1805,2241] Hemlock [1806,2182:2008,2241] Lake [2009,2182:2171,2241] and [2180,2182:2517,2241] bounded\n[565,2230:697,2287] and [706,2230:1019,2287] described [1028,2230:1113,2287] as [1114,2230:1380,2287] follows.\n[571,2274:794,2378] Being [795,2274:962,2378] forty [963,2274:1153,2378] seven [1154,2274:1177,2378] ( [1162,2274:1241,2378] 47) [1266,2274:1417,2378] feet [1426,2274:1521,2378] in [1530,2274:1753,2378] width [1754,2274:1857,2378] off [1858,2274:2048,2378] from [2049,2274:2168,2378] the [2177,2274:2536,2378] northerly [559,2340:720,2399] side [738,2340:810,2399] of [819,2340:1005,2399] tract [1006,2340:1086,2399] or [1095,2340:1330,2399] parcel [1331,2340:1411,2399] of [1420,2340:1630,2399] land [1640,2340:1939,2399] conveyed [1948,2340:2037,2399] by [2046,2340:2296,2399] Russell [2322,2340:2402,2399] R.\n[2261,2325:2307,2422] ✓ [2308,2325:2403,2422] R.\n[575,2388:838,2458] facques, [870,2388:941,2458] to [942,2388:1109,2458] said [1126,2388:1405,2458] William [1406,2388:1469,2458] W. [1485,2388:1724,2458] Beadle, [1813,2388:2068,2458] Thomas [2077,2388:2131,2458] S. [2140,2388:2371,2458] Beadle,\n[590,2435:733,2532] and [742,2435:972,2532] George [973,2435:1236,2532] Beadle [1237,2435:1332,2532] by [1333,2435:1500,2532] deed [1501,2435:1724,2532] dated [1733,2435:1979,2532] August [1980,2435:2051,2532] 12. [2068,2435:2195,2532] 1879,\n[571,2489:897,2559] described [906,2489:1001,2559] as [1010,2489:1288,2559] follows: [1337,2489:1448,2559] viz:-\n[578,2544:929,2605] Beginning [939,2544:1021,2605] at [1040,2544:1105,2605] a [1107,2544:1289,2605] stake [1300,2544:1449,2605] and [1459,2544:1667,2605] stones [1677,2544:1784,2605] on [1786,2544:1901,2605] the [1903,2544:2069,2605] west [2071,2544:2245,2605] share [2247,2544:2371,2605] of\n[563,2589:642,2658] H [643,2589:865,2658] Anback [882,2589:1049,2658] Lake [1058,2589:1145,2658] at [1146,2589:1265,2658] the [1274,2589:1592,2658] Northeast [1601,2589:1784,2658] corner [1785,2589:1856,2658] of [1865,2589:1912,2658] a [1913,2589:2048,2658] Lot [2057,2589:2303,2658] deeded [2304,2589:2438,2658] by\n[575,2643:718,2721] said [727,2643:949,2721] Beadle [958,2643:1269,2721] brothers [1286,2643:1365,2721] to [1374,2643:1612,2721] Roscoe [1621,2643:1684,2721] B. [1701,2643:1908,2721] Ashley, [1933,2643:2084,2721] and [2093,2643:2446,2721] running\n[558,2709:771,2764] thence [786,2709:1006,2764] North [1014,2709:1135,2764] 142 [1143,2709:1386,2764] degrees [1393,2709:1568,2764] east [1568,2709:1704,2764] one [1712,2709:1917,2764] chain [1925,2709:2084,2764] and [2084,2709:2152,2764] 63 [2145,2709:2198,2764] ½ [2206,2709:2455,2764] links\n[570,2749:769,2816] along [770,2749:864,2816] the [865,2749:1048,2816] share [1057,2749:1136,2816] of [1137,2749:1296,2816] said [1305,2749:1480,2816] Lake [1489,2749:1559,2816] to [1568,2749:1615,2816] a [1624,2749:1799,2816] stake.\n[1792,2749:1866,2816] ⌨ [532,2804:564,2865] ⌨ [574,2804:807,2865] Thence, [842,2804:1084,2865] north [1094,2804:1160,2865] 75 [1153,2804:1227,2865] ½ [1237,2804:1470,2865] degrees [1489,2804:1688,2865] west [1690,2804:1839,2865] three [1850,2804:2066,2865] chains [2068,2804:2234,2865] and [2236,2804:2318,2865] 25 [2320,2804:2534,2865] links\n[569,2856:626,2917] to [637,2856:685,2917] a [687,2856:878,2917] stake [880,2856:1046,2917] and [1048,2856:1264,2917] stones [1266,2856:1390,2917] in [1392,2856:1507,2917] the [1509,2856:1700,2917] center [1702,2856:1776,2917] of [1786,2856:1851,2917] a [1853,2856:2145,2917] roadway.\n[599,2896:838,2981] Thence [847,2896:1069,2981] South [1078,2896:1149,2981] 14 [1142,2896:1205,2981] ½ [1214,2896:1477,2981] degrees [1486,2896:1693,2981] west [1702,2896:1829,2981] one [1838,2896:2076,2981] chain [2093,2896:2252,2981] and [2253,2896:2316,2981] 63 [2309,2896:2372,2981] ½ [2373,2896:2580,2981] links\n[571,2960:786,3031] along [787,2960:914,3031] the [923,2960:1145,3031] center [1154,2960:1297,3031] of [1306,2960:1481,3031] said [1498,2960:1697,3031] road [1706,2960:1785,3031] to [1794,2960:1913,3031] the [1922,2960:2136,3031] center [2137,2960:2224,3031] of [2233,2960:2296,3031] a [2305,2960:2551,3031] Carine ⌨ ⌨ [539,3016:570,3084] \n[571,3016:650,3084] or [651,3016:826,3084] gally. [858,3016:1113,3084] Thence [1130,3016:1497,3084] eastwardly [1505,3016:1712,3084] along [1721,3016:1832,3084] the [1841,3016:2048,3084] center [2049,3016:2128,3084] of [2121,3016:2295,3084] said [2296,3016:2513,3084] fully\n[575,3063:654,3156] to [663,3063:758,3156] the [783,3063:981,3156] place [990,3063:1077,3156] of [1094,3063:1461,3156] beginning, [1501,3063:1892,3156] containing [1901,3063:2092,3156] about [2101,3063:2140,3156] 5/100 [2220,3063:2307,3156] of [2316,3063:2488,3156] and\n[572,3116:725,3175] acre [734,3116:806,3175] of [816,3116:1025,3175] land [1043,3116:1188,3175] be [1197,3116:1318,3175] the [1319,3116:1537,3175] same [1554,3116:1740,3175] more [1749,3116:1813,3175] or [1854,3116:1983,3175] less.\n[596,3168:938,3236] Excepting [947,3168:1307,3236] therefrom\n[571,3213:666,3293] so [675,3213:898,3293] much [899,3213:978,3293] of [979,3213:1161,3293] said [1170,3213:1377,3293] land [1386,3213:1465,3293] as [1474,3213:1601,3293] lies [1602,3213:1793,3293] west [1794,3213:1865,3293] of [1874,3213:1937,3293] a [1946,3213:2104,3293] line [2113,3213:2256,3293] two [2265,3213:2568,3293] hundred\n[566,3269:701,3371] feet [710,3269:877,3371] west [886,3269:957,3371] of [966,3269:1108,3371] and [1109,3269:1420,3371] parallel [1429,3269:1500,3371] to [1509,3269:1668,3371] high [1669,3269:1844,3371] water [1853,3269:2059,3371] mark [2068,3269:2179,3371] on [2188,3269:2315,3371] the [2324,3269:2534,3371] west\n[582,3322:772,3411] share [781,3322:852,3411] of [853,3322:1132,3411] Hemlock [1140,3322:1299,3411] Lake.\n[3549,3379:3753,3455] Lot\n[2722,3318:2793,3312] at [2722,3311:2793,3296] 4 th [2722,3293:2793,3281] clock [2722,3279:2793,3270] A. [2722,3269:2793,2818] M.\n[3386,2613:3453,2587] 333 [3386,2586:3453,2571] -\n[2860,2003:2647,2041] ⌨\n[2860,2049:2647,2148] Dow⌨ [2860,2166:2647,3299] and 2 2 0\n[4541,213:4734,266] ---\\+\n[2779,1189:2986,1290] Together [2979,1189:3050,1290] with [3051,1189:3106,1290] the [3099,1189:3321,1290] appurtenances [3314,1189:3377,1290] and [3370,1189:3417,1290] all [3410,1189:3465,1290] the [3466,1189:3553,1290] estate [3546,1189:3609,1290] and [3602,1189:3697,1290] rights [3690,1189:3729,1290] of [3730,1189:3777,1290] the [3778,1189:3889,1290] parties [3890,1189:3929,1290] of [3922,1189:3977,1290] the [3970,1189:4040,1290] first [4041,1189:4112,1290] part [4121,1189:4296,1290] has [4297,1189:4438,1290] roused\n[4270,1256:4352,1290] heirs [4347,1256:4409,1290] and [4404,1256:4514,1290] assigns [4509,1256:4615,1290] forever.\n[2778,1271:2840,1328] TO [2841,1271:2950,1328] HAVE [2951,1271:3036,1328] AND [3045,1271:3099,1328] TO [3100,1271:3201,1328] HOLD [3202,1271:3256,1328] the [3257,1271:3343,1328] above [3343,1271:3453,1328] granted [3453,1271:3578,1328] premises [3579,1271:3649,1328] unto [3642,1271:3696,1328] the [3689,1271:3759,1328] said [3752,1271:3861,1328] party [3862,1271:3900,1328] of [3901,1271:3947,1328] the [3948,1271:4049,1328] second [4050,1271:4292,1328] part\n[4412,1408:4502,1438] does [4496,1408:4684,1438] covenant\n[2787,1414:2874,1501] AND [2875,1414:2930,1501] the [2931,1414:3058,1501] said [3075,1414:3361,1501] Clifford [3370,1414:3425,1501] B. [3442,1414:3741,1501] Johnson\n[2787,1495:2858,1562] with [2851,1495:2906,1562] the [2907,1495:2969,1562] said [2970,1495:3081,1562] party [3082,1495:3121,1562] of [3114,1495:3169,1562] the [3170,1495:3273,1562] second [3266,1495:3336,1562] part [3329,1495:3368,1562] as [3369,1495:3480,1562] follows:\n[2846,1524:2933,1598] FIRST [2926,1524:2957,1598] -- [2958,1524:3029,1598] That [3030,1524:3085,1598] the [3078,1524:3196,1598] parties [3189,1524:3228,1598] of [3229,1524:3284,1598] the [3277,1524:3356,1598] first [3357,1524:3460,1598] part, [3485,1524:3572,1598] died [3565,1524:3604,1598] of [3597,1524:3660,1598] the [3653,1524:3724,1598] said [3717,1524:3851,1598] premises [3844,1524:3891,1598] in [3892,1524:3947,1598] fee [3940,1524:4043,1598] simple, [4052,1524:4107,1598] and [4108,1524:4203,1598] have [4196,1524:4283,1598] good [4276,1524:4355,1598] right [4355,1524:4394,1598] to [4387,1524:4490,1598] convey [4491,1524:4538,1598] the [4539,1524:4684,1598] same\n[2844,1598:2961,1651] SECOND [2954,1598:2991,1651] -- [2983,1598:3064,1651] That [3056,1598:3115,1651] the [3122,1598:3232,1651] party [3232,1598:3276,1651] of [3269,1598:3327,1651] the [3327,1598:3430,1651] second [3430,1598:3503,1651] part [3495,1598:3576,1651] shall [3576,1598:3679,1651] quietly [3678,1598:3759,1651] enjoy [3759,1598:3818,1651] the [3818,1598:3884,1651] said [3883,1598:4016,1651] premises.\n[2849,1659:2948,1710] THIRD [2940,1659:2976,1710] -- [2968,1659:3047,1710] That [3046,1659:3103,1710] the [3102,1659:3174,1710] said [3173,1659:3308,1710] premises [3307,1659:3364,1710] are [3356,1659:3428,1710] free [3427,1659:3505,1710] from [3504,1659:3703,1710] encumbrances.\n[2850,1809:2977,1889] FOURTH [2970,1809:3009,1889] -- [3002,1809:3081,1889] That [3074,1809:3129,1889] the [3130,1809:3257,1889] parties [3258,1809:3296,1889] of [3297,1809:3352,1889] the [3353,1809:3424,1889] first [3417,1809:3488,1889] part [3481,1809:3552,1889] well [3545,1809:3656,1889] execute [3649,1809:3688,1889] or [3689,1809:3800,1889] procure [3793,1809:3856,1889] any [3849,1809:3960,1889] further [3953,1809:4096,1889] necessary [4097,1809:4239,1889] assurance [4240,1809:4279,1889] of [4280,1809:4335,1889] the [4328,1809:4399,1889] title [4400,1809:4439,1889] to [4440,1809:4503,1889] said [4504,1809:4697,1889] premises\n[2850,1866:2945,1950] FIFTH [2938,1866:2977,1950] -- [2970,1866:3049,1950] That [3050,1866:3105,1950] the [3106,1866:3185,1950] said [3194,1866:3480,1950] Clifford [3489,1866:3568,1950] B [3577,1866:3984,1950] Johnson [3985,1866:4048,1950] will [4041,1866:4160,1950] forever [4161,1866:4279,1950] warrant [4272,1866:4335,1950] the [4328,1866:4407,1950] tide [4400,1866:4447,1950] the [4440,1866:4511,1950] said [4504,1866:4701,1950] premise\n[2800,1912:2871,2005] Tn [2880,1912:3087,2005] onitness [3088,1912:3302,2005] athereof, [3311,1912:3374,2005] the [3367,1912:3438,2005] said [3439,1912:3566,2005] parties [3567,1912:3606,2005] of [3607,1912:3662,2005] the [3663,1912:3734,2005] first [3727,1912:3798,2005] part [3791,1912:4062,2005] have [4071,1912:4134,2005] her [4151,1912:4253,2005] hand [4246,1912:4309,2005] and [4310,1912:4389,2005] seal [4390,1912:4453,2005] the [4454,1912:4517,2005] day [4510,1912:4573,2005] and [4574,1912:4705,2005] year\n[2797,2024:2868,2059] first [2863,2024:2958,2059] above [2958,2024:3069,2059] written.\n[3530,1994:3864,2083] Clifford [3873,1994:3960,2083] B. [3977,1994:4388,2083] Johnson\n[4557,1994:4580,2053] ( [4565,1994:4621,2053] L.S)\n[2888,2074:2937,2104] IN [2934,2074:3089,2104] PRESENCE [3087,2074:3190,2104] OF\n[4552,2074:4585,2106] [ [4570,2074:4616,2106] L.S.]\n[3250,2081:3337,2152] as [3338,2081:3584,2152] Executor, [3593,2081:3624,2152] & [3649,2081:4095,2152] Individually.\n[3530,2123:3848,2209] Sarah [3857,2123:3952,2209] A. [4025,2123:4434,2209] Johnson\n[4557,2140:4584,2169] [ [4569,2140:4610,2169] L. [4603,2140:4644,2169] S.]\n[3529,2192:3788,2317] Mary [3798,2192:3871,2317] E. [3924,2192:4317,2317] Johnson\n[4557,2196:4585,2226] [ [4570,2196:4610,2226] L. [4607,2196:4643,2226] S.]\n[2856,2338:3029,2380] STATE [3032,2338:3106,2380] OF [3108,2338:3240,2380] NEW [3243,2338:3381,2380] YORK.\n[2818,2376:2935,2428] COUNTY [2935,2376:2994,2428] OF [3001,2376:3428,2428] Monize\n[2825,2405:2983,2496] City [2992,2405:3047,2496] of [3064,2405:3430,2496] Rochester [3423,2405:3502,2496] ⎬ [3503,2405:3550,2496] On [3543,2405:3677,2496] this [3678,2405:3795,2496] 8\n[3960,2411:4020,2443] day [4018,2411:4121,2443] of\n[4128,2380:4405,2508] ⌨⌨⌨⌨ford [4485,2380:4788,2508] Johnson [3413,2489:3512,2511] before [3507,2489:3558,2511] me,\n[2816,2494:2947,2538] nineteen [2945,2494:3076,2538] hundred [3073,2494:3167,2538] and [3177,2494:3411,2538] one\n[2813,2471:3235,2591] individually [3236,2471:3259,2591] & [3300,2471:3403,2591] as [3404,2471:3483,2591] Ex. [3532,2471:3699,2591] and [3708,2471:3931,2591] Sarah [3956,2471:4026,2591] A. [4059,2471:4202,2591] his [4203,2471:4434,2591] wife\n[4307,2553:4417,2580] known [4410,2553:4477,2580] and [4474,2553:4580,2580] known [4573,2553:4620,2580] to [4613,2553:4722,2580] me\n[2833,2570:3000,2650] and [3008,2570:3239,2650] Mary [3248,2570:3311,2650] E. [3328,2570:3686,2650] Johnson\n[4090,2574:4379,2614] severalty\n[2817,2595:2856,2696] to [2857,2595:2896,2696] be [2897,2595:2952,2696] the [2945,2595:3112,2696] individual's [3153,2595:3287,2696] described [3280,2595:3327,2696] in [3320,2595:3383,2696] and [3376,2595:3447,2696] the [3440,2595:3575,2696] executed [3568,2595:3623,2696] the [3616,2595:3759,2696] foregoing [3752,2595:3911,2696] instrument, [3920,2595:3975,2696] and [3976,2595:4055,2696] they [4056,2595:4207,2696] thereupon [4216,2595:4326,2696] duly [4319,2595:4518,2696] acknowledged [4519,2595:4558,2696] to [4551,2595:4606,2696] me [4599,2595:4726,2696] that\n[2822,2660:2933,2755] beney [2926,2660:3061,2755] executed [3062,2660:3109,2755] the [3110,2660:3189,2755] same. [3238,2660:3293,2755] L.J. [3373,2660:3684,2755] King [3693,2660:4300,2755] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [4293,2660:4531,2755] County [4532,2660:4723,2755] Clerk [4724,2660:4843,2755] of\n[3021,2730:3219,2801] State [3220,2730:3299,2801] of [3308,2730:3474,2801] New [3483,2730:3641,2801] York.\n[4277,2736:4527,2795] Monroe [4528,2736:4616,2795] of [4625,2736:4780,2795] the\n[2850,2751:3113,2865] Monroe [3122,2751:3344,2865] County [3377,2751:3552,2865] Verkes [3553,2751:3760,2865] Folice [3761,2751:3800,2865] ⎬ [3809,2751:4040,2865] County [4049,2751:4248,2865] ⌨⌨⌨⌨⌨⌨ [4241,2751:4304,2865] of [4305,2751:4471,2865] said [4480,2751:4860,2865] County\n[2985,2860:3194,2898] Rock\n[2837,2837:2908,2968] of [2909,2837:3004,2968] the [3013,2837:3267,2968] Supreme [3268,2837:3435,2968] Court, [3460,2837:3635,2968] Hath [3636,2837:3843,2968] being [3844,2837:4066,2968] Courts [4067,2837:4130,2968] of [4411,2848:4656,2896] having [4661,2848:4772,2896] a\n[2833,2886:3112,3019] Common [3121,2886:3287,3019] seal [3296,2886:3375,3019] To [3392,2886:3615,3019] Certify [3616,2886:3767,3019] that [3776,2886:3799,3019] I, [3824,2886:3871,3019] L.F. [3944,2886:4135,3019] Kirk [4136,2886:4263,3019] Esq. [4288,2886:4438,3019] ⌨⌨⌨⌨⌨ [4439,2886:4518,3019] at [4519,2886:4614,3019] the [4623,2886:4818,3019] date\n[3704,2943:4262,3031] acknowledgment [4263,2943:4342,3031] of [4343,2943:4446,3031] the [2829,2985:2892,3073] of [2901,2985:3004,3073] the [3004,2985:3331,3073] certificate [3332,2985:3419,3073] of [3428,2985:3618,3073] proof [3619,2985:3757,3073] or\n[2838,2991:3221,3111] Instrument [3222,2991:3324,3111] in [3333,2991:3620,3111] writing [3629,2991:3692,3111] a [3701,2991:4116,3111] commissioner [4117,2991:4188,3111] of [4189,2991:4371,3111] Deeds [4372,2991:4451,3111] in [4452,2991:4571,3111] and [4580,2991:4675,3111] for [4676,2991:4864,3111] said\n[4050,3048:4190,3101] that [4197,3048:4248,3101] I [4248,3048:4365,3101] am [4372,3048:4504,3101] well [4511,3048:4864,3101] acquainted\n[2841,3067:2960,3175] City [2961,3067:3111,3175] duly [3120,3067:3479,3175] authorized [3480,3067:3543,3175] to [3576,3067:3727,3175] take [3736,3067:3830,3175] the [3831,3067:3998,3175] same.\n[3636,3097:3659,3187] & [3700,3097:3842,3187] verily [3851,3097:4026,3187] believe [4027,3097:4170,3187] that [4171,3097:4265,3187] the [4266,3097:4537,3187] signature [4546,3097:4601,3187] to [4601,3097:4805,3187] said\n[2833,3153:2896,3219] or [2897,3153:3000,3219] ith [3008,3153:3119,3219] his [3128,3153:3542,3219] handwriting [3543,3153:3745,3219] and\n[3465,3143:3536,3231] , [3545,3143:3688,3231] and [3689,3143:3832,3231] that [3833,3143:3928,3231] the [3929,3143:4175,3231] annexed [4176,3143:4527,3231] instrument [4528,3143:4607,3231] is [4608,3143:4885,3231] execute\n[2842,3206:3176,3280] certificate [3176,3206:3255,3280] is [3451,3198:3490,3288] \" [3507,3198:3842,3288] according [3851,3198:3914,3288] to [3915,3198:4009,3288] the [4010,3198:4161,3288] laws [4170,3198:4241,3288] of [4242,3198:4361,3288] this [4370,3198:4513,3288] State.\n[2854,3255:3004,3320] and [3013,3255:3544,3320] acknowledged\n[2854,3238:2949,3377] In [2950,3238:3316,3377] Testimony [3317,3238:3372,3377] of [3365,3238:3580,3377] thereof. [3597,3238:3652,3377] I [3653,3238:3780,3377] have [3797,3238:4068,3377] hereunto [4077,3238:4164,3377] set [4173,3238:4292,3377] my [4293,3238:4483,3377] hand [4492,3238:4659,3377] and [2845,3286:2945,3444] ed [2951,3286:3062,3444] the [3068,3286:3211,3444] seal [3217,3286:3286,3444] of [3281,3286:3424,3444] said [3420,3286:4042,3444] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [4037,3286:4159,3444] the [4229,3286:4382,3444] day [4389,3286:4446,3444] of [4453,3286:4574,3444] July [4570,3286:4617,3444] A.D. [4687,3286:4808,3444] 1911 [4651,3392:4787,3440] Seal. [3559,3436:3770,3489] Clerk\n[2676,2953:2718,2945] with [2676,2945:2718,2939] the [2676,2939:2718,2926] original, [2676,2926:2718,2582] this\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007137690"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00225"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007137690_00225"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5XS9-T"
+      } ]
+    } ]
+  } ]
+}

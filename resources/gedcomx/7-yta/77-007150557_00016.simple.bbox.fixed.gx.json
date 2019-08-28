@@ -1,0 +1,1066 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028315180956",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557432203049
+    },
+    "description" : "#s_6917529028315180956",
+    "persons" : [ {
+      "id" : "p_6917529030809433856",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lottie E Yaw",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lottie E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lottie E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Yaw",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Yaw"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lottie E Yaw"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.48030126,0.14302139,0.5307068,0.1570476",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53128624,0.14302139,0.5454809,0.1570476",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.54837775,0.14302139,0.58429897,0.1570476",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lottie E. Yaw"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.68366164,0.6711888,0.69524914,0.685215",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6958285,0.6711888,0.74623406,0.685215",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "E. Yaw"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "East Otto, State of New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6019699,0.14302139,0.63789105,0.1570476",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.64078796,0.14302139,0.669467,0.1570476",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "East Otto"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3174971,0.15543804,0.35921204,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35921204,0.15543804,0.37456548,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37572423,0.15543804,0.4078795,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40614137,0.15543804,0.44119352,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_STATE_ORIG",
+              "text" : "State of New York"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "1890",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36181924,0.105541505,0.3780417,0.1122097",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "1890"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809433956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Potter",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Potter",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Potter"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Potter"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.38441482,0.17958151,0.43337196,0.18831915",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Potter"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Town of Ashford, County of Cattaraugus, State of New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.43395132,0.2340768,0.513905,0.24304438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5127462,0.2340768,0.5263615,0.24304438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5266512,0.2340768,0.6034183,0.24304438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Town of Ashford"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/County",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6874276,0.23545642,0.7181344,0.24304438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7163963,0.23545642,0.72856313,0.24304438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.72682506,0.23545642,0.77404404,0.24304438",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_COUNTY_ORIG",
+              "text" : "County of Cattaraugus"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3174971,0.15543804,0.35921204,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35921204,0.15543804,0.37456548,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37572423,0.15543804,0.4078795,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40614137,0.15543804,0.44119352,0.16325592",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_STATE_ORIG",
+              "text" : "State of New York"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Calvin Woodruff",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Calvin",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Calvin"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Woodruff",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Woodruff"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Calvin Woodruff"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2210313,0.27500576,0.26940903,0.28351346",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2679606,0.27500576,0.33227116,0.28351346",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Calvin Woodruff"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "R B You",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "R B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "R B"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "You",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "You"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "R B You"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27404404,0.5541504,0.28765932,0.5615084",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.29895714,0.5541504,0.32705677,0.5615084",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "R.B. You"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJYB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJB9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "R B Wall",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "R B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "R B"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Wall",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Wall"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "R B Wall"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6419467,0.6615314,0.6564311,0.66980916",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.66975665,0.6615314,0.74855155,0.66980916",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "R.B. Wall"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJB9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJB7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "[ L S ] Dotter",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "[ L S ] Dotter",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "[ L S ] Dotter"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "[ L S ] Dotter"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7488412,0.6615314,0.7575319,0.66980916",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7531866,0.6615314,0.76332563,0.66980916",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7618772,0.6615314,0.7720162,0.66980916",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.63991886,0.6711888,0.67815757,0.685215",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "[ L. S.] Dotter"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJB7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJBH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "R B Yaw",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "R B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "R B"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Yaw",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Yaw"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "R B Yaw"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4440904,0.7197057,0.46147162,0.7289032",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.47479722,0.7197057,0.5084009,0.7289032",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "R.B. Yaw"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJBH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJB8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Dollie E",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Dollie E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Dollie E"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Dollie E"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.52838933,0.7197057,0.5701043,0.7289032",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.57068366,0.7197057,0.58458865,0.7289032",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Dollie E."
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJB8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809434656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJBF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Edwin F Beebe",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Edwin F",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Edwin F"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Beebe",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Beebe"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Edwin F Beebe"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.52172655,0.7578754,0.57734644,0.7659232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.57705677,0.7578754,0.59096175,0.7659232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5921205,0.7578754,0.64831984,0.7659232",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Edwin F. Beebe"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-FJBF-W"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030809434256",
+        "resourceId" : "p_6917529030809434256"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030809434356",
+        "resourceId" : "p_6917529030809434356"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028315180956",
+      "about" : "#r_6917529028315180956",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "temporal" : {
+          "original" : "1890",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36181924,0.105541505,0.3780417,0.1122097",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "1890"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TH7F-W" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-89W6-J92L-S",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-89W6-J92L-S" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150557_00016_TXT</UNQ>\n<IMID>007150557_00016</IMID>\n<APID>TH-1961-32807-45632-42</APID>\n<IMGSIZE>3452,4349</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 2\nLiber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 478, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">twenty-fifth day of ⌨⌨⌨ in the year\neighteen hundred and ninety four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Lottie E. Yaw</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">East Otto</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Cattaraugus\nCounty</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\nof the first part, and mansion <ENAMEX TYPE=\"PERSON\">Potter</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX>, <ENAMEX TYPE=\"COREF.loc\">State and County aforesaid</ENAMEX>\nof the second\nond part, Witnesseth,\nThat the said party of the first part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and seventy five $ 3750/100 ) Dollars</NUMEX>,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, does hereby grant and release unto the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, distinguished as being part of lot number sixty two in township\nnumber five in the sixth range of townships of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey\nand bounded as follows: Commencincing at the north east comer of lands deeded by\n<ENAMEX TYPE=\"PERSON\">Calvin Woodruff</ENAMEX> to the <ENAMEX TYPE=\"NONFAMILY\">trustees</ENAMEX> of the first fire will Buttist Society of the <ENAMEX TYPE=\"PERSON\">Ashford</ENAMEX>, thence northerly along the highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links, thence south\n<NUMEX TYPE=\"QUANTITY\">sixty two & three fourths</NUMEX> arances west <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty seven and one half</NUMEX> links,\nthence northerly parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links,\nthence Easterly on lands of the said free will <ENAMEX TYPE=\"ORGANIZATION.rel\">Baptist Society</ENAMEX> <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven\nand one half</NUMEX> links, to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">one third</NUMEX> of an acre\nmore or less.\nthe party of the filing that and Ente this conveyance will sell to a mortgage\nof <NUMEX TYPE=\"MONEY\">seventy five dollars</NUMEX> which remains in said given to buquata <ENAMEX TYPE=\"COREF\">su</ENAMEX> ackenbush\nassigned to Shebect matter <ENAMEX TYPE=\"COREF\">who</ENAMEX> is now the owner. and the said party of the\nsecond part agrees to pay the said mortgage within the next <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> with\nand interest,\nTogether, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to hold.\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">R.B. You</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie</ENAMEX> & do covenant with the said party of the second part as follows:\nThat the party of the second part shall quitly enjoy the said premises.\nThat the said Parties of the lout part\nwill forever warrant the Title to said premises.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Wilbereof, the said parties of the first part have hereunto set the hand - and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">R.B. Wall</ENAMEX> <ENAMEX TYPE=\"PERSON\">[ L. S.]\nDotter</ENAMEX>. <ENAMEX TYPE=\"PERSON\">E. Yaw</ENAMEX> ( S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF Town of East Otho</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">24 - day of January\nin the year eighteen\nhundred and ninety</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">R.B. Yaw</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie E.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon Each duely acknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n℗\n<ENAMEX TYPE=\"PERSON\">Edwin F. Beebe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nSadies, day of ember <TIMEX TYPE=\"DATE\">1800</TIMEX> ▓ ▓ ---\\+\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"214\"_ENDID=\"234\"_STTOKEN=\"DEED\"_ENDTOKEN=\"1890\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"342\"_ENDID=\"359\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"East Otto\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"443\"_ENDID=\"457\"_STTOKEN=\"Potter\"_ENDTOKEN=\"Town of Ashford\">\n<RELEX TYPE=\"R00:HAS_SPOUSE\"_STID=\"2673\"_ENDID=\"2683\"_STTOKEN=\"R.B. Wall\"_ENDTOKEN=\"[ L. S.] Dotter\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"393\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2700\"_ENDID=\"342\"_STTOKEN=\"E. Yaw\"_ENDTOKEN=\"Lottie E. Yaw\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2713\"_ENDID=\"393\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2877\"_ENDID=\"2854\"_STTOKEN=\"his\"_ENDTOKEN=\"R.B. Yaw\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2889\"_ENDID=\"2834\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2911\"_ENDID=\"2834\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3037\"_ENDID=\"2834\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3045\"_ENDID=\"2995\"_STTOKEN=\"they\"_ENDTOKEN=\"they\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"688\"_ENDID=\"161\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"896\"_ENDID=\"457\"_STTOKEN=\"Town of Ashford\"_ENDTOKEN=\"Town of Ashford\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"942\"_ENDID=\"393\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=2+\"_STID=\"1187\"_ENDID=\"1187\"_STTOKEN=\"Calvin Woodruff\"_ENDTOKEN=\"Calvin Woodruff\">\n<RELEX TYPE=\"S=2+\"_STID=\"2276\"_ENDID=\"2276\"_STTOKEN=\"R.B. You\"_ENDTOKEN=\"R.B. You\">\n<RELEX TYPE=\"S=2+\"_STID=\"2673\"_ENDID=\"2673\"_STTOKEN=\"R.B. Wall\"_ENDTOKEN=\"R.B. Wall\">\n<RELEX TYPE=\"S=2+\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"E. Yaw\"_ENDTOKEN=\"E. Yaw\">\n<RELEX TYPE=\"S=2+\"_STID=\"2854\"_ENDID=\"2854\"_STTOKEN=\"R.B. Yaw\"_ENDTOKEN=\"R.B. Yaw\">\n<RELEX TYPE=\"S=3+\"_STID=\"3071\"_ENDID=\"3071\"_STTOKEN=\"Edwin F. Beebe\"_ENDTOKEN=\"Edwin F. Beebe\">\n<RELEX TYPE=\"S=3+\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"Lottie E. Yaw\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2232\"_ENDID=\"2236\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2232\"_ENDID=\"2246\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2877\"_ENDID=\"2881\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"816\"_ENDID=\"820\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"816\"_ENDID=\"830\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"342\"_ENDID=\"214\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"342\"_ENDID=\"245\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"2867\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Dollie E.\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"2854\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"R.B. Yaw\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"E. Yaw\"_ENDTOKEN=\"E. Yaw\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"Lottie E. Yaw\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2867\"_ENDID=\"2881\"_STTOKEN=\"Dollie E.\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"359\"_ENDID=\"393\"_STTOKEN=\"East Otto\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"370\"_ENDID=\"393\"_STTOKEN=\"Cattaraugus County\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"474\"_ENDID=\"457\"_STTOKEN=\"State and County aforesaid\"_ENDTOKEN=\"Town of Ashford\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"896\"_ENDID=\"915\"_STTOKEN=\"Town of Ashford\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"915\"_ENDID=\"942\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150557_00016_TXT</UNQ>\n<IMID>007150557_00016</IMID>\n<APID>TH-1961-32807-45632-42</APID>\n<IMGSIZE>3452,4349</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 2\nLiber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 478, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">twenty-fifth day of ⌨⌨⌨ in the year\neighteen hundred and ninety four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Lottie E. Yaw</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">East Otto</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Cattaraugus\nCounty</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\nof the first part, and mansion <ENAMEX TYPE=\"PERSON\">Potter</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX>, <ENAMEX TYPE=\"COREF.loc\">State and County aforesaid</ENAMEX>\nof the second\nond part, Witnesseth,\nThat the said party of the first part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and seventy five $ 3750/100 ) Dollars</NUMEX>,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, does hereby grant and release unto the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, distinguished as being part of lot number sixty two in township\nnumber five in the sixth range of townships of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey\nand bounded as follows: Commencincing at the north east comer of lands deeded by\n<ENAMEX TYPE=\"PERSON\">Calvin Woodruff</ENAMEX> to the <ENAMEX TYPE=\"NONFAMILY\">trustees</ENAMEX> of the first fire will Buttist Society of the <ENAMEX TYPE=\"PERSON\">Ashford</ENAMEX>, thence northerly along the highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links, thence south\n<NUMEX TYPE=\"QUANTITY\">sixty two & three fourths</NUMEX> arances west <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty seven and one half</NUMEX> links,\nthence northerly parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links,\nthence Easterly on lands of the said free will <ENAMEX TYPE=\"ORGANIZATION.rel\">Baptist Society</ENAMEX> <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven\nand one half</NUMEX> links, to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">one third</NUMEX> of an acre\nmore or less.\nthe party of the filing that and Ente this conveyance will sell to a mortgage\nof <NUMEX TYPE=\"MONEY\">seventy five dollars</NUMEX> which remains in said given to buquata <ENAMEX TYPE=\"COREF\">su</ENAMEX> ackenbush\nassigned to Shebect matter <ENAMEX TYPE=\"COREF\">who</ENAMEX> is now the owner. and the said party of the\nsecond part agrees to pay the said mortgage within the next <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> with\nand interest,\nTogether, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to hold.\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">R.B. You</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie</ENAMEX> & do covenant with the said party of the second part as follows:\nThat the party of the second part shall quitly enjoy the said premises.\nThat the said Parties of the lout part\nwill forever warrant the Title to said premises.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Wilbereof, the said parties of the first part have hereunto set the hand - and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">R.B. Wall</ENAMEX> <ENAMEX TYPE=\"PERSON\">[ L. S.]\nDotter</ENAMEX>. <ENAMEX TYPE=\"PERSON\">E. Yaw</ENAMEX> ( S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF Town of East Otho</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">24 - day of January\nin the year eighteen\nhundred and ninety</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">R.B. Yaw</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie E.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon Each duely acknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n℗\n<ENAMEX TYPE=\"PERSON\">Edwin F. Beebe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nSadies, day of ember <TIMEX TYPE=\"DATE\">1800</TIMEX> ▓ ▓ ---\\+\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"214\"_ENDID=\"234\"_STTOKEN=\"DEED\"_ENDTOKEN=\"1890\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"342\"_ENDID=\"359\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"East Otto\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"443\"_ENDID=\"457\"_STTOKEN=\"Potter\"_ENDTOKEN=\"Town of Ashford\">\n<RELEX TYPE=\"R00:HAS_SPOUSE\"_STID=\"2673\"_ENDID=\"2683\"_STTOKEN=\"R.B. Wall\"_ENDTOKEN=\"[ L. S.] Dotter\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"393\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2700\"_ENDID=\"342\"_STTOKEN=\"E. Yaw\"_ENDTOKEN=\"Lottie E. Yaw\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2713\"_ENDID=\"393\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2877\"_ENDID=\"2854\"_STTOKEN=\"his\"_ENDTOKEN=\"R.B. Yaw\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2889\"_ENDID=\"2834\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2911\"_ENDID=\"2834\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3037\"_ENDID=\"2834\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3045\"_ENDID=\"2995\"_STTOKEN=\"they\"_ENDTOKEN=\"they\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"688\"_ENDID=\"161\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"896\"_ENDID=\"457\"_STTOKEN=\"Town of Ashford\"_ENDTOKEN=\"Town of Ashford\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"942\"_ENDID=\"393\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=2+\"_STID=\"1187\"_ENDID=\"1187\"_STTOKEN=\"Calvin Woodruff\"_ENDTOKEN=\"Calvin Woodruff\">\n<RELEX TYPE=\"S=2+\"_STID=\"2276\"_ENDID=\"2276\"_STTOKEN=\"R.B. You\"_ENDTOKEN=\"R.B. You\">\n<RELEX TYPE=\"S=2+\"_STID=\"2673\"_ENDID=\"2673\"_STTOKEN=\"R.B. Wall\"_ENDTOKEN=\"R.B. Wall\">\n<RELEX TYPE=\"S=2+\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"E. Yaw\"_ENDTOKEN=\"E. Yaw\">\n<RELEX TYPE=\"S=2+\"_STID=\"2854\"_ENDID=\"2854\"_STTOKEN=\"R.B. Yaw\"_ENDTOKEN=\"R.B. Yaw\">\n<RELEX TYPE=\"S=3+\"_STID=\"3071\"_ENDID=\"3071\"_STTOKEN=\"Edwin F. Beebe\"_ENDTOKEN=\"Edwin F. Beebe\">\n<RELEX TYPE=\"S=3+\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"Lottie E. Yaw\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2232\"_ENDID=\"2236\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2232\"_ENDID=\"2246\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2877\"_ENDID=\"2881\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"816\"_ENDID=\"820\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"816\"_ENDID=\"830\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"342\"_ENDID=\"245\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"E. Yaw\"_ENDTOKEN=\"E. Yaw\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Lottie E. Yaw\"_ENDTOKEN=\"Lottie E. Yaw\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2867\"_ENDID=\"2881\"_STTOKEN=\"Dollie E.\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"359\"_ENDID=\"393\"_STTOKEN=\"East Otto\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"370\"_ENDID=\"393\"_STTOKEN=\"Cattaraugus County\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"474\"_ENDID=\"457\"_STTOKEN=\"State and County aforesaid\"_ENDTOKEN=\"Town of Ashford\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"896\"_ENDID=\"915\"_STTOKEN=\"Town of Ashford\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"915\"_ENDID=\"942\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150557_00016_TXT</UNQ>\n<IMID>007150557_00016</IMID>\n<APID>TH-1961-32807-45632-42</APID>\n<IMGSIZE>3452,4349</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 2\nLiber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 478, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">twenty-fifth day of ⌨⌨⌨ in the year\neighteen hundred and ninety four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Lottie E. Yaw</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">East Otto</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Cattaraugus\nCounty</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\nof the first part, and mansion <ENAMEX TYPE=\"PERSON\">Potter</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX>, <ENAMEX TYPE=\"COREF.loc\">State and County aforesaid</ENAMEX>\nof the second\nond part, Witnesseth,\nThat the said party of the first part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and seventy five $ 3750/100 ) Dollars</NUMEX>,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, does hereby grant and release unto the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, distinguished as being part of lot number sixty two in township\nnumber five in the sixth range of townships of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey\nand bounded as follows: Commencincing at the north east comer of lands deeded by\n<ENAMEX TYPE=\"PERSON\">Calvin Woodruff</ENAMEX> to the <ENAMEX TYPE=\"NONFAMILY\">trustees</ENAMEX> of the first fire will Buttist Society of the <ENAMEX TYPE=\"PERSON\">Ashford</ENAMEX>, thence northerly along the highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links, thence south\n<NUMEX TYPE=\"QUANTITY\">sixty two & three fourths</NUMEX> arances west <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty seven and one half</NUMEX> links,\nthence northerly parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links,\nthence Easterly on lands of the said free will <ENAMEX TYPE=\"ORGANIZATION.rel\">Baptist Society</ENAMEX> <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven\nand one half</NUMEX> links, to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">one third</NUMEX> of an acre\nmore or less.\nthe party of the filing that and Ente this conveyance will sell to a mortgage\nof <NUMEX TYPE=\"MONEY\">seventy five dollars</NUMEX> which remains in said given to buquata <ENAMEX TYPE=\"COREF\">su</ENAMEX> ackenbush\nassigned to Shebect matter <ENAMEX TYPE=\"COREF\">who</ENAMEX> is now the owner. and the said party of the\nsecond part agrees to pay the said mortgage within the next <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> with\nand interest,\nTogether, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to hold.\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">R.B. You</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie</ENAMEX> & do covenant with the said party of the second part as follows:\nThat the party of the second part shall quitly enjoy the said premises.\nThat the said Parties of the lout part\nwill forever warrant the Title to said premises.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Wilbereof, the said parties of the first part have hereunto set the hand - and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">R.B. Wall</ENAMEX> <ENAMEX TYPE=\"PERSON\">[ L. S.]\nDotter</ENAMEX>. <ENAMEX TYPE=\"PERSON\">E. Yaw</ENAMEX> ( S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF Town of East Otho</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">24 - day of January\nin the year eighteen\nhundred and ninety</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">R.B. Yaw</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie E.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon Each duely acknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n℗\n<ENAMEX TYPE=\"PERSON\">Edwin F. Beebe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nSadies, day of ember <TIMEX TYPE=\"DATE\">1800</TIMEX> ▓ ▓ ---\\+\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150557_00016_TXT</UNQ>\n<IMID>007150557_00016</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1961</TIMEX>-32807-45632<TIMEX TYPE=\"DATE\">-42</TIMEX></APID>\n<IMGSIZE>3452,<TIMEX TYPE=\"DATE\">4349</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 2\nLiber 184.\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- Chap. 478, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">twenty-fifth day of ⌨⌨⌨ in the year\neighteen hundred and ninety four</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Lottie E. Yaw</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">East Otto</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Cattaraugus\nCounty</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>.\nof the first part, and mansion <ENAMEX TYPE=\"PERSON\">Potter</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX>, <ENAMEX TYPE=\"COREF.loc\">State and County aforesaid</ENAMEX>\nof the second\nond part, Witnesseth,\nThat the said party of the first part, for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and seventy five $ 3750/100 ) Dollars</NUMEX>,\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the said party of the second part, does hereby grant and release unto the said party of the second\npart, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nALL THAT TRACT OR PARCEL OF LAND, situate in the <ENAMEX TYPE=\"LOCALE\">Town of Ashford</ENAMEX> of\n<ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX>,\nand <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, distinguished as being part of lot number sixty two in township\nnumber five in the sixth range of townships of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey\nand bounded as follows: Commencincing at the north east comer of lands deeded by\n<ENAMEX TYPE=\"PERSON\">Calvin Woodruff</ENAMEX> to the trustees of the first fire will Buttist Society of the <ENAMEX TYPE=\"PERSON\">Ashford</ENAMEX>, thence northerly along the highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links, thence south\n<NUMEX TYPE=\"QUANTITY\">sixty two & three fourths</NUMEX> arances west <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty seven and one half</NUMEX> links,\nthence northerly parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain and <NUMEX TYPE=\"QUANTITY\">fifty</NUMEX> links,\nthence Easterly on lands of the said free will <ENAMEX TYPE=\"ORGANIZATION.rel\">Baptist Society</ENAMEX> <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven\nand one half</NUMEX> links, to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">one third</NUMEX> of an acre\nmore or less.\nthe party of the filing that and Ente this conveyance will sell to a mortgage\nof <NUMEX TYPE=\"MONEY\">seventy five dollars</NUMEX> which remains in said given to buquata <ENAMEX TYPE=\"COREF\">su</ENAMEX> ackenbush\nassigned to Shebect matter <ENAMEX TYPE=\"COREF\">who</ENAMEX> is now the owner. and the said party of the\nsecond part agrees to pay the said mortgage within the next <ENAMEX TYPE=\"DURATANNIV\">two years</ENAMEX> with\nand interest,\nTogether, with the appurtenances; and all the estate and rights of the said part of the first part, in and to said premises. To have and to hold.\nthe above granted premises unto the said part of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said <ENAMEX TYPE=\"PERSON\">R.B. You</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie</ENAMEX> & do covenant with the said party of the second part as follows:\nThat the party of the second part shall quitly enjoy the said premises.\nThat the said Parties of the lout part\nwill forever warrant the Title to said premises.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Wilbereof, the said parties of the first part have hereunto set the hand - and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nIn the presence of\n<ENAMEX TYPE=\"PERSON\">R.B. Wall</ENAMEX> <ENAMEX TYPE=\"PERSON\">[ L. S.]\nDotter</ENAMEX>. <ENAMEX TYPE=\"PERSON\">E. Yaw</ENAMEX> ( S.)\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">COUNTY OF Town of East Otho</ENAMEX>\nOn the <TIMEX TYPE=\"DATE\">24 - day of January\nin the year eighteen\nhundred and ninety</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, personally came <ENAMEX TYPE=\"PERSON\">R.B. Yaw</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Dollie E.</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and known to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing instrument and <ENAMEX TYPE=\"COREF\">they</ENAMEX> thereupon Each duely acknowledged\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n℗\n<ENAMEX TYPE=\"PERSON\">Edwin F. Beebe</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nSadies, day of ember <TIMEX TYPE=\"DATE\">1800</TIMEX> ▓ ▓ ---\\+\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150557_00016_TXT</UNQ>\n<IMID>007150557_00016</IMID>\n<APID>TH-1961-32807-45632-42</APID>\n<IMGSIZE>3452,4349</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[533,392:663,450] 1 2\n[1582,438:1783,477] Liber [1789,438:1905,477] 184.\n[837,459:1029,488] WARRANTY [1026,459:1120,488] DEED. [1113,459:1144,488] -- [1137,459:1202,488] Chap. [1199,459:1247,488] 478, [1249,459:1305,488] 1890.\n[797,521:1020,611] This [1029,521:1507,611] Indenture, [1540,521:1619,611] Made [1620,521:1683,611] the [1684,521:1859,611] twenty-fifth [2076,521:2131,611] day [2124,521:2179,611] of [2188,521:2530,611] ⌨⌨⌨ [2531,521:2578,611] in [2571,521:2618,611] the [2619,521:2743,611] year\n[768,622:892,683] eighteen [894,622:1009,683] hundred [1003,622:1068,683] and [1062,622:1169,683] ninety [1171,622:1480,683] four [1481,622:1648,683] Between [1658,622:1832,683] Lottie [1834,622:1883,683] E. [1893,622:2017,683] Yaw [2010,622:2076,683] of [2078,622:2202,683] East [2212,622:2311,683] Otto, [2329,622:2674,683] Cattaraugus\n[780,676:967,710] County [967,676:1092,710] and [1096,676:1240,710] State [1240,676:1293,710] of [1297,676:1408,710] New [1402,676:1523,710] York.\n[773,781:809,819] of [810,781:863,819] the [863,781:932,819] first [927,781:996,819] part, [1002,781:1081,819] and [1082,781:1326,819] mansion [1327,781:1496,819] Potter [1497,781:1550,819] of [1551,781:1646,819] the [1641,781:1779,819] Town [1774,781:1832,819] of [1833,781:2034,819] Ashford, [2046,781:2178,819] State [2179,781:2280,819] and [2280,781:2450,819] County [2451,781:2708,819] aforesaid\n[2244,848:2282,871] of [2277,848:2332,871] the [2327,848:2443,871] second\n[2366,848:2426,877] ond [2423,848:2488,877] part, [2501,848:2677,877] Witnesseth,\n[772,882:843,923] That [839,882:893,923] the [890,882:955,923] said [946,882:1056,923] party [1052,882:1095,923] of [1085,882:1140,923] the [1136,882:1201,923] first [1197,882:1263,923] part, [1264,882:1319,923] for [1315,882:1369,923] and [1365,882:1408,923] in [1404,882:1587,923] consideration [1583,882:1621,923] of [1611,882:1665,923] the [1662,882:1727,923] sum [1723,882:1772,923] of [1768,882:1895,923] Three [1891,882:2085,923] hundred [2076,882:2135,923] and [2137,882:2303,923] seventy [2299,882:2393,923] five [2389,882:2426,923] $ [2422,882:2521,923] 3750/100 [2545,882:2572,923] ) [2573,882:2678,923] Dollars,\n[769,928:861,970] lawful [857,928:954,970] money [951,928:990,970] of [986,928:1042,970] the [1039,928:1136,970] United [1133,928:1224,970] States, [1232,928:1300,970] paid [1297,928:1341,970] by [1332,928:1388,970] the [1385,928:1447,970] said [1443,928:1558,970] party [1555,928:1599,970] of [1590,928:1646,970] the [1642,928:1740,970] second [1736,928:1804,970] part, [1812,928:1892,970] does [1889,928:1991,970] hereby [1982,928:2068,970] grant [2064,928:2120,970] and [2117,928:2214,970] release [2211,928:2284,970] unto [2281,928:2331,970] the [2328,928:2390,970] said [2387,928:2501,970] party [2498,928:2542,970] of [2533,928:2589,970] the [2586,928:2739,970] second\n[766,974:834,1005] part, [863,974:1031,1005] her [1025,974:1102,1005] heirs [1100,974:1159,1005] and [1152,974:1268,1005] assigns [1262,974:1369,1005] forever,\n[769,1018:837,1057] ALL [833,1018:917,1057] THAT [913,1018:1008,1057] TRACT [1009,1018:1055,1057] OR [1051,1018:1162,1057] PARCEL [1158,1018:1205,1057] OF [1200,1018:1284,1057] LAND, [1291,1018:1391,1057] situate [1387,1018:1423,1057] in [1419,1018:1492,1057] the [1498,1018:1774,1057] Town [1770,1018:1817,1057] of [1818,1018:2083,1057] Ashford [2084,1018:2184,1057] of\n[2373,1024:2479,1057] County [2473,1024:2515,1057] of [2509,1024:2672,1057] Cattaraugus,\n[768,1064:829,1097] and [823,1064:906,1097] State [900,1064:937,1097] of [936,1064:1010,1097] New [1008,1064:1082,1097] York, [1094,1064:1431,1097] distinguished [1429,1064:1494,1097] as [1488,1064:1635,1097] being [1633,1064:1752,1097] part [1751,1064:1807,1097] of [1805,1064:1884,1097] lot [1878,1064:2069,1097] number [2063,1064:2196,1097] sixty [2190,1064:2282,1097] two [2276,1064:2350,1097] in [2348,1064:2608,1097] township\n[764,1110:936,1147] number [931,1110:1027,1147] five [1022,1110:1098,1147] in [1093,1110:1173,1147] the [1174,1110:1295,1147] sixth [1295,1110:1447,1147] range [1447,1110:1497,1147] of [1497,1110:1735,1147] townships [1730,1110:1786,1147] of [1781,1110:1872,1147] the [1872,1110:2074,1147] Holland [2074,1110:2216,1147] Land [2221,1110:2418,1147] Company's [2444,1110:2643,1147] survey\n[760,1156:858,1187] and [856,1156:1065,1187] bounded [1063,1156:1117,1187] as [1120,1156:1275,1187] follows: [1287,1156:1601,1187] Commencincing [1599,1156:1658,1187] at [1656,1156:1737,1187] the [1735,1156:1860,1187] north [1858,1156:1961,1187] east [1959,1156:2110,1187] comer [2109,1156:2163,1187] of [2161,1156:2308,1187] lands [2306,1156:2484,1187] deeded [2482,1156:2585,1187] by\n[763,1196:930,1233] Calvin [925,1196:1147,1233] Woodruff [1147,1196:1203,1233] to [1203,1196:1294,1233] the [1294,1196:1501,1233] trustees [1497,1196:1552,1233] of [1552,1196:1643,1233] the [1643,1196:1760,1233] first [1760,1196:1866,1233] fire [1861,1196:1962,1233] will [1962,1196:2139,1233] Buttist [2139,1196:2311,1233] Society [2311,1196:2367,1233] of [2367,1196:2453,1233] the [762,1242:937,1281] Ashford, [948,1242:1102,1281] thence [1108,1242:1304,1281] northerly [1305,1242:1437,1281] along [1433,1242:1517,1281] the [1518,1242:1709,1281] highway [1710,1242:1799,1281] one [1795,1242:1933,1281] chains [1934,1242:2039,1281] and [2040,1242:2146,1281] fifty [2147,1242:2268,1281] links, [2280,1242:2444,1281] thence [2440,1242:2608,1281] south\n[760,1288:880,1319] sixty [878,1288:963,1319] two [957,1288:977,1319] & [997,1288:1117,1319] three [1115,1288:1280,1319] fourths [1282,1288:1447,1319] arances [1445,1288:1565,1319] west [1564,1288:1645,1319] two [1643,1288:1798,1319] chains [1796,1288:1904,1319] and [1898,1288:2040,1319] thirty [2038,1288:2172,1319] seven [2170,1288:2268,1319] and [2267,1288:2356,1319] one [2355,1288:2457,1319] half [2456,1288:2589,1319] links,\n[760,1334:895,1369] thence [899,1334:1125,1369] northerly [1124,1334:1326,1369] parallel [1326,1334:1384,1369] to [1383,1334:1470,1369] the [1470,1334:1585,1369] first [1580,1334:1830,1369] mentioned [1829,1334:2050,1369] boundary [2049,1334:2141,1369] one [2136,1334:2270,1369] chain [2265,1334:2376,1369] and [2375,1334:2486,1369] fifty [2485,1334:2606,1369] links,\n[756,1380:933,1411] thence [931,1380:1118,1411] Easterly [1112,1380:1184,1411] on [1182,1380:1324,1411] lands [1322,1380:1381,1411] of [1375,1380:1456,1411] the [1454,1380:1570,1411] said [1569,1380:1676,1411] free [1670,1380:1773,1411] will [1775,1380:1962,1411] Baptist [1969,1380:2137,1411] Society [2136,1380:2225,1411] two [2223,1380:2379,1411] chains [2377,1380:2520,1411] thirty [2522,1380:2689,1411] seven\n[761,1420:855,1468] and [854,1420:949,1468] one [954,1420:1055,1468] half [1054,1420:1182,1468] links, [1193,1420:1248,1468] to [1247,1420:1328,1468] the [1333,1420:1481,1468] place [1480,1420:1535,1468] of [1540,1420:1794,1468] beginning, [1806,1420:2067,1468] containing [2072,1420:2161,1468] one [2159,1420:2294,1468] third [2292,1420:2347,1468] of [2352,1420:2434,1468] an [2432,1420:2585,1468] acre\n[753,1464:867,1497] more [866,1464:921,1497] or [924,1464:1025,1497] less.\n[781,1520:871,1545] the [871,1520:1012,1545] party [1011,1520:1065,1545] of [1061,1520:1148,1545] the [1140,1520:1310,1545] filing [1306,1520:1443,1545] that [1442,1520:1522,1545] and [1518,1520:1615,1545] Ente [1611,1520:1713,1545] this [1712,1520:2007,1545] conveyance [2003,1520:2094,1545] will [2086,1520:2191,1545] sell [2194,1520:2263,1545] to [2258,1520:2309,1545] a [2305,1520:2581,1545] mortgage\n[748,1554:802,1589] of [796,1554:1013,1589] seventy [1012,1554:1113,1589] five [1113,1554:1295,1589] dollars [1295,1554:1458,1589] which [1453,1554:1674,1589] remains [1673,1554:1741,1589] in [1741,1554:1885,1589] said [1884,1554:2029,1589] given [2028,1554:2091,1589] to [2091,1554:2302,1589] buquata [2306,1554:2379,1589] su [2373,1554:2666,1589] ackenbush\n[748,1602:985,1635] assigned [984,1602:1049,1635] to [1047,1602:1234,1635] Shebect [1233,1602:1429,1635] matter [1427,1602:1533,1635] who [1527,1602:1583,1635] is [1581,1602:1696,1635] now [1695,1602:1791,1635] the [1790,1602:1940,1635] owner. [1953,1602:2067,1635] and [2070,1602:2153,1635] the [2147,1602:2280,1635] said [2274,1602:2420,1635] party [2419,1602:2475,1635] of [2473,1602:2597,1635] the\n[748,1648:916,1694] second [914,1648:1044,1694] part [1042,1648:1204,1694] agrees [1201,1648:1261,1694] to [1265,1648:1370,1694] pay [1374,1648:1472,1694] the [1470,1648:1606,1694] said [1611,1648:1837,1694] mortgage [1834,1648:2003,1694] within [2001,1648:2086,1694] the [2090,1648:2207,1694] next [2205,1648:2291,1694] two [2288,1648:2425,1694] years [2423,1648:2570,1694] with\n[747,1694:923,1719] and [919,1694:1128,1719] interest,\n[766,2312:925,2351] Together, [931,2312:999,2351] with [995,2312:1047,2351] the [1043,2312:1244,2351] appurtenances; [1251,2312:1308,2351] and [1304,2312:1346,2351] all [1341,2312:1393,2351] the [1389,2312:1473,2351] estate [1469,2312:1527,2351] and [1522,2312:1612,2351] rights [1602,2312:1644,2351] of [1634,2312:1686,2351] the [1682,2312:1745,2351] said [1741,2312:1851,2351] part [1847,2312:1889,2351] of [1879,2312:1931,2351] the [1927,2312:1990,2351] first [1986,2312:2054,2351] part, [2055,2312:2091,2351] in [2087,2312:2144,2351] and [2140,2312:2176,2351] to [2172,2312:2235,2351] said [2231,2312:2357,2351] premises. [2369,2312:2421,2351] To [2417,2312:2496,2351] have [2492,2312:2555,2351] and [2550,2312:2592,2351] to [2593,2312:2666,2351] hold.\n[766,2358:818,2397] the [814,2358:903,2397] above [899,2358:1010,2397] granted [1005,2358:1132,2397] premises [1128,2358:1196,2397] unto [1192,2358:1244,2397] the [1240,2358:1303,2397] said [1298,2358:1414,2397] part [1410,2358:1446,2397] of [1442,2358:1494,2397] the [1490,2358:1590,2397] second [1586,2358:1654,2397] part, [1671,2358:1819,2397] his [1815,2358:1894,2397] heirs [1889,2358:1947,2397] and [1942,2358:2043,2397] assigns [2038,2358:2144,2397] forever.\n[765,2410:835,2442] And [829,2410:884,2442] the [878,2410:948,2442] said [946,2410:993,2442] R.B. [1032,2410:1129,2442] You [1123,2410:1192,2442] and [1191,2410:1342,2442] Dollie [1340,2410:1808,2442] & [1806,2410:1880,2442] do [1879,2410:2002,2442] covenant [2001,2410:2070,2442] with [2064,2410:2120,2442] the [2114,2410:2179,2442] said [2173,2410:2283,2442] party [2281,2410:2319,2442] of [2313,2410:2369,2442] the [2363,2410:2464,2442] second [2458,2410:2523,2442] part [2521,2410:2559,2442] as [2553,2410:2668,2442] follows:\n[771,2458:883,2508] That [882,2458:960,2508] the [965,2458:1084,2508] party [1083,2458:1133,2508] of [1138,2458:1216,2508] the [1208,2458:1375,2508] second [1374,2458:1493,2508] part [1492,2458:1618,2508] shall [1616,2458:1791,2508] quitly [1790,2458:1929,2508] enjoy [1928,2458:2012,2508] the [2018,2458:2130,2508] said [2129,2458:2338,2508] premises.\n[908,2766:982,2799] That [976,2766:1031,2799] the [1025,2766:1095,2799] said [1093,2766:1258,2799] Parties [1256,2766:1303,2799] of [1301,2766:1384,2799] the [1387,2766:1502,2799] lout [1500,2766:1657,2799] part\n[2057,2770:2121,2800] will [2114,2770:2221,2800] forever [2215,2770:2331,2800] warrant [2325,2770:2379,2800] the [2377,2770:2449,2800] Title [2443,2770:2484,2800] to [2478,2770:2541,2800] said [2540,2770:2664,2800] premises.\n[766,2818:824,2856] In [825,2818:989,2856] Witness [984,2818:1143,2856] Wilbereof, [1149,2818:1207,2856] the [1197,2818:1266,2856] said [1261,2818:1372,2856] parties [1368,2818:1409,2856] of [1405,2818:1457,2856] the [1453,2818:1516,2856] first [1512,2818:1580,2856] part [1576,2818:1660,2856] have [1661,2818:1788,2856] hereunto [1778,2818:1836,2856] set [1831,2818:1969,2856] the [1970,2818:2049,2856] hand [2039,2818:2065,2856] - [2060,2818:2118,2856] and [2113,2818:2192,2856] seal [2188,2818:2246,2856] the [2241,2818:2299,2856] day [2295,2818:2352,2856] and [2348,2818:2421,2856] year [2412,2818:2480,2856] first [2476,2818:2565,2856] above [2561,2818:2661,2856] written.\n[905,2883:947,2910] In [944,2883:997,2910] the [994,2883:1121,2910] presence [1117,2883:1210,2910] of\n[2216,2877:2266,2913] R.B. [2312,2877:2584,2913] Wall [2585,2877:2615,2913] [ [2600,2877:2635,2913] L. [2630,2877:2665,2913] S.]\n[2209,2919:2341,2980] Dotter. [2360,2919:2400,2980] E. [2402,2919:2576,2980] Yaw [2578,2919:2601,2980] ( [2586,2919:2651,2980] S.)\n[812,3005:987,3084] STATE [988,3005:1059,3084] OF [1068,3005:1202,3084] NEW [1211,3005:1346,3084] YORK. [767,3047:878,3072] COUNTY [874,3047:929,3072] OF [798,3097:965,3126] Town [963,3097:1023,3126] of [1020,3097:1146,3126] East [1148,3097:1410,3126] Otho\n[1482,3084:1528,3130] On [1526,3084:1637,3130] the [1641,3084:1714,3130] 24 [1705,3084:1911,3130] - [1909,3084:1956,3130] day [1954,3084:2033,3130] of [2037,3084:2323,3130] January\n[2452,3101:2485,3126] in [2481,3101:2524,3126] the [2520,3101:2578,3126] year [2570,3101:2728,3126] eighteen\n[767,3130:865,3170] hundred [856,3130:910,3170] and [901,3130:1229,3170] ninety [1231,3130:1308,3170] before [1304,3130:1347,3170] me, [1343,3130:1464,3170] personally [1460,3130:1537,3170] came [1533,3130:1593,3170] R.B. [1639,3130:1755,3170] Yaw [1751,3130:1822,3170] and [1824,3130:1968,3170] Dollie [1970,3130:2018,3170] E. [2031,3130:2108,3170] his [2104,3130:2304,3170] wife\n[766,3223:800,3267] to [791,3223:836,3267] me [828,3223:916,3267] known [907,3223:959,3267] and [950,3223:1033,3267] known [1030,3223:1063,3267] to [1054,3223:1100,3267] me [1091,3223:1125,3267] to [1122,3223:1155,3267] be [1153,3223:1198,3267] the [1189,3223:1308,3267] individual [1318,3223:1425,3267] described [1416,3223:1449,3267] in, [1453,3223:1499,3267] and [1496,3223:1548,3267] who [1545,3223:1646,3267] executed [1643,3223:1689,3267] the [1680,3223:1793,3267] foregoing [1784,3223:1909,3267] instrument [1907,3223:1958,3267] and [1956,3223:2032,3267] they [2029,3223:2154,3267] thereupon [2158,3223:2283,3267] Each [2287,3223:2522,3267] duely [2520,3223:2732,3267] acknowledged\n[764,3267:798,3302] to [793,3267:836,3302] me [831,3267:889,3302] that [884,3267:966,3302] they [965,3267:1066,3302] executed [1060,3267:1104,3302] the [1099,3267:1166,3302] same.\n[1452,3290:1637,3350] ℗\n[1801,3296:1993,3331] Edwin [1992,3296:2040,3331] F. [2044,3296:2238,3331] Beebe\n[1903,3336:2091,3400] Notary [2102,3336:2331,3400] Public\n[578,3330:667,3269] Sadies, [578,3267:667,3263] day [578,3264:667,3260] of [578,3259:667,3245] ember [578,3246:667,2245] 1800 ▓ ▓ ---\\+\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150557"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00016"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150557_00016"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TH7F-W"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,84 @@
+<NBX> <UNQ>007150399_00994_TXT</UNQ> <IMID>007150399_00994</IMID> <APID>TH-1961-32807-11615-78</APID> <IMGSIZE>2999,4071</IMGSIZE> <PLACE><ENAMEX TYPE="LOCALE">Cattaraugus</ENAMEX>, <ENAMEX TYPE="LOCALE">New York</ENAMEX>, <ENAMEX TYPE="LOCALE">United States</ENAMEX></PLACE> <SBODY>3 3 6 WARRANTY <ENAMEX TYPE="EVENT.xlife">DEED</ENAMEX>. This <ENAMEX TYPE="EVENT.xlife">Indenture</ENAMEX>, Made this <TIMEX TYPE="DATE">day of in the year of our Lord one thousand eight hundred and seventy four</TIMEX> Between <ENAMEX TYPE="PERSON">Elizabeth Secrited</ENAMEX> formerly <ENAMEX TYPE="PERSON">Elizabeth Rudolph</ENAMEX> of <ENAMEX TYPE="LOCALE">Buffalo</ENAMEX> <ENAMEX TYPE="LOCALE">New York</ENAMEX> of the first part, and <ENAMEX TYPE="PERSON">Thomas McKay</ENAMEX> of <ENAMEX TYPE="LOCALE">Oleca Cattaraugus</ENAMEX> County of the second part <ENAMEX TYPE="LOCALE">Wis</ENAMEX>, That the said party of the first part, in consideration of the sum of <NUMEX TYPE="MONEY">four hundred Dollars</NUMEX>, to be duly paid, hath sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE="COREF">his</ENAMEX> <ENAMEX TYPE="NONFAMILY">heirs</ENAMEX>, and <ENAMEX TYPE="NONFAMILY">assigns</ENAMEX>, ALL THAT TRACT OR PARCE OF LAND, situate in the <ENAMEX TYPE="LOCALE">Village of Olera</ENAMEX> in the <ENAMEX TYPE="LOCALE">County of Cataraugus</ENAMEX> and <ENAMEX TYPE="LOCALE">State of New York</ENAMEX> and Known as the east undivided <NUMEX TYPE="QUANTITY">one half</NUMEX> part of all that piece or parcel of land described on a map of <ENAMEX TYPE="COREF.loc">said Village</ENAMEX> made by <ENAMEX TYPE="PERSON">J.J. Gossline</ENAMEX> <ENAMEX TYPE="TITLE">Esq.</ENAMEX> and which said map is now on file in the office of the <ENAMEX TYPE="OCCUPATION">Comptroller</ENAMEX> of the <ENAMEX TYPE="LOCALE">State of New York</ENAMEX> as Block seventy six ( <ENAMEX TYPE="AGE">76</ENAMEX>) in said <ENAMEX TYPE="LOCALE">village of Oliver</ENAMEX>, containing <NUMEX TYPE="QUANTITY">two ( 2)</NUMEX> acres be the same more or less, The party of the first part to put the party of second part in possession of said premises at <ENAMEX TYPE="COREF">her</ENAMEX> own costs & expeace. Wit SppurtaHEES, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE="PERSON">Elizabeth Secretter</ENAMEX> formerly <ENAMEX TYPE="PERSON">Elizabeth Rudolph</ENAMEX> doth hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE="COREF">his</ENAMEX> <ENAMEX TYPE="NONFAMILY">heirs</ENAMEX> and <ENAMEX TYPE="NONFAMILY">assigns</ENAMEX> that the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE="COREF">her</ENAMEX> <ENAMEX TYPE="NONFAMILY">heirs</ENAMEX> and <ENAMEX TYPE="NONFAMILY">assigns</ENAMEX>, will forever WARRANT AND DEFEND against any person <ENAMEX TYPE="COREF">whomsoever</ENAMEX> lawfully claiming the same or any part thereof. In Witness whereof, The party of the first part, hath hereunto set <ENAMEX TYPE="COREF">her</ENAMEX> hand and seal the <TIMEX TYPE="COREF.dat">day and year first above written</TIMEX>. Sealed and Delivered in Presence of <ENAMEX TYPE="PERSON">Elizabeth Sureiter</ENAMEX> ℗ [ L.S.] <ENAMEX TYPE="LOCALE">STATE OF NEW YORK</ENAMEX>, S. <ENAMEX TYPE="LOCALE">CATTARAGUS COUNTY</ENAMEX>. <TIMEX TYPE="DATE">ninth day of seventy four</TIMEX> before <ENAMEX TYPE="COREF">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE="PERSON">Elizabeth Secrister</ENAMEX> to <ENAMEX TYPE="COREF">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE="COREF">who</ENAMEX> executed the within instrument, and severally acknowledged that <ENAMEX TYPE="COREF">they</ENAMEX> executed the same, and the said <ENAMEX TYPE="PERSON">Elizabeth</ENAMEX> on a private examination by <ENAMEX TYPE="COREF">me</ENAMEX>, apart from <ENAMEX TYPE="COREF">her</ENAMEX> said <ENAMEX TYPE="FAMILYMEMBER">husband</ENAMEX>, acknowledged that <ENAMEX TYPE="COREF">she</ENAMEX> executed the same freely, and without any fear or compulsion of <ENAMEX TYPE="COREF">her</ENAMEX> said <ENAMEX TYPE="FAMILYMEMBER">husband</ENAMEX>. <ENAMEX TYPE="PERSON">L. J. Lawton</ENAMEX>, Record and an end in the </SBODY> </NBX>  
+<RELEX TYPE="E1:HAS_STDATE"_STID="216"_ENDID="237"_STTOKEN="Indenture"_ENDTOKEN="day of in the year of our Lord one thousand eight hundred and seventy four">
+<RELEX TYPE="E2:HAS_RESPL"_STID="348"_ENDID="369"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Buffalo">
+<RELEX TYPE="E2:HAS_RESPL"_STID="409"_ENDID="425"_STTOKEN="Thomas McKay"_ENDTOKEN="Oleca Cattaraugus">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1031"_ENDID="795"_STTOKEN="State of New York"_ENDTOKEN="State of New York">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1388"_ENDID="348"_STTOKEN="Elizabeth Secretter"_ENDTOKEN="Elizabeth Rudolph">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1417"_ENDID="1388"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Elizabeth Secretter">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="151"_ENDID="795"_STTOKEN="New York"_ENDTOKEN="State of New York">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1644"_ENDID="1249"_STTOKEN="her"_ENDTOKEN="her">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1844"_ENDID="1249"_STTOKEN="her"_ENDTOKEN="her">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1936"_ENDID="1417"_STTOKEN="Elizabeth Sureiter"_ENDTOKEN="Elizabeth Rudolph">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1965"_ENDID="795"_STTOKEN="STATE OF NEW YORK"_ENDTOKEN="State of New York">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2079"_ENDID="1936"_STTOKEN="Elizabeth Secrister"_ENDTOKEN="Elizabeth Sureiter">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2102"_ENDID="2039"_STTOKEN="me"_ENDTOKEN="me">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2256"_ENDID="2079"_STTOKEN="Elizabeth"_ENDTOKEN="Elizabeth Secrister">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2294"_ENDID="2039"_STTOKEN="me"_ENDTOKEN="me">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2309"_ENDID="1249"_STTOKEN="her"_ENDTOKEN="her">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2345"_ENDID="1249"_STTOKEN="she"_ENDTOKEN="her">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2413"_ENDID="1249"_STTOKEN="her"_ENDTOKEN="her">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="348"_ENDID="320"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Elizabeth Secrited">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="377"_ENDID="795"_STTOKEN="New York"_ENDTOKEN="State of New York">
+<RELEX TYPE="S=2+"_STID="1388"_ENDID="1388"_STTOKEN="Elizabeth Secretter"_ENDTOKEN="Secretter">
+<RELEX TYPE="S=2+"_STID="1417"_ENDID="1417"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Rudolph">
+<RELEX TYPE="S=2+"_STID="1936"_ENDID="1936"_STTOKEN="Elizabeth Sureiter"_ENDTOKEN="Sureiter">
+<RELEX TYPE="S=2+"_STID="2079"_ENDID="2079"_STTOKEN="Elizabeth Secrister"_ENDTOKEN="Secrister">
+<RELEX TYPE="S=2+"_STID="320"_ENDID="320"_STTOKEN="Elizabeth Secrited"_ENDTOKEN="Secrited">
+<RELEX TYPE="S=2+"_STID="348"_ENDID="348"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Rudolph">
+<RELEX TYPE="S=2+"_STID="409"_ENDID="409"_STTOKEN="Thomas McKay"_ENDTOKEN="McKay">
+<RELEX TYPE="S=2+"_STID="938"_ENDID="938"_STTOKEN="J.J. Gossline"_ENDTOKEN="Gossline">
+<RELEX TYPE="S=3+"_STID="2431"_ENDID="2431"_STTOKEN="L. J. Lawton"_ENDTOKEN="Lawton">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="1513"_ENDID="1517"_STTOKEN="his"_ENDTOKEN="heirs">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="1513"_ENDID="1527"_STTOKEN="his"_ENDTOKEN="assigns">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="1644"_ENDID="1648"_STTOKEN="her"_ENDTOKEN="heirs">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="1644"_ENDID="1658"_STTOKEN="her"_ENDTOKEN="assigns">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="2256"_ENDID="2422"_STTOKEN="Elizabeth"_ENDTOKEN="husband">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="2309"_ENDID="2318"_STTOKEN="her"_ENDTOKEN="husband">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="2413"_ENDID="2422"_STTOKEN="her"_ENDTOKEN="husband">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="674"_ENDID="678"_STTOKEN="his"_ENDTOKEN="heirs">
+<RELEX TYPE="Z:HAS_EVENT"_STID="1388"_ENDID="205"_STTOKEN="Elizabeth Secretter"_ENDTOKEN="DEED">
+<RELEX TYPE="Z:HAS_EVENT"_STID="1388"_ENDID="216"_STTOKEN="Elizabeth Secretter"_ENDTOKEN="Indenture">
+<RELEX TYPE="Z:HAS_EVENT"_STID="320"_ENDID="216"_STTOKEN="Elizabeth Secrited"_ENDTOKEN="Indenture">
+<RELEX TYPE="Z:IS_PRINCIPAL"_STID="320"_ENDID="320"_STTOKEN="Elizabeth Secrited"_ENDTOKEN="Elizabeth Secrited">
+<RELEX TYPE="Z:IS_PRINCIPAL"_STID="348"_ENDID="348"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Elizabeth Rudolph">
+<RELEX TYPE="Z:SUBPLACE_OF"_STID="138"_ENDID="151"_STTOKEN="Cattaraugus"_ENDTOKEN="New York">
+<RELEX TYPE="Z:SUBPLACE_OF"_STID="151"_ENDID="161"_STTOKEN="New York"_ENDTOKEN="United States">
+<RELEX TYPE="Z:SUBPLACE_OF"_STID="369"_ENDID="377"_STTOKEN="Buffalo"_ENDTOKEN="New York">
+<RELEX TYPE="Z:TITLE_OF"_STID="938"_ENDID="952"_STTOKEN="J.J. Gossline"_ENDTOKEN="Esq.">
+<RELEX TYPE="Z:SUBPLACE_OF"_STID="425"_ENDID="377"_STTOKEN="Oleca Cattaraugus"_ENDTOKEN="New York">
+<RELEX TYPE="E1:HAS_STDATE"_STID="205"_ENDID="237"_STTOKEN="DEED"_ENDTOKEN="day of in the year of our Lord one thousand eight hundred and seventy four">
+<RELEX TYPE="Z:HAS_EVENT"_STID="320"_ENDID="205"_STTOKEN="Elizabeth Secrited"_ENDTOKEN="DEED">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="674"_ENDID="409"_STTOKEN="his"_ENDTOKEN="Thomas McKay">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1513"_ENDID="409"_STTOKEN="his"_ENDTOKEN="Thomas McKay">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1249"_ENDID="320"_STTOKEN="her"_ENDTOKEN="Elizabeth Secrited">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1644"_ENDID="1388"_STTOKEN="her"_ENDTOKEN="Elizabeth Secretter">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2422"_ENDID="2318"_STTOKEN="husband"_ENDTOKEN="husband">
+<RELEX TYPE="Z:IS_PRINCIPAL"_STID="409"_ENDID="409"_STTOKEN="Thomas McKay"_ENDTOKEN="Thomas McKay">
+<RELEX TYPE="E1:HAS_ST_PL"_STID="205"_ENDID="1987"_STTOKEN="DEED"_ENDTOKEN="CATTARAGUS COUNTY">
+<RELEX TYPE="E1:HAS_ST_PL"_STID="216"_ENDID="1987"_STTOKEN="Indenture"_ENDTOKEN="CATTARAGUS COUNTY">
+<RELEX TYPE="Z:HAS_EVENT"_STID="216"_ENDID="348"_STTOKEN="Indenture"_ENDTOKEN="Elizabeth Rudolph">
+<RELEX TYPE="Z:HAS_EVENT"_STID="205"_ENDID="348"_STTOKEN="DEED"_ENDTOKEN="Elizabeth Rudolph">
+<RELEX TYPE="Z:HAS_EVENT"_STID="216"_ENDID="409"_STTOKEN="Indenture"_ENDTOKEN="Thomas McKay">
+<RELEX TYPE="Z:HAS_EVENT"_STID="205"_ENDID="409"_STTOKEN="DEED"_ENDTOKEN="Thomas McKay">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2151"_ENDID="2219"_STTOKEN="who"_ENDTOKEN="they">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="917"_ENDID="746"_STTOKEN="said Village"_ENDTOKEN="Village of Olera">
+<RELEX TYPE="Z:SUBPLACE_OF"_STID="746"_ENDID="770"_STTOKEN="Village of Olera"_ENDTOKEN="County of Cataraugus">
+<RELEX TYPE="Z:SUBPLACE_OF"_STID="770"_ENDID="795"_STTOKEN="County of Cataraugus"_ENDTOKEN="State of New York">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="770"_ENDID="138"_STTOKEN="County of Cataraugus"_ENDTOKEN="Cattaraugus">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1084"_ENDID="746"_STTOKEN="village of Oliver"_ENDTOKEN="Village of Olera">
+<RELEX TYPE="Z:EMPLOYED_BY"_STID="674"_ENDID="689"_STTOKEN="his"_ENDTOKEN="assigns">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1965"_ENDID="1031"_STTOKEN="STATE OF NEW YORK"_ENDTOKEN="State of New York">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="795"_ENDID="1031"_STTOKEN="State of New York"_ENDTOKEN="State of New York">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1987"_ENDID="770"_STTOKEN="CATTARAGUS COUNTY"_ENDTOKEN="County of Cataraugus">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="425"_ENDID="770"_STTOKEN="Oleca Cattaraugus"_ENDTOKEN="County of Cataraugus">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="746"_ENDID="1084"_STTOKEN="Village of Olera"_ENDTOKEN="village of Oliver">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="348"_ENDID="1417"_STTOKEN="Elizabeth Rudolph"_ENDTOKEN="Elizabeth Rudolph">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="320"_ENDID="1388"_STTOKEN="Elizabeth Secrited"_ENDTOKEN="Elizabeth Secretter">
+<RELEX TYPE="Z:HASFAMMEMLST"_STID="674"_ENDID="689"_STTOKEN="his"_ENDTOKEN="assigns">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1844"_ENDID="320"_STTOKEN="her"_ENDTOKEN="Elizabeth Secrited">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="1866"_ENDID="237"_STTOKEN="day and year first above written"_ENDTOKEN="day of in the year of our Lord one thousand eight hundred and seventy four">
+<RELEX TYPE="Z:MEMBER_OF"_STID="320"_ENDID="2219"_STTOKEN="Elizabeth Secrited"_ENDTOKEN="they">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2151"_ENDID="320"_STTOKEN="who"_ENDTOKEN="Elizabeth Secrited">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2256"_ENDID="320"_STTOKEN="Elizabeth"_ENDTOKEN="Elizabeth Secrited">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2309"_ENDID="2256"_STTOKEN="her"_ENDTOKEN="Elizabeth">
+<RELEX TYPE="R40:IS_SAME_AS"_STID="2102"_ENDID="2431"_STTOKEN="me"_ENDTOKEN="L. J. Lawton">

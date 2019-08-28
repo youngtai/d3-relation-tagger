@@ -1,0 +1,767 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028315433356",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557431905161
+    },
+    "description" : "#s_6917529028315433356",
+    "persons" : [ {
+      "id" : "p_6917529030805273356",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z65R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Edwin R Cornwell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Edwin R",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Edwin R"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Cornwell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Cornwell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Edwin R Cornwell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.58315855,0.14131455,0.6287084,0.15234742",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6281091,0.14131455,0.64638895,0.15234742",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6496853,0.14131455,0.7108181,0.15234742",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Edwin R. Cornwell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24153431,0.5230047,0.28258914,0.53521127",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.28468683,0.5230047,0.30206773,0.53521127",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30386576,0.5230047,0.36649686,0.53521127",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Edwin R Cornwell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5882529,0.6140845,0.6023374,0.62323946",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60443515,0.6140845,0.6221157,0.62323946",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6239137,0.6140845,0.700929,0.62323946",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "E R Cornwell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4812706,0.6730047,0.5238238,0.68568075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.52592146,0.6730047,0.5439017,0.68568075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5439017,0.6730047,0.6107282,0.68568075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Edwin R Cornwell"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Town of Freedom",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3206473,0.14929578,0.35361102,0.16455398",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35391068,0.14929578,0.36559784,0.16455398",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3658975,0.14929578,0.42073718,0.16455398",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Town of Freedom"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z65R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805273456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z65B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Malvina Cornwell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Malvina",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Malvina"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Cornwell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Cornwell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Malvina Cornwell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7434822,0.14131455,0.8169014,0.15234742",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Malvina"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.40095896,0.5230047,0.46359006,0.53521127",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Malvina"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5882529,0.62511736,0.6484867,0.6328639",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6496853,0.62511736,0.7231046,0.6328639",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Malvina Cornwell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6442913,0.6730047,0.7024273,0.68568075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Malvina"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z65B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805273556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z6R9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Frank Chapman",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Frank",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Frank"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Chapman",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Chapman"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Frank Chapman"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3308361,0.17089202,0.38387772,0.18262911",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38567576,0.17089202,0.45579863,0.18262911",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Frank Chapman"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z6R9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805273656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z6R7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Mrs Mary Burlesons",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Prefix",
+            "value" : "Mrs",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Prefix",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_PRE",
+                "text" : "Mrs"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Mary",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Mary"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Burlesons",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Burlesons"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Mrs Mary Burlesons"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7156128,0.25140846,0.7539706,0.26314554",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.753671,0.25140846,0.82469285,0.26314554",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary Burlesons"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z6R7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030805273756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z6RH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Geo W Haskell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Geo W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Geo W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Haskell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Haskell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Geo W Haskell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.514534,0.7025822,0.5451004,0.71314555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5462991,0.7025822,0.5639796,0.71314555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5669763,0.7025822,0.64728796,0.71314555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Geo W. Haskell"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Justice Of The Peace",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Justice Of The Peace"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-Z6RH-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030805273356",
+        "resourceId" : "p_6917529030805273356"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030805273456",
+        "resourceId" : "p_6917529030805273456"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_INV_ORIG",
+          "text" : "Wife"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028315433356",
+      "about" : "#r_6917529028315433356",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TJFB-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9W6-VSTZ",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9W6-VSTZ" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150538_00031_TXT</UNQ>\n<IMID>007150538_00031</IMID>\n<APID>TH-1971-32808-2590-63</APID>\n<IMGSIZE>3337,4260</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>Liber 145.\n27 WARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>.\nMade this <TIMEX TYPE=\"DATE\">Fifth\nday of April\nin the year\nof our Lord one thousand eight hundred and Eighty nine</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Edwin R. Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX>\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Frank Chapman</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said part of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and Twenty\nDollars</NUMEX>, (<NUMEX TYPE=\"MONEY\">$320.00</NUMEX> to <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents, do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Freedom County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as follows: Being part of lot No 37 Town 6 <ENAMEX TYPE=\"LOCALE.notgpe\">Range 3</ENAMEX>. Holland Companys Survey\nBeginning at a point in the center of highway at the north west corner of <ENAMEX TYPE=\"TITLE\">Mrs</ENAMEX> <ENAMEX TYPE=\"PERSON\">Mary Burlesons</ENAMEX>\nland thence running South <NUMEX TYPE=\"QUANTITY\">Twenty</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> minutes west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains thence westerly parallel 10\nthe highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain thence north <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> minutes east <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">ninety\nEight</NUMEX> links to the center of the highway thence along said highway south <NUMEX TYPE=\"QUANTITY\">seventy one</NUMEX> degrees\n<NUMEX TYPE=\"QUANTITY\">thirty</NUMEX> minutes East <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">Twenty five</NUMEX> links, to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">thirty\nfour one hundredths</NUMEX> of an acre of land be the same more or less,\nWin the appurtenances and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> parties of the first part\ndo -- hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E R Cornwell</ENAMEX>\nSealed and Delivered in Presence of\n[ L. S.\n<ENAMEX TYPE=\"PERSON\">Malvina Cornwell</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nS T .\n<ENAMEX TYPE=\"LOCALE\">County of CATTARAUGUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> ┃ On this <TIMEX TYPE=\"DATE\">11th day of April in the year one thousand eight hundred and\nEighty Nine</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severely acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">Geo W. Haskell</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Justice of the Peace</ENAMEX>\nand, amid and compared with the only <TIMEX TYPE=\"DATE.non\">12th__day of February</TIMEX>__is\n<TIMEX TYPE=\"TIME\">o'clock PM</TIMEX>.\n▓▓▓▓▓\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"368\"_ENDID=\"384\"_STTOKEN=\"his\"_ENDTOKEN=\"Town of Freedom\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"150\"_ENDID=\"426\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1638\"_ENDID=\"338\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1659\"_ENDID=\"360\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"Malvina\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1667\"_ENDID=\"754\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1781\"_ENDID=\"754\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1913\"_ENDID=\"754\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1936\"_ENDID=\"2121\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2179\"_ENDID=\"1638\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2179\"_ENDID=\"338\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2236\"_ENDID=\"1659\"_STTOKEN=\"Malvina Cornwell\"_ENDTOKEN=\"Malvina\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2262\"_ENDID=\"426\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2287\"_ENDID=\"400\"_STTOKEN=\"County of CATTARAUGUS\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2309\"_ENDID=\"384\"_STTOKEN=\"Town of Freedom\"_ENDTOKEN=\"Town of Freedom\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2455\"_ENDID=\"2179\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"E R Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2455\"_ENDID=\"338\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2476\"_ENDID=\"2236\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"Malvina Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2484\"_ENDID=\"338\"_STTOKEN=\"his\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2496\"_ENDID=\"2415\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"368\"_ENDID=\"338\"_STTOKEN=\"his\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"646\"_ENDID=\"2121\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"867\"_ENDID=\"426\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=2+\"_STID=\"1053\"_ENDID=\"1053\"_STTOKEN=\"Mary Burlesons\"_ENDTOKEN=\"Mary Burlesons\">\n<RELEX TYPE=\"S=2+\"_STID=\"2236\"_ENDID=\"2236\"_STTOKEN=\"Malvina Cornwell\"_ENDTOKEN=\"Malvina Cornwell\">\n<RELEX TYPE=\"S=2+\"_STID=\"467\"_ENDID=\"467\"_STTOKEN=\"Frank Chapman\"_ENDTOKEN=\"Frank Chapman\">\n<RELEX TYPE=\"S=3+\"_STID=\"1638\"_ENDID=\"1638\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2179\"_ENDID=\"2179\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"E R Cornwell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2455\"_ENDID=\"2455\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2647\"_ENDID=\"2647\"_STTOKEN=\"Geo W. Haskell\"_ENDTOKEN=\"Geo W. Haskell\">\n<RELEX TYPE=\"S=3+\"_STID=\"338\"_ENDID=\"338\"_STTOKEN=\"Edwin R. Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1667\"_ENDID=\"1671\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1781\"_ENDID=\"1785\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1781\"_ENDID=\"1795\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1913\"_ENDID=\"1917\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1913\"_ENDID=\"1927\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2484\"_ENDID=\"2488\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"368\"_ENDID=\"372\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"754\"_ENDID=\"758\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"754\"_ENDID=\"768\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"338\"_ENDID=\"212\"_STTOKEN=\"Edwin R. Cornwell\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"338\"_ENDID=\"223\"_STTOKEN=\"Edwin R. Cornwell\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"1053\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Mary Burlesons\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"2236\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Malvina Cornwell\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"338\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"1638\"_ENDID=\"1638\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2179\"_ENDID=\"2179\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"E R Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2455\"_ENDID=\"2455\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"338\"_ENDID=\"338\"_STTOKEN=\"Edwin R. Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"1659\"_ENDID=\"1671\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2476\"_ENDID=\"2488\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"360\"_ENDID=\"372\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"2647\"_ENDID=\"2662\"_STTOKEN=\"Geo W. Haskell\"_ENDTOKEN=\"Justice of the Peace\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"137\"_ENDID=\"150\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"150\"_ENDID=\"160\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"400\"_ENDID=\"426\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"1053\"_ENDID=\"1049\"_STTOKEN=\"Mary Burlesons\"_ENDTOKEN=\"Mrs\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150538_00031_TXT</UNQ>\n<IMID>007150538_00031</IMID>\n<APID>TH-1971-32808-2590-63</APID>\n<IMGSIZE>3337,4260</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>Liber 145.\n27 WARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>.\nMade this <TIMEX TYPE=\"DATE\">Fifth\nday of April\nin the year\nof our Lord one thousand eight hundred and Eighty nine</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Edwin R. Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX>\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Frank Chapman</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said part of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and Twenty\nDollars</NUMEX>, (<NUMEX TYPE=\"MONEY\">$320.00</NUMEX> to <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents, do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Freedom County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as follows: Being part of lot No 37 Town 6 <ENAMEX TYPE=\"LOCALE.notgpe\">Range 3</ENAMEX>. Holland Companys Survey\nBeginning at a point in the center of highway at the north west corner of <ENAMEX TYPE=\"TITLE\">Mrs</ENAMEX> <ENAMEX TYPE=\"PERSON\">Mary Burlesons</ENAMEX>\nland thence running South <NUMEX TYPE=\"QUANTITY\">Twenty</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> minutes west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains thence westerly parallel 10\nthe highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain thence north <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> minutes east <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">ninety\nEight</NUMEX> links to the center of the highway thence along said highway south <NUMEX TYPE=\"QUANTITY\">seventy one</NUMEX> degrees\n<NUMEX TYPE=\"QUANTITY\">thirty</NUMEX> minutes East <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">Twenty five</NUMEX> links, to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">thirty\nfour one hundredths</NUMEX> of an acre of land be the same more or less,\nWin the appurtenances and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> parties of the first part\ndo -- hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E R Cornwell</ENAMEX>\nSealed and Delivered in Presence of\n[ L. S.\n<ENAMEX TYPE=\"PERSON\">Malvina Cornwell</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nS T .\n<ENAMEX TYPE=\"LOCALE\">County of CATTARAUGUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> ┃ On this <TIMEX TYPE=\"DATE\">11th day of April in the year one thousand eight hundred and\nEighty Nine</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severely acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">Geo W. Haskell</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Justice of the Peace</ENAMEX>\nand, amid and compared with the only <TIMEX TYPE=\"DATE.non\">12th__day of February</TIMEX>__is\n<TIMEX TYPE=\"TIME\">o'clock PM</TIMEX>.\n▓▓▓▓▓\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"368\"_ENDID=\"384\"_STTOKEN=\"his\"_ENDTOKEN=\"Town of Freedom\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"150\"_ENDID=\"426\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1638\"_ENDID=\"338\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1659\"_ENDID=\"360\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"Malvina\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1667\"_ENDID=\"754\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1781\"_ENDID=\"754\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1913\"_ENDID=\"754\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1936\"_ENDID=\"2121\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2179\"_ENDID=\"1638\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2179\"_ENDID=\"338\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2236\"_ENDID=\"1659\"_STTOKEN=\"Malvina Cornwell\"_ENDTOKEN=\"Malvina\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2262\"_ENDID=\"426\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2287\"_ENDID=\"400\"_STTOKEN=\"County of CATTARAUGUS\"_ENDTOKEN=\"County of Cattaraugus\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2309\"_ENDID=\"384\"_STTOKEN=\"Town of Freedom\"_ENDTOKEN=\"Town of Freedom\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2455\"_ENDID=\"2179\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"E R Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2455\"_ENDID=\"338\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2476\"_ENDID=\"2236\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"Malvina Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2484\"_ENDID=\"338\"_STTOKEN=\"his\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2496\"_ENDID=\"2415\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"368\"_ENDID=\"338\"_STTOKEN=\"his\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"646\"_ENDID=\"2121\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"867\"_ENDID=\"426\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=2+\"_STID=\"1053\"_ENDID=\"1053\"_STTOKEN=\"Mary Burlesons\"_ENDTOKEN=\"Mary Burlesons\">\n<RELEX TYPE=\"S=2+\"_STID=\"2236\"_ENDID=\"2236\"_STTOKEN=\"Malvina Cornwell\"_ENDTOKEN=\"Malvina Cornwell\">\n<RELEX TYPE=\"S=2+\"_STID=\"467\"_ENDID=\"467\"_STTOKEN=\"Frank Chapman\"_ENDTOKEN=\"Frank Chapman\">\n<RELEX TYPE=\"S=3+\"_STID=\"1638\"_ENDID=\"1638\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2179\"_ENDID=\"2179\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"E R Cornwell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2455\"_ENDID=\"2455\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2647\"_ENDID=\"2647\"_STTOKEN=\"Geo W. Haskell\"_ENDTOKEN=\"Geo W. Haskell\">\n<RELEX TYPE=\"S=3+\"_STID=\"338\"_ENDID=\"338\"_STTOKEN=\"Edwin R. Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1667\"_ENDID=\"1671\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1781\"_ENDID=\"1785\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1781\"_ENDID=\"1795\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1913\"_ENDID=\"1917\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1913\"_ENDID=\"1927\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"368\"_ENDID=\"372\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"754\"_ENDID=\"758\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"754\"_ENDID=\"768\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"1638\"_ENDID=\"1638\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2179\"_ENDID=\"2179\"_STTOKEN=\"E R Cornwell\"_ENDTOKEN=\"E R Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2455\"_ENDID=\"2455\"_STTOKEN=\"Edwin R Cornwell\"_ENDTOKEN=\"Edwin R Cornwell\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"338\"_ENDID=\"338\"_STTOKEN=\"Edwin R. Cornwell\"_ENDTOKEN=\"Edwin R. Cornwell\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"1659\"_ENDID=\"1671\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"2476\"_ENDID=\"2488\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"360\"_ENDID=\"372\"_STTOKEN=\"Malvina\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"2647\"_ENDID=\"2662\"_STTOKEN=\"Geo W. Haskell\"_ENDTOKEN=\"Justice of the Peace\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"137\"_ENDID=\"150\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"150\"_ENDID=\"160\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"400\"_ENDID=\"426\"_STTOKEN=\"County of Cattaraugus\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:TITLE_OF\"_STID=\"1053\"_ENDID=\"1049\"_STTOKEN=\"Mary Burlesons\"_ENDTOKEN=\"Mrs\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150538_00031_TXT</UNQ>\n<IMID>007150538_00031</IMID>\n<APID>TH-1971-32808-2590-63</APID>\n<IMGSIZE>3337,4260</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>Liber 145.\n27 WARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>.\nMade this <TIMEX TYPE=\"DATE\">Fifth\nday of April\nin the year\nof our Lord one thousand eight hundred and Eighty nine</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Edwin R. Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX>\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Frank Chapman</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said part of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and Twenty\nDollars</NUMEX>, (<NUMEX TYPE=\"MONEY\">$320.00</NUMEX> to <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents, do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Freedom County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as follows: Being part of lot No 37 Town 6 <ENAMEX TYPE=\"LOCALE.notgpe\">Range 3</ENAMEX>. Holland Companys Survey\nBeginning at a point in the center of highway at the north west corner of <ENAMEX TYPE=\"TITLE\">Mrs</ENAMEX> <ENAMEX TYPE=\"PERSON\">Mary Burlesons</ENAMEX>\nland thence running South <NUMEX TYPE=\"QUANTITY\">Twenty</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> minutes west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains thence westerly parallel 10\nthe highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain thence north <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> minutes east <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">ninety\nEight</NUMEX> links to the center of the highway thence along said highway south <NUMEX TYPE=\"QUANTITY\">seventy one</NUMEX> degrees\n<NUMEX TYPE=\"QUANTITY\">thirty</NUMEX> minutes East <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">Twenty five</NUMEX> links, to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">thirty\nfour one hundredths</NUMEX> of an acre of land be the same more or less,\nWin the appurtenances and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> parties of the first part\ndo -- hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E R Cornwell</ENAMEX>\nSealed and Delivered in Presence of\n[ L. S.\n<ENAMEX TYPE=\"PERSON\">Malvina Cornwell</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nS T .\n<ENAMEX TYPE=\"LOCALE\">County of CATTARAUGUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> ┃ On this <TIMEX TYPE=\"DATE\">11th day of April in the year one thousand eight hundred and\nEighty Nine</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severely acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">Geo W. Haskell</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Justice of the Peace</ENAMEX>\nand, amid and compared with the only <TIMEX TYPE=\"DATE.non\">12th__day of February</TIMEX>__is\n<TIMEX TYPE=\"TIME\">o'clock PM</TIMEX>.\n▓▓▓▓▓\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150538_00031_TXT</UNQ>\n<IMID>007150538_00031</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32808-2590<TIMEX TYPE=\"DATE\">-63</TIMEX></APID>\n<IMGSIZE>3337,4260</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>Liber 145.\n27 WARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>.\nMade this <TIMEX TYPE=\"DATE\">Fifth\nday of April\nin the year\nof our Lord one thousand eight hundred and Eighty nine</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Edwin R. Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX>\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Frank Chapman</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said part of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Three hundred and Twenty\nDollars</NUMEX>, (<NUMEX TYPE=\"MONEY\">$320.00</NUMEX> to <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents, do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Freedom County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as follows: Being part of lot No 37 Town 6 <ENAMEX TYPE=\"LOCALE.notgpe\">Range 3</ENAMEX>. Holland Companys Survey\nBeginning at a point in the center of highway at the north west corner of <ENAMEX TYPE=\"TITLE\">Mrs</ENAMEX> <ENAMEX TYPE=\"PERSON\">Mary Burlesons</ENAMEX>\nland thence running South <NUMEX TYPE=\"QUANTITY\">Twenty</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> minutes west <NUMEX TYPE=\"QUANTITY\">three</NUMEX> chains thence westerly parallel 10\nthe highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain thence north <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> degrees <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> minutes east <NUMEX TYPE=\"QUANTITY\">two</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">ninety\nEight</NUMEX> links to the center of the highway thence along said highway south <NUMEX TYPE=\"QUANTITY\">seventy one</NUMEX> degrees\n<NUMEX TYPE=\"QUANTITY\">thirty</NUMEX> minutes East <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">Twenty five</NUMEX> links, to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">thirty\nfour one hundredths</NUMEX> of an acre of land be the same more or less,\nWin the appurtenances and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> parties of the first part\ndo -- hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn <ENAMEX TYPE=\"NONFAMILY\">Witness</ENAMEX> Whereoff, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">E R Cornwell</ENAMEX>\nSealed and Delivered in Presence of\n[ L. S.\n<ENAMEX TYPE=\"PERSON\">Malvina Cornwell</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nS T .\n<ENAMEX TYPE=\"LOCALE\">County of CATTARAUGUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">Town of Freedom</ENAMEX> ┃ On this <TIMEX TYPE=\"DATE\">11th day of April in the year one thousand eight hundred and\nEighty Nine</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Edwin R Cornwell</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Malvina</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severely acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">Geo W. Haskell</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Justice of the Peace</ENAMEX>\nand, amid and compared with the only <TIMEX TYPE=\"DATE.non\">12th__day of February</TIMEX>__is\n<TIMEX TYPE=\"TIME\">o'clock PM</TIMEX>.\n▓▓▓▓▓\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150538_00031_TXT</UNQ>\n<IMID>007150538_00031</IMID>\n<APID>TH-1971-32808-2590-63</APID>\n<IMGSIZE>3337,4260</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[1631,407:1818,443] Liber [1823,407:1929,443] 145.\n[2757,390:2859,448] 27 [919,437:1157,463] WARRANTY [1153,437:1276,463] DEED.\n[844,501:1059,591] This [1068,501:1522,591] Indenture.\n[1561,563:1647,598] Made [1642,563:1733,598] this [1743,563:1922,598] Fifth\n[2117,561:2177,602] day [2174,561:2223,602] of [2231,561:2395,602] April\n[2582,576:2619,598] in [2614,576:2676,598] the [2671,576:2790,598] year\n[804,602:845,649] of [843,602:904,649] our [902,602:982,649] Lord [980,602:1041,649] one [1032,602:1165,649] thousand [1163,602:1243,649] eight [1241,602:1360,649] hundred [1359,602:1419,649] and [1424,602:1543,649] Eighty [1548,602:1765,649] nine [1770,602:1941,649] Between [1946,602:2098,649] Edwin [2096,602:2157,649] R. [2168,602:2372,649] Cornwell [2370,602:2463,649] and [2481,602:2726,649] Malvina\n[790,636:869,701] his [870,636:957,701] wife [958,636:1005,701] of [1006,636:1069,701] the [1070,636:1180,701] Town [1181,636:1220,701] of [1221,636:1404,701] Freedom [1413,636:1556,701] County [1557,636:1612,701] of [1613,636:1844,701] Cattaraugus [1845,636:1931,701] and [1940,636:2035,701] State [2028,636:2075,701] of [2092,636:2163,701] New [2164,636:2309,701] York\n[808,728:844,778] of [843,728:893,778] the [892,728:964,778] first [963,728:1027,778] part, [1033,728:1098,778] and [1104,728:1281,778] Frank [1287,728:1521,778] Chapman [1527,728:1577,778] of [1576,728:1648,778] the [1654,728:1768,778] same [1767,728:1929,778] place\n[2472,833:2513,863] of [2510,833:2568,863] the [2561,833:2661,863] second [2659,833:2720,863] part,\n[806,853:1015,906] Witnesseth, [1036,853:1108,906] That [1101,853:1152,906] the [1151,853:1209,906] said [1208,853:1324,906] part [1316,853:1360,906] of [1359,853:1410,906] the [1403,853:1475,906] first [1467,853:1533,906] part, [1532,853:1576,906] in [1568,853:1748,906] consideration [1748,853:1792,906] of [1784,853:1842,906] the [1834,853:1899,906] sum [1899,853:1943,906] of [1942,853:2058,906] Three [2057,853:2245,906] hundred [2251,853:2338,906] and [2338,853:2525,906] Twenty\n[2620,911:2721,947] Dollars, [2716,911:2736,947] ($320.00 [797,947:836,990] to [833,947:968,990] them [971,947:1040,990] duly [1037,947:1106,990] paid, [1115,947:1202,990] have [1199,947:1268,990] sold, [1271,947:1334,990] and [1331,947:1382,990] by [1379,947:1460,990] these [1457,947:1580,990] Presents, [1589,947:1676,990] do [1673,947:1754,990] grant [1745,947:1807,990] and [1804,947:1903,990] convey [1900,947:1939,990] to [1930,947:1987,990] the [1984,947:2041,990] said [2038,947:2155,990] party [2152,947:2191,990] of [2182,947:2239,990] the [2230,947:2329,990] second [2326,947:2389,990] part, [2398,947:2497,990] his [2500,947:2575,990] heirs [2566,947:2629,990] and [2620,947:2719,990] assigns,\n[802,988:867,1041] ALL [859,988:939,1041] THAT [938,988:1068,1041] TRACTOR [1061,988:1176,1041] PARCEL [1169,988:1212,1041] OF [1212,988:1291,1041] LAND, [1298,988:1392,1041] situate [1384,988:1428,1041] in [1420,988:1471,1041] the [1478,988:1579,1041] ⌨own [1578,988:1615,1041] of [1607,988:1759,1041] Freedom [1765,988:1946,1041] County [1945,988:1989,1041] of [2003,988:2219,1041] Cattaraugus [2226,988:2313,1041] and [2319,988:2413,1041] State [2413,988:2456,1041] of [2463,988:2543,1041] New [2542,988:2700,1041] York\n[790,1029:1063,1078] distinguished [1069,1029:1131,1078] as [1130,1029:1267,1078] follows: [1293,1029:1437,1078] Being [1442,1029:1546,1078] part [1551,1029:1600,1078] of [1606,1029:1675,1078] lot [1680,1029:1743,1078] No [1742,1029:1804,1078] 37 [1803,1029:1920,1078] Town [1925,1029:1967,1078] 6 [1966,1029:2110,1078] Range [2109,1029:2144,1078] 3. [2156,1029:2341,1078] Holland [2346,1029:2545,1078] Companys [2544,1029:2730,1078] Survey\n[786,1071:1005,1121] Beginning [1004,1071:1076,1121] at [1075,1071:1132,1121] a [1138,1071:1259,1121] point [1265,1071:1330,1121] in [1329,1071:1393,1121] the [1400,1071:1528,1121] center [1527,1071:1584,1121] of [1590,1071:1767,1121] highway [1774,1071:1838,1121] at [1837,1071:1909,1121] the [1915,1071:2022,1121] north [2021,1071:2113,1121] west [2112,1071:2240,1121] corner [2240,1071:2297,1121] of [2296,1071:2389,1121] Mrs [2388,1071:2516,1121] Mary [2515,1071:2752,1121] Burlesons\n[784,1118:893,1163] land [890,1118:1024,1163] thence [1034,1118:1231,1163] running [1235,1118:1368,1163] South [1366,1118:1525,1163] Twenty [1529,1118:1675,1163] degrees [1679,1118:1788,1163] forty [1785,1118:1951,1163] minutes [1948,1118:2057,1163] west [2055,1118:2151,1163] three [2155,1118:2282,1163] chains [2280,1118:2395,1163] thence [2393,1118:2545,1163] westerly [2543,1118:2689,1163] parallel [2687,1118:2797,1163] 10\n[789,1155:856,1209] the [864,1155:1035,1209] highway [1043,1155:1125,1209] one [1125,1155:1244,1209] chain [1244,1155:1364,1209] thence [1371,1155:1483,1209] north [1483,1155:1632,1209] fifteen [1632,1155:1774,1209] degrees [1774,1155:1893,1209] forty [1893,1155:1990,1209] five [1998,1155:2155,1209] minutes [2162,1155:2252,1209] east [2259,1155:2341,1209] two [2341,1155:2475,1209] chains [2475,1155:2587,1209] and [2587,1155:2771,1209] ninety\n[786,1200:905,1254] Eight [913,1200:1017,1254] links [1024,1200:1084,1254] to [1084,1200:1174,1254] the [1174,1200:1293,1254] center [1300,1200:1353,1254] of [1345,1200:1420,1254] the [1427,1200:1599,1254] highway [1599,1200:1733,1254] thence [1741,1200:1853,1254] along [1860,1200:1965,1254] said [1965,1200:2136,1254] highway [2144,1200:2270,1254] south [2278,1200:2435,1254] seventy [2435,1200:2532,1254] one [2532,1200:2719,1254] degrees\n[798,1247:924,1309] thirty [926,1247:1095,1309] minutes [1097,1247:1205,1309] East [1199,1247:1291,1309] one [1301,1247:1419,1309] chain [1421,1247:1581,1309] Twenty [1583,1247:1674,1309] five [1677,1247:1794,1309] links, [1813,1247:1871,1309] to [1864,1247:1939,1309] the [1941,1247:2058,1309] place [2060,1247:2109,1309] of [2111,1247:2323,1309] beginning [2333,1247:2570,1309] containing [2572,1247:2749,1309] thirty\n[801,1290:904,1339] four [909,1290:1006,1339] one [1004,1290:1237,1339] hundredths [1242,1290:1298,1339] of [1303,1290:1386,1339] an [1391,1290:1501,1339] acre [1507,1290:1569,1339] of [1575,1290:1692,1339] land [1697,1290:1753,1339] be [1751,1290:1841,1339] the [1853,1290:1977,1339] same [1975,1290:2079,1339] more [2077,1290:2126,1339] or [2132,1290:2208,1339] less,\n[795,2183:903,2235] Win [896,2183:975,2235] the [982,2183:1256,2235] appurtenances [1248,2183:1314,2235] and [1306,2183:1357,2235] all [1356,2183:1407,2235] the [1407,2183:1501,2235] Estate, [1515,2183:1587,2235] Title [1586,2183:1645,2235] and [1644,2183:1760,2235] Interest [1759,2183:1861,2235] therein [1860,2183:1904,2235] of [1896,2183:1954,2235] the [1954,2183:2019,2235] said [2011,2183:2127,2235] parties [2126,2183:2163,2235] of [2162,2183:2220,2235] the [2213,2183:2285,2235] first [2277,2183:2343,2235] part. [2371,2183:2436,2235] And [2436,2183:2494,2235] the [2486,2183:2600,2235] said\n[806,2228:943,2280] Edwin [950,2228:1008,2280] R [1014,2228:1223,2280] Cornwell [1230,2228:1331,2280] and [1338,2228:1547,2280] Malvina [1553,2228:1633,2280] his [1625,2228:1719,2280] wife [1719,2228:1849,2280] parties [1848,2228:1892,2280] of [1891,2228:1957,2280] the [1956,2228:2057,2280] first [2057,2228:2209,2280] part\n[784,2280:830,2336] do [822,2280:876,2336] -- [869,2280:969,2336] hereby [969,2280:1092,2336] covenant [1085,2280:1146,2336] and [1139,2280:1224,2336] agree [1216,2280:1255,2336] to [1255,2280:1309,2336] and [1309,2280:1378,2336] with [1371,2280:1425,2336] the [1425,2280:1486,2336] said [1479,2280:1595,2336] party [1595,2280:1633,2336] of [1634,2280:1687,2336] the [1680,2280:1780,2336] second [1773,2280:1842,2336] part, [1865,2280:2004,2336] his [2005,2280:2081,2336] heirs [2074,2280:2135,2336] and [2128,2280:2228,2336] assigns,\n[781,2438:848,2484] that [839,2438:894,2484] the [892,2438:1018,2484] premises [1009,2438:1076,2484] thus [1074,2438:1200,2484] conveyed, [1205,2438:1246,2484] in [1238,2438:1298,2484] the [1290,2438:1370,2484] quiet [1362,2438:1422,2484] and [1420,2438:1553,2484] peaceable [1544,2438:1690,2484] possession [1681,2438:1729,2484] of [1721,2438:1775,2484] the [1773,2438:1833,2484] said [1825,2438:1944,2484] party [1942,2438:1984,2484] of [1975,2438:2029,2484] the [2027,2438:2121,2484] second [2119,2438:2186,2484] part, [2223,2438:2323,2484] his [2321,2438:2395,2484] heirs [2393,2438:2447,2484] and [2445,2438:2545,2484] assigns, [2549,2438:2685,2484] they\n[782,2494:844,2524] will [837,2494:946,2524] forever [944,2494:1082,2524] WARRANT [1076,2494:1138,2524] AND [1135,2494:1248,2524] DEFEND [1246,2494:1346,2524] against [1340,2494:1402,2524] any [1395,2494:1496,2524] person [1489,2494:1658,2524] whomsoever [1651,2494:1773,2524] lawfully [1766,2494:1888,2524] claiming [1881,2494:1935,2524] the [1932,2494:2007,2524] same [2005,2494:2041,2524] or [2039,2494:2097,2524] any [2090,2494:2156,2524] part [2150,2494:2254,2524] thereof.\n[799,2574:864,2619] In [868,2574:1033,2619] Witness [1037,2574:1202,2619] Whereoff, [1206,2574:1265,2619] The [1262,2574:1377,2619] parties [1375,2574:1415,2619] of [1412,2574:1465,2619] the [1462,2574:1534,2619] first [1531,2574:1596,2619] part, [1600,2574:1684,2619] have [1688,2574:1809,2619] hereunto [1807,2574:1859,2619] set [1857,2574:1991,2619] their [1988,2574:2085,2619] hand [2076,2574:2141,2619] and [2132,2574:2216,2619] seal [2207,2574:2266,2619] the [2264,2574:2329,2619] day [2320,2574:2385,2619] and [2383,2574:2448,2619] year [2445,2574:2517,2619] first [2508,2574:2598,2619] above [2596,2574:2698,2619] written.\n[1963,2616:2010,2655] E [2017,2616:2076,2655] R [2082,2616:2339,2655] Cornwell\n[780,2636:877,2657] Sealed [872,2636:935,2657] and [933,2636:1070,2657] Delivered [1064,2636:1109,2657] in [1104,2636:1232,2657] Presence [1226,2636:1318,2657] of\n[2612,2631:2640,2661] [ [2625,2631:2661,2661] L. [2655,2631:2749,2661] S.\n[1963,2663:2164,2696] Malvina [2168,2663:2413,2696] Cornwell\n[2607,2672:2636,2704] [ [2621,2672:2658,2704] L. [2652,2672:2690,2704] S.]\n[816,2747:984,2777] STATE [986,2747:1060,2777] OF [1062,2747:1201,2777] NEW [1203,2747:1341,2777] YORK.\n[821,2728:894,2788] S T [879,2728:957,2788] .\n[790,2792:927,2841] County [925,2792:981,2841] of [986,2792:1240,2841] CATTARAUGUS\n[949,2826:1070,2871] Town [1068,2826:1114,2871] of [1111,2826:1383,2871] Freedom [1381,2826:1452,2871] ┃ [1456,2826:1496,2871] On [1493,2826:1615,2871] this [1612,2826:1840,2871] 11th [1844,2826:1897,2871] day [1894,2826:1941,2871] of [1951,2826:2204,2871] April [2201,2826:2241,2871] in [2232,2826:2285,2871] the [2276,2826:2341,2871] year [2333,2826:2385,2871] one [2376,2826:2492,2871] thousand [2483,2826:2548,2871] eight [2546,2826:2648,2871] hundred [2639,2826:2749,2871] and\n[778,2867:898,2921] Eighty [905,2867:1062,2921] Nine [1061,2867:1144,2921] before [1136,2867:1181,2921] me, [1181,2867:1233,2921] the [1226,2867:1352,2921] subscriber, [1352,2867:1472,2921] personally [1464,2867:1591,2921] appeared [1606,2867:1748,2921] Edwin [1755,2867:1815,2921] R [1815,2867:2038,2921] Cornwell [2038,2867:2143,2921] and [2150,2867:2344,2921] Malvina [2352,2867:2419,2921] his [2419,2867:2551,2921] wife\n[1692,2925:1733,2948] to [1724,2925:1774,2948] me [1766,2925:1886,2948] personally [1881,2925:1969,2948] known [1964,2925:2001,2948] to [1996,2925:2036,2948] be [2028,2925:2078,2948] the [2072,2925:2138,2948] same [2133,2925:2234,2948] persons [2232,2925:2343,2948] described [2337,2925:2375,2948] in [2369,2925:2422,2948] and [2417,2925:2477,2948] who [2471,2925:2576,2948] executed [2570,2925:2617,2948] the [2612,2925:2745,2948] within\n[767,2968:899,3015] instrument, [897,2968:951,3015] and [943,2968:1055,3015] severely [1047,2968:1212,3015] acknowledged [1210,2968:1264,3015] that [1262,2968:1342,3015] they [1340,2968:1446,3015] executed [1444,2968:1492,3015] the [1483,2968:1550,3015] same.\n[1717,2993:1819,3038] Geo [1823,2993:1882,3038] W. [1892,2993:2160,3038] Haskell\n[1872,3039:2015,3105] Justice [2016,3039:2062,3105] of [2063,3039:2126,3105] the [2127,3039:2317,3105] Peace\n[592,3295:663,3289] and, [592,3289:663,3282] amid [592,3283:663,3280] and [592,3281:663,3274] compared [592,3275:663,3271] with [592,3272:663,3269] the [592,3270:663,3256] only [592,3256:663,3249] 12th__day [592,3244:663,3241] of [592,3241:663,3229] February__is\n[670,3311:708,3309] o'clock [670,3303:708,3293] PM.\n[670,3295:708,2897] ▓▓▓▓▓\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150538"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00031"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150538_00031"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TJFB-N"
+      } ]
+    } ]
+  } ]
+}

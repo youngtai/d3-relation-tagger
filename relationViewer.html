@@ -12,8 +12,18 @@
 }
 
 .nodes circle{
-  stroke:darkgrey;
-  stroke-width: 0px;
+  /* stroke:#dfdfdf;
+  stroke-width: 2px; */
+}
+
+.hull path{
+  fill: #abbaca;
+  fill-opacity: 1;
+  stroke: #abbaca;
+  stroke-opacity: 1;
+  opacity: .7;
+  /*stroke-width: 67px;*/
+  stroke-linejoin: round;
 }
 
 text {
@@ -32,7 +42,7 @@ text {
 }
 
 .relationship-button:hover {
-  background-color: #40c702;
+  background-color: #309700;
   color: #fefff0;
 }
 
@@ -76,7 +86,7 @@ text {
 }
 
 #export:hover {
-  background-color: #027465;
+  background-color: #00927f;
   color:#ffffff;
 }
 
@@ -129,7 +139,10 @@ text {
   width: 15%;
   background-color: #f3f3f3;
   border: none;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
   color:#3b3b3b;
   padding: 5px 5px;
   text-align: center;
@@ -156,7 +169,7 @@ text {
 }
 
 #svg-container {
-    background-color: #fffcf8;
+    background-color: #ffffff;
     float: left;
     width: 65%;
     height:100%;
@@ -199,7 +212,7 @@ text {
   <div id = "top-panel">
     <div id="file-io">
       <div id = "file-intake">
-        Load a GedcomX or relex<input type="file" id="file-intake-button">
+        <input type="file" id="file-intake-button">
       </div>
       <button id="export" type="button">Export</button>
     </div>
@@ -217,7 +230,7 @@ text {
           <svg id="simulation-display-space"></svg>
         </div>
     </div>
-    <div id="relationships-panel">  
+    <div id="relationships-panel">
       <button class="relationship-button" id="has-start-date" type="button">has start date</button>
       <button class="relationship-button" id="has-start-place" type="button">has start place</button>
       <button class="relationship-button" id="has-start-time" type="button">has start time</button>
@@ -261,13 +274,11 @@ text {
 <script type="text/javascript" src="resources/relation-functions.js"></script>
 <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 <script src="resources/d3-v4-min.js"></script>
-<script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script>
+<!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
-// var colors = d3.scaleOrdinal(d3.schemeCategory20),
-var svg,  // I think this variable needs to be here so that I can possibly add svg resize w/ window resize
-    radius,
-    simulation = d3.forceSimulation(),
+
+var simulation,
     node,
     link;
 var displayedGraph,
@@ -325,7 +336,7 @@ document.getElementById("is-principal-person").addEventListener("click", isPrinc
 document.getElementById("quantity").addEventListener("click", quantity);
 document.getElementById("has-residence-place").addEventListener("click", hasResidencePlace);
 document.getElementById("same-as").addEventListener("click", sameAs);
-document.getElementById("is-subplace-of").addEventListener("click", subplaceOf); 
+document.getElementById("is-subplace-of").addEventListener("click", subplaceOf);
 document.getElementById("has-title").addEventListener("click", hasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
@@ -389,7 +400,7 @@ function showSameAsButtonStyle() {
 }
 function showSameAsOn() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS") {
-    console.log("Show Same As is toggled");
+    console.log("'Show Same As' button is toggled on");
     // used to determine if an entity from a same-as relationship in editedGraph.relations is in displayedGraph.entities
     function isADisplayedEntity(entity) {
       for (var i = 0; i < displayedGraph.entities.length; i++) {
@@ -399,26 +410,24 @@ function showSameAsOn() {
       }
       return false;
     }
-    editedGraph.relations.forEach(function(relation) {
-      if (relation.type == "R40:IS_SAME_AS") {
-        if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
-          // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
-          // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
-          displayedGraph.relations.push({type : relation.type,
-                                  startToken : relation.startToken, 
-                                      source : relation.source, 
-                                    endToken : relation.endToken, 
-                                      target : relation.target,
-                                    distance : linkDistance(relation.type)});
-          sameAsRestart();
-        }
+    editedGraph.getSameAsRels().forEach(function(relation) {
+      if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
+// we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
+// the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
+        displayedGraph.relations.push({type : relation.type,
+                                startToken : relation.startToken,
+                                    source : relation.source,
+                                  endToken : relation.endToken,
+                                    target : relation.target,
+                                  distance : linkDistance(relation.type)});
       }
     });
+    sameAsRestart();
   }
 }
 function showSameAsOff() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS") {
-    console.log("show same as button toggled off");
+    console.log("'Show Same As' button is toggled off");
     for (var i = displayedGraph.relations.length - 1; i >= 0; i--) {
       if (displayedGraph.relations[i].type == "R40:IS_SAME_AS") {
         displayedGraph.relations.splice(i,1);
@@ -461,129 +470,6 @@ function relButtonStyleOff(buttonId) {
   }
 }
 
-function colorizeText(relex) {
-  // we replace with "<-span..." because we need to go through after one at a time and
-  // add a unique id according to the order the enamex shows up in the text. This is so
-  // that we can have text highlighting when a node is hovered over.
-  relex = relex
-          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='STRUCTURE_addr'>")
-          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='AGE'>")
-          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ANIMAL'>")
-          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='CHEMICAL'>")
-          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='DURATANNIV'>")
-          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='COREF_gen'>")
-          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='COREF_loc'>")
-          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='COREF_dat'>")
-          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='COREF'>")
-          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='DATE'>")
-          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='DATE_non'>")
-          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='EVENT'>")
-          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='EVENT_rel'>")
-          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='EVENT_xlife'>")
-          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='FAMILYMEMBER'>")
-          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='NONFAMILY'>")
-          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='FOOD_DRINK'>")
-          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='GAME'>")
-          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='HEALTH_CONDITION'>")
-          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='LOCALE'>")
-          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='LOCALE_notgpe'>")
-          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ITE_gpe'>")
-          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ITE_notgpe'>")
-          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ITE_org'>")
-          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='STRUCTURE'>")
-          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='MONEY'>")
-          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='OCCUPATION'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ORGANIZATION'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ORGANIZATION_edu'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ORGANIZATION_mil'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ORGANIZATION_music'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ORGANIZATION_pub'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ORGANIZATION_rel'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ORGANIZATION_sports'>")
-          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ETPLACE'>")
-          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='PERCENT'>")
-          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='PERSON'>")
-          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='PHONENUMBER'>")
-          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='FLORA'>")
-          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='QUANTITY'>")
-          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIME'>")
-          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='TITLE'>")
-          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='TITLEFPH'>")
-          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='VEHICLE'>")
-          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='WEAPON'>")
-          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='URL'>")
-          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='WORK_OF_ART'>")
-          .replace(/<\/ENAMEX>/g, "</span>")
-          .replace(/<\/TIMEX>/g, "</span>")
-          .replace(/<\/NUMEX>/g, "</span>");
-
-  for (i = 0; i < originalGraph.entities.length; i++) {
-    var replacementString = "<span id='" + i + "'";
-    // var included = relex.includes("<span");
-    relex = relex.replace("<-span", replacementString);
-  }
-  return relex;
-}
-// for coloring nodes according to enamex type
-function colors(type) {
-  if (type == "STRUCTURE.addr") {return "#999000"}
-  else if (type == "AGE") { return "#669ac4"}
-  else if (type == "ANIMAL") { return "#80771f"}
-  else if (type == "CHEMICAL") { return "#aaff0d"}
-  else if (type == "COREF.gen") { return "#e5ccff"}
-  else if (type == "COREF.loc") { return "#6a5abd"}
-  else if (type == "COREF.dat") { return "#089977"}
-  else if (type == "COREF") { return "#7b68ee"}
-  else if (type == "DATE") { return "#0400ff"}
-  else if (type == "DATE.non") { return "#20b2aa"}
-  else if (type == "DURATANNIV") { return "#1e90ff"}
-  else if (type == "EVENT") { return "#00ff51"}
-  else if (type == "EVENT.rel") { return "#99ff99"}
-  else if (type == "EVENT.xlife") { return "#ccffcc"}
-  else if (type == "ITE.et") { return "#e6cce2"}
-  else if (type == "FAMILYMEMBER") { return "#ee6a69"}
-  else if (type == "NONFAMILY") { return "#f5deb3"}
-  else if (type == "FOOD_DRINK") { return "#ffe5cc"}
-  else if (type == "GAME") { return "#99004c"}
-  else if (type == "HEALTH_CONDITION") { return "#cedcba"}
-  else if (type == "ITE.gpe") { return "#ff00d0"}
-  else if (type == "ITE.notgpe") { return "#e65ecd"}
-  else if (type == "ITE.org") { return "#eb9ddc"}
-  else if (type == "LOCALE") { return "#9c6927"}
-  else if (type == "LOCALE.notgpe") { return "#cfaf59"}
-  else if (type == "STRUCTURE") { return "#ffbe0d"}
-  else if (type == "MONEY") { return "#fedcba"}
-  else if (type == "OCCUPATION") { return "#ff6a00"}
-  else if (type == "ORGANIZATION") { return "#cc0000"}
-  else if (type == "ORGANIZATION.edu") { return "#ff2638"}
-  else if (type == "ORGANIZATION.mil") { return "#94323a"}
-  else if (type == "ORGANIZATION.music") { return "#fad9dc"}
-  else if (type == "ORGANIZATION.pub") { return "#c36276"}
-  else if (type == "ORGANIZATION.rel") { return "#ed8089"}
-  else if (type == "ORGANIZATION.sports") { return "#e34451"}
-  else if (type == "ETPLACE") { return "#bfbfbf"}
-  else if (type == "PERCENT") { return "#005e7d"}
-  else if (type == "PERSON") { return "#3f9c05"}
-  else if (type == "PHONENUMBER") { return "#a9a9a9"}
-  else if (type == "FLORA") { return "#abcdef"}
-  else if (type == "QUANTITY") { return "#66b2ff"}
-  else if (type == "TIME") { return "#6686c4"}
-  else if (type == "TITLE") { return "#ffa266"}
-  else if (type == "TITLEFPH") { return "#ffc266"}
-  else if (type == "VEHICLE") { return "#8e44fc"}
-  else if (type == "WEAPON") { return "#6600ff"}
-  else if (type == "URL") { return "#606060"}
-  else if (type == "WORK_OF_ART") { return "#fafa02"}
-  else { return "#ff69b4" }
-}
-// for setting link distance based on relationship type
-function linkDistance(type) {
-  if (type == "R40:IS_SAME_AS") {
-    return 35;
-  } else {
-    return 90;
-  }
-}
 
 //uploading a GedcomX
 function loadDocument(event) {
@@ -637,7 +523,7 @@ function loadDocument(event) {
     // console.log(displayedGraph.relations);
     reloadDisplayedGraphToggleOn();
     //make D3 happen
-    runD3();
+    startSimulation();
   };
   reader.readAsText(file);
 }
@@ -811,24 +697,24 @@ function nodeDoubleClick(d) {
   if (!d3.event.ctrlKey && selectedNodes.length > 0) {
     for (i in selectedNodes) {
       var targetNode = d;
-      displayedGraph.relations.push({type : getCurrentRelationship(), 
-                      startToken : selectedNodes[i].text, 
-                          source : selectedNodes[i].id, 
-                        endToken : targetNode.text, 
+      displayedGraph.relations.push({type : getCurrentRelationship(),
+                      startToken : selectedNodes[i].text,
+                          source : selectedNodes[i].id,
+                        endToken : targetNode.text,
                           target : targetNode.id,
                         distance : linkDistance(getCurrentRelationship())});
       console.log("Added link between " + selectedNodes[i].text + " and " + targetNode.text);
-      editedGraph.relations.push({type : getCurrentRelationship(), 
-                      startToken : selectedNodes[i].text, 
-                          source : selectedNodes[i].id, 
-                        endToken : targetNode.text, 
+      editedGraph.relations.push({type : getCurrentRelationship(),
+                      startToken : selectedNodes[i].text,
+                          source : selectedNodes[i].id,
+                        endToken : targetNode.text,
                           target : targetNode.id,
                         distance : linkDistance(getCurrentRelationship())});
     }
     // console.log("Relationships displayedGraph");
     // console.log(displayedGraph.relations);
-    console.log("editedGraph relations");
-    console.log(editedGraph.relations);
+    // console.log("editedGraph relations");
+    // console.log(editedGraph.relations);
     clearSelection();
     restart();
   }
@@ -846,16 +732,21 @@ function nodeClick(d) {
       selectedNodes.splice(selectedNodes.indexOf(d),1);
       d3.select(selectedNodeElements[selectedNodeElements.indexOf(this)]).select("circle")
       .transition()
-      .attr('r', radius);
+      .attr('r', getNodeDefaultRadius())
+      .attr("stroke", "#dfdfdf")
+      .attr("stroke-width", "2px")
+      .attr("fill", function(d) {return colors(d.type);});
       selectedNodeElements.splice(selectedNodeElements.indexOf(this),1);
       console.log("Node unselected");
     } else {
       highlightText(d);
       d3.select(this).select("circle")
         .transition()
-        .attr('r', 18);
+        .attr("stroke", "#ff0000")
+        .attr("stroke-width", "4px")
+        .attr('r', getNodeDefaultRadius() * .7);
       selectedNodes.push(d);
-      selectedNodeElements.push(this);                 
+      selectedNodeElements.push(this);
       console.log("Node selected");
     }
   } else if (d3.event.ctrlKey && getCurrentRelationship() == "UNSELECTED") {
@@ -869,7 +760,10 @@ function clearSelection() {
       // console.log(selectedNodes[i]);
       d3.select(selectedNodeElements[i]).select("circle")
         .transition()
-        .attr('r', radius);
+        .attr('r', getNodeDefaultRadius())
+        .attr("stroke", "#dfdfdf")
+        .attr("stroke-width", "2px")
+        .attr("fill", function(d) {return colors(d.type);});
     }
     for (i in selectedNodes) {
       unhighlightText(selectedNodes[i]);
@@ -925,10 +819,201 @@ function getSimulationDisplaySpaceDimensions() {
   return [width, height];
 }
 function getNodeDefaultRadius() {
-  return 10;
+  return 30; // 30
 }
+function colorizeText(relex) {
+  // we replace with "<-span..." because we need to go through after one at a time and
+  // add a unique id according to the order the enamex shows up in the text. This is so
+  // that we can have text highlighting when a node is hovered over.
+  relex = relex
+          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='STRUCTURE_addr'>")
+          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='AGE'>")
+          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ANIMAL'>")
+          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='CHEMICAL'>")
+          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='DURATANNIV'>")
+          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='COREF_gen'>")
+          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='COREF_loc'>")
+          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='COREF_dat'>")
+          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='COREF'>")
+          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='DATE'>")
+          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='DATE_non'>")
+          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='EVENT'>")
+          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='EVENT_rel'>")
+          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='EVENT_xlife'>")
+          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='FAMILYMEMBER'>")
+          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='NONFAMILY'>")
+          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='FOOD_DRINK'>")
+          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='GAME'>")
+          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='HEALTH_CONDITION'>")
+          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='LOCALE'>")
+          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='LOCALE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ITE_gpe'>")
+          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ITE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ITE_org'>")
+          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='STRUCTURE'>")
+          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='MONEY'>")
+          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='OCCUPATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ORGANIZATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ORGANIZATION_edu'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ORGANIZATION_mil'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ORGANIZATION_music'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ORGANIZATION_pub'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ORGANIZATION_rel'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ORGANIZATION_sports'>")
+          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ETPLACE'>")
+          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='PERCENT'>")
+          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='PERSON'>")
+          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='PHONENUMBER'>")
+          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='FLORA'>")
+          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='QUANTITY'>")
+          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIME'>")
+          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='TITLE'>")
+          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='TITLEFPH'>")
+          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='VEHICLE'>")
+          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='WEAPON'>")
+          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='URL'>")
+          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='WORK_OF_ART'>")
+          .replace(/<\/ENAMEX>/g, "</span>")
+          .replace(/<\/TIMEX>/g, "</span>")
+          .replace(/<\/NUMEX>/g, "</span>");
+
+  for (i = 0; i < originalGraph.entities.length; i++) {
+    var replacementString = "<span id='" + i + "'";
+    // var included = relex.includes("<span");
+    relex = relex.replace("<-span", replacementString);
+  }
+  return relex;
+}
+// for coloring text that sits on nodes
+function textColors(type) {
+  if (type == "STRUCTURE.addr") {return "#ffffff"}
+  else if (type == "AGE") { return "#000000"}
+  else if (type == "ANIMAL") { return "#ffffff"}
+  else if (type == "CHEMICAL") { return "#000000"}
+  else if (type == "COREF.gen") { return "#000000"}
+  else if (type == "COREF.loc") { return "#ffffff"}
+  else if (type == "COREF.dat") { return "#ffffff"}
+  else if (type == "COREF") { return "#ffffff"}
+  else if (type == "DATE") { return "#ffffff"}
+  else if (type == "DATE.non") { return "#000000"}
+  else if (type == "DURATANNIV") { return "#ffffff"}
+  else if (type == "EVENT") { return "#000000"}
+  else if (type == "EVENT.rel") { return "#000000"}
+  else if (type == "EVENT.xlife") { return "#000000"}
+  else if (type == "ITE.et") { return "#000000"}
+  else if (type == "FAMILYMEMBER") { return "#ffffff"}
+  else if (type == "NONFAMILY") { return "#000000"}
+  else if (type == "FOOD_DRINK") { return "#000000"}
+  else if (type == "GAME") { return "#ffffff"}
+  else if (type == "HEALTH_CONDITION") { return "#000000"}
+  else if (type == "ITE.gpe") { return "#000000"}
+  else if (type == "ITE.notgpe") { return "#000000"}
+  else if (type == "ITE.org") { return "#000000"}
+  else if (type == "LOCALE") { return "#ffffff"}
+  else if (type == "LOCALE.notgpe") { return "#000000"}
+  else if (type == "STRUCTURE") { return "#000000"}
+  else if (type == "MONEY") { return "#000000"}
+  else if (type == "OCCUPATION") { return "#000000"}
+  else if (type == "ORGANIZATION") { return "#ffffff"}
+  else if (type == "ORGANIZATION.edu") { return "#ffffff"}
+  else if (type == "ORGANIZATION.mil") { return "#ffffff"}
+  else if (type == "ORGANIZATION.music") { return "#000000"}
+  else if (type == "ORGANIZATION.pub") { return "#000000"}
+  else if (type == "ORGANIZATION.rel") { return "#000000"}
+  else if (type == "ORGANIZATION.sports") { return "#000000"}
+  else if (type == "ETPLACE") { return "#000000"}
+  else if (type == "PERCENT") { return "#ffffff"}
+  else if (type == "PERSON") { return "#000000"}
+  else if (type == "PHONENUMBER") { return "#000000"}
+  else if (type == "FLORA") { return "#000000"}
+  else if (type == "QUANTITY") { return "#000000"}
+  else if (type == "TIME") { return "#000000"}
+  else if (type == "TITLE") { return "#000000"}
+  else if (type == "TITLEFPH") { return "#000000"}
+  else if (type == "VEHICLE") { return "#ffffff"}
+  else if (type == "WEAPON") { return "#ffffff"}
+  else if (type == "URL") { return "#ffffff"}
+  else if (type == "WORK_OF_ART") { return "#000000"}
+  else { return "#ff69b4" }
+}
+// for coloring nodes according to enamex type
+function colors(type) {
+  if (type == "STRUCTURE.addr") {return "#999000"}
+  else if (type == "AGE") { return "#669ac4"}
+  else if (type == "ANIMAL") { return "#80771f"}
+  else if (type == "CHEMICAL") { return "#aaff0d"}
+  else if (type == "COREF.gen") { return "#e5ccff"}
+  else if (type == "COREF.loc") { return "#6a5abd"}
+  else if (type == "COREF.dat") { return "#089977"}
+  else if (type == "COREF") { return "#7b68ee"}
+  else if (type == "DATE") { return "#0400ff"}
+  else if (type == "DATE.non") { return "#20b2aa"}
+  else if (type == "DURATANNIV") { return "#1e90ff"}
+  else if (type == "EVENT") { return "#00ff51"}
+  else if (type == "EVENT.rel") { return "#99ff99"}
+  else if (type == "EVENT.xlife") { return "#ccffcc"}
+  else if (type == "ITE.et") { return "#e6cce2"}
+  else if (type == "FAMILYMEMBER") { return "#ee6a69"}
+  else if (type == "NONFAMILY") { return "#f5deb3"}
+  else if (type == "FOOD_DRINK") { return "#ffe5cc"}
+  else if (type == "GAME") { return "#99004c"}
+  else if (type == "HEALTH_CONDITION") { return "#cedcba"}
+  else if (type == "ITE.gpe") { return "#ff00d0"}
+  else if (type == "ITE.notgpe") { return "#e65ecd"}
+  else if (type == "ITE.org") { return "#eb9ddc"}
+  else if (type == "LOCALE") { return "#9c6927"}
+  else if (type == "LOCALE.notgpe") { return "#cfaf59"}
+  else if (type == "STRUCTURE") { return "#ffbe0d"}
+  else if (type == "MONEY") { return "#fedcba"}
+  else if (type == "OCCUPATION") { return "#ff6a00"}
+  else if (type == "ORGANIZATION") { return "#cc0000"}
+  else if (type == "ORGANIZATION.edu") { return "#ff2638"}
+  else if (type == "ORGANIZATION.mil") { return "#94323a"}
+  else if (type == "ORGANIZATION.music") { return "#fad9dc"}
+  else if (type == "ORGANIZATION.pub") { return "#c36276"}
+  else if (type == "ORGANIZATION.rel") { return "#ed8089"}
+  else if (type == "ORGANIZATION.sports") { return "#e34451"}
+  else if (type == "ETPLACE") { return "#bfbfbf"}
+  else if (type == "PERCENT") { return "#005e7d"}
+  else if (type == "PERSON") { return "#3f9c05"}
+  else if (type == "PHONENUMBER") { return "#a9a9a9"}
+  else if (type == "FLORA") { return "#abcdef"}
+  else if (type == "QUANTITY") { return "#66b2ff"}
+  else if (type == "TIME") { return "#6686c4"}
+  else if (type == "TITLE") { return "#ffa266"}
+  else if (type == "TITLEFPH") { return "#ffc266"}
+  else if (type == "VEHICLE") { return "#8e44fc"}
+  else if (type == "WEAPON") { return "#6600ff"}
+  else if (type == "URL") { return "#606060"}
+  else if (type == "WORK_OF_ART") { return "#fafa02"}
+  else { return "#ff69b4" }
+}
+// for setting link distance based on relationship type
+function linkDistance(type) {
+  if (type == "R40:IS_SAME_AS") {
+    return 70;
+  } else {
+    return 120;
+  }
+}
+function getNodeTextPlacement(text) {
+  return [Math.log(text.length) / Math.log(1.5) * -3.2, 4];
+}
+function groupPath(d) {
+    if (d.length === 2) {
+      var arr = d.map(function(i) {
+        return [i.x, i.y];
+      });
+      arr.push([arr[0][0], arr[0][1]]);
+      return "M" + d3.polygonHull(arr).join("L") + "Z";
+    } else {
+      return "M" + d3.polygonHull(d.map(function(entity) {
+        return [entity.x, entity.y];
+      })).join("L") + "Z";
+    }
+  };
 //-------------------------------------D3 Simulation-----------------------------------------
-function runD3() {
+function startSimulation() {
   //create somewhere to put the force directed displayedGraph
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
@@ -937,7 +1022,6 @@ function runD3() {
     .style("width", width + 'px')
     .style("height", height + 'px');
   
-
   d3.select("svg")
     .on("keydown", ctrlKeydown)
     .on("keyup", ctrlKeyup)
@@ -948,15 +1032,17 @@ function runD3() {
     .enter().append("svg:marker")   //section adds the arrows
     .attr("id", String) //without this no arrows show up
     .attr("viewBox","0 -5 10 10")   //this cuts off the arrow image - you could use this to show half an arrow
-    .attr("refX",18)    //arrow placement:how far it is from node center
+    .attr("refX",28)    //arrow placement:how far it is from node center
     .attr("refY",0)     //arrow placement:offset from center line of node
-    .attr("markerWidth",3)  //These two determine arrowhead size
-    .attr("markerHeight",3)
+    .attr("markerWidth",8)  //These two determine arrowhead size
+    .attr("markerHeight",4)
     .attr("orient","auto")  //this makes arrowheads aline with link lines
-    .append("svg:path") //without the next two no arrows show up
-    .attr("d", "M 0,-5 L 10, 0 L 0, 5");
-    //svg path attributes - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+    .append("svg:path") //svg path attributes - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+    .attr("d", "M 0,-5 L 10,0 L 0,5");
 
+  var hulls = svg.append("g")
+                  .attr("class", "hull")
+                .selectAll("path");
   //draw links
   link = svg.append("g")
     .attr("class", "links")
@@ -970,7 +1056,7 @@ function runD3() {
     .on("mouseover", linkMouseOver)
     .on("mouseout", linkMouseOut)
     .on("click", linkCut);
-
+  
   //draw nodes
   node = svg.append("g")
     .attr("class", "nodes")
@@ -982,37 +1068,49 @@ function runD3() {
     .on("click", nodeClick)
     .on("dblclick", nodeDoubleClick);
   
-    var m = displayedGraph.entities.length;
-  node._groups[0].forEach(function(d, i) {
-    d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();  
-  });
+  //   var m = displayedGraph.entities.length;
+  // node._groups[0].forEach(function(d, i) {
+  //   d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+  //   d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
+  // });
   
   node.call(d3.drag()
     .on("start", dragstarted)
     .on("drag", dragged)
     .on("end", dragended));
-  //draw circles for nodes    
+  //draw circles for nodes
   node.append("circle")
+      .attr("stroke", "#dfdfdf")
+      .attr("stroke-width", "2px")
       .attr("r", radius)
       .attr("fill", function(d) {return colors(d.type);});
-      
+   
+  node.append("svg:title")
+      .text(function(d) { return d.text; });
   //show text labels next to nodes
   node.append("text")
-      .text(function(d) { return d.text;})
-      .attr("x", 8)
-      .attr("y", 8);
+      .text(function(d) {
+        if (d.text.length > 6) {
+          return d.text.substr(0,5) + "...";
+        } else {
+          return d.text;
+        }
+      })
+      .style("fill", function(d) {return textColors(d.type);})
+      .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];})
+      .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];});
 
-  //set up the simulation 
+  //set up the simulation
   simulation = d3.forceSimulation()
     // .force("link", d3.forceLink().id(function(d) {return d.id;}))
     .force("link", d3.forceLink(link).id(function(d) {return d.id;}).distance(function(d) {return d.distance}))
-    // .distance( linkDistance(function(d) {return d.type;}) ).strength(1) 
+    // .distance( linkDistance(function(d) {return d.type;}) ).strength(1)
     // .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(75).strength(.9))
-    .force("charge_force", d3.forceManyBody().strength(-50))
-    .force("center_force", d3.forceCenter(width / 2, height / 2))
-    .force("x", d3.forceX(width / 2).strength(.010))
-    .force("y", d3.forceY(height / 2).strength(.010));
+    .force("charge-force", d3.forceManyBody().strength(-30))
+    .force("collision-force", d3.forceCollide(35).strength(.5))
+    // .force("center-force", d3.forceCenter(width / 2, height / 2))
+    .force("x", d3.forceX(width / 2).strength(.007))
+    .force("y", d3.forceY(height / 2).strength(.007));
   // simulation = cola.d3adaptor().linkDistance(50).size([width, height]);
 
   simulation
@@ -1023,15 +1121,22 @@ function runD3() {
     .force("link")
     .links(displayedGraph.relations);
 
-  simulation.alphaDecay(.015);
-  //update circle positions to reflect node updates on each tick of the simulation     
+  // This must come after the simulation.links() otherwise the source and target of a relationship return ids, not entities
+  var groups = displayedGraph.getSameAsGroups();
+  
+  hulls.data(groups).enter()
+      .append("path");
+
+  simulation.alphaDecay(.01).velocityDecay(.075);
+
+  //update circle positions to reflect node updates on each tick of the simulation
   function tickActions() {
     node
       .attr("transform", function(d) {
-        return "translate(" 
-        + Math.max(radius, Math.min(width - 75 - radius, d.x)) 
-        + ", " 
-        + Math.max(radius, Math.min(height - radius, d.y)) 
+        return "translate("
+        + Math.max(radius, Math.min(width - 75 - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
       /*.attr("x", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
       .attr("y", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); })*/
@@ -1039,11 +1144,14 @@ function runD3() {
       .attr("x1", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 75 - radius, d.target.x));})
-      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
+    
+    d3.select(".hull").selectAll("path").attr("stroke-width", "67px")
+        .attr("d", function(d) {return groupPath(d);});
   }
   //for node dragging
   function dragstarted(d) {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    if (!d3.event.active) simulation.alphaTarget(0.1).restart();
     d.fx = d.x;
     d.fy = d.y;
   }
@@ -1064,10 +1172,10 @@ function restart() {
   function tickActions() {
     node
       .attr("transform", function(d) {
-        return "translate(" 
-        + Math.max(radius, Math.min(width - 100 - radius, d.x)) 
-        + ", " 
-        + Math.max(radius, Math.min(height - radius, d.y)) 
+        return "translate("
+        + Math.max(radius, Math.min(width - 100 - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
     link
       .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
@@ -1093,103 +1201,158 @@ function restart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
+  
+  node = node.data(displayedGraph.entities, function(d) { return d.id;});
+  
+  node.exit().transition()
+      .attr("r", 0)
+      .remove();
+  
+  enter = node.enter()
+    .append("g")
+    .on("mouseover", nodeMouseOver)
+    .on("mouseout", nodeMouseOut)
+    .on("click", nodeClick)
+    .on("dblclick", nodeDoubleClick);
+  
+  enter.call(d3.drag()
+    .on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended));
+  
+  enter.append("circle")
+      .attr("stroke", "#dfdfdf")
+      .attr("stroke-width", "2px")
+      .attr("fill", function(d) {return colors(d.type); })
+      .call(function(node) { node.transition().attr("r", radius); });
+  
+  enter.append("svg:title")
+      .text(function(d) { return d.text; });
 
-node = node.data(displayedGraph.entities, function(d) { return d.id;});
+  enter.append("text")
+      .text(function(d) {
+        if (d.text.length > 6) {
+          return d.text.substr(0,5) + "...";
+        } else {
+          return d.text;
+        }
+      })
+      .style("fill", function(d) {return textColors(d.type);})
+      .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];} )
+      .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];} );
+          
+  node = enter.merge(node);
+  // node.select("circle")
+  
+  // Try to set intial position near center of svg
+  // var m = displayedGraph.entities.length;
+  //   node._groups[0].forEach(function(d, i) {
+  //     d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
+  //     d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
+  //   });
+  
+  // Apply the general update pattern to the links.
+  link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+  
+  // Keep the exiting links connected to the moving remaining nodes.
+  link.exit().transition()
+      .attr("stroke-opacity", 0)
+      .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+      .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+      .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+      .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+      .remove();
+  
+  link = link.enter().append("line")
+      .call(function(link) { link.transition().attr("stroke-opacity", 1); })
+      .attr('marker-end','url(#arrowhead)')
+      .style("stroke-width", 4)
+      .style("stroke", "black")
+      .merge(link)
+      .on("mouseover", linkMouseOver)
+      .on("mouseout", linkMouseOut)
+      .on("click", linkCut);
+  
+  // Update and restart the simulation.
+  simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+  simulation.force("link").links(displayedGraph.relations);
 
-node.exit().transition()
-    .attr("r", 0)
-    .remove();
+  var groups = displayedGraph.getSameAsGroups();
+  d3.select(".hull").selectAll("path")
+    .data(groups).exit()
+    .attr("selection","exit")
+    .transition().attr("fill-opacity", 0)
+    .transition().attr("stroke-width", "0px");
+  d3.select(".hull").selectAll("path").remove();
+  // hulls.data(groups).enter()
+  //   .append("path");
 
-enter = node.enter()
-  .append("g")
-  .on("mouseover", nodeMouseOver)
-  .on("mouseout", nodeMouseOut)
-  .on("click", nodeClick)
-  .on("dblclick", nodeDoubleClick);
-
-enter.call(d3.drag()
-  .on("start", dragstarted)
-  .on("drag", dragged)
-  .on("end", dragended));
-
-enter.append("circle")
-    .attr("fill", function(d) {
-      // console.log("after append circle: " + d.text);
-      return colors(d.type); })
-    .call(function(node) { node.transition().attr("r", radius); });
-    
-// console.log("after append circle:");
-// console.log(enter);    
-enter.append("text")
-    .text(function(d) {
-// console.log("after append text: " + d.text);
-      return d.text;})
-    .attr("x", 8)
-    .attr("y", 9);   
-// console.log("nodes after text:");
-// console.log(enter);
-node = enter.merge(node);
-node.select("circle")
-      
-// console.log("nodes after merge:");
-// console.log(node);
-
-// Try to set intial position near center of svg
-var m = displayedGraph.entities.length;
-  node._groups[0].forEach(function(d, i) {
-    d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-    d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();  
-  });
-
-// Apply the general update pattern to the links.
-link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
-
-// Keep the exiting links connected to the moving remaining nodes.
-link.exit().transition()
-    .attr("stroke-opacity", 0)
-    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-    .remove();
-
-link = link.enter().append("line")
-    .call(function(link) { link.transition().attr("stroke-opacity", 1); })
-    .attr('marker-end','url(#arrowhead)')
-    .style("stroke-width", 4) 
-    .style("stroke", "black")
-    .merge(link)
-    .on("mouseover", linkMouseOver)
-    .on("mouseout", linkMouseOut)
-    .on("click", linkCut);   
-
-// Update and restart the simulation.
-simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-simulation.force("link").links(displayedGraph.relations);
-simulation.alpha(1).restart();
-console.log("Simulation restarted.");
-// console.log(displayedGraph);
-// console.log(editedGraph);
+  simulation.alpha(1).restart();
+  console.log("Simulation restarted.");
 }
 // modified restart for "same as"
 function sameAsRestart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
-  
-  function tickActions() {
+    
+    var hulls = d3.select(".hull")
+        .selectAll("path");
+    // Apply the general update pattern to the links.
+    link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+    
+    // Keep the exiting links connected to the moving remaining nodes.
+    link.exit().transition()
+    .attr("stroke-opacity", 0)
+    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+    .remove();
+    
+    link = link.enter().append("line")
+    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
+    .style("stroke-width", 2)
+    .style("stroke", "black")
+    .merge(link);
+    
+    // Update and restart the simulation.
+    simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+    simulation.force("link").links(displayedGraph.relations);
+    
+    var groups = displayedGraph.getSameAsGroups();
+    hulls
+      .data(groups)
+        .attr("selection","update")
+        .attr("d", function(d) {return groupPath(d);});
+    hulls
+      .data(groups).enter()
+      .append("path")
+        .attr("selection","enter")
+        .attr("d", function(d) {return groupPath(d);})
+        .attr("stroke-width", "0px")
+        .transition().attr("stroke-width", "67px");
+    
+  simulation.alpha(1).restart();
+  console.log("Simulation restarted showing 'same as'.");
+
+  function tickActions() {  
     node
       .attr("transform", function(d) {
-        return "translate(" 
-        + Math.max(radius, Math.min(width - 100 - radius, d.x)) 
-        + ", " 
-        + Math.max(radius, Math.min(height - radius, d.y)) 
+        return "translate("
+        + Math.max(radius, Math.min(width - 100 - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
     link
       .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
       .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
-      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
+
+    d3.select(".hull").selectAll("path")
+        // .attr("stroke-width", "0px")
+        .attr("d", function(d) {return groupPath(d);});
   }
   function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -1205,44 +1368,57 @@ function sameAsRestart() {
     d.fx = null;
     d.fy = null;
   }
+}
 
-  // Apply the general update pattern to the links.
-link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
-
-// Keep the exiting links connected to the moving remaining nodes.
-link.exit().transition()
-    .attr("stroke-opacity", 0)
-    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-    .remove();
-
-link = link.enter().append("line")
-    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
-    .style("stroke-width", 2) 
-    .style("stroke", "black") 
-    .merge(link);
-
-// Update and restart the simulation.
-simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-simulation.force("link").links(displayedGraph.relations);
-simulation.alpha(1).restart();
-console.log("Simulation restarted.");
-}  
-// function forceCluster() {
-//   const strength = 0.2;
-  
-//   function force(alpha) {
-    
-//   }
-// }
 // key thing about building the displayedGraph is that the entities for each end of a link must
 // exist and match the link names precisely otherwise it errors and doesn't show anything
 function buildAllData(parsedRelex) {
   var obj = new Object();
   obj.entities = [];
   obj.relations = [];
+  obj.getSameAsRels = function() {
+    var sameAsRelations = [];
+    this.relations.forEach(function(relation) {
+      if (relation.type == "R40:IS_SAME_AS") {
+        sameAsRelations.push(relation);
+      }
+    });
+    return sameAsRelations;
+  }
+  obj.getSameAsGroups = function() {
+    var sameAsGroups = [];
+    this.getSameAsRels().forEach(function(relation) {
+      if (sameAsGroups.length > 0) {
+        var nodeInGroup = false;
+        for (let i = 0; i < sameAsGroups.length; i++) {
+          if (sameAsGroups[i].includes(relation.source) || sameAsGroups[i].includes(relation.target)) {
+            nodeInGroup = true;
+            if (!sameAsGroups[i].includes(relation.source)) {
+              sameAsGroups[i].push(relation.source);
+            }
+            if (!sameAsGroups[i].includes(relation.target)) {
+              sameAsGroups[i].push(relation.target);
+            }
+          }
+        }
+        if (!nodeInGroup) {
+          sameAsGroups.push([relation.source, relation.target]);
+        }
+      } else { // This handles the first case, when no groups exist yet.
+        sameAsGroups.push([relation.source, relation.target]);
+      }
+    });
+    return sameAsGroups;
+  }
+  // This array needs to look like the result of d3.nest() to use with d3.polygonHull()
+  // obj.getSameAsGroupsForHull = function() {
+  //   var nestedSameAsGroups = [];
+  //   var sameAsGroups = this.getSameAsGroups();
+  //   for (let i = 0; i < sameAsGroups.length; i++) {
+  //     nestedSameAsGroups.push({key:i.toString(), values:sameAsGroups[i]});
+  //   }
+  //   return nestedSameAsGroups;
+  // }
   //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
   for (i in parsedRelex.metadata) {
     var entity = parsedRelex.metadata[i].content;
@@ -1265,10 +1441,10 @@ function buildAllData(parsedRelex) {
     var relation = parsedRelex.relex[i];
     //Not sure how to handle the surname relationship thing yet. So just don't add them.
     if (!/S=\d\+|S=\d/.test(relation.type)) {
-      obj.relations.push({type : relation.type, 
-                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "), 
-                        source : relation.startOffset, 
-                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "), 
+      obj.relations.push({type : relation.type,
+                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "),
+                        source : relation.startOffset,
+                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "),
                         target : relation.endOffset,
                       distance : linkDistance(relation.type)});
     }
@@ -1282,17 +1458,20 @@ function buildAllData(parsedRelex) {
   copy.relations = [];
   for (i in obj.entities) {
     var entity = obj.entities[i];
-    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});  
+    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});
   }
   for (i in obj.relations) {
     var relation = obj.relations[i];
-    copy.relations.push({ type : relation.type, 
-                    startToken : relation.startToken, 
-                        source : relation.source, 
+    copy.relations.push({ type : relation.type,
+                    startToken : relation.startToken,
+                        source : relation.source,
                       endToken : relation.endToken,
                         target : relation.target,
                       distance : linkDistance(relation.type)});
   }
+  copy.getSameAsGroups = obj.getSameAsGroups;
+  copy.getSameAsRels = obj.getSameAsRels;
+  // copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
   // return obj;
   return copy;
 }
