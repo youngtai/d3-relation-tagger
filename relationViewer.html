@@ -340,7 +340,7 @@ document.getElementById("is-subplace-of").addEventListener("click", subplaceOf);
 document.getElementById("has-title").addEventListener("click", hasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
-for (var i = 0; i < relationshipButtonClass.length; i++) {
+for (let i = 0; i < relationshipButtonClass.length; i++) {
   relationshipButtonClass[i].addEventListener("click", setShowSameAsVisibility);
   relationshipButtonClass[i].addEventListener("click", showSameAs);
   relationshipButtonClass[i].addEventListener("click", relButtonStyle);
@@ -522,8 +522,9 @@ function loadDocument(event) {
     // console.log(displayedGraph.entities);
     // console.log(displayedGraph.relations);
     reloadDisplayedGraphToggleOn();
-    //make D3 happen
+    //make D3 simulation happen
     startSimulation();
+    enableTextToNodeHighlight();
   };
   reader.readAsText(file);
 }
@@ -649,6 +650,38 @@ function linkCut(d) {
   }
 }
 
+
+
+  // function highlightNode(id) {
+  //   d3.select("#arrayindex"+id).select("circle")
+  //     .attr("stroke", "#ff0000")
+  //     .attr("stroke-width", "4px")
+  //     .attr("r", getNodeDefaultRadius() * .7);
+  // }
+  // function textEntityClicked(entityID) {
+  //   var correspondingNode = displayedGraph.entities.find(function(entity) {
+  //     return entity.arrayindex == entityID;
+  //   });
+  //   highlightNode(correspondingNode);
+  // }
+  // textEntities refers to the tagged entities in the nbx
+function enableTextToNodeHighlight() {
+  let textEntities = document.getElementsByTagName("span");
+  for (let i = 0; i < textEntities.length; i++) {
+    textEntities[i].addEventListener("click", function(mouseEventObj) {
+      // d3.select("#arrayindex"+mouseEventObj.srcElement.id).select("circle")
+      //     .attr("stroke", "#ff0000")
+      //     .transition().attr("stroke-width", "4px")
+      //     .attr("r", getNodeDefaultRadius() * .7);
+      let entityID = mouseEventObj.srcElement.id;
+      let entity = displayedGraph.entities.find(function(e) {
+        return e.arrayindex == entityID;
+      });
+      nodeClick(entity);
+    });
+  };
+}
+
 function highlightText(d) {
   document.getElementById(d.arrayindex).style.fontWeight = "900";
   document.getElementById(d.arrayindex).style.border = "3px solid #000000";
@@ -727,29 +760,33 @@ var selectedNodeElements = [];
 function nodeClick(d) {
   // if ctrl key pressed down
   // add clicked node as relation source
-  if (d3.event.ctrlKey && getCurrentRelationship() != "UNSELECTED") {
+  if (getCurrentRelationship() != "UNSELECTED") {
+    let DOMelement = document.getElementById("arrayindex"+d.arrayindex);
     if (selectedNodes.includes(d)) {
       selectedNodes.splice(selectedNodes.indexOf(d),1);
-      d3.select(selectedNodeElements[selectedNodeElements.indexOf(this)]).select("circle")
+      d3.select(selectedNodeElements[selectedNodeElements.indexOf(DOMelement)]).select("circle")
       .transition()
       .attr('r', getNodeDefaultRadius())
       .attr("stroke", "#dfdfdf")
       .attr("stroke-width", "2px")
       .attr("fill", function(d) {return colors(d.type);});
-      selectedNodeElements.splice(selectedNodeElements.indexOf(this),1);
+      selectedNodeElements.splice(selectedNodeElements.indexOf(DOMelement),1);
+      unhighlightText(d);
       console.log("Node unselected");
     } else {
       highlightText(d);
-      d3.select(this).select("circle")
+      // console.log(this);
+      // console.log(d3.select("#arrayindex"+d.arrayindex));
+      d3.select(DOMelement).select("circle")
         .transition()
         .attr("stroke", "#ff0000")
         .attr("stroke-width", "4px")
         .attr('r', getNodeDefaultRadius() * .7);
       selectedNodes.push(d);
-      selectedNodeElements.push(this);
+      selectedNodeElements.push(DOMelement);
       console.log("Node selected");
     }
-  } else if (d3.event.ctrlKey && getCurrentRelationship() == "UNSELECTED") {
+  } else if (getCurrentRelationship() == "UNSELECTED") {
     alert("Please select a relationship type first.");
   }
 }
@@ -774,7 +811,7 @@ function clearSelection() {
   }
 }
 function onClick() {
-  if (!d3.event.ctrlKey && !hover) {
+  if (!hover) {
     // // if ctrl not pressed and click is on empty space
     // for (i in selectedNodeElements) {
     //     // console.log(selectedNodes[i]);
@@ -787,7 +824,7 @@ function onClick() {
     //   console.log("Selected nodes cleared.");
     clearSelection();
   }
-  if (!d3.event.ctrlKey && hover) {
+  if (hover) {
     console.log("hovering over a node");
   }
 }
@@ -1078,6 +1115,8 @@ function startSimulation() {
     .on("start", dragstarted)
     .on("drag", dragged)
     .on("end", dragended));
+  node.attr("id", function(d) {return "arrayindex" + d.arrayindex;})
+      .attr("arrayindex", function(d) {return d.arrayindex;});
   //draw circles for nodes
   node.append("circle")
       .attr("stroke", "#dfdfdf")
@@ -1220,6 +1259,9 @@ function restart() {
     .on("drag", dragged)
     .on("end", dragended));
   
+  enter.attr("id", function(d) {return "arrayindex" + d.arrayindex;})
+      .attr("arrayindex", function(d) {return d.arrayindex;});
+
   enter.append("circle")
       .attr("stroke", "#dfdfdf")
       .attr("stroke-width", "2px")
