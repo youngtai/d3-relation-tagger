@@ -634,19 +634,19 @@ function linkMouseOut(d) {
 function linkCut(d) {
   if (scissorsToggled()) {
     // console.log(d);
-    var toCutIndex = displayedGraph.relations.findIndex( function(element) {
+    let toCutIndex = displayedGraph.relations.findIndex( function(element) {
       return element == d;
     });
     console.log("Cutting at index: " + toCutIndex);
     displayedGraph.relations.splice(toCutIndex,1);
     restart();
     // now remove it from editedGraph
-    toCutIndex = editedGraph.relations.findIndex( function(element) {
-      return element == d;
-    });
+    // toCutIndex = editedGraph.relations.findIndex( function(element) {
+    //   return element == d;
+    // });
     editedGraph.relations.splice(toCutIndex,1);
-    console.log(displayedGraph);
-    console.log(editedGraph);
+    // console.log(displayedGraph);
+    // console.log(editedGraph);
   }
 }
 
@@ -678,6 +678,47 @@ function enableTextToNodeHighlight() {
         return e.arrayindex == entityID;
       });
       nodeClick(entity);
+    });
+    textEntities[i].addEventListener("dblclick", function(mouseEventObj) {
+      let entityID = mouseEventObj.srcElement.id;
+      let entity = displayedGraph.entities.find(function(e) {
+        return e.arrayindex == entityID;
+      });
+      nodeDoubleClick(entity);
+    });
+    textEntities[i].addEventListener("mouseover", function(mouseEventObj) {
+      let id = "#arrayindex" + mouseEventObj.srcElement.id;
+      // document.getElementById(id).getElementsByTagName("circle")[0]
+      d3.select(".nodes").select(id).select("circle")
+          .transition().attr("r", getNodeDefaultRadius() * 1.2)
+          .attr("stroke", "#000000")
+          .transition().attr("stroke-width","4px");
+    });
+    textEntities[i].addEventListener("mouseout", function(mouseEventObj) {
+      // if it's a selected node, we need to leave it in that state when mouseout
+      // current behavior - if I select a node, then mouseover and mouseout on other nodes,
+      // they stay big with a black border
+      // If I select a node, and hover over it, it stays black and bold.
+      // So both of these are caused by the same problem.
+      // I need to:
+      // if something is selected, it's previous state must be preserved
+      // -- selected stays small and red border
+      // -- normal goes back to normal
+      // So when mouseout-ing each node, I need to check if it is in selectedNodeElements.
+      let DOMelement = document.getElementById("arrayindex" + mouseEventObj.srcElement.id);
+      if (selectedNodeElements.includes(DOMelement)) {
+        d3.select(DOMelement).select("circle")
+        .transition()
+        .attr("stroke", "#ff0000")
+        .attr("stroke-width", "4px")
+        .attr('r', getNodeDefaultRadius() * .7);
+      } else {
+        let id = "#arrayindex" + mouseEventObj.srcElement.id;
+        d3.select(".nodes").select(id).select("circle")
+            .transition().attr("r", getNodeDefaultRadius())
+            .transition().attr("stroke-width","2px")
+            .attr("stroke", "#dfdfdf");
+      }
     });
   };
 }
@@ -727,7 +768,7 @@ function nodeDoubleClick(d) {
   console.log("Double-clicked node " + d.text);
   // console.log(selectedNodes);
   // if ctrl key not pressed and nodes are selected, make links [selected ndoes]->(clicked node)
-  if (!d3.event.ctrlKey && selectedNodes.length > 0) {
+  if (selectedNodes.length > 0) {
     for (i in selectedNodes) {
       var targetNode = d;
       displayedGraph.relations.push({type : getCurrentRelationship(),
@@ -1212,14 +1253,14 @@ function restart() {
     node
       .attr("transform", function(d) {
         return "translate("
-        + Math.max(radius, Math.min(width - 100 - radius, d.x))
+        + Math.max(radius, Math.min(width - radius, d.x))
         + ", "
         + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
     link
-      .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
-      .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
   }
   function dragstarted(d) {
@@ -1331,6 +1372,9 @@ function restart() {
 
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
+  if (showSameAsToggled()) {
+    sameAsRestart();
+  }
 }
 // modified restart for "same as"
 function sameAsRestart() {
@@ -1382,14 +1426,14 @@ function sameAsRestart() {
     node
       .attr("transform", function(d) {
         return "translate("
-        + Math.max(radius, Math.min(width - 100 - radius, d.x))
+        + Math.max(radius, Math.min(width - radius, d.x))
         + ", "
         + Math.max(radius, Math.min(height - radius, d.y))
         + ")";});
     link
-      .attr("x1", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.source.x));})
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - radius, d.source.x));})
       .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
-      .attr("x2", function(d) {return Math.max(radius, Math.min(width - 100 - radius, d.target.x));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - radius, d.target.x));})
       .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));});
 
     d3.select(".hull").selectAll("path")
