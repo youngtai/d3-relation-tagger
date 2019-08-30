@@ -279,7 +279,7 @@ text {
 <script>
 
 var simulation,
-    node,
+    // node,
     link;
 var displayedGraph,
     editedGraph,
@@ -1066,6 +1066,10 @@ function colors(type) {
   else if (type == "WORK_OF_ART") { return "#fafa02"}
   else { return "#ff69b4" }
 }
+// Adjusts forceManyBody strength according to number of nodes displayed to fit them into the view window
+function getChargeForceStrength(nodeQuantity) {
+  return -Math.exp(-(nodeQuantity - 100)/19) - 12;
+}
 // for setting link distance based on relationship type
 function linkDistance(type) {
   if (type == "R40:IS_SAME_AS") {
@@ -1075,7 +1079,9 @@ function linkDistance(type) {
   }
 }
 function getNodeTextPlacement(text) {
-  return [Math.log(text.length) / Math.log(1.5) * -3.2, 4];
+  // [x position, y position]
+  // return [Math.log(text.length) / Math.log(1.5) * -3.2, 4];
+  return [Math.log(text.length) / Math.log(.88) * 1, 4];
 }
 function groupPath(d) {
     if (d.length === 2) {
@@ -1136,7 +1142,7 @@ function startSimulation() {
     .on("click", linkCut);
   
   //draw nodes
-  node = svg.append("g")
+  var node = svg.append("g")
     .attr("class", "nodes")
     .selectAll("circle")
     .data(displayedGraph.entities)
@@ -1151,7 +1157,20 @@ function startSimulation() {
   //   d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
   //   d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
   // });
-  
+  let m = displayedGraph.entities.length;
+  displayedGraph.entities.forEach(function(d) {
+    d.x = width/2 + Math.cos(Math.random() * 2*Math.PI) * Math.random() * 300;
+    d.y = height/2 + Math.sin(Math.random() * 2*Math.PI) * Math.random() * 300;
+  });
+
+  // node.attr("transform", function(d) {
+  //   return "translate("
+  //       + Math.max(radius, Math.min(width - radius, d.x))
+  //       + ", "
+  //       + Math.max(radius, Math.min(height - radius, d.y))
+  //       + ")";
+  // });
+
   node.call(d3.drag()
     .on("start", dragstarted)
     .on("drag", dragged)
@@ -1162,7 +1181,7 @@ function startSimulation() {
   node.append("circle")
       .attr("stroke", "#dfdfdf")
       .attr("stroke-width", "2px")
-      .attr("r", radius)
+      .attr("r", 0).transition().attr("r", radius)
       .attr("fill", function(d) {return colors(d.type);});
    
   node.append("svg:title")
@@ -1180,14 +1199,17 @@ function startSimulation() {
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];})
       .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];});
 
+  // console.log(displayedGraph.entities.length);
+  // console.log("width: " + width);
+  // console.log("height: " + height);
   //set up the simulation
   simulation = d3.forceSimulation()
     // .force("link", d3.forceLink().id(function(d) {return d.id;}))
     .force("link", d3.forceLink(link).id(function(d) {return d.id;}).distance(function(d) {return d.distance}))
     // .distance( linkDistance(function(d) {return d.type;}) ).strength(1)
     // .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(75).strength(.9))
-    .force("charge-force", d3.forceManyBody().strength(-30))
-    .force("collision-force", d3.forceCollide(35).strength(.5))
+    .force("charge-force", d3.forceManyBody().strength(getChargeForceStrength(displayedGraph.entities.length)))
+    .force("collision-force", d3.forceCollide(32).strength(.8))
     // .force("center-force", d3.forceCenter(width / 2, height / 2))
     .force("x", d3.forceX(width / 2).strength(.007))
     .force("y", d3.forceY(height / 2).strength(.007));
@@ -1207,7 +1229,7 @@ function startSimulation() {
   hulls.data(groups).enter()
       .append("path");
 
-  simulation.alphaDecay(.01).velocityDecay(.075);
+  simulation.alphaDecay(.02).velocityDecay(.075); // .075
 
   //update circle positions to reflect node updates on each tick of the simulation
   function tickActions() {
@@ -1249,44 +1271,17 @@ function startSimulation() {
 }
 // restarts d3 simulation after the displayedGraph has been updated.
 function restart() {
-  function tickActions() {
-    node
-      .attr("transform", function(d) {
-        return "translate("
-        + Math.max(radius, Math.min(width - radius, d.x))
-        + ", "
-        + Math.max(radius, Math.min(height - radius, d.y))
-        + ")";});
-    link
-      .attr("x1", function(d) {return Math.max(radius, Math.min(width - radius, d.source.x));})
-      .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
-      .attr("x2", function(d) {return Math.max(radius, Math.min(width - radius, d.target.x));})
-      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
-  }
-  function dragstarted(d) {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-  }
-  function dragged(d) {
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
-  }
-  function dragended(d) {
-    if (!d3.event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-  }
-
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
   
+  var node = d3.select(".nodes").selectAll("g");
   node = node.data(displayedGraph.entities, function(d) { return d.id;});
   
-  node.exit().transition()
-      .attr("r", 0)
-      .remove();
+  node.exit()
+    .select("circle")
+      .transition().attr("r", 0);
+  node.exit().transition().remove();
   
   enter = node.enter()
     .append("g")
@@ -1294,6 +1289,24 @@ function restart() {
     .on("mouseout", nodeMouseOut)
     .on("click", nodeClick)
     .on("dblclick", nodeDoubleClick);
+
+  enter._groups[0].forEach(function(element) {
+    element.__data__.x = width/2 + Math.cos(Math.random() * 2*Math.PI) * Math.random() * 300;
+    element.__data__.y = height/2 + Math.sin(Math.random() * 2*Math.PI) * Math.random() * 300;
+  });
+  // node.enter()
+  //   .map(function(d) {return d.__data__;}).forEach(function(entity) {
+  //     d.x = width/2 + Math.random() * 100;
+  //     d.y = height/2 + Math.random() * 100;
+  //   });
+    
+  // .attr("transform",
+  //     "translate(" + (width/2 + Math.random() * 100) + 
+  //     ", " + (height/2 + Math.random() * 100) + ")");
+
+  // let m = displayedGraph.entities.length;
+  // let dx = width/2 + Math.random() * 100;
+  // let dy = height/2 + Math.random() * 100;
   
   enter.call(d3.drag()
     .on("start", dragstarted)
@@ -1356,7 +1369,9 @@ function restart() {
       .on("mouseout", linkMouseOut)
       .on("click", linkCut);
   
+  // console.log(displayedGraph.entities.length);
   // Update and restart the simulation.
+  simulation.force("charge-force", d3.forceManyBody().strength(getChargeForceStrength(displayedGraph.entities.length)));
   simulation.nodes(displayedGraph.entities).on("tick", tickActions);
   simulation.force("link").links(displayedGraph.relations);
 
@@ -1375,13 +1390,41 @@ function restart() {
   if (showSameAsToggled()) {
     sameAsRestart();
   }
+  function tickActions() {
+    node
+      .attr("transform", function(d) {
+        return "translate("
+        + Math.max(radius, Math.min(width - radius, d.x))
+        + ", "
+        + Math.max(radius, Math.min(height - radius, d.y))
+        + ")";});
+    link
+      .attr("x1", function(d) {return Math.max(radius, Math.min(width - radius, d.source.x));})
+      .attr("y1", function(d) {return Math.max(radius, Math.min(height - radius, d.source.y));})
+      .attr("x2", function(d) {return Math.max(radius, Math.min(width - radius, d.target.x));})
+      .attr("y2", function(d) {return Math.max(radius, Math.min(height - radius, d.target.y));})
+  }
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+  function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+  }
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
 }
 // modified restart for "same as"
 function sameAsRestart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
-    
+  var node = d3.select(".nodes").selectAll("g");
     var hulls = d3.select(".hull")
         .selectAll("path");
     // Apply the general update pattern to the links.
