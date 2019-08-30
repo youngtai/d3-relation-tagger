@@ -1,0 +1,1459 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028318268656",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557435572028
+    },
+    "description" : "#s_6917529028318268656",
+    "persons" : [ {
+      "id" : "p_6917529030845761156",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68H-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "David L Brown",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "David L",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "David L"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brown",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brown"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "David L Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24336283,0.15884393,0.26649237,0.18867052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2685036,0.15884393,0.2775543,0.18867052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.28117457,0.15884393,0.30973452,0.18867052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "David L. Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.42296863,0.23260115,0.4541432,0.24901734",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.10116653,0.24693641,0.11021721,0.2601156",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.116653256,0.24693641,0.1468222,0.2601156",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "David L. Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6246983,0.41734105,0.64641994,0.42959538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6490346,0.41734105,0.6556718,0.42959538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6596943,0.41734105,0.684634,0.42959538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "David L. Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8159694,0.50427747,0.8421158,0.51791906",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8443282,0.50427747,0.85337895,0.51791906",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.86142397,0.50427747,0.8946098,0.51791906",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "David L. Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6888576,0.5949133,0.7184232,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.72063553,0.5949133,0.72807723,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.73572004,0.5949133,0.7624698,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "David L. Brown"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68H-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761256",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M688-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Grace J Brown",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Grace J",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Grace J"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brown",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brown"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Grace J Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3288415,0.15884393,0.35458568,0.18867052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35820594,0.15884393,0.3656476,0.18867052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37208366,0.15884393,0.3952132,0.18867052",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Grace J. Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8155672,0.51699424,0.8411102,0.53341043",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8447305,0.51699424,0.85217214,0.53341043",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8640386,0.51699424,0.8938053,0.53341043",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Grace E. Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7851971,0.5949133,0.8107402,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8141593,0.5949133,0.821601,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8292438,0.5949133,0.8616251,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Grace J. Brown"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Death",
+        "qualifiers" : [ {
+          "value" : "dollar",
+          "name" : "http://gedcomx.org/Age"
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://gedcomx.org/Age",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "PR_AGE_ORIG",
+          "text" : "dollar"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M688-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lloyd E Brown",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lloyd E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lloyd E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brown",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brown"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lloyd E Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36444086,0.23260115,0.39018503,0.24901734",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.39239743,0.23260115,0.3984312,0.24901734",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.116653256,0.24693641,0.1468222,0.2601156",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lloyd E. Brown"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Rhoda Brown",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Rhoda",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Rhoda"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brown",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brown"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Rhoda Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.11484312,0.5149133,0.14843121,0.5412717",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.1520515,0.5149133,0.18563958,0.5412717",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Rhoda Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3654465,0.53757226,0.40164924,0.5530636",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40788415,0.53757226,0.4740547,0.5530636",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Rhoda Brown"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "David E Brown",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "David E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "David E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brown",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brown"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "David E Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3525744,0.54982656,0.38254222,0.5634682",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38495576,0.54982656,0.39420757,0.5634682",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40406275,0.54982656,0.43825424,0.5634682",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "David E. Brown"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Grace B Brown",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Grace B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Grace B"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Brown",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Brown"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Grace B Brown"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7071601,0.41734105,0.73350763,0.42959538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7375302,0.41734105,0.7471842,0.42959538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7528158,0.41734105,0.79022527,0.42959538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Grace B. Brown"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761756",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Abereof",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Abereof",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Abereof"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Abereof"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6072003,0.49687862,0.628922,0.5095954",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Abereof"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M68B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761856",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6D9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Julius A Gourdeler Goordeler",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Julius A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Julius A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Gourdeler Goordeler",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Gourdeler Goordeler"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Julius A Gourdeler Goordeler"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5866854,0.5202312,0.61444086,0.53132945",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.61665326,0.5202312,0.6259051,0.53132945",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.62952536,0.5202312,0.67799675,0.53132945",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Julius A. Gourdeler"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7270716,0.6409249,0.76106197,0.65248555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7634755,0.6409249,0.7715205,0.65248555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.78640383,0.6409249,0.8292438,0.65248555",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Julius A. Goordeler"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6D9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845761956",
+      "extracted" : true,
+      "principal" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6D7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Smp",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Smp",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Smp"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Smp"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.55390185,0.5949133,0.66190666,0.6090173",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Smp"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6D7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845762056",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6DH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "L E B",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "L E B",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "L E B"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "L E B"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5814561,0.65086704,0.58769107,0.6652023",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.58849555,0.65086704,0.59613836,0.6652023",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.59835076,0.65086704,0.60599357,0.6652023",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "L. E. B."
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Broux County",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/County",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.75965405,0.65086704,0.78559935,0.6631214",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7876106,0.65086704,0.8189863,0.6631214",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_COUNTY_ORIG",
+              "text" : "Broux County"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6DH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845762156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6D8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "William F Schneider",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "William F",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "William F"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Schneider",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Schneider"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "William F Schneider"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.68020916,0.7001156,0.72284794,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.72526145,0.7001156,0.7314964,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7339099,0.7001156,0.7795656,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William F. Schneider"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "County of New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/County",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.70112634,0.67421967,0.71761864,0.6910983",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.71983105,0.67421967,0.7347144,0.6910983",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.73551893,0.67421967,0.7634755,0.6910983",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            }, {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8356798,0.7001156,0.86665326,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8676589,0.7001156,0.8813355,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8865648,0.7001156,0.906074,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.9096943,0.7001156,0.94891393,0.71976876",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_COUNTY_ORIG",
+              "text" : "County of New York"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Clerk",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Clerk"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6D8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845762256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6DF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Julias A Gordeler",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Julias A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Julias A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Gordeler",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Gordeler"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Julias A Gordeler"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.67679,0.7292486,0.7055511,0.742659",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7077635,0.7292486,0.7154063,0.742659",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.71902657,0.7292486,0.75643605,0.742659",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Julias A. Gordeler"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Notary Public",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Notary Public"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6DF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030845762356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6DV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Wm Schneider",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Wm",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Wm"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Schneider",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Schneider"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Wm Schneider"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7892196,0.87352604,0.8159694,0.8950289",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.815366,0.87352604,0.85579246,0.8950289",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Wm Schneider"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Clerk",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Clerk"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7B-M6DV-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030845761156",
+        "resourceId" : "p_6917529030845761156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030845761256",
+        "resourceId" : "p_6917529030845761256"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028318268656",
+      "about" : "#r_6917529028318268656",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNSX-MSNH-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9WX-F6G6",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9WX-F6G6" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007154999_00301_TXT</UNQ>\n<IMID>007154999_00301</IMID>\n<APID>TH-1971-32835-12373-51</APID>\n<IMGSIZE>4972,4325</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>-\n( 186)\nE. \n⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\n███████████████████\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty sixth day of Febru ⌨</TIMEX>⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ that <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX>, <ENAMEX TYPE=\"AGE\">Dollar</ENAMEX> lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the part of the\nsecond part, do hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX>-half interest ( as described in the deed to <ENAMEX TYPE=\"PERSON\">Lloyd E.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">David \nL. Brown</ENAMEX>, recorded <TIMEX TYPE=\"DATE\">December 10, 1913</TIMEX>) in that certain Piece or Parcel of Land \nsituate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as part of lot number fifty one in the eleventh Township \nand the eighth range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and more\nparticularly bounded as follows, viz:- Being part of Lot number Ten on \na subdivision map of the premises on file in the <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s \noffice and commencing on the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> at the distance \nof <NUMEX TYPE=\"QUANTITY\">two hundred and fifty</NUMEX> feet northerly from the northerly line of \n<ENAMEX TYPE=\"STRUCTURE\">Allen Street</ENAMEX>, and running thence westerly at right angles with <ENAMEX TYPE=\"STRUCTURE\">Park \nStreet</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> feet; thence northerly parallel \nwith <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet; thence easterly <NUMEX TYPE=\"QUANTITY\">one hundred and\nthirty - four</NUMEX> feet to the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX>; Thence southerly on\nthe westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet to the place of beginning.\nSubject to mortgages, interest and taxes incumbering said premises, \nalso, all that certain Piece or Parcel of land, situate, in\nining in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, and\nbounded and described as follows, to wit:-\nCommencing on the easterly side of <ENAMEX TYPE=\"STRUCTURE\">Michigan Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred \nand one</NUMEX> feet north from the north side of <ENAMEX TYPE=\"STRUCTURE\">North Division Street</ENAMEX>. \nthence running northerly <NUMEX TYPE=\"QUANTITY\">thirty-two</NUMEX> feet on said <ENAMEX TYPE=\"STRUCTURE\">Madigan Street</ENAMEX>,\nThence easterly at right angles <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> feet to an alley, thence\nsoutherly on said alley <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> feet, thence westerly at right angles <NUMEX TYPE=\"QUANTITY\">ninety \ntwo</NUMEX> feet to the place of beginning. Subject to mortgages, interest \nand taxes.\nto <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 402 of Deeds</ENAMEX> at page 580, and by the said <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX>\nnow <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> devised by <ENAMEX TYPE=\"COREF\">her</ENAMEX> will to the said <ENAMEX TYPE=\"PERSON\">David E. Brown</ENAMEX> which\nwill is of record in the office of the <ENAMEX TYPE=\"OCCUPATION\">Surrogate</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>,\nE. 2289 22 - 17\nCosether with the appurtenances, and all the estate and rights of the part of the first part in and to said premises.\n<ENAMEX TYPE=\"COREF\">We</ENAMEX> have and to hold the above granted premises unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said\nparts of the first part.\ndo covenant with the said party of the second part, as follows:\nThat the said <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace B. Brown</ENAMEX>\nparts of the first part, seized the premises in fee simple, and has good right to convey the same tittle-\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ shall enjoy the said premises, subject to previous provisions,\nTum -- That the said premises are\nFOURTH -- That the part of the first part will execute or procure any further necessary assurance of the title to said premises.\nFIFTH -- That the said\nparty of the first part,\nwill forever WARRANT the title to said premises.\nIn ( litnees ( <ENAMEX TYPE=\"PERSON\">Abereof</ENAMEX>, the said part out of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nT O\n<ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Julius A. Gourdeler</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Grace E. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ncorner of <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, ⎬ SS.\nOn <TIMEX TYPE=\"DATE\">this day of it in the year one thousand nine hundred</TIMEX> and \n<ENAMEX TYPE=\"PERSON\">Smp</ENAMEX> came <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\n=sartha thereupon\none duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"ORGANIZATION\">U.S. J.R.</ENAMEX> <NUMEX TYPE=\"MONEY\">$1,000</NUMEX> Stamp\n<ENAMEX TYPE=\"PERSON\">Julius A. Goordeler</ENAMEX>.\nCancelled <ENAMEX TYPE=\"PERSON\">L. E. B.</ENAMEX> <TIMEX TYPE=\"DATE\">Mar 2-1915</TIMEX>)\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s\n( LS)\nNo. 15, and <ENAMEX TYPE=\"ORGANIZATION\">Broux Registers No. 610</ENAMEX>. Certifiatt Filed in\n<ENAMEX TYPE=\"LOCALE\">New York County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX><ENAMEX TYPE=\"ORGANIZATION\">'s No 1</ENAMEX>, and <ENAMEX TYPE=\"ORGANIZATION\">Register's No.6052</ENAMEX>)\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">I</ENAMEX> <ENAMEX TYPE=\"PERSON\">William F. Schneider</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>\nand also <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> the same being a Court of\n⎨ Record, Do Hereby Certify, That <ENAMEX TYPE=\"PERSON\">Julias A. Gordeler</ENAMEX> whose name is subscribed to the\ndeposition or certificate of the proof or acknowledgment of the annexed instrument\nand thereon written, was, at the time of taking such deposition or proof and\nacknowledgment, a <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, acting in and for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>, duly\ncommissioned and sworn, and authorized by the laws of <ENAMEX TYPE=\"COREF.loc\">said State</ENAMEX> to take depo-\nand also acknowledgments and proof of Deeds or conveyances for land, tenements\nor hereditaments in said <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, that there is on file in the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\noffice of In <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>, a certified copy of <ENAMEX TYPE=\"COREF\">his</ENAMEX> appointment and\nqualification as <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Broux</ENAMEX> with <ENAMEX TYPE=\"COREF\">his</ENAMEX> autograph Signature\nand further, that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted with the handwriting of such <ENAMEX TYPE=\"OCCUPATION\">Notary\nPublic</ENAMEX>, and verily believe that the signature to said deposition, or certificate of\nproof or acknowledgment is genuine.\nIn Testimony Whereof, <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said Court</ENAMEX>\nCounty this <TIMEX TYPE=\"DATE\">26th day of Feb. 1918</TIMEX>. ( 10) <ENAMEX TYPE=\"PERSON\">Wm Schneider</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3767\"_ENDID=\"3803\"_STTOKEN=\"L. E. B.\"_ENDTOKEN=\"Broux County\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3980\"_ENDID=\"4015\"_STTOKEN=\"William F. Schneider\"_ENDTOKEN=\"County of New York\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"4803\"_ENDID=\"4782\"_STTOKEN=\"his\"_ENDTOKEN=\"County of Broux\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1247\"_ENDID=\"1087\"_STTOKEN=\"Park Street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1326\"_ENDID=\"1087\"_STTOKEN=\"Park street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1432\"_ENDID=\"1087\"_STTOKEN=\"Park street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"742\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1486\"_ENDID=\"1087\"_STTOKEN=\"Park street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1685\"_ENDID=\"706\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1702\"_ENDID=\"723\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1721\"_ENDID=\"742\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2276\"_ENDID=\"2213\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2312\"_ENDID=\"2213\"_STTOKEN=\"her\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2406\"_ENDID=\"1020\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2640\"_ENDID=\"504\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2787\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3359\"_ENDID=\"545\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3418\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3418\"_ENDID=\"605\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3459\"_ENDID=\"342\"_STTOKEN=\"Grace E. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3480\"_ENDID=\"742\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3509\"_ENDID=\"742\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3595\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3595\"_ENDID=\"3418\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3614\"_ENDID=\"3459\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace E. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3629\"_ENDID=\"323\"_STTOKEN=\"his\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3681\"_ENDID=\"545\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3736\"_ENDID=\"3439\"_STTOKEN=\"Julius A. Goordeler\"_ENDTOKEN=\"Julius A. Gourdeler\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3817\"_ENDID=\"3803\"_STTOKEN=\"Broux County\"_ENDTOKEN=\"Broux County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"385\"_ENDID=\"154\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3901\"_ENDID=\"4015\"_STTOKEN=\"New York County\"_ENDTOKEN=\"County of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3978\"_ENDID=\"545\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4617\"_ENDID=\"742\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4684\"_ENDID=\"4015\"_STTOKEN=\"County of New York\"_ENDTOKEN=\"County of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4724\"_ENDID=\"504\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4803\"_ENDID=\"504\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4845\"_ENDID=\"545\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5044\"_ENDID=\"545\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5064\"_ENDID=\"545\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"605\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=1+\"_STID=\"3298\"_ENDID=\"3298\"_STTOKEN=\"Abereof\"_ENDTOKEN=\"Abereof\">\n<RELEX TYPE=\"S=1+\"_STID=\"3586\"_ENDID=\"3586\"_STTOKEN=\"Smp\"_ENDTOKEN=\"Smp\">\n<RELEX TYPE=\"S=2+\"_STID=\"2213\"_ENDID=\"2213\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"S=2+\"_STID=\"2276\"_ENDID=\"2276\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"S=2+\"_STID=\"5152\"_ENDID=\"5152\"_STTOKEN=\"Wm Schneider\"_ENDTOKEN=\"Wm Schneider\">\n<RELEX TYPE=\"S=3+\"_STID=\"2333\"_ENDID=\"2333\"_STTOKEN=\"David E. Brown\"_ENDTOKEN=\"David E. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"2787\"_ENDID=\"2787\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"2806\"_ENDID=\"2806\"_STTOKEN=\"Grace B. Brown\"_ENDTOKEN=\"Grace B. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"323\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3418\"_ENDID=\"3418\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3439\"_ENDID=\"3439\"_STTOKEN=\"Julius A. Gourdeler\"_ENDTOKEN=\"Julius A. Gourdeler\">\n<RELEX TYPE=\"S=3+\"_STID=\"3459\"_ENDID=\"3459\"_STTOKEN=\"Grace E. Brown\"_ENDTOKEN=\"Grace E. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3595\"_ENDID=\"3595\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3614\"_ENDID=\"3614\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3736\"_ENDID=\"3736\"_STTOKEN=\"Julius A. Goordeler\"_ENDTOKEN=\"Julius A. Goordeler\">\n<RELEX TYPE=\"S=3+\"_STID=\"3980\"_ENDID=\"3980\"_STTOKEN=\"William F. Schneider\"_ENDTOKEN=\"William F. Schneider\">\n<RELEX TYPE=\"S=3+\"_STID=\"4150\"_ENDID=\"4150\"_STTOKEN=\"Julias A. Gordeler\"_ENDTOKEN=\"Julias A. Gordeler\">\n<RELEX TYPE=\"S=3+\"_STID=\"592\"_ENDID=\"605\"_STTOKEN=\"Lloyd E.\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"605\"_ENDID=\"605\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"Z:AGE_OF\"_STID=\"342\"_ENDID=\"358\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Dollar\">\n<RELEX TYPE=\"Z:EMPLOYED_BY\"_STID=\"4043\"_ENDID=\"4056\"_STTOKEN=\"Clerk\"_ENDTOKEN=\"Supreme Court\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2640\"_ENDID=\"2644\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2640\"_ENDID=\"2654\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3629\"_ENDID=\"3633\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"504\"_ENDID=\"508\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"504\"_ENDID=\"518\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"2276\"_ENDID=\"2292\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"323\"_ENDID=\"253\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"504\"_ENDID=\"253\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"2213\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"342\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"323\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"323\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3439\"_ENDID=\"3439\"_STTOKEN=\"Julius A. Gourdeler\"_ENDTOKEN=\"Julius A. Gourdeler\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3586\"_ENDID=\"3586\"_STTOKEN=\"Smp\"_ENDTOKEN=\"Smp\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3736\"_ENDID=\"3736\"_STTOKEN=\"Julius A. Goordeler\"_ENDTOKEN=\"Julius A. Goordeler\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"3614\"_ENDID=\"3633\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3980\"_ENDID=\"4002\"_STTOKEN=\"William F. Schneider\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"4150\"_ENDID=\"4379\"_STTOKEN=\"Julias A. Gordeler\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"5152\"_ENDID=\"5165\"_STTOKEN=\"Wm Schneider\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"144\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1685\"_ENDID=\"1702\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1702\"_ENDID=\"1721\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3856\"_ENDID=\"3817\"_STTOKEN=\"Broux Registers No. 610\"_ENDTOKEN=\"Broux County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"4078\"_ENDID=\"4617\"_STTOKEN=\"said County\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"706\"_ENDID=\"723\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"723\"_ENDID=\"706\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"City of Buffalo\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007154999_00301_TXT</UNQ>\n<IMID>007154999_00301</IMID>\n<APID>TH-1971-32835-12373-51</APID>\n<IMGSIZE>4972,4325</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>-\n( 186)\nE. \n⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\n███████████████████\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty sixth day of Febru ⌨</TIMEX>⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ that <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX>, <ENAMEX TYPE=\"AGE\">Dollar</ENAMEX> lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the part of the\nsecond part, do hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX>-half interest ( as described in the deed to <ENAMEX TYPE=\"PERSON\">Lloyd E.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">David \nL. Brown</ENAMEX>, recorded <TIMEX TYPE=\"DATE\">December 10, 1913</TIMEX>) in that certain Piece or Parcel of Land \nsituate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as part of lot number fifty one in the eleventh Township \nand the eighth range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and more\nparticularly bounded as follows, viz:- Being part of Lot number Ten on \na subdivision map of the premises on file in the <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s \noffice and commencing on the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> at the distance \nof <NUMEX TYPE=\"QUANTITY\">two hundred and fifty</NUMEX> feet northerly from the northerly line of \n<ENAMEX TYPE=\"STRUCTURE\">Allen Street</ENAMEX>, and running thence westerly at right angles with <ENAMEX TYPE=\"STRUCTURE\">Park \nStreet</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> feet; thence northerly parallel \nwith <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet; thence easterly <NUMEX TYPE=\"QUANTITY\">one hundred and\nthirty - four</NUMEX> feet to the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX>; Thence southerly on\nthe westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet to the place of beginning.\nSubject to mortgages, interest and taxes incumbering said premises, \nalso, all that certain Piece or Parcel of land, situate, in\nining in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, and\nbounded and described as follows, to wit:-\nCommencing on the easterly side of <ENAMEX TYPE=\"STRUCTURE\">Michigan Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred \nand one</NUMEX> feet north from the north side of <ENAMEX TYPE=\"STRUCTURE\">North Division Street</ENAMEX>. \nthence running northerly <NUMEX TYPE=\"QUANTITY\">thirty-two</NUMEX> feet on said <ENAMEX TYPE=\"STRUCTURE\">Madigan Street</ENAMEX>,\nThence easterly at right angles <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> feet to an alley, thence\nsoutherly on said alley <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> feet, thence westerly at right angles <NUMEX TYPE=\"QUANTITY\">ninety \ntwo</NUMEX> feet to the place of beginning. Subject to mortgages, interest \nand taxes.\nto <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 402 of Deeds</ENAMEX> at page 580, and by the said <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX>\nnow <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> devised by <ENAMEX TYPE=\"COREF\">her</ENAMEX> will to the said <ENAMEX TYPE=\"PERSON\">David E. Brown</ENAMEX> which\nwill is of record in the office of the <ENAMEX TYPE=\"OCCUPATION\">Surrogate</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>,\nE. 2289 22 - 17\nCosether with the appurtenances, and all the estate and rights of the part of the first part in and to said premises.\n<ENAMEX TYPE=\"COREF\">We</ENAMEX> have and to hold the above granted premises unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said\nparts of the first part.\ndo covenant with the said party of the second part, as follows:\nThat the said <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace B. Brown</ENAMEX>\nparts of the first part, seized the premises in fee simple, and has good right to convey the same tittle-\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ shall enjoy the said premises, subject to previous provisions,\nTum -- That the said premises are\nFOURTH -- That the part of the first part will execute or procure any further necessary assurance of the title to said premises.\nFIFTH -- That the said\nparty of the first part,\nwill forever WARRANT the title to said premises.\nIn ( litnees ( <ENAMEX TYPE=\"PERSON\">Abereof</ENAMEX>, the said part out of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nT O\n<ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Julius A. Gourdeler</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Grace E. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ncorner of <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, ⎬ SS.\nOn <TIMEX TYPE=\"DATE\">this day of it in the year one thousand nine hundred</TIMEX> and \n<ENAMEX TYPE=\"PERSON\">Smp</ENAMEX> came <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\n=sartha thereupon\none duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"ORGANIZATION\">U.S. J.R.</ENAMEX> <NUMEX TYPE=\"MONEY\">$1,000</NUMEX> Stamp\n<ENAMEX TYPE=\"PERSON\">Julius A. Goordeler</ENAMEX>.\nCancelled <ENAMEX TYPE=\"PERSON\">L. E. B.</ENAMEX> <TIMEX TYPE=\"DATE\">Mar 2-1915</TIMEX>)\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s\n( LS)\nNo. 15, and <ENAMEX TYPE=\"ORGANIZATION\">Broux Registers No. 610</ENAMEX>. Certifiatt Filed in\n<ENAMEX TYPE=\"LOCALE\">New York County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX><ENAMEX TYPE=\"ORGANIZATION\">'s No 1</ENAMEX>, and <ENAMEX TYPE=\"ORGANIZATION\">Register's No.6052</ENAMEX>)\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">I</ENAMEX> <ENAMEX TYPE=\"PERSON\">William F. Schneider</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>\nand also <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> the same being a Court of\n⎨ Record, Do Hereby Certify, That <ENAMEX TYPE=\"PERSON\">Julias A. Gordeler</ENAMEX> whose name is subscribed to the\ndeposition or certificate of the proof or acknowledgment of the annexed instrument\nand thereon written, was, at the time of taking such deposition or proof and\nacknowledgment, a <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, acting in and for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>, duly\ncommissioned and sworn, and authorized by the laws of <ENAMEX TYPE=\"COREF.loc\">said State</ENAMEX> to take depo-\nand also acknowledgments and proof of Deeds or conveyances for land, tenements\nor hereditaments in said <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, that there is on file in the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\noffice of In <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>, a certified copy of <ENAMEX TYPE=\"COREF\">his</ENAMEX> appointment and\nqualification as <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Broux</ENAMEX> with <ENAMEX TYPE=\"COREF\">his</ENAMEX> autograph Signature\nand further, that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted with the handwriting of such <ENAMEX TYPE=\"OCCUPATION\">Notary\nPublic</ENAMEX>, and verily believe that the signature to said deposition, or certificate of\nproof or acknowledgment is genuine.\nIn Testimony Whereof, <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said Court</ENAMEX>\nCounty this <TIMEX TYPE=\"DATE\">26th day of Feb. 1918</TIMEX>. ( 10) <ENAMEX TYPE=\"PERSON\">Wm Schneider</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3767\"_ENDID=\"3803\"_STTOKEN=\"L. E. B.\"_ENDTOKEN=\"Broux County\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3980\"_ENDID=\"4015\"_STTOKEN=\"William F. Schneider\"_ENDTOKEN=\"County of New York\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"4803\"_ENDID=\"4782\"_STTOKEN=\"his\"_ENDTOKEN=\"County of Broux\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1247\"_ENDID=\"1087\"_STTOKEN=\"Park Street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1326\"_ENDID=\"1087\"_STTOKEN=\"Park street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1432\"_ENDID=\"1087\"_STTOKEN=\"Park street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"742\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1486\"_ENDID=\"1087\"_STTOKEN=\"Park street\"_ENDTOKEN=\"Park street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1685\"_ENDID=\"706\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1702\"_ENDID=\"723\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1721\"_ENDID=\"742\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2276\"_ENDID=\"2213\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2312\"_ENDID=\"2213\"_STTOKEN=\"her\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2406\"_ENDID=\"1020\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2640\"_ENDID=\"504\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3359\"_ENDID=\"545\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3418\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3418\"_ENDID=\"605\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3459\"_ENDID=\"342\"_STTOKEN=\"Grace E. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3480\"_ENDID=\"742\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3509\"_ENDID=\"742\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3595\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3595\"_ENDID=\"3418\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3614\"_ENDID=\"3459\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace E. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3629\"_ENDID=\"323\"_STTOKEN=\"his\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3681\"_ENDID=\"545\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3736\"_ENDID=\"3439\"_STTOKEN=\"Julius A. Goordeler\"_ENDTOKEN=\"Julius A. Gourdeler\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3817\"_ENDID=\"3803\"_STTOKEN=\"Broux County\"_ENDTOKEN=\"Broux County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"385\"_ENDID=\"154\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3901\"_ENDID=\"4015\"_STTOKEN=\"New York County\"_ENDTOKEN=\"County of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3978\"_ENDID=\"545\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4617\"_ENDID=\"742\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4684\"_ENDID=\"4015\"_STTOKEN=\"County of New York\"_ENDTOKEN=\"County of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4724\"_ENDID=\"504\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4803\"_ENDID=\"504\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4845\"_ENDID=\"545\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5044\"_ENDID=\"545\"_STTOKEN=\"I\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5064\"_ENDID=\"545\"_STTOKEN=\"my\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"605\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=1+\"_STID=\"3298\"_ENDID=\"3298\"_STTOKEN=\"Abereof\"_ENDTOKEN=\"Abereof\">\n<RELEX TYPE=\"S=1+\"_STID=\"3586\"_ENDID=\"3586\"_STTOKEN=\"Smp\"_ENDTOKEN=\"Smp\">\n<RELEX TYPE=\"S=2+\"_STID=\"2213\"_ENDID=\"2213\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"S=2+\"_STID=\"2276\"_ENDID=\"2276\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"Rhoda Brown\">\n<RELEX TYPE=\"S=2+\"_STID=\"5152\"_ENDID=\"5152\"_STTOKEN=\"Wm Schneider\"_ENDTOKEN=\"Wm Schneider\">\n<RELEX TYPE=\"S=3+\"_STID=\"2333\"_ENDID=\"2333\"_STTOKEN=\"David E. Brown\"_ENDTOKEN=\"David E. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"2787\"_ENDID=\"2787\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"2806\"_ENDID=\"2806\"_STTOKEN=\"Grace B. Brown\"_ENDTOKEN=\"Grace B. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"323\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3418\"_ENDID=\"3418\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3439\"_ENDID=\"3439\"_STTOKEN=\"Julius A. Gourdeler\"_ENDTOKEN=\"Julius A. Gourdeler\">\n<RELEX TYPE=\"S=3+\"_STID=\"3459\"_ENDID=\"3459\"_STTOKEN=\"Grace E. Brown\"_ENDTOKEN=\"Grace E. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3595\"_ENDID=\"3595\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3614\"_ENDID=\"3614\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"3736\"_ENDID=\"3736\"_STTOKEN=\"Julius A. Goordeler\"_ENDTOKEN=\"Julius A. Goordeler\">\n<RELEX TYPE=\"S=3+\"_STID=\"3980\"_ENDID=\"3980\"_STTOKEN=\"William F. Schneider\"_ENDTOKEN=\"William F. Schneider\">\n<RELEX TYPE=\"S=3+\"_STID=\"4150\"_ENDID=\"4150\"_STTOKEN=\"Julias A. Gordeler\"_ENDTOKEN=\"Julias A. Gordeler\">\n<RELEX TYPE=\"S=3+\"_STID=\"592\"_ENDID=\"605\"_STTOKEN=\"Lloyd E.\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"S=3+\"_STID=\"605\"_ENDID=\"605\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"Z:AGE_OF\"_STID=\"342\"_ENDID=\"358\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Dollar\">\n<RELEX TYPE=\"Z:EMPLOYED_BY\"_STID=\"4043\"_ENDID=\"4056\"_STTOKEN=\"Clerk\"_ENDTOKEN=\"Supreme Court\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2640\"_ENDID=\"2644\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2640\"_ENDID=\"2654\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3629\"_ENDID=\"3633\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"504\"_ENDID=\"508\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"504\"_ENDID=\"518\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"2276\"_ENDID=\"2292\"_STTOKEN=\"Rhoda Brown\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"504\"_ENDID=\"253\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"323\"_ENDID=\"323\"_STTOKEN=\"David L. Brown\"_ENDTOKEN=\"David L. Brown\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"342\"_ENDID=\"342\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"Grace J. Brown\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3439\"_ENDID=\"3439\"_STTOKEN=\"Julius A. Gourdeler\"_ENDTOKEN=\"Julius A. Gourdeler\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3586\"_ENDID=\"3586\"_STTOKEN=\"Smp\"_ENDTOKEN=\"Smp\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3736\"_ENDID=\"3736\"_STTOKEN=\"Julius A. Goordeler\"_ENDTOKEN=\"Julius A. Goordeler\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"3614\"_ENDID=\"3633\"_STTOKEN=\"Grace J. Brown\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3980\"_ENDID=\"4002\"_STTOKEN=\"William F. Schneider\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"4150\"_ENDID=\"4379\"_STTOKEN=\"Julias A. Gordeler\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"5152\"_ENDID=\"5165\"_STTOKEN=\"Wm Schneider\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1685\"_ENDID=\"1702\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1702\"_ENDID=\"1721\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3856\"_ENDID=\"3817\"_STTOKEN=\"Broux Registers No. 610\"_ENDTOKEN=\"Broux County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"4078\"_ENDID=\"4617\"_STTOKEN=\"said County\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"706\"_ENDID=\"723\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"723\"_ENDID=\"706\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"City of Buffalo\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007154999_00301_TXT</UNQ>\n<IMID>007154999_00301</IMID>\n<APID>TH-1971-32835-12373-51</APID>\n<IMGSIZE>4972,4325</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>-\n( 186)\nE. \n⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\n███████████████████\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty sixth day of Febru ⌨</TIMEX>⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ that <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX>, <ENAMEX TYPE=\"AGE\">Dollar</ENAMEX> lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the part of the\nsecond part, do hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX>-half interest ( as described in the deed to <ENAMEX TYPE=\"PERSON\">Lloyd E.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">David \nL. Brown</ENAMEX>, recorded <TIMEX TYPE=\"DATE\">December 10, 1913</TIMEX>) in that certain Piece or Parcel of Land \nsituate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as part of lot number fifty one in the eleventh Township \nand the eighth range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and more\nparticularly bounded as follows, viz:- Being part of Lot number Ten on \na subdivision map of the premises on file in the <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s \noffice and commencing on the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> at the distance \nof <NUMEX TYPE=\"QUANTITY\">two hundred and fifty</NUMEX> feet northerly from the northerly line of \n<ENAMEX TYPE=\"STRUCTURE\">Allen Street</ENAMEX>, and running thence westerly at right angles with <ENAMEX TYPE=\"STRUCTURE\">Park \nStreet</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> feet; thence northerly parallel \nwith <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet; thence easterly <NUMEX TYPE=\"QUANTITY\">one hundred and\nthirty - four</NUMEX> feet to the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX>; Thence southerly on\nthe westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet to the place of beginning.\nSubject to mortgages, interest and taxes incumbering said premises, \nalso, all that certain Piece or Parcel of land, situate, in\nining in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, and\nbounded and described as follows, to wit:-\nCommencing on the easterly side of <ENAMEX TYPE=\"STRUCTURE\">Michigan Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred \nand one</NUMEX> feet north from the north side of <ENAMEX TYPE=\"STRUCTURE\">North Division Street</ENAMEX>. \nthence running northerly <NUMEX TYPE=\"QUANTITY\">thirty-two</NUMEX> feet on said <ENAMEX TYPE=\"STRUCTURE\">Madigan Street</ENAMEX>,\nThence easterly at right angles <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> feet to an alley, thence\nsoutherly on said alley <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> feet, thence westerly at right angles <NUMEX TYPE=\"QUANTITY\">ninety \ntwo</NUMEX> feet to the place of beginning. Subject to mortgages, interest \nand taxes.\nto <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 402 of Deeds</ENAMEX> at page 580, and by the said <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX>\nnow <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> devised by <ENAMEX TYPE=\"COREF\">her</ENAMEX> will to the said <ENAMEX TYPE=\"PERSON\">David E. Brown</ENAMEX> which\nwill is of record in the office of the <ENAMEX TYPE=\"OCCUPATION\">Surrogate</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>,\nE. 2289 22 - 17\nCosether with the appurtenances, and all the estate and rights of the part of the first part in and to said premises.\n<ENAMEX TYPE=\"COREF\">We</ENAMEX> have and to hold the above granted premises unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said\nparts of the first part.\ndo covenant with the said party of the second part, as follows:\nThat the said <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace B. Brown</ENAMEX>\nparts of the first part, seized the premises in fee simple, and has good right to convey the same tittle-\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ shall enjoy the said premises, subject to previous provisions,\nTum -- That the said premises are\nFOURTH -- That the part of the first part will execute or procure any further necessary assurance of the title to said premises.\nFIFTH -- That the said\nparty of the first part,\nwill forever WARRANT the title to said premises.\nIn ( litnees ( <ENAMEX TYPE=\"PERSON\">Abereof</ENAMEX>, the said part out of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nT O\n<ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Julius A. Gourdeler</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Grace E. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ncorner of <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, ⎬ SS.\nOn <TIMEX TYPE=\"DATE\">this day of it in the year one thousand nine hundred</TIMEX> and \n<ENAMEX TYPE=\"PERSON\">Smp</ENAMEX> came <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\n=sartha thereupon\none duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"ORGANIZATION\">U.S. J.R.</ENAMEX> <NUMEX TYPE=\"MONEY\">$1,000</NUMEX> Stamp\n<ENAMEX TYPE=\"PERSON\">Julius A. Goordeler</ENAMEX>.\nCancelled <ENAMEX TYPE=\"PERSON\">L. E. B.</ENAMEX> <TIMEX TYPE=\"DATE\">Mar 2-1915</TIMEX>)\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s\n( LS)\nNo. 15, and <ENAMEX TYPE=\"ORGANIZATION\">Broux Registers No. 610</ENAMEX>. Certifiatt Filed in\n<ENAMEX TYPE=\"LOCALE\">New York County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX><ENAMEX TYPE=\"ORGANIZATION\">'s No 1</ENAMEX>, and <ENAMEX TYPE=\"ORGANIZATION\">Register's No.6052</ENAMEX>)\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">I</ENAMEX> <ENAMEX TYPE=\"PERSON\">William F. Schneider</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>\nand also <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> the same being a Court of\n⎨ Record, Do Hereby Certify, That <ENAMEX TYPE=\"PERSON\">Julias A. Gordeler</ENAMEX> whose name is subscribed to the\ndeposition or certificate of the proof or acknowledgment of the annexed instrument\nand thereon written, was, at the time of taking such deposition or proof and\nacknowledgment, a <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, acting in and for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>, duly\ncommissioned and sworn, and authorized by the laws of <ENAMEX TYPE=\"COREF.loc\">said State</ENAMEX> to take depo-\nand also acknowledgments and proof of Deeds or conveyances for land, tenements\nor hereditaments in said <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, that there is on file in the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\noffice of In <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>, a certified copy of <ENAMEX TYPE=\"COREF\">his</ENAMEX> appointment and\nqualification as <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Broux</ENAMEX> with <ENAMEX TYPE=\"COREF\">his</ENAMEX> autograph Signature\nand further, that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted with the handwriting of such <ENAMEX TYPE=\"OCCUPATION\">Notary\nPublic</ENAMEX>, and verily believe that the signature to said deposition, or certificate of\nproof or acknowledgment is genuine.\nIn Testimony Whereof, <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said Court</ENAMEX>\nCounty this <TIMEX TYPE=\"DATE\">26th day of Feb. 1918</TIMEX>. ( 10) <ENAMEX TYPE=\"PERSON\">Wm Schneider</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007154999_00301_TXT</UNQ>\n<IMID>007154999_00301</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32835-12373<TIMEX TYPE=\"DATE\">-51</TIMEX></APID>\n<IMGSIZE>4972,4325</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>-\n( 186)\nE. \n⌨⌨⌨⌨⌨ ⌨⌨⌨⌨ laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1890</TIMEX>.\n███████████████████\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the <TIMEX TYPE=\"DATE\">Twenty sixth day of Febru ⌨</TIMEX>⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ that <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX>, <ENAMEX TYPE=\"AGE\">Dollar</ENAMEX> lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX> paid by the part of the\nsecond part, do hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nall <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX>-half interest ( as described in the deed to <ENAMEX TYPE=\"PERSON\">Lloyd E.</ENAMEX> and <ENAMEX TYPE=\"PERSON\">David \nL. Brown</ENAMEX>, recorded <TIMEX TYPE=\"DATE\">December 10, 1913</TIMEX>) in that certain Piece or Parcel of Land \nsituate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\ndistinguished as part of lot number fifty one in the eleventh Township \nand the eighth range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and more\nparticularly bounded as follows, viz:- Being part of Lot number Ten on \na subdivision map of the premises on file in the <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s \noffice and commencing on the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> at the distance \nof <NUMEX TYPE=\"QUANTITY\">two hundred and fifty</NUMEX> feet northerly from the northerly line of \n<ENAMEX TYPE=\"STRUCTURE\">Allen Street</ENAMEX>, and running thence westerly at right angles with <ENAMEX TYPE=\"STRUCTURE\">Park \nStreet</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> feet; thence northerly parallel \nwith <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet; thence easterly <NUMEX TYPE=\"QUANTITY\">one hundred and\nthirty - four</NUMEX> feet to the westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX>; Thence southerly on\nthe westerly line of <ENAMEX TYPE=\"STRUCTURE\">Park street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty three</NUMEX> feet to the place of beginning.\nSubject to mortgages, interest and taxes incumbering said premises, \nalso, all that certain Piece or Parcel of land, situate, in\nining in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, and\nbounded and described as follows, to wit:-\nCommencing on the easterly side of <ENAMEX TYPE=\"STRUCTURE\">Michigan Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred \nand one</NUMEX> feet north from the north side of <ENAMEX TYPE=\"STRUCTURE\">North Division Street</ENAMEX>. \nthence running northerly <NUMEX TYPE=\"QUANTITY\">thirty-two</NUMEX> feet on said <ENAMEX TYPE=\"STRUCTURE\">Madigan Street</ENAMEX>,\nThence easterly at right angles <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> feet to an alley, thence\nsoutherly on said alley <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> feet, thence westerly at right angles <NUMEX TYPE=\"QUANTITY\">ninety \ntwo</NUMEX> feet to the place of beginning. Subject to mortgages, interest \nand taxes.\nto <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 402 of Deeds</ENAMEX> at page 580, and by the said <ENAMEX TYPE=\"PERSON\">Rhoda Brown</ENAMEX>\nnow <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> devised by <ENAMEX TYPE=\"COREF\">her</ENAMEX> will to the said <ENAMEX TYPE=\"PERSON\">David E. Brown</ENAMEX> which\nwill is of record in the office of the <ENAMEX TYPE=\"OCCUPATION\">Surrogate</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>,\nE. 2289 22 - 17\nCosether with the appurtenances, and all the estate and rights of the part of the first part in and to said premises.\n<ENAMEX TYPE=\"COREF\">We</ENAMEX> have and to hold the above granted premises unto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nAnd the said\nparts of the first part.\ndo covenant with the said party of the second part, as follows:\nThat the said <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace B. Brown</ENAMEX>\nparts of the first part, seized the premises in fee simple, and has good right to convey the same tittle-\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ shall enjoy the said premises, subject to previous provisions,\nTum -- That the said premises are\nFOURTH -- That the part of the first part will execute or procure any further necessary assurance of the title to said premises.\nFIFTH -- That the said\nparty of the first part,\nwill forever WARRANT the title to said premises.\nIn ( litnees ( <ENAMEX TYPE=\"PERSON\">Abereof</ENAMEX>, the said part out of the first part ha hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nT O\n<ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Julius A. Gourdeler</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Grace E. Brown</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ncorner of <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, ⎬ SS.\nOn <TIMEX TYPE=\"DATE\">this day of it in the year one thousand nine hundred</TIMEX> and \n<ENAMEX TYPE=\"PERSON\">Smp</ENAMEX> came <ENAMEX TYPE=\"PERSON\">David L. Brown</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Grace J. Brown</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\n=sartha thereupon\none duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"ORGANIZATION\">U.S. J.R.</ENAMEX> <NUMEX TYPE=\"MONEY\">$1,000</NUMEX> Stamp\n<ENAMEX TYPE=\"PERSON\">Julius A. Goordeler</ENAMEX>.\nCancelled <ENAMEX TYPE=\"PERSON\">L. E. B.</ENAMEX> <TIMEX TYPE=\"DATE\">Mar 2-1915</TIMEX>)\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX>. <ENAMEX TYPE=\"LOCALE\">Broux County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s\n( LS)\nNo. 15, and <ENAMEX TYPE=\"ORGANIZATION\">Broux Registers No. 610</ENAMEX>. Certifiatt Filed in\n<ENAMEX TYPE=\"LOCALE\">New York County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">County Clerk</ENAMEX><ENAMEX TYPE=\"ORGANIZATION\">'s No 1</ENAMEX>, and <ENAMEX TYPE=\"ORGANIZATION\">Register's No.6052</ENAMEX>)\n⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">I</ENAMEX> <ENAMEX TYPE=\"PERSON\">William F. Schneider</ENAMEX>, <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>\nand also <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> the same being a Court of\n⎨ Record, Do Hereby Certify, That <ENAMEX TYPE=\"PERSON\">Julias A. Gordeler</ENAMEX> whose name is subscribed to the\ndeposition or certificate of the proof or acknowledgment of the annexed instrument\nand thereon written, was, at the time of taking such deposition or proof and\nacknowledgment, a <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>, acting in and for the <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>, duly\ncommissioned and sworn, and authorized by the laws of <ENAMEX TYPE=\"COREF.loc\">said State</ENAMEX> to take depo-\nand also acknowledgments and proof of Deeds or conveyances for land, tenements\nor hereditaments in said <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, that there is on file in the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\noffice of In <ENAMEX TYPE=\"LOCALE\">County of New York</ENAMEX>, a certified copy of <ENAMEX TYPE=\"COREF\">his</ENAMEX> appointment and\nqualification as <ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">County of Broux</ENAMEX> with <ENAMEX TYPE=\"COREF\">his</ENAMEX> autograph Signature\nand further, that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted with the handwriting of such <ENAMEX TYPE=\"OCCUPATION\">Notary\nPublic</ENAMEX>, and verily believe that the signature to said deposition, or certificate of\nproof or acknowledgment is genuine.\nIn Testimony Whereof, <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said Court</ENAMEX>\nCounty this <TIMEX TYPE=\"DATE\">26th day of Feb. 1918</TIMEX>. ( 10) <ENAMEX TYPE=\"PERSON\">Wm Schneider</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007154999_00301_TXT</UNQ>\n<IMID>007154999_00301</IMID>\n<APID>TH-1971-32835-12373-51</APID>\n<IMGSIZE>4972,4325</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[206,486:388,509] -\n[1416,557:1441,591] ( [1431,557:1520,591] 186)\n[378,515:474,731] E. [470,573:529,596] \n[544,573:711,596] ⌨⌨⌨⌨⌨ [716,573:800,596] ⌨⌨⌨⌨ [982,575:1054,596] laws [1058,575:1084,596] of [1091,575:1118,596] N. [1122,575:1154,596] Y., [1161,575:1230,596] 1890.\n[577,625:1055,641] ███████████████████\n[637,664:728,726] This [732,664:917,726] Indenture, [941,664:998,726] Made [1001,664:1052,726] the [1062,664:1193,726] Twenty [1203,664:1402,726] sixth [1412,664:1456,726] day [1460,664:1497,726] of [1507,664:1770,726] Febru [514,687:1081,816] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [1113,687:1199,816] that [1210,687:1325,816] David [1335,687:1380,816] L. [1398,687:1540,816] Brown [1551,687:1617,816] and [1635,687:1763,816] Grace [1781,687:1818,816] J. [1850,687:1965,816] Brown, [1989,687:2271,816]  [1499,916:1592,987] Dollar [1590,916:1675,987] lawful [1686,916:1762,987] money [1769,916:1797,987] of [1800,916:1845,987] the [1852,916:1941,987] United [1948,916:2028,987] States [2036,916:2089,987] paid [2097,916:2133,987] by [2136,916:2181,987] the [2189,916:2273,987] part [2293,916:2321,987] of [2324,916:2428,987] the\n[533,969:612,1017] second [618,969:668,1017] part, [678,969:712,1017] do [743,969:817,1017] hereby [823,969:885,1017] grant [887,969:938,1017] and [940,969:1018,1017] release [1024,969:1078,1017] unto [1080,969:1123,1017] the [1125,969:1175,1017] said [1181,969:1271,1017] party [1277,969:1304,1017] of [1306,969:1348,1017] the [1350,969:1428,1017] second [1430,969:1480,1017] part, [1519,969:1589,1017] his [1748,969:1806,1017] heirs [1808,969:1855,1017] and [1857,969:1943,1017] assigns [1941,969:2027,1017] forever,\n[502,1006:582,1077] all [585,1006:706,1077] their [738,1006:796,1077] me-half [973,1006:1143,1077] interest [1140,1006:1164,1077] ( [1154,1006:1226,1077] as [1237,1006:1448,1077] described [1452,1006:1524,1077] in [1528,1006:1635,1077] the [1646,1006:1753,1077] deed [1756,1006:1801,1077] to [1812,1006:1940,1077] Lloyd [1951,1006:1981,1077] E. [2006,1006:2085,1077] and [2103,1006:2258,1077] David [468,1068:499,1125] \n[503,1068:548,1125] L. [580,1068:730,1125] Brown, [755,1068:969,1125] recorded [987,1068:1200,1125] December [1204,1068:1249,1125] 10, [1267,1068:1361,1125] 1913) [1400,1068:1480,1125] in [1484,1068:1606,1125] that [1610,1068:1774,1125] certain [1778,1068:1900,1125] Piece [1911,1068:1963,1125] or [1981,1068:2104,1125] Parcel [2108,1068:2146,1125] of [2157,1068:2279,1125] Land [468,1118:499,1173] \n[509,1118:707,1173] situate [718,1118:776,1173] in [787,1118:874,1173] the [884,1118:999,1173] City [1002,1118:1061,1173] of [1093,1118:1269,1173] Buffalo, [1322,1118:1492,1173] County [1496,1118:1547,1173] of [1558,1118:1658,1173] Erie [1655,1118:1749,1173] and [1759,1118:1888,1173] State [1891,1118:1957,1173] of [1982,1118:2075,1173] New [2100,1118:2343,1173] York\n[517,1161:840,1242] distinguished [852,1161:928,1242] as [939,1161:1044,1242] part [1049,1161:1103,1242] of [1114,1161:1205,1242] lot [1238,1161:1431,1242] number [1443,1161:1569,1242] fifty [1596,1161:1715,1242] one [1727,1161:1803,1242] in [1815,1161:1905,1242] the [1909,1161:2124,1242] eleventh [2128,1161:2357,1242] Township [468,1212:498,1274] \n[502,1212:589,1274] and [592,1212:672,1274] the [682,1212:852,1274] eighth [863,1212:997,1274] range [1001,1212:1060,1274] of [1064,1212:1157,1274] the [1174,1212:1358,1274] Holland [1368,1212:1510,1274] Land [1514,1212:1711,1274] Company's [1777,1212:1933,1274] survey [1943,1212:2057,1274] and [2096,1212:2357,1274] more\n[512,1262:781,1319] particularly [786,1262:986,1319] bounded [998,1262:1092,1319] as [1105,1262:1259,1319] follows, [1287,1262:1373,1319] viz:- [1476,1262:1623,1319] Being [1636,1262:1737,1319] part [1750,1262:1813,1319] of [1826,1262:1934,1319] Lot [1962,1262:2162,1319] number [2175,1262:2299,1319] Ten [2304,1262:2435,1319] on [465,1308:488,1370] \n[512,1308:549,1370] a [560,1308:861,1370] subdivision [905,1308:976,1370] map [980,1308:1037,1370] of [1041,1308:1139,1370] the [1149,1308:1383,1370] premises [1393,1308:1478,1370] on [1481,1308:1579,1370] file [1583,1308:1681,1370] in [1684,1308:1783,1370] the [1793,1308:1891,1370] Erie [1901,1308:2067,1370] County [2078,1308:2155,1370] Clerk's [465,1358:496,1416] \n[500,1358:653,1416] office [664,1358:749,1416] and [760,1358:1071,1416] commencing [1081,1358:1146,1416] on [1150,1358:1262,1416] the [1286,1358:1433,1416] westerly [1451,1358:1577,1416] line [1574,1358:1632,1416] of [1642,1358:1755,1416] Park [1765,1358:1899,1416] street [1909,1358:1967,1416] at [1977,1358:2042,1416] the [2060,1358:2241,1416] distance [465,1404:495,1468] \n[499,1404:556,1468] of [566,1404:670,1468] two [680,1404:892,1468] hundred [902,1404:1007,1468] and [1037,1404:1175,1468] fifty [1185,1404:1316,1468] feet [1340,1404:1538,1468] northerly [1549,1404:1687,1468] from [1697,1404:1794,1468] the [1831,1404:2010,1468] northerly [2020,1404:2117,1468] line [2114,1404:2212,1468] of [461,1457:485,1510] \n[495,1457:636,1510] Allen [646,1457:780,1510] Street, [818,1457:924,1510] and [927,1457:1184,1510] running [1195,1457:1376,1510] thence [1407,1457:1568,1510] westerly [1579,1457:1643,1510] at [1654,1457:1801,1510] right [1812,1457:1972,1510] angles [2010,1457:2103,1510] with [2113,1457:2240,1510] Park [464,1503:495,1562] \n[506,1503:662,1562] Street [680,1503:788,1562] one [792,1503:1018,1562] hundred [1029,1503:1172,1562] and [1183,1503:1325,1562] thirty [1336,1503:1472,1562] four [1490,1503:1598,1562] feet; [1629,1503:1828,1562] thence [1860,1503:2037,1562] northerly [2048,1503:2275,1562] parallel [464,1551:488,1622] \n[512,1551:599,1622] with [610,1551:724,1622] Park [735,1551:904,1622] street [908,1551:1043,1622] thirty [1054,1551:1182,1622] three [1200,1551:1342,1622] feet; [1367,1551:1557,1622] thence [1561,1551:1745,1622] easterly [1755,1551:1842,1622] one [1860,1551:2071,1622] hundred [2075,1551:2325,1622] and\n[504,1604:608,1656] thirty [605,1604:629,1656] - [646,1604:751,1656] four [761,1604:873,1656] feet [883,1604:927,1656] to [931,1604:1036,1656] the [1060,1604:1239,1656] westerly [1249,1604:1381,1656] line [1385,1604:1436,1656] of [1439,1604:1544,1656] Park [1554,1604:1687,1656] street; [1717,1604:1890,1656] Thence [1907,1604:2087,1656] southerly [2090,1604:2339,1656] on\n[512,1647:624,1711] the [643,1647:819,1711] westerly [830,1647:941,1711] line [946,1647:992,1711] of [1004,1647:1115,1711] Park [1127,1647:1267,1711] street [1271,1647:1397,1711] thirty [1408,1647:1541,1711] three [1553,1647:1657,1711] feet [1668,1647:1729,1711] to [1741,1647:1852,1711] the [1863,1647:1989,1711] place [1993,1647:2040,1711] of [2051,1647:2278,1711] beginning.\n[624,1697:803,1759] Subject [813,1697:877,1759] to [914,1697:1106,1759] mortgages, [1157,1697:1369,1759] interest [1365,1697:1470,1759] and [1480,1697:1611,1759] taxes [1621,1697:1908,1759] incumbering [1911,1697:2015,1759] said [2019,1697:2184,1759] premises, [587,1750:642,1803] \n[645,1750:733,1803] also, [749,1750:831,1803] all [834,1750:968,1803] that [977,1750:1137,1803] certain [1146,1750:1293,1803] Piece [1296,1750:1352,1803] or [1361,1750:1495,1803] Parcel [1505,1750:1554,1803] of [1563,1750:1703,1803] land, [1739,1750:1886,1803] situate, [1915,1750:2184,1803] in\n[502,1762:627,1869] ining [637,1762:701,1869] in [711,1762:808,1869] the [818,1762:909,1869] City [919,1762:983,1869] of [1007,1762:1185,1869] Buffalo, [1228,1762:1380,1869] County [1383,1762:1433,1869] of [1437,1762:1534,1869] Erie [1544,1762:1622,1869] and [1632,1762:1769,1869] State [1773,1762:1823,1869] of [1847,1762:1938,1869] New [1954,1762:2018,1869] York, [2055,1762:2342,1869] and\n[513,1842:748,1901] bounded [760,1842:868,1901] and [888,1842:1078,1901] described [1098,1842:1183,1901] as [1196,1842:1378,1901] follows, [1413,1842:1476,1901] to [1496,1842:1581,1901] wit:-\n[657,1899:922,1954] Commencing [925,1899:1003,1954] on [1012,1899:1090,1954] the [1099,1899:1258,1954] easterly [1267,1899:1370,1954] side [1372,1899:1432,1954] of [1465,1899:1681,1954] Michigan [1683,1899:1817,1954] Street [1820,1899:1898,1954] one [1907,1899:2109,1954] hundred [461,1945:492,1995] \n[502,1945:588,1995] and [598,1945:690,1995] one [701,1945:813,1995] feet [838,1945:985,1995] north [995,1945:1135,1995] from [1139,1945:1245,1995] the [1290,1945:1444,1995] north [1461,1945:1587,1995] side [1598,1945:1676,1995] of [1707,1945:1827,1995] North [1851,1945:2046,1995] Division [2057,1945:2190,1995] Street. [471,1991:503,2053] \n[516,1991:684,2053] thence [704,1991:932,2053] running [975,1991:1173,2053] northerly [1186,1991:1324,2053] thirty-two [1480,1991:1595,2053] feet [1608,1991:1693,2053] on [1706,1991:1859,2053] said [1901,1991:2152,2053] Madigan [2165,1991:2310,2053] Street,\n[533,2041:689,2105] Thence [699,2041:869,2105] easterly [880,2041:932,2105] at [936,2041:1057,2105] right [1096,2041:1280,2105] angles [1304,2041:1447,2105] ninety [1457,2041:1565,2105] two [1576,2041:1711,2105] feet [1722,2041:1767,2105] to [1777,2041:1850,2105] an [1854,2041:1989,2105] alley, [2028,2041:2336,2105] thence\n[499,2089:681,2151] southerly [693,2089:761,2151] on [765,2089:897,2151] said [909,2089:1069,2151] alley [1081,2089:1192,2151] thirty [1196,2089:1242,2151] two [1239,2089:1342,2151] feet, [1376,2089:1565,2151] thence [1598,2089:1788,2151] westerly [1800,2089:1853,2151] at [1864,2089:2004,2151] right [2015,2089:2190,2151] angles [2209,2089:2327,2151] ninety [454,2140:485,2217] \n[495,2140:594,2217] two [605,2140:745,2217] feet [755,2140:813,2217] to [824,2140:923,2217] the [933,2140:1073,2217] place [1070,2140:1128,2217] of [1145,2140:1388,2217] beginning. [1446,2140:1600,2217] Subject [1604,2140:1675,2217] to [1727,2140:1956,2217] mortgages, [1994,2140:2237,2217] interest [465,2183:495,2229] \n[506,2183:618,2229] and [629,2183:762,2229] taxes.\n[509,2227:560,2341] to [571,2227:738,2341] Rhoda [756,2227:923,2341] Brown [508,2325:586,2392] in [596,2325:722,2392] Liber [732,2325:823,2392] 402 [827,2325:884,2392] of [895,2325:1040,2392] Deeds [1051,2325:1122,2392] at [1132,2325:1258,2392] page [1268,2325:1339,2392] 580, [1363,2325:1475,2392] and [1485,2325:1563,2392] by [1573,2325:1658,2392] the [1668,2325:1800,2392] said [1817,2325:1997,2392] Rhoda [2028,2325:2357,2392] Brown\n[529,2378:641,2437] now [668,2378:896,2437] deceased [908,2378:1071,2437] devised [1083,2378:1144,2437] by [1156,2378:1246,2437] her [1273,2378:1428,2437] will [1433,2378:1487,2437] to [1491,2378:1596,2437] the [1600,2378:1742,2437] said [1753,2378:1902,2437] David [1914,2378:1960,2437] E. [2009,2378:2179,2437] Brown [2198,2378:2419,2437] which\n[513,2421:636,2520] will [646,2421:703,2520] is [713,2421:769,2520] of [786,2421:936,2520] record [946,2421:1036,2520] in [1046,2421:1149,2520] the [1152,2421:1309,2520] office [1312,2421:1369,2520] of [1379,2421:1455,2520] the [1465,2421:1695,2520] Surrogate [1698,2421:1748,2520] of [1758,2421:1855,2520] Erie [1865,2421:2008,2520] County,\n[2603,504:2693,671] E. [2628,1223:2665,1801] 2289 [2658,1223:2685,1801] 22 [2677,1223:2689,1801] - [2683,1223:2706,1801] 17\n[2850,1443:2969,1510] Cosether [2982,1443:3037,1510] with [3041,1443:3087,1510] the [3091,1443:3279,1510] appurtenances, [3291,1443:3342,1510] and [3350,1443:3388,1510] all [3387,1443:3438,1510] the [3441,1443:3520,1510] estate [3528,1443:3579,1510] and [3582,1443:3661,1510] rights [3669,1443:3697,1510] of [3710,1443:3756,1510] the [3764,1443:3843,1510] part [3874,1443:3906,1510] of [3906,1443:3956,1510] the [3956,1443:4016,1510] first [4019,1443:4079,1510] part [4078,1443:4111,1510] in [4119,1443:4170,1510] and [4174,1443:4207,1510] to [4210,1443:4266,1510] said [4274,1443:4384,1510] premises.\n[2852,1521:2888,1583] We [2892,1521:2950,1583] have [2953,1521:3003,1583] and [3006,1521:3038,1583] to [3045,1521:3103,1583] hold [3107,1521:3156,1583] the [3159,1521:3235,1583] above [3243,1521:3341,1583] granted [3348,1521:3455,1583] premises [3462,1521:3521,1583] unto [3524,1521:3573,1583] the [3576,1521:3630,1583] said [3638,1521:3722,1583] party [3770,1521:3801,1583] of [3805,1521:3854,1583] the [3857,1521:3946,1583] second [3954,1521:4008,1583] part, [4042,1521:4087,1583] his [4094,1521:4157,1583] heirs [4165,1521:4214,1583] and [4222,1521:4311,1583] assigns [4314,1521:4407,1583] forever.\n[2855,1720:2907,1746] And [2907,1720:2953,1746] the [2956,1720:3051,1746] said\n[4317,1716:4421,1748] parts [4424,1716:4455,1748] of [4454,1716:4502,1748] the [4501,1716:4558,1748] first [4565,1716:4622,1748] part.\n[2768,1766:2805,1807] do [2849,1766:2966,1807] covenant [2974,1766:3029,1807] with [3028,1766:3079,1807] the [3078,1766:3132,1807] said [3140,1766:3240,1807] party [3244,1766:3276,1807] of [3275,1766:3321,1807] the [3324,1766:3411,1807] second [3414,1766:3469,1807] part, [3477,1766:3509,1807] as [3508,1766:3604,1807] follows:\n[2931,1805:2994,1858] That [2992,1805:3040,1858] the [3045,1805:3100,1858] said [3106,1805:3214,1858] David [3227,1805:3260,1858] L. [3280,1805:3404,1858] Brown [3409,1805:3495,1858] and [3516,1805:3647,1858] Grace [3667,1805:3715,1858] B. [3743,1805:3929,1858] Brown\n[2768,1849:2864,1915] parts [2873,1849:2905,1915] of [2904,1849:2951,1915] the [2950,1849:3010,1915] first [3013,1849:3069,1915] part, [3091,1849:3187,1915] seized [3222,1849:3323,1915] the [3336,1849:3441,1915] premises [3440,1849:3478,1915] in [3477,1849:3518,1915] fee [3517,1849:3605,1915] simple, [3617,1849:3668,1915] and [3676,1849:3718,1915] has [3722,1849:3786,1915] good [3785,1849:3854,1915] right [3858,1849:3891,1915] to [3894,1849:3986,1915] convey [3990,1849:4036,1915] the [4040,1849:4240,1915] same [4253,1849:4440,1915] tittle-\n[2780,1888:3312,1949] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [3309,1888:3365,1949] shall [3427,1888:3508,1949] enjoy [3505,1888:3548,1949] the [3551,1888:3600,1949] said [3596,1888:3698,1949] premises, [3707,1888:3802,1949] subject [3812,1888:3848,1949] to [3851,1888:3966,1949] previous [3969,1888:4122,1949] provisions,\n[2833,1963:2905,1995] Tum [2895,1963:2947,1995] -- [2937,1963:3000,1995] That [2998,1963:3046,1995] the [3048,1963:3103,1995] said [3106,1963:3211,1995] premises [3213,1963:3300,1995] are\n[2837,2007:2942,2041] FOURTH [2932,2007:2974,2041] -- [2964,2007:3029,2041] That [3032,2007:3079,2041] the [3087,2007:3188,2041] part [3196,2007:3224,2041] of [3228,2007:3274,2041] the [3278,2007:3334,2041] first [3342,2007:3397,2041] part [3410,2007:3456,2041] will [3460,2007:3556,2041] execute [3565,2007:3593,2041] or [3601,2007:3697,2041] procure [3701,2007:3752,2041] any [3756,2007:3852,2041] further [3856,2007:3979,2041] necessary [3983,2007:4107,2041] assurance [4110,2007:4143,2041] of [4142,2007:4193,2041] the [4192,2007:4252,2041] title [4256,2007:4289,2041] to [4292,2007:4348,2041] said [4356,2007:4466,2041] premises.\n[2836,2057:2907,2082] FIFTH [2897,2057:2943,2082] -- [2933,2057:2995,2082] That [2995,2057:3041,2082] the [3044,2057:3143,2082] said\n[4313,2053:4416,2085] party [4424,2053:4451,2085] of [4453,2053:4498,2085] the [4500,2053:4557,2085] first [4564,2053:4621,2085] part,\n[2765,2105:2807,2133] will [2808,2105:2899,2133] forever [2910,2105:3023,2133] WARRANT [3020,2105:3065,2133] the [3066,2105:3122,2133] title [3122,2105:3154,2133] to [3158,2105:3210,2133] said [3214,2105:3316,2133] premises.\n[2831,2149:2871,2204] In [2874,2149:2905,2204] ( [2895,2149:2999,2204] litnees [3002,2149:3029,2204] ( [3019,2149:3127,2204] Abereof, [3134,2149:3182,2204] the [3185,2149:3238,2204] said [3245,2149:3297,2204] part [3296,2149:3340,2204] out [3343,2149:3370,2204] of [3372,2149:3416,2204] the [3419,2149:3472,2204] first [3479,2149:3531,2204] part [3538,2149:3574,2204] ha [3594,2149:3698,2204] hereunto [3700,2149:3744,2204] set [3747,2149:3770,2204] my [3777,2149:3855,2204] hand [3858,2149:3906,2204] and [3909,2149:3996,2204] seal [3998,2149:4042,2204] the [4050,2149:4098,2204] day [4101,2149:4149,2204] and [4156,2149:4209,2204] year [4211,2149:4268,2204] first [4271,2149:4345,2204] above [4356,2149:4439,2204] written.\n[2928,2204:3243,2229] T O\n[4057,2181:4187,2240] David [4198,2181:4243,2240] L. [4283,2181:4448,2240] Brown [4459,2181:4483,2240] L. [4495,2181:4526,2240] S.\n[2917,2250:3055,2298] Julius [3066,2250:3112,2298] A. [3130,2250:3371,2298] Gourdeler\n[4055,2236:4182,2307] Grace [4200,2236:4237,2307] E. [4296,2236:4444,2307] Brown [4462,2236:4486,2307] L. [4489,2236:4527,2307] S.\n[2891,2327:2985,2360] STATE [2991,2327:3037,2360] OF [3047,2327:3114,2360] NEW [3124,2327:3210,2360] YORK.\n[2767,2337:2864,2437] corner [2869,2337:2937,2437] of [2949,2337:3046,2437] New [3065,2337:3154,2437] York, [3318,2337:3336,2437] ⎬ [3333,2337:3365,2437] SS.\n[2941,2531:2974,2579] On [2978,2531:3033,2579] this [3424,2531:3475,2579] day [3478,2531:3511,2579] of [3678,2531:3720,2579] it [3747,2531:3775,2579] in [3779,2531:3820,2579] the [3824,2531:3884,2579] year [3883,2531:3930,2579] one [3929,2531:4048,2579] thousand [4056,2531:4107,2579] nine [4115,2531:4221,2579] hundred [4220,2531:4275,2579] and [2713,2573:2737,2634] \n[2754,2573:3291,2634] Smp [3288,2573:3415,2634] came [3425,2573:3572,2634] David [3583,2573:3620,2634] L. [3658,2573:3791,2634] Brown [3795,2573:3887,2634] and [3904,2573:4031,2634] Grace [4048,2573:4085,2634] J. [4123,2573:4284,2634] Brown [4288,2573:4373,2634] his [4390,2573:4665,2634] wife\n[2720,2644:4340,2740] =sartha [4358,2644:4699,2740] thereupon\n[2753,2726:3004,2781] one [3008,2726:3111,2781] duly [3122,2726:3423,2781] acknowledged [3434,2726:3487,2781] to [3534,2726:3586,2781] me [3590,2726:3700,2781] that [3704,2726:3820,2781] they [3824,2726:4012,2781] executed [4016,2726:4104,2781] the [4115,2726:4267,2781] same.\n[2760,2776:2786,2831] U.S. [2837,2776:2863,2831] J.R. [2930,2776:2964,2831] $1,000 [3023,2776:3205,2831] Stamp\n[3615,2772:3784,2822] Julius [3796,2772:3836,2822] A. [3910,2772:4123,2822] Goordeler.\n[2723,2815:2880,2877] Cancelled [2891,2815:2922,2877] L. [2926,2815:2964,2877] E. [2975,2815:3013,2877] B. [3031,2815:3082,2877] Mar [3079,2815:3110,2877] 2-1915)\n[3465,2815:3594,2868] Notary [3598,2815:3747,2868] Public, [3777,2815:3906,2868] Broux [3916,2815:4072,2868] County. [4121,2815:4231,2868] Broux [4241,2815:4384,2868] County [4393,2815:4476,2868] Clerk's\n[3244,2863:3261,2918] ( [3251,2863:3354,2918] LS)\n[3475,2863:3514,2925] No. [3526,2863:3579,2925] 15, [3598,2863:3694,2925] and [3713,2863:3846,2925] Broux [3865,2863:4063,2925] Registers [4089,2863:4128,2925] No. [4147,2863:4207,2925] 610. [4248,2863:4460,2925] Certifiatt [4465,2863:4583,2925] Filed [4588,2863:4755,2925] in\n[3486,2916:3568,2989] New [3579,2916:3653,2989] York [3657,2916:3796,2989] County [3814,2916:3931,2989] County [3935,2916:4024,2989] Clerk's [4092,2916:4131,2989] No [4135,2916:4180,2989] 1, [4192,2916:4237,2989] and [4242,2916:4387,2989] Register's [4441,2916:4487,2989] No.6052)\n[2750,2967:3163,3106] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, [3331,3028:3363,3113] I [3382,3028:3594,3113] William [3606,3028:3637,3113] F. [3649,3028:3876,3113] Schneider, [3895,3028:3999,3113] Clerk [4003,3028:4057,3113] of [4061,3028:4143,3113] the [4155,3028:4309,3113] County [4314,3028:4382,3113] of [4408,3028:4505,3113] New [4523,3028:4718,3113] York\n[2727,3104:2779,3164] and [2791,3104:2892,3164] also [2896,3104:3004,3164] Clerk [3008,3104:3061,3164] of [3065,3104:3138,3164] the [3142,3104:3356,3164] Supreme [3367,3104:3489,3164] Court [3494,3104:3553,3164] for [3557,3104:3637,3164] the [3648,3104:3750,3164] said [3761,3104:3932,3164] County [3943,3104:4024,3164] the [4035,3104:4185,3164] same [4196,3104:4326,3164] being [4344,3104:4375,3164] a [4379,3104:4488,3164] Court [4492,3104:4694,3164] of\n[2711,3154:2735,3212] ⎨ [2739,3154:2848,3212] Record, [2887,3154:2939,3212] Do [2964,3154:3080,3212] Hereby [3091,3154:3234,3212] Certify, [3252,3154:3354,3212] That [3365,3154:3508,3212] Julias [3519,3154:3557,3212] A. [3575,3154:3761,3212] Gordeler [3786,3154:3916,3212] whose [3948,3154:4070,3212] name [4074,3154:4141,3212] is [4145,3154:4358,3212] subscribed [4369,3154:4400,3212] to [4405,3154:4671,3212] the\n[2748,3200:2969,3262] deposition [2973,3200:3026,3262] or [3037,3200:3243,3262] certificate [3248,3200:3293,3262] of [3297,3200:3377,3262] the [3381,3200:3489,3262] proof [3494,3200:3532,3262] or [3543,3200:3953,3262] acknowledgment [3957,3200:4010,3262] of [4007,3200:4080,3262] the [4091,3200:4291,3262] annexed [4288,3200:4687,3262] instrument\n[2743,3246:2821,3303] and [2825,3246:2985,3303] thereon [3009,3246:3156,3303] written, [3194,3246:3272,3303] was, [3303,3246:3367,3303] at [3371,3246:3456,3303] the [3467,3246:3607,3303] time [3610,3246:3661,3303] of [3665,3246:3818,3303] taking [3822,3246:3934,3303] such [3952,3246:4167,3303] deposition [4170,3246:4214,3303] or [4218,3246:4337,3303] proof [4341,3246:4616,3303] and\n[2746,3294:3152,3393] acknowledgment, [3170,3294:3222,3393] a [3248,3294:3378,3393] Notary [3389,3294:3548,3393] Public, [3566,3294:3731,3393] acting [3743,3294:3837,3393] in [3849,3294:3958,3393] and [3962,3294:4028,3393] for [4032,3294:4113,3393] the [4124,3294:4219,3393] said [4223,3294:4389,3393] County, [4407,3294:4680,3393] duly\n[2741,3342:3086,3406] commissioned [3084,3342:3167,3406] and [3171,3342:3320,3406] sworn, [3354,3342:3437,3406] and [3448,3342:3685,3406] authorized [3704,3342:3757,3406] by [3762,3342:3845,3406] the [3857,3342:3976,3406] laws [3974,3342:4013,3406] of [4017,3342:4122,3406] said [4127,3342:4261,3406] State [4265,3342:4312,3406] to [4331,3342:4436,3406] take [4448,3342:4523,3406] depo-\n[2741,3400:2833,3455] and [2844,3400:2936,3455] also [2947,3400:3340,3455] acknowledgments [3343,3400:3422,3455] and [3425,3400:3545,3455] proof [3549,3400:3600,3455] of [3617,3400:3757,3455] Deeds [3761,3400:3805,3455] or [3809,3400:4085,3455] conveyances [4096,3400:4147,3455] for [4157,3400:4270,3455] land, [4287,3400:4697,3455] tenements\n[2753,3436:2805,3500] or [2816,3436:3151,3500] hereditaments [3155,3436:3229,3500] in [3240,3436:3349,3500] said [3360,3436:3469,3500] State [3480,3436:3553,3500] of [3586,3436:3687,3500] New [3706,3436:3793,3500] York, [3840,3436:3949,3500] that [3960,3436:4055,3500] there [4059,3436:4118,3500] is [4122,3436:4182,3500] on [4193,3436:4280,3500] file [4292,3436:4358,3500] in [4362,3436:4436,3500] the [4440,3436:4705,3500] Clerk\n[2735,3487:2868,3567] office [2872,3487:2923,3567] of [2940,3487:3019,3567] In [3029,3487:3204,3567] County [3208,3487:3266,3567] of [3290,3487:3369,3567] New [3379,3487:3451,3567] York, [3475,3487:3506,3567] a [3509,3487:3684,3567] certified [3694,3487:3794,3567] copy [3797,3487:3848,3567] of [3852,3487:3931,3567] his [3934,3487:4260,3567] appointment [4263,3487:4599,3567] and\n[2747,3535:3008,3601] qualification [3018,3535:3096,3601] as [3126,3535:3251,3601] Notary [3262,3535:3407,3601] Public [3404,3535:3454,3601] of [3458,3535:3536,3601] the [3539,3535:3678,3601] County [3681,3535:3732,3601] of [3749,3535:3881,3601] Broux [3905,3535:3989,3601] with [3999,3535:4077,3601] his [4081,3535:4280,3601] autograph [4284,3535:4666,3601] Signature\n[2757,3587:2856,3649] and [2866,3587:2992,3649] further, [3017,3587:3129,3649] that [3146,3587:3170,3649] I [3174,3587:3273,3649] am [3290,3587:3382,3649] well [3392,3587:3628,3649] acquainted [3638,3587:3744,3649] with [3748,3587:3833,3649] the [3843,3587:4099,3649] handwriting [4096,3587:4140,3649] of [4151,3587:4291,3649] such [4315,3587:4635,3649] Notary\n[2757,3633:2892,3700] Public, [2910,3633:3004,3700] and [3008,3633:3109,3700] verily [3120,3633:3262,3700] believe [3266,3633:3388,3700] that [3399,3633:3486,3700] the [3497,3633:3723,3700] signature [3727,3633:3765,3700] to [3776,3633:3891,3700] said [3908,3633:4135,3700] deposition, [4153,3633:4198,3700] or [4202,3633:4393,3700] certificate [4397,3633:4627,3700] of\n[2749,3688:2846,3759] proof [2849,3688:2880,3759] or [2890,3688:3243,3759] acknowledgment [3246,3688:3290,3759] is [3300,3688:3512,3759] genuine.\n[2777,3727:2835,3791] In [2839,3727:3034,3791] Testimony [3051,3727:3164,3791] Whereof, [3188,3727:3205,3791] I [3209,3727:3301,3791] have [3311,3727:3465,3791] hereunto [3469,3727:3540,3791] set [3571,3727:3622,3791] my [3626,3727:3732,3791] hand [3742,3727:3807,3791] and [3811,3727:3944,3791] affixed [3948,3727:4019,3791] the [4030,3727:4129,3791] seal [4126,3727:4177,3791] of [4180,3727:4231,3791] the [4242,3727:4320,3791] said [4317,3727:4627,3791] Court\n[2743,3778:2890,3871] County [2894,3778:2979,3871] this [3017,3778:3129,3871] 26th [3146,3778:3211,3871] day [3214,3778:3265,3871] of [3269,3778:3334,3871] Feb. [3351,3778:3429,3871] 1918. [3815,3778:3839,3871] ( [3829,3778:3887,3871] 10) [3924,3778:4057,3871] Wm [4054,3778:4255,3871] Schneider [4259,3778:4611,3871] Clerk\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007154999"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00301"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007154999_00301"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNSX-MSNH-N"
+      } ]
+    } ]
+  } ]
+}

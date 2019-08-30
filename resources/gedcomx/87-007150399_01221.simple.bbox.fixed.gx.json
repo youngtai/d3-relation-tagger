@@ -1,0 +1,1258 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028313299756",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557430889597
+    },
+    "description" : "#s_6917529028313299756",
+    "persons" : [ {
+      "id" : "p_6917529030796760056",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Emara L Thompson",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Emara L",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Emara L"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Thompson",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Thompson"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Emara L Thompson"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27765164,0.18203709,0.3451184,0.21309896",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3490107,0.18203709,0.3707428,0.21309896",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38598767,0.18203709,0.48491728,0.21309896",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Emara L. Thompson"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Randolph, New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.51735324,0.18203709,0.6162828,0.21309896",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Randolph"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.44339928,0.16855286,0.45864418,0.18661208",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_STATE_ORIG",
+              "text" : "New York"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Johnson V Goodwill",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Johnson V",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Johnson V"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Goodwill",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Goodwill"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Johnson V Goodwill"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.44048005,0.30700698,0.49724296,0.3209728",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5001622,0.30700698,0.5154071,0.3209728",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5231917,0.30700698,0.6007136,0.3209728",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Johnson V. Goodwill"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Merrill T Jenkins",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Merrill T",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Merrill T"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Jenkins",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Jenkins"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Merrill T Jenkins"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6996432,0.30700698,0.76419073,0.3209728",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.76710993,0.30700698,0.78235483,0.3209728",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.787869,0.30700698,0.84722674,0.3209728",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Merrill T. Jenkins"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760356",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Williams",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Williams",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Williams"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Williams"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.43107364,0.32747412,0.51086605,0.34240308",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Williams"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.21764515,0.33782807,0.2890042,0.35155308",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Williams"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Bishop",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Bishop"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BFB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BN9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George Watkins",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Watkins",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Watkins"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George Watkins"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7405125,0.33782807,0.7836523,0.35155308",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7839767,0.33782807,0.85501134,0.35155308",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George Watkins"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BN9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760556",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BN7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Walkins",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Walkins",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Walkins"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Walkins"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.53259814,0.34938598,0.59909177,0.36214784",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Walkins"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BN7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George Watkias",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Watkias",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Watkias"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George Watkias"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.34122607,0.35925835,0.39961076,0.3727426",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40253,0.35925835,0.4686993,0.3727426",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George Watkias"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760756",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BN8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Watkins",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Watkins",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Watkins"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Watkins"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.79759973,0.35925835,0.85338956,0.3727426",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Watkins"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BN8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760856",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Joseph M Congdon",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Joseph M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Joseph M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Congdon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Congdon"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Joseph M Congdon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6727214,0.5581507,0.72948426,0.5778955",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7298086,0.5581507,0.75024325,0.5778955",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7557574,0.5581507,0.83327925,0.5778955",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Joseph M. Congdon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6445021,0.6703588,0.7035355,0.6867325",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.70904964,0.6703588,0.72948426,0.6867325",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7349984,0.6703588,0.8018164,0.6867325",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Joseph M. Congdon"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796760956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Alice M Congdon",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Alice M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Alice M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Congdon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Congdon"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Alice M Congdon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6483944,0.68239826,0.6947778,0.702143",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.69769704,0.68239826,0.71813166,0.702143",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7259163,0.68239826,0.8034382,0.702143",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Alice M. Congdon"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796761056",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Orneys",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Orneys",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Orneys"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Orneys"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.22380798,0.7230917,0.2786247,0.7329641",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "ORNEYS"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796761156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Joseph McCongdon",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Joseph",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Joseph"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "McCongdon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "McCongdon"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Joseph McCongdon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4450211,0.7242957,0.49886474,0.7601734",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5037301,0.7242957,0.54135585,0.7601734",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Joseph McCongdon"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796761256",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Olice M Congdon",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Olice M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Olice M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Congdon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Congdon"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Olice M Congdon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.47161856,0.75728387,0.50989294,0.7726944",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5102173,0.75728387,0.5332468,0.7726944",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53876096,0.75728387,0.6075251,0.7726944",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Olice M. Congdon"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BNB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030796761356",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BJ9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "E A Nash",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "E A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "E A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Nash",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Nash"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "E A Nash"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.123905286,0.65518904,0.17839767,0.6508548",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.123905286,0.6482061,0.17839767,0.6438719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.123905286,0.64218634,0.17839767,0.62797976",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "E. A. Nash"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-1BJ9-T"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028313299756",
+      "about" : "#r_6917529028313299756",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-PBFH-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-89W6-J8GL",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-89W6-J8GL" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150399_01221_TXT</UNQ>\n<IMID>007150399_01221</IMID>\n<APID>TH-1961-32807-10581-75</APID>\n<IMGSIZE>3083,4153</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 6 3\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this ⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Joseph ⌨⌨</ENAMEX>⌨⌨⌨ ⌨ M. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Fredonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Emara L. Thompson</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Randolph</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the second part\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">eighteen hundred\nDollars</NUMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT Tudor of Pamont of LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Conewago County</ENAMEX> and State aforesaid\ndistinguished by being a part of lot number one, township three range side of the\n<ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and bounded as follows, Beginning at a point in\nthe center of the <ENAMEX TYPE=\"LOCALE.notgpe\">Elmn Creek</ENAMEX> highway <NUMEX TYPE=\"QUANTITY\">twenty seven</NUMEX> links northerly from the south\neast corner of land deeded by <ENAMEX TYPE=\"PERSON\">Johnson V. Goodwill</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Merrill T. Jenkins</ENAMEX>. \nthence reading northerly along the center of said highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">ninety eight</NUMEX>.\nlinks to land owned by <ENAMEX TYPE=\"OCCUPATION\">Bishop</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX>: thence westerly along the south line of\nsaid <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX> load <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to land owned by <ENAMEX TYPE=\"PERSON\">George Watkins</ENAMEX> \nthence southerly on the east line of said <ENAMEX TYPE=\"PERSON\">Walkins</ENAMEX> land <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">ninety</NUMEX> links\nto land owned by <ENAMEX TYPE=\"PERSON\">George Watkias</ENAMEX>: thence easterly along the north line of said <ENAMEX TYPE=\"PERSON\">Watkins</ENAMEX> \nland <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">one and\none half</NUMEX> acres of land be the same more or less.\nWith the Bow purtenanfPS, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX>\ndoes hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof ated to or <ENAMEX TYPE=\"AGE\">age of 12</ENAMEX> in the Waters\nJn Witness whereof, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX> <ENAMEX TYPE=\"PERSON\">Alice M. Congdon</ENAMEX> tha<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, =RCB= s.\n<ENAMEX TYPE=\"PERSON\">ORNEYS</ENAMEX> <ENAMEX TYPE=\"LOCALE\">COUNTY of Plantation</ENAMEX> <TIMEX TYPE=\"DATE.non\">May four</TIMEX> on and ┃ <ENAMEX TYPE=\"PERSON\">Joseph McCongdon</ENAMEX> ⌨⌨⌨⌨ to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said <ENAMEX TYPE=\"PERSON\">Olice M. Congdon</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> acknowledged that the executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"OCCUPATION\">County Judge</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Chautauqua County</ENAMEX>,\nof the decree of <ENAMEX TYPE=\"OCCUPATION\">Counsel at Law</ENAMEX>\ndered mind and toward the crowd the\n<ENAMEX TYPE=\"PERSON\">E. A. Nash</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"312\"_ENDID=\"333\"_STTOKEN=\"Emara L. Thompson\"_ENDTOKEN=\"Randolph\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1185\"_ENDID=\"1130\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Williams\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"2284\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1780\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1911\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1934\"_ENDID=\"1684\"_STTOKEN=\"he\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2246\"_ENDID=\"1684\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2500\"_ENDID=\"2150\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2582\"_ENDID=\"2383\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"263\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2700\"_ENDID=\"2597\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"342\"_ENDID=\"284\"_STTOKEN=\"N.Y.\"_ENDTOKEN=\"N.Y.\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"477\"_ENDID=\"2150\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"584\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"S=1+\"_STID=\"1130\"_ENDID=\"1130\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Williams\">\n<RELEX TYPE=\"S=1+\"_STID=\"1185\"_ENDID=\"1185\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Williams\">\n<RELEX TYPE=\"S=1+\"_STID=\"1306\"_ENDID=\"1306\"_STTOKEN=\"Walkins\"_ENDTOKEN=\"Walkins\">\n<RELEX TYPE=\"S=1+\"_STID=\"1421\"_ENDID=\"1421\"_STTOKEN=\"Watkins\"_ENDTOKEN=\"Watkins\">\n<RELEX TYPE=\"S=1+\"_STID=\"2312\"_ENDID=\"2312\"_STTOKEN=\"ORNEYS\"_ENDTOKEN=\"ORNEYS\">\n<RELEX TYPE=\"S=2+\"_STID=\"1248\"_ENDID=\"1248\"_STTOKEN=\"George Watkins\"_ENDTOKEN=\"George Watkins\">\n<RELEX TYPE=\"S=2+\"_STID=\"1360\"_ENDID=\"1360\"_STTOKEN=\"George Watkias\"_ENDTOKEN=\"George Watkias\">\n<RELEX TYPE=\"S=2+\"_STID=\"2358\"_ENDID=\"2358\"_STTOKEN=\"Joseph McCongdon\"_ENDTOKEN=\"Joseph McCongdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"1684\"_ENDID=\"1684\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2246\"_ENDID=\"2246\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2264\"_ENDID=\"2264\"_STTOKEN=\"Alice M. Congdon\"_ENDTOKEN=\"Alice M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2537\"_ENDID=\"2537\"_STTOKEN=\"Olice M. Congdon\"_ENDTOKEN=\"Olice M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2821\"_ENDID=\"2821\"_STTOKEN=\"E. A. Nash\"_ENDTOKEN=\"E. A. Nash\">\n<RELEX TYPE=\"S=3+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"Emara L. Thompson\"_ENDTOKEN=\"Emara L. Thompson\">\n<RELEX TYPE=\"S=3+\"_STID=\"964\"_ENDID=\"964\"_STTOKEN=\"Johnson V. Goodwill\"_ENDTOKEN=\"Johnson V. Goodwill\">\n<RELEX TYPE=\"S=3+\"_STID=\"996\"_ENDID=\"996\"_STTOKEN=\"Merrill T. Jenkins\"_ENDTOKEN=\"Merrill T. Jenkins\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1780\"_ENDID=\"1784\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1780\"_ENDID=\"1794\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1911\"_ENDID=\"1915\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1934\"_ENDID=\"1925\"_STTOKEN=\"he\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2150\"_ENDID=\"1794\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2597\"_ENDID=\"2606\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"263\"_ENDID=\"267\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2700\"_ENDID=\"2709\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"964\"_ENDID=\"988\"_STTOKEN=\"Johnson V. Goodwill\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"996\"_ENDID=\"988\"_STTOKEN=\"Merrill T. Jenkins\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1684\"_ENDID=\"205\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1684\"_ENDID=\"216\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"1684\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2246\"_ENDID=\"2246\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"1130\"_ENDID=\"1122\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Bishop\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"275\"_ENDID=\"284\"_STTOKEN=\"Fredonia\"_ENDTOKEN=\"N.Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"333\"_ENDID=\"342\"_STTOKEN=\"Randolph\"_ENDTOKEN=\"N.Y.\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150399_01221_TXT</UNQ>\n<IMID>007150399_01221</IMID>\n<APID>TH-1961-32807-10581-75</APID>\n<IMGSIZE>3083,4153</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 6 3\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this ⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Joseph ⌨⌨</ENAMEX>⌨⌨⌨ ⌨ M. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Fredonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Emara L. Thompson</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Randolph</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the second part\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">eighteen hundred\nDollars</NUMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT Tudor of Pamont of LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Conewago County</ENAMEX> and State aforesaid\ndistinguished by being a part of lot number one, township three range side of the\n<ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and bounded as follows, Beginning at a point in\nthe center of the <ENAMEX TYPE=\"LOCALE.notgpe\">Elmn Creek</ENAMEX> highway <NUMEX TYPE=\"QUANTITY\">twenty seven</NUMEX> links northerly from the south\neast corner of land deeded by <ENAMEX TYPE=\"PERSON\">Johnson V. Goodwill</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Merrill T. Jenkins</ENAMEX>. \nthence reading northerly along the center of said highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">ninety eight</NUMEX>.\nlinks to land owned by <ENAMEX TYPE=\"OCCUPATION\">Bishop</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX>: thence westerly along the south line of\nsaid <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX> load <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to land owned by <ENAMEX TYPE=\"PERSON\">George Watkins</ENAMEX> \nthence southerly on the east line of said <ENAMEX TYPE=\"PERSON\">Walkins</ENAMEX> land <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">ninety</NUMEX> links\nto land owned by <ENAMEX TYPE=\"PERSON\">George Watkias</ENAMEX>: thence easterly along the north line of said <ENAMEX TYPE=\"PERSON\">Watkins</ENAMEX> \nland <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">one and\none half</NUMEX> acres of land be the same more or less.\nWith the Bow purtenanfPS, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX>\ndoes hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof ated to or <ENAMEX TYPE=\"AGE\">age of 12</ENAMEX> in the Waters\nJn Witness whereof, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX> <ENAMEX TYPE=\"PERSON\">Alice M. Congdon</ENAMEX> tha<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, =RCB= s.\n<ENAMEX TYPE=\"PERSON\">ORNEYS</ENAMEX> <ENAMEX TYPE=\"LOCALE\">COUNTY of Plantation</ENAMEX> <TIMEX TYPE=\"DATE.non\">May four</TIMEX> on and ┃ <ENAMEX TYPE=\"PERSON\">Joseph McCongdon</ENAMEX> ⌨⌨⌨⌨ to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said <ENAMEX TYPE=\"PERSON\">Olice M. Congdon</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> acknowledged that the executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"OCCUPATION\">County Judge</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Chautauqua County</ENAMEX>,\nof the decree of <ENAMEX TYPE=\"OCCUPATION\">Counsel at Law</ENAMEX>\ndered mind and toward the crowd the\n<ENAMEX TYPE=\"PERSON\">E. A. Nash</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1185\"_ENDID=\"1130\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Williams\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"2284\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1780\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1911\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1934\"_ENDID=\"1684\"_STTOKEN=\"he\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2246\"_ENDID=\"1684\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2500\"_ENDID=\"2150\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2582\"_ENDID=\"2383\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"263\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2700\"_ENDID=\"2597\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"342\"_ENDID=\"284\"_STTOKEN=\"N.Y.\"_ENDTOKEN=\"N.Y.\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"477\"_ENDID=\"2150\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"584\"_ENDID=\"1684\"_STTOKEN=\"his\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"S=1+\"_STID=\"1130\"_ENDID=\"1130\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Williams\">\n<RELEX TYPE=\"S=1+\"_STID=\"1185\"_ENDID=\"1185\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Williams\">\n<RELEX TYPE=\"S=1+\"_STID=\"1306\"_ENDID=\"1306\"_STTOKEN=\"Walkins\"_ENDTOKEN=\"Walkins\">\n<RELEX TYPE=\"S=1+\"_STID=\"1421\"_ENDID=\"1421\"_STTOKEN=\"Watkins\"_ENDTOKEN=\"Watkins\">\n<RELEX TYPE=\"S=1+\"_STID=\"2312\"_ENDID=\"2312\"_STTOKEN=\"ORNEYS\"_ENDTOKEN=\"ORNEYS\">\n<RELEX TYPE=\"S=2+\"_STID=\"1248\"_ENDID=\"1248\"_STTOKEN=\"George Watkins\"_ENDTOKEN=\"George Watkins\">\n<RELEX TYPE=\"S=2+\"_STID=\"1360\"_ENDID=\"1360\"_STTOKEN=\"George Watkias\"_ENDTOKEN=\"George Watkias\">\n<RELEX TYPE=\"S=2+\"_STID=\"2358\"_ENDID=\"2358\"_STTOKEN=\"Joseph McCongdon\"_ENDTOKEN=\"Joseph McCongdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"1684\"_ENDID=\"1684\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2246\"_ENDID=\"2246\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2264\"_ENDID=\"2264\"_STTOKEN=\"Alice M. Congdon\"_ENDTOKEN=\"Alice M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2537\"_ENDID=\"2537\"_STTOKEN=\"Olice M. Congdon\"_ENDTOKEN=\"Olice M. Congdon\">\n<RELEX TYPE=\"S=3+\"_STID=\"2821\"_ENDID=\"2821\"_STTOKEN=\"E. A. Nash\"_ENDTOKEN=\"E. A. Nash\">\n<RELEX TYPE=\"S=3+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"Emara L. Thompson\"_ENDTOKEN=\"Emara L. Thompson\">\n<RELEX TYPE=\"S=3+\"_STID=\"964\"_ENDID=\"964\"_STTOKEN=\"Johnson V. Goodwill\"_ENDTOKEN=\"Johnson V. Goodwill\">\n<RELEX TYPE=\"S=3+\"_STID=\"996\"_ENDID=\"996\"_STTOKEN=\"Merrill T. Jenkins\"_ENDTOKEN=\"Merrill T. Jenkins\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1780\"_ENDID=\"1784\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1780\"_ENDID=\"1794\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1911\"_ENDID=\"1915\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1934\"_ENDID=\"1925\"_STTOKEN=\"he\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2150\"_ENDID=\"1794\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2597\"_ENDID=\"2606\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"263\"_ENDID=\"267\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2700\"_ENDID=\"2709\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2246\"_ENDID=\"2246\"_STTOKEN=\"Joseph M. Congdon\"_ENDTOKEN=\"Joseph M. Congdon\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"1130\"_ENDID=\"1122\"_STTOKEN=\"Williams\"_ENDTOKEN=\"Bishop\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"275\"_ENDID=\"284\"_STTOKEN=\"Fredonia\"_ENDTOKEN=\"N.Y.\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150399_01221_TXT</UNQ>\n<IMID>007150399_01221</IMID>\n<APID>TH-1961-32807-10581-75</APID>\n<IMGSIZE>3083,4153</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 6 3\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this ⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Joseph ⌨⌨</ENAMEX>⌨⌨⌨ ⌨ M. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Fredonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Emara L. Thompson</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Randolph</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the second part\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">eighteen hundred\nDollars</NUMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT Tudor of Pamont of LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Conewago County</ENAMEX> and State aforesaid\ndistinguished by being a part of lot number one, township three range side of the\n<ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and bounded as follows, Beginning at a point in\nthe center of the <ENAMEX TYPE=\"LOCALE.notgpe\">Elmn Creek</ENAMEX> highway <NUMEX TYPE=\"QUANTITY\">twenty seven</NUMEX> links northerly from the south\neast corner of land deeded by <ENAMEX TYPE=\"PERSON\">Johnson V. Goodwill</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Merrill T. Jenkins</ENAMEX>. \nthence reading northerly along the center of said highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">ninety eight</NUMEX>.\nlinks to land owned by <ENAMEX TYPE=\"OCCUPATION\">Bishop</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX>: thence westerly along the south line of\nsaid <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX> load <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to land owned by <ENAMEX TYPE=\"PERSON\">George Watkins</ENAMEX> \nthence southerly on the east line of said <ENAMEX TYPE=\"PERSON\">Walkins</ENAMEX> land <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">ninety</NUMEX> links\nto land owned by <ENAMEX TYPE=\"PERSON\">George Watkias</ENAMEX>: thence easterly along the north line of said <ENAMEX TYPE=\"PERSON\">Watkins</ENAMEX> \nland <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">one and\none half</NUMEX> acres of land be the same more or less.\nWith the Bow purtenanfPS, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX>\ndoes hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof ated to or <ENAMEX TYPE=\"AGE\">age of 12</ENAMEX> in the Waters\nJn Witness whereof, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX> <ENAMEX TYPE=\"PERSON\">Alice M. Congdon</ENAMEX> tha<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, =RCB= s.\n<ENAMEX TYPE=\"PERSON\">ORNEYS</ENAMEX> <ENAMEX TYPE=\"LOCALE\">COUNTY of Plantation</ENAMEX> <TIMEX TYPE=\"DATE.non\">May four</TIMEX> on and ┃ <ENAMEX TYPE=\"PERSON\">Joseph McCongdon</ENAMEX> ⌨⌨⌨⌨ to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said <ENAMEX TYPE=\"PERSON\">Olice M. Congdon</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> acknowledged that the executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"OCCUPATION\">County Judge</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Chautauqua County</ENAMEX>,\nof the decree of <ENAMEX TYPE=\"OCCUPATION\">Counsel at Law</ENAMEX>\ndered mind and toward the crowd the\n<ENAMEX TYPE=\"PERSON\">E. A. Nash</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150399_01221_TXT</UNQ>\n<IMID>007150399_01221</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1961</TIMEX>-32807-<TIMEX TYPE=\"DATE.non\">10581-75</TIMEX></APID>\n<IMGSIZE><TIMEX TYPE=\"DATE\">3083,4153</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 6 3\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this ⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Joseph ⌨⌨</ENAMEX>⌨⌨⌨ ⌨ M. <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Fredonia</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Emara L. Thompson</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Randolph</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N.Y.</ENAMEX>\nof the second part\nWitnesseth, That the said party of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">eighteen hundred\nDollars</NUMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nand <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, ALL THAT Tudor of Pamont of LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Conewago County</ENAMEX> and State aforesaid\ndistinguished by being a part of lot number one, township three range side of the\n<ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and bounded as follows, Beginning at a point in\nthe center of the <ENAMEX TYPE=\"LOCALE.notgpe\">Elmn Creek</ENAMEX> highway <NUMEX TYPE=\"QUANTITY\">twenty seven</NUMEX> links northerly from the south\neast corner of land deeded by <ENAMEX TYPE=\"PERSON\">Johnson V. Goodwill</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Merrill T. Jenkins</ENAMEX>. \nthence reading northerly along the center of said highway <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chain <NUMEX TYPE=\"QUANTITY\">ninety eight</NUMEX>.\nlinks to land owned by <ENAMEX TYPE=\"OCCUPATION\">Bishop</ENAMEX>, <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX>: thence westerly along the south line of\nsaid <ENAMEX TYPE=\"PERSON\">Williams</ENAMEX> load <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to land owned by <ENAMEX TYPE=\"PERSON\">George Watkins</ENAMEX> \nthence southerly on the east line of said <ENAMEX TYPE=\"PERSON\">Walkins</ENAMEX> land <NUMEX TYPE=\"QUANTITY\">one</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">ninety</NUMEX> links\nto land owned by <ENAMEX TYPE=\"PERSON\">George Watkias</ENAMEX>: thence easterly along the north line of said <ENAMEX TYPE=\"PERSON\">Watkins</ENAMEX> \nland <NUMEX TYPE=\"QUANTITY\">seven</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> links to the place of beginning containing <NUMEX TYPE=\"QUANTITY\">one and\none half</NUMEX> acres of land be the same more or less.\nWith the Bow purtenanfPS, and all the estate, title and interest therein of the said party of the first part. And the said <ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX>\ndoes hereby covenant and agree to and with the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the premises thus conveyed, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof ated to or <ENAMEX TYPE=\"AGE\">age of 12</ENAMEX> in the Waters\nJn Witness whereof, The parties of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Joseph M. Congdon</ENAMEX> <ENAMEX TYPE=\"PERSON\">Alice M. Congdon</ENAMEX> tha<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>, =RCB= s.\n<ENAMEX TYPE=\"PERSON\">ORNEYS</ENAMEX> <ENAMEX TYPE=\"LOCALE\">COUNTY of Plantation</ENAMEX> <TIMEX TYPE=\"DATE.non\">May four</TIMEX> on and ┃ <ENAMEX TYPE=\"PERSON\">Joseph McCongdon</ENAMEX> ⌨⌨⌨⌨ to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said <ENAMEX TYPE=\"PERSON\">Olice M. Congdon</ENAMEX>\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> acknowledged that the executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n<ENAMEX TYPE=\"OCCUPATION\">County Judge</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Chautauqua County</ENAMEX>,\nof the decree of <ENAMEX TYPE=\"OCCUPATION\">Counsel at Law</ENAMEX>\ndered mind and toward the crowd the\n<ENAMEX TYPE=\"PERSON\">E. A. Nash</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150399_01221_TXT</UNQ>\n<IMID>007150399_01221</IMID>\n<APID>TH-1961-32807-10581-75</APID>\n<IMGSIZE>3083,4153</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[2496,393:2662,452] 5 6 3\n[641,489:844,512] WARRANTY [839,489:940,512] DEED.\n[593,572:803,743] This [823,572:1216,743] Indenture, [1235,572:1319,743] Made [1316,572:1399,743] this [1407,572:1697,743] ⌨⌨⌨⌨⌨⌨⌨ [1705,572:1915,743] Joseph [1935,572:2271,743] ⌨⌨⌨⌨⌨ [2302,572:2385,743] ⌨ [616,700:679,775] M. [712,700:815,775] his [816,700:943,775] wife [944,700:1038,775] of [1047,700:1326,775] Fredonia [1367,700:1414,775] N.Y.\n[575,756:616,885] of [610,756:660,885] the [654,756:721,885] first [715,756:774,885] part, [777,756:845,885] and [856,756:1064,885] Emara [1076,756:1143,885] L. [1190,756:1495,885] Thompson [1498,756:1574,885] of [1595,756:1900,885] Randolph [1937,756:1988,885] N.Y.\n[2322,912:2356,940] of [2349,912:2400,940] the [2397,912:2491,940] second [2484,912:2598,940] part\n[584,951:775,1022] Witnesseth, [784,951:855,1022] That [848,951:903,1022] the [896,951:959,1022] said [951,951:1038,1022] party [1031,951:1062,1022] of [1063,951:1110,1022] the [1103,951:1174,1022] first [1167,951:1230,1022] part, [1231,951:1270,1022] in [1263,951:1438,1022] consideration [1431,951:1470,1022] of [1463,951:1518,1022] the [1511,951:1574,1022] sum [1575,951:1726,1022] of [1735,951:1949,1022] eighteen [1950,951:2230,1022] hundred\n[2443,1029:2544,1054] Dollars,\n[576,1022:623,1108] to [624,1022:767,1108] them [768,1022:831,1108] duly [824,1022:895,1108] paid, [896,1022:967,1108] have [960,1022:1031,1108] sold, [1032,1022:1087,1108] and [1088,1022:1127,1108] by [1120,1022:1199,1108] these [1192,1022:1311,1108] presents [1304,1022:1351,1108] do [1376,1022:1454,1108] grant [1447,1022:1502,1108] and [1503,1022:1598,1108] convey [1591,1022:1630,1108] to [1623,1022:1678,1108] the [1671,1022:1734,1108] said [1727,1022:1806,1108] party [1799,1022:1838,1108] of [1831,1022:1878,1108] the [1879,1022:1974,1108] second [1967,1022:2030,1108] part, [2167,1022:2305,1108] his\n[576,1077:639,1159] and [632,1077:727,1159] assigns, [736,1077:791,1159] ALL [792,1077:855,1159] THAT [856,1077:935,1159] Tudor [928,1077:967,1159] of [968,1077:1063,1159] Pamont [1064,1077:1095,1159] of [1096,1077:1167,1159] LAND, [1168,1077:1263,1159] situate [1264,1077:1295,1159] in [1296,1077:1407,1159] the [1424,1077:1726,1159] ⌨own [1719,1077:1774,1159] of [1775,1077:2014,1159] Conewago [2023,1077:2174,1159] County [2175,1077:2278,1159] and [2287,1077:2398,1159] State [2399,1077:2637,1159] aforesaid\n[565,1147:847,1204] distinguished [856,1147:926,1204] by [934,1147:1044,1204] being [1044,1147:1122,1204] a [1123,1147:1272,1204] part [1280,1147:1342,1204] of [1343,1147:1429,1204] lot [1438,1147:1618,1204] number [1626,1147:1704,1204] one, [1744,1147:1971,1204] township [1980,1147:2144,1204] three [2153,1147:2286,1204] range [2287,1147:2404,1204] side [2404,1147:2475,1204] of [2483,1147:2616,1204] the\n[565,1196:748,1250] Holland [755,1196:902,1250] Land [909,1196:1181,1250] Companys [1188,1196:1334,1250] survey [1341,1196:1459,1250] and [1466,1196:1657,1250] bounded [1664,1196:1760,1250] as [1759,1196:1950,1250] follows, [1972,1196:2236,1250] Beginning [2243,1196:2309,1250] at [2309,1196:2360,1250] a [2367,1196:2507,1250] point [2507,1196:2616,1250] in\n[565,1234:653,1287] the [660,1234:821,1287] center [821,1234:895,1287] of [902,1234:997,1287] the [1012,1234:1122,1287] Elmn [1129,1234:1283,1287] Creek [1312,1234:1518,1287] highway [1532,1234:1679,1287] twenty [1686,1234:1818,1287] seven [1825,1234:1979,1287] links [1994,1234:2229,1287] northerly [2236,1234:2353,1287] from [2353,1234:2426,1287] the [2426,1234:2605,1287] south\n[566,1275:661,1333] east [662,1275:837,1333] corner [846,1275:893,1333] of [902,1275:1029,1333] land [1030,1275:1221,1333] deeded [1230,1275:1349,1333] by [1358,1275:1533,1333] Johnson [1542,1275:1589,1333] V. [1613,1275:1852,1333] Goodwill [1853,1275:1964,1333] and [1965,1275:2060,1333] wife [2069,1275:2132,1333] to [2157,1275:2356,1333] Merrill [2365,1275:2412,1333] T. [2429,1275:2612,1333] Jenkins. [528,1323:566,1378] \n[574,1323:725,1378] thence [741,1323:976,1378] reading [984,1323:1204,1378] northerly [1204,1323:1386,1378] along [1394,1323:1477,1378] the [1477,1323:1629,1378] center [1637,1323:1697,1378] of [1697,1323:1819,1378] said [1826,1323:2024,1378] highway [2024,1323:2122,1378] one [2130,1323:2267,1378] chain [2274,1323:2419,1378] ninety [2426,1323:2548,1378] eight.\n[570,1360:679,1422] links [681,1360:739,1422] to [749,1360:858,1422] land [860,1360:1020,1422] owned [1031,1360:1140,1422] by [1150,1360:1310,1422] Bishop, [1329,1360:1575,1422] Williams: [1628,1360:1779,1422] thence [1781,1360:1950,1422] westerly [1978,1360:2120,1422] along [2131,1360:2223,1422] the [2233,1360:2376,1422] south [2378,1360:2496,1422] line [2498,1360:2612,1422] of\n[569,1403:663,1460] said [671,1403:891,1460] Williams [899,1403:1064,1460] load [1072,1403:1197,1460] seven [1206,1403:1370,1460] chains [1379,1403:1543,1460] thirty [1552,1403:1693,1460] seven [1693,1403:1834,1460] links [1843,1403:1905,1460] to [1906,1403:2047,1460] land [2055,1403:2204,1460] owned [2212,1403:2275,1460] by [2283,1403:2416,1460] George [2417,1403:2636,1460] Watkins [535,1451:565,1504] \n[565,1451:741,1504] thence [748,1451:975,1504] southerly [982,1451:1056,1504] on [1063,1451:1151,1504] the [1158,1451:1283,1504] east [1290,1451:1407,1504] line [1407,1451:1466,1504] of [1510,1451:1635,1504] said [1642,1451:1847,1504] Walkins [1854,1451:2001,1504] land [2001,1451:2089,1504] one [2096,1451:2250,1504] chains [2250,1451:2419,1504] ninety [2425,1451:2608,1504] links\n[565,1492:635,1548] to [644,1492:777,1548] land [785,1492:965,1548] owned [966,1492:1044,1548] by [1052,1492:1232,1548] George [1241,1492:1445,1548] Watkias: [1477,1492:1641,1548] thence [1650,1492:1838,1548] easterly [1846,1492:1995,1548] along [1995,1492:2073,1548] the [2074,1492:2199,1548] north [2208,1492:2325,1548] line [2326,1492:2372,1548] of [2373,1492:2458,1548] said [2459,1492:2631,1548] Watkins [530,1540:561,1623] \n[570,1540:705,1623] land [714,1540:841,1623] seven [842,1540:1025,1623] chains [1034,1540:1185,1623] thirty [1186,1540:1321,1623] seven [1330,1540:1481,1623] links [1490,1540:1561,1623] to [1562,1540:1656,1623] the [1665,1540:1824,1623] place [1825,1540:1896,1623] of [1897,1540:2152,1623] beginning [2161,1540:2416,1623] containing [2417,1540:2496,1623] one [2505,1540:2666,1623] and\n[555,1586:658,1666] one [667,1586:786,1666] half [795,1586:937,1666] acres [938,1586:1001,1666] of [1010,1586:1145,1666] land [1146,1586:1217,1666] be [1226,1586:1329,1666] the [1330,1586:1481,1666] same [1490,1586:1625,1666] more [1633,1586:1696,1666] or [1705,1586:1808,1666] less.\n[588,2318:675,2400] With [668,2318:723,2400] the [724,2318:779,2400] Bow [772,2318:947,2400] purtenanfPS, [956,2318:1011,2400] and [1004,2318:1050,2400] all [1043,2318:1090,2400] the [1083,2318:1170,2400] estate, [1171,2318:1234,2400] title [1235,2318:1290,2400] and [1283,2318:1394,2400] interest [1387,2318:1482,2400] therein [1483,2318:1514,2400] of [1507,2318:1562,2400] the [1555,2318:1618,2400] said [1611,2318:1690,2400] party [1691,2318:1722,2400] of [1715,2318:1762,2400] the [1763,2318:1826,2400] first [1819,2318:1890,2400] part. [1907,2318:1970,2400] And [1963,2318:2018,2400] the [2011,2318:2073,2400] said [2074,2318:2249,2400] Joseph [2250,2318:2313,2400] M. [2330,2318:2569,2400] Congdon\n[585,2411:666,2471] does [667,2411:765,2471] hereby [758,2411:881,2471] covenant [874,2411:930,2471] and [923,2411:1013,2471] agree [1006,2411:1046,2471] to [1039,2411:1095,2471] and [1097,2411:1162,2471] with [1155,2411:1203,2471] the [1204,2411:1269,2471] said [1262,2411:1343,2471] party [1337,2411:1368,2471] of [1370,2411:1409,2471] the [1411,2411:1508,2471] second [1502,2411:1566,2471] part, [1683,2411:1888,2471] his [1890,2411:1971,2471] heirs [1964,2411:2021,2471] and [2014,2411:2159,2471] assigns\n[583,2613:646,2686] that [639,2613:694,2686] the [687,2613:806,2686] premises [799,2613:870,2686] thus [863,2613:982,2686] conveyed, [990,2613:1029,2686] in [1022,2613:1077,2686] the [1070,2613:1149,2686] quiet [1142,2613:1197,2686] and [1190,2613:1325,2686] peaceable [1318,2613:1453,2686] possession [1454,2613:1485,2686] of [1486,2613:1533,2686] the [1526,2613:1589,2686] said [1582,2613:1661,2686] party [1654,2613:1693,2686] of [1686,2613:1741,2686] the [1734,2613:1829,2686] second [1822,2613:1893,2686] part, [1917,2613:2044,2686] his [2045,2613:2116,2686] heirs [2109,2613:2172,2686] and [2165,2613:2260,2686] assigns, [2277,2613:2376,2686] he\n[575,2685:646,2752] will [639,2685:734,2752] forever [735,2685:854,2752] WARRANT [855,2685:910,2752] AND [903,2685:1006,2752] DEFEND [1007,2685:1101,2752] against [1102,2685:1149,2752] any [1142,2685:1237,2752] person [1238,2685:1397,2752] whomsoever [1390,2685:1501,2752] lawfully [1494,2685:1605,2752] claiming [1606,2685:1653,2752] the [1646,2685:1725,2752] same [1718,2685:1757,2752] or [1750,2685:1805,2752] any [1806,2685:1869,2752] part [1862,2685:1965,2752] thereof [1974,2685:2045,2752] ated [2046,2685:2077,2752] to [2093,2685:2140,2752] or [2157,2685:2204,2752] age [2205,2685:2236,2752] of [2245,2685:2292,2752] 12 [2333,2685:2396,2752] in [2389,2685:2460,2752] the [2461,2685:2608,2752] Waters\n[661,2734:725,2784] Jn [731,2734:877,2784] Witness [883,2734:1030,2784] whereof, [1042,2734:1106,2784] The [1105,2734:1210,2784] parties [1208,2734:1251,2784] of [1243,2734:1300,2784] the [1292,2734:1362,2784] first [1361,2734:1424,2784] part, [1430,2734:1507,2784] have [1499,2734:1618,2784] hereunto [1617,2734:1694,2784] set [1693,2734:1847,2784] their [1846,2734:1944,2784] hands [1943,2734:1999,2784] and [1998,2734:2075,2784] seals [2074,2734:2124,2784] the [2123,2734:2186,2784] day [2178,2734:2241,2784] and [2240,2734:2304,2784] year [2303,2734:2366,2784] first [2358,2734:2442,2784] above [2441,2734:2546,2784] written.\n[585,2818:686,2839] Sealed [680,2818:747,2839] and [741,2818:878,2839] Delivered [872,2818:918,2839] in [915,2818:1043,2839] Presence [1038,2818:1128,2839] of\n[1987,2784:2169,2852] Joseph [2186,2784:2249,2852] M. [2266,2784:2472,2852] Congdon [1999,2834:2142,2916] Alice [2151,2834:2214,2916] M. [2238,2834:2477,2916] Congdon [2470,2834:2598,2916] thaSTATE [734,2967:796,3010] OF [805,2967:919,3010] NEW [922,2967:1042,3010] YORK, [1027,2967:1077,3010] =RCB= [1103,2967:1195,3010] s.\n[690,3003:859,3044] ORNEYS [861,3003:962,3044] COUNTY [953,3003:985,3044] of [981,3003:1082,3044] Plantation [577,3008:693,3157] May [698,3008:783,3157] four [799,3008:1246,3157] on [1251,3008:1347,3157] and [1352,3008:1377,3157] ┃ [1372,3008:1538,3157] Joseph [1553,3008:1669,3157] McCongdon [1835,3008:1991,3157] ⌨⌨⌨⌨ [1734,3127:1769,3156] to [1766,3127:1813,3156] me [1806,3127:1888,3156] known [1881,3127:1916,3156] to [1909,3127:1948,3156] be [1941,3127:1984,3156] the [1977,3127:2044,3156] same [2037,3127:2128,3156] persons [2121,3127:2228,3156] described [2220,3127:2255,3156] in [2248,3127:2299,3156] and [2292,3127:2343,3156] who [2340,3127:2439,3156] executed [2432,3127:2479,3156] the [2472,3127:2601,3156] within\n[583,3145:710,3209] instrument, [711,3145:758,3209] and [751,3145:854,3209] severally [847,3145:1005,3209] acknowledged [998,3145:1053,3209] that [1046,3145:1101,3209] they [1094,3145:1197,3209] executed [1190,3145:1237,3209] the [1230,3145:1301,3209] same; [1302,3145:1349,3209] and [1342,3145:1389,3209] the [1382,3145:1445,3209] said [1454,3145:1572,3209] Olice [1573,3145:1644,3209] M. [1661,3145:1873,3209] Congdon\n[588,3207:626,3262] on [618,3207:641,3262] a [633,3207:717,3262] private [717,3207:853,3262] examination [846,3207:884,3262] by [876,3207:922,3262] me, [922,3207:990,3262] apart [983,3207:1043,3262] from [1036,3207:1081,3262] her [1081,3207:1134,3262] said [1127,3207:1226,3262] husband [1218,3207:1377,3262] acknowledged [1370,3207:1423,3262] that [1416,3207:1461,3262] the [1461,3207:1560,3262] executed [1552,3207:1598,3262] the [1590,3207:1651,3262] same [1651,3207:1719,3262] freely, [1719,3207:1772,3262] and [1765,3207:1856,3262] without [1848,3207:1894,3262] any [1886,3207:1947,3262] fear [1940,3207:1970,3262] or [1962,3207:2091,3262] compulsion [2092,3207:2122,3262] of [2114,3207:2167,3262] her [2160,3207:2213,3262] said [2205,3207:2304,3262] husband.\n[1891,3273:2018,3337] County [2018,3273:2153,3337] Judge [2154,3273:2201,3337] of [2210,3273:2424,3337] Chautauqua [2433,3273:2560,3337] County,\n[1883,3323:1930,3397] of [1931,3323:1994,3397] the [1995,3323:2121,3397] decree [2122,3323:2185,3397] of [2186,3323:2361,3397] Counsel [2354,3323:2424,3397] at [2425,3323:2594,3397] Law\n[446,3430:521,3416] dered [446,3414:521,3405] mind [446,3404:521,3399] and [446,3400:521,3386] toward [446,3384:521,3376] the [446,3376:521,3365] crowd [446,3365:521,2866] the\n[382,2721:550,2703] E. [382,2692:550,2674] A. [382,2667:550,2608] Nash\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150399"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "01221"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150399_01221"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-PBFH-N"
+      } ]
+    } ]
+  } ]
+}

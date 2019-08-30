@@ -1,0 +1,1594 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028315198956",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557432339846
+    },
+    "description" : "#s_6917529028315198956",
+    "persons" : [ {
+      "id" : "p_6917529030809600856",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F537-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "William C W Hodge",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "William C W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "William C W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hodge",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hodge"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "William C W Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2602339,0.10270569,0.30179617,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30200502,0.10270569,0.31349206,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31704262,0.10270569,0.35025063,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3504595,0.10270569,0.36695907,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William C. Hodge W"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "August 1952",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2842523,0.085864164,0.30743524,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30743524,0.085864164,0.32059315,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31913117,0.085864164,0.3306182,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33249792,0.085864164,0.40914786,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40768588,0.085864164,0.41583124,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4160401,0.085864164,0.42585632,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42606518,0.085864164,0.4390142,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4375522,0.085864164,0.44569758,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44590643,0.085864164,0.45572263,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.45593148,0.085864164,0.47076023,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.46929824,0.085864164,0.49310777,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.08667502,0.10270569,0.113199666,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.111737676,0.10270569,0.12656641,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12510443,0.10270569,0.14828739,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14849624,0.10270569,0.15831245,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15852131,0.10270569,0.1814954,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18170427,0.10270569,0.20989975,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21010861,0.10270569,0.22827902,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "August 1952"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F537-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809600956",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53H-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Helen M Hody Hodge",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Helen M Hody",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Helen M Hody"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hodge",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hodge"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Helen M Hody Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36716792,0.10270569,0.3968254,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3987051,0.10270569,0.41520467,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.41541353,0.10270569,0.44862154,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Helen M Hody"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.84962404,0.41468802,0.88596493,0.43456653",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8861738,0.41468802,0.90267336,0.43456653",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.90455306,0.41468802,0.94966584,0.43456653",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Helen M. Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6775271,0.7885146,0.7090643,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.70927316,0.7885146,0.7241019,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7259816,0.7885146,0.75751877,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Helen M. Hodge"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "August 1952",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2842523,0.085864164,0.30743524,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30743524,0.085864164,0.32059315,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31913117,0.085864164,0.3306182,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33249792,0.085864164,0.40914786,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40768588,0.085864164,0.41583124,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4160401,0.085864164,0.42585632,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42606518,0.085864164,0.4390142,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4375522,0.085864164,0.44569758,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44590643,0.085864164,0.45572263,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.45593148,0.085864164,0.47076023,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.46929824,0.085864164,0.49310777,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.08667502,0.10270569,0.113199666,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.111737676,0.10270569,0.12656641,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12510443,0.10270569,0.14828739,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14849624,0.10270569,0.15831245,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15852131,0.10270569,0.1814954,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18170427,0.10270569,0.20989975,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21010861,0.10270569,0.22827902,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "August 1952"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53H-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601056",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F538-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Adelaide C Howe",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Adelaide C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Adelaide C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Howe",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Howe"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Adelaide C Howe"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.1524645,0.14273882,0.19736843,0.1606847",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.19757728,0.14273882,0.21052632,0.1606847",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21407686,0.14273882,0.24728487,0.1606847",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Adelaide C. Howe"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7232665,0.81419104,0.7664996,0.83517396",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7683793,0.81419104,0.77986634,0.83517396",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.78174603,0.81419104,0.81161237,0.83517396",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Adelaide E. Howe"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "August 1952",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2842523,0.085864164,0.30743524,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30743524,0.085864164,0.32059315,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31913117,0.085864164,0.3306182,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33249792,0.085864164,0.40914786,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40768588,0.085864164,0.41583124,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4160401,0.085864164,0.42585632,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42606518,0.085864164,0.4390142,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4375522,0.085864164,0.44569758,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44590643,0.085864164,0.45572263,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.45593148,0.085864164,0.47076023,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.46929824,0.085864164,0.49310777,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.08667502,0.10270569,0.113199666,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.111737676,0.10270569,0.12656641,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12510443,0.10270569,0.14828739,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14849624,0.10270569,0.15831245,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15852131,0.10270569,0.1814954,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18170427,0.10270569,0.20989975,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21010861,0.10270569,0.22827902,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "August 1952"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F538-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Charles M Howe",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Charles M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Charles M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Howe",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Howe"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Charles M Howe"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.29093567,0.14273882,0.33249792,0.1606847",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33270678,0.14273882,0.3475355,0.1606847",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35108605,0.14273882,0.3859649,0.1606847",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Charles M. Howe"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "place" : {
+          "original" : "Erie, State of New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_CITY_ORIG",
+              "text" : "Erie"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.29678363,0.1170624,0.32664996,0.13859746",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32685882,0.1170624,0.34168756,0.13859746",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3418964,0.1170624,0.36487052,0.13859746",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36340854,0.1170624,0.40183792,0.13859746",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_STATE_ORIG",
+              "text" : "State of New York"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Allen Sell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Allen",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Allen"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Sell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Sell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Allen Sell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.16332498,0.2136941,0.17460318,0.22667035",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17418547,0.2136941,0.18817878,0.22667035",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "sell, allen"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Range Eight",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.115497075,0.24654886,0.15142022,0.25952512",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15225564,0.24654886,0.18274854,0.25952512",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Range Eight"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Fannie A Castle",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Fannie A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Fannie A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Castle",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Castle"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Fannie A Castle"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3086884,0.29431254,0.3485798,0.3072888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3494152,0.29431254,0.36090225,0.3072888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36319965,0.29431254,0.39766082,0.3072888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Fannie A. Castle"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Range Eight",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.115497075,0.24654886,0.15142022,0.25952512",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15225564,0.24654886,0.18274854,0.25952512",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Range Eight"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601456",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "William C Hodge",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "William C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "William C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hodge",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hodge"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "William C Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.573726,0.16482607,0.6163325,0.1811154",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6184211,0.16482607,0.63011694,0.1811154",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6322055,0.16482607,0.6771094,0.1811154",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William C. Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.73245615,0.31474325,0.7731829,0.32909995",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7744361,0.31474325,0.7850877,0.32909995",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7865497,0.31474325,0.81954885,0.32909995",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William C. Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.85045946,0.4006074,0.8943191,0.41358367",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.89515454,0.4006074,0.9051796,0.41358367",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.907477,0.4006074,0.9513367,0.41358367",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William C. Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6388889,0.7404749,0.682122,0.7625621",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.68233085,0.7404749,0.69381785,0.7625621",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6956976,0.7404749,0.7322473,0.7625621",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William C. Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.56578946,0.7885146,0.6073517,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6075606,0.7885146,0.6173768,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6192565,0.7885146,0.65225565,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William C. Hodge"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "August 1952",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2842523,0.085864164,0.30743524,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30743524,0.085864164,0.32059315,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31913117,0.085864164,0.3306182,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33249792,0.085864164,0.40914786,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40768588,0.085864164,0.41583124,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4160401,0.085864164,0.42585632,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42606518,0.085864164,0.4390142,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4375522,0.085864164,0.44569758,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44590643,0.085864164,0.45572263,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.45593148,0.085864164,0.47076023,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.46929824,0.085864164,0.49310777,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.08667502,0.10270569,0.113199666,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.111737676,0.10270569,0.12656641,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12510443,0.10270569,0.14828739,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14849624,0.10270569,0.15831245,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15852131,0.10270569,0.1814954,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18170427,0.10270569,0.20989975,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21010861,0.10270569,0.22827902,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "August 1952"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Willard Stay Hodge",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Willard Stay",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Willard Stay"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Hodge",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Hodge"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Willard Stay Hodge"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8214286,0.54307014,0.8665413,0.5574268",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.86800337,0.54307014,0.89515454,0.5574268",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.89640766,0.54307014,0.94527984,0.5574268",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Willard Stay Hodge"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Notary Public",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Notary Public"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F53B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030809601656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F5Q9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Jane C",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Jane C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Jane C"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Jane C"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8162072,0.7885146,0.841061,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.84126985,0.7885146,0.8527569,0.8083932",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jane C."
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-F5Q9-T"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030809601156",
+        "resourceId" : "p_6917529030809601156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030809601056",
+        "resourceId" : "p_6917529030809601056"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Husband"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030809601456",
+        "resourceId" : "p_6917529030809601456"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030809600956",
+        "resourceId" : "p_6917529030809600956"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030809601656",
+        "resourceId" : "p_6917529030809601656"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030809600956",
+        "resourceId" : "p_6917529030809600956"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028315198956",
+      "about" : "#r_6917529028315198956",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "temporal" : {
+          "original" : "August 1952",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2842523,0.085864164,0.30743524,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30743524,0.085864164,0.32059315,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31913117,0.085864164,0.3306182,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.33249792,0.085864164,0.40914786,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.40768588,0.085864164,0.41583124,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4160401,0.085864164,0.42585632,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42606518,0.085864164,0.4390142,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4375522,0.085864164,0.44569758,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.44590643,0.085864164,0.45572263,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.45593148,0.085864164,0.47076023,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.46929824,0.085864164,0.49310777,0.1051905",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.08667502,0.10270569,0.113199666,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.111737676,0.10270569,0.12656641,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12510443,0.10270569,0.14828739,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14849624,0.10270569,0.15831245,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15852131,0.10270569,0.1814954,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18170427,0.10270569,0.20989975,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21010861,0.10270569,0.22827902,0.12092766",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "August 1952"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-THRF-W" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-89WX-QTCS",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-89WX-QTCS" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007153730_00549_TXT</UNQ>\n<IMID>007153730_00549</IMID>\n<APID>TH-1961-32824-23672-25</APID>\n<IMGSIZE>4788,3622</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 5 9\n<ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- <ENAMEX TYPE=\"LOCALE\">Full Co.</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the\n<TIMEX TYPE=\"DATE\">First day of August in the year of our Lord one\nthousand eight hundred and seventy Eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">William C. Hodge W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen M Hody</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part,\nand <ENAMEX TYPE=\"PERSON\">Adelaide C. Howe</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Charles M. Howe</ENAMEX> of the same place\nof the second part, Witnesseth that the said parties of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Thirteen Thousand Dollars ( $1300000</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>, to <ENAMEX TYPE=\"COREF\">them</ENAMEX> in hand paid by the said party of the second part at or before the ensealing and delivery of\ninto the receipt whereof is hereby acknowledged, and the said party of the second part,\n<ENAMEX TYPE=\"COREF\">ther</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executor</ENAMEX>\nors and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, forever\nread and discharged from the same, by these presents have <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold aliened, remised, released, conveyed and confirmed</ENAMEX>, and by these\npresents do grant bargain, <ENAMEX TYPE=\"PERSON\">sell, allen</ENAMEX>, remise, <ENAMEX TYPE=\"EVENT.xlife\">release, convey and confirm</ENAMEX> unto the said party\nof the second part, and to\nforever, ant that certain pover or parcel of land situate in the ⌨⌨⌨ ⌨⌨⌨⌨ aforesaid, and being part of Farm Lot fifty seven ( 5) <ENAMEX TYPE=\"LOCALE.notgpe\">Township Eleven ℗</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX> ( 8) of the so called <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and \nbounded and described as follows: Commencing at a point in the northerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty-five and one quarter</NUMEX> ( 155 Westerly from the intersection of the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> with the \nwesterly line of land heretofore deeded to <ENAMEX TYPE=\"PERSON\">Fannie A. Castle</ENAMEX> by deed bearing date \n<TIMEX TYPE=\"DATE\">October Seventh one thousand eight hundred and forty eight</TIMEX> and recorded in\npollice of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the said <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> in Liber 181 of Deeds at page 332\nrunning thence northerly and at right angler with the said northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty ( 150)</NUMEX> feet running thence westerly and\nparallel with the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred ( 150)</NUMEX> feet\nrunning thence southerly and at right angles with the said Northerly line of\n<ENAMEX TYPE=\"LOCALE\">Pheenue</ENAMEX> <NUMEX TYPE=\"MONEY\">one hundred and Thirty $180</NUMEX>) feet to the said Northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> running thence easterly and along the said Northerly line of\nHold Avenue <NUMEX TYPE=\"QUANTITY\">one hundred ( 100)</NUMEX> feet to the <ENAMEX TYPE=\"EVENT.rel\">die</ENAMEX> of beginning\nfeter with all and singular, the tenements, hereditaments and appurtenances thereunto belonging or in any wise appertaining and the reversion and\nrevertions, remainder and remainders, rents, issues and pronts thereof, <ENAMEX TYPE=\"PERSON\">Hamm</ENAMEX> also, all the estate right, titia <ENAMEX TYPE=\"PERSON\">Hearst</ENAMEX>, Tower\nHowever, as well in Law as <ENAMEX TYPE=\"OCCUPATION\">M Equity</ENAMEX>, of the said parties of the first part, of in or\nto the above described premises, and every part and parcel thereof, with the appurtenances. In fair and to hold, all and singular, the above mentioned\nand described premises, together with the appurtenances unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. on the line C. ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ all when <ENAMEX TYPE=\"COREF\">he</ENAMEX> said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nat the time of the sealing\nand delivery of these presents, was lawfully seized in and possessed of a good, absolute and indefeasible estate of inheritance in fee simple, of and\nin all and singular, the above granted, bargained and described premises, with the appurtenances\nand has\ngood right,\nall power and lawful authority to grant bargain, sell and convey the same in manner and form aforesaid\nand that the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, shall and may at all times hereafter, peaceably and quietly, have, hold, use.\noccupy possess and enjoy the above granted premises, and every part and parcel thereof, with the appurtenances, without any let suit, trouble molestation,\neviction or disturbance of the said parties of the first part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or of any other person or persons lawfully claiming or to claim the same.\nand that the same now are free, clear, discharged and unincumbered, of and from all former and other grants, titles, charges, estates, judgments, taxes,\nassessments and incumbrances of what nature or kind soever. except as above stated\nand also, that the said parties of the first part, and <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and all and every other person or persons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully or equitably de-\ning <ENAMEX TYPE=\"COREF\">my</ENAMEX> estate right, title of interest of in or to the hereinbefore granted premises by from under or in that for <ENAMEX TYPE=\"COREF\">him</ENAMEX> or either <ENAMEX TYPE=\"COREF\">them</ENAMEX>, shall and will\ntime or times hereafter, upon the reasonable request, and at the proper costs and charges in the law, of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, make, do and execute, or cause or procure to be made, done and executed, all and every such further and other lawful and reasonable acts,\nconveyances and assurances in the law, for the better and more effectually vesting and confirming the premises hereby intended to be granted, in and to the said\nparty of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, as by the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">counsel</ENAMEX> learned\nin the law, shall be reasonably devised, advised or required. And the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nhaire the above described and hereby granted and released premises, and every part and parcel thereof with the appurtenances hereby warrant\nparty of the second part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against the said parties of the first part, and <ENAMEX TYPE=\"NONFAMILY\">heir</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and against all and every person and\npersons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming or to claim the same, simil and will endurait, and by these presents forever Wittent.\nIn <ENAMEX TYPE=\"LOCALE.notgpe\">Thitness Sherret</ENAMEX>, The parties to these presents have hereunto interchangeably set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals, the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n⎬ SS.\n<ENAMEX TYPE=\"LOCALE\">Elie COUNTY</ENAMEX>,)\n<ENAMEX TYPE=\"PERSON\">Thill</ENAMEX> ⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨ <TIMEX TYPE=\"DATE\">Eleventh day of October 1899</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscriber appeared\nwas acknowledged that the executed the <ENAMEX TYPE=\"COREF.gen\">woman</ENAMEX> instrument, and forty that now the ⌨⌨⌨⌨⌨⌨ executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">Willard Stay Hodge</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nin & for <ENAMEX TYPE=\"LOCALE\">Erie Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">Cowry</ENAMEX>, a\nday of\n18, before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, appeared\nOn this\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and\nand severally acknowle.\nledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> had executed the within instrument; and the said\nor compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\n4 acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the within instrument freely, and without any fear or of\non a private examination, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\ncertify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\nAnd the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> for <ENAMEX TYPE=\"COREF\">himself</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>\ndoes hereby covenant to the said second party that at the time of the sealing and \ndelivery of these presents that the above described premises were ⌨⌨⌨ ⌨⌨⌨⌨⌨ unencumbered W <ENAMEX TYPE=\"OCCUPATION\">Capt</ENAMEX> by a certain Mortgage for <NUMEX TYPE=\"MONEY\">Five Thousand Dollars</NUMEX> said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Jane C.</ENAMEX> <TIMEX TYPE=\"DATE\">1882</TIMEX> - and recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s office in Liber ⌨⌨⌨ of and which said Mortgage the said <ENAMEX TYPE=\"PERSON\">Adelaide E. Howe</ENAMEX> hire__<TIMEX TYPE=\"DATE\">1882</TIMEX>, at <ENAMEX TYPE=\"AGE\">144</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"1007\"_ENDID=\"1748\"_STTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\"_ENDTOKEN=\"October Seventh one thousand eight hundred and forty eight\">\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"212\"_ENDID=\"232\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"First day of August in the year of our Lord one thousand eight hundred and seventy Eighty two\">\n<RELEX TYPE=\"E1:HAS_ST_PL\"_STID=\"189\"_ENDID=\"138\"_STTOKEN=\"DEED\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"1124\"_ENDID=\"1371\"_STTOKEN=\"sell, allen\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"1709\"_ENDID=\"1371\"_STTOKEN=\"Fannie A. Castle\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"366\"_ENDID=\"1349\"_STTOKEN=\"his\"_ENDTOKEN=\"Township Eleven ℗\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"366\"_ENDID=\"1371\"_STTOKEN=\"his\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"413\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"154\"_ENDID=\"681\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States of America\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1643\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1856\"_ENDID=\"394\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1982\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2098\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2284\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3092\"_ENDID=\"1124\"_STTOKEN=\"he\"_ENDTOKEN=\"sell, allen\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3620\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4327\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4531\"_ENDID=\"334\"_STTOKEN=\"him\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4545\"_ENDID=\"3938\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4706\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5054\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5126\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5151\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5246\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5267\"_ENDID=\"3162\"_STTOKEN=\"his\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5436\"_ENDID=\"3938\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5766\"_ENDID=\"3938\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5827\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5827\"_ENDID=\"5246\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5880\"_ENDID=\"353\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M Hody\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5895\"_ENDID=\"413\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5990\"_ENDID=\"454\"_STTOKEN=\"me\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6178\"_ENDID=\"7105\"_STTOKEN=\"Erie Co.\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6193\"_ENDID=\"413\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6239\"_ENDID=\"454\"_STTOKEN=\"me\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6276\"_ENDID=\"366\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6326\"_ENDID=\"3938\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6397\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6556\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6586\"_ENDID=\"6419\"_STTOKEN=\"I\"_ENDTOKEN=\"I\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6677\"_ENDID=\"6747\"_STTOKEN=\"who\"_ENDTOKEN=\"himself\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6726\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6726\"_ENDID=\"5827\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6755\"_ENDID=\"3162\"_STTOKEN=\"his\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7026\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7026\"_ENDID=\"6726\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7047\"_ENDID=\"5880\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7062\"_ENDID=\"3162\"_STTOKEN=\"his\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"710\"_ENDID=\"3938\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7181\"_ENDID=\"454\"_STTOKEN=\"Adelaide E. Howe\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7204\"_ENDID=\"7082\"_STTOKEN=\"1882\"_ENDTOKEN=\"1882\">\n<RELEX TYPE=\"S=1\"_STID=\"1124\"_ENDID=\"1124\"_STTOKEN=\"sell, allen\"_ENDTOKEN=\"sell, allen\">\n<RELEX TYPE=\"S=3\"_STID=\"334\"_ENDID=\"334\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"S=3+\"_STID=\"1709\"_ENDID=\"1709\"_STTOKEN=\"Fannie A. Castle\"_ENDTOKEN=\"Fannie A. Castle\">\n<RELEX TYPE=\"S=3+\"_STID=\"3162\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"353\"_ENDID=\"353\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"Helen M Hody\">\n<RELEX TYPE=\"S=3+\"_STID=\"454\"_ENDID=\"454\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"S=3+\"_STID=\"479\"_ENDID=\"479\"_STTOKEN=\"Charles M. Howe\"_ENDTOKEN=\"Charles M. Howe\">\n<RELEX TYPE=\"S=3+\"_STID=\"5246\"_ENDID=\"5246\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"5827\"_ENDID=\"5827\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"5880\"_ENDID=\"5880\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"6136\"_ENDID=\"6136\"_STTOKEN=\"Willard Stay Hodge\"_ENDTOKEN=\"Willard Stay Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"6726\"_ENDID=\"6726\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"7026\"_ENDID=\"7026\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"7047\"_ENDID=\"7047\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"7181\"_ENDID=\"7181\"_STTOKEN=\"Adelaide E. Howe\"_ENDTOKEN=\"Adelaide E. Howe\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3021\"_ENDID=\"3025\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3021\"_ENDID=\"3035\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3021\"_ENDID=\"3130\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3126\"_ENDID=\"3130\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3126\"_ENDID=\"3140\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3126\"_ENDID=\"3634\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3620\"_ENDID=\"3624\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3620\"_ENDID=\"3634\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"366\"_ENDID=\"471\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3938\"_ENDID=\"3944\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3938\"_ENDID=\"3953\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4327\"_ENDID=\"4331\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4531\"_ENDID=\"3025\"_STTOKEN=\"him\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4531\"_ENDID=\"3130\"_STTOKEN=\"him\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4531\"_ENDID=\"3624\"_STTOKEN=\"him\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4545\"_ENDID=\"4331\"_STTOKEN=\"them\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4706\"_ENDID=\"4710\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4706\"_ENDID=\"4720\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"479\"_ENDID=\"471\"_STTOKEN=\"Charles M. Howe\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5054\"_ENDID=\"5058\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5054\"_ENDID=\"5068\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5126\"_ENDID=\"5130\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5151\"_ENDID=\"5139\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5436\"_ENDID=\"5442\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5436\"_ENDID=\"5452\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5436\"_ENDID=\"5509\"_STTOKEN=\"their\"_ENDTOKEN=\"heir\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6276\"_ENDID=\"6280\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6397\"_ENDID=\"6406\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6556\"_ENDID=\"6560\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6747\"_ENDID=\"6759\"_STTOKEN=\"himself\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6747\"_ENDID=\"6765\"_STTOKEN=\"himself\"_ENDTOKEN=\"executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6755\"_ENDID=\"6759\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6755\"_ENDID=\"6779\"_STTOKEN=\"his\"_ENDTOKEN=\"administrators\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"7062\"_ENDID=\"7066\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"7074\"_ENDID=\"7066\"_STTOKEN=\"Jane C.\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"896\"_ENDID=\"901\"_STTOKEN=\"ther\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"896\"_ENDID=\"908\"_STTOKEN=\"ther\"_ENDTOKEN=\"executor\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3162\"_ENDID=\"189\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3162\"_ENDID=\"212\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"1007\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"1145\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"release, convey and confirm\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"189\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"212\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"1007\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"1145\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"release, convey and confirm\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"189\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"212\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"2401\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"die\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"1007\"_STTOKEN=\"his\"_ENDTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"1145\"_STTOKEN=\"his\"_ENDTOKEN=\"release, convey and confirm\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"189\"_STTOKEN=\"his\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"212\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"454\"_ENDID=\"212\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"479\"_ENDID=\"189\"_STTOKEN=\"Charles M. Howe\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"454\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"5880\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"1124\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"sell, allen\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"3162\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"334\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"334\"_ENDID=\"334\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"353\"_ENDID=\"353\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"Helen M Hody\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"454\"_ENDID=\"454\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"5827\"_ENDID=\"5827\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"6726\"_ENDID=\"6726\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"7026\"_ENDID=\"7026\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"7047\"_ENDID=\"7047\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"7181\"_ENDID=\"7181\"_STTOKEN=\"Adelaide E. Howe\"_ENDTOKEN=\"Adelaide E. Howe\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"454\"_ENDID=\"471\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"7047\"_ENDID=\"7066\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"6136\"_ENDID=\"6155\"_STTOKEN=\"Willard Stay Hodge\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1349\"_ENDID=\"1405\"_STTOKEN=\"Township Eleven ℗\"_ENDTOKEN=\"Holland Land Companys\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"144\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1405\"_ENDID=\"1349\"_STTOKEN=\"Holland Land Companys\"_ENDTOKEN=\"Township Eleven ℗\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1405\"_ENDID=\"1371\"_STTOKEN=\"Holland Land Companys\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"394\"_ENDID=\"413\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"6178\"_ENDID=\"6187\"_STTOKEN=\"Erie Co.\"_ENDTOKEN=\"N. Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"6212\"_ENDID=\"6193\"_STTOKEN=\"Cowry\"_ENDTOKEN=\"STATE OF NEW YORK\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007153730_00549_TXT</UNQ>\n<IMID>007153730_00549</IMID>\n<APID>TH-1961-32824-23672-25</APID>\n<IMGSIZE>4788,3622</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 5 9\n<ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- <ENAMEX TYPE=\"LOCALE\">Full Co.</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the\n<TIMEX TYPE=\"DATE\">First day of August in the year of our Lord one\nthousand eight hundred and seventy Eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">William C. Hodge W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen M Hody</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part,\nand <ENAMEX TYPE=\"PERSON\">Adelaide C. Howe</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Charles M. Howe</ENAMEX> of the same place\nof the second part, Witnesseth that the said parties of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Thirteen Thousand Dollars ( $1300000</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>, to <ENAMEX TYPE=\"COREF\">them</ENAMEX> in hand paid by the said party of the second part at or before the ensealing and delivery of\ninto the receipt whereof is hereby acknowledged, and the said party of the second part,\n<ENAMEX TYPE=\"COREF\">ther</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executor</ENAMEX>\nors and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, forever\nread and discharged from the same, by these presents have <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold aliened, remised, released, conveyed and confirmed</ENAMEX>, and by these\npresents do grant bargain, <ENAMEX TYPE=\"PERSON\">sell, allen</ENAMEX>, remise, <ENAMEX TYPE=\"EVENT.xlife\">release, convey and confirm</ENAMEX> unto the said party\nof the second part, and to\nforever, ant that certain pover or parcel of land situate in the ⌨⌨⌨ ⌨⌨⌨⌨ aforesaid, and being part of Farm Lot fifty seven ( 5) <ENAMEX TYPE=\"LOCALE.notgpe\">Township Eleven ℗</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX> ( 8) of the so called <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and \nbounded and described as follows: Commencing at a point in the northerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty-five and one quarter</NUMEX> ( 155 Westerly from the intersection of the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> with the \nwesterly line of land heretofore deeded to <ENAMEX TYPE=\"PERSON\">Fannie A. Castle</ENAMEX> by deed bearing date \n<TIMEX TYPE=\"DATE\">October Seventh one thousand eight hundred and forty eight</TIMEX> and recorded in\npollice of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the said <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> in Liber 181 of Deeds at page 332\nrunning thence northerly and at right angler with the said northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty ( 150)</NUMEX> feet running thence westerly and\nparallel with the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred ( 150)</NUMEX> feet\nrunning thence southerly and at right angles with the said Northerly line of\n<ENAMEX TYPE=\"LOCALE\">Pheenue</ENAMEX> <NUMEX TYPE=\"MONEY\">one hundred and Thirty $180</NUMEX>) feet to the said Northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> running thence easterly and along the said Northerly line of\nHold Avenue <NUMEX TYPE=\"QUANTITY\">one hundred ( 100)</NUMEX> feet to the <ENAMEX TYPE=\"EVENT.rel\">die</ENAMEX> of beginning\nfeter with all and singular, the tenements, hereditaments and appurtenances thereunto belonging or in any wise appertaining and the reversion and\nrevertions, remainder and remainders, rents, issues and pronts thereof, <ENAMEX TYPE=\"PERSON\">Hamm</ENAMEX> also, all the estate right, titia <ENAMEX TYPE=\"PERSON\">Hearst</ENAMEX>, Tower\nHowever, as well in Law as <ENAMEX TYPE=\"OCCUPATION\">M Equity</ENAMEX>, of the said parties of the first part, of in or\nto the above described premises, and every part and parcel thereof, with the appurtenances. In fair and to hold, all and singular, the above mentioned\nand described premises, together with the appurtenances unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. on the line C. ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ all when <ENAMEX TYPE=\"COREF\">he</ENAMEX> said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nat the time of the sealing\nand delivery of these presents, was lawfully seized in and possessed of a good, absolute and indefeasible estate of inheritance in fee simple, of and\nin all and singular, the above granted, bargained and described premises, with the appurtenances\nand has\ngood right,\nall power and lawful authority to grant bargain, sell and convey the same in manner and form aforesaid\nand that the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, shall and may at all times hereafter, peaceably and quietly, have, hold, use.\noccupy possess and enjoy the above granted premises, and every part and parcel thereof, with the appurtenances, without any let suit, trouble molestation,\neviction or disturbance of the said parties of the first part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or of any other person or persons lawfully claiming or to claim the same.\nand that the same now are free, clear, discharged and unincumbered, of and from all former and other grants, titles, charges, estates, judgments, taxes,\nassessments and incumbrances of what nature or kind soever. except as above stated\nand also, that the said parties of the first part, and <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and all and every other person or persons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully or equitably de-\ning <ENAMEX TYPE=\"COREF\">my</ENAMEX> estate right, title of interest of in or to the hereinbefore granted premises by from under or in that for <ENAMEX TYPE=\"COREF\">him</ENAMEX> or either <ENAMEX TYPE=\"COREF\">them</ENAMEX>, shall and will\ntime or times hereafter, upon the reasonable request, and at the proper costs and charges in the law, of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, make, do and execute, or cause or procure to be made, done and executed, all and every such further and other lawful and reasonable acts,\nconveyances and assurances in the law, for the better and more effectually vesting and confirming the premises hereby intended to be granted, in and to the said\nparty of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, as by the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">counsel</ENAMEX> learned\nin the law, shall be reasonably devised, advised or required. And the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nhaire the above described and hereby granted and released premises, and every part and parcel thereof with the appurtenances hereby warrant\nparty of the second part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against the said parties of the first part, and <ENAMEX TYPE=\"NONFAMILY\">heir</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and against all and every person and\npersons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming or to claim the same, simil and will endurait, and by these presents forever Wittent.\nIn <ENAMEX TYPE=\"LOCALE.notgpe\">Thitness Sherret</ENAMEX>, The parties to these presents have hereunto interchangeably set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals, the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n⎬ SS.\n<ENAMEX TYPE=\"LOCALE\">Elie COUNTY</ENAMEX>,)\n<ENAMEX TYPE=\"PERSON\">Thill</ENAMEX> ⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨ <TIMEX TYPE=\"DATE\">Eleventh day of October 1899</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscriber appeared\nwas acknowledged that the executed the <ENAMEX TYPE=\"COREF.gen\">woman</ENAMEX> instrument, and forty that now the ⌨⌨⌨⌨⌨⌨ executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">Willard Stay Hodge</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nin & for <ENAMEX TYPE=\"LOCALE\">Erie Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">Cowry</ENAMEX>, a\nday of\n18, before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, appeared\nOn this\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and\nand severally acknowle.\nledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> had executed the within instrument; and the said\nor compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\n4 acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the within instrument freely, and without any fear or of\non a private examination, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\ncertify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\nAnd the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> for <ENAMEX TYPE=\"COREF\">himself</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>\ndoes hereby covenant to the said second party that at the time of the sealing and \ndelivery of these presents that the above described premises were ⌨⌨⌨ ⌨⌨⌨⌨⌨ unencumbered W <ENAMEX TYPE=\"OCCUPATION\">Capt</ENAMEX> by a certain Mortgage for <NUMEX TYPE=\"MONEY\">Five Thousand Dollars</NUMEX> said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Jane C.</ENAMEX> <TIMEX TYPE=\"DATE\">1882</TIMEX> - and recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s office in Liber ⌨⌨⌨ of and which said Mortgage the said <ENAMEX TYPE=\"PERSON\">Adelaide E. Howe</ENAMEX> hire__<TIMEX TYPE=\"DATE\">1882</TIMEX>, at <ENAMEX TYPE=\"AGE\">144</ENAMEX>\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"1007\"_ENDID=\"1748\"_STTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\"_ENDTOKEN=\"October Seventh one thousand eight hundred and forty eight\">\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"212\"_ENDID=\"232\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"First day of August in the year of our Lord one thousand eight hundred and seventy Eighty two\">\n<RELEX TYPE=\"E1:HAS_ST_PL\"_STID=\"189\"_ENDID=\"138\"_STTOKEN=\"DEED\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"1124\"_ENDID=\"1371\"_STTOKEN=\"sell, allen\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"1709\"_ENDID=\"1371\"_STTOKEN=\"Fannie A. Castle\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"366\"_ENDID=\"1349\"_STTOKEN=\"his\"_ENDTOKEN=\"Township Eleven ℗\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"366\"_ENDID=\"1371\"_STTOKEN=\"his\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"413\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"154\"_ENDID=\"681\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States of America\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1643\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1856\"_ENDID=\"394\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1982\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2098\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2284\"_ENDID=\"1520\"_STTOKEN=\"Hodge Avenue\"_ENDTOKEN=\"Hodge Avenue\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3092\"_ENDID=\"1124\"_STTOKEN=\"he\"_ENDTOKEN=\"sell, allen\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3620\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4327\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4531\"_ENDID=\"334\"_STTOKEN=\"him\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4545\"_ENDID=\"3938\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4706\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5054\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5126\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5151\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5246\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5267\"_ENDID=\"3162\"_STTOKEN=\"his\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5436\"_ENDID=\"3938\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5766\"_ENDID=\"3938\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5827\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5827\"_ENDID=\"5246\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5880\"_ENDID=\"353\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M Hody\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5895\"_ENDID=\"413\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5990\"_ENDID=\"454\"_STTOKEN=\"me\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6178\"_ENDID=\"7105\"_STTOKEN=\"Erie Co.\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6193\"_ENDID=\"413\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6239\"_ENDID=\"454\"_STTOKEN=\"me\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6276\"_ENDID=\"366\"_STTOKEN=\"his\"_ENDTOKEN=\"his\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6326\"_ENDID=\"3938\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6397\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6556\"_ENDID=\"3021\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6586\"_ENDID=\"6419\"_STTOKEN=\"I\"_ENDTOKEN=\"I\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6677\"_ENDID=\"6747\"_STTOKEN=\"who\"_ENDTOKEN=\"himself\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6726\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6726\"_ENDID=\"5827\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6755\"_ENDID=\"3162\"_STTOKEN=\"his\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7026\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7026\"_ENDID=\"6726\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7047\"_ENDID=\"5880\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7062\"_ENDID=\"3162\"_STTOKEN=\"his\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"710\"_ENDID=\"3938\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7181\"_ENDID=\"454\"_STTOKEN=\"Adelaide E. Howe\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"7204\"_ENDID=\"7082\"_STTOKEN=\"1882\"_ENDTOKEN=\"1882\">\n<RELEX TYPE=\"S=1\"_STID=\"1124\"_ENDID=\"1124\"_STTOKEN=\"sell, allen\"_ENDTOKEN=\"sell, allen\">\n<RELEX TYPE=\"S=3\"_STID=\"334\"_ENDID=\"334\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"S=3+\"_STID=\"1709\"_ENDID=\"1709\"_STTOKEN=\"Fannie A. Castle\"_ENDTOKEN=\"Fannie A. Castle\">\n<RELEX TYPE=\"S=3+\"_STID=\"3162\"_ENDID=\"3162\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"353\"_ENDID=\"353\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"Helen M Hody\">\n<RELEX TYPE=\"S=3+\"_STID=\"454\"_ENDID=\"454\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"S=3+\"_STID=\"479\"_ENDID=\"479\"_STTOKEN=\"Charles M. Howe\"_ENDTOKEN=\"Charles M. Howe\">\n<RELEX TYPE=\"S=3+\"_STID=\"5246\"_ENDID=\"5246\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"5827\"_ENDID=\"5827\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"5880\"_ENDID=\"5880\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"6136\"_ENDID=\"6136\"_STTOKEN=\"Willard Stay Hodge\"_ENDTOKEN=\"Willard Stay Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"6726\"_ENDID=\"6726\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"7026\"_ENDID=\"7026\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"7047\"_ENDID=\"7047\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"S=3+\"_STID=\"7181\"_ENDID=\"7181\"_STTOKEN=\"Adelaide E. Howe\"_ENDTOKEN=\"Adelaide E. Howe\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3021\"_ENDID=\"3025\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3021\"_ENDID=\"3035\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3021\"_ENDID=\"3130\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3126\"_ENDID=\"3130\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3126\"_ENDID=\"3140\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3126\"_ENDID=\"3634\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3620\"_ENDID=\"3624\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3620\"_ENDID=\"3634\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"366\"_ENDID=\"471\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3938\"_ENDID=\"3944\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3938\"_ENDID=\"3953\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4327\"_ENDID=\"4331\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4531\"_ENDID=\"3025\"_STTOKEN=\"him\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4531\"_ENDID=\"3130\"_STTOKEN=\"him\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4531\"_ENDID=\"3624\"_STTOKEN=\"him\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4545\"_ENDID=\"4331\"_STTOKEN=\"them\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4706\"_ENDID=\"4710\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"4706\"_ENDID=\"4720\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"479\"_ENDID=\"471\"_STTOKEN=\"Charles M. Howe\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5054\"_ENDID=\"5058\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5054\"_ENDID=\"5068\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5126\"_ENDID=\"5130\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5151\"_ENDID=\"5139\"_STTOKEN=\"her\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5436\"_ENDID=\"5442\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5436\"_ENDID=\"5452\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5436\"_ENDID=\"5509\"_STTOKEN=\"their\"_ENDTOKEN=\"heir\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6276\"_ENDID=\"6280\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6397\"_ENDID=\"6406\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6556\"_ENDID=\"6560\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6747\"_ENDID=\"6759\"_STTOKEN=\"himself\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6747\"_ENDID=\"6765\"_STTOKEN=\"himself\"_ENDTOKEN=\"executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6755\"_ENDID=\"6759\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6755\"_ENDID=\"6779\"_STTOKEN=\"his\"_ENDTOKEN=\"administrators\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"7062\"_ENDID=\"7066\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"7074\"_ENDID=\"7066\"_STTOKEN=\"Jane C.\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"896\"_ENDID=\"901\"_STTOKEN=\"ther\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"896\"_ENDID=\"908\"_STTOKEN=\"ther\"_ENDTOKEN=\"executor\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"1007\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"1145\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"release, convey and confirm\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"189\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"334\"_ENDID=\"212\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"1007\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"1145\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"release, convey and confirm\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"189\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"212\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"353\"_ENDID=\"2401\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"die\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"1007\"_STTOKEN=\"his\"_ENDTOKEN=\"granted, bargained, sold aliened, remised, released, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"1145\"_STTOKEN=\"his\"_ENDTOKEN=\"release, convey and confirm\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"189\"_STTOKEN=\"his\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"212\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"454\"_ENDID=\"212\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"479\"_ENDID=\"189\"_STTOKEN=\"Charles M. Howe\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"334\"_ENDID=\"334\"_STTOKEN=\"William C. Hodge W\"_ENDTOKEN=\"William C. Hodge W\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"353\"_ENDID=\"353\"_STTOKEN=\"Helen M Hody\"_ENDTOKEN=\"Helen M Hody\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"454\"_ENDID=\"454\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"Adelaide C. Howe\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"5827\"_ENDID=\"5827\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"6726\"_ENDID=\"6726\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"7026\"_ENDID=\"7026\"_STTOKEN=\"William C. Hodge\"_ENDTOKEN=\"William C. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"7047\"_ENDID=\"7047\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"Helen M. Hodge\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"7181\"_ENDID=\"7181\"_STTOKEN=\"Adelaide E. Howe\"_ENDTOKEN=\"Adelaide E. Howe\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"454\"_ENDID=\"471\"_STTOKEN=\"Adelaide C. Howe\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"7047\"_ENDID=\"7066\"_STTOKEN=\"Helen M. Hodge\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"6136\"_ENDID=\"6155\"_STTOKEN=\"Willard Stay Hodge\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1349\"_ENDID=\"1405\"_STTOKEN=\"Township Eleven ℗\"_ENDTOKEN=\"Holland Land Companys\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1405\"_ENDID=\"1349\"_STTOKEN=\"Holland Land Companys\"_ENDTOKEN=\"Township Eleven ℗\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1405\"_ENDID=\"1371\"_STTOKEN=\"Holland Land Companys\"_ENDTOKEN=\"Range Eight\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"394\"_ENDID=\"413\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"6178\"_ENDID=\"6187\"_STTOKEN=\"Erie Co.\"_ENDTOKEN=\"N. Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"6212\"_ENDID=\"6193\"_STTOKEN=\"Cowry\"_ENDTOKEN=\"STATE OF NEW YORK\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007153730_00549_TXT</UNQ>\n<IMID>007153730_00549</IMID>\n<APID>TH-1961-32824-23672-25</APID>\n<IMGSIZE>4788,3622</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 5 9\n<ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- <ENAMEX TYPE=\"LOCALE\">Full Co.</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the\n<TIMEX TYPE=\"DATE\">First day of August in the year of our Lord one\nthousand eight hundred and seventy Eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">William C. Hodge W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen M Hody</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part,\nand <ENAMEX TYPE=\"PERSON\">Adelaide C. Howe</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Charles M. Howe</ENAMEX> of the same place\nof the second part, Witnesseth that the said parties of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Thirteen Thousand Dollars ( $1300000</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>, to <ENAMEX TYPE=\"COREF\">them</ENAMEX> in hand paid by the said party of the second part at or before the ensealing and delivery of\ninto the receipt whereof is hereby acknowledged, and the said party of the second part,\n<ENAMEX TYPE=\"COREF\">ther</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executor</ENAMEX>\nors and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, forever\nread and discharged from the same, by these presents have <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold aliened, remised, released, conveyed and confirmed</ENAMEX>, and by these\npresents do grant bargain, <ENAMEX TYPE=\"PERSON\">sell, allen</ENAMEX>, remise, <ENAMEX TYPE=\"EVENT.xlife\">release, convey and confirm</ENAMEX> unto the said party\nof the second part, and to\nforever, ant that certain pover or parcel of land situate in the ⌨⌨⌨ ⌨⌨⌨⌨ aforesaid, and being part of Farm Lot fifty seven ( 5) <ENAMEX TYPE=\"LOCALE.notgpe\">Township Eleven ℗</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX> ( 8) of the so called <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and \nbounded and described as follows: Commencing at a point in the northerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty-five and one quarter</NUMEX> ( 155 Westerly from the intersection of the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> with the \nwesterly line of land heretofore deeded to <ENAMEX TYPE=\"PERSON\">Fannie A. Castle</ENAMEX> by deed bearing date \n<TIMEX TYPE=\"DATE\">October Seventh one thousand eight hundred and forty eight</TIMEX> and recorded in\npollice of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the said <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> in Liber 181 of Deeds at page 332\nrunning thence northerly and at right angler with the said northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty ( 150)</NUMEX> feet running thence westerly and\nparallel with the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred ( 150)</NUMEX> feet\nrunning thence southerly and at right angles with the said Northerly line of\n<ENAMEX TYPE=\"LOCALE\">Pheenue</ENAMEX> <NUMEX TYPE=\"MONEY\">one hundred and Thirty $180</NUMEX>) feet to the said Northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> running thence easterly and along the said Northerly line of\nHold Avenue <NUMEX TYPE=\"QUANTITY\">one hundred ( 100)</NUMEX> feet to the <ENAMEX TYPE=\"EVENT.rel\">die</ENAMEX> of beginning\nfeter with all and singular, the tenements, hereditaments and appurtenances thereunto belonging or in any wise appertaining and the reversion and\nrevertions, remainder and remainders, rents, issues and pronts thereof, <ENAMEX TYPE=\"PERSON\">Hamm</ENAMEX> also, all the estate right, titia <ENAMEX TYPE=\"PERSON\">Hearst</ENAMEX>, Tower\nHowever, as well in Law as <ENAMEX TYPE=\"OCCUPATION\">M Equity</ENAMEX>, of the said parties of the first part, of in or\nto the above described premises, and every part and parcel thereof, with the appurtenances. In fair and to hold, all and singular, the above mentioned\nand described premises, together with the appurtenances unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. on the line C. ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ all when <ENAMEX TYPE=\"COREF\">he</ENAMEX> said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nat the time of the sealing\nand delivery of these presents, was lawfully seized in and possessed of a good, absolute and indefeasible estate of inheritance in fee simple, of and\nin all and singular, the above granted, bargained and described premises, with the appurtenances\nand has\ngood right,\nall power and lawful authority to grant bargain, sell and convey the same in manner and form aforesaid\nand that the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, shall and may at all times hereafter, peaceably and quietly, have, hold, use.\noccupy possess and enjoy the above granted premises, and every part and parcel thereof, with the appurtenances, without any let suit, trouble molestation,\neviction or disturbance of the said parties of the first part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or of any other person or persons lawfully claiming or to claim the same.\nand that the same now are free, clear, discharged and unincumbered, of and from all former and other grants, titles, charges, estates, judgments, taxes,\nassessments and incumbrances of what nature or kind soever. except as above stated\nand also, that the said parties of the first part, and <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and all and every other person or persons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully or equitably de-\ning <ENAMEX TYPE=\"COREF\">my</ENAMEX> estate right, title of interest of in or to the hereinbefore granted premises by from under or in that for <ENAMEX TYPE=\"COREF\">him</ENAMEX> or either <ENAMEX TYPE=\"COREF\">them</ENAMEX>, shall and will\ntime or times hereafter, upon the reasonable request, and at the proper costs and charges in the law, of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, make, do and execute, or cause or procure to be made, done and executed, all and every such further and other lawful and reasonable acts,\nconveyances and assurances in the law, for the better and more effectually vesting and confirming the premises hereby intended to be granted, in and to the said\nparty of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, as by the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">counsel</ENAMEX> learned\nin the law, shall be reasonably devised, advised or required. And the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nhaire the above described and hereby granted and released premises, and every part and parcel thereof with the appurtenances hereby warrant\nparty of the second part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against the said parties of the first part, and <ENAMEX TYPE=\"NONFAMILY\">heir</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and against all and every person and\npersons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming or to claim the same, simil and will endurait, and by these presents forever Wittent.\nIn <ENAMEX TYPE=\"LOCALE.notgpe\">Thitness Sherret</ENAMEX>, The parties to these presents have hereunto interchangeably set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals, the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n⎬ SS.\n<ENAMEX TYPE=\"LOCALE\">Elie COUNTY</ENAMEX>,)\n<ENAMEX TYPE=\"PERSON\">Thill</ENAMEX> ⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨ <TIMEX TYPE=\"DATE\">Eleventh day of October 1899</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscriber appeared\nwas acknowledged that the executed the <ENAMEX TYPE=\"COREF.gen\">woman</ENAMEX> instrument, and forty that now the ⌨⌨⌨⌨⌨⌨ executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">Willard Stay Hodge</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nin & for <ENAMEX TYPE=\"LOCALE\">Erie Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">Cowry</ENAMEX>, a\nday of\n18, before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, appeared\nOn this\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and\nand severally acknowle.\nledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> had executed the within instrument; and the said\nor compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\n4 acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the within instrument freely, and without any fear or of\non a private examination, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\ncertify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\nAnd the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> for <ENAMEX TYPE=\"COREF\">himself</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>\ndoes hereby covenant to the said second party that at the time of the sealing and \ndelivery of these presents that the above described premises were ⌨⌨⌨ ⌨⌨⌨⌨⌨ unencumbered W <ENAMEX TYPE=\"OCCUPATION\">Capt</ENAMEX> by a certain Mortgage for <NUMEX TYPE=\"MONEY\">Five Thousand Dollars</NUMEX> said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Jane C.</ENAMEX> <TIMEX TYPE=\"DATE\">1882</TIMEX> - and recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s office in Liber ⌨⌨⌨ of and which said Mortgage the said <ENAMEX TYPE=\"PERSON\">Adelaide E. Howe</ENAMEX> hire__<TIMEX TYPE=\"DATE\">1882</TIMEX>, at <ENAMEX TYPE=\"AGE\">144</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007153730_00549_TXT</UNQ>\n<IMID>007153730_00549</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1961</TIMEX>-32824-23672-25</APID>\n<IMGSIZE>4788,3622</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>3 5 9\n<ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>. -- <ENAMEX TYPE=\"LOCALE\">Full Co.</ENAMEX>\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the\n<TIMEX TYPE=\"DATE\">First day of August in the year of our Lord one\nthousand eight hundred and seventy Eighty two</TIMEX> Between <ENAMEX TYPE=\"PERSON\">William C. Hodge W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Helen M Hody</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the first part,\nand <ENAMEX TYPE=\"PERSON\">Adelaide C. Howe</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Charles M. Howe</ENAMEX> of the same place\nof the second part, Witnesseth that the said parties of the first part, for and in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Thirteen Thousand Dollars ( $1300000</NUMEX>\nlawful money of the <ENAMEX TYPE=\"LOCALE\">United States of America</ENAMEX>, to <ENAMEX TYPE=\"COREF\">them</ENAMEX> in hand paid by the said party of the second part at or before the ensealing and delivery of\ninto the receipt whereof is hereby acknowledged, and the said party of the second part,\n<ENAMEX TYPE=\"COREF\">ther</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executor</ENAMEX>\nors and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, forever\nread and discharged from the same, by these presents have <ENAMEX TYPE=\"EVENT.xlife\">granted, bargained, sold aliened, remised, released, conveyed and confirmed</ENAMEX>, and by these\npresents do grant bargain, <ENAMEX TYPE=\"PERSON\">sell, allen</ENAMEX>, remise, <ENAMEX TYPE=\"EVENT.xlife\">release, convey and confirm</ENAMEX> unto the said party\nof the second part, and to\nforever, ant that certain pover or parcel of land situate in the ⌨⌨⌨ ⌨⌨⌨⌨ aforesaid, and being part of Farm Lot fifty seven ( 5) <ENAMEX TYPE=\"LOCALE.notgpe\">Township Eleven ℗</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX> ( 8) of the so called <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> survey and \nbounded and described as follows: Commencing at a point in the northerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty-five and one quarter</NUMEX> ( 155 Westerly from the intersection of the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> with the \nwesterly line of land heretofore deeded to <ENAMEX TYPE=\"PERSON\">Fannie A. Castle</ENAMEX> by deed bearing date \n<TIMEX TYPE=\"DATE\">October Seventh one thousand eight hundred and forty eight</TIMEX> and recorded in\npollice of the <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the said <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> in Liber 181 of Deeds at page 332\nrunning thence northerly and at right angler with the said northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and fifty ( 150)</NUMEX> feet running thence westerly and\nparallel with the said Northerly line of <ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred ( 150)</NUMEX> feet\nrunning thence southerly and at right angles with the said Northerly line of\n<ENAMEX TYPE=\"LOCALE\">Pheenue</ENAMEX> <NUMEX TYPE=\"MONEY\">one hundred and Thirty $180</NUMEX>) feet to the said Northerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Hodge Avenue</ENAMEX> running thence easterly and along the said Northerly line of\nHold Avenue <NUMEX TYPE=\"QUANTITY\">one hundred ( 100)</NUMEX> feet to the die of beginning\nfeter with all and singular, the tenements, hereditaments and appurtenances thereunto belonging or in any wise appertaining and the reversion and\nrevertions, remainder and remainders, rents, issues and pronts thereof, <ENAMEX TYPE=\"PERSON\">Hamm</ENAMEX> also, all the estate right, <ENAMEX TYPE=\"PERSON\">titia Hearst</ENAMEX>, Tower\nHowever, as well in Law as <ENAMEX TYPE=\"OCCUPATION\">M Equity</ENAMEX>, of the said parties of the first part, of in or\nto the above described premises, and every part and parcel thereof, with the appurtenances. In fair and to hold, all and singular, the above mentioned\nand described premises, together with the appurtenances unto the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. on the line C. ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ all when <ENAMEX TYPE=\"COREF\">he</ENAMEX> said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>\nthat the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nat the time of the sealing\nand delivery of these presents, was lawfully seized in and possessed of a good, absolute and indefeasible estate of inheritance in fee simple, of and\nin all and singular, the above granted, bargained and described premises, with the appurtenances\nand has\ngood right,\nall power and lawful authority to grant bargain, sell and convey the same in manner and form aforesaid\nand that the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, shall and may at all times hereafter, peaceably and quietly, have, hold, use.\noccupy possess and enjoy the above granted premises, and every part and parcel thereof, with the appurtenances, without any let suit, trouble molestation,\neviction or disturbance of the said parties of the first part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or of any other person or persons lawfully claiming or to claim the same.\nand that the same now are free, clear, discharged and unincumbered, of and from all former and other grants, titles, charges, estates, judgments, taxes,\nassessments and incumbrances of what nature or kind soever. except as above stated\nand also, that the said parties of the first part, and <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and all and every other person or persons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully or equitably de-\ning <ENAMEX TYPE=\"COREF\">my</ENAMEX> estate right, title of interest of in or to the hereinbefore granted premises by from under or in that for <ENAMEX TYPE=\"COREF\">him</ENAMEX> or either <ENAMEX TYPE=\"COREF\">them</ENAMEX>, shall and will\ntime or times hereafter, upon the reasonable request, and at the proper costs and charges in the law, of the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, make, do and execute, or cause or procure to be made, done and executed, all and every such further and other lawful and reasonable acts,\nconveyances and assurances in the law, for the better and more effectually vesting and confirming the premises hereby intended to be granted, in and to the said\nparty of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, as by the said party of the second part, <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> or <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, or <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">counsel</ENAMEX> learned\nin the law, shall be reasonably devised, advised or required. And the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nhaire the above described and hereby granted and released premises, and every part and parcel thereof with the appurtenances hereby warrant\nparty of the second part <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, against the said parties of the first part, and heir <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and against all and every person and\npersons <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming or to claim the same, simil and will endurait, and by these presents forever Wittent.\nIn <ENAMEX TYPE=\"LOCALE.notgpe\">Thitness Sherret</ENAMEX>, The parties to these presents have hereunto interchangeably set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals, the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX>\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n⎬ SS.\n<ENAMEX TYPE=\"LOCALE\">Elie COUNTY</ENAMEX>,)\n<ENAMEX TYPE=\"PERSON\">Thill</ENAMEX> ⌨⌨⌨ ⌨⌨⌨ ⌨⌨⌨⌨ <TIMEX TYPE=\"DATE\">Eleventh day of October 1899</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscriber appeared\nwas acknowledged that the executed the <ENAMEX TYPE=\"COREF.gen\">woman</ENAMEX> instrument, and forty that now the ⌨⌨⌨⌨⌨⌨ executed the within instrument.\n<ENAMEX TYPE=\"PERSON\">Willard Stay Hodge</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nin & for <ENAMEX TYPE=\"LOCALE\">Erie Co.</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">Cowry</ENAMEX>, a\nday of\n18, before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, appeared\nOn this\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, and\nand severally acknowle.\nledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> had executed the within instrument; and the said\nor compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>. And <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\n4 acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX> executed the within instrument freely, and without any fear or of\non a private examination, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, <NUMEX TYPE=\"QUANTITY\">one</NUMEX>\ncertify that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument.\nAnd the said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> for <ENAMEX TYPE=\"COREF\">himself</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>\ndoes hereby covenant to the said second party that at the time of the sealing and \ndelivery of these presents that the above described premises were ⌨⌨⌨ ⌨⌨⌨⌨⌨ unencumbered W <ENAMEX TYPE=\"OCCUPATION\">Capt</ENAMEX> by a certain Mortgage for <NUMEX TYPE=\"MONEY\">Five Thousand Dollars</NUMEX> said <ENAMEX TYPE=\"PERSON\">William C. Hodge</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Helen M. Hodge</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">Jane C.</ENAMEX> <TIMEX TYPE=\"DATE\">1882</TIMEX> - and recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX>'s office in Liber ⌨⌨⌨ of and which said Mortgage the said <ENAMEX TYPE=\"PERSON\">Adelaide E. Howe</ENAMEX> hire__<TIMEX TYPE=\"DATE\">1882</TIMEX>, at <ENAMEX TYPE=\"AGE\">144</ENAMEX>\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007153730_00549_TXT</UNQ>\n<IMID>007153730_00549</IMID>\n<APID>TH-1961-32824-23672-25</APID>\n<IMGSIZE>4788,3622</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[253,163:411,208] 3 5 9\n[460,245:561,270] DEED. [553,245:586,270] -- [578,245:646,270] Full [646,245:689,270] Co.\n[443,296:641,393] This [650,296:985,393] Indenture, [1009,296:1088,393] Made [1081,296:1193,393] the\n[1361,311:1472,381] First [1472,311:1535,381] day [1528,311:1583,381] of [1592,311:1959,381] August [1952,311:1991,381] in [1992,311:2039,381] the [2040,311:2102,381] year [2095,311:2134,381] of [2135,311:2182,381] our [2183,311:2254,381] Lord [2247,311:2361,381] one\n[415,372:542,438] thousand [535,372:606,438] eight [599,372:710,438] hundred [711,372:758,438] and [759,372:869,438] seventy [870,372:1005,438] Eighty [1006,372:1093,438] two [1102,372:1237,438] Between [1246,372:1445,438] William [1446,372:1501,438] C. [1518,372:1677,438] Hodge [1678,372:1757,438] W [1758,372:1900,438] Helen [1909,372:1988,438] M [1989,372:2148,438] Hody [2149,372:2228,438] his [415,424:486,502] of [487,424:574,502] the [583,424:701,502] City [702,424:757,502] of [766,424:933,502] Buffalo, [958,424:1125,502] County [1126,424:1188,502] of [1189,424:1300,502] Erie [1301,424:1412,502] and [1421,424:1564,502] State [1565,424:1636,502] of [1637,424:1747,502] New [1740,424:1924,502] York\n[424,496:463,531] of [458,496:507,531] the [502,496:561,531] first [561,496:620,531] part,\n[618,517:713,582] and [730,517:945,582] Adelaide [946,517:1008,582] C. [1025,517:1184,582] Howe [1185,517:1312,582] wife [1313,517:1384,582] of [1393,517:1592,582] Charles [1593,517:1664,582] M. [1681,517:1848,582] Howe [1849,517:1911,582] of [1912,517:2007,582] the [2008,517:2151,582] same [2152,517:2348,582] place\n[422,572:459,626] of [459,572:504,626] the [504,572:594,626] second [586,572:646,626] part, [653,572:832,626] Witnesseth [832,572:892,626] that [884,572:937,626] the [929,572:989,626] said [989,572:1093,626] parties [1093,572:1131,626] of [1123,572:1175,626] the [1168,572:1235,626] first [1227,572:1295,626] part, [1295,572:1339,626] for [1339,572:1392,626] and [1384,572:1421,626] in [1421,572:1593,626] consideration [1585,572:1630,626] of [1623,572:1675,626] the [1667,572:1735,626] sum [1727,572:1825,626] of\n[1064,611:1258,673] Thirteen [1268,611:1530,673] Thousand [1541,611:1718,673] Dollars [1720,611:1743,673] ( [1728,611:2103,673] $1300000\n[418,663:508,716] lawful [508,663:597,716] money [590,663:627,716] of [619,663:672,716] the [672,663:761,716] United [754,663:843,716] States [836,663:873,716] of [873,663:977,716] America, [985,663:1022,716] to [1022,663:1134,716] them [1134,663:1171,716] in [1171,663:1238,716] hand [1231,663:1298,716] paid [1291,663:1335,716] by [1335,663:1380,716] the [1380,663:1440,716] said [1432,663:1559,716] party [1559,663:1596,716] of [1589,663:1641,716] the [1634,663:1731,716] second [1723,663:1798,716] part [1790,663:1828,716] at [1828,663:1865,716] or [1857,663:1947,716] before [1939,663:1992,716] the [1992,663:2111,716] ensealing [2111,663:2163,716] and [2163,663:2268,716] delivery [2267,663:2357,716] of\n[537,706:604,747] into [594,706:644,747] the [640,706:735,747] receipt [732,706:838,747] whereof [835,706:867,747] is [863,706:953,747] hereby [949,706:1130,747] acknowledged, [1132,706:1193,747] and [1184,706:1239,747] the [1229,706:1290,747] said [1286,706:1410,747] party [1407,706:1444,747] of [1441,706:1496,747] the [1492,706:1587,747] second [1590,706:1650,747] part,\n[1655,702:1771,733] ther [1769,702:1841,733] heirs, [1843,702:2028,733] executor\n[1921,706:1972,743] ors [1968,706:2024,743] and [2020,706:2206,743] administrators, [2206,706:2357,743] forever\n[421,724:528,780] read [529,724:582,780] and [575,724:706,780] discharged [699,724:768,780] from [768,724:814,780] the [814,724:884,780] same, [884,724:930,780] by [923,724:999,780] these [992,724:1100,780] presents [1100,724:1185,780] have [1178,724:1285,780] granted, [1286,724:1417,780] bargained, [1425,724:1486,780] sold [1479,724:1579,780] aliened, [1587,724:1687,780] remised, [1695,724:1803,780] released, [1811,724:1934,780] conveyed [1935,724:1996,780] and [1996,724:2127,780] confirmed, [2135,724:2189,780] and [2189,724:2235,780] by [2228,724:2357,780] these\n[416,774:529,821] presents [521,774:601,821] do [599,774:686,821] grant [684,774:777,821] bargain, [782,774:836,821] sell, [834,774:901,821] allen, [906,774:992,821] remise, [997,774:1090,821] release, [1095,774:1188,821] convey [1186,774:1240,821] and [1238,774:1345,821] confirm [1343,774:1403,821] unto [1401,774:1456,821] the [1447,774:1508,821] said [1506,774:1696,821] party\n[1629,770:1667,803] of [1661,770:1713,803] the [1707,770:1801,803] second [1796,770:1862,803] part, [1865,770:1922,803] and [1916,770:2082,803] to\n[415,772:518,850] forever, [527,772:606,850] ant [615,772:750,850] that [759,772:957,850] certain [958,772:1101,850] pover [1102,772:1181,850] or [1190,772:1373,850] parcel [1382,772:1445,850] of [1446,772:1621,850] land [1630,772:1829,850] situate [1830,772:1924,850] in [1925,772:2004,850] the [2013,772:2076,850] ⌨⌨⌨ [2077,772:2180,850] ⌨⌨⌨⌨ [423,838:646,903] aforesaid, [671,838:806,903] and [815,838:965,903] being [990,838:1141,903] part [1142,838:1205,903] of [1214,838:1357,903] Farm [1358,838:1485,903] Lot [1494,838:1605,903] fifty [1606,838:1741,903] seven [1742,838:1765,903] ( [1750,838:1813,903] 5) [1862,838:2092,903] Township [2109,838:2268,903] Eleven [2269,838:2390,903] ℗\n[423,893:549,940] and [553,893:725,940] Range [729,893:875,940] Eight [873,893:894,940] ( [879,893:927,940] 8) [964,893:1044,940] of [1042,893:1142,940] the [1147,893:1214,940] so [1219,893:1416,940] called [1414,893:1658,940] Holland [1662,893:1814,940] Land [1819,893:2082,940] Companys [2086,893:2264,940] survey [2262,893:2408,940] and [388,930:420,990] \n[421,930:651,990] bounded [677,930:816,990] and [818,930:1072,990] described [1074,930:1171,990] as [1173,930:1345,990] follows: [1387,930:1700,990] Commencing [1710,930:1791,990] at [1800,930:1873,990] a [1875,930:2022,990] point [2032,930:2113,990] in [2114,930:2212,990] the [2213,930:2440,990] northerly\n[411,980:524,1027] line [529,980:596,1027] of [594,980:785,1027] Hodge [783,980:961,1027] Avenue [959,980:1065,1027] one [1070,980:1333,1027] hundred [1337,980:1470,1027] and [1468,980:1594,1027] fifty-five [1735,980:1868,1027] and [1872,980:1959,1027] one [1963,980:2161,1027] quarter [2159,980:2181,1027] ( [2166,980:2331,1027] 155 [413,1017:610,1076] Westerly [628,1017:767,1076] from [768,1017:866,1076] the [867,1017:1138,1076] intersection [1140,1017:1204,1076] of [1214,1017:1312,1076] the [1321,1017:1460,1076] said [1470,1017:1675,1076] Northerly [1676,1017:1799,1076] line [1800,1017:1857,1076] of [1866,1017:2038,1076] Hodge [2048,1017:2236,1076] Avenue [2238,1017:2344,1076] with [2345,1017:2418,1076] the [394,1066:429,1113] \n[433,1066:605,1113] westerly [610,1066:736,1113] line [734,1066:807,1113] of [812,1066:964,1113] land [962,1066:1212,1113] heretofore [1223,1066:1414,1113] deeded [1419,1066:1473,1113] to [1478,1066:1669,1113] Fannie [1673,1066:1728,1113] A. [1739,1066:1904,1113] Castle [1908,1066:1982,1113] by [1987,1066:2132,1113] deed [2130,1066:2322,1113] bearing [2320,1066:2426,1113] date [378,1113:406,1161] \n[411,1113:589,1161] October [587,1113:785,1161] Seventh [783,1113:876,1161] one [881,1113:1118,1161] thousand [1122,1113:1281,1161] eight [1279,1113:1522,1161] hundred [1527,1113:1659,1161] and [1670,1113:1783,1161] forty [1788,1113:1946,1161] eight [1951,1113:2077,1161] and [2075,1113:2299,1161] recorded [2297,1113:2411,1161] in\n[390,1144:541,1202] pollice [550,1144:605,1202] of [606,1144:693,1202] the [694,1144:845,1202] Clerk [845,1144:908,1202] of [909,1144:1012,1202] the [1013,1144:1148,1202] said [1149,1144:1316,1202] County [1317,1144:1372,1202] of [1381,1144:1492,1202] Erie [1501,1144:1580,1202] in [1581,1144:1716,1202] Liber [1717,1144:1788,1202] 181 [1789,1144:1844,1202] of [1853,1144:2011,1202] Deeds [2012,1144:2091,1202] at [2100,1144:2235,1202] page [2236,1144:2382,1202] 332\n[414,1194:613,1243] running [611,1194:776,1243] thence [781,1194:1000,1243] northerly [1005,1194:1129,1243] and [1134,1194:1230,1243] at [1229,1194:1380,1243] right [1378,1194:1563,1243] angler [1568,1194:1699,1243] with [1697,1194:1794,1243] the [1792,1194:1943,1243] said [1949,1194:2161,1243] northerly [2179,1194:2290,1243] line [2288,1194:2398,1243] of\n[413,1235:593,1294] Hodge [603,1235:775,1294] Avenue [776,1235:874,1294] one [875,1235:1113,1294] hundred [1115,1235:1245,1294] and [1255,1235:1361,1294] fifty [1363,1235:1394,1294] ( [1379,1235:1468,1294] 150) [1519,1235:1642,1294] feet [1643,1235:1856,1294] running [1858,1235:2030,1294] thence [2031,1235:2228,1294] westerly [2230,1235:2386,1294] and\n[420,1280:613,1336] parallel [613,1280:744,1336] with [745,1280:845,1336] the [853,1280:999,1336] said [1000,1280:1208,1336] Northerly [1208,1280:1331,1336] line [1339,1280:1401,1336] of [1401,1280:1578,1336] Hodge [1579,1280:1748,1336] Avenue [1764,1280:1864,1336] one [1864,1280:2103,1336] hundred [2096,1280:2126,1336] ( [2111,1280:2188,1336] 150) [2204,1280:2352,1336] feet\n[401,1331:626,1381] running [625,1331:796,1381] thence [802,1331:1007,1381] southerly [1005,1331:1143,1381] and [1141,1331:1238,1381] at [1243,1331:1401,1381] right [1406,1331:1591,1381] angles [1596,1331:1727,1381] with [1725,1331:1829,1381] the [1827,1331:1978,1381] said [1977,1331:2195,1381] Northerly [2194,1331:2304,1381] line [2303,1331:2411,1381] of\n[579,1375:785,1418] Pheenue [782,1375:881,1418] one [878,1375:1151,1418] hundred [1154,1375:1283,1418] and [1286,1375:1420,1418] Thirty [1417,1375:1516,1418] $180) [1549,1375:1654,1418] feet [1657,1375:1714,1418] to [1711,1375:1804,1418] the [1813,1375:1954,1418] said [1957,1375:2151,1418] Northerly [2172,1375:2295,1418] line [2292,1375:2402,1418] of\n[411,1416:578,1488] Hodge [587,1416:770,1488] Avenue [779,1416:977,1488] running [986,1416:1145,1488] thence [1146,1416:1337,1488] easterly [1338,1416:1465,1488] and [1466,1416:1593,1488] along [1602,1416:1689,1488] the [1698,1416:1832,1488] said [1841,1416:2040,1488] Northerly [2041,1416:2168,1488] line [2169,1416:2286,1488] of\n[407,1455:582,1531] Hold [583,1455:757,1531] Avenue [758,1455:861,1531] one [862,1455:1101,1531] hundred [1102,1455:1133,1531] ( [1118,1455:1197,1531] 100) [1237,1455:1340,1531] feet [1341,1455:1404,1531] to [1405,1455:1492,1531] the [1549,1455:1636,1531] die [1637,1455:1692,1531] of [1701,1455:2078,1531] beginning\n[2584,292:2714,344] feter [2713,292:2779,344] with [2771,292:2829,344] all [2821,292:2886,344] and [2879,292:2994,344] singular, [2994,292:3052,344] the [3044,292:3181,344] tenements, [3188,292:3368,344] hereditaments [3368,292:3426,344] and [3418,292:3605,344] appurtenances [3598,292:3721,344] thereunto [3720,292:3850,344] belonging [3849,292:3886,344] or [3878,292:3915,344] in [3914,292:3965,344] any [3957,292:4015,344] wise [4015,292:4181,344] appertaining [4180,292:4231,344] and [4230,292:4281,344] the [4274,292:4396,344] reversion [4389,292:4505,344] and\n[2580,333:2699,391] revertions, [2708,333:2835,391] remainder [2836,333:2883,391] and [2884,333:3026,391] remainders, [3035,333:3106,391] rents, [3107,333:3194,391] issues [3187,333:3242,391] and [3235,333:3330,391] pronts [3323,333:3426,391] thereof, [3443,333:3522,391] Hamm [3523,333:3586,391] also, [3595,333:3642,391] all [3635,333:3682,391] the [3675,333:3762,391] estate [3763,333:3833,391] right, [3834,333:3897,391] titia [3898,333:4001,391] Hearst, [4026,333:4248,391] Tower\n[3411,379:3538,432] However, [3538,379:3575,432] as [3575,379:3635,432] well [3627,379:3664,432] in [3664,379:3724,432] Law [3717,379:3754,432] as [3754,379:3784,432] M [3784,379:3881,432] Equity, [3881,379:3918,432] of [3918,379:3963,432] the [3963,379:4022,432] said [4015,379:4134,432] parties [4134,379:4171,432] of [4171,379:4216,432] the [4209,379:4276,432] first [4268,379:4335,432] part, [4335,379:4380,432] of [4373,379:4417,432] in [4410,379:4505,432] or\n[2577,432:2609,471] to [2605,432:2658,471] the [2648,432:2729,471] above [2730,432:2854,471] described [2850,432:2964,471] premises, [2965,432:3024,471] and [3020,432:3095,471] every [3096,432:3160,471] part [3156,432:3209,471] and [3205,432:3291,471] parcel [3287,432:3384,471] thereof, [3385,432:3449,471] with [3445,432:3493,471] the [3489,432:3668,471] appurtenances. [3696,432:3744,471] In [3740,432:3815,471] fair [3811,432:3875,471] and [3871,432:3908,471] to [3920,432:3995,471] hold, [3996,432:4039,471] all [4035,432:4088,471] and [4084,432:4192,471] singular, [4193,432:4241,471] the [4237,432:4317,471] above [4313,432:4505,471] mentioned\n[2580,461:2627,535] and [2628,461:2747,535] described [2740,461:2859,535] premises, [2860,461:2978,535] together [2971,461:3042,535] with [3035,461:3082,535] the [3083,461:3274,535] appurtenances [3267,461:3338,535] unto [3331,461:3378,535] the [3379,461:3442,535] said [3435,461:3538,535] party [3539,461:3578,535] of [3571,461:3618,535] the [3619,461:3706,535] second [3707,461:3770,535] part, [3779,461:3889,535] her [3890,461:3961,535] heirs [3962,461:4017,535] and [4010,461:4105,535] assigns [4106,461:4201,535] forever. [2576,531:2615,619] on [2632,531:2823,619] the [2832,531:2982,619] line [2991,531:3054,619] C. [3055,531:3533,619] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [3534,531:3589,619] all [3590,531:3653,619] when [3654,531:3701,619] he [3694,531:3749,619] said [3750,531:3845,619] party [3846,531:3885,619] of [3886,531:3933,619] the [3926,531:4021,619] second [4014,531:4077,619] part, [4142,531:4228,619] his [4229,531:4300,619] heirs [4293,531:4348,619] and [4349,531:4505,619] assigns\n[2574,597:2638,656] that [2632,597:2671,656] the [2673,597:2745,656] said [2747,597:2951,656] William [2961,597:3017,656] C. [3027,597:3242,656] Hodge\n[4127,613:4168,644] at [4161,613:4216,644] the [4209,613:4277,644] time [4271,613:4312,644] of [4306,613:4355,644] the [4354,613:4505,644] sealing\n[2578,638:2629,681] and [2626,638:2731,681] delivery [2728,638:2767,681] of [2764,638:2838,681] these [2829,638:2946,681] presents, [2949,638:3024,681] was [3021,638:3132,681] lawfully [3129,638:3210,681] seized [3207,638:3264,681] in [3261,638:3366,681] and [3363,638:3515,681] possessed [3512,638:3545,681] of [3548,638:3575,681] a [3566,638:3641,681] good, [3638,638:3749,681] absolute [3746,638:3797,681] and [3794,638:3941,681] indefeasible [3938,638:4025,681] estate [4016,638:4054,681] of [4045,638:4198,681] inheritance [4195,638:4228,681] in [4225,638:4270,681] fee [4267,638:4354,681] simple, [4357,638:4396,681] of [4393,638:4505,681] and\n[2576,675:2619,724] in [2610,675:2659,724] all [2651,675:2700,724] and [2699,675:2809,724] singular, [2814,675:2863,724] the [2862,675:2944,724] above [2943,675:3053,724] granted, [3052,675:3189,724] bargained [3181,675:3236,724] and [3235,675:3359,724] described [3350,675:3467,724] premises, [3473,675:3535,724] with [3534,675:3583,724] the [3574,675:3815,724] appurtenances\n[4169,681:4226,708] and [4223,681:4352,708] has\n[4302,685:4375,712] good [4367,685:4440,712] right,\n[2589,708:2628,811] all [2629,708:2708,811] power [2701,708:2756,811] and [2757,708:2843,811] lawful [2844,708:2971,811] authority [2972,708:3003,811] to [3004,708:3091,811] grant [3084,708:3187,811] bargain, [3188,708:3251,811] sell [3244,708:3299,811] and [3292,708:3387,811] convey [3380,708:3427,811] the [3428,708:3499,811] same [3492,708:3531,811] in [3524,708:3626,811] manner [3619,708:3674,811] and [3667,708:3738,811] form [3731,708:3911,811] aforesaid\n[2633,753:2698,798] and [2696,753:2761,798] that [2752,753:2804,798] the [2802,753:2861,798] said [2858,753:2967,798] party [2965,753:3005,798] of [3002,753:3055,798] the [3052,753:3142,798] second [3140,753:3205,798] part, [3240,753:3330,798] her [3334,753:3405,798] heirs [3396,753:3455,798] and [3446,753:3543,798] assigns, [3546,753:3618,798] shall [3609,753:3668,798] and [3665,753:3724,798] may [3722,753:3755,798] at [3747,753:3793,798] all [3790,753:3868,798] times [3859,753:3974,798] hereafter, [3978,753:4106,798] peaceably [4103,753:4156,798] and [4153,753:4250,798] quietly, [4253,753:4318,798] have, [4322,753:4387,798] hold, [4391,753:4443,798] use.\n[2569,788:2672,854] occupy [2673,788:2768,854] possess [2761,788:2815,854] and [2816,788:2903,854] enjoy [2896,788:2943,854] the [2944,788:3031,854] above [3024,788:3127,854] granted [3128,788:3239,854] premises, [3248,788:3303,854] and [3296,788:3375,854] every [3368,788:3431,854] part [3432,788:3486,854] and [3479,788:3566,854] parcel [3559,788:3654,854] thereof, [3663,788:3718,854] with [3719,788:3766,854] the [3759,788:3942,854] appurtenances, [3943,788:4046,854] without [4047,788:4094,854] any [4087,788:4142,854] let [4143,788:4197,854] suit, [4198,788:4301,854] trouble [4294,788:4437,854] molestation,\n[2581,821:2676,862] eviction [2673,821:2710,862] or [2707,821:2859,862] disturbance [2856,821:2894,862] of [2890,821:2945,862] the [2936,821:3002,862] said [2993,821:3106,862] parties [3102,821:3140,862] of [3136,821:3180,862] the [3176,821:3237,862] first [3228,821:3300,862] part [3291,821:3375,862] their [3377,821:3449,862] heirs [3440,821:3478,862] or [3474,821:3569,862] assigns, [3572,821:3609,862] or [3606,821:3638,862] of [3635,821:3690,862] any [3680,821:3753,862] other [3749,821:3839,862] person [3829,821:3867,862] or [3858,821:3959,862] persons [3955,821:4062,862] lawfully [4058,821:4171,862] claiming [4167,821:4205,862] or [4196,821:4234,862] to [4224,821:4302,862] claim [4293,821:4348,862] the [4339,821:4411,862] same.\n[2632,871:2698,903] and [2692,871:2759,903] that [2753,871:2805,903] the [2800,871:2875,903] same [2869,871:2931,903] now [2930,871:2978,903] are [2972,871:3033,903] free, [3037,871:3108,903] clear, [3112,871:3252,903] discharged [3247,871:3304,903] and [3303,871:3476,903] unincumbered, [3480,871:3518,903] of [3517,871:3569,903] and [3563,871:3634,903] from [3629,871:3672,903] all [3666,871:3760,903] former [3750,871:3807,903] and [3806,871:3877,903] other [3871,871:3960,903] grants, [3959,871:4035,903] titles, [4034,871:4133,903] charges, [4136,871:4226,903] estates, [4225,871:4361,903] judgments, [4365,871:4436,903] taxes,\n[2579,895:2718,943] assessments [2716,895:2770,943] and [2768,895:2946,943] incumbrances [2944,895:2985,943] of [2983,895:3050,943] what [3048,895:3142,943] nature [3133,895:3174,943] or [3166,895:3233,943] kind [3231,895:3318,943] soever. [3335,895:3474,943] except [3479,895:3546,943] as [3544,895:3683,943] above [3687,895:3886,943] stated\n[2627,943:2703,975] and [2702,943:2773,975] also, [2781,943:2843,975] that [2837,943:2894,975] the [2888,943:2950,975] said [2944,943:3052,975] parties [3051,943:3089,975] of [3084,943:3136,975] the [3130,943:3192,975] first [3191,943:3252,975] part, [3256,943:3327,975] and [3326,943:3425,975] her [3419,943:3490,975] heirs, [3494,943:3546,975] and [3545,943:3588,975] all [3582,943:3639,975] and [3633,943:3714,975] every [3708,943:3783,975] other [3778,943:3867,975] person [3862,943:3895,975] or [3890,943:3993,975] persons [3987,943:4151,975] whomsoever [4141,943:4254,975] lawfully [4248,943:4286,975] or [4281,943:4403,975] equitably [4397,943:4440,975] de-\n[2604,932:2659,1060] ing [2652,932:2707,1060] my [2700,932:2786,1060] estate [2787,932:2858,1060] right, [2867,932:2930,1060] title [2923,932:2962,1060] of [2955,932:3074,1060] interest [3067,932:3114,1060] of [3107,932:3138,1060] in [3139,932:3178,1060] or [3171,932:3210,1060] to [3203,932:3250,1060] the [3251,932:3410,1060] hereinbefore [3403,932:3505,1060] granted [3498,932:3617,1060] premises [3618,932:3665,1060] by [3666,932:3737,1060] from [3730,932:3809,1060] under [3810,932:3841,1060] or [3842,932:3873,1060] in [3866,932:3937,1060] that [3938,932:3985,1060] for [3986,932:4065,1060] him [4066,932:4105,1060] or [4106,932:4200,1060] either [4201,932:4264,1060] them, [4273,932:4336,1060] shall [4337,932:4384,1060] and [4385,932:4505,1060] will\n[2657,1008:2726,1047] time [2717,1008:2753,1047] or [2749,1008:2830,1047] times [2826,1008:2945,1047] hereafter, [2951,1008:3021,1047] upon [3017,1008:3070,1047] the [3066,1008:3207,1047] reasonable [3203,1008:3299,1047] request, [3301,1008:3360,1047] and [3355,1008:3392,1047] at [3383,1008:3436,1047] the [3432,1008:3523,1047] proper [3519,1008:3589,1047] costs [3579,1008:3638,1047] and [3634,1008:3736,1047] charges [3727,1008:3764,1047] in [3760,1008:3807,1047] the [3803,1008:3862,1047] law, [3863,1008:3900,1047] of [3896,1008:3949,1047] the [3945,1008:4004,1047] said [4000,1008:4108,1047] party [4104,1008:4146,1047] of [4142,1008:4190,1047] the [4185,1008:4277,1047] second [4267,1008:4332,1047] part, [4349,1008:4493,1047] her\n[2582,1027:2647,1087] heirs [2640,1027:2688,1087] and [2690,1027:2787,1087] assigns, [2797,1027:2870,1087] make, [2871,1027:2911,1087] do [2912,1027:2969,1087] and [2962,1027:3068,1087] execute, [3078,1027:3109,1087] or [3102,1027:3183,1087] cause [3177,1027:3216,1087] or [3210,1027:3315,1087] procure [3309,1027:3348,1087] to [3342,1027:3381,1087] be [3375,1027:3456,1087] made, [3457,1027:3522,1087] done [3515,1027:3571,1087] and [3565,1027:3687,1087] executed, [3688,1027:3736,1087] all [3730,1027:3778,1087] and [3779,1027:3852,1087] every [3845,1027:3910,1087] such [3911,1027:4009,1087] further [4002,1027:4058,1087] and [4051,1027:4124,1087] other [4118,1027:4207,1087] lawful [4208,1027:4256,1087] and [4250,1027:4388,1087] reasonable [4382,1027:4446,1087] acts,\n[2580,1076:2732,1117] conveyances [2723,1076:2783,1117] and [2780,1076:2915,1117] assurances [2912,1076:2950,1117] in [2946,1076:2995,1117] the [2992,1076:3047,1117] law, [3043,1076:3093,1117] for [3083,1076:3138,1117] the [3129,1076:3219,1117] better [3209,1076:3264,1117] and [3261,1076:3327,1117] more [3324,1076:3453,1117] effectually [3450,1076:3551,1117] vesting [3541,1076:3602,1117] and [3593,1076:3734,1117] confirming [3725,1076:3774,1117] the [3770,1076:3883,1117] premises [3879,1076:3969,1117] hereby [3959,1076:4077,1117] intended [4068,1076:4106,1117] to [4102,1076:4140,1117] be [4137,1076:4238,1117] granted, [4234,1076:4272,1117] in [4263,1076:4318,1117] and [4314,1076:4346,1117] to [4343,1076:4392,1117] the [4383,1076:4505,1117] said\n[2581,1111:2676,1152] party [2678,1111:2716,1152] of [2712,1111:2762,1152] the [2758,1111:2853,1152] second [2844,1111:2910,1152] part, [2930,1111:3014,1152] her [3016,1111:3088,1152] heirs [3084,1111:3139,1152] and [3136,1111:3231,1152] assigns [3227,1111:3323,1152] forever, [3325,1111:3357,1152] as [3353,1111:3397,1152] by [3393,1111:3443,1152] the [3439,1111:3500,1152] said [3496,1111:3597,1152] party [3600,1111:3637,1152] of [3634,1111:3683,1152] the [3674,1111:3769,1152] second [3766,1111:3826,1152] part, [3840,1111:3929,1152] her [3926,1111:3992,1152] heirs [3989,1111:4027,1152] or [4023,1111:4118,1152] assigns, [4120,1111:4181,1152] or [4178,1111:4250,1152] her [4246,1111:4353,1152] counsel [4344,1111:4505,1152] learned\n[2580,1140:2616,1192] in [2609,1140:2652,1192] the [2652,1140:2703,1192] law, [2709,1140:2775,1192] shall [2774,1140:2810,1192] be [2810,1140:2954,1192] reasonably [2946,1140:3048,1192] devised, [3054,1140:3155,1192] advised [3155,1140:3191,1192] or [3184,1140:3299,1192] required. [3320,1140:3393,1192] And [3385,1140:3436,1192] the [3428,1140:3500,1192] said [3507,1140:3702,1192] William [3708,1140:3759,1192] C. [3766,1140:3924,1192] Hodge [3924,1140:4025,1192] and [4032,1140:4156,1192] his\n[2576,1175:2647,1239] haire [2648,1175:2695,1239] the [2688,1175:2775,1239] above [2768,1175:2894,1239] described [2895,1175:2950,1239] and [2943,1175:3038,1239] hereby [3039,1175:3142,1239] granted [3143,1175:3198,1239] and [3191,1175:3302,1239] released [3295,1175:3406,1239] premises, [3415,1175:3470,1239] and [3463,1175:3541,1239] every [3534,1175:3597,1239] part [3590,1175:3645,1239] and [3646,1175:3725,1239] parcel [3726,1175:3821,1239] thereof [3814,1175:3885,1239] with [3878,1175:3925,1239] the [3918,1175:4109,1239] appurtenances [4102,1175:4244,1239] hereby [4253,1175:4505,1239] warrant\n[2581,1247:2683,1292] party [2681,1247:2721,1292] of [2719,1247:2771,1292] the [2762,1247:2859,1292] second [2856,1247:2927,1292] part [2925,1247:3034,1292] their [3031,1247:3109,1292] heirs [3100,1247:3159,1292] and [3150,1247:3253,1292] assigns, [3250,1247:3353,1292] against [3344,1247:3397,1292] the [3388,1247:3453,1292] said [3444,1247:3566,1292] parties [3570,1247:3603,1292] of [3601,1247:3647,1292] the [3645,1247:3710,1292] first [3701,1247:3766,1292] part, [3770,1247:3829,1292] and [3839,1247:3935,1292] heir [3932,1247:3998,1292] heirs, [4001,1247:4054,1292] and [4051,1247:4148,1292] against [4139,1247:4185,1292] all [4183,1247:4235,1292] and [4233,1247:4310,1292] every [4302,1247:4392,1292] person [4389,1247:4505,1292] and\n[2580,1284:2672,1321] persons [2668,1284:2839,1321] whomsoever [2829,1284:2948,1321] lawfully [2943,1284:3057,1321] claiming [3057,1284:3093,1321] or [3088,1284:3124,1321] to [3120,1284:3197,1321] claim [3192,1284:3244,1321] the [3239,1284:3311,1321] same, [3312,1284:3384,1321] simil [3374,1284:3431,1321] and [3431,1284:3488,1321] will [3499,1284:3633,1321] endurait, [3639,1284:3695,1321] and [3691,1284:3732,1321] by [3727,1284:3799,1321] these [3795,1284:3903,1321] presents [3899,1284:3991,1321] forever [3992,1284:4101,1321] Wittent.\n[2582,1369:2629,1408] In [2625,1369:2771,1408] Thitness [2773,1369:2919,1408] Sherret, [2931,1369:2984,1408] The [2980,1369:3077,1408] parties [3073,1369:3110,1408] to [3106,1369:3181,1408] these [3177,1369:3290,1408] presents [3286,1369:3355,1408] have [3346,1369:3465,1408] hereunto [3455,1369:3656,1408] interchangeably [3652,1369:3699,1408] set [3695,1369:3765,1408] their [3755,1369:3841,1408] hands [3837,1369:3891,1408] and [3886,1369:3956,1408] seals, [3957,1369:4005,1408] the [4001,1369:4060,1408] day [4050,1369:4109,1408] and [4105,1369:4169,1408] year [4159,1369:4224,1408] first [4214,1369:4300,1408] above [4296,1369:4393,1408] written.\n[4072,1451:4282,1498] William [4286,1451:4334,1498] C. [4345,1451:4555,1498] Hodge\n[2642,1482:2733,1506] Sealed [2728,1482:2790,1506] and [2786,1482:2912,1506] Delivered [2908,1482:2948,1506] in [2944,1482:3067,1506] Presence [3059,1482:3155,1506] of\n[4068,1502:4242,1574] Helen [4243,1502:4322,1574] M. [4331,1502:4547,1574] Hodge\n[2656,1768:2764,1803] STATE [2764,1768:2818,1803] OF [2818,1768:2911,1803] NEW [2911,1768:3009,1803] YORK.\n[3148,1766:3178,1817] ⎬ [3170,1766:3199,1817] SS.\n[2941,1811:3038,1848] Elie [3039,1811:3146,1848] COUNTY,)\n[2771,1844:2922,1932] Thill [2923,1844:3074,1932] ⌨⌨⌨ [3075,1844:3217,1932] ⌨⌨⌨ [3218,1844:3385,1932] ⌨⌨⌨⌨ [3386,1844:3641,1932] Eleventh [3642,1844:3689,1932] day [3690,1844:3745,1932] of [3754,1844:4009,1932] October [4002,1844:4080,1932] 1899, [4089,1844:4168,1932] before [4161,1844:4200,1932] me [4201,1844:4240,1932] the [4233,1844:4352,1932] subscriber [4345,1844:4514,1932] appeared\n[2580,1883:2635,1965] was [2628,1883:2787,1965] acknowledged [2788,1883:2843,1965] that [2836,1883:2883,1965] the [2884,1883:2995,1965] executed [2996,1883:3042,1965] the [3035,1883:3122,1965] woman [3115,1883:3242,1965] instrument, [3243,1883:3290,1965] and [3291,1883:3394,1965] forty [3387,1883:3442,1965] that [3475,1883:3522,1965] now [3523,1883:3570,1965] the [3571,1883:3898,1965] ⌨⌨⌨⌨⌨⌨ [2582,1963:2675,1992] executed [2668,1963:2712,1992] the [2709,1963:2786,1992] within [2779,1963:2909,1992] instrument.\n[3933,1967:4149,2019] Willard [4156,1967:4286,2019] Stay [4292,1967:4526,2019] Hodge\n[4020,2019:4207,2054] Notary [4201,2019:4418,2054] Public\n[4093,2060:4160,2114] in [4152,2060:4197,2114] & [4227,2060:4309,2114] for [4309,2060:4420,2114] Erie [4420,2060:4480,2114] Co. [4495,2060:4547,2114] N. [4562,2060:4606,2114] Y.\n[2686,2272:2794,2307] STATE [2794,2272:2848,2307] OF [2848,2272:2941,2307] NEW [2941,2272:3034,2307] YORK,\n[3040,2278:3151,2356] Cowry, [3183,2278:3267,2356] a\n[3648,2356:3699,2381] day [3691,2356:3786,2381] of\n[4011,2346:4088,2373] 18, [4088,2346:4165,2373] before [4158,2346:4200,2373] me, [4196,2346:4242,2373] the [4235,2346:4354,2373] subscriber, [4350,2346:4514,2373] appeared\n[3222,2369:3265,2387] On [3258,2369:3367,2387] this\n[2581,2437:2623,2463] his [2616,2437:2669,2463] wife, [2669,2437:2776,2463] and\n[2685,2441:2718,2465] and [2710,2441:2818,2465] severally [2810,2441:2925,2465] acknowle.\n[2893,2424:2974,2463] ledged [2970,2424:3023,2463] that [3019,2424:3077,2463] they [3068,2424:3121,2463] had [3117,2424:3219,2463] executed [3209,2424:3257,2463] the [3253,2424:3328,2463] within [3318,2424:3448,2463] instrument; [3449,2424:3502,2463] and [3493,2424:3540,2463] the [3531,2424:3645,2463] said\n[3940,2437:3972,2467] or [3966,2437:4091,2467] compulsion [4084,2437:4117,2467] of [4115,2437:4156,2467] her [4150,2437:4205,2467] said [4198,2437:4292,2467] husband. [4308,2437:4362,2467] And [4356,2437:4380,2467] I [4369,2437:4514,2467] further\n[3080,2447:3112,2486] 4 [3102,2447:3259,2486] acknowledged [3255,2447:3308,2486] that [3298,2447:3346,2486] she [3342,2447:3444,2486] executed [3434,2447:3482,2486] the [3473,2447:3553,2486] within [3543,2447:3667,2486] instrument [3658,2447:3727,2486] freely, [3729,2447:3776,2486] and [3767,2447:3858,2486] without [3848,2447:3896,2486] any [3892,2447:3940,2486] fear [3936,2447:3967,2486] or [3968,2447:4002,2486] of\n[2582,2465:2617,2494] on [2611,2465:2634,2494] a [2627,2465:2712,2494] private [2705,2465:2844,2494] examination, [2845,2465:2910,2494] apart [2903,2465:2967,2494] from [2961,2465:3008,2494] her [3002,2465:3103,2494] husband, [3101,2465:3167,2494] one\n[2580,2474:2656,2523] certify [2648,2474:2704,2523] that [2702,2474:2724,2523] I [2716,2474:2785,2523] know [2784,2474:2826,2523] the [2824,2474:2914,2523] persons [2906,2474:2968,2523] who [2960,2474:3029,2523] made [3021,2474:3070,2523] the [3062,2474:3118,2523] said [3109,2474:3294,2523] acknowledgment [3293,2474:3321,2523] to [3313,2474:3355,2523] be [3347,2474:3389,2523] the [3381,2474:3511,2523] individuals [3503,2474:3607,2523] described [3598,2474:3640,2523] in [3632,2474:3681,2523] and [3680,2474:3736,2523] who [3727,2474:3831,2523] executed [3822,2474:3865,2523] the [3863,2474:3939,2523] within [3931,2474:4055,2523] instrument.\n[2684,2682:2811,2762] And [2812,2682:2907,2762] the [2916,2682:3059,2762] said [3059,2682:3266,2762] William [3267,2682:3322,2762] C. [3331,2682:3506,2762] Hodge [3515,2682:3594,2762] for [3595,2682:3786,2762] himself [3787,2682:3882,2762] his [3883,2682:4018,2762] heirs [4019,2682:4217,2762] executors [4210,2682:4305,2762] and [4306,2682:4676,2762] administrators\n[2651,2725:2778,2793] does [2779,2725:2938,2793] hereby [2946,2725:3161,2793] covenant [3170,2725:3225,2793] to [3226,2725:3321,2793] the [3322,2725:3465,2793] said [3466,2725:3632,2793] second [3633,2725:3768,2793] party [3769,2725:3896,2793] that [3897,2725:3968,2793] at [3969,2725:4048,2793] the [4049,2725:4168,2793] time [4177,2725:4248,2793] of [4249,2725:4327,2793] the [4336,2725:4503,2793] sealing [4504,2725:4615,2793] and [2556,2772:2587,2838] \n[2580,2772:2755,2838] delivery [2764,2772:2827,2838] of [2836,2772:2971,2838] these [2972,2772:3162,2838] presents [3163,2772:3290,2838] that [3291,2772:3378,2838] the [3379,2772:3514,2838] above [3523,2772:3730,2838] described [3731,2772:3930,2838] premises [3931,2772:4058,2838] were [4067,2772:4169,2838] ⌨⌨⌨ [4170,2772:4313,2838] ⌨⌨⌨⌨⌨ [2580,2817:2931,2881] unencumbered [2932,2817:2979,2881] W [2972,2817:3090,2881] Capt [3091,2817:3170,2881] by [3171,2817:3234,2881] a [3235,2817:3410,2881] certain [3411,2817:3626,2881] Mortgage [3627,2817:3730,2881] for [3731,2817:3834,2881] Five [3835,2817:4074,2881] Thousand [4082,2817:4257,2881] Dollars [2581,2856:2708,2928] said [2709,2856:2908,2928] William [2909,2856:2956,2928] C. [2965,2856:3123,2928] Hodge [3132,2856:3243,2928] and [3244,2856:3395,2928] Helen [3396,2856:3467,2928] M. [3476,2856:3627,2928] Hodge [3628,2856:3715,2928] his [3716,2856:3827,2928] wife [3828,2856:3899,2928] to [3908,2856:4027,2928] Jane [4028,2856:4083,2928] C. [2588,2902:2683,2968] 1882 [2684,2902:2707,2968] - [2740,2902:2859,2968] and [2860,2902:3067,2968] recorded [3067,2902:3146,2968] in [3147,2902:3250,2968] Erie [3251,2902:3418,2968] County [3427,2902:3530,2968] Clerk's [3579,2902:3730,2968] office [3731,2902:3802,2968] in [3803,2902:3898,2968] Liber [3899,2902:4002,2968] ⌨⌨⌨ [4003,2902:4074,2968] of [2584,2949:2711,3025] and [2712,2949:2887,3025] which [2888,2949:3031,3025] said [3032,2949:3238,3025] Mortgage [3239,2949:3326,3025] the [3327,2949:3454,3025] said [3463,2949:3670,3025] Adelaide [3679,2949:3734,3025] E. [3743,2949:3886,3025] Howe [3895,2949:4630,3025] hire__1882, [2506,1689:2552,1683] at [2506,1682:2552,1453] 144\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007153730"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00549"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007153730_00549"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-THRF-W"
+      } ]
+    } ]
+  } ]
+}

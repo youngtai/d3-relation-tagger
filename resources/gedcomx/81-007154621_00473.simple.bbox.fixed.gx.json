@@ -1,0 +1,1186 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028316640356",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557433028916
+    },
+    "description" : "#s_6917529028316640356",
+    "persons" : [ {
+      "id" : "p_6917529030820682456",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XN9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Michael Eisenberger",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Michael",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Michael"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Eisenberger",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Eisenberger"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Michael Eisenberger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.32568896,0.14751004,0.37483138,0.16450319",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3765658,0.14751004,0.438042,0.16450319",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Michael Eisenberger"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "29 April 1884",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.68201965,0.12674062,0.71882826,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.719021,0.12674062,0.75582963,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.75602233,0.12674062,0.76816344,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7668144,0.12674062,0.7959144,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7991906,0.12674062,0.8558489,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8560416,0.12674062,0.86509925,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8637502,0.12674062,0.8743496,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8745423,0.12674062,0.8882251,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8868761,0.12674062,0.8959337,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8945847,0.12674062,0.90518403,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.90537673,0.12674062,0.9321642,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.55656195,0.147038,0.5671613,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.567354,0.147038,0.5918289,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.59047985,0.147038,0.60570437,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60589707,0.147038,0.6286375,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6272885,0.147038,0.63942957,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.63808054,0.147038,0.6563885,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6596647,0.147038,0.7380998,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "29 April 1884"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XN9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820682556",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XN7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Mary E Eisenberger",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Mary E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Mary E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Eisenberger",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Eisenberger"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Mary E Eisenberger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.46270958,0.14751004,0.4856427,0.16450319",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.48583543,0.14751004,0.49489304,0.16450319",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.11582193,0.16072693,0.17883985,0.17937219",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary E. Eisenberger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.34226248,0.6924711,0.3713625,0.7193769",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Mary"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XN7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820682656",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "John C Eisenberger",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "John C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "John C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Eisenberger",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Eisenberger"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "John C Eisenberger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.17382926,0.17276375,0.20447099,0.19471323",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20774716,0.17276375,0.2183465,0.19471323",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22778955,0.17276375,0.2908075,0.19471323",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John C. Eisenberger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.71054155,0.17370781,0.7365581,0.19353317",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.73675084,0.17370781,0.74735016,0.19353317",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7488919,0.17370781,0.8057429,0.19353317",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John C. Eisenberger"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "City of Buffalo County, state of New York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/County",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.74445945,0.24616474,0.7689343,0.26858628",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.769127,0.24616474,0.7781846,0.26858628",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.77837735,0.24616474,0.8167277,0.26858628",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.81846213,0.24616474,0.85218734,0.26858628",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_COUNTY_ORIG",
+              "text" : "City of Buffalo County"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.14357294,0.2636299,0.17248024,0.27967903",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17421469,0.2636299,0.18635575,0.27967903",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18809019,0.2636299,0.21410677,0.27967903",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2158412,0.2636299,0.2433995,0.27967903",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_STATE_ORIG",
+              "text" : "state of New York"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820682756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XN8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Marsden Davey",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Marsden",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Marsden"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Davey",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Davey"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Marsden Davey"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2721141,0.308709,0.32414722,0.32405004",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32588166,0.308709,0.3688572,0.32405004",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Marsden Davey"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XN8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820682856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Moses Shire",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Moses",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Moses"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Shire",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Shire"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Moses Shire"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.36326846,0.72598535,0.3977645,0.73566204",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.39930624,0.72598535,0.4438235,0.73566204",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Moses Shire"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Notary Public",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Notary Public"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820682956",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Detain",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Detain",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Detain"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Detain"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.57795334,0.10974746,0.614762,0.11517583",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "DETAIN"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820683056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Michael Lentered",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Michael",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Michael"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lentered",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lentered"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Michael Lentered"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7627674,0.147038,0.80265945,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8028522,0.147038,0.8566198,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Michael Lentered"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820683156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Berger",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Berger",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Berger"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Berger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5544421,0.16119896,0.5835421,0.17654",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "berger"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030820683256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Louis Cisenberger",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Louis",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Louis"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Cisenberger",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Cisenberger"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Louis Cisenberger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.60898054,0.17370781,0.6363461,0.19353317",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6365388,0.17370781,0.6887647,0.19353317",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Louis Cisenberger"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-1XNB-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030820682456",
+        "resourceId" : "p_6917529030820682456"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030820682556",
+        "resourceId" : "p_6917529030820682556"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030820682656",
+        "resourceId" : "p_6917529030820682656"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030820682556",
+        "resourceId" : "p_6917529030820682556"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/relationships/NonRelative",
+      "person1" : {
+        "resource" : "#p_6917529030820683156",
+        "resourceId" : "p_6917529030820683156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030820682656",
+        "resourceId" : "p_6917529030820682656"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Non-Relative",
+          "resource" : "http://familysearch.org/types/relationships/NonRelative"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Nonrelative"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Non-Relative"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028316640356",
+      "about" : "#r_6917529028316640356",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "temporal" : {
+          "original" : "29 April 1884",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.68201965,0.12674062,0.71882826,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.719021,0.12674062,0.75582963,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.75602233,0.12674062,0.76816344,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7668144,0.12674062,0.7959144,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7991906,0.12674062,0.8558489,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8560416,0.12674062,0.86509925,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8637502,0.12674062,0.8743496,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8745423,0.12674062,0.8882251,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8868761,0.12674062,0.8959337,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8945847,0.12674062,0.90518403,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.90537673,0.12674062,0.9321642,0.15081425",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.55656195,0.147038,0.5671613,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.567354,0.147038,0.5918289,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.59047985,0.147038,0.60570437,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60589707,0.147038,0.6286375,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6272885,0.147038,0.63942957,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.63808054,0.147038,0.6563885,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6596647,0.147038,0.7380998,0.1661553",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "29 April 1884"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-BS49-T" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QSQ-G9WX-C7TL",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QSQ-G9WX-C7TL" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007154621_00473_TXT</UNQ>\n<IMID>007154621_00473</IMID>\n<APID>TH-1942-32829-5301-93</APID>\n<IMGSIZE>5189,4237</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 9 4\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April ⌨ in the year of our Lord\none thousand eight hundred and eighty four</TIMEX> Saw <ENAMEX TYPE=\"PERSON\">Michael Eisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Mary E. \nEisenberger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Mattamoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nWitness, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One hundred\nDollars</NUMEX> (<NUMEX TYPE=\"MONEY\">$100.00</NUMEX>)\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained Sold, remised and quit claimed, and by these presents do bargain, sel, remiss and quit claim unto the said party of the second\nand to <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311 that\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of One</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">state of New York</ENAMEX> and being part of <ENAMEX TYPE=\"LOCALE.notgpe\">Churchyards subdivision</ENAMEX> of\npart of farm lot number forty one ( 41) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eleventh township</ENAMEX>\n℗ and seventh range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and\nin a certain survey of the said part of farm lot forty one ( 41) in said\n<ENAMEX TYPE=\"LOCALE\">eleventh township</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Marsden Davey</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">surveyor</ENAMEX> filed in the\nD <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">One County</ENAMEX> ⌨⌨⌨⌨ <ENAMEX TYPE=\"LOCALE\">Dover</ENAMEX>, number <TIMEX TYPE=\"DATE\">29 August 7th 1877</TIMEX> and\nalso recorded in Liber 382 of deeds at page 1 & is distinguished as\nas subdivision lot number thirty nine ( 39) in block number three\n( 3) and is described as follows situate on the north side of <ENAMEX TYPE=\"STRUCTURE\">Reman\nstreet</ENAMEX> beginning at a point <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">34</NUMEX>) feet\nwest of <ENAMEX TYPE=\"STRUCTURE\">Davey street</ENAMEX> being <NUMEX TYPE=\"QUANTITY\">thirty three and one half ( 33 ½)</NUMEX> feet\nin front and rear by <NUMEX TYPE=\"QUANTITY\">one hundred and twenty ( 120)</NUMEX> feet in depth \nJogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim or demand whatsoever, of the\nsaid party of the first part, either in Law or Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to Hold the said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"COREF\">Tu</ENAMEX> <ENAMEX TYPE=\"FOOD_DRINK\">Wine</ENAMEX> wheres, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>,\nSealed and Delivered in Presence of\nS.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nof <ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"PERSON\">Mary</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, and locally knowledged that the yelled the same.\n<ENAMEX TYPE=\"PERSON\">Moses Shire</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<TIMEX TYPE=\"DATE\">day of\nin the year one thousand eight hundred</TIMEX> and eighty-\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared\nto use personally known to be the same person described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> so\nseverally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private samination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nand and Compared with the Original, the\n<TIMEX TYPE=\"DATE\">29\", day of Apr._ 1884</TIMEX>, at <TIMEX TYPE=\"TIME\">4 o'clock</TIMEX>\n<TIMEX TYPE=\"TIME\">2 9</TIMEX> 5\n<ENAMEX TYPE=\"PERSON\">DETAIN</ENAMEX> BEED.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April in the year of our Lord\none thousand eight hundred and eighty- four</TIMEX> <ENAMEX TYPE=\"COREF\">we</ENAMEX> <ENAMEX TYPE=\"PERSON\">Michael Lentered</ENAMEX> and <ENAMEX TYPE=\"PERSON\">berger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town, of Matannoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Louis Cisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof One</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the second part\nWitnes, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Four hundred Dollars ( $400.00</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained, sold, remised and quit claimed, and by these presents do bargain, sell, remise and quit-claim unto the said party of the second\nand to the in <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo County</ENAMEX>, of <NUMEX TYPE=\"QUANTITY\">One</NUMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> known and distinguished as part of subdivision lot number fortys\nto \nseven ( <NUMEX TYPE=\"QUANTITY\">47</NUMEX>) of the north third of outer lot number one hundred and four\n( 104) in said <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> and bounded as follows to wit Beginning at a\npoint in the southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">fifty ( 50)</NUMEX> feet east of the point of\nintersection of said southerly line with the westerly bounds of said subdi- \nvision lot number forty seven ( 47) which said point of intersection is <NUMEX TYPE=\"QUANTITY\">thirty</NUMEX>\nname ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) chains, and <NUMEX TYPE=\"QUANTITY\">ninety five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">95</NUMEX>) links east of the easterly line of ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ bounds <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight ( 128)</NUMEX> feet more or less to a line\ndrawn mdway between the said Southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> and the\nnortherly line of North Division street thence easterly along said mining \nline <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet thence northerly along a line parallel with the\nsaid first mentioned line, <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight</NUMEX> feet more or less \nto the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> thence westerly along said southerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Cagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet to the place of beginning.\nLogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right title, interest, claim or demand whatsoever, of the\nsaid part of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to hold the Said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn winess whereed, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the set.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCOUNTY\nOn <TIMEX TYPE=\"DATE\">this\nday of\nIn the year one thousand eight hundred</TIMEX> and eighty-\nhe, the subscriber, personally appe-\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\n<ENAMEX TYPE=\"COREF\">who</ENAMEX> severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nthe executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n---\\+\nnined and Compared with the Origi-\n<TIMEX TYPE=\"DATE\">29\" day of\nApr_184</TIMEX>, at\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"3272\"_ENDID=\"3293\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Twenty ninth day of April in the year of our Lord one thousand eight hundred and eighty- four\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3526\"_ENDID=\"3553\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"443\"_ENDID=\"470\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1237\"_ENDID=\"1085\"_STTOKEN=\"eleventh township\"_ENDTOKEN=\"eleventh township\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"143\"_ENDID=\"975\"_STTOKEN=\"New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2284\"_ENDID=\"313\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2392\"_ENDID=\"443\"_STTOKEN=\"his\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2585\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2607\"_ENDID=\"137\"_STTOKEN=\"Erie\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2618\"_ENDID=\"337\"_STTOKEN=\"Mary\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2797\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3056\"_ENDID=\"2487\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3120\"_ENDID=\"2881\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3135\"_ENDID=\"337\"_STTOKEN=\"her\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3418\"_ENDID=\"3390\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Lentered\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3459\"_ENDID=\"398\"_STTOKEN=\"state of Pennsylvania\"_ENDTOKEN=\"state of Pennsylvania\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3526\"_ENDID=\"443\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3553\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3569\"_ENDID=\"957\"_STTOKEN=\"County of One\"_ENDTOKEN=\"County of One\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"358\"_ENDID=\"313\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3587\"_ENDID=\"975\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3737\"_ENDID=\"2487\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4123\"_ENDID=\"975\"_STTOKEN=\"New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4288\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"470\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4794\"_ENDID=\"4380\"_STTOKEN=\"Eagle street\"_ENDTOKEN=\"Eagle street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"486\"_ENDID=\"975\"_STTOKEN=\"New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5071\"_ENDID=\"4380\"_STTOKEN=\"Eagle street\"_ENDTOKEN=\"Eagle street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5702\"_ENDID=\"2487\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5812\"_ENDID=\"2487\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5912\"_ENDID=\"2487\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6007\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6029\"_ENDID=\"2881\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6155\"_ENDID=\"2487\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6178\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6428\"_ENDID=\"2487\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6493\"_ENDID=\"2881\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6612\"_ENDID=\"6508\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6671\"_ENDID=\"3211\"_STTOKEN=\"29' day of Apr_184\"_ENDTOKEN=\"29', day of Apr._ 1884\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"862\"_ENDID=\"313\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"941\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"S=1+\"_STID=\"3254\"_ENDID=\"3254\"_STTOKEN=\"DETAIN\"_ENDTOKEN=\"DETAIN\">\n<RELEX TYPE=\"S=2+\"_STID=\"1263\"_ENDID=\"1263\"_STTOKEN=\"Marsden Davey\"_ENDTOKEN=\"Marsden Davey\">\n<RELEX TYPE=\"S=2+\"_STID=\"2770\"_ENDID=\"2770\"_STTOKEN=\"Moses Shire\"_ENDTOKEN=\"Moses Shire\">\n<RELEX TYPE=\"S=2+\"_STID=\"313\"_ENDID=\"313\"_STTOKEN=\"Michael Eisenberger\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"S=2+\"_STID=\"3390\"_ENDID=\"3390\"_STTOKEN=\"Michael Lentered\"_ENDTOKEN=\"Michael Lentered\">\n<RELEX TYPE=\"S=2+\"_STID=\"3504\"_ENDID=\"3504\"_STTOKEN=\"Louis Cisenberger\"_ENDTOKEN=\"Louis Cisenberger\">\n<RELEX TYPE=\"S=3+\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Mary E. Eisenberger\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"S=3+\"_STID=\"3526\"_ENDID=\"3526\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"S=3+\"_STID=\"443\"_ENDID=\"443\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2284\"_ENDID=\"2288\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2284\"_ENDID=\"2298\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2392\"_ENDID=\"2396\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2392\"_ENDID=\"2406\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3418\"_ENDID=\"3422\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"358\"_ENDID=\"362\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"443\"_ENDID=\"362\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5702\"_ENDID=\"5708\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5702\"_ENDID=\"5718\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5812\"_ENDID=\"5818\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5812\"_ENDID=\"5828\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6508\"_ENDID=\"6517\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"862\"_ENDID=\"866\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"862\"_ENDID=\"876\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"313\"_ENDID=\"193\"_STTOKEN=\"Michael Eisenberger\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"313\"_ENDID=\"3272\"_STTOKEN=\"Michael Eisenberger\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"337\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"313\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"3390\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Michael Lentered\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"443\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Mary E. Eisenberger\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3526\"_ENDID=\"3526\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"443\"_ENDID=\"443\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"337\"_ENDID=\"362\"_STTOKEN=\"Mary E. Eisenberger\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"2770\"_ENDID=\"2782\"_STTOKEN=\"Moses Shire\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:PRIN_ASSOC\"_STID=\"313\"_ENDID=\"3411\"_STTOKEN=\"Michael Eisenberger\"_ENDTOKEN=\"berger\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1085\"_ENDID=\"975\"_STTOKEN=\"eleventh township\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1301\"_ENDID=\"1318\"_STTOKEN=\"Clerks Office\"_ENDTOKEN=\"One County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"137\"_ENDID=\"143\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"143\"_ENDID=\"137\"_STTOKEN=\"New York\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"143\"_ENDID=\"153\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3553\"_ENDID=\"3587\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"3459\"_STTOKEN=\"County of One\"_ENDTOKEN=\"state of Pennsylvania\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"3553\"_STTOKEN=\"County of One\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"3587\"_STTOKEN=\"County of One\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"4114\"_STTOKEN=\"County of One\"_ENDTOKEN=\"State\\nof\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"4114\"_ENDID=\"4123\"_STTOKEN=\"State\\nof\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"470\"_ENDID=\"486\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"137\"_STTOKEN=\"County of One\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"398\"_STTOKEN=\"County of One\"_ENDTOKEN=\"state of Pennsylvania\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"941\"_STTOKEN=\"County of One\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"975\"_STTOKEN=\"County of One\"_ENDTOKEN=\"state of New York\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007154621_00473_TXT</UNQ>\n<IMID>007154621_00473</IMID>\n<APID>TH-1942-32829-5301-93</APID>\n<IMGSIZE>5189,4237</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 9 4\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April ⌨ in the year of our Lord\none thousand eight hundred and eighty four</TIMEX> Saw <ENAMEX TYPE=\"PERSON\">Michael Eisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Mary E. \nEisenberger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Mattamoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nWitness, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One hundred\nDollars</NUMEX> (<NUMEX TYPE=\"MONEY\">$100.00</NUMEX>)\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained Sold, remised and quit claimed, and by these presents do bargain, sel, remiss and quit claim unto the said party of the second\nand to <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311 that\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of One</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">state of New York</ENAMEX> and being part of <ENAMEX TYPE=\"LOCALE.notgpe\">Churchyards subdivision</ENAMEX> of\npart of farm lot number forty one ( 41) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eleventh township</ENAMEX>\n℗ and seventh range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and\nin a certain survey of the said part of farm lot forty one ( 41) in said\n<ENAMEX TYPE=\"LOCALE\">eleventh township</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Marsden Davey</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">surveyor</ENAMEX> filed in the\nD <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">One County</ENAMEX> ⌨⌨⌨⌨ <ENAMEX TYPE=\"LOCALE\">Dover</ENAMEX>, number <TIMEX TYPE=\"DATE\">29 August 7th 1877</TIMEX> and\nalso recorded in Liber 382 of deeds at page 1 & is distinguished as\nas subdivision lot number thirty nine ( 39) in block number three\n( 3) and is described as follows situate on the north side of <ENAMEX TYPE=\"STRUCTURE\">Reman\nstreet</ENAMEX> beginning at a point <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">34</NUMEX>) feet\nwest of <ENAMEX TYPE=\"STRUCTURE\">Davey street</ENAMEX> being <NUMEX TYPE=\"QUANTITY\">thirty three and one half ( 33 ½)</NUMEX> feet\nin front and rear by <NUMEX TYPE=\"QUANTITY\">one hundred and twenty ( 120)</NUMEX> feet in depth \nJogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim or demand whatsoever, of the\nsaid party of the first part, either in Law or Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to Hold the said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"COREF\">Tu</ENAMEX> <ENAMEX TYPE=\"FOOD_DRINK\">Wine</ENAMEX> wheres, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>,\nSealed and Delivered in Presence of\nS.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nof <ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"PERSON\">Mary</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, and locally knowledged that the yelled the same.\n<ENAMEX TYPE=\"PERSON\">Moses Shire</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<TIMEX TYPE=\"DATE\">day of\nin the year one thousand eight hundred</TIMEX> and eighty-\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared\nto use personally known to be the same person described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> so\nseverally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private samination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nand and Compared with the Original, the\n<TIMEX TYPE=\"DATE\">29\", day of Apr._ 1884</TIMEX>, at <TIMEX TYPE=\"TIME\">4 o'clock</TIMEX>\n<TIMEX TYPE=\"TIME\">2 9</TIMEX> 5\n<ENAMEX TYPE=\"PERSON\">DETAIN</ENAMEX> BEED.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April in the year of our Lord\none thousand eight hundred and eighty- four</TIMEX> <ENAMEX TYPE=\"COREF\">we</ENAMEX> <ENAMEX TYPE=\"PERSON\">Michael Lentered</ENAMEX> and <ENAMEX TYPE=\"PERSON\">berger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town, of Matannoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Louis Cisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof One</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the second part\nWitnes, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Four hundred Dollars ( $400.00</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained, sold, remised and quit claimed, and by these presents do bargain, sell, remise and quit-claim unto the said party of the second\nand to the in <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo County</ENAMEX>, of <NUMEX TYPE=\"QUANTITY\">One</NUMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> known and distinguished as part of subdivision lot number fortys\nto \nseven ( <NUMEX TYPE=\"QUANTITY\">47</NUMEX>) of the north third of outer lot number one hundred and four\n( 104) in said <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> and bounded as follows to wit Beginning at a\npoint in the southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">fifty ( 50)</NUMEX> feet east of the point of\nintersection of said southerly line with the westerly bounds of said subdi- \nvision lot number forty seven ( 47) which said point of intersection is <NUMEX TYPE=\"QUANTITY\">thirty</NUMEX>\nname ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) chains, and <NUMEX TYPE=\"QUANTITY\">ninety five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">95</NUMEX>) links east of the easterly line of ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ bounds <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight ( 128)</NUMEX> feet more or less to a line\ndrawn mdway between the said Southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> and the\nnortherly line of North Division street thence easterly along said mining \nline <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet thence northerly along a line parallel with the\nsaid first mentioned line, <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight</NUMEX> feet more or less \nto the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> thence westerly along said southerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Cagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet to the place of beginning.\nLogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right title, interest, claim or demand whatsoever, of the\nsaid part of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to hold the Said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn winess whereed, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the set.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCOUNTY\nOn <TIMEX TYPE=\"DATE\">this\nday of\nIn the year one thousand eight hundred</TIMEX> and eighty-\nhe, the subscriber, personally appe-\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\n<ENAMEX TYPE=\"COREF\">who</ENAMEX> severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nthe executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n---\\+\nnined and Compared with the Origi-\n<TIMEX TYPE=\"DATE\">29\" day of\nApr_184</TIMEX>, at\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"3272\"_ENDID=\"3293\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Twenty ninth day of April in the year of our Lord one thousand eight hundred and eighty- four\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3526\"_ENDID=\"3553\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"443\"_ENDID=\"470\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1237\"_ENDID=\"1085\"_STTOKEN=\"eleventh township\"_ENDTOKEN=\"eleventh township\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"143\"_ENDID=\"975\"_STTOKEN=\"New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2284\"_ENDID=\"313\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2392\"_ENDID=\"443\"_STTOKEN=\"his\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2585\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2607\"_ENDID=\"137\"_STTOKEN=\"Erie\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2618\"_ENDID=\"337\"_STTOKEN=\"Mary\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2797\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3056\"_ENDID=\"2487\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3120\"_ENDID=\"2881\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3135\"_ENDID=\"337\"_STTOKEN=\"her\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3418\"_ENDID=\"3390\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Lentered\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3459\"_ENDID=\"398\"_STTOKEN=\"state of Pennsylvania\"_ENDTOKEN=\"state of Pennsylvania\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3526\"_ENDID=\"443\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3553\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3569\"_ENDID=\"957\"_STTOKEN=\"County of One\"_ENDTOKEN=\"County of One\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"358\"_ENDID=\"313\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3587\"_ENDID=\"975\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3737\"_ENDID=\"2487\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4123\"_ENDID=\"975\"_STTOKEN=\"New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4288\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"470\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4794\"_ENDID=\"4380\"_STTOKEN=\"Eagle street\"_ENDTOKEN=\"Eagle street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"486\"_ENDID=\"975\"_STTOKEN=\"New York\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5071\"_ENDID=\"4380\"_STTOKEN=\"Eagle street\"_ENDTOKEN=\"Eagle street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5702\"_ENDID=\"2487\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5812\"_ENDID=\"2487\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5912\"_ENDID=\"2487\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6007\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6029\"_ENDID=\"2881\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6155\"_ENDID=\"2487\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6178\"_ENDID=\"975\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6428\"_ENDID=\"2487\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6493\"_ENDID=\"2881\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6612\"_ENDID=\"6508\"_STTOKEN=\"her\"_ENDTOKEN=\"her\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6671\"_ENDID=\"3211\"_STTOKEN=\"29' day of Apr_184\"_ENDTOKEN=\"29', day of Apr._ 1884\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"862\"_ENDID=\"313\"_STTOKEN=\"his\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"941\"_ENDID=\"4079\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo County\">\n<RELEX TYPE=\"S=1+\"_STID=\"3254\"_ENDID=\"3254\"_STTOKEN=\"DETAIN\"_ENDTOKEN=\"DETAIN\">\n<RELEX TYPE=\"S=2+\"_STID=\"1263\"_ENDID=\"1263\"_STTOKEN=\"Marsden Davey\"_ENDTOKEN=\"Marsden Davey\">\n<RELEX TYPE=\"S=2+\"_STID=\"2770\"_ENDID=\"2770\"_STTOKEN=\"Moses Shire\"_ENDTOKEN=\"Moses Shire\">\n<RELEX TYPE=\"S=2+\"_STID=\"313\"_ENDID=\"313\"_STTOKEN=\"Michael Eisenberger\"_ENDTOKEN=\"Michael Eisenberger\">\n<RELEX TYPE=\"S=2+\"_STID=\"3390\"_ENDID=\"3390\"_STTOKEN=\"Michael Lentered\"_ENDTOKEN=\"Michael Lentered\">\n<RELEX TYPE=\"S=2+\"_STID=\"3504\"_ENDID=\"3504\"_STTOKEN=\"Louis Cisenberger\"_ENDTOKEN=\"Louis Cisenberger\">\n<RELEX TYPE=\"S=3+\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Mary E. Eisenberger\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"S=3+\"_STID=\"3526\"_ENDID=\"3526\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"S=3+\"_STID=\"443\"_ENDID=\"443\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2284\"_ENDID=\"2288\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2284\"_ENDID=\"2298\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2392\"_ENDID=\"2396\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2392\"_ENDID=\"2406\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3418\"_ENDID=\"3422\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"358\"_ENDID=\"362\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"443\"_ENDID=\"362\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5702\"_ENDID=\"5708\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5702\"_ENDID=\"5718\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5812\"_ENDID=\"5818\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5812\"_ENDID=\"5828\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"6508\"_ENDID=\"6517\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"862\"_ENDID=\"866\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"862\"_ENDID=\"876\"_STTOKEN=\"his\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Mary E. Eisenberger\"_ENDTOKEN=\"Mary E. Eisenberger\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3526\"_ENDID=\"3526\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"443\"_ENDID=\"443\"_STTOKEN=\"John C. Eisenberger\"_ENDTOKEN=\"John C. Eisenberger\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"337\"_ENDID=\"362\"_STTOKEN=\"Mary E. Eisenberger\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"2770\"_ENDID=\"2782\"_STTOKEN=\"Moses Shire\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1085\"_ENDID=\"975\"_STTOKEN=\"eleventh township\"_ENDTOKEN=\"state of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1301\"_ENDID=\"1318\"_STTOKEN=\"Clerks Office\"_ENDTOKEN=\"One County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"143\"_ENDID=\"137\"_STTOKEN=\"New York\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"143\"_ENDID=\"153\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3553\"_ENDID=\"3587\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"3459\"_STTOKEN=\"County of One\"_ENDTOKEN=\"state of Pennsylvania\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"3553\"_STTOKEN=\"County of One\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"3587\"_STTOKEN=\"County of One\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3569\"_ENDID=\"4114\"_STTOKEN=\"County of One\"_ENDTOKEN=\"State\\nof\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"4114\"_ENDID=\"4123\"_STTOKEN=\"State\\nof\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"137\"_STTOKEN=\"County of One\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"398\"_STTOKEN=\"County of One\"_ENDTOKEN=\"state of Pennsylvania\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"941\"_STTOKEN=\"County of One\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"975\"_STTOKEN=\"County of One\"_ENDTOKEN=\"state of New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007154621_00473_TXT</UNQ>\n<IMID>007154621_00473</IMID>\n<APID>TH-1942-32829-5301-93</APID>\n<IMGSIZE>5189,4237</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 9 4\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April ⌨ in the year of our Lord\none thousand eight hundred and eighty four</TIMEX> Saw <ENAMEX TYPE=\"PERSON\">Michael Eisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Mary E. \nEisenberger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Mattamoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nWitness, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One hundred\nDollars</NUMEX> (<NUMEX TYPE=\"MONEY\">$100.00</NUMEX>)\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained Sold, remised and quit claimed, and by these presents do bargain, sel, remiss and quit claim unto the said party of the second\nand to <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311 that\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of One</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">state of New York</ENAMEX> and being part of <ENAMEX TYPE=\"LOCALE.notgpe\">Churchyards subdivision</ENAMEX> of\npart of farm lot number forty one ( 41) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eleventh township</ENAMEX>\n℗ and seventh range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and\nin a certain survey of the said part of farm lot forty one ( 41) in said\n<ENAMEX TYPE=\"LOCALE\">eleventh township</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Marsden Davey</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">surveyor</ENAMEX> filed in the\nD <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">One County</ENAMEX> ⌨⌨⌨⌨ <ENAMEX TYPE=\"LOCALE\">Dover</ENAMEX>, number <TIMEX TYPE=\"DATE\">29 August 7th 1877</TIMEX> and\nalso recorded in Liber 382 of deeds at page 1 & is distinguished as\nas subdivision lot number thirty nine ( 39) in block number three\n( 3) and is described as follows situate on the north side of <ENAMEX TYPE=\"STRUCTURE\">Reman\nstreet</ENAMEX> beginning at a point <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">34</NUMEX>) feet\nwest of <ENAMEX TYPE=\"STRUCTURE\">Davey street</ENAMEX> being <NUMEX TYPE=\"QUANTITY\">thirty three and one half ( 33 ½)</NUMEX> feet\nin front and rear by <NUMEX TYPE=\"QUANTITY\">one hundred and twenty ( 120)</NUMEX> feet in depth \nJogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim or demand whatsoever, of the\nsaid party of the first part, either in Law or Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to Hold the said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"COREF\">Tu</ENAMEX> <ENAMEX TYPE=\"FOOD_DRINK\">Wine</ENAMEX> wheres, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>,\nSealed and Delivered in Presence of\nS.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nof <ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"PERSON\">Mary</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, and locally knowledged that the yelled the same.\n<ENAMEX TYPE=\"PERSON\">Moses Shire</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<TIMEX TYPE=\"DATE\">day of\nin the year one thousand eight hundred</TIMEX> and eighty-\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared\nto use personally known to be the same person described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> so\nseverally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private samination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nand and Compared with the Original, the\n<TIMEX TYPE=\"DATE\">29\", day of Apr._ 1884</TIMEX>, at <TIMEX TYPE=\"TIME\">4 o'clock</TIMEX>\n<TIMEX TYPE=\"TIME\">2 9</TIMEX> 5\n<ENAMEX TYPE=\"PERSON\">DETAIN</ENAMEX> BEED.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April in the year of our Lord\none thousand eight hundred and eighty- four</TIMEX> <ENAMEX TYPE=\"COREF\">we</ENAMEX> <ENAMEX TYPE=\"PERSON\">Michael Lentered</ENAMEX> and <ENAMEX TYPE=\"PERSON\">berger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town, of Matannoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Louis Cisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof One</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the second part\nWitnes, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Four hundred Dollars ( $400.00</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained, sold, remised and quit claimed, and by these presents do bargain, sell, remise and quit-claim unto the said party of the second\nand to the in <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo County</ENAMEX>, of <NUMEX TYPE=\"QUANTITY\">One</NUMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> known and distinguished as part of subdivision lot number fortys\nto \nseven ( <NUMEX TYPE=\"QUANTITY\">47</NUMEX>) of the north third of outer lot number one hundred and four\n( 104) in said <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> and bounded as follows to wit Beginning at a\npoint in the southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">fifty ( 50)</NUMEX> feet east of the point of\nintersection of said southerly line with the westerly bounds of said subdi- \nvision lot number forty seven ( 47) which said point of intersection is <NUMEX TYPE=\"QUANTITY\">thirty</NUMEX>\nname ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) chains, and <NUMEX TYPE=\"QUANTITY\">ninety five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">95</NUMEX>) links east of the easterly line of ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ bounds <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight ( 128)</NUMEX> feet more or less to a line\ndrawn mdway between the said Southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> and the\nnortherly line of North Division street thence easterly along said mining \nline <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet thence northerly along a line parallel with the\nsaid first mentioned line, <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight</NUMEX> feet more or less \nto the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> thence westerly along said southerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Cagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet to the place of beginning.\nLogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right title, interest, claim or demand whatsoever, of the\nsaid part of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to hold the Said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn winess whereed, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the set.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCOUNTY\nOn <TIMEX TYPE=\"DATE\">this\nday of\nIn the year one thousand eight hundred</TIMEX> and eighty-\nhe, the subscriber, personally appe-\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\n<ENAMEX TYPE=\"COREF\">who</ENAMEX> severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nthe executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n---\\+\nnined and Compared with the Origi-\n<TIMEX TYPE=\"DATE\">29\" day of\nApr_184</TIMEX>, at\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007154621_00473_TXT</UNQ>\n<IMID>007154621_00473</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1942</TIMEX>-32829-5301-93</APID>\n<IMGSIZE>5189<TIMEX TYPE=\"DATE\">,4237</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>2 9 4\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April ⌨ in the year of our Lord\none thousand eight hundred and eighty four</TIMEX> Saw <ENAMEX TYPE=\"PERSON\">Michael Eisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Mary E. \nEisenberger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town of Mattamoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\nWitness, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">One hundred\nDollars</NUMEX> (<NUMEX TYPE=\"MONEY\">$100.00</NUMEX>)\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained Sold, remised and quit claimed, and by these presents do bargain, sel, remiss and quit claim unto the said party of the second\nand to <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311 that\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of One</ENAMEX>\nand <ENAMEX TYPE=\"LOCALE\">state of New York</ENAMEX> and being part of <ENAMEX TYPE=\"LOCALE.notgpe\">Churchyards subdivision</ENAMEX> of\npart of farm lot number forty one ( 41) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eleventh township</ENAMEX>\n℗ and seventh range of the <ENAMEX TYPE=\"ORGANIZATION\">Holland Land Company</ENAMEX>'s survey and\nin a certain survey of the said part of farm lot forty one ( 41) in said\n<ENAMEX TYPE=\"LOCALE\">eleventh township</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Marsden Davey</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">surveyor</ENAMEX> filed in the\nD <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">One County</ENAMEX> ⌨⌨⌨⌨ <ENAMEX TYPE=\"LOCALE\">Dover</ENAMEX>, number <TIMEX TYPE=\"DATE\">29 August 7th 1877</TIMEX> and\nalso recorded in Liber 382 of deeds at page 1 & is distinguished as\nas subdivision lot number thirty nine ( 39) in block number three\n( 3) and is described as follows situate on the north side of <ENAMEX TYPE=\"STRUCTURE\">Reman\nstreet</ENAMEX> beginning at a point <NUMEX TYPE=\"QUANTITY\">one hundred and thirty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">34</NUMEX>) feet\nwest of <ENAMEX TYPE=\"STRUCTURE\">Davey street</ENAMEX> being <NUMEX TYPE=\"QUANTITY\">thirty three and one half ( 33 ½)</NUMEX> feet\nin front and rear by <NUMEX TYPE=\"QUANTITY\">one hundred and twenty ( 120)</NUMEX> feet in depth \nJogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right, title, interest, claim or demand whatsoever, of the\nsaid party of the first part, either in Law or Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to Hold the said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\n<ENAMEX TYPE=\"COREF\">Tu</ENAMEX> <ENAMEX TYPE=\"FOOD_DRINK\">Wine</ENAMEX> wheres, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>,\nSealed and Delivered in Presence of\nS.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nof <ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"PERSON\">Mary</ENAMEX> to <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, and locally knowledged that the yelled the same.\n<ENAMEX TYPE=\"PERSON\">Moses Shire</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<TIMEX TYPE=\"DATE\">day of\nin the year one thousand eight hundred</TIMEX> and eighty-\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared\nto use personally known to be the same person described in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> so\nseverally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private samination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nand and Compared with the Original, the\n<TIMEX TYPE=\"DATE\">29\", day of Apr._ 1884</TIMEX>, at <TIMEX TYPE=\"TIME\">4 o'clock</TIMEX>\n<TIMEX TYPE=\"TIME\">2 9</TIMEX> 5\n<ENAMEX TYPE=\"PERSON\">DETAIN</ENAMEX> BEED.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty ninth day of April in the year of our Lord\none thousand eight hundred and eighty- four</TIMEX> <ENAMEX TYPE=\"COREF\">we</ENAMEX> <ENAMEX TYPE=\"PERSON\">Michael Lentered</ENAMEX> and <ENAMEX TYPE=\"PERSON\">berger</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">Town, of Matannoras</ENAMEX>, and <ENAMEX TYPE=\"LOCALE\">state of Pennsylvania</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Louis Cisenberger</ENAMEX> and <ENAMEX TYPE=\"PERSON\">John C. Eisenberger</ENAMEX> of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof One</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nof the second part\nWitnes, that the said party of the first part, in consideration of the sum of\n<NUMEX TYPE=\"MONEY\">Four hundred Dollars ( $400.00</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of the second part, the receipt whereof is hereby confessed and acknowledged,\nhave bargained, sold, remised and quit claimed, and by these presents do bargain, sell, remise and quit-claim unto the said party of the second\nand to the in <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, 311\nTract or Parcel of Land situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo County</ENAMEX>, of <NUMEX TYPE=\"QUANTITY\">One</NUMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> known and distinguished as part of subdivision lot number fortys\nto \nseven ( <NUMEX TYPE=\"QUANTITY\">47</NUMEX>) of the north third of outer lot number one hundred and four\n( 104) in said <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX> and bounded as follows to wit Beginning at a\npoint in the southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">fifty ( 50)</NUMEX> feet east of the point of\nintersection of said southerly line with the westerly bounds of said subdi- \nvision lot number forty seven ( 47) which said point of intersection is <NUMEX TYPE=\"QUANTITY\">thirty</NUMEX>\nname ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX><NUMEX TYPE=\"QUANTITY\">)</NUMEX> chains, and <NUMEX TYPE=\"QUANTITY\">ninety five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">95</NUMEX>) links east of the easterly line of ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ bounds <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight ( 128)</NUMEX> feet more or less to a line\ndrawn mdway between the said Southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> and the\nnortherly line of North Division street thence easterly along said mining \nline <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet thence northerly along a line parallel with the\nsaid first mentioned line, <NUMEX TYPE=\"QUANTITY\">one hundred and twenty eight</NUMEX> feet more or less \nto the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Eagle street</ENAMEX> thence westerly along said southerly\nline of <ENAMEX TYPE=\"STRUCTURE\">Cagle street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">twenty five ( 25)</NUMEX> feet to the place of beginning.\nLogether with all and singular the hereditaments and appurtenances thereunto belonging, or in anywise appertaining, and the reversion and\nreversions, remainder and remainders, rents, issues and profits thereof, and all the estate, right title, interest, claim or demand whatsoever, of the\nsaid part of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said hereditaments and appurtenances,\nTo Have and to hold the Said premises\nto the said party of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, to the sole and only proper benefit and behoof of the said party of the second part,\n<ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nIn winess whereed, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the set.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCOUNTY\nOn <TIMEX TYPE=\"DATE\">this\nday of\nIn the year one thousand eight hundred</TIMEX> and eighty-\nhe, the subscriber, personally appe-\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within in\n<ENAMEX TYPE=\"COREF\">who</ENAMEX> severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same; and the said\non a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that\nthe executed the same freely, and without any fear or compulsion of <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>.\n---\\+\nnined and Compared with the Origi-\n<TIMEX TYPE=\"DATE\">29\" day of\nApr_184</TIMEX>, at\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007154621_00473_TXT</UNQ>\n<IMID>007154621_00473</IMID>\n<APID>TH-1942-32829-5301-93</APID>\n<IMGSIZE>5189,4237</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[353,425:528,479] 2 9 4\n[612,555:779,653] This [788,555:1058,653] Indenture, [1091,555:1170,653] Made [1171,555:1250,653] this [1259,555:1450,653] Twenty [1459,555:1657,653] ninth [1658,555:1721,653] day [1722,555:1897,653] of [1906,555:2097,653] April [2122,555:2193,653] ⌨ [2186,555:2233,653] in [2226,555:2280,653] the [2281,555:2352,653] year [2345,555:2392,653] of [2385,555:2448,653] our [2449,555:2585,653] Lord\n[604,625:667,697] one [660,625:795,697] thousand [796,625:875,697] eight [876,625:994,697] hundred [995,625:1050,697] and [1051,625:1178,697] eighty [1179,625:1570,697] four [1579,625:1689,697] Saw [1690,625:1945,697] Michael [1954,625:2273,697] Eisenberger [2281,625:2392,697] and [2401,625:2520,697] Mary [2521,625:2568,697] E. [561,681:584,760] \n[601,681:928,760] Eisenberger [929,681:1016,760] his [1017,681:1151,760] wife [1152,681:1215,760] of [1216,681:1295,760] the [1304,681:1479,760] Town [1480,681:1535,760] of [1544,681:1887,760] Mattamoras, [1904,681:2023,760] and [2032,681:2166,760] state [2175,681:2222,760] of [2223,681:2618,760] Pennsylvania\n[607,732:646,825] of [639,732:694,825] the [687,732:758,825] first [759,732:822,825] part, [831,732:893,825] and [902,732:1061,825] John [1078,732:1133,825] C. [1182,732:1509,825] Eisenberger [1518,732:1580,825] of [1589,732:1700,825] the [1717,732:1860,825] City [1869,732:1932,825] of [1941,732:2148,825] Buffalo [2157,732:2267,825] New [2268,732:2576,825] York\n[608,846:759,894] Witness, [765,846:834,894] that [833,846:881,894] the [880,846:949,894] said [941,846:1031,894] party [1023,846:1065,894] of [1063,846:1112,894] the [1111,846:1173,894] first [1172,846:1234,894] part, [1240,846:1275,894] in [1274,846:1452,894] consideration [1450,846:1486,894] of [1484,846:1533,894] the [1532,846:1594,894] sum [1593,846:1696,894] of\n[1045,890:1177,936] One [1182,890:1478,936] hundred\n[1688,894:1791,931] Dollars [1782,894:1812,931] ($100.00)\n[1114,943:1155,980] in [1150,943:1227,980] hand [1223,943:1290,980] paid [1285,943:1331,980] by [1327,943:1378,980] the [1373,943:1440,980] said [1436,943:1518,980] party [1514,943:1549,980] of [1545,943:1596,980] the [1591,943:1690,980] second [1685,943:1752,980] part, [1752,943:1804,980] the [1799,943:1902,980] receipt [1898,943:2011,980] whereof [2007,943:2043,980] is [2038,943:2141,980] hereby [2137,943:2271,980] confessed [2266,943:2323,980] and [2318,943:2510,980] acknowledged,\n[599,931:694,1027] have [687,931:838,1027] bargained [847,931:910,1027] Sold, [919,931:1030,1027] remised [1031,931:1085,1027] and [1086,931:1149,1027] quit [1142,931:1253,1027] claimed, [1262,931:1317,1027] and [1318,931:1365,1027] by [1358,931:1437,1027] these [1430,931:1549,1027] presents [1550,931:1629,1027] do [1630,931:1733,1027] bargain, [1742,931:1797,1027] sel, [1806,931:1901,1027] remiss [1894,931:1949,1027] and [1950,931:2013,1027] quit [2006,931:2084,1027] claim [2085,931:2156,1027] unto [2149,931:2204,1027] the [2197,931:2260,1027] said [2261,931:2340,1027] party [2341,931:2372,1027] of [2373,931:2420,1027] the [2421,931:2581,1027] second\n[1834,1017:1889,1066] and [1888,1017:1930,1066] to [1929,1017:2018,1066] his [2024,1017:2100,1066] heirs [2091,1017:2154,1066] and [2146,1017:2249,1066] assigns [2247,1017:2351,1066] forever, [2363,1017:2419,1066] 311 [2424,1017:2599,1066] that\n[590,1045:749,1134] Tract [766,1045:845,1134] or [846,1045:1037,1134] Parcel [1045,1045:1108,1134] of [1109,1045:1292,1134] Land [1293,1045:1492,1134] situate [1493,1045:1580,1134] in [1589,1045:1700,1134] the [1709,1045:1852,1134] City [1869,1045:1940,1134] of [1941,1045:2155,1134] Buffalo [2164,1045:2363,1134] County [2364,1045:2419,1134] of [2420,1045:2581,1134] One\n[601,1117:736,1185] and [745,1117:895,1185] state [904,1117:967,1185] of [976,1117:1111,1185] New [1120,1117:1263,1185] York [1272,1117:1407,1185] and [1408,1117:1582,1185] being [1583,1117:1726,1185] part [1727,1117:1798,1185] of [1815,1117:2174,1185] Churchyards [2183,1117:2485,1185] subdivision [2486,1117:2608,1185] of\n[609,1166:771,1222] part [779,1166:848,1222] of [856,1166:1018,1222] farm [1026,1166:1134,1222] lot [1142,1166:1373,1222] number [1374,1166:1528,1222] forty [1551,1166:1651,1222] one [1644,1166:1674,1222] ( [1659,1166:1744,1222] 41) [1775,1166:1867,1222] in [1868,1166:1998,1222] the [2022,1166:2253,1222] eleventh [2254,1166:2590,1222] township\n[478,1231:569,1287] ℗ [604,1220:766,1275] and [774,1220:1006,1275] seventh [1014,1220:1206,1275] range [1215,1220:1276,1275] of [1276,1220:1376,1275] the [1384,1220:1639,1275] Holland [1639,1220:1840,1275] Land [1856,1220:2156,1275] Company's [2219,1220:2404,1275] survey [2412,1220:2585,1275] and\n[592,1259:671,1317] in [688,1259:751,1317] a [752,1259:959,1317] certain [968,1259:1150,1317] survey [1159,1259:1230,1317] of [1231,1259:1342,1317] the [1343,1259:1502,1317] said [1511,1259:1670,1317] part [1679,1259:1750,1317] of [1759,1259:1918,1317] farm [1927,1259:2038,1317] lot [2039,1259:2181,1317] forty [2182,1259:2261,1317] one [2262,1259:2285,1317] ( [2270,1259:2333,1317] 41) [2358,1259:2421,1317] in [2422,1259:2604,1317] said\n[597,1308:844,1373] eleventh [852,1308:1147,1373] township [1156,1308:1331,1373] made [1332,1308:1403,1373] by [1412,1308:1682,1373] Marsden [1691,1308:1914,1373] Davey [1923,1308:2146,1373] surveyor [2147,1308:2289,1373] filed [2298,1308:2385,1373] in [2394,1308:2553,1373] the\n[492,1287:571,1452] D [604,1287:803,1452] Clerks [804,1287:978,1452] Office [987,1287:1050,1452] of [1059,1287:1170,1452] One [1171,1287:1338,1452] County [1339,1287:1482,1452] ⌨⌨⌨⌨ [1475,1287:1594,1452] Dover, [1627,1287:1834,1452] number [1835,1287:1930,1452] 29 [1939,1287:2169,1452] August [2178,1287:2297,1452] 7th [2290,1287:2401,1452] 1877 [2402,1287:2581,1452] and\n[605,1401:732,1468] also [733,1401:971,1468] recorded [980,1401:1067,1468] in [1068,1401:1259,1468] Liber [1268,1401:1379,1468] 382 [1380,1401:1451,1468] of [1460,1401:1626,1468] deeds [1643,1401:1730,1468] at [1731,1401:1914,1468] page [1915,1401:1954,1468] 1 [1955,1401:1978,1468] & [2043,1401:2122,1468] is [2131,1401:2497,1468] distinguished [2498,1401:2608,1468] as\n[602,1450:687,1512] as [689,1450:1024,1512] subdivision [1026,1450:1137,1512] lot [1139,1450:1388,1512] number [1399,1450:1587,1512] thirty [1589,1450:1716,1512] nine [1710,1450:1742,1512] ( [1727,1450:1812,1512] 39) [1866,1450:1959,1512] in [1961,1450:2158,1512] block [2169,1450:2409,1512] number [2411,1450:2599,1512] three\n[582,1508:613,1563] ( [598,1508:652,1563] 3) [691,1508:845,1563] and [853,1508:930,1563] is [930,1508:1223,1563] described [1231,1508:1316,1563] as [1324,1508:1563,1563] follows [1571,1508:1787,1563] situate [1795,1508:1872,1563] on [1880,1508:1980,1563] the [1988,1508:2180,1563] north [2181,1508:2296,1563] side [2312,1508:2366,1563] of [2366,1508:2608,1563] Reman\n[592,1552:775,1610] street [784,1552:1102,1610] beginning [1111,1552:1198,1610] at [1207,1552:1262,1610] a [1263,1552:1438,1610] point [1439,1552:1550,1610] one [1558,1552:1797,1610] hundred [1806,1552:1973,1610] and [1974,1552:2149,1610] thirty [2150,1552:2276,1610] four [2269,1552:2300,1610] ( [2285,1552:2396,1610] 34) [2421,1552:2599,1610] feet\n[598,1603:756,1649] west [754,1603:835,1649] of [839,1603:1056,1649] Davey [1061,1603:1246,1649] street [1257,1603:1415,1649] being [1426,1603:1617,1649] thirty [1622,1603:1787,1649] three [1798,1603:1950,1649] and [1961,1603:2074,1649] one [2085,1603:2224,1649] half [2222,1603:2244,1649] ( [2229,1603:2309,1649] 33 [2300,1603:2368,1649] ½) [2411,1603:2594,1649] feet\n[595,1642:690,1733] in [691,1642:881,1733] front [882,1642:1025,1733] and [1042,1642:1185,1733] rear [1194,1642:1265,1733] by [1258,1642:1369,1733] one [1378,1642:1640,1733] hundred [1657,1642:1808,1733] and [1817,1642:2016,1733] twenty [2009,1642:2040,1733] ( [2025,1642:2136,1733] 120) [2169,1642:2295,1733] feet [2304,1642:2391,1733] in [2400,1642:2599,1733] depth [557,2372:597,2407] \n[597,2372:720,2407] Jogether [720,2372:799,2407] with [794,2372:848,2407] all [843,2372:912,2407] and [907,2372:1040,2407] singular [1035,2372:1094,2407] the [1094,2372:1291,2407] hereditaments [1286,2372:1351,2407] and [1350,2372:1548,2407] appurtenances [1542,2372:1685,2407] thereunto [1685,2372:1823,2407] belonging, [1833,2372:1878,2407] or [1872,2372:1917,2407] in [1912,2372:2030,2407] anywise [2030,2372:2203,2407] appertaining, [2207,2372:2272,2407] and [2266,2372:2326,2407] the [2321,2372:2454,2407] reversion [2449,2372:2571,2407] and\n[592,2416:739,2446] reversions, [742,2416:893,2446] remainder [887,2416:950,2446] and [944,2416:1108,2446] remainders, [1111,2416:1187,2446] rents, [1190,2416:1275,2446] issues [1273,2416:1332,2446] and [1326,2416:1420,2446] profits [1414,2416:1517,2446] thereof, [1519,2416:1583,2446] and [1581,2416:1631,2446] all [1625,2416:1684,2446] the [1682,2416:1767,2446] estate, [1770,2416:1846,2446] right, [1849,2416:1912,2446] title, [1915,2416:2022,2446] interest, [2029,2416:2115,2446] claim [2113,2416:2154,2446] or [2152,2416:2264,2446] demand [2262,2416:2418,2446] whatsoever, [2420,2416:2462,2446] of [2455,2416:2576,2446] the\n[595,2451:660,2490] said [656,2451:744,2490] party [740,2451:777,2490] of [774,2451:828,2490] the [824,2451:889,2490] first [886,2451:956,2490] part, [958,2451:1052,2490] either [1048,2451:1085,2490] in [1081,2451:1152,2490] Law [1148,2451:1186,2490] or [1188,2451:1281,2490] Equity, [1288,2451:1326,2490] of, [1327,2451:1365,2490] in [1361,2451:1421,2490] and [1417,2451:1454,2490] to [1450,2451:1505,2490] the [1501,2451:1588,2490] above [1585,2451:1723,2490] bargained [1719,2451:1840,2490] premises, [1847,2451:1913,2490] with [1909,2451:1969,2490] the [1965,2451:2030,2490] said [2026,2451:2226,2490] hereditaments [2222,2451:2282,2490] and [2284,2451:2478,2490] appurtenances,\n[594,2492:648,2539] To [646,2492:726,2539] Have [724,2492:778,2539] and [776,2492:817,2539] to [815,2492:895,2539] Hold [893,2492:947,2539] the [945,2492:1045,2539] said [1056,2492:1334,2539] premises\n[591,2534:631,2578] to [628,2534:686,2578] the [677,2534:747,2578] said [745,2534:827,2578] party [824,2534:864,2578] of [861,2534:919,2578] the [910,2534:1011,2578] second [1008,2534:1078,2578] part, [1094,2534:1170,2578] his [1167,2534:1243,2578] heirs [1241,2534:1298,2578] and [1296,2534:1396,2578] assigns, [1400,2534:1439,2578] to [1430,2534:1482,2578] the [1479,2534:1543,2578] sole [1541,2534:1598,2578] and [1596,2534:1666,2578] only [1657,2534:1758,2578] proper [1755,2534:1849,2578] benefit [1847,2534:1905,2578] and [1902,2534:2003,2578] behoof [2006,2534:2045,2578] of [2043,2534:2101,2578] the [2098,2534:2168,2578] said [2165,2534:2247,2578] party [2245,2534:2290,2578] of [2288,2534:2339,2578] the [2337,2534:2437,2578] second [2435,2534:2499,2578] part,\n[600,2576:708,2613] his [709,2576:786,2613] heirs [781,2576:843,2613] and [838,2576:946,2613] assigns [942,2576:1045,2613] forever,\n[651,2632:705,2678] Tu [704,2632:823,2678] Wine [821,2632:940,2678] wheres, [952,2632:1006,2678] The [1004,2632:1123,2678] parties [1115,2632:1156,2678] of [1154,2632:1201,2678] the [1199,2632:1260,2678] first [1258,2632:1325,2678] part [1317,2632:1404,2678] have [1402,2632:1521,2678] hereunto [1519,2632:1580,2678] set [1578,2632:1697,2678] their [1695,2632:1769,2678] hand [1787,2632:1841,2678] and [1839,2632:1919,2678] seals [1911,2632:1965,2678] the [1963,2632:2024,2678] day [2015,2632:2076,2678] and [2067,2632:2141,2678] year [2133,2632:2200,2678] first [2191,2632:2278,2678] above [2276,2632:2383,2678] written,\n[620,2688:721,2713] Sealed [717,2688:780,2713] and [776,2688:906,2713] Delivered [902,2688:947,2713] in [940,2688:1070,2713] Presence [1066,2688:1168,2713] of\n[2435,2704:2494,2869] S.\n[680,2866:802,2899] STATE [801,2866:857,2899] OF [856,2866:950,2899] NEW [949,2866:1052,2899] YORK.\n[957,2892:1016,2945] of [1016,2892:1135,2945] Erie [1135,2892:1157,2945] ⎬ [1157,2892:1194,2945] SS.\n[1776,2934:1927,3048] Mary [592,3036:630,3092] to [622,3036:668,3092] me [661,3036:784,3092] personally [785,3036:869,3092] known [862,3036:892,3092] to [885,3036:931,3092] be [924,3036:970,3092] the [962,3036:1031,3092] same [1024,3036:1116,3092] person [1117,3036:1224,3092] described [1217,3036:1255,3092] in [1256,3036:1302,3092] and [1294,3036:1348,3092] who [1341,3036:1448,3092] executed [1441,3036:1479,3092] the [1480,3036:1557,3092] within [1549,3036:1672,3092] instrument, [1681,3036:1727,3092] and [1735,3036:1858,3092] locally [1866,3036:1997,3092] knowledged [1997,3036:2043,3092] that [2044,3036:2090,3092] the [2082,3036:2205,3092] yelled [2198,3036:2244,3092] the [2237,3036:2298,3092] same.\n[1885,3076:2064,3117] Moses [2072,3076:2303,3117] Shire\n[1962,3103:2136,3192] Notary [2145,3103:2311,3192] Public.\n[680,3166:800,3196] STATE [803,3166:861,3196] OF [860,3166:953,3196] NEW [951,3166:1054,3196] YORK.\n[1426,3275:1471,3299] day [1467,3275:1566,3299] of\n[1815,3280:1849,3306] in [1841,3280:1886,3306] the [1879,3280:1938,3306] year [1931,3280:1979,3306] one [1975,3280:2079,3306] thousand [2072,3280:2139,3306] eight [2131,3280:2228,3306] hundred [2221,3280:2273,3306] and [2265,3280:2343,3306] eighty-\n[592,3301:673,3331] before [671,3301:717,3331] me, [715,3301:765,3331] the [759,3301:883,3331] subscriber, [881,3301:1006,3331] personally [1004,3301:1177,3331] appeared\n[596,3338:631,3373] to [621,3338:665,3373] use [665,3338:788,3373] personally [783,3338:867,3373] known [862,3338:897,3373] to [891,3338:931,3373] be [921,3338:970,3373] the [965,3338:1034,3373] same [1029,3338:1128,3373] person [1128,3338:1236,3373] described [1231,3338:1266,3373] in, [1266,3338:1320,3373] and [1320,3338:1374,3373] who [1369,3338:1473,3373] executed [1468,3338:1517,3373] the [1517,3338:1591,3373] within [1586,3338:1714,3373] instrument, [1714,3338:1773,3373] who [1768,3338:1872,3373] so\n[1768,3347:1879,3375] severally [1872,3347:2034,3375] acknowledged [2027,3347:2086,3375] that [2079,3347:2142,3375] they [2139,3347:2241,3375] executed [2238,3347:2285,3375] the [2278,3347:2349,3375] same; [2358,3347:2413,3375] and [2406,3347:2457,3375] the [2450,3347:2567,3375] said\n[1658,3380:1697,3415] on [1692,3380:1717,3415] a [1712,3380:1796,3415] private [1790,3380:1928,3415] samination [1923,3380:1963,3415] by [1953,3380:2002,3415] me, [2002,3380:2066,3415] apart [2061,3380:2120,3415] from [2115,3380:2160,3415] her [2154,3380:2209,3415] said [2204,3380:2302,3415] husband, [2302,3380:2455,3415] acknowledged [2449,3380:2571,3415] that\n[496,3109:542,3104] and [496,3105:542,3099] and [496,3100:542,3088] Compared [496,3089:542,3083] with [496,3084:542,3079] the [496,3080:542,3069] Original, [496,3070:542,2541] the\n[473,2478:565,2467] 29\", [473,2464:565,2457] day [473,2458:565,2447] of [473,2445:565,2434] Apr._ [473,2427:565,2420] 1884, [473,2418:565,2412] at [473,2411:565,2406] 4 [473,2404:565,2400] o'clock\n[4767,425:4943,481] 2 9 5\n[2999,465:3190,488] DETAIN [3185,465:3282,488] BEED.\n[2900,537:3059,639] This [3060,537:3323,639] Indenture, [3355,537:3434,639] Made [3435,537:3522,639] this [3539,537:3730,639] Twenty [3731,537:3922,639] ninth [3923,537:3986,639] day [3979,537:4130,639] of [4147,537:4441,639] April [4442,537:4489,639] in [4482,537:4537,639] the [4538,537:4609,639] year [4602,537:4649,639] of [4642,537:4697,639] our [4698,537:4837,639] Lord\n[2888,623:2943,704] one [2944,623:3071,704] thousand [3064,623:3143,704] eight [3144,623:3262,704] hundred [3255,623:3318,704] and [3311,623:3406,704] eighty- [3423,623:3830,704] four [3879,623:3965,704] we [3958,623:4165,704] Michael [4166,623:4445,704] Lentered [4462,623:4780,704] and [2877,683:3028,748] berger [3029,683:3108,748] his [3109,683:3212,748] wife [3229,683:3283,748] of [3284,683:3371,748] the [3380,683:3515,748] Town, [3524,683:3587,748] of [3588,683:3899,748] Matannoras, [3924,683:4035,748] and [4044,683:4187,748] state [4188,683:4250,748] of [4251,683:4670,748] Pennsylvania\n[2888,736:2927,820] of [2920,736:2975,820] the [2976,736:3039,820] first [3032,736:3095,820] part, [3104,736:3159,820] and [3160,736:3302,820] Louis [3303,736:3574,820] Cisenberger [3583,736:3686,820] and [3687,736:3822,820] John [3823,736:3878,820] C. [3886,736:4181,820] Eisenberger [4174,736:4229,820] of [4230,736:4317,820] the [4334,736:4469,820] City [4470,736:4533,820] of [4534,736:4716,820] Buffalo [4717,736:4939,820] County\n[2887,783:2936,846] of [2939,783:3049,846] One [3051,783:3170,846] and [3181,783:3325,846] State [3328,783:3377,846] of [3380,783:3498,846] New [3501,783:3679,846] York\n[4507,811:4548,841] of [4546,811:4601,841] the [4599,811:4696,841] second [4695,811:4823,841] part\n[2894,836:3033,883] Witnes, [3044,836:3111,883] that [3103,836:3157,883] the [3148,836:3215,883] said [3207,836:3293,883] party [3285,836:3326,883] of [3324,836:3372,883] the [3370,836:3430,883] first [3428,836:3495,883] part, [3500,836:3534,883] in [3533,836:3710,883] consideration [3708,836:3743,883] of [3741,836:3789,883] the [3787,836:3854,883] sum [3852,836:3952,883] of\n[3345,890:3483,936] Four [3481,890:3946,936] hundred [3944,890:4044,936] Dollars [4035,890:4057,936] ( [4042,890:4148,936] $400.00)\n[2883,927:2972,980] to [2972,927:3188,980] them\n[3377,938:3412,987] in [3411,938:3487,987] hand [3479,938:3548,987] paid [3547,938:3589,987] by [3587,938:3636,987] the [3635,938:3697,987] said [3689,938:3779,987] party [3777,938:3806,987] of [3805,938:3854,987] the [3845,938:3942,987] second [3940,938:4003,987] part, [4008,938:4057,987] the [4056,938:4152,987] receipt [4151,938:4261,987] whereof [4260,938:4295,987] is [4287,938:4390,987] hereby [4382,938:4519,987] confessed [4511,938:4573,987] and [4565,938:4757,987] acknowledged,\n[2885,983:2973,1027] have [2970,983:3114,1027] bargained, [3111,983:3181,1027] sold, [3185,983:3292,1027] remised [3289,983:3347,1027] and [3344,983:3408,1027] quit [3405,983:3512,1027] claimed, [3515,983:3579,1027] and [3577,983:3622,1027] by [3613,983:3690,1027] these [3687,983:3806,1027] presents [3803,983:3886,1027] do [3883,983:3990,1027] bargain, [3993,983:4051,1027] sell, [4048,983:4149,1027] remise [4140,983:4198,1027] and [4195,983:4259,1027] quit-claim [4336,983:4400,1027] unto [4397,983:4449,1027] the [4446,983:4510,1027] said [4508,983:4590,1027] party [4587,983:4621,1027] of [4618,983:4670,1027] the [4661,983:4828,1027] second\n[4084,1029:4142,1073] and [4139,1029:4173,1073] to [4170,1029:4240,1073] the [4237,1029:4270,1073] in [4268,1029:4344,1073] heirs [4341,1029:4399,1073] and [4390,1029:4497,1073] assigns [4494,1029:4594,1073] forever, [4604,1029:4740,1073] 311\n[2873,1043:3024,1138] Tract [3033,1043:3096,1138] or [3105,1043:3263,1138] Parcel [3264,1043:3327,1138] of [3336,1043:3495,1138] Land [3504,1043:3679,1138] situate [3680,1043:3759,1138] in [3760,1043:3855,1138] the [3863,1043:3990,1138] City [3991,1043:4038,1138] of [4039,1043:4238,1138] Buffalo [4247,1043:4422,1138] County, [4431,1043:4486,1138] of [4495,1043:4613,1138] One [4614,1043:4741,1138] and [4734,1043:4920,1138] State\n[2880,1129:2932,1182] of [2932,1129:3029,1182] New [3029,1129:3156,1182] York [3171,1129:3357,1182] known [3357,1129:3484,1182] and [3484,1129:3842,1182] distinguished [3857,1129:3932,1182] as [3939,1129:4081,1182] part [4088,1129:4148,1182] of [4148,1129:4454,1182] subdivision [4454,1129:4543,1182] lot [4543,1129:4759,1182] number [4752,1129:4930,1182] fortys\n[2768,1194:2823,1259] to [2807,1171:2862,1238] \n[2879,1171:3014,1238] seven [3015,1171:3054,1238] ( [3039,1171:3126,1238] 47) [3166,1171:3229,1238] of [3230,1171:3317,1238] the [3318,1171:3477,1238] north [3478,1171:3653,1238] third [3654,1171:3709,1238] of [3726,1171:3868,1238] outer [3877,1171:3980,1238] lot [4005,1171:4228,1238] number [4237,1171:4340,1238] one [4333,1171:4571,1238] hundred [4580,1171:4699,1238] and [4700,1171:4906,1238] four\n[2860,1224:2890,1278] ( [2875,1224:2987,1278] 104) [3017,1224:3114,1278] in [3114,1224:3270,1278] said [3285,1224:3427,1278] City [3434,1224:3486,1278] of [3494,1224:3703,1278] Buffalo [3703,1224:3822,1278] and [3829,1224:4061,1278] bounded [4060,1224:4128,1278] as [4135,1224:4314,1278] follows [4314,1224:4366,1278] to [4366,1224:4485,1278] wit [4493,1224:4769,1278] Beginning [4776,1224:4836,1278] at [4836,1224:4943,1278] a\n[2886,1266:3021,1319] point [3028,1266:3110,1319] in [3110,1266:3215,1319] the [3222,1266:3468,1319] southerly [3475,1266:3595,1319] line [3602,1266:3669,1319] of [3677,1266:3826,1319] Eagle [3833,1266:3967,1319] street [3967,1266:4072,1319] fifty [4064,1266:4102,1319] ( [4087,1266:4146,1319] 50) [4176,1266:4295,1319] feet [4303,1266:4445,1319] east [4444,1266:4527,1319] of [4541,1266:4638,1319] the [4646,1266:4810,1319] point [4817,1266:4943,1319] of\n[2878,1324:3189,1375] intersection [3195,1324:3260,1375] of [3266,1324:3422,1375] said [3421,1324:3676,1375] southerly [3682,1324:3803,1375] line [3809,1324:3972,1375] with [3971,1324:4071,1375] the [4077,1324:4304,1375] westerly [4303,1324:4523,1375] bounds [4522,1324:4572,1375] of [4571,1324:4713,1375] said [4712,1324:4861,1375] subdi- [2845,1359:2876,1417] \n[2885,1359:3060,1417] vision [3069,1359:3180,1417] lot [3189,1359:3411,1417] number [3420,1359:3547,1417] forty [3556,1359:3699,1417] seven [3700,1359:3723,1417] ( [3708,1359:3795,1417] 47) [3828,1359:4003,1417] which [4004,1359:4147,1417] said [4156,1359:4339,1417] point [4340,1359:4395,1417] of [4396,1359:4682,1417] intersection [4683,1359:4738,1417] is [4739,1359:4948,1417] thirty\n[2887,1408:3015,1470] name [3008,1408:3040,1470] ( [3025,1408:3110,1470] 39) [3147,1408:3335,1470] chains, [3355,1408:3482,1470] and [3485,1408:3690,1470] ninety [3692,1408:3820,1470] five [3822,1408:3846,1470] ( [3831,1408:3915,1470] 95) [3952,1408:4097,1470] links [4125,1408:4279,1470] east [4281,1408:4340,1470] of [4342,1408:4452,1470] the [4463,1408:4669,1470] easterly [4671,1408:4790,1470] line [4801,1408:4934,1470] of ⌨⌨⌨⌨⌨ ⌨⌨⌨⌨⌨⌨ [2877,1505:3076,1563] bounds [3077,1505:3172,1563] one [3173,1505:3427,1563] hundred [3436,1505:3563,1563] and [3564,1505:3803,1563] twenty [3812,1505:3963,1563] eight [3964,1505:3995,1563] ( [3980,1505:4083,1563] 128) [4116,1505:4227,1563] feet [4228,1505:4362,1563] more [4363,1505:4426,1563] or [4435,1505:4546,1563] less [4555,1505:4618,1563] to [4627,1505:4674,1563] a [4683,1505:4865,1563] line\n[2884,1552:3083,1612] drawn [3085,1552:3318,1612] mdway [3320,1552:3553,1612] between [3555,1552:3662,1612] the [3664,1552:3821,1612] said [3831,1552:4106,1612] Southerly [4117,1552:4257,1612] line [4259,1552:4333,1612] of [4343,1552:4509,1612] Eagle [4519,1552:4677,1612] street [4678,1552:4794,1612] and [4796,1552:4878,1612] the\n[2878,1600:3104,1652] northerly [3111,1600:3238,1652] line [3252,1600:3302,1652] of [3315,1600:3493,1652] North [3499,1600:3761,1652] Division [3760,1600:3937,1652] street [3943,1600:4135,1652] thence [4141,1600:4346,1652] easterly [4338,1600:4509,1652] along [4508,1600:4643,1652] said [4642,1600:4883,1652] mining [2843,1642:2874,1710] \n[2883,1642:2994,1710] line [3003,1642:3185,1710] twenty [3186,1642:3297,1710] five [3290,1642:3321,1710] ( [3306,1642:3393,1710] 25) [3418,1642:3529,1710] feet [3530,1642:3697,1710] thence [3706,1642:3984,1710] northerly [3993,1642:4152,1710] along [4161,1642:4216,1710] a [4225,1642:4360,1710] line [4361,1642:4567,1710] parallel [4576,1642:4719,1710] with [4720,1642:4879,1710] the\n[2875,1700:3002,1754] said [3002,1700:3144,1754] first [3143,1700:3434,1754] mentioned [3442,1700:3554,1754] line, [3568,1700:3666,1754] one [3673,1700:3919,1754] hundred [3919,1700:4076,1754] and [4098,1700:4284,1754] twenty [4292,1700:4434,1754] eight [4433,1700:4545,1754] feet [4545,1700:4680,1754] more [4687,1700:4747,1754] or [4754,1700:4881,1754] less [2804,1740:2851,1817] \n[2876,1740:2931,1817] to [2932,1740:3027,1817] the [3036,1740:3179,1817] said [3180,1740:3410,1817] southerly [3419,1740:3538,1817] line [3547,1740:3610,1817] of [3611,1740:3786,1817] Eagle [3795,1740:3954,1817] street [3963,1740:4138,1817] thence [4139,1740:4362,1817] westerly [4379,1740:4545,1817] along [4546,1740:4681,1817] said [4674,1740:4939,1817] southerly\n[2881,1789:2992,1872] line [2993,1789:3064,1872] of [3073,1789:3247,1872] Cagle [3248,1789:3415,1872] street [3416,1789:3567,1872] twenty [3576,1789:3671,1872] five [3672,1789:3711,1872] ( [3696,1789:3782,1872] 25) [3807,1789:3926,1872] feet [3935,1789:3990,1872] to [3999,1789:4102,1872] the [4111,1789:4262,1872] place [4271,1789:4326,1872] of [4327,1789:4589,1872] beginning.\n[2872,2367:2992,2397] Logether [2990,2367:3063,2397] with [3061,2367:3111,2397] all [3109,2367:3172,2397] and [3166,2367:3291,2397] singular [3285,2367:3344,2397] the [3342,2367:3537,2397] hereditaments [3531,2367:3594,2397] and [3592,2367:3792,2397] appurtenances [3786,2367:3928,2397] thereunto [3922,2367:4060,2397] belonging, [4072,2367:4117,2397] or [4111,2367:4157,2397] in [4151,2367:4271,2397] anywise [4269,2367:4442,2397] appertaining, [4445,2367:4508,2397] and [4507,2367:4561,2397] the [4559,2367:4689,2397] reversion [4687,2367:4809,2397] and\n[2869,2409:3008,2437] reversions, [3013,2409:3152,2437] remainder [3149,2409:3208,2437] and [3200,2409:3355,2437] remainders, [3356,2409:3431,2437] rents, [3432,2409:3519,2437] issues [3516,2409:3575,2437] and [3572,2409:3663,2437] profits [3656,2409:3759,2437] thereof, [3760,2409:3823,2437] and [3824,2409:3871,2437] all [3868,2409:3923,2437] the [3920,2409:4007,2437] estate, [4007,2409:4090,2437] right [4087,2409:4150,2437] title, [4155,2409:4262,2437] interest, [4267,2409:4350,2437] claim [4347,2409:4390,2437] or [4387,2409:4502,2437] demand [4499,2409:4650,2437] whatsoever, [4655,2409:4698,2437] of [4695,2409:4814,2437] the\n[2865,2434:2934,2483] said [2926,2434:3009,2483] part [3007,2434:3043,2483] of [3041,2434:3090,2483] the [3089,2434:3152,2483] first [3143,2434:3213,2483] part, [3211,2434:3301,2483] either [3293,2434:3335,2483] in [3333,2434:3403,2483] Law [3395,2434:3437,2483] of [3428,2434:3525,2483] Equity, [3530,2434:3572,2483] of, [3571,2434:3606,2483] in [3605,2434:3661,2483] and [3659,2434:3695,2483] to [3693,2434:3742,2483] the [3741,2434:3824,2483] above [3822,2434:3960,2483] bargained [3958,2434:4082,2483] premises, [4087,2434:4150,2483] with [4148,2434:4204,2483] the [4203,2434:4265,2483] said [4264,2434:4462,2483] hereditaments [4461,2434:4523,2483] and [4522,2434:4713,2483] appurtenances,\n[2872,2486:2914,2534] To [2919,2486:2995,2534] Have [2987,2486:3043,2534] and [3041,2486:3083,2534] to [3082,2486:3151,2534] hold [3150,2486:3205,2534] the [3204,2486:3294,2534] Said [3299,2486:3563,2534] premises\n[2872,2523:2907,2571] to [2906,2523:2955,2571] the [2953,2523:3016,2571] said [3008,2523:3097,2571] party [3089,2523:3131,2571] of [3123,2523:3172,2571] the [3171,2523:3267,2571] second [3266,2523:3328,2571] part, [3334,2523:3417,2571] their [3415,2523:3491,2571] heirs [3490,2523:3546,2571] and [3537,2523:3641,2571] assigns, [3646,2523:3681,2571] to [3673,2523:3729,2571] the [3721,2523:3783,2571] sole [3782,2523:3838,2571] and [3836,2523:3906,2571] only [3897,2523:3994,2571] proper [3993,2523:4089,2571] benefit [4088,2523:4143,2571] and [4142,2523:4245,2571] behoof [4244,2523:4286,2571] of [4285,2523:4340,2571] the [4339,2523:4401,2571] said [4400,2523:4490,2571] party [4488,2523:4524,2571] of [4522,2523:4578,2571] the [4577,2523:4673,2571] second [4672,2523:4741,2571] part,\n[2862,2571:2980,2606] their [2975,2571:3049,2606] heirs [3044,2571:3103,2606] and [3103,2571:3201,2606] assigns [3196,2571:3294,2606] forever.\n[2925,2627:2974,2667] In [2970,2627:3085,2667] winess [3082,2627:3192,2667] whereed, [3205,2627:3259,2667] The [3255,2627:3371,2667] parties [3367,2627:3399,2667] of [3395,2627:3449,2667] the [3439,2627:3505,2667] first [3501,2627:3566,2667] part [3562,2627:3645,2667] have [3641,2627:3768,2667] hereunto [3758,2627:3823,2667] set [3825,2627:3935,2667] their [3931,2627:4030,2667] hands [4021,2627:4081,2667] and [4077,2627:4153,2667] seal [4149,2627:4204,2667] the [4200,2627:4260,2667] day [4256,2627:4310,2667] and [4306,2627:4377,2667] year [4368,2627:4433,2667] first [4429,2627:4517,2667] above [4513,2627:4617,2667] written.\n[2894,2681:2991,2706] Sealed [2987,2681:3043,2706] and [3039,2681:3166,2706] Delivered [3158,2681:3199,2706] in [3196,2681:3318,2706] Presence [3315,2681:3415,2706] of\n[2947,2862:3062,2887] STATE [3062,2862:3118,2887] OF [3114,2862:3203,2887] NEW [3199,2862:3296,2887] YORK.\n[2834,3029:2862,3078]  [2861,3029:2896,3078] to [2888,3029:2930,3078] me [2929,3029:3046,3078] personally [3037,3029:3120,3078] known [3112,3029:3147,3078] to [3139,3029:3175,3078] be [3173,3029:3215,3078] the [3207,3029:3276,3078] same [3268,3029:3358,3078] person [3357,3029:3467,3078] described [3458,3029:3501,3078] in [3492,3029:3541,3078] and [3540,3029:3589,3078] who [3587,3029:3684,3078] executed [3676,3029:3718,3078] the [3716,3029:3793,3078] within [3784,3029:3915,3078] instrument [3913,3029:3962,3078] and [3954,3029:4084,3078] severally [4076,3029:4234,3078] acknowledged [4226,3029:4281,3078] that [4273,3029:4342,3078] they [4334,3029:4438,3078] executed [4436,3029:4478,3078] the [4477,3029:4539,3078] set.\n[2946,3159:3061,3187] STATE [3058,3159:3116,3187] OF [3113,3159:3200,3187] NEW [3197,3159:3295,3187] YORK.\n[3092,3217:3252,3236] COUNTY\n[3260,3259:3301,3289] On [3295,3259:3503,3289] this\n[3664,3259:3711,3287] day [3707,3259:3859,3287] of\n[4049,3259:4086,3289] In [4075,3259:4121,3289] the [4115,3259:4173,3289] year [4172,3259:4217,3289] one [4211,3259:4318,3289] thousand [4312,3259:4375,3289] eight [4368,3259:4467,3289] hundred [4465,3259:4510,3289] and [4504,3259:4580,3289] eighty-\n[2941,3296:2977,3319] he, [2979,3296:3021,3319] the [3013,3296:3131,3319] subscriber, [3133,3296:3252,3319] personally [3243,3296:3307,3319] appe-\n[2860,3331:2897,3357] to [2890,3331:2935,3357] me [2927,3331:3046,3357] personally [3039,3331:3121,3357] known [3113,3331:3147,3357] to [3139,3331:3176,3357] be [3169,3331:3214,3357] the [3210,3331:3277,3357] same [3273,3331:3366,3357] person [3366,3331:3474,3357] described [3467,3331:3511,3357] in [3504,3331:3560,3357] and [3556,3331:3612,3357] who [3608,3331:3712,3357] executed [3708,3331:3757,3357] the [3753,3331:3831,3357] within [3824,3331:3929,3357] in\n[3956,3326:4013,3359] who [4007,3326:4115,3359] severally [4110,3326:4269,3359] acknowledged [4263,3326:4325,3359] that [4314,3326:4380,3359] they [4375,3326:4483,3359] executed [4477,3326:4524,3359] the [4519,3326:4590,3359] same; [4598,3326:4645,3359] and [4640,3326:4687,3359] the [4686,3326:4814,3359] said\n[3896,3366:3934,3398] on [3929,3366:3953,3398] a [3947,3366:4027,3398] private [4026,3366:4167,3398] examination [4161,3366:4199,3398] by [4194,3366:4237,3398] me, [4240,3366:4306,3398] apart [4301,3366:4362,3398] from [4357,3366:4399,3398] her [4398,3366:4446,3398] said [4440,3366:4539,3398] husband, [4538,3366:4693,3398] acknowledged [4687,3366:4809,3398] that\n[2862,3403:2910,3436] the [2904,3403:3003,3436] executed [2997,3403:3045,3436] the [3039,3403:3101,3436] same [3095,3403:3166,3436] freely, [3169,3403:3217,3436] and [3211,3403:3301,3436] without [3295,3403:3343,3436] any [3337,3403:3389,3436] fear [3383,3403:3417,3436] or [3411,3403:3538,3436] compulsion [3532,3403:3566,3436] of [3560,3403:3608,3436] her [3602,3403:3654,3436] said [3649,3403:3747,3436] husband.\n[3732,3403:3915,3436] ---\\+\n[2775,3146:2817,3138] nined [2775,3139:2817,3133] and [2775,3134:2817,3122] Compared [2775,3123:2817,3116] with [2775,3117:2817,3112] the [2775,3113:2817,3106] Origi-\n[2752,2443:2826,2422] 29\" [2752,2407:2826,2392] day [2752,2391:2826,2239] of\n[2757,2186:2835,2166] Apr_184, [2757,2138:2835,1826] at\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007154621"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00473"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007154621_00473"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-BS49-T"
+      } ]
+    } ]
+  } ]
+}
