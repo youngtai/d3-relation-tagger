@@ -76,6 +76,7 @@
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
+  // Make a viewbox over the nbx text
 function textVB() {
   var textDiv = document.getElementById("text-div");
   var vbWidth = textDiv.offsetWidth;
@@ -83,14 +84,67 @@ function textVB() {
   box.setAttribute("id", "text-viewbox");
   // box.setAttribute("position", "absolute");
   // box.setAttribute("border", "2px solid #000");
-  box.setAttribute("width", vbWidth + "px");
-  box.setAttribute("height", "200px");
-  box.setAttribute("top", "58px");
-  box.setAttribute("left", "5px");
-  box.setAttribute("pointer-events", "none");
+  box.style.width = (vbWidth - 15) + "px";
+  box.style.height = "20%";
+  box.style.top = "5%";
+  box.style.left = "5px";
+  box.style.pointerEvents = "none";
   document.getElementById("text-container").append(box);
+
+
 }
 
+function isOverlappedByViewBox(element) {
+  var viewBoxElement = document.getElementById("text-viewbox");
+  if (typeof viewBoxElement === "undefined" || viewBoxElement === null) {
+    return false;
+  }
+  var viewBoxTop = viewBoxElement.getBoundingClientRect().top;
+  var viewBoxBottom = viewBoxElement.getBoundingClientRect().bottom;
+  var elementTop = element.getBoundingClientRect().top;
+  var elementBottom = element.getBoundingClientRect().bottom;
+
+  if (viewBoxTop <= elementTop && viewBoxBottom >= elementBottom) {
+    return true;
+  } else {
+    return false;
+  }
+}
+// get an array of elements in the nbx that are covered by the text-viewbox
+function getCoveredElements() {
+  var allElements = document.getElementsByTagName("span");
+  var coveredElements = [];
+  for (let element of allElements) {
+    if (isOverlappedByViewBox(element)) {
+      coveredElements.push(element);
+    }
+  }
+  return coveredElements;
+}
+
+function rebuildDisplayedGraph() {
+  var updatedEntities = [];
+  for(element of getCoveredElements()) {
+    var id = "#arrayindex" + element.id;
+    updatedEntities.push(d3.select(".nodes").select(id)._groups[0][0].__data__);
+  }
+  var updatedRelations = [];
+  for(relation of displayedGraph.relations) {
+    if (updatedEntities.includes(relation.source) && updatedEntities.includes(relation.target)) {
+      updatedRelations.push(relation);
+    }
+  }
+  return [updatedEntities, updatedRelations];
+}
+
+function makeViewBoxResizeObserver() {
+  var viewBoxResizeObserver = new ResizeObserver(entries => {
+    displayedGraph.entities = rebuildDisplayedGraph()[0];
+    displayedGraph.relations = rebuildDisplayedGraph()[1];
+    restart();
+  });
+  viewBoxResizeObserver.observe(document.getElementById("text-viewbox"));
+}
 
 var simulation,
     // node,
@@ -115,7 +169,7 @@ document.getElementById("reload-displayedGraph").addEventListener("click", loadW
 document.getElementById("reload-displayedGraph").addEventListener("click", setShowSameAsVisibility);
 document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
 document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
-document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
+// document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
 // -------------------------------RELATIONSHIP PANEL--------------------------------------
 document.getElementById("has-start-date").addEventListener("click", hasStartDate);
 document.getElementById("has-start-place").addEventListener("click", hasStartPlace);

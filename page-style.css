@@ -185,13 +185,15 @@ text {
 #text-viewbox {
   position: absolute;
   border: 2px solid #000;
-  width: 30%;
-  height: 20%;
-  top: 5%;
-  left: 5px;
+  /* width: 30%; */
+  /* height: 20%; */
+  /* top: 5%; */
+  /* left: 5px; */
   background-color: #00927f;
-  opacity: .4;
-  pointer-events: none;
+  opacity: .2;
+  resize: vertical;
+  overflow: hidden;
+  /* pointer-events: none; */
 }
 
 #relationships-panel {
