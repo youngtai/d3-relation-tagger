@@ -146,9 +146,9 @@ function makeViewBoxResizeObserver() {
   viewBoxResizeObserver.observe(document.getElementById("text-viewbox"));
 }
 
-var simulation,
+var simulation;
     // node,
-    link;
+    // link;
 var displayedGraph,
     editedGraph,
     originalGraph,
@@ -996,7 +996,7 @@ function startSimulation() {
                   .attr("class", "hull")
                 .selectAll("path");
   //draw links
-  link = svg.append("g")
+  var link = svg.append("g")
     .attr("class", "links")
     .selectAll("line")
     .data(displayedGraph.relations)
@@ -1216,6 +1216,7 @@ function restart() {
   //   });
   
   // Apply the general update pattern to the links.
+  var link = d3.select(".links").selectAll("line");
   link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
   
   // Keep the exiting links connected to the moving remaining nodes.
@@ -1293,42 +1294,43 @@ function sameAsRestart() {
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
   var node = d3.select(".nodes").selectAll("g");
-    var hulls = d3.select(".hull")
-        .selectAll("path");
-    // Apply the general update pattern to the links.
-    link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
-    
-    // Keep the exiting links connected to the moving remaining nodes.
-    link.exit().transition()
-    .attr("stroke-opacity", 0)
-    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-    .remove();
-    
-    link = link.enter().append("line")
-    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
-    .style("stroke-width", 2)
-    .style("stroke", "black")
-    .merge(link);
-    
-    // Update and restart the simulation.
-    simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-    simulation.force("link").links(displayedGraph.relations);
-    
-    var groups = displayedGraph.getSameAsGroups();
-    hulls
-      .data(groups)
-        .attr("selection","update")
-        .attr("d", function(d) {return groupPath(d);});
-    hulls
-      .data(groups).enter()
-      .append("path")
-        .attr("selection","enter")
-        .attr("d", function(d) {return groupPath(d);})
-        .attr("stroke-width", "0px")
-        .transition().attr("stroke-width", "67px");
+  var hulls = d3.select(".hull")
+      .selectAll("path");
+  // Apply the general update pattern to the links.
+  var link = d3.select(".links").selectAll("line");
+  link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+  
+  // Keep the exiting links connected to the moving remaining nodes.
+  link.exit().transition()
+  .attr("stroke-opacity", 0)
+  .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+  .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+  .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+  .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+  .remove();
+  
+  link = link.enter().append("line")
+  .call(function(link) { link.transition().attr("stroke-opacity", .3); })
+  .style("stroke-width", 2)
+  .style("stroke", "black")
+  .merge(link);
+  
+  // Update and restart the simulation.
+  simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+  simulation.force("link").links(displayedGraph.relations);
+  
+  var groups = displayedGraph.getSameAsGroups();
+  hulls
+    .data(groups)
+      .attr("selection","update")
+      .attr("d", function(d) {return groupPath(d);});
+  hulls
+    .data(groups).enter()
+    .append("path")
+      .attr("selection","enter")
+      .attr("d", function(d) {return groupPath(d);})
+      .attr("stroke-width", "0px")
+      .transition().attr("stroke-width", "67px");
     
   simulation.alpha(1).restart();
   console.log("Simulation restarted showing 'same as'.");
