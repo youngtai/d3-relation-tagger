@@ -2,8 +2,9 @@
 <meta charset="utf-8">
 <head>
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
-    <link rel="stylesheet" type="text/css" href="enamex-tag-style.css">
-    <link rel="stylesheet" type="text/css" href="page-style.css">
+    <link rel="stylesheet" type="text/css" href="resources/enamex-tag-style.css">
+    <link rel="stylesheet" type="text/css" href="resources/page-style.css">
+    <link rel="icon" href="resources/1200px-Directed.png"> 
 </head>
 <div id = "page">
   <div id = "top-panel">
@@ -71,6 +72,7 @@
   
 <script type="text/javascript" src="resources/nbx-parse.js"></script>
 <script type="text/javascript" src="resources/relation-functions.js"></script>
+<script type="text/javascript" src="resources/relation-validation-functions.js"></script>
 <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 <script src="resources/d3-v4-min.js"></script>
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
@@ -146,6 +148,8 @@ function makeViewBoxResizeObserver() {
   viewBoxResizeObserver.observe(document.getElementById("text-viewbox"));
 }
 
+
+
 var simulation;
     // node,
     // link;
@@ -205,7 +209,7 @@ document.getElementById("quantity").addEventListener("click", quantity);
 document.getElementById("has-residence-place").addEventListener("click", hasResidencePlace);
 document.getElementById("same-as").addEventListener("click", sameAs);
 document.getElementById("is-subplace-of").addEventListener("click", subplaceOf);
-document.getElementById("has-title").addEventListener("click", hasTitle);
+document.getElementById("has-title").addEventListener("click", checkHasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
 for (let i = 0; i < relationshipButtonClass.length; i++) {
@@ -1138,7 +1142,7 @@ function startSimulation() {
   }
 }
 // restarts d3 simulation after the displayedGraph has been updated.
-function restart() {
+function restart(badRelations) {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
@@ -1162,19 +1166,6 @@ function restart() {
     element.__data__.x = width/2 + Math.cos(Math.random() * 2*Math.PI) * Math.random() * 300;
     element.__data__.y = height/2 + Math.sin(Math.random() * 2*Math.PI) * Math.random() * 300;
   });
-  // node.enter()
-  //   .map(function(d) {return d.__data__;}).forEach(function(entity) {
-  //     d.x = width/2 + Math.random() * 100;
-  //     d.y = height/2 + Math.random() * 100;
-  //   });
-    
-  // .attr("transform",
-  //     "translate(" + (width/2 + Math.random() * 100) + 
-  //     ", " + (height/2 + Math.random() * 100) + ")");
-
-  // let m = displayedGraph.entities.length;
-  // let dx = width/2 + Math.random() * 100;
-  // let dy = height/2 + Math.random() * 100;
   
   enter.call(d3.drag()
     .on("start", dragstarted)
@@ -1206,15 +1197,7 @@ function restart() {
       .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];} );
           
   node = enter.merge(node);
-  // node.select("circle")
-  
-  // Try to set intial position near center of svg
-  // var m = displayedGraph.entities.length;
-  //   node._groups[0].forEach(function(d, i) {
-  //     d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-  //     d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
-  //   });
-  
+
   // Apply the general update pattern to the links.
   var link = d3.select(".links").selectAll("line");
   link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
@@ -1237,8 +1220,9 @@ function restart() {
       .on("mouseover", linkMouseOver)
       .on("mouseout", linkMouseOut)
       .on("click", linkCut);
-  
-  // console.log(displayedGraph.entities.length);
+  d3.select(".links")
+    .selectAll("line")
+      .attr("id", function(d) {return "linkarrayindex" + d.index;});
   // Update and restart the simulation.
   simulation.force("charge-force", d3.forceManyBody().strength(getChargeForceStrength(displayedGraph.entities.length)));
   simulation.nodes(displayedGraph.entities).on("tick", tickActions);
@@ -1256,6 +1240,7 @@ function restart() {
 
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
+
   if (showSameAsToggled()) {
     sameAsRestart();
   }
