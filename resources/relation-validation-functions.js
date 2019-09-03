@@ -74,6 +74,27 @@ function buildDisplayedGraph(relationType) {
   displayedGraph.relations = getDisplayRelations();
 }
 
+function markBadRelations(badRelations) {
+  // Styling for nodes/links of bad entities/relations
+  if (Array.isArray(badRelations) && badRelations.length) {
+    for (badRel of badRelations) {
+      let linkId = "#linkarrayindex" + badRel[0].index;
+      // console.log("linkId: " + linkId);
+      d3.select(linkId).style("stroke","red");
+      // console.log(d3.select(linkId));
+      if (badRel[1] == "source") {
+        let nodeId = "#arrayindex" + badRel[0].source.arrayindex;
+        console.log(nodeId);
+        d3.select(nodeId).select("circle").style("stroke","#ff0000");
+      } else {
+        let nodeId = "#arrayindex" + badRel[0].target.arrayindex;
+        console.log(nodeId);
+        d3.select(nodeId).select("circle").style("stroke","#ff0000");
+      }
+    }
+  }
+}
+
 function checkHasTitle() {
   currentRelationship = "Z:TITLE_OF";
   buildDisplayedGraph("Z:TITLE_OF");
@@ -144,10 +165,6 @@ function checkHasTitle() {
   });
   
   console.log("Checked 'Has Title' relation");
-  restart(badRelations);
-  // Now we change the styling of the bad entity nodes and bad rel links.
-  
-  // Styling for nodes/links of bad entities/relations
-  console.log("After restart.");
-  
+  restart();
+  markBadRelations(badRelations);
 }

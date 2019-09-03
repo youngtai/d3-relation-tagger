@@ -170,7 +170,7 @@ document.getElementById("export").addEventListener("click", exportDocument);
 document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonStyle);
 document.getElementById("scissors").addEventListener("click", toggleScissors);
 document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
-document.getElementById("reload-displayedGraph").addEventListener("click", setShowSameAsVisibility);
+document.getElementById("reload-displayedGraph").addEventListener("click", setShowSameAsButtonStyle);
 document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
 document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
 // document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
@@ -213,13 +213,13 @@ document.getElementById("has-title").addEventListener("click", checkHasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
 for (let i = 0; i < relationshipButtonClass.length; i++) {
-  relationshipButtonClass[i].addEventListener("click", setShowSameAsVisibility);
+  relationshipButtonClass[i].addEventListener("click", setShowSameAsButtonStyle);
   relationshipButtonClass[i].addEventListener("click", showSameAs);
   relationshipButtonClass[i].addEventListener("click", relButtonStyle);
   relationshipButtonClass[i].addEventListener("click", relButtonStyleOff);
   relationshipButtonClass[i].addEventListener("click", clearSelection);
   relationshipButtonClass[i].addEventListener("click", reloadDisplayedGraphToggleOff);
-  relationshipButtonClass[i].id = relationshipButtonClass[i].id;
+  // relationshipButtonClass[i].id = relationshipButtonClass[i].id;
 }
 
 function reloadDisplayedGraphToggleOn() {
@@ -233,7 +233,7 @@ function reloadDisplayedGraphToggleOff() {
   document.getElementById("reload-displayedGraph").style.color = "";
 }
 
-function setShowSameAsVisibility() {
+function setShowSameAsButtonStyle() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS" && getCurrentRelationship() != "UNSELECTED") {
     document.getElementById("toggle-same-as").style.display = "block";
   } else {
@@ -395,7 +395,7 @@ function loadDocument(event) {
     // console.log(displayedGraph.relations);
     reloadDisplayedGraphToggleOn();
     //make D3 simulation happen
-    startSimulation();
+    window.setTimeout(startSimulation, 1000);
     enableTextToNodeHighlight();
   };
   reader.readAsText(file);
@@ -1055,7 +1055,7 @@ function startSimulation() {
       .attr("stroke-width", "2px")
       .attr("r", 0).transition().attr("r", radius)
       .attr("fill", function(d) {return colors(d.type);});
-   
+
   node.append("svg:title")
       .text(function(d) { return d.text; });
   //show text labels next to nodes
@@ -1142,7 +1142,7 @@ function startSimulation() {
   }
 }
 // restarts d3 simulation after the displayedGraph has been updated.
-function restart(badRelations) {
+function restart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
@@ -1185,7 +1185,6 @@ function restart(badRelations) {
   
   enter.attr("id", function(d) {return "arrayindex" + d.arrayindex;})
       .attr("arrayindex", function(d) {return d.arrayindex;});
-
   enter.append("circle")
       .attr("stroke", "#dfdfdf")
       .attr("stroke-width", "2px")
@@ -1251,15 +1250,6 @@ function restart(badRelations) {
 
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
-  
-  if (Array.isArray(badRelations) && badRelations.length) {
-    for (badRel of badRelations) {
-      let id = "#linkarrayindex" + badRel[0].index;
-      console.log("id: " + id);
-      d3.select(id).style("stroke","red");
-      console.log(d3.select(id));
-    }
-  }
 
   if (showSameAsToggled()) {
     sameAsRestart();
