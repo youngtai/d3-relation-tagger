@@ -1142,7 +1142,7 @@ function startSimulation() {
   }
 }
 // restarts d3 simulation after the displayedGraph has been updated.
-function restart(badRelations) {
+function restart() {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
@@ -1368,7 +1368,7 @@ function buildAllData(parsedRelex) {
       }
     });
     return sameAsRelations;
-  }
+  };
   obj.getSameAsGroups = function() {
     var sameAsGroups = [];
     this.getSameAsRels().forEach(function(relation) {
@@ -1393,16 +1393,15 @@ function buildAllData(parsedRelex) {
       }
     });
     return sameAsGroups;
-  }
-  // This array needs to look like the result of d3.nest() to use with d3.polygonHull()
-  // obj.getSameAsGroupsForHull = function() {
-  //   var nestedSameAsGroups = [];
-  //   var sameAsGroups = this.getSameAsGroups();
-  //   for (let i = 0; i < sameAsGroups.length; i++) {
-  //     nestedSameAsGroups.push({key:i.toString(), values:sameAsGroups[i]});
-  //   }
-  //   return nestedSameAsGroups;
-  // }
+  };
+  obj.getEntityById = function(id) {
+    for (let entity of this.entities) {
+      if (entity.id == id) {
+        return entity;
+      }
+    }
+    return null;
+  };
   //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
   for (i in parsedRelex.metadata) {
     var entity = parsedRelex.metadata[i].content;
@@ -1455,6 +1454,7 @@ function buildAllData(parsedRelex) {
   }
   copy.getSameAsGroups = obj.getSameAsGroups;
   copy.getSameAsRels = obj.getSameAsRels;
+  copy.getEntityById = obj.getEntityById;
   // copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
   // return obj;
   return copy;
