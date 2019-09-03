@@ -144,17 +144,10 @@ function checkHasTitle() {
   });
   
   console.log("Checked 'Has Title' relation");
-  restart();
+  restart(badRelations);
   // Now we change the styling of the bad entity nodes and bad rel links.
   
   // Styling for nodes/links of bad entities/relations
+  console.log("After restart.");
   
-  // if (Array.isArray(badRelations) && badRelations.length) {
-  for (badRel of badRelations) {
-    let id = "#linkarrayindex" + badRel[0].index;
-    console.log("id: " + id);
-    d3.select(id).style("stroke","red");
-    console.log(d3.select(id));
-  }
-  // }
 }

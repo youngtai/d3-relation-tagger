@@ -245,9 +245,9 @@ function showSameAs() {
   if (showSameAsToggled()) {
     // console.log("Showing 'same as' links.");
     showSameAsOn();
-  } else if (!showSameAsToggled()) {
-    // console.log("Hiding 'same as' links.");
-    showSameAsOff();
+  // } else if (!showSameAsToggled()) {
+  //   // console.log("Hiding 'same as' links.");
+  //   showSameAsOff();
   }
 }
 function showSameAsButtonStyle() {
@@ -1142,11 +1142,22 @@ function startSimulation() {
   }
 }
 // restarts d3 simulation after the displayedGraph has been updated.
-function restart() {
+function restart(badRelations) {
   var width = getSimulationDisplaySpaceDimensions()[0],
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
   
+  if (!showSameAsToggled()) {
+    if (getCurrentRelationship() != "R40:IS_SAME_AS") {
+      console.log("'Show Same As' button is toggled off");
+      for (var i = displayedGraph.relations.length - 1; i >= 0; i--) {
+        if (displayedGraph.relations[i].type == "R40:IS_SAME_AS") {
+          displayedGraph.relations.splice(i,1);
+        }
+      }
+    }
+  }
+
   var node = d3.select(".nodes").selectAll("g");
   node = node.data(displayedGraph.entities, function(d) { return d.id;});
   
@@ -1240,6 +1251,15 @@ function restart() {
 
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
+  
+  if (Array.isArray(badRelations) && badRelations.length) {
+    for (badRel of badRelations) {
+      let id = "#linkarrayindex" + badRel[0].index;
+      console.log("id: " + id);
+      d3.select(id).style("stroke","red");
+      console.log(d3.select(id));
+    }
+  }
 
   if (showSameAsToggled()) {
     sameAsRestart();
