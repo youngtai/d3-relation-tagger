@@ -1,4 +1,4 @@
-function buildDisplayedGraph(relationType) {
+function buildDisplayedGraph(relationType, validEntityTypes) {
   function getDisplayRelations() {
     var relations = displayedGraph.relations;
     // remove irrelevant relationships from displayedGraph.relations
@@ -24,28 +24,28 @@ function buildDisplayedGraph(relationType) {
   function getDisplayEntities() {
     var entitySet = new Set();
     var entityArray = [];
-    // Get entities of correct relation type from displayedGraph
+    function entityInSet(e) {
+      for (let entity of entitySet) {
+        if (entity.id == e.id) {
+          return true;
+        }
+      }
+      return false;
+    }
+    // Get entities of chosen relation type from displayedGraph.relations (update selection)
     displayedGraph.relations.forEach(function(relation) {
       if (relation.type == relationType) {
         entitySet.add(relation.source);
         entitySet.add(relation.target);
       }
     });
-    // Add in entities of correct relation type from editedGraph
+    // Add in entities with the chosen relation type from editedGraph.relations (enter selection)
     editedGraph.relations.forEach(function(relation) {
       if (relation.type == relationType) {
         // Add the source and target (have to get them from the editedGraph.entities)
         let source = editedGraph.getEntityById(relation.source);
         let target = editedGraph.getEntityById(relation.target);
 
-        function entityInSet(e) {
-          for (let entity of entitySet) {
-            if (entity.id == e.id) {
-              return true;
-            }
-          }
-          return false;
-        }
         // If it's already in the set, we don't add it
         // We can't rely on the set determining uniqueness for us because
         // we are getting different objects that represent the same thing
@@ -56,18 +56,16 @@ function buildDisplayedGraph(relationType) {
         if (!entityInSet(target)) {
           entitySet.add(target);
         }
-
       }
     });
-    // console.log(entitySet);
-    // console.log(displayedGraph.entities);
-    // console.log(Array.from(entitySet));
-    // for (let entity of displayedGraph.entities) {
-    //   if (entitySet.has(entity)) {
-    //     entityArray.push(entity);
-    //   }
-    // }
-    // return entityArray;
+    // Add in entities of chosen type from editedGraph.entities
+    editedGraph.entities.forEach(function(entity) {
+      if (validEntityTypes.includes(entity.type)) {
+        if (!entityInSet(entity)) {
+          entitySet.add(entity);
+        }
+      }
+    });
     return Array.from(entitySet);
   }
   displayedGraph.entities = getDisplayEntities();
@@ -94,14 +92,8 @@ function markBadRelations(badRelations) {
     }
   }
 }
-
-function checkHasTitle() {
-  currentRelationship = "Z:TITLE_OF";
-  buildDisplayedGraph("Z:TITLE_OF");
-  // displayedGraph.entities = getDisplayEntities();
-
-  // types should contain a list of **invalid** entities for this particular relationship
-  // So the entities should NOT be of the following types
+// returns the complement of an array of valid types, from a set of entity types
+function getInvalidTypes(validTypes) {
   var types = [
     "STRUCTURE.addr",
     "AGE",
@@ -140,19 +132,33 @@ function checkHasTitle() {
     "ORGANIZATION.sports",
     "ETPLACE",
     "PERCENT",
+    "PERSON",
     "PHONENUMBER",
     "FLORA",
     "QUANTITY",
     "TIME",
+    "TITLE",
+    "TITLEFPH",
     "VEHICLE",
     "WEAPON",
     "URL",
     "WORK_OF_ART"
   ];
+  for (let i = types.length - 1; i >= 0; i--) {
+    if (validTypes.includes(types[i])) {
+      types.splice(i,1);
+    }
+  }
+  return types;
+}
+
+function showUpdatedGraph(currentRelationship, validTypes) {
+  buildDisplayedGraph(currentRelationship, validTypes);
+  var invalidTypes = getInvalidTypes(validTypes);
   var badRelations = [];
   displayedGraph.relations.forEach(function(relation) {
     // check source and target against all types, for each relation
-    for (let type of types) {
+    for (let type of invalidTypes) {
       if (relation.source.type == type) {
         badRelations.push([relation, "source"]);
         console.log("Found a bad relation with bad source.");
@@ -163,8 +169,591 @@ function checkHasTitle() {
       }
     }
   });
-  
-  console.log("Checked 'Has Title' relation");
   restart();
   markBadRelations(badRelations);
+}
+// *** From relation-function.js ***
+function entityInGraph(entity) {
+  for (a in displayedGraph.entities) {
+    if ((displayedGraph.entities[a].id == entity.id) && (displayedGraph.entities[a].text == entity.text)) {
+      return true;
+    }
+  }
+  return false;
+}
+function relationInGraph(relation) {
+  for (b in displayedGraph.relations) {
+    if ((displayedGraph.relations[b].source.id == relation.source) && 
+        (displayedGraph.relations[b].target.id == relation.target) && 
+        (displayedGraph.relations[b].type == relation.type)) {
+      return true;
+    }
+  }
+  return false;
+}
+// This displays the entire graph with edits.
+function loadWholeGraph() {
+  for (i in editedGraph.entities) {
+    var entity = editedGraph.entities[i];
+    // is it the correct tag type?
+    if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
+      // is it in the displayedGraph?
+      if (!entityInGraph(entity)) {
+        //var textentity = entity.text.replace(/ \n/g, " ").replace(/\n/g, " ");
+        displayedGraph.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : entity.arrayindex});
+      }
+    }
+  }
+  displayedGraph.relations = [];
+  for (i in editedGraph.relations) {
+    var relation = editedGraph.relations[i];
+    // console.log(relationInGraph(relation));
+      // if (relation.type == "E2:HAS_RESPL") {
+      //   console.log("E2:HAS_RESPL found before if!");
+      //   console.log(relationInGraph(relation));
+      // }
+    if (!relationInGraph(relation) && !/S=\d\+|S=\d/.test(relation.type)) {
+      // if (relation.type == "E2:HAS_RESPL") { console.log("E2:HAS_RESPL found inside if!");}
+      displayedGraph.relations.push({type : relation.type,
+                            startToken : relation.startToken, 
+                            source : relation.source, 
+                            endToken : relation.endToken, 
+                            target : relation.target,
+                          distance : linkDistance(relation.type)});
+    }
+  }
+  console.log("Showing All Relationships: ");
+  // console.log(displayedGraph);
+  restart();
+  currentRelationship = "UNSELECTED";
+}
+var currentRelationship = "UNSELECTED";
+function getCurrentRelationship() {
+  return currentRelationship;
+}
+// ******
+// *** Relation Functions ***
+function hasStartDate() {
+  currentRelationship = "E1:HAS_STDATE";
+  var validTypes = [
+    "DATE",
+    "DATE.non",
+    "EVENT", 
+    "EVENT.rel", 
+    "EVENT.xlife", 
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Start Date' graph");
+}
+function hasStartPlace() {
+  currentRelationship = "E1:HAS_ST_PL";
+  var validTypes = [
+    "COREF.loc",
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "PERSON", 
+    "LOCALE", 
+    "LOCALE.notgpe",
+    "STRUCTURE"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Start Place' graph");
+}
+function hasStartTime() {
+  currentRelationship = "E1:HAS_ST_TM";
+  var validTypes = [
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "PERSON", 
+    "TIME"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Start Time' graph");
+}
+function hasEndDate() {
+  currentRelationship = "E3:HAS_ENDDATE";
+  var validTypes = [
+    "DATE",
+    "DATE.non",
+    "EVENT", 
+    "EVENT.rel", 
+    "EVENT.xlife", 
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has End Date' graph");
+}
+function hasEndPlace() {
+  currentRelationship = "E3:HAS_END_PL";
+  var validTypes = [
+    "COREF.loc",
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "PERSON", 
+    "LOCALE", 
+    "LOCALE.notgpe",
+    "STRUCTURE"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has End Place' graph");
+}
+function hasEndTime() {
+  currentRelationship = "E1:HAS_END_TM";
+  var validTypes = [
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "PERSON", 
+    "TIME"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has End Time' graph");
+}
+function hasEvent() {
+  currentRelationship = "Z:HAS_EVENT";
+  var validTypes = [
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "COREF",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Event' graph");
+}
+function hasEventFact() {
+  currentRelationship = "E4:HAS_EVENT_FACT";
+  var validTypes = [
+    "DATE",
+    "DATE.non",
+    "LOCALE", 
+    "LOCALE.notgpe", 
+    "PERSON",
+    "TIME"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Event Fact' graph");
+}
+function isEventFact() {
+  currentRelationship = "E4:IS_EVENT_FACT";
+  var validTypes = [
+    "DATE",
+    "DATE.non",
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "LOCALE",
+    "LOCALE.notgpe",
+    "STRUCTURE", 
+    "TIME"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Is Event Fact' graph");
+}
+function hasSpouse() {
+  currentRelationship = "R00:HAS_SPOUSE";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Spouse' graph");
+}
+function hasFather() {
+  currentRelationship = "R01:HAS_FATHER";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Father' graph");
+}
+function hasMother() {
+  currentRelationship = "R02:HAS_MOTHER";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Mother' graph");
+}
+function ageOf() {
+  currentRelationship = "Z:AGE_OF";
+  var validTypes = [
+    "AGE",
+    "STRUCTURE",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Age Of' graph");
+}
+function attended() {
+  currentRelationship = "Z:ATTENDED";
+  var validTypes = [
+    "ORGANIZATION.edu",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Attended' graph");
+}
+function causedBy() {
+  currentRelationship = "Z:CAUSED_BY";
+  var validTypes = [
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife", 
+    "HEALTH_CONDITION", 
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Caused By' graph");
+}
+function contactInfo() {
+  currentRelationship = "Z:'S_CONTACT";
+  var validTypes = [
+    "STRUCTURE.addr",
+    "STRUCTURE",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "PERSON",
+    "URL",
+    "PHONENUMBER"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Contact Info' graph");
+}
+function created() {
+  currentRelationship = "Z:CREATED";
+  var validTypes = [
+    "STRUCTURE",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "PERSON",
+    "WORK_OF_ART"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Created' graph");
+}
+function hasDuration() {
+  currentRelationship = "Z:HAS_DURATION";
+  var validTypes = [
+    "DURATANNIV",
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife",
+    "OCCUPATION",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Duration' graph");
+}
+function employedBy() {
+  currentRelationship = "Z:EMPLOYED_BY";
+  var validTypes = [
+    "COREF",
+    // "NONFAMILY",
+    "OCCUPATION",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Employed By' graph");
+}
+function hasFamilyMember() {
+  currentRelationship = "Z:HASFAMMEMLST";
+  var validTypes = [
+    "FAMILYMEMBER",
+    "NONFAMILY",
+    "COREF",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Family Member' graph");
+}
+function isFemale() {
+  currentRelationship = "Z:IS_FEM_FOR";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Is Female' graph");
+}
+function isFictional() {
+  currentRelationship = "Z:IS_FICTIONAL";
+  var validTypes = [
+    "STRUCTURE.addr",
+    "AGE",
+    "ANIMAL",
+    "CHEMICAL",
+    "COREF.gen",
+    "COREF.loc",
+    "COREF.dat",
+    "COREF",
+    "DATE",
+    "DATE.non",
+    "DURATANNIV",
+    "EVENT",
+    "EVENT.rel",
+    "EVENT.xlife",
+    "ITE.et",
+    "FAMILYMEMBER",
+    "NONFAMILY",
+    "FOOD_DRINK",
+    "GAME",
+    "HEALTH_CONDITION",
+    "ITE.gpe",
+    "ITE.notgpe",
+    "ITE.org",
+    "LOCALE",
+    "LOCALE.notgpe",
+    "STRUCTURE",
+    "MONEY",
+    "OCCUPATION",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "ETPLACE",
+    "PERCENT",
+    "PERSON",
+    "PHONENUMBER",
+    "FLORA",
+    "QUANTITY",
+    "TIME",
+    "TITLE",
+    "TITLEFPH",
+    "VEHICLE",
+    "WEAPON",
+    "URL",
+    "WORK_OF_ART"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Is Fictional' graph");
+}
+function isMale() {
+  currentRelationship = "Z:IS_MALE_FOR";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Is Male' graph");
+}
+function isMemberOf() {
+  currentRelationship = "Z:MEMBER_OF";
+  var validTypes = [
+    "PERSON",
+    "COREF.loc",
+    "LOCALE",
+    "LOCALE.notgpe",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "FAMILYMEMBER",
+    "NONFAMILY",
+    "COREF.gen",
+    "COREF",
+    "VEHICLE",
+    "WEAPON",
+    "ANIMAL"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Is Member Of' graph");
+}
+function nameCombiner() {
+  currentRelationship = "Z:NAMEXTRA_OF";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Name Combiner' graph");
+}
+function hasOccupation() {
+  currentRelationship = "Z:OCCUPATION_OF";
+  var validTypes = [
+    "OCCUPATION",
+    "COREF",
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Occupation' graph");
+}
+function owns() {
+  currentRelationship = "Z:OWNS";
+  var validTypes = [
+    "PERSON",
+    "COREF.loc",
+    "STRUCTURE", 
+    "VEHICLE",
+    "WORK_OF_ART",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "WEAPON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Owns' graph");
+}
+function precedesRecently() {
+  currentRelationship = "Z:PRECEDE_RCNT";
+  var validTypes = [
+    "DATE",
+    "DATE.non"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Preceden's Recently' graph");
+}
+function principalsAssociate() {
+  currentRelationship = "Z:PRIN_ASSOC";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Principal's Associate' graph");
+}
+function isPrincipalPerson() {
+  currentRelationship = "Z:IS_PRINCIPAL";
+  var validTypes = [
+    "PERSON"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Is Principal Person' graph");
+}
+function quantity() {
+  currentRelationship = "Z:NUMBER_OF";
+  var validTypes = [
+    "QUANTITY",
+    "FAMILYMEMBER",
+    "NONFAMILY", 
+    "STRUCTURE", 
+    "VEHICLE",
+    "WEAPON",
+    "WORK_OF_ART"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Quantity' graph");
+}
+function hasResidencePlace() {
+  currentRelationship = "E2:HAS_RESPL";
+  var validTypes = [
+    "PERSON",
+    "COREF",
+    "LOCALE",
+    "LOCALE.notgpe", 
+    "STRUCTURE", 
+    "STRUCTURE.addr"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Residence Place' graph");
+}
+function sameAs() {
+  currentRelationship = "R40:IS_SAME_AS";
+  var validTypes = [
+    "STRUCTURE.addr",
+    "ANIMAL",
+    "CHEMICAL",
+    "COREF.gen",
+    "COREF.loc",
+    "COREF.dat",
+    "COREF",
+    "DATE",
+    "DATE.non",
+    "ITE.et",
+    "FAMILYMEMBER",
+    "NONFAMILY",
+    "FOOD_DRINK",
+    "GAME",
+    "ITE.gpe",
+    "ITE.notgpe",
+    "ITE.org",
+    "LOCALE",
+    "LOCALE.notgpe",
+    "STRUCTURE",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "ETPLACE",
+    "PERSON",
+    "FLORA",
+    "TIME",
+    "VEHICLE",
+    "WEAPON",
+    "WORK_OF_ART"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Same As' graph.");
+}
+function subplaceOf() {
+  currentRelationship = "Z:SUBPLACE_OF";
+  var validTypes = [
+    "STRUCTURE.addr",
+    "COREF.loc",   // is this a valid entity type?
+    "LOCALE",
+    "LOCALE.notgpe",
+    "STRUCTURE",
+    "ORGANIZATION",
+    "ORGANIZATION.edu",
+    "ORGANIZATION.mil",
+    "ORGANIZATION.music",
+    "ORGANIZATION.pub",
+    "ORGANIZATION.rel",
+    "ORGANIZATION.sports",
+    "ETPLACE"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Subplace Of' graph.");
+}
+function hasTitle() {
+  currentRelationship = "Z:TITLE_OF";
+  var validTypes = [
+    "PERSON",
+    "TITLE",
+    "TITLEFPH"
+  ];
+  showUpdatedGraph(currentRelationship, validTypes);
+  console.log("Displaying 'Has Title' graph");
 }

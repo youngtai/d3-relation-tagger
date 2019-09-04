@@ -71,7 +71,7 @@
 </div>
   
 <script type="text/javascript" src="resources/nbx-parse.js"></script>
-<script type="text/javascript" src="resources/relation-functions.js"></script>
+<!-- <script type="text/javascript" src="resources/relation-functions.js"></script> -->
 <script type="text/javascript" src="resources/relation-validation-functions.js"></script>
 <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 <script src="resources/d3-v4-min.js"></script>
@@ -209,7 +209,7 @@ document.getElementById("quantity").addEventListener("click", quantity);
 document.getElementById("has-residence-place").addEventListener("click", hasResidencePlace);
 document.getElementById("same-as").addEventListener("click", sameAs);
 document.getElementById("is-subplace-of").addEventListener("click", subplaceOf);
-document.getElementById("has-title").addEventListener("click", checkHasTitle);
+document.getElementById("has-title").addEventListener("click", hasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
 for (let i = 0; i < relationshipButtonClass.length; i++) {
@@ -365,7 +365,7 @@ function loadDocument(event) {
       originalGraph = buildAllData(parsed);
       var relex = obj.records[0].documents[0].text;
       originalRelex = relex;
-      relex = colorizeText(relex);
+      relex = convertTags(relex);
         console.log(relex);
       document.getElementById("text-div").innerHTML = relex;
       //displayedGraph = buildAllData(parsed);
@@ -381,7 +381,7 @@ function loadDocument(event) {
       editedGraph = buildAllData(parsed);
       originalGraph = buildAllData(parsed);
       originalRelex = content;
-      var relex = colorizeText(content);
+      var relex = convertTags(content);
         console.log(relex);
       document.getElementById("text-div").innerHTML = relex;
       // console.log("RELEX");
@@ -771,7 +771,7 @@ function getSimulationDisplaySpaceDimensions() {
 function getNodeDefaultRadius() {
   return 30; // 30
 }
-function colorizeText(relex) {
+function convertTags(relex) {
   // we replace with "<-span..." because we need to go through after one at a time and
   // add a unique id according to the order the enamex shows up in the text. This is so
   // that we can have text highlighting when a node is hovered over.
@@ -834,6 +834,12 @@ function colorizeText(relex) {
   }
   return relex;
 }
+
+// color the nbx text, only entities relevant to the selected relationship are colored
+// function colorizeText(validTypes) {
+//   document.querySelectorAll();
+// }
+
 // for coloring text that sits on nodes
 function textColors(type) {
   if (type == "STRUCTURE.addr") {return "#ffffff"}
