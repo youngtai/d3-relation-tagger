@@ -71,10 +71,11 @@
 </div>
   
 <script type="text/javascript" src="resources/nbx-parse.js"></script>
-<!-- <script type="text/javascript" src="resources/relation-functions.js"></script> -->
+<script type="text/javascript" src="resources/relation-types.js"></script>
 <script type="text/javascript" src="resources/relation-validation-functions.js"></script>
-<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 <script src="resources/d3-v4-min.js"></script>
+<!-- <script type="text/javascript" src="resources/relation-functions.js"></script> -->
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
@@ -355,7 +356,7 @@ function loadDocument(event) {
     const extension = file.name.substring(lastDot + 1);
     var content = e.target.result;
     if (extension == "json") {
-      obj = JSON.parse(content);
+      let obj = JSON.parse(content);
       // parsed = parseNbx((obj.records[0].documents[0].text).replace(/ \n/g, " ").replace(/\n/g, " "));
       var parsed = parseNbx((obj.records[0].documents[0].text));
       // console.log("Parsed:");
@@ -366,7 +367,7 @@ function loadDocument(event) {
       var relex = obj.records[0].documents[0].text;
       originalRelex = relex;
       relex = convertTags(relex);
-        console.log(relex);
+        // console.log(relex);
       document.getElementById("text-div").innerHTML = relex;
       //displayedGraph = buildAllData(parsed);
       // console.log("JSON");
@@ -375,20 +376,20 @@ function loadDocument(event) {
     if (extension == "relex") {
       parsed = parseNbx(content);
       offsetChange(parsed);
-      console.log("Parsed:");
-      console.log(parsed);
+      // console.log("Parsed:");
+      // console.log(parsed);
       displayedGraph = buildAllData(parsed);
       editedGraph = buildAllData(parsed);
       originalGraph = buildAllData(parsed);
       originalRelex = content;
       var relex = convertTags(content);
-        console.log(relex);
+        // console.log(relex);
       document.getElementById("text-div").innerHTML = relex;
       // console.log("RELEX");
       //console.log(parsed);
     }
-    console.log("Whole Graph:");
-    console.log(originalGraph);
+    // console.log("Whole Graph:");
+    // console.log(originalGraph);
     // console.log("displayedGraph:");
     // console.log(displayedGraph);
     // console.log(displayedGraph.entities);
@@ -521,21 +522,6 @@ function linkCut(d) {
     // console.log(editedGraph);
   }
 }
-
-
-
-  // function highlightNode(id) {
-  //   d3.select("#arrayindex"+id).select("circle")
-  //     .attr("stroke", "#ff0000")
-  //     .attr("stroke-width", "4px")
-  //     .attr("r", getNodeDefaultRadius() * .7);
-  // }
-  // function textEntityClicked(entityID) {
-  //   var correspondingNode = displayedGraph.entities.find(function(entity) {
-  //     return entity.arrayindex == entityID;
-  //   });
-  //   highlightNode(correspondingNode);
-  // }
   // textEntities refers to the tagged entities in the nbx
 function enableTextToNodeHighlight() {
   let textEntities = document.getElementsByTagName("span");
@@ -594,7 +580,6 @@ function enableTextToNodeHighlight() {
     });
   };
 }
-
 function highlightText(d) {
   document.getElementById(d.arrayindex).style.fontWeight = "900";
   document.getElementById(d.arrayindex).style.border = "3px solid #000000";
@@ -827,7 +812,7 @@ function convertTags(relex) {
           .replace(/<\/TIMEX>/g, "</span>")
           .replace(/<\/NUMEX>/g, "</span>");
 
-  for (i = 0; i < originalGraph.entities.length; i++) {
+  for (let i = 0; i < originalGraph.entities.length; i++) {
     var replacementString = "<span id='" + i + "'";
     // var included = relex.includes("<span");
     relex = relex.replace("<-span", replacementString);
@@ -1419,16 +1404,16 @@ function buildAllData(parsedRelex) {
     return null;
   };
   //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
-  for (i in parsedRelex.metadata) {
+  for (let i in parsedRelex.metadata) {
     var entity = parsedRelex.metadata[i].content;
-    for (j in entity) {
+    for (let j in entity) {
       if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
         var textentity = entity[j].text.replace(/ \n/g, " ").replace(/\n/g, " ");
         obj.entities.push({tag : entity[j].tag, type : entity[j].type, text : textentity, id : entity[j].offset});
       }
     }
   }
-  for (i in parsedRelex.sbody) {
+  for (let i in parsedRelex.sbody) {
     var entity = parsedRelex.sbody[i];
     //console.log(entity);
     if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
@@ -1436,7 +1421,7 @@ function buildAllData(parsedRelex) {
       obj.entities.push({tag : entity.tag, type : entity.type, text : textentity, id : entity.offset});
     }
   }
-  for (i in parsedRelex.relex) {
+  for (let i in parsedRelex.relex) {
     var relation = parsedRelex.relex[i];
     //Not sure how to handle the surname relationship thing yet. So just don't add them.
     if (!/S=\d\+|S=\d/.test(relation.type)) {
@@ -1455,11 +1440,11 @@ function buildAllData(parsedRelex) {
   var copy = new Object();
   copy.entities = [];
   copy.relations = [];
-  for (i in obj.entities) {
+  for (let i in obj.entities) {
     var entity = obj.entities[i];
     copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});
   }
-  for (i in obj.relations) {
+  for (let i in obj.relations) {
     var relation = obj.relations[i];
     copy.relations.push({ type : relation.type,
                     startToken : relation.startToken,
