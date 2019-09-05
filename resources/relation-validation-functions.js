@@ -96,56 +96,7 @@ function markBadRelations(badRelations) {
 }
 // returns the complement of an array of valid types, from a set of entity types
 function getInvalidTypes(validTypes) {
-  var types = [
-    "STRUCTURE.addr",
-    "AGE",
-    "ANIMAL",
-    "CHEMICAL",
-    "COREF.gen",
-    "COREF.loc",
-    "COREF.dat",
-    "COREF",
-    "DATE",
-    "DATE.non",
-    "DURATANNIV",
-    "EVENT",
-    "EVENT.rel",
-    "EVENT.xlife",
-    "ITE.et",
-    "FAMILYMEMBER",
-    "NONFAMILY",
-    "FOOD_DRINK",
-    "GAME",
-    "HEALTH_CONDITION",
-    "ITE.gpe",
-    "ITE.notgpe",
-    "ITE.org",
-    "LOCALE",
-    "LOCALE.notgpe",
-    "STRUCTURE",
-    "MONEY",
-    "OCCUPATION",
-    "ORGANIZATION",
-    "ORGANIZATION.edu",
-    "ORGANIZATION.mil",
-    "ORGANIZATION.music",
-    "ORGANIZATION.pub",
-    "ORGANIZATION.rel",
-    "ORGANIZATION.sports",
-    "ETPLACE",
-    "PERCENT",
-    "PERSON",
-    "PHONENUMBER",
-    "FLORA",
-    "QUANTITY",
-    "TIME",
-    "TITLE",
-    "TITLEFPH",
-    "VEHICLE",
-    "WEAPON",
-    "URL",
-    "WORK_OF_ART"
-  ];
+  var types = getAllTypes();
   for (let i = types.length - 1; i >= 0; i--) {
     if (validTypes.includes(types[i])) {
       types.splice(i,1);
