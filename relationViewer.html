@@ -115,9 +115,15 @@ function isOverlappedByViewBox(element) {
 }
 // get an array of elements in the nbx that are covered by the text-viewbox
 function getCoveredElements() {
-  var allElements = document.getElementsByTagName("span");
+  var allElements = document.querySelectorAll(".ENAMEX, .TIMEX, .NUMEX");
+  var displayedElements = [];
+  allElements.forEach(function(element) {
+    if (element.style.backgroundColor != "") {
+      displayedElements.push(element);
+    }
+  });
   var coveredElements = [];
-  for (let element of allElements) {
+  for (let element of displayedElements) {
     if (isOverlappedByViewBox(element)) {
       coveredElements.push(element);
     }
