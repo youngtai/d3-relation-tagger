@@ -342,8 +342,6 @@ function relButtonStyleOff(buttonId) {
     }
   }
 }
-
-
 //uploading a GedcomX
 function loadDocument(event) {
   if (!event || !event.target || !event.target.files || event.target.files.length === 0) { alert("Try another file?"); }
@@ -359,44 +357,27 @@ function loadDocument(event) {
       let obj = JSON.parse(content);
       // parsed = parseNbx((obj.records[0].documents[0].text).replace(/ \n/g, " ").replace(/\n/g, " "));
       var parsed = parseNbx((obj.records[0].documents[0].text));
-      // console.log("Parsed:");
-      // console.log(parsed);
       displayedGraph = buildAllData(parsed);
       editedGraph = buildAllData(parsed);
       originalGraph = buildAllData(parsed);
       var relex = obj.records[0].documents[0].text;
       originalRelex = relex;
       relex = convertTags(relex);
-        // console.log(relex);
       document.getElementById("text-div").innerHTML = relex;
-      //displayedGraph = buildAllData(parsed);
-      // console.log("JSON");
-      // console.log(parsed);
     }
     if (extension == "relex") {
       parsed = parseNbx(content);
       offsetChange(parsed);
-      // console.log("Parsed:");
-      // console.log(parsed);
       displayedGraph = buildAllData(parsed);
       editedGraph = buildAllData(parsed);
       originalGraph = buildAllData(parsed);
       originalRelex = content;
       var relex = convertTags(content);
-        // console.log(relex);
       document.getElementById("text-div").innerHTML = relex;
-      // console.log("RELEX");
-      //console.log(parsed);
     }
-    // console.log("Whole Graph:");
-    // console.log(originalGraph);
-    // console.log("displayedGraph:");
-    // console.log(displayedGraph);
-    // console.log(displayedGraph.entities);
-    // console.log(displayedGraph.relations);
+    colorizeText(getAllTypes());
     reloadDisplayedGraphToggleOn();
-    //make D3 simulation happen
-    window.setTimeout(startSimulation, 1500);
+    window.setTimeout(startSimulation, 1200);
     enableTextToNodeHighlight();
   };
   reader.readAsText(file);
@@ -580,30 +561,34 @@ function enableTextToNodeHighlight() {
     });
   };
 }
-function highlightText(d) {
-  document.getElementById(d.arrayindex).style.fontWeight = "900";
-  document.getElementById(d.arrayindex).style.border = "3px solid #000000";
-  document.getElementById(d.arrayindex).style.backgroundColor = "#ffff00";
-  document.getElementById(d.arrayindex).style.color = "black";
-  autoScrollText(d);
+var nbxHighlight = function(d) {
+  let currentStyleBGColor = document.getElementById(d.arrayindex).style.backgroundColor;
+  let currentStyleColor = document.getElementById(d.arrayindex).style.color;
+  let obj = {
+    highlight() {
+      let element = document.getElementById(d.arrayindex);
+      element.style.fontWeight = "900";
+      element.style.border = "3px solid #000000";
+      element.style.backgroundColor = "#ffff00";
+      element.style.color = "black";
+      element.scrollIntoView({behavior: "smooth", block: "center"});
+    },
+    unhighlight() {
+      let element = document.getElementById(d.arrayindex);
+      element.style.fontWeight = "normal";
+      element.style.border = "none";
+      applyStyle(element);
+    }
+  };
+  return obj;
 }
-function unhighlightText(d) {
-  document.getElementById(d.arrayindex).style.fontWeight = "normal";
-  document.getElementById(d.arrayindex).style.border = "none";
-  document.getElementById(d.arrayindex).style.backgroundColor = "";
-  document.getElementById(d.arrayindex).style.color = "";
-}
-function autoScrollText(d) {
-  document.getElementById(d.arrayindex).scrollIntoView({behavior: "smooth", block: "center"});
-}
-
 var hover = false;
 function nodeMouseOver(d) {
   // console.log("Hovering over " + d.text);
   if (!scissorsToggled()) {
     document.getElementById("svg-container").style.cursor = "crosshair";
   }
-  highlightText(d);
+  nbxHighlight(d).highlight();
   hover = true;
 }
 function nodeMouseOut(d) {
@@ -611,12 +596,8 @@ function nodeMouseOut(d) {
   if (!scissorsToggled()) {
     document.getElementById("svg-container").style.cursor = "auto";
   }
-  // document.getElementById(d.arrayindex).style.fontWeight = "normal";
-  // document.getElementById(d.arrayindex).style.border = "none";
-  // document.getElementById(d.arrayindex).style.backgroundColor = "";
-  // document.getElementById(d.arrayindex).style.color = "";
   if (!selectedNodes.includes(d)) {
-    unhighlightText(d);
+    nbxHighlight(d).unhighlight();
   }
   hover = false;
 }
@@ -642,10 +623,6 @@ function nodeDoubleClick(d) {
                           target : targetNode.id,
                         distance : linkDistance(getCurrentRelationship())});
     }
-    // console.log("Relationships displayedGraph");
-    // console.log(displayedGraph.relations);
-    // console.log("editedGraph relations");
-    // console.log(editedGraph.relations);
     clearSelection();
     restart();
   }
@@ -669,12 +646,10 @@ function nodeClick(d) {
       .attr("stroke-width", "2px")
       .attr("fill", function(d) {return colors(d.type);});
       selectedNodeElements.splice(selectedNodeElements.indexOf(DOMelement),1);
-      unhighlightText(d);
+      nbxHighlight(d).unhighlight();
       console.log("Node unselected");
     } else {
-      highlightText(d);
-      // console.log(this);
-      // console.log(d3.select("#arrayindex"+d.arrayindex));
+      nbxHighlight(d).highlight();
       d3.select(DOMelement).select("circle")
         .transition()
         .attr("stroke", "#ff0000")
@@ -701,7 +676,7 @@ function clearSelection() {
         .attr("fill", function(d) {return colors(d.type);});
     }
     for (i in selectedNodes) {
-      unhighlightText(selectedNodes[i]);
+      nbxHighlight(selectedNodes[i]).unhighlight();
     }
     selectedNodes = [];
     selectedNodeElements = [];
@@ -761,53 +736,53 @@ function convertTags(relex) {
   // add a unique id according to the order the enamex shows up in the text. This is so
   // that we can have text highlighting when a node is hovered over.
   relex = relex
-          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='STRUCTURE_addr'>")
-          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='AGE'>")
-          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ANIMAL'>")
-          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='CHEMICAL'>")
-          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='DURATANNIV'>")
-          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='COREF_gen'>")
-          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='COREF_loc'>")
-          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='COREF_dat'>")
-          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='COREF'>")
-          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='DATE'>")
-          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='DATE_non'>")
-          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='EVENT'>")
-          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='EVENT_rel'>")
-          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='EVENT_xlife'>")
-          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='FAMILYMEMBER'>")
-          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='NONFAMILY'>")
-          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='FOOD_DRINK'>")
-          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='GAME'>")
-          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='HEALTH_CONDITION'>")
-          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='LOCALE'>")
-          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='LOCALE_notgpe'>")
-          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ITE_gpe'>")
-          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ITE_notgpe'>")
-          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ITE_org'>")
-          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='STRUCTURE'>")
-          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='MONEY'>")
-          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='OCCUPATION'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ORGANIZATION'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ORGANIZATION_edu'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ORGANIZATION_mil'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ORGANIZATION_music'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ORGANIZATION_pub'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ORGANIZATION_rel'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ORGANIZATION_sports'>")
-          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ETPLACE'>")
-          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='PERCENT'>")
-          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='PERSON'>")
-          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='PHONENUMBER'>")
-          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='FLORA'>")
-          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='QUANTITY'>")
-          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIME'>")
-          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='TITLE'>")
-          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='TITLEFPH'>")
-          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='VEHICLE'>")
-          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='WEAPON'>")
-          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='URL'>")
-          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='WORK_OF_ART'>")
+          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='ENAMEX STRUCTURE_addr'>")
+          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='ENAMEX AGE'>")
+          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ENAMEX ANIMAL'>")
+          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='ENAMEX CHEMICAL'>")
+          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='ENAMEX DURATANNIV'>")
+          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='ENAMEX COREF_gen'>")
+          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='ENAMEX COREF_loc'>")
+          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='TIMEX COREF_dat'>")
+          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='ENAMEX COREF'>")
+          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='TIMEX DATE'>")
+          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='TIMEX DATE_non'>")
+          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='ENAMEX EVENT'>")
+          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='ENAMEX EVENT_rel'>")
+          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='ENAMEX EVENT_xlife'>")
+          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='ENAMEX FAMILYMEMBER'>")
+          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='ENAMEX NONFAMILY'>")
+          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='ENAMEX FOOD_DRINK'>")
+          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='ENAMEX GAME'>")
+          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='ENAMEX HEALTH_CONDITION'>")
+          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='ENAMEX LOCALE'>")
+          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='ENAMEX LOCALE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ENAMEX ITE_gpe'>")
+          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ENAMEX ITE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ENAMEX ITE_org'>")
+          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='ENAMEX STRUCTURE'>")
+          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='NUMEX MONEY'>")
+          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='ENAMEX OCCUPATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ENAMEX ORGANIZATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ENAMEX ORGANIZATION_edu'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ENAMEX ORGANIZATION_mil'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ENAMEX ORGANIZATION_music'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ENAMEX ORGANIZATION_pub'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ENAMEX ORGANIZATION_rel'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ENAMEX ORGANIZATION_sports'>")
+          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ENAMEX ETPLACE'>")
+          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='NUMEX PERCENT'>")
+          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='ENAMEX PERSON'>")
+          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='ENAMEX PHONENUMBER'>")
+          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='ENAMEX FLORA'>")
+          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='NUMEX QUANTITY'>")
+          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIMEX TIME'>")
+          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='ENAMEX TITLE'>")
+          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='ENAMEX TITLEFPH'>")
+          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='ENAMEX VEHICLE'>")
+          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='ENAMEX WEAPON'>")
+          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='ENAMEX URL'>")
+          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='ENAMEX WORK_OF_ART'>")
           .replace(/<\/ENAMEX>/g, "</span>")
           .replace(/<\/TIMEX>/g, "</span>")
           .replace(/<\/NUMEX>/g, "</span>");
@@ -819,11 +794,165 @@ function convertTags(relex) {
   }
   return relex;
 }
-
+function toClassStyle(type) {
+  let classStyle = type.replace(/\./g, "_");
+  classStyle = "." + classStyle;
+  return classStyle;
+}
+function convertEntityTags(relex) {
+  for (type of getAllTypes()) {
+    let replacing = '<ENAMEX TYPE="' + type + '">';
+    let replacement = "<-span class='ENAMEX " + toClassStyle(type) + "'>";
+    relex.replace(/replacing/g, replacement);
+  }
+}
+// need to convert list of types to css format
+// 1. change . to _
+// 2. prepend .
+function toCssClass(typesArray) {
+  var types = [];
+  typesArray.forEach(function(type) {
+    let cssClass = type.replace(/\./g, "_");
+    cssClass = "." + cssClass;
+    types.push(cssClass);
+  });
+  return types;
+}
+function applyStyle(element) {
+  if (element.className == "ENAMEX STRUCTURE_addr") {
+    element.style.backgroundColor = "#999900";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX AGE") {
+    element.style.backgroundColor = "#669AC4";
+  } else if (element.className == "ENAMEX ANIMAL") {
+    element.style.backgroundColor = "#80771F";
+    element.style.backgroundColor = "#ffffff";
+  } else if (element.className == "ENAMEX CHEMICAL") {
+    element.style.backgroundColor = "#AAFF0D";
+  } else if (element.className == "ENAMEX DURATANNIV") {
+    element.style.backgroundColor = "#1E90FF";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX COREF_gen") {
+    element.style.backgroundColor = "#E5CCFF";
+  } else if (element.className == "ENAMEX COREF_loc") {
+    element.style.backgroundColor = "#6a5abd";
+    element.style.color = "#ffffff";
+  } else if (element.className == "TIMEX COREF_dat") {
+    element.style.backgroundColor = "#089977";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX COREF") {
+    element.style.backgroundColor = "#7b68ee";
+    element.style.color = "#ffffff";
+  } else if (element.className == "TIMEX DATE") {
+    element.style.backgroundColor = "#0400ff";
+    element.style.color = "#ffffff";
+  } else if (element.className == "TIMEX DATE_non") {
+    element.style.backgroundColor = "#20b2aa";
+  } else if (element.className == "ENAMEX EVENT") {
+    element.style.backgroundColor = "#00ff51";
+  } else if (element.className == "ENAMEX EVENT_rel") {
+    element.style.backgroundColor = "#99ff99";
+  } else if (element.className == "ENAMEX EVENT_xlife") {
+    element.style.backgroundColor = "#ccffcc";
+  } else if (element.className == "ENAMEX FAMILYMEMBER") {
+    element.style.backgroundColor = "#ee6a69";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX NONFAMILY") {
+    element.style.backgroundColor = "#f5deb3";
+  } else if (element.className == "ENAMEX FOOD_DRINK") {
+    element.style.backgroundColor = "#ff35cc";
+  } else if (element.className == "ENAMEX GAME") {
+    element.style.backgroundColor = "#99004c";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX HEALTH_CONDITION") {
+    element.style.backgroundColor = "#cedcba";
+  } else if (element.className == "ENAMEX LOCALE") {
+    element.style.backgroundColor = "#9c6927";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX LOCALE_notgpe") {
+    element.style.backgroundColor = "#e65ecd";
+  } else if (element.className == "ENAMEX ITE_gpe") {
+    element.style.backgroundColor = "#ff00d0";
+  } else if (element.className == "ENAMEX ITE_notgpe") {
+    element.style.backgroundColor = "#e65ecd";
+  } else if (element.className == "ENAMEX ITE_org") {
+    element.style.backgroundColor = "#eb9ddc";
+  } else if (element.className == "ENAMEX STRUCTURE") {
+    element.style.backgroundColor = "#ffbe0d";
+  } else if (element.className == "NUMEX MONEY") {
+    element.style.backgroundColor = "#fedcba";
+  } else if (element.className == "ENAMEX OCCUPATION") {
+    element.style.backgroundColor = "#ff6a00";
+  } else if (element.className == "ENAMEX ORGANIZATION") {
+    element.style.backgroundColor = "#cc0000";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX ORGANIZATION_edu") {
+    element.style.backgroundColor = "#ff2638";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX ORGANIZATION_mil") {
+    element.style.backgroundColor = "#94323a";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX ORGANIZATION_music") {
+    element.style.backgroundColor = "#fad9dc";
+  } else if (element.className == "ENAMEX ORGANIZATION_pub") {
+    element.style.backgroundColor = "#c36276";
+  } else if (element.className == "ENAMEX ORGANIZATION_rel") {
+    element.style.backgroundColor = "#ed8089";
+  } else if (element.className == "ENAMEX ORGANIZATION_sports") {
+    element.style.backgroundColor = "#e34451";
+  } else if (element.className == "ENAMEX ETPLACE") {
+    element.style.backgroundColor = "#bfbfbf";
+  } else if (element.className == "NUMEX PERCENT") {
+    element.style.backgroundColor = "#005e7d";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX PERSON") {
+    element.style.backgroundColor = "#3f9c05";
+  } else if (element.className == "ENAMEX PHONENUMBER") {
+    element.style.backgroundColor = "#a9a9a9";
+  } else if (element.className == "ENAMEX FLORA") {
+    element.style.backgroundColor = "#abcdef";
+  } else if (element.className == "NUMEX QUANTITY") {
+    element.style.backgroundColor = "#66b2ff";
+  } else if (element.className == "TIMEX TIME") {
+    element.style.backgroundColor = "#6686c4";
+  } else if (element.className == "ENAMEX TITLE") {
+    element.style.backgroundColor = "#ffa266";
+  } else if (element.className == "ENAMEX TITLEFPH") {
+    element.style.backgroundColor = "#ffc266";
+  } else if (element.className == "ENAMEX VEHICLE") {
+    element.style.backgroundColor = "#8e44fc";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX WEAPON") {
+    element.style.backgroundColor = "#6600ff";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX URL") {
+    element.style.backgroundColor = "#606060";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX WORK_OF_ART") {
+    element.style.backgroundColor = "#ffff4d";
+  }
+}
 // color the nbx text, only entities relevant to the selected relationship are colored
-// function colorizeText(validTypes) {
-//   document.querySelectorAll();
-// }
+function colorizeText(validTypes) {
+  var colorElements = document.querySelectorAll(toCssClass(validTypes).join(","));
+  var allElements = document.querySelectorAll(".ENAMEX, .TIMEX, .NUMEX");
+  function includes(collection, item) {
+    for (thing of collection) {
+      if (thing == item) {
+        return true;
+      }
+    }
+    return false;
+  }
+  allElements.forEach(function(element) {
+    if (includes(colorElements, element)) {
+      applyStyle(element);
+    } else {
+      element.style.backgroundColor = null;
+      element.style.color = null;
+    }
+  });
+}
 
 // for coloring text that sits on nodes
 function textColors(type) {
@@ -938,7 +1067,7 @@ function linkDistance(type) {
   if (type == "R40:IS_SAME_AS") {
     return 70;
   } else {
-    return 120;
+    return 130;
   }
 }
 function getNodeTextPlacement(text) {
