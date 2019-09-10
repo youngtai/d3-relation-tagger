@@ -97,6 +97,7 @@ function textVB() {
 
 }
 
+
 function isOverlappedByViewBox(element) {
   var viewBoxElement = document.getElementById("text-viewbox");
   if (typeof viewBoxElement === "undefined" || viewBoxElement === null) {
@@ -132,34 +133,43 @@ function getCoveredElements() {
 }
 
 function rebuildDisplayedGraph() {
-  var updatedEntities = [];
+  function contains(set, element) {
+    for (thing of set) {
+      if (thing.id == element) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  var coveredEntities = [];
   for(element of getCoveredElements()) {
     var id = "#arrayindex" + element.id;
-    updatedEntities.push(d3.select(".nodes").select(id)._groups[0][0].__data__);
+    coveredEntities.push(editedGraph.entities[element.id]);
   }
   var updatedRelations = [];
-  for(relation of displayedGraph.relations) {
-    if (updatedEntities.includes(relation.source) && updatedEntities.includes(relation.target)) {
+  // This has to be created with every resize, but we could do it once per relationship change?
+  var filteredRelations = editedGraph.filterByType(getCurrentRelationship());
+  for (relation of filteredRelations) {
+    if ((contains(coveredEntities, relation.source) || coveredEntities.includes(relation.source) ) &&
+     (contains(coveredEntities, relation.target) || coveredEntities.includes(relation.target) )) {
       updatedRelations.push(relation);
     }
   }
-  return [updatedEntities, updatedRelations];
+  return [coveredEntities, updatedRelations];
 }
 
 function makeViewBoxResizeObserver() {
   var viewBoxResizeObserver = new ResizeObserver(entries => {
-    displayedGraph.entities = rebuildDisplayedGraph()[0];
-    displayedGraph.relations = rebuildDisplayedGraph()[1];
+    let rebuiltGraph = rebuildDisplayedGraph();
+    displayedGraph.entities = rebuiltGraph[0];
+    displayedGraph.relations = rebuiltGraph[1];
     restart();
   });
   viewBoxResizeObserver.observe(document.getElementById("text-viewbox"));
 }
 
-
-
 var simulation;
-    // node,
-    // link;
 var displayedGraph,
     editedGraph,
     originalGraph,
@@ -1538,6 +1548,20 @@ function buildAllData(parsedRelex) {
     }
     return null;
   };
+  // return relationships of chosen type
+  obj.filterByType = function(type) {
+    let filteredRelations = [];
+    if (type == "UNSELECTED") {
+      return this.relations;
+    } else {
+      this.relations.forEach(function(relation) {
+        if (relation.type == type) {
+          filteredRelations.push(relation);
+        }
+      });
+      return filteredRelations;
+    }
+  }
   //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
   for (let i in parsedRelex.metadata) {
     var entity = parsedRelex.metadata[i].content;
@@ -1591,6 +1615,7 @@ function buildAllData(parsedRelex) {
   copy.getSameAsGroups = obj.getSameAsGroups;
   copy.getSameAsRels = obj.getSameAsRels;
   copy.getEntityById = obj.getEntityById;
+  copy.filterByType = obj.filterByType;
   // copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
   // return obj;
   return copy;
