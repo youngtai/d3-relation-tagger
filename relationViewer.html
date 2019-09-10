@@ -15,6 +15,7 @@
       <button id="export" type="button">Export</button>
     </div>
     <div id="option-buttons">
+      <button id="toggle-viewbox" type="button">Show View Box</button>
       <button id="toggle-same-as" type="button">Show "Same As"</button>
       <button id="scissors" type="button">Scissors</button>
       <button id="reload-displayedGraph" type="button">All Relations</button>
@@ -79,7 +80,46 @@
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
-  // Make a viewbox over the nbx text. Only entities completely under the viewBox are displayed as nodes
+function dragTextVB(box) {
+  var pos2 = 0, pos4 = 0;
+  document.getElementById("viewbox-grab-area").onmousedown = dragMouseDown;
+
+  var topPanelDiv = document.getElementById("top-panel");
+  var svgDiv = document.getElementById("svg-container");
+
+  var topLimit = svgDiv.offsetTop;
+  var bottomLimit = svgDiv.offsetTop + svgDiv.offsetHeight;
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos2 = pos4 - e.clientY;
+    pos4 = e.clientY;
+    if ( (box.offsetTop + box.offsetHeight) >= bottomLimit) {
+      box.style.top = (bottomLimit - box.offsetHeight - 1) + "px";
+    } else if (box.offsetTop <= topLimit) {
+      box.style.top = (topLimit + 1) + "px";
+    } else {
+      box.style.top = (box.offsetTop - pos2) + "px";
+    }
+
+    let rebuiltGraph = rebuildDisplayedGraph();
+    displayedGraph.entities = rebuiltGraph[0];
+    displayedGraph.relations = rebuiltGraph[1];
+    restart();
+  }
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+// Make a viewbox over the nbx text. Only entities completely under the viewBox are displayed as nodes
 function textVB() {
   var textDiv = document.getElementById("text-div");
   var vbWidth = textDiv.offsetWidth;
@@ -88,12 +128,23 @@ function textVB() {
   // box.setAttribute("position", "absolute");
   // box.setAttribute("border", "2px solid #000");
   // box.style.width = (vbWidth - 15) + "px";
-  box.style.width = "30.5%";
-  box.style.height = "20%";
-  box.style.top = "5.5%";
-  box.style.left = "5px";
+  box.style.width = "30.25%";
+  box.style.height = "40%";
+  box.style.top = "5.7%";
+  box.style.left = "3px";
   box.style.pointerEvents = "none";
   document.getElementById("text-container").append(box);
+  
+  var boxGrabArea = document.createElement("div");
+  boxGrabArea.setAttribute("id", "viewbox-grab-area");
+  boxGrabArea.style.backgroundColor = "rgb(79,81,80)";
+  boxGrabArea.style.cursor = "move";
+  boxGrabArea.style.height = "25px";
+  boxGrabArea.style.pointerEvents = "auto";
+  boxGrabArea.style.opacity = ".7";
+  document.getElementById("text-viewbox").append(boxGrabArea);
+  dragTextVB(box);
+  makeViewBoxResizeObserver();
 }
 
 function isOverlappedByViewBox(element) {
@@ -166,6 +217,23 @@ function makeViewBoxResizeObserver() {
   });
   viewBoxResizeObserver.observe(document.getElementById("text-viewbox"));
 }
+function toggleViewbox() {
+  var element = document.getElementById("toggle-viewbox");
+  var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
+  if (borderStyle == "solid") {
+    document.getElementById("toggle-viewbox").style.border = "none";
+    document.getElementById("toggle-viewbox").style.backgroundColor = "";
+    document.getElementById("toggle-viewbox").style.color = "";
+    // how do I disconnect the resize observer?
+    document.getElementById("text-viewbox").remove();
+
+  } else {
+    document.getElementById("toggle-viewbox").style.border = "0px solid #cc3333";
+    document.getElementById("toggle-viewbox").style.backgroundColor = "#40c702";
+    document.getElementById("toggle-viewbox").style.color = "#ffffff";
+    textVB();
+  }
+}
 
 var simulation;
 var displayedGraph,
@@ -182,6 +250,7 @@ document.getElementById("file-intake-button").addEventListener("change", loadDoc
 document.getElementById("export").addEventListener("click", exportDocument);
 // document.getElementById("toggle-same-as").addEventListener("click", showSameAsOn);
 // document.getElementById("toggle-same-as").addEventListener("click", showSameAsOff);
+document.getElementById("toggle-viewbox").addEventListener("click", toggleViewbox);
 document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonStyle);
 document.getElementById("scissors").addEventListener("click", toggleScissors);
 document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
@@ -268,7 +337,7 @@ function showSameAs() {
 function showSameAsButtonStyle() {
   var element = document.querySelector("#toggle-same-as");
   var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
-  var backgroundColor = window.getComputedStyle(element).getPropertyValue("background-color");
+  // var backgroundColor = window.getComputedStyle(element).getPropertyValue("background-color");
   if (borderStyle == "solid") {
     // untoggle - make it default color
     // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(243, 243, 243)";
@@ -884,7 +953,7 @@ function applyStyle(element) {
     element.style.backgroundColor = "#9c6927";
     element.style.color = "#ffffff";
   } else if (element.className == "ENAMEX LOCALE_notgpe") {
-    element.style.backgroundColor = "#e65ecd";
+    element.style.backgroundColor = "#cfaf59";
   } else if (element.className == "ENAMEX ITE_gpe") {
     element.style.backgroundColor = "#ff00d0";
   } else if (element.className == "ENAMEX ITE_notgpe") {

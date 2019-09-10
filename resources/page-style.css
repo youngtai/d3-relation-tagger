@@ -55,7 +55,7 @@ text {
 #file-io {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 30%;
 }
 
 #file-intake {
@@ -92,6 +92,22 @@ text {
   flex-direction: row;
   justify-content: flex-end;
   width: 60%;
+}
+
+#toggle-viewbox {
+  width: 15%;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  margin: 10px;
+  color:rgb(59, 59, 59);
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#toggle-viewbox:hover {
+  background-color: #3b3b3b;
+  color:#ffffff;
 }
 
 #toggle-same-as {
@@ -177,20 +193,21 @@ text {
   position: relative;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 100%;
+  height: 97%;
   overflow-y: scroll;
   font-size: 18px;
+  margin-top: 26px;
 }
 
 #text-viewbox {
   position: absolute;
-  border: 4px solid #000;
+  border: 4px solid rgb(58, 58, 58);
   /* width: 30%; */
   /* height: 20%; */
   /* top: 5%; */
   /* left: 5px; */
-  background-color: #00927f;
-  opacity: .2;
+  background-color: transparent;
+  opacity: 1;
   resize: vertical;
   overflow: hidden;
   /* pointer-events: none; */
