@@ -79,7 +79,7 @@
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
-  // Make a viewbox over the nbx text
+  // Make a viewbox over the nbx text. Only entities completely under the viewBox are displayed as nodes
 function textVB() {
   var textDiv = document.getElementById("text-div");
   var vbWidth = textDiv.offsetWidth;
@@ -87,16 +87,14 @@ function textVB() {
   box.setAttribute("id", "text-viewbox");
   // box.setAttribute("position", "absolute");
   // box.setAttribute("border", "2px solid #000");
-  box.style.width = (vbWidth - 15) + "px";
+  // box.style.width = (vbWidth - 15) + "px";
+  box.style.width = "30.5%";
   box.style.height = "20%";
-  box.style.top = "5%";
+  box.style.top = "5.5%";
   box.style.left = "5px";
   box.style.pointerEvents = "none";
   document.getElementById("text-container").append(box);
-
-
 }
-
 
 function isOverlappedByViewBox(element) {
   var viewBoxElement = document.getElementById("text-viewbox");
