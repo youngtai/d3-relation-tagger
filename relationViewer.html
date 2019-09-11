@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <head>
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
-    <link rel="stylesheet" type="text/css" href="resources/enamex-tag-style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="resources/enamex-tag-style.css"> -->
     <link rel="stylesheet" type="text/css" href="resources/page-style.css">
     <link rel="icon" href="resources/1200px-Directed.png"> 
 </head>
@@ -25,7 +25,7 @@
   <div id="main">
     <div id="data-display">
         <div id="text-container">
-          <div id="text-div">Labeled text shows up here.</div>
+          <div id="text-div" onscroll="viewboxOnScroll()">Labeled text shows up here.</div>
         </div>
         <div id="svg-container">
           <svg id="simulation-display-space"></svg>
@@ -73,7 +73,7 @@
   
 <script type="text/javascript" src="resources/nbx-parse.js"></script>
 <script type="text/javascript" src="resources/relation-types.js"></script>
-<script type="text/javascript" src="resources/relation-validation-functions.js"></script>
+<script type="text/javascript" src="resources/relation-filter-functions.js"></script>
 <script src="resources/d3-v4-min.js"></script>
 <!-- <script type="text/javascript" src="resources/relation-functions.js"></script> -->
 <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
@@ -120,6 +120,7 @@ function dragTextVB(box) {
   }
 }
 // Make a viewbox over the nbx text. Only entities completely under the viewBox are displayed as nodes
+var viewboxResizeObserver;
 function textVB() {
   var textDiv = document.getElementById("text-div");
   var vbWidth = textDiv.offsetWidth;
@@ -129,7 +130,7 @@ function textVB() {
   // box.setAttribute("border", "2px solid #000");
   // box.style.width = (vbWidth - 15) + "px";
   box.style.width = "30.25%";
-  box.style.height = "40%";
+  box.style.height = "25%";
   box.style.top = "5.7%";
   box.style.left = "3px";
   box.style.pointerEvents = "none";
@@ -144,7 +145,7 @@ function textVB() {
   boxGrabArea.style.opacity = ".7";
   document.getElementById("text-viewbox").append(boxGrabArea);
   dragTextVB(box);
-  makeViewBoxResizeObserver();
+  makeviewboxResizeObserver();
 }
 
 function isOverlappedByViewBox(element) {
@@ -182,59 +183,135 @@ function getCoveredElements() {
 }
 
 function rebuildDisplayedGraph() {
+  var coveredEntities = [];
+  for(element of getCoveredElements()) {
+    // a round-about way to get the "id" of the entity corresponding to the entity tag element
+    let id = editedGraph.entities[element.id].id;
+    // we first look in the displayedGraph for the entity, for a smoother animation (update selection)
+    let entity = displayedGraph.getEntityById(id); 
+    if (entity != null) {
+      coveredEntities.push(entity);
+    } else {
+      // now we check editedGraph (enter selection)
+      entity = editedGraph.entities[element.id];
+      coveredEntities.push({
+        arrayindex : entity.arrayindex,
+        id : entity.id,
+        index : entity.index,
+        tag : entity.tag,
+        text : entity.text,
+        type : entity.type
+      });
+    }
+  }
+  var updatedRelations = [];
+  var relations = displayedGraph.filterByType(getCurrentRelationship());
+  for (relation of relations) {
+    if ( coveredEntities.includes(relation.source) && coveredEntities.includes(relation.target) ) {
+      updatedRelations.push(relation);
+    }
+  }
+  
+  /* check if a relation from editedGraph.relations is in updatedRelations. Thus far, 
+  if updatedRelations is nonempty, it should contain relations from displayedGraph,
+  meaning source and target are objects, not just ids. */
   function contains(set, element) {
     for (thing of set) {
-      if (thing.id == element) {
+      if ( (thing.source.id == element.source) && (thing.target.id == element.target) ) {
         return true;
       }
     }
     return false;
   }
-
-  var coveredEntities = [];
-  for(element of getCoveredElements()) {
-    var id = "#arrayindex" + element.id;
-    coveredEntities.push(editedGraph.entities[element.id]);
+  function covered(relation) {
+    function sourceCovered() {
+      for (entity of coveredEntities) {
+        if (entity.id == relation.source) {
+          return true;
+        }
+      }
+      return false;
+    }
+    function targetCovered() {
+      for (entity of coveredEntities) {
+        if (entity.id == relation.target) {
+          return true;
+        }
+      }
+      return false;
+    }
+    if (sourceCovered() && targetCovered()) {
+      return true;
+    } else {
+      return false;
+    }
   }
-  var updatedRelations = [];
-  // This has to be created with every resize, but we could do it once per relationship change?
-  var filteredRelations = editedGraph.filterByType(getCurrentRelationship());
-  for (relation of filteredRelations) {
-    if ((contains(coveredEntities, relation.source) || coveredEntities.includes(relation.source) ) &&
-     (contains(coveredEntities, relation.target) || coveredEntities.includes(relation.target) )) {
-      updatedRelations.push(relation);
+  relations = editedGraph.filterByType(getCurrentRelationship());
+  for (relation of relations) {
+    if (!contains(updatedRelations, relation)) {
+      if (covered(relation))
+        updatedRelations.push({
+          type : relation.type,
+          startToken : relation.startToken,
+          source : relation.source,
+          endToken : relation.endToken,
+          target : relation.target,
+          distance : linkDistance(relation.type)
+        });
     }
   }
   return [coveredEntities, updatedRelations];
 }
 
-function makeViewBoxResizeObserver() {
-  var viewBoxResizeObserver = new ResizeObserver(entries => {
-    let rebuiltGraph = rebuildDisplayedGraph();
-    displayedGraph.entities = rebuiltGraph[0];
-    displayedGraph.relations = rebuiltGraph[1];
+function makeviewboxResizeObserver() {
+  viewboxResizeObserver = new ResizeObserver(entries => {
     restart();
   });
-  viewBoxResizeObserver.observe(document.getElementById("text-viewbox"));
+  viewboxResizeObserver.observe(document.getElementById("text-viewbox"));
 }
 function toggleViewbox() {
   var element = document.getElementById("toggle-viewbox");
   var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
   if (borderStyle == "solid") {
-    document.getElementById("toggle-viewbox").style.border = "none";
-    document.getElementById("toggle-viewbox").style.backgroundColor = "";
-    document.getElementById("toggle-viewbox").style.color = "";
-    // how do I disconnect the resize observer?
-    document.getElementById("text-viewbox").remove();
-
+    toggleViewboxOff();
   } else {
-    document.getElementById("toggle-viewbox").style.border = "0px solid #cc3333";
-    document.getElementById("toggle-viewbox").style.backgroundColor = "#40c702";
-    document.getElementById("toggle-viewbox").style.color = "#ffffff";
-    textVB();
+    toggleViewboxOn();
   }
 }
-
+function toggleViewboxOn() {
+  document.getElementById("toggle-viewbox").style.border = "0px solid #cc3333";
+  document.getElementById("toggle-viewbox").style.backgroundColor = "#40c702";
+  document.getElementById("toggle-viewbox").style.color = "#ffffff";
+  textVB();
+}
+function toggleViewboxOff() {
+  document.getElementById("toggle-viewbox").style.border = "none";
+  document.getElementById("toggle-viewbox").style.backgroundColor = "";
+  document.getElementById("toggle-viewbox").style.color = "";
+  // how do I disconnect the resize observer? (made global)
+  viewboxResizeObserver.disconnect();
+  document.getElementById("text-viewbox").remove(); 
+}
+function viewboxOnScroll() {
+  if (document.getElementById("text-viewbox")) {
+    restart();
+  }
+}
+function setToggleViewboxButtonVisibility() {
+  if (getCurrentRelationship() == "UNSELECTED") {
+    document.getElementById("toggle-viewbox").style.display = "none";
+  } else {
+    document.getElementById("toggle-viewbox").style.display = "block";
+  }
+}
+function viewboxToggledOn() {
+  var vb = document.getElementById("toggle-viewbox");
+  if (vb.style.border == "" || vb.style.border == "none") {
+    return false;
+  } else {
+    return true;
+  }
+}
 var simulation;
 var displayedGraph,
     editedGraph,
@@ -251,10 +328,12 @@ document.getElementById("export").addEventListener("click", exportDocument);
 // document.getElementById("toggle-same-as").addEventListener("click", showSameAsOn);
 // document.getElementById("toggle-same-as").addEventListener("click", showSameAsOff);
 document.getElementById("toggle-viewbox").addEventListener("click", toggleViewbox);
-document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonStyle);
+document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonActions);
 document.getElementById("scissors").addEventListener("click", toggleScissors);
+document.getElementById("reload-displayedGraph").addEventListener("click", toggleViewboxOff);
+document.getElementById("reload-displayedGraph").addEventListener("click", setToggleViewboxButtonVisibility);
+document.getElementById("reload-displayedGraph").addEventListener("click", setshowSameAsButtonVisibility);
 document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
-document.getElementById("reload-displayedGraph").addEventListener("click", setShowSameAsButtonStyle);
 document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
 document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
 // document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
@@ -297,8 +376,9 @@ document.getElementById("has-title").addEventListener("click", hasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
 for (let i = 0; i < relationshipButtonClass.length; i++) {
-  relationshipButtonClass[i].addEventListener("click", setShowSameAsButtonStyle);
-  relationshipButtonClass[i].addEventListener("click", showSameAs);
+  relationshipButtonClass[i].addEventListener("click", setToggleViewboxButtonVisibility);
+  relationshipButtonClass[i].addEventListener("click", setshowSameAsButtonVisibility);
+  relationshipButtonClass[i].addEventListener("click", showSameAsLinks);
   relationshipButtonClass[i].addEventListener("click", relButtonStyle);
   relationshipButtonClass[i].addEventListener("click", relButtonStyleOff);
   relationshipButtonClass[i].addEventListener("click", clearSelection);
@@ -316,38 +396,35 @@ function reloadDisplayedGraphToggleOff() {
   document.getElementById("reload-displayedGraph").style.backgroundColor = "";
   document.getElementById("reload-displayedGraph").style.color = "";
 }
-
-function setShowSameAsButtonStyle() {
+function setScissorButtonVisibility() {
+  if (getCurrentRelationship() == "UNSELECTED") {
+    document.getElementById("scissors").style.display = "block";
+  } else {
+    document.getElementById("scissors").style.display = "none";
+  }
+}
+function setshowSameAsButtonVisibility() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS" && getCurrentRelationship() != "UNSELECTED") {
     document.getElementById("toggle-same-as").style.display = "block";
   } else {
     document.getElementById("toggle-same-as").style.display = "none";
   }
 }
-function showSameAs() {
-  // If we're already viewing "is same as" or all relations then we don't need to do anything - "UNSELECTED" means no relation filter
+function showSameAsLinks() {
   if (showSameAsToggled()) {
-    // console.log("Showing 'same as' links.");
     showSameAsOn();
-  // } else if (!showSameAsToggled()) {
-  //   // console.log("Hiding 'same as' links.");
-  //   showSameAsOff();
   }
 }
-function showSameAsButtonStyle() {
+function showSameAsButtonActions() {
   var element = document.querySelector("#toggle-same-as");
   var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
-  // var backgroundColor = window.getComputedStyle(element).getPropertyValue("background-color");
   if (borderStyle == "solid") {
     // untoggle - make it default color
-    // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(243, 243, 243)";
     document.getElementById("toggle-same-as").style.border = "none";
     document.getElementById("toggle-same-as").style.backgroundColor = "";
     document.getElementById("toggle-same-as").style.color = "";
     showSameAsOff();
-  // } else if (borderStyle == "none") {
   } else {
-    // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(204, 51, 51)";
     document.getElementById("toggle-same-as").style.border = "0px solid #cc3333";
     document.getElementById("toggle-same-as").style.backgroundColor = "#40c702";
     document.getElementById("toggle-same-as").style.color = "#ffffff";
@@ -654,7 +731,9 @@ var nbxHighlight = function(d) {
       element.style.border = "3px solid #000000";
       element.style.backgroundColor = "#ffff00";
       element.style.color = "black";
-      element.scrollIntoView({behavior: "smooth", block: "center"});
+      if (!document.getElementById("text-viewbox")) {
+        element.scrollIntoView({behavior: "smooth", block: "center"});
+      }
     },
     unhighlight() {
       let element = document.getElementById(d.arrayindex);
@@ -1304,7 +1383,7 @@ function startSimulation() {
   hulls.data(groups).enter()
       .append("path");
 
-  simulation.alphaDecay(.02).velocityDecay(.075); // .075
+  simulation.alphaDecay(.02).velocityDecay(.075); // .02 .075
 
   //update circle positions to reflect node updates on each tick of the simulation
   function tickActions() {
@@ -1359,6 +1438,13 @@ function restart() {
         }
       }
     }
+  }
+
+  // If the text viewbox is already on, we want to show only the boxed entities and relations
+  if (viewboxToggledOn()) {
+    let rebuiltGraph = rebuildDisplayedGraph();
+    displayedGraph.entities = rebuiltGraph[0];
+    displayedGraph.relations = rebuiltGraph[1];
   }
 
   var node = d3.select(".nodes").selectAll("g");
@@ -1609,7 +1695,9 @@ function buildAllData(parsedRelex) {
   };
   obj.getEntityById = function(id) {
     for (let entity of this.entities) {
-      if (entity.id == id) {
+      // if 'id' is an entity that has been attached to a node, then we are getting an entire object vs the id
+      // hence we check for id, or id.id
+      if (entity.id == id || entity.id == id.id) {
         return entity;
       }
     }

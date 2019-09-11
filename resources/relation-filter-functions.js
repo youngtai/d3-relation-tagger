@@ -26,6 +26,7 @@ function buildDisplayedGraph(relationType, validEntityTypes) {
   function getDisplayEntities() {
     var entitySet = new Set();
     var entityArray = [];
+    var relationType = getCurrentRelationship();
     function entityInSet(e) {
       for (let entity of entitySet) {
         if (entity.id == e.id) {
@@ -188,107 +189,107 @@ function getCurrentRelationship() {
 function hasStartDate() {
   currentRelationship = "E1:HAS_STDATE";
   var validTypes = getHasStartDateTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Start Date' graph");
-  colorizeText(validTypes);
 }
 function hasStartPlace() {
   currentRelationship = "E1:HAS_ST_PL";
   var validTypes = getHasStartPlaceTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Start Place' graph");
-  colorizeText(validTypes);
 }
 function hasStartTime() {
   currentRelationship = "E1:HAS_ST_TM";
   var validTypes = getHasStartTimeTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Start Time' graph");
-  colorizeText(validTypes);
 }
 function hasEndDate() {
   currentRelationship = "E3:HAS_ENDDATE";
   var validTypes = getHasEndDateTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has End Date' graph");
-  colorizeText(validTypes);
 }
 function hasEndPlace() {
   currentRelationship = "E3:HAS_END_PL";
   var validTypes = getHasEndPlaceTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has End Place' graph");
-  colorizeText(validTypes);
 }
 function hasEndTime() {
   currentRelationship = "E1:HAS_END_TM";
   var validTypes = getHasEndTimeTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has End Time' graph");
-  colorizeText(validTypes);
 }
 function hasEvent() {
   currentRelationship = "Z:HAS_EVENT";
   var validTypes = getHasEventTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Event' graph");
-  colorizeText(validTypes);
 }
 function hasEventFact() {
   currentRelationship = "E4:HAS_EVENT_FACT";
   var validTypes = getHasEventFactTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Event Fact' graph");
-  colorizeText(validTypes);
 }
 function isEventFact() {
   currentRelationship = "E4:IS_EVENT_FACT";
   var validTypes = getIsEventFactTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Is Event Fact' graph");
-  colorizeText(validTypes);
 }
 function hasSpouse() {
   currentRelationship = "R00:HAS_SPOUSE";
   var validTypes = getHasSpouseTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Spouse' graph");
-  colorizeText(validTypes);
 }
 function hasFather() {
   currentRelationship = "R01:HAS_FATHER";
   var validTypes = getHasFatherTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Father' graph");
-  colorizeText(validTypes);
 }
 function hasMother() {
   currentRelationship = "R02:HAS_MOTHER";
   var validTypes = getHasMotherTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Mother' graph");
-  colorizeText(validTypes);
 }
 function ageOf() {
   currentRelationship = "Z:AGE_OF";
   var validTypes = getAgeOfTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Age Of' graph");
-  colorizeText(validTypes);
 }
 function attended() {
   currentRelationship = "Z:ATTENDED";
   var validTypes = getAttendedTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Attended' graph");
-  colorizeText(validTypes);
 }
 function causedBy() {
   currentRelationship = "Z:CAUSED_BY";
   var validTypes = getCausedByTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Caused By' graph");
-  colorizeText(validTypes);
 }
 function contactInfo() {
   currentRelationship = "Z:'S_CONTACT";
@@ -300,133 +301,133 @@ function contactInfo() {
 function created() {
   currentRelationship = "Z:CREATED";
   var validTypes = getCreatedTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Created' graph");
-  colorizeText(validTypes);
 }
 function hasDuration() {
   currentRelationship = "Z:HAS_DURATION";
   var validTypes = getHasDurationTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Duration' graph");
-  colorizeText(validTypes);
 }
 function employedBy() {
   currentRelationship = "Z:EMPLOYED_BY";
   var validTypes = getEmployedByTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Employed By' graph");
-  colorizeText(validTypes);
 }
 function hasFamilyMember() {
   currentRelationship = "Z:HASFAMMEMLST";
   var validTypes = getHasFamilyMemberTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Family Member' graph");
-  colorizeText(validTypes);
 }
 function isFemale() {
   currentRelationship = "Z:IS_FEM_FOR";
   var validTypes = getIsFemaleTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Is Female' graph");
-  colorizeText(validTypes);
 }
 function isFictional() {
   currentRelationship = "Z:IS_FICTIONAL";
   var validTypes = getIsFictionalTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Is Fictional' graph");
-  colorizeText(validTypes);
 }
 function isMale() {
   currentRelationship = "Z:IS_MALE_FOR";
   var validTypes = getIsMaleTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Is Male' graph");
-  colorizeText(validTypes);
 }
 function isMemberOf() {
   currentRelationship = "Z:MEMBER_OF";
   var validTypes = getIsMemberOfTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Is Member Of' graph");
-  colorizeText(validTypes);
 }
 function nameCombiner() {
   currentRelationship = "Z:NAMEXTRA_OF";
   var validTypes = getNameCombinerTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Name Combiner' graph");
-  colorizeText(validTypes);
 }
 function hasOccupation() {
   currentRelationship = "Z:OCCUPATION_OF";
   var validTypes = getHasOccupationTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Occupation' graph");
-  colorizeText(validTypes);
 }
 function owns() {
   currentRelationship = "Z:OWNS";
   var validTypes = getOwnsTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Owns' graph");
-  colorizeText(validTypes);
 }
 function precedesRecently() {
   currentRelationship = "Z:PRECEDE_RCNT";
   var validTypes = getPrecedesRecentlyTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Preceden's Recently' graph");
-  colorizeText(validTypes);
 }
 function principalsAssociate() {
   currentRelationship = "Z:PRIN_ASSOC";
   var validTypes = getPrincipalsAssociateTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Principal's Associate' graph");
-  colorizeText(validTypes);
 }
 function isPrincipalPerson() {
   currentRelationship = "Z:IS_PRINCIPAL";
   var validTypes = getIsPrincipalPersonTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Is Principal Person' graph");
-  colorizeText(validTypes);
 }
 function quantity() {
   currentRelationship = "Z:NUMBER_OF";
   var validTypes = getQuantityTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Quantity' graph");
-  colorizeText(validTypes);
 }
 function hasResidencePlace() {
   currentRelationship = "E2:HAS_RESPL";
   var validTypes = getHasResidencePlaceTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Residence Place' graph");
-  colorizeText(validTypes);
 }
 function sameAs() {
   currentRelationship = "R40:IS_SAME_AS";
   var validTypes = getSameAsTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Same As' graph.");
-  colorizeText(validTypes);
 }
 function subplaceOf() {
   currentRelationship = "Z:SUBPLACE_OF";
   var validTypes = getSubplaceOfTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Subplace Of' graph.");
-  colorizeText(validTypes);
 }
 function hasTitle() {
   currentRelationship = "Z:TITLE_OF";
   var validTypes = getHasTitleTypes();
+  colorizeText(validTypes);
   showUpdatedGraph(currentRelationship, validTypes);
   console.log("Displaying 'Has Title' graph");
-  colorizeText(validTypes);
 }
