@@ -13,12 +13,14 @@ function buildDisplayedGraph(relationType, validEntityTypes) {
     for (i in editedGraph.relations) {
       let relation = editedGraph.relations[i];
       if (!relationInGraph(relation) && (relation.type == relationType) && !/S=\d\+|S=\d/.test(relation.type)) {
-        relations.push({type : relation.type, 
-                              startToken : relation.startToken, 
-                              source : relation.source, 
-                              endToken : relation.endToken, 
-                              target : relation.target,
-                            distance : linkDistance(relation.type)})
+        relations.push({
+          linkId : relation.linkId,
+          type : relation.type, 
+          startToken : relation.startToken, 
+          source : relation.source, 
+          endToken : relation.endToken, 
+          target : relation.target,
+          distance : linkDistance(relation.type)})
       }
     }
     return relations;
@@ -166,12 +168,14 @@ function loadWholeGraph() {
       // }
     if (!relationInGraph(relation) && !/S=\d\+|S=\d/.test(relation.type)) {
       // if (relation.type == "E2:HAS_RESPL") { console.log("E2:HAS_RESPL found inside if!");}
-      displayedGraph.relations.push({type : relation.type,
-                            startToken : relation.startToken, 
-                            source : relation.source, 
-                            endToken : relation.endToken, 
-                            target : relation.target,
-                          distance : linkDistance(relation.type)});
+      displayedGraph.relations.push({
+        linkId : relation.linkId,
+        type : relation.type,
+        startToken : relation.startToken, 
+        source : relation.source, 
+        endToken : relation.endToken, 
+        target : relation.target,
+        distance : linkDistance(relation.type)});
     }
   }
   console.log("Showing All Relationships: ");

@@ -109,9 +109,9 @@ function dragTextVB(box) {
       box.style.top = (box.offsetTop - pos2) + "px";
     }
 
-    let rebuiltGraph = rebuildDisplayedGraph();
-    displayedGraph.entities = rebuiltGraph[0];
-    displayedGraph.relations = rebuiltGraph[1];
+    // let rebuiltGraph = rebuildDisplayedGraph();
+    // displayedGraph.entities = rebuiltGraph[0];
+    // displayedGraph.relations = rebuiltGraph[1];
     restart();
   }
   function closeDragElement() {
@@ -205,7 +205,7 @@ function rebuildDisplayedGraph() {
     }
   }
   var updatedRelations = [];
-  var relations = displayedGraph.filterByType(getCurrentRelationship());
+  var relations = displayedGraph.filterRelationsByType(getCurrentRelationship());
   for (relation of relations) {
     if ( coveredEntities.includes(relation.source) && coveredEntities.includes(relation.target) ) {
       updatedRelations.push(relation);
@@ -246,11 +246,12 @@ function rebuildDisplayedGraph() {
       return false;
     }
   }
-  relations = editedGraph.filterByType(getCurrentRelationship());
+  relations = editedGraph.filterRelationsByType(getCurrentRelationship());
   for (relation of relations) {
     if (!contains(updatedRelations, relation)) {
       if (covered(relation))
         updatedRelations.push({
+          linkId : relation.linkId,
           type : relation.type,
           startToken : relation.startToken,
           source : relation.source,
@@ -312,6 +313,16 @@ function viewboxToggledOn() {
     return true;
   }
 }
+// Some global variables
+var linkId = 0;
+function getLinkId(option) {
+  if (option == "no increment") {
+    return linkId;
+  } else {
+    linkId = linkId + 1;
+    return linkId;
+  }
+}
 var simulation;
 var displayedGraph,
     editedGraph,
@@ -333,6 +344,7 @@ document.getElementById("scissors").addEventListener("click", toggleScissors);
 document.getElementById("reload-displayedGraph").addEventListener("click", toggleViewboxOff);
 document.getElementById("reload-displayedGraph").addEventListener("click", setToggleViewboxButtonVisibility);
 document.getElementById("reload-displayedGraph").addEventListener("click", setshowSameAsButtonVisibility);
+document.getElementById("reload-displayedGraph").addEventListener("click", setScissorButtonVisibility);
 document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
 document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
 document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
@@ -378,6 +390,7 @@ var relationshipButtonClass = document.getElementsByClassName("relationship-butt
 for (let i = 0; i < relationshipButtonClass.length; i++) {
   relationshipButtonClass[i].addEventListener("click", setToggleViewboxButtonVisibility);
   relationshipButtonClass[i].addEventListener("click", setshowSameAsButtonVisibility);
+  relationshipButtonClass[i].addEventListener("click", setScissorButtonVisibility);
   relationshipButtonClass[i].addEventListener("click", showSameAsLinks);
   relationshipButtonClass[i].addEventListener("click", relButtonStyle);
   relationshipButtonClass[i].addEventListener("click", relButtonStyleOff);
@@ -398,9 +411,9 @@ function reloadDisplayedGraphToggleOff() {
 }
 function setScissorButtonVisibility() {
   if (getCurrentRelationship() == "UNSELECTED") {
-    document.getElementById("scissors").style.display = "block";
-  } else {
     document.getElementById("scissors").style.display = "none";
+  } else {
+    document.getElementById("scissors").style.display = "block";
   }
 }
 function setshowSameAsButtonVisibility() {
@@ -447,12 +460,14 @@ function showSameAsOn() {
       if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
 // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
 // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
-        displayedGraph.relations.push({type : relation.type,
-                                startToken : relation.startToken,
-                                    source : relation.source,
-                                  endToken : relation.endToken,
-                                    target : relation.target,
-                                  distance : linkDistance(relation.type)});
+        displayedGraph.relations.push({
+          linkId : relation.linkId,
+          type : relation.type,
+          startToken : relation.startToken,
+          source : relation.source,
+          endToken : relation.endToken,
+          target : relation.target,
+          distance : linkDistance(relation.type)});
       }
     });
     sameAsRestart();
@@ -517,9 +532,13 @@ function loadDocument(event) {
       let obj = JSON.parse(content);
       // parsed = parseNbx((obj.records[0].documents[0].text).replace(/ \n/g, " ").replace(/\n/g, " "));
       var parsed = parseNbx((obj.records[0].documents[0].text));
-      displayedGraph = buildAllData(parsed);
-      editedGraph = buildAllData(parsed);
-      originalGraph = buildAllData(parsed);
+      editedGraph = makeGraphObject(parsed);
+      displayedGraph = makeGraphObject();
+      displayedGraph.entities = editedGraph.getEntitiesCopy();
+      displayedGraph.relations = editedGraph.getRelationsCopy();
+      originalGraph = makeGraphObject();
+      originalGraph.entities = editedGraph.getEntitiesCopy();
+      originalGraph.relations = editedGraph.getRelationsCopy();
       var relex = obj.records[0].documents[0].text;
       originalRelex = relex;
       relex = convertTags(relex);
@@ -528,9 +547,13 @@ function loadDocument(event) {
     if (extension == "relex") {
       parsed = parseNbx(content);
       offsetChange(parsed);
-      displayedGraph = buildAllData(parsed);
-      editedGraph = buildAllData(parsed);
-      originalGraph = buildAllData(parsed);
+      editedGraph = makeGraphObject(parsed);
+      displayedGraph = makeGraphObject();
+      displayedGraph.entities = editedGraph.getEntitiesCopy();
+      displayedGraph.relations = editedGraph.getRelationsCopy();
+      originalGraph = makeGraphObject();
+      originalGraph.entities = editedGraph.getEntitiesCopy();
+      originalGraph.relations = editedGraph.getRelationsCopy();
       originalRelex = content;
       var relex = convertTags(content);
       document.getElementById("text-div").innerHTML = relex;
@@ -628,42 +651,43 @@ function scissorsToggled() {
 }
 function linkMouseOver(d) {
   if (scissorsToggled()) {
+    d3.select("#arrowhead")
+      .attr("refX",0);
     d3.select(this)
-      .style("stroke-width", 6)
-      // .attr("markerWidth",1)  //These two determine arrowhead size
-      // .attr("markerHeight",1)
-      // .attr("refX",14)    //arrow placement:how far it is from node center
+      .transition()
+      .style("stroke-width", 8)
       .style("stroke", "red");
   }
 }
 function linkMouseOut(d) {
   if (scissorsToggled()) {
     d3.select(this)
-      // .attr("markerWidth",3)  //These two determine arrowhead size
-      // .attr("markerHeight",4)
+      .transition()
       .style("stroke", "black")
       .style("stroke-width", 4);
+    d3.select("#arrowhead")
+      .attr("refX",28);
   }
 }
 function linkCut(d) {
   if (scissorsToggled()) {
-    // console.log(d);
     let toCutIndex = displayedGraph.relations.findIndex( function(element) {
       return element == d;
     });
-    console.log("Cutting at index: " + toCutIndex);
-    displayedGraph.relations.splice(toCutIndex,1);
-    restart();
+    console.log("Cutting from displayedGraph:");
+    console.log(displayedGraph.relations.splice(toCutIndex,1));
     // now remove it from editedGraph
-    // toCutIndex = editedGraph.relations.findIndex( function(element) {
-    //   return element == d;
-    // });
-    editedGraph.relations.splice(toCutIndex,1);
-    // console.log(displayedGraph);
-    // console.log(editedGraph);
+    toCutIndex = editedGraph.relations.findIndex( function(element) {
+      return element.linkId == d.linkId;
+    });
+    console.log("Cutting from editedGraph:");
+    console.log(editedGraph.relations.splice(toCutIndex,1));
+    restart();
+    d3.select("#arrowhead")
+      .attr("refX",28);
   }
 }
-  // textEntities refers to the tagged entities in the nbx
+// textEntities refers to the tagged entities in the nbx
 function enableTextToNodeHighlight() {
   let textEntities = document.getElementsByTagName("span");
   for (let i = 0; i < textEntities.length; i++) {
@@ -694,12 +718,6 @@ function enableTextToNodeHighlight() {
           .transition().attr("stroke-width","4px");
     });
     textEntities[i].addEventListener("mouseout", function(mouseEventObj) {
-      // if it's a selected node, we need to leave it in that state when mouseout
-      // current behavior - if I select a node, then mouseover and mouseout on other nodes,
-      // they stay big with a black border
-      // If I select a node, and hover over it, it stays black and bold.
-      // So both of these are caused by the same problem.
-      // I need to:
       // if something is selected, it's previous state must be preserved
       // -- selected stays small and red border
       // -- normal goes back to normal
@@ -771,19 +789,23 @@ function nodeDoubleClick(d) {
   if (selectedNodes.length > 0) {
     for (i in selectedNodes) {
       var targetNode = d;
-      displayedGraph.relations.push({type : getCurrentRelationship(),
-                      startToken : selectedNodes[i].text,
-                          source : selectedNodes[i].id,
-                        endToken : targetNode.text,
-                          target : targetNode.id,
-                        distance : linkDistance(getCurrentRelationship())});
+      displayedGraph.relations.push({
+        linkId : getLinkId(),
+        type : getCurrentRelationship(),
+        startToken : selectedNodes[i].text,
+        source : selectedNodes[i].id,
+        endToken : targetNode.text,
+        target : targetNode.id,
+        distance : linkDistance(getCurrentRelationship())});
       console.log("Added link between " + selectedNodes[i].text + " and " + targetNode.text);
-      editedGraph.relations.push({type : getCurrentRelationship(),
-                      startToken : selectedNodes[i].text,
-                          source : selectedNodes[i].id,
-                        endToken : targetNode.text,
-                          target : targetNode.id,
-                        distance : linkDistance(getCurrentRelationship())});
+      editedGraph.relations.push({
+        linkId : getLinkId("no increment"),
+        type : getCurrentRelationship(),
+        startToken : selectedNodes[i].text,
+        source : selectedNodes[i].id,
+        endToken : targetNode.text,
+        target : targetNode.id,
+        distance : linkDistance(getCurrentRelationship())});
     }
     clearSelection();
     restart();
@@ -860,7 +882,7 @@ function onClick() {
     clearSelection();
   }
   if (hover) {
-    console.log("hovering over a node");
+    console.log("Clicked on a node");
   }
 }
 
@@ -1268,7 +1290,7 @@ function startSimulation() {
   svg.append("svg:defs").selectAll("marker")
     .data(["arrowhead"])    //different link types defined here
     .enter().append("svg:marker")   //section adds the arrows
-    .attr("id", String) //without this no arrows show up
+    .attr("id", "arrowhead") //without this no arrows show up
     .attr("viewBox","0 -5 10 10")   //this cuts off the arrow image - you could use this to show half an arrow
     .attr("refX",28)    //arrow placement:how far it is from node center
     .attr("refY",0)     //arrow placement:offset from center line of node
@@ -1306,11 +1328,6 @@ function startSimulation() {
     .on("click", nodeClick)
     .on("dblclick", nodeDoubleClick);
   
-  //   var m = displayedGraph.entities.length;
-  // node._groups[0].forEach(function(d, i) {
-  //   d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-  //   d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
-  // });
   let m = displayedGraph.entities.length;
   displayedGraph.entities.forEach(function(d) {
     d.x = width/2 + Math.cos(Math.random() * 2*Math.PI) * Math.random() * 300;
@@ -1655,7 +1672,7 @@ function sameAsRestart() {
 
 // key thing about building the displayedGraph is that the entities for each end of a link must
 // exist and match the link names precisely otherwise it errors and doesn't show anything
-function buildAllData(parsedRelex) {
+function makeGraphObject(parsedRelex) {
   var obj = new Object();
   obj.entities = [];
   obj.relations = [];
@@ -1703,8 +1720,36 @@ function buildAllData(parsedRelex) {
     }
     return null;
   };
+  obj.getEntitiesCopy = function() {
+    let copy = [];
+    for (let entity of this.entities) {
+      copy.push({
+        tag : entity.tag,
+        type : entity.type,
+        text : entity.text,
+        id : entity.id,
+        arrayindex : entity.arrayindex
+      });
+    }
+    return copy;
+  }
+  obj.getRelationsCopy = function() {
+    let copy = [];
+    for (let relation of this.relations) {
+      copy.push({
+        linkId : relation.linkId,
+        type : relation.type,
+        startToken : relation.startToken,
+        source : relation.source,
+        endToken : relation.endToken,
+        target : relation.target,
+        distance : relation.distance
+      });
+    }
+    return copy;
+  }
   // return relationships of chosen type
-  obj.filterByType = function(type) {
+  obj.filterRelationsByType = function(type) {
     let filteredRelations = [];
     if (type == "UNSELECTED") {
       return this.relations;
@@ -1717,63 +1762,49 @@ function buildAllData(parsedRelex) {
       return filteredRelations;
     }
   }
-  //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
-  for (let i in parsedRelex.metadata) {
-    var entity = parsedRelex.metadata[i].content;
-    for (let j in entity) {
-      if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
-        var textentity = entity[j].text.replace(/ \n/g, " ").replace(/\n/g, " ");
-        obj.entities.push({tag : entity[j].tag, type : entity[j].type, text : textentity, id : entity[j].offset});
+  
+  // Only add data if parsedRelex is not null, otherwise we make a graph obj with no data
+  if (parsedRelex != null) {
+    // *** Entities ***
+    //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
+    for (let i in parsedRelex.metadata) {
+      var entity = parsedRelex.metadata[i].content;
+      for (let j in entity) {
+        if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
+          var textentity = entity[j].text.replace(/ \n/g, " ").replace(/\n/g, " ");
+          obj.entities.push({tag : entity[j].tag, type : entity[j].type, text : textentity, id : entity[j].offset});
+        }
+      }
+    }
+    for (let i in parsedRelex.sbody) {
+      var entity = parsedRelex.sbody[i];
+      //console.log(entity);
+      if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
+        var textentity = entity.text.replace(/ \n/g, " ").replace(/\n/g, " ");
+        obj.entities.push({tag : entity.tag, type : entity.type, text : textentity, id : entity.offset});
+      }
+    }
+    for (let i in obj.entities) {
+      obj.entities[i].arrayindex = i;
+    }
+    // *****************
+    // *** Relations ***
+    for (let i in parsedRelex.relex) {
+      var relation = parsedRelex.relex[i];
+      //Not sure how to handle the surname relationship thing yet. So just don't add them.
+      if (!/S=\d\+|S=\d/.test(relation.type)) {
+        obj.relations.push({
+          linkId : getLinkId(),
+          type : relation.type,
+          startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "),
+          source : relation.startOffset,
+          endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "),
+          target : relation.endOffset,
+          distance : linkDistance(relation.type)});
       }
     }
   }
-  for (let i in parsedRelex.sbody) {
-    var entity = parsedRelex.sbody[i];
-    //console.log(entity);
-    if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
-      var textentity = entity.text.replace(/ \n/g, " ").replace(/\n/g, " ");
-      obj.entities.push({tag : entity.tag, type : entity.type, text : textentity, id : entity.offset});
-    }
-  }
-  for (let i in parsedRelex.relex) {
-    var relation = parsedRelex.relex[i];
-    //Not sure how to handle the surname relationship thing yet. So just don't add them.
-    if (!/S=\d\+|S=\d/.test(relation.type)) {
-      obj.relations.push({type : relation.type,
-                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "),
-                        source : relation.startOffset,
-                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "),
-                        target : relation.endOffset,
-                      distance : linkDistance(relation.type)});
-    }
-  }
-  // change node radius depending on number of entities - more => smaller radius, less => larger radius
-
-  // Now we make a copy that adds an index according to the element position in the array, which should follow the order
-  // it shows up in the text (for highlighting on hover both ways)
-  var copy = new Object();
-  copy.entities = [];
-  copy.relations = [];
-  for (let i in obj.entities) {
-    var entity = obj.entities[i];
-    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});
-  }
-  for (let i in obj.relations) {
-    var relation = obj.relations[i];
-    copy.relations.push({ type : relation.type,
-                    startToken : relation.startToken,
-                        source : relation.source,
-                      endToken : relation.endToken,
-                        target : relation.target,
-                      distance : linkDistance(relation.type)});
-  }
-  copy.getSameAsGroups = obj.getSameAsGroups;
-  copy.getSameAsRels = obj.getSameAsRels;
-  copy.getEntityById = obj.getEntityById;
-  copy.filterByType = obj.filterByType;
-  // copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
-  // return obj;
-  return copy;
+  // *******************
+  return obj;
 }
-
 </script>
