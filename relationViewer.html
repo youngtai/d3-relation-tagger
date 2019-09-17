@@ -80,7 +80,7 @@
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
-function dragTextVB(box) {
+function enableTextViewboxDrag(box) {
   var pos2 = 0, pos4 = 0;
   document.getElementById("viewbox-grab-area").onmousedown = dragMouseDown;
 
@@ -144,45 +144,43 @@ function textVB() {
   boxGrabArea.style.pointerEvents = "auto";
   boxGrabArea.style.opacity = ".7";
   document.getElementById("text-viewbox").append(boxGrabArea);
-  dragTextVB(box);
+  enableTextViewboxDrag(box);
   makeviewboxResizeObserver();
 }
-
-function isOverlappedByViewBox(element) {
-  var viewBoxElement = document.getElementById("text-viewbox");
-  if (typeof viewBoxElement === "undefined" || viewBoxElement === null) {
-    return false;
-  }
-  var viewBoxTop = viewBoxElement.getBoundingClientRect().top;
-  var viewBoxBottom = viewBoxElement.getBoundingClientRect().bottom;
-  var elementTop = element.getBoundingClientRect().top;
-  var elementBottom = element.getBoundingClientRect().bottom;
-
-  if (viewBoxTop <= elementTop && viewBoxBottom >= elementBottom) {
-    return true;
-  } else {
-    return false;
-  }
-}
-// get an array of elements in the nbx that are covered by the text-viewbox
-function getCoveredElements() {
-  var allElements = document.querySelectorAll(".ENAMEX, .TIMEX, .NUMEX");
-  var displayedElements = [];
-  allElements.forEach(function(element) {
-    if (element.style.backgroundColor != "") {
-      displayedElements.push(element);
-    }
-  });
-  var coveredElements = [];
-  for (let element of displayedElements) {
-    if (isOverlappedByViewBox(element)) {
-      coveredElements.push(element);
-    }
-  }
-  return coveredElements;
-}
-
 function rebuildDisplayedGraph() {
+  // get an array of elements in the nbx that are covered by the text-viewbox
+  function getCoveredElements() {
+    function isOverlappedByViewBox(element) {
+      var viewBoxElement = document.getElementById("text-viewbox");
+      if (typeof viewBoxElement === "undefined" || viewBoxElement === null) {
+        return false;
+      }
+      var viewBoxTop = viewBoxElement.getBoundingClientRect().top;
+      var viewBoxBottom = viewBoxElement.getBoundingClientRect().bottom;
+      var elementTop = element.getBoundingClientRect().top;
+      var elementBottom = element.getBoundingClientRect().bottom;
+
+      if (viewBoxTop <= elementTop && viewBoxBottom >= elementBottom) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    var allElements = document.querySelectorAll(".ENAMEX, .TIMEX, .NUMEX");
+    var displayedElements = [];
+    allElements.forEach(function(element) {
+      if (element.style.backgroundColor != "") {
+        displayedElements.push(element);
+      }
+    });
+    var coveredElements = [];
+    for (let element of displayedElements) {
+      if (isOverlappedByViewBox(element)) {
+        coveredElements.push(element);
+      }
+    }
+    return coveredElements;
+  }
   var coveredEntities = [];
   for(element of getCoveredElements()) {
     // a round-about way to get the "id" of the entity corresponding to the entity tag element
