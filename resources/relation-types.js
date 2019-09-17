@@ -469,3 +469,43 @@ function getHasTitleTypes() {
     "TITLEFPH"
   ];
 }
+function getTypes(relationship) {
+  var relationToTypesMap = {
+    "E1:HAS_STDATE": getHasStartDateTypes(),
+    "E1:HAS_ST_PL": getHasStartPlaceTypes(),
+    "E1:HAS_ST_TM": getHasStartTimeTypes(),
+    "E3:HAS_ENDDATE": getHasEndDateTypes(),
+    "E3:HAS_END_PL": getHasEndPlaceTypes(),
+    "E1:HAS_END_TM": getHasEndTimeTypes(),
+    "Z:HAS_EVENT": getHasEventTypes(),
+    "E4:HAS_EVENT_FACT": getHasEventFactTypes(),
+    "E4:IS_EVENT_FACT": getIsEventFactTypes(),
+    "R00:HAS_SPOUSE": getHasSpouseTypes(),
+    "R01:HAS_FATHER": getHasFatherTypes(),
+    "R02:HAS_MOTHER": getHasMotherTypes(),
+    "Z:AGE_OF": getAgeOfTypes(),
+    "Z:ATTENDED": getAttendedTypes(),
+    "Z:CAUSED_BY": getCausedByTypes(),
+    "Z:'S_CONTACT": getContactInfoTypes(),
+    "Z:CREATED": getCreatedTypes(),
+    "Z:HAS_DURATION": getHasDurationTypes(),
+    "Z:EMPLOYED_BY": getEmployedByTypes(),
+    "Z:HASFAMMEMLST": getHasFamilyMemberTypes(),
+    "Z:IS_FEM_FOR": getIsFemaleTypes(),
+    "Z:IS_FICTIONAL": getIsFictionalTypes(),
+    "Z:IS_MALE_FOR": getIsMaleTypes(),
+    "Z:MEMBER_OF": getIsMemberOfTypes(),
+    "Z:NAMEXTRA_OF": getNameCombinerTypes(),
+    "Z:OCCUPATION_OF": getHasOccupationTypes(),
+    "Z:OWNS": getOwnsTypes(),
+    "Z:PRECEDE_RCNT": getPrecedesRecentlyTypes(),
+    "Z:PRIN_ASSOC": getPrincipalsAssociateTypes(),
+    "Z:IS_PRINCIPAL": getIsPrincipalPersonTypes(),
+    "Z:NUMBER_OF": getQuantityTypes(),
+    "E2:HAS_RESPL": getHasResidencePlaceTypes(),
+    "R40:IS_SAME_AS": getSameAsTypes(),
+    "Z:SUBPLACE_OF": getSubplaceOfTypes(),
+    "Z:TITLE_OF": getHasTitleTypes()
+  }
+  return relationToTypesMap[relationship];
+}

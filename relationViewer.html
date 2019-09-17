@@ -273,6 +273,7 @@ function toggleViewbox() {
   var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
   if (borderStyle == "solid") {
     toggleViewboxOff();
+    showUpdatedGraph(getCurrentRelationship());
   } else {
     toggleViewboxOn();
   }
