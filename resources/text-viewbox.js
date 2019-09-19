@@ -139,6 +139,7 @@ function rebuildDisplayedGraph() {
     }
     return false;
   }
+  // a relation is covered if both its source and target are covered
   function covered(relation) {
     function sourceCovered() {
       for (entity of coveredEntities) {
@@ -207,8 +208,11 @@ function toggleViewboxOff() {
   document.getElementById("toggle-viewbox").style.backgroundColor = "";
   document.getElementById("toggle-viewbox").style.color = "";
   // how do I disconnect the resize observer? (made global)
-  viewboxResizeObserver.disconnect();
-  document.getElementById("text-viewbox").remove(); 
+  // if the viewbox isn't toggled on, then there is no resizeObserver
+  if (viewboxResizeObserver != null) {
+    viewboxResizeObserver.disconnect();
+    document.getElementById("text-viewbox").remove(); 
+  }
 }
 function viewboxOnScroll() {
   if (document.getElementById("text-viewbox")) {
@@ -230,7 +234,7 @@ function viewboxToggledOn() {
     return true;
   }
 }
-// Some global variables
+// global variables
 var linkId = 0;
 function getLinkId(option) {
   if (option == "no increment") {

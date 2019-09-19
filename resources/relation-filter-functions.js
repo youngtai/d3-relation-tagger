@@ -1,5 +1,3 @@
-// import "./relation-types.js";
-
 function buildDisplayedGraph(relationType, validEntityTypes) {
   function getDisplayRelations() {
     var relations = displayedGraph.relations;
@@ -27,7 +25,6 @@ function buildDisplayedGraph(relationType, validEntityTypes) {
   }
   function getDisplayEntities() {
     var entitySet = new Set();
-    var entityArray = [];
     var relationType = getCurrentRelationship();
     function entityInSet(e) {
       for (let entity of entitySet) {
@@ -109,6 +106,7 @@ function getInvalidTypes(validTypes) {
 function showUpdatedGraph(currentRelationship) {
   var validTypes = getTypes(currentRelationship);
   buildDisplayedGraph(currentRelationship, validTypes);
+  // below is for showing "bad" relations
   var invalidTypes = getInvalidTypes(validTypes);
   var badRelations = [];
   displayedGraph.relations.forEach(function(relation) {
@@ -124,8 +122,8 @@ function showUpdatedGraph(currentRelationship) {
       }
     }
   });
-  restart();
   markBadRelations(badRelations);
+  restart();
 }
 // *** From relation-function.js ***
 function entityInGraph(entity) {
