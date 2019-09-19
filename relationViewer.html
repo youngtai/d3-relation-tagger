@@ -95,8 +95,6 @@ var originalRelex,
 // -------------------------------TOP PANEL-----------------------------------------------
 document.getElementById("file-intake-button").addEventListener("change", loadDocument);
 document.getElementById("export").addEventListener("click", exportDocument);
-// document.getElementById("toggle-same-as").addEventListener("click", showSameAsOn);
-// document.getElementById("toggle-same-as").addEventListener("click", showSameAsOff);
 document.getElementById("toggle-viewbox").addEventListener("click", toggleViewbox);
 document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonActions);
 document.getElementById("scissors").addEventListener("click", toggleScissors);
@@ -107,7 +105,6 @@ document.getElementById("reload-displayedGraph").addEventListener("click", setSc
 document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
 document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
 document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
-// document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
 // -------------------------------RELATIONSHIP PANEL--------------------------------------
 document.getElementById("has-start-date").addEventListener("click", hasStartDate);
 document.getElementById("has-start-place").addEventListener("click", hasStartPlace);
@@ -155,7 +152,6 @@ for (let i = 0; i < relationshipButtonClass.length; i++) {
   relationshipButtonClass[i].addEventListener("click", relButtonStyleOff);
   relationshipButtonClass[i].addEventListener("click", clearSelection);
   relationshipButtonClass[i].addEventListener("click", reloadDisplayedGraphToggleOff);
-  // relationshipButtonClass[i].id = relationshipButtonClass[i].id;
 }
 
 function reloadDisplayedGraphToggleOn() {
@@ -671,9 +667,6 @@ function getSimulationDisplaySpaceDimensions() {
     height = window.getComputedStyle(document.querySelector("#svg-container")).getPropertyValue("height").replace(/\..+/, "");
   return [width, height];
 }
-function getNodeDefaultRadius() {
-  return 30; // 30
-}
 function convertTags(relex) {
   // we replace with "<-span..." because we need to go through after one at a time and
   // add a unique id according to the order the enamex shows up in the text. This is so
@@ -1003,7 +996,7 @@ function colors(type) {
 }
 // Adjusts forceManyBody strength according to number of nodes displayed to fit them into the view window
 function getChargeForceStrength(nodeQuantity) {
-  return -Math.exp(-(nodeQuantity - 100)/19) - 12;
+  return -Math.exp(-(nodeQuantity - 100)/19) - 14;
 }
 // for setting link distance based on relationship type
 function linkDistance(type) {
@@ -1013,10 +1006,26 @@ function linkDistance(type) {
     return 130;
   }
 }
+function getNodeDefaultRadius() {
+  return 32; // 30
+}
+function truncateNodeText(text) {
+  if (text.length > 6) {
+    return text.substr(0,6) + "...";
+  } else {
+    return text;
+  }
+}
 function getNodeTextPlacement(text) {
   // [x position, y position]
   // return [Math.log(text.length) / Math.log(1.5) * -3.2, 4];
-  return [Math.log(text.length) / Math.log(.88) * 1, 4];
+  if (text.length > 15) {
+    return [Math.log(text.length) / Math.log(.86) * 1, 4];
+  } else if(text.length > 80) {
+    return [Math.log(text.length) / Math.log(.83) * 1, 4];
+  } else {
+    return [Math.log(text.length) / Math.log(.91) * 1, 4];
+  }
 }
 function groupPath(d) {
     if (d.length === 2) {
@@ -1051,7 +1060,7 @@ function startSimulation() {
     .enter().append("svg:marker")   //section adds the arrows
     .attr("id", "arrowhead") //without this no arrows show up
     .attr("viewBox","0 -5 10 10")   //this cuts off the arrow image - you could use this to show half an arrow
-    .attr("refX",28)    //arrow placement:how far it is from node center
+    .attr("refX",29)    //arrow placement:how far it is from node center
     .attr("refY",0)     //arrow placement:offset from center line of node
     .attr("markerWidth",8)  //These two determine arrowhead size
     .attr("markerHeight",4)
@@ -1119,11 +1128,7 @@ function startSimulation() {
   //show text labels next to nodes
   node.append("text")
       .text(function(d) {
-        if (d.text.length > 6) {
-          return d.text.substr(0,5) + "...";
-        } else {
-          return d.text;
-        }
+        return truncateNodeText(d.text);
       })
       .style("fill", function(d) {return textColors(d.type);})
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];})
@@ -1261,11 +1266,7 @@ function restart() {
 
   enter.append("text")
       .text(function(d) {
-        if (d.text.length > 6) {
-          return d.text.substr(0,5) + "...";
-        } else {
-          return d.text;
-        }
+        return truncateNodeText(d.text);
       })
       .style("fill", function(d) {return textColors(d.type);})
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];} )
