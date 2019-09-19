@@ -1,0 +1,1446 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028317367756",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557434348341
+    },
+    "description" : "#s_6917529028317367756",
+    "persons" : [ {
+      "id" : "p_6917529030829424356",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Juris C Ellis",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Juris C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Juris C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ellis",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ellis"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Juris C Ellis"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.32727647,0.15572625,0.34998968,0.1810987",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35060912,0.15572625,0.35680363,0.1810987",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36031386,0.15572625,0.37889737,0.1810987",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Juris C. Ellis"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829424456",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHC8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Maria Ellis Ells",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Maria",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Maria"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ellis Ells",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ellis Ells"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Maria Ellis Ells"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.39603552,0.15572625,0.4201941,0.1810987",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.42225894,0.15572625,0.43939707,0.1810987",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Maria Ellis"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.67974395,0.3950186,0.7047285,0.40945065",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Maria"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7293,0.42807263,0.7557299,0.4439013",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Maria"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.70596737,0.5751862,0.7385918,0.5910149",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7412761,0.5751862,0.78339875,0.5910149",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Maria Ells"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHC8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829424556",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Fisher C Atherton",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Fisher C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Fisher C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Atherton",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Atherton"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Fisher C Atherton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.092298165,0.19809125,0.113153,0.22462755",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.11645674,0.19809125,0.12265125,0.22462755",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12719388,0.19809125,0.16023126,0.22462755",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Fisher C. Atherton"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829424656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Smith Kimball",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Smith",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Smith"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Kimball",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Kimball"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Smith Kimball"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.30084658,0.49953446,0.3233533,0.5128026",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32500517,0.49953446,0.35535824,0.5128026",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Smith Kimball"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829424756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "J W Metcalf",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "J W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "J W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Metcalf",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Metcalf"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "J W Metcalf"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.096014865,0.5128026,0.10406773,0.52444136",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.10654553,0.5128026,0.114598386,0.52444136",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.12306422,0.5128026,0.15238489,0.52444136",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "J. W. Metcalf"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829424856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George Dustin",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Dustin",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Dustin"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George Dustin"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.19223621,0.7949255,0.2163948,0.8130819",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21845964,0.7949255,0.24943218,0.8130819",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George Dustin"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829424956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George Holt",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Holt",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Holt"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George Holt"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.09622135,0.8077281,0.119760476,0.8209963",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.121825315,0.8077281,0.14268015,0.8209963",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George Holt"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHCB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZ9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Jonathan W Metcalf",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Jonathan W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Jonathan W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Metcalf",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Metcalf"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Jonathan W Metcalf"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27606854,0.8077281,0.28226307,0.8209963",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2868057,0.8077281,0.2942391,0.8209963",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30022714,0.8077281,0.32768944,0.8209963",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "J. W. Metcalf"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24468304,0.8642924,0.28763163,0.8761639",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2915548,0.8642924,0.29816228,0.8761639",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30662814,0.8642924,0.34358868,0.8761639",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jonathan W. Metcalf"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZ9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZ7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lewis C Ellis",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lewis C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lewis C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ellis",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ellis"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lewis C Ellis"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6052034,0.3950186,0.62853605,0.40945065",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6310138,0.3950186,0.6376213,0.40945065",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.641751,0.3950186,0.6588891,0.40945065",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lewis C. Ellis"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZ7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lewis D Ells",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lewis D",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lewis D"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ells",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ells"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lewis D Ells"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6471196,0.42807263,0.6706587,0.4439013",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6731365,0.42807263,0.68118936,0.4439013",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.685319,0.42807263,0.7069998,0.4439013",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lewis D. Ells"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZ8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lewis C Ells",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lewis C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lewis C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ells",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ells"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lewis C Ells"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.861656,0.47090316,0.8887054,0.48673186",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.89118314,0.47090316,0.89964896,0.48673186",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.9068759,0.47090316,0.92917615,0.48673186",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lewis C. Ells"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.75985956,0.6757449,0.7852571,0.6922719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.786083,0.6757449,0.7922775,0.6922719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.79847205,0.6757449,0.8197398,0.6922719",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lewis C. Ells"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZ8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Maria Ells",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Maria",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Maria"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ells",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ells"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Maria Ells"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8690894,0.483473,0.8967582,0.49581006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.899236,0.483473,0.92380756,0.49581006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Maria Ells"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "R F Penton",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "R F",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "R F"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Penton",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Penton"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "R F Penton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8581458,0.6191806,0.8666116,0.6303538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.874045,0.6191806,0.88251084,0.6303538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.88994426,0.6191806,0.9252529,0.6303538",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "R. F. Penton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.89428043,0.71019554,0.90233326,0.72043765",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.90625644,0.71019554,0.91265744,0.72043765",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.91802603,0.71019554,0.96634316,0.72043765",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "R. F. Penton"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030829425656",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Buffalo",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Buffalo",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Buffalo"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Buffalo"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6023126,0.66108006,0.64216393,0.6848231",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Buffalo"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-ZHZL-T"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030829425156",
+        "resourceId" : "p_6917529030829425156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030829424456",
+        "resourceId" : "p_6917529030829424456"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030829425156",
+        "resourceId" : "p_6917529030829425156"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030829424556",
+        "resourceId" : "p_6917529030829424556"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Husband"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028317367756",
+      "about" : "#r_6917529028317367756",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-B17H-N" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9WX-6XHW",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9WX-6XHW" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007154726_00381_TXT</UNQ>\n<IMID>007154726_00381</IMID>\n<APID>TH-1971-32833-12846-55</APID>\n<IMGSIZE>4843,4296</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>℗\n<TIMEX TYPE=\"DATE\">1860</TIMEX>)\n<ENAMEX TYPE=\"EVENT.xlife\">WARRANTY DEED</ENAMEX>. Chapter 475, Laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1800</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, made this\n<ENAMEX TYPE=\"PERSON\">Juris C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria Ellis</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<NUMEX TYPE=\"QUANTITY\">eighteen hundred</NUMEX> and ninety-\nwife ⌨ the <ENAMEX TYPE=\"LOCALE\">Town of Marilla</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> party were and\n<ENAMEX TYPE=\"PERSON\">Fisher C. Atherton</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nWitnesseth, That the said parties of the first part, in consideration of\nDollars, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the part of the second part,\nis hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nAll that tract or parcel of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and being part of lot No. thirty eight ( 38) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eighth Township</ENAMEX> \nin the <ENAMEX TYPE=\"LOCALE.notgpe\">Fifth Range</ENAMEX> of <ENAMEX TYPE=\"LOCALE.notgpe\">township of the Holland Company</ENAMEX>'s land bounded as follows:-\nEast by lot No. thirty ( 30) <NUMEX TYPE=\"QUANTITY\">Eighteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">18</NUMEX>) <NUMEX TYPE=\"QUANTITY\">forty three</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">43</NUMEX>); South by lots No\nthirty seven ( 37)and <NUMEX TYPE=\"QUANTITY\">forty four ( 44) sixty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">60</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">thirty nine</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) links: West by\nlot No. <NUMEX TYPE=\"QUANTITY\">forty five ( 45) eighteen ( 18)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">sixty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">64</NUMEX>) links; North by a line\nparallel with the north bounds of the said lot No thirty <NUMEX TYPE=\"QUANTITY\">eight ( 38) sixty ( 60)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">32</NUMEX>) links; containing <NUMEX TYPE=\"QUANTITY\">one hundred and eleven ( 10)</NUMEX> acres be the same\nmore or less.\nAlsone other piece or parcel of land being and lying on lot No. forty five\n( 45) bounded as follows:- Beginning at the south east corner of and lot No.\nforty five ( 45); thence north on the east line of and lot, <NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains <NUMEX TYPE=\"MONEY\">$14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX>\n<NUMEX TYPE=\"QUANTITY\">( 5)</NUMEX> links; thence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">forty ( 40)</NUMEX> links; thence south parallel with the east line of said lot <NUMEX TYPE=\"QUANTITY\">fourteen\n( 14)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">41</NUMEX>) links to the south line of and lot; thence east on the and\nline thirteen ( <NUMEX TYPE=\"QUANTITY\">13)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 40)</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">nineteen\n6/10</NUMEX> acres be the same more or less and in both pieces hereby conveyed <NUMEX TYPE=\"QUANTITY\">one hundred\nthirty and 50/100</NUMEX> acres of land more or less. Also all that certain tract or parcel of \nland, situate, lying and being in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing a part of lot No. thirty eight ( 38) in the Township bounded as follows:-\nCommencing at the north west corner of land deeded by <ENAMEX TYPE=\"PERSON\">Smith Kimball</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to\n<ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>, <TIMEX TYPE=\"DATE\">July 13th 1871</TIMEX>; thence east by land thus deeded as aforesaid\n<NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">36)</NUMEX> links; thence north on the lot line <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX>\nchains <NUMEX TYPE=\"QUANTITY\">eleven ( 11 ½) and one half</NUMEX> links; thence west <NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 36)</NUMEX>\nlinks; thence south <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven ( 11) and one half</NUMEX> links to the place of\nbeginning; containing <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> acres more or less. Also <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece\nor parcel of land situate in the and <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nand being part of lot No. forty five ( 45) in and town and bounded as follows:- Beginning\n<NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">31</NUMEX>) links north from the south east corner <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">45</NUMEX>); thence north on the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">12</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nthence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains and\n<NUMEX TYPE=\"QUANTITY\">sixty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">65</NUMEX>) links; thence south parallel with the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains\n( <NUMEX TYPE=\"QUANTITY\">129</NUMEX> <NUMEX TYPE=\"QUANTITY\">and forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>); thence east parallel with the south line of said lot;\n<NUMEX TYPE=\"QUANTITY\">thirteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">13</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) to the place of beginning; containing <NUMEX TYPE=\"QUANTITY\">about\nseventeen ( 17)</NUMEX> acres more or less. Also that tract or parcel of land\nsituate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> it being a part of \nLot No. thirty seven ( 37) in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows: Beginning\nat the north east corner of said lot <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37); thence west on and lot line <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> \nchains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty nine ( 49)</NUMEX> links; thence south on a line of lot No. forty four \n( 44) in said Town <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">twenty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">24</NUMEX>) links, thence east\nparallel with the north line of said lot No. <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37) <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> links; thence north on east line of said lot <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">eighty seven</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">37</NUMEX>) links unto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">sixty five ( 65)</NUMEX>\nacres more or less.\nAlso <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece or parcel of land\nsituate in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and being a part of lot No. forty four ( 44)\nin said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows:- Beginning at the north east corner\nof land now owned by <ENAMEX TYPE=\"PERSON\">George Dustin</ENAMEX>; thence west to land formerly owned by\n<ENAMEX TYPE=\"PERSON\">George Holt</ENAMEX>; thence north to land owned by <ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>; thence east to the\nnorth west corner of lot No. thirty seven ( 37); thence south to the place of beginning\ncontaining <NUMEX TYPE=\"QUANTITY\">about eighty ( 80)</NUMEX> acres be the same more or less. The whole of the\nabove described premises to contain <NUMEX TYPE=\"QUANTITY\">three hundred and fifty</NUMEX> acres ( <NUMEX TYPE=\"QUANTITY\">350</NUMEX>) of land\nthe same more or less. These premises are sold subject to a Mortgage\n<ENAMEX TYPE=\"PERSON\">Riley</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jonathan W. Metcalf</ENAMEX> for <NUMEX TYPE=\"MONEY\">four thousand five\nhundred Dollars ( $4500.00</NUMEX> <TIMEX TYPE=\"DATE\">April 15th 1897</TIMEX> which the party of the second assumes and\nagrees to pay\n℗\n<TIMEX TYPE=\"DATE\">1839</TIMEX>)\nin <TIMEX TYPE=\"DATE.non\">June</TIMEX>\nTogether with the appurtenances and all the estate and rights of the said party of the first part in and to said premises.\nTo have and to hold, the above granted premises unto the said party of the second part.\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nand the said <ENAMEX TYPE=\"PERSON\">Lewis C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\ndo covenant with the said party of the second part as follows:\n1 8 Fhed -- That the party of the second part shall quietly enjoy the said premises.\nA-- That the said <ENAMEX TYPE=\"PERSON\">Lewis D. Ells</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nwill forever WARRANT the title to said premises.\nIn witness tubercot, the said party of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nPRESENCE OF\n<ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>. L S.\n<ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>. L S\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">City ⌨⌨ Buffalo</ENAMEX> ⎬\n<TIMEX TYPE=\"DATE\">1 21st Day April\nin the year eighteen hundred and ninety-\nNo</TIMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX> an appeared <ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>\nmon & individual issue, and where the foregoing instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> there\nupon duly\nacknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nexecuted the same.\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> ⎬ ss.\n⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Buffalo</ENAMEX> 1s On the <TIMEX TYPE=\"DATE\">17th day of May in the year Eighteen hundred\nand ninety seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally came <ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>, to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and\nknown to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>\ninstrument and <ENAMEX TYPE=\"COREF\">he</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX> executed the same\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"378\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2276\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2292\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2311\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2947\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2964\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"298\"_ENDID=\"5465\"_STTOKEN=\"his\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2983\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3676\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3693\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3712\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3789\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4434\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4503\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"455\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"474\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5056\"_ENDID=\"4696\"_STTOKEN=\"Jonathan W. Metcalf\"_ENDTOKEN=\"J. W. Metcalf\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5484\"_ENDID=\"285\"_STTOKEN=\"Maria\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5490\"_ENDID=\"5465\"_STTOKEN=\"his\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5683\"_ENDID=\"5484\"_STTOKEN=\"Maria\"_ENDTOKEN=\"Maria\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5690\"_ENDID=\"5465\"_STTOKEN=\"his\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5821\"_ENDID=\"5665\"_STTOKEN=\"my\"_ENDTOKEN=\"Lewis D. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5923\"_ENDID=\"378\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"594\"_ENDID=\"154\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6036\"_ENDID=\"5683\"_STTOKEN=\"Maria Ells\"_ENDTOKEN=\"Maria\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6151\"_ENDID=\"5465\"_STTOKEN=\"he\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6202\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6322\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6341\"_ENDID=\"5887\"_STTOKEN=\"Lewis C. Ells\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6359\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6381\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6449\"_ENDID=\"6173\"_STTOKEN=\"R. F. Penton\"_ENDTOKEN=\"R. F. Penton\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6477\"_ENDID=\"5887\"_STTOKEN=\"he\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6511\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6519\"_ENDID=\"5887\"_STTOKEN=\"he\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"805\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"824\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=1+\"_STID=\"6235\"_ENDID=\"6235\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"Buffalo\">\n<RELEX TYPE=\"S=2+\"_STID=\"2463\"_ENDID=\"2463\"_STTOKEN=\"Smith Kimball\"_ENDTOKEN=\"Smith Kimball\">\n<RELEX TYPE=\"S=2+\"_STID=\"285\"_ENDID=\"285\"_STTOKEN=\"Maria Ellis\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"S=2+\"_STID=\"4600\"_ENDID=\"4600\"_STTOKEN=\"George Dustin\"_ENDTOKEN=\"George Dustin\">\n<RELEX TYPE=\"S=2+\"_STID=\"4653\"_ENDID=\"4653\"_STTOKEN=\"George Holt\"_ENDTOKEN=\"George Holt\">\n<RELEX TYPE=\"S=2+\"_STID=\"5907\"_ENDID=\"5907\"_STTOKEN=\"Maria Ells\"_ENDTOKEN=\"Maria Ells\">\n<RELEX TYPE=\"S=2+\"_STID=\"6036\"_ENDID=\"6036\"_STTOKEN=\"Maria Ells\"_ENDTOKEN=\"Maria Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"2489\"_ENDID=\"2489\"_STTOKEN=\"J. W. Metcalf\"_ENDTOKEN=\"J. W. Metcalf\">\n<RELEX TYPE=\"S=3+\"_STID=\"266\"_ENDID=\"266\"_STTOKEN=\"Juris C. Ellis\"_ENDTOKEN=\"Juris C. Ellis\">\n<RELEX TYPE=\"S=3+\"_STID=\"411\"_ENDID=\"411\"_STTOKEN=\"Fisher C. Atherton\"_ENDTOKEN=\"Fisher C. Atherton\">\n<RELEX TYPE=\"S=3+\"_STID=\"4696\"_ENDID=\"4696\"_STTOKEN=\"J. W. Metcalf\"_ENDTOKEN=\"J. W. Metcalf\">\n<RELEX TYPE=\"S=3+\"_STID=\"5056\"_ENDID=\"5056\"_STTOKEN=\"Jonathan W. Metcalf\"_ENDTOKEN=\"Jonathan W. Metcalf\">\n<RELEX TYPE=\"S=3+\"_STID=\"5465\"_ENDID=\"5465\"_STTOKEN=\"Lewis C. Ellis\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"S=3+\"_STID=\"5665\"_ENDID=\"5665\"_STTOKEN=\"Lewis D. Ells\"_ENDTOKEN=\"Lewis D. Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"5887\"_ENDID=\"5887\"_STTOKEN=\"Lewis C. Ells\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"6173\"_ENDID=\"6173\"_STTOKEN=\"R. F. Penton\"_ENDTOKEN=\"R. F. Penton\">\n<RELEX TYPE=\"S=3+\"_STID=\"6341\"_ENDID=\"6341\"_STTOKEN=\"Lewis C. Ells\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"6449\"_ENDID=\"6449\"_STTOKEN=\"R. F. Penton\"_ENDTOKEN=\"R. F. Penton\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2463\"_ENDID=\"2481\"_STTOKEN=\"Smith Kimball\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2489\"_ENDID=\"2481\"_STTOKEN=\"J. W. Metcalf\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"298\"_ENDID=\"714\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5490\"_ENDID=\"5494\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5665\"_ENDID=\"5694\"_STTOKEN=\"Lewis D. Ells\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5683\"_ENDID=\"5694\"_STTOKEN=\"Maria\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5690\"_ENDID=\"5694\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"298\"_ENDID=\"245\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"5465\"_ENDID=\"191\"_STTOKEN=\"Lewis C. Ellis\"_ENDTOKEN=\"WARRANTY DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"5465\"_ENDID=\"245\"_STTOKEN=\"Lewis C. Ellis\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"285\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"5465\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"5887\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"266\"_ENDID=\"266\"_STTOKEN=\"Juris C. Ellis\"_ENDTOKEN=\"Juris C. Ellis\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"285\"_ENDID=\"285\"_STTOKEN=\"Maria Ellis\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"411\"_ENDID=\"411\"_STTOKEN=\"Fisher C. Atherton\"_ENDTOKEN=\"Fisher C. Atherton\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"5484\"_ENDID=\"5494\"_STTOKEN=\"Maria\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:PRIN_ASSOC\"_STID=\"5465\"_ENDID=\"5907\"_STTOKEN=\"Lewis C. Ellis\"_ENDTOKEN=\"Maria Ells\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"144\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2276\"_ENDID=\"2292\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2292\"_ENDID=\"2311\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2947\"_ENDID=\"2964\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2964\"_ENDID=\"2983\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"359\"_ENDID=\"378\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"438\"_ENDID=\"455\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"455\"_ENDID=\"474\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"5942\"_ENDID=\"5923\"_STTOKEN=\"City ⌨⌨ Buffalo\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"789\"_ENDID=\"805\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"805\"_ENDID=\"824\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007154726_00381_TXT</UNQ>\n<IMID>007154726_00381</IMID>\n<APID>TH-1971-32833-12846-55</APID>\n<IMGSIZE>4843,4296</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>℗\n<TIMEX TYPE=\"DATE\">1860</TIMEX>)\n<ENAMEX TYPE=\"EVENT.xlife\">WARRANTY DEED</ENAMEX>. Chapter 475, Laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1800</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, made this\n<ENAMEX TYPE=\"PERSON\">Juris C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria Ellis</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<NUMEX TYPE=\"QUANTITY\">eighteen hundred</NUMEX> and ninety-\nwife ⌨ the <ENAMEX TYPE=\"LOCALE\">Town of Marilla</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> party were and\n<ENAMEX TYPE=\"PERSON\">Fisher C. Atherton</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nWitnesseth, That the said parties of the first part, in consideration of\nDollars, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the part of the second part,\nis hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nAll that tract or parcel of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and being part of lot No. thirty eight ( 38) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eighth Township</ENAMEX> \nin the <ENAMEX TYPE=\"LOCALE.notgpe\">Fifth Range</ENAMEX> of <ENAMEX TYPE=\"LOCALE.notgpe\">township of the Holland Company</ENAMEX>'s land bounded as follows:-\nEast by lot No. thirty ( 30) <NUMEX TYPE=\"QUANTITY\">Eighteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">18</NUMEX>) <NUMEX TYPE=\"QUANTITY\">forty three</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">43</NUMEX>); South by lots No\nthirty seven ( 37)and <NUMEX TYPE=\"QUANTITY\">forty four ( 44) sixty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">60</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">thirty nine</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) links: West by\nlot No. <NUMEX TYPE=\"QUANTITY\">forty five ( 45) eighteen ( 18)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">sixty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">64</NUMEX>) links; North by a line\nparallel with the north bounds of the said lot No thirty <NUMEX TYPE=\"QUANTITY\">eight ( 38) sixty ( 60)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">32</NUMEX>) links; containing <NUMEX TYPE=\"QUANTITY\">one hundred and eleven ( 10)</NUMEX> acres be the same\nmore or less.\nAlsone other piece or parcel of land being and lying on lot No. forty five\n( 45) bounded as follows:- Beginning at the south east corner of and lot No.\nforty five ( 45); thence north on the east line of and lot, <NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains <NUMEX TYPE=\"MONEY\">$14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX>\n<NUMEX TYPE=\"QUANTITY\">( 5)</NUMEX> links; thence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">forty ( 40)</NUMEX> links; thence south parallel with the east line of said lot <NUMEX TYPE=\"QUANTITY\">fourteen\n( 14)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">41</NUMEX>) links to the south line of and lot; thence east on the and\nline thirteen ( <NUMEX TYPE=\"QUANTITY\">13)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 40)</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">nineteen\n6/10</NUMEX> acres be the same more or less and in both pieces hereby conveyed <NUMEX TYPE=\"QUANTITY\">one hundred\nthirty and 50/100</NUMEX> acres of land more or less. Also all that certain tract or parcel of \nland, situate, lying and being in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing a part of lot No. thirty eight ( 38) in the Township bounded as follows:-\nCommencing at the north west corner of land deeded by <ENAMEX TYPE=\"PERSON\">Smith Kimball</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to\n<ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>, <TIMEX TYPE=\"DATE\">July 13th 1871</TIMEX>; thence east by land thus deeded as aforesaid\n<NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">36)</NUMEX> links; thence north on the lot line <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX>\nchains <NUMEX TYPE=\"QUANTITY\">eleven ( 11 ½) and one half</NUMEX> links; thence west <NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 36)</NUMEX>\nlinks; thence south <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven ( 11) and one half</NUMEX> links to the place of\nbeginning; containing <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> acres more or less. Also <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece\nor parcel of land situate in the and <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nand being part of lot No. forty five ( 45) in and town and bounded as follows:- Beginning\n<NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">31</NUMEX>) links north from the south east corner <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">45</NUMEX>); thence north on the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">12</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nthence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains and\n<NUMEX TYPE=\"QUANTITY\">sixty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">65</NUMEX>) links; thence south parallel with the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains\n( <NUMEX TYPE=\"QUANTITY\">129</NUMEX> <NUMEX TYPE=\"QUANTITY\">and forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>); thence east parallel with the south line of said lot;\n<NUMEX TYPE=\"QUANTITY\">thirteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">13</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) to the place of beginning; containing <NUMEX TYPE=\"QUANTITY\">about\nseventeen ( 17)</NUMEX> acres more or less. Also that tract or parcel of land\nsituate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> it being a part of \nLot No. thirty seven ( 37) in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows: Beginning\nat the north east corner of said lot <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37); thence west on and lot line <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> \nchains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty nine ( 49)</NUMEX> links; thence south on a line of lot No. forty four \n( 44) in said Town <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">twenty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">24</NUMEX>) links, thence east\nparallel with the north line of said lot No. <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37) <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> links; thence north on east line of said lot <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">eighty seven</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">37</NUMEX>) links unto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">sixty five ( 65)</NUMEX>\nacres more or less.\nAlso <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece or parcel of land\nsituate in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and being a part of lot No. forty four ( 44)\nin said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows:- Beginning at the north east corner\nof land now owned by <ENAMEX TYPE=\"PERSON\">George Dustin</ENAMEX>; thence west to land formerly owned by\n<ENAMEX TYPE=\"PERSON\">George Holt</ENAMEX>; thence north to land owned by <ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>; thence east to the\nnorth west corner of lot No. thirty seven ( 37); thence south to the place of beginning\ncontaining <NUMEX TYPE=\"QUANTITY\">about eighty ( 80)</NUMEX> acres be the same more or less. The whole of the\nabove described premises to contain <NUMEX TYPE=\"QUANTITY\">three hundred and fifty</NUMEX> acres ( <NUMEX TYPE=\"QUANTITY\">350</NUMEX>) of land\nthe same more or less. These premises are sold subject to a Mortgage\n<ENAMEX TYPE=\"PERSON\">Riley</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jonathan W. Metcalf</ENAMEX> for <NUMEX TYPE=\"MONEY\">four thousand five\nhundred Dollars ( $4500.00</NUMEX> <TIMEX TYPE=\"DATE\">April 15th 1897</TIMEX> which the party of the second assumes and\nagrees to pay\n℗\n<TIMEX TYPE=\"DATE\">1839</TIMEX>)\nin <TIMEX TYPE=\"DATE.non\">June</TIMEX>\nTogether with the appurtenances and all the estate and rights of the said party of the first part in and to said premises.\nTo have and to hold, the above granted premises unto the said party of the second part.\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nand the said <ENAMEX TYPE=\"PERSON\">Lewis C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\ndo covenant with the said party of the second part as follows:\n1 8 Fhed -- That the party of the second part shall quietly enjoy the said premises.\nA-- That the said <ENAMEX TYPE=\"PERSON\">Lewis D. Ells</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nwill forever WARRANT the title to said premises.\nIn witness tubercot, the said party of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nPRESENCE OF\n<ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>. L S.\n<ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>. L S\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">City ⌨⌨ Buffalo</ENAMEX> ⎬\n<TIMEX TYPE=\"DATE\">1 21st Day April\nin the year eighteen hundred and ninety-\nNo</TIMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX> an appeared <ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>\nmon & individual issue, and where the foregoing instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> there\nupon duly\nacknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nexecuted the same.\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> ⎬ ss.\n⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Buffalo</ENAMEX> 1s On the <TIMEX TYPE=\"DATE\">17th day of May in the year Eighteen hundred\nand ninety seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally came <ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>, to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and\nknown to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>\ninstrument and <ENAMEX TYPE=\"COREF\">he</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX> executed the same\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"378\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2276\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2292\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2311\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2947\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2964\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"298\"_ENDID=\"5465\"_STTOKEN=\"his\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2983\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3676\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3693\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3712\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3789\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4434\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4503\"_ENDID=\"789\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"Town of Holland\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"455\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"474\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5056\"_ENDID=\"4696\"_STTOKEN=\"Jonathan W. Metcalf\"_ENDTOKEN=\"J. W. Metcalf\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5484\"_ENDID=\"285\"_STTOKEN=\"Maria\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5490\"_ENDID=\"5465\"_STTOKEN=\"his\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5683\"_ENDID=\"5484\"_STTOKEN=\"Maria\"_ENDTOKEN=\"Maria\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5690\"_ENDID=\"5465\"_STTOKEN=\"his\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5821\"_ENDID=\"5665\"_STTOKEN=\"my\"_ENDTOKEN=\"Lewis D. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"5923\"_ENDID=\"378\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"594\"_ENDID=\"154\"_STTOKEN=\"United States\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6036\"_ENDID=\"5683\"_STTOKEN=\"Maria Ells\"_ENDTOKEN=\"Maria\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6151\"_ENDID=\"5465\"_STTOKEN=\"he\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6202\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6322\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6341\"_ENDID=\"5887\"_STTOKEN=\"Lewis C. Ells\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6359\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6381\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6449\"_ENDID=\"6173\"_STTOKEN=\"R. F. Penton\"_ENDTOKEN=\"R. F. Penton\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6477\"_ENDID=\"5887\"_STTOKEN=\"he\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6511\"_ENDID=\"6143\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"6519\"_ENDID=\"5887\"_STTOKEN=\"he\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"805\"_ENDID=\"359\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"824\"_ENDID=\"378\"_STTOKEN=\"State of New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"S=1+\"_STID=\"6235\"_ENDID=\"6235\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"Buffalo\">\n<RELEX TYPE=\"S=2+\"_STID=\"2463\"_ENDID=\"2463\"_STTOKEN=\"Smith Kimball\"_ENDTOKEN=\"Smith Kimball\">\n<RELEX TYPE=\"S=2+\"_STID=\"285\"_ENDID=\"285\"_STTOKEN=\"Maria Ellis\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"S=2+\"_STID=\"4600\"_ENDID=\"4600\"_STTOKEN=\"George Dustin\"_ENDTOKEN=\"George Dustin\">\n<RELEX TYPE=\"S=2+\"_STID=\"4653\"_ENDID=\"4653\"_STTOKEN=\"George Holt\"_ENDTOKEN=\"George Holt\">\n<RELEX TYPE=\"S=2+\"_STID=\"5907\"_ENDID=\"5907\"_STTOKEN=\"Maria Ells\"_ENDTOKEN=\"Maria Ells\">\n<RELEX TYPE=\"S=2+\"_STID=\"6036\"_ENDID=\"6036\"_STTOKEN=\"Maria Ells\"_ENDTOKEN=\"Maria Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"2489\"_ENDID=\"2489\"_STTOKEN=\"J. W. Metcalf\"_ENDTOKEN=\"J. W. Metcalf\">\n<RELEX TYPE=\"S=3+\"_STID=\"266\"_ENDID=\"266\"_STTOKEN=\"Juris C. Ellis\"_ENDTOKEN=\"Juris C. Ellis\">\n<RELEX TYPE=\"S=3+\"_STID=\"411\"_ENDID=\"411\"_STTOKEN=\"Fisher C. Atherton\"_ENDTOKEN=\"Fisher C. Atherton\">\n<RELEX TYPE=\"S=3+\"_STID=\"4696\"_ENDID=\"4696\"_STTOKEN=\"J. W. Metcalf\"_ENDTOKEN=\"J. W. Metcalf\">\n<RELEX TYPE=\"S=3+\"_STID=\"5056\"_ENDID=\"5056\"_STTOKEN=\"Jonathan W. Metcalf\"_ENDTOKEN=\"Jonathan W. Metcalf\">\n<RELEX TYPE=\"S=3+\"_STID=\"5465\"_ENDID=\"5465\"_STTOKEN=\"Lewis C. Ellis\"_ENDTOKEN=\"Lewis C. Ellis\">\n<RELEX TYPE=\"S=3+\"_STID=\"5665\"_ENDID=\"5665\"_STTOKEN=\"Lewis D. Ells\"_ENDTOKEN=\"Lewis D. Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"5887\"_ENDID=\"5887\"_STTOKEN=\"Lewis C. Ells\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"6173\"_ENDID=\"6173\"_STTOKEN=\"R. F. Penton\"_ENDTOKEN=\"R. F. Penton\">\n<RELEX TYPE=\"S=3+\"_STID=\"6341\"_ENDID=\"6341\"_STTOKEN=\"Lewis C. Ells\"_ENDTOKEN=\"Lewis C. Ells\">\n<RELEX TYPE=\"S=3+\"_STID=\"6449\"_ENDID=\"6449\"_STTOKEN=\"R. F. Penton\"_ENDTOKEN=\"R. F. Penton\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2463\"_ENDID=\"2481\"_STTOKEN=\"Smith Kimball\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2489\"_ENDID=\"2481\"_STTOKEN=\"J. W. Metcalf\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"298\"_ENDID=\"714\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5490\"_ENDID=\"5494\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5665\"_ENDID=\"5694\"_STTOKEN=\"Lewis D. Ells\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5683\"_ENDID=\"5694\"_STTOKEN=\"Maria\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"5690\"_ENDID=\"5694\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"298\"_ENDID=\"245\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"266\"_ENDID=\"266\"_STTOKEN=\"Juris C. Ellis\"_ENDTOKEN=\"Juris C. Ellis\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"285\"_ENDID=\"285\"_STTOKEN=\"Maria Ellis\"_ENDTOKEN=\"Maria Ellis\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"411\"_ENDID=\"411\"_STTOKEN=\"Fisher C. Atherton\"_ENDTOKEN=\"Fisher C. Atherton\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"5484\"_ENDID=\"5494\"_STTOKEN=\"Maria\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2276\"_ENDID=\"2292\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2292\"_ENDID=\"2311\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2947\"_ENDID=\"2964\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2964\"_ENDID=\"2983\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"359\"_ENDID=\"378\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"438\"_ENDID=\"455\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"455\"_ENDID=\"474\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"5942\"_ENDID=\"5923\"_STTOKEN=\"City ⌨⌨ Buffalo\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"789\"_ENDID=\"805\"_STTOKEN=\"Town of Holland\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"805\"_ENDID=\"824\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007154726_00381_TXT</UNQ>\n<IMID>007154726_00381</IMID>\n<APID>TH-1971-32833-12846-55</APID>\n<IMGSIZE>4843,4296</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>℗\n<TIMEX TYPE=\"DATE\">1860</TIMEX>)\n<ENAMEX TYPE=\"EVENT.xlife\">WARRANTY DEED</ENAMEX>. Chapter 475, Laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1800</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, made this\n<ENAMEX TYPE=\"PERSON\">Juris C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria Ellis</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<NUMEX TYPE=\"QUANTITY\">eighteen hundred</NUMEX> and ninety-\nwife ⌨ the <ENAMEX TYPE=\"LOCALE\">Town of Marilla</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> party were and\n<ENAMEX TYPE=\"PERSON\">Fisher C. Atherton</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nWitnesseth, That the said parties of the first part, in consideration of\nDollars, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the part of the second part,\nis hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nAll that tract or parcel of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and being part of lot No. thirty eight ( 38) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eighth Township</ENAMEX> \nin the <ENAMEX TYPE=\"LOCALE.notgpe\">Fifth Range</ENAMEX> of <ENAMEX TYPE=\"LOCALE.notgpe\">township of the Holland Company</ENAMEX>'s land bounded as follows:-\nEast by lot No. thirty ( 30) <NUMEX TYPE=\"QUANTITY\">Eighteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">18</NUMEX>) <NUMEX TYPE=\"QUANTITY\">forty three</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">43</NUMEX>); South by lots No\nthirty seven ( 37)and <NUMEX TYPE=\"QUANTITY\">forty four ( 44) sixty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">60</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">thirty nine</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) links: West by\nlot No. <NUMEX TYPE=\"QUANTITY\">forty five ( 45) eighteen ( 18)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">sixty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">64</NUMEX>) links; North by a line\nparallel with the north bounds of the said lot No thirty <NUMEX TYPE=\"QUANTITY\">eight ( 38) sixty ( 60)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">32</NUMEX>) links; containing <NUMEX TYPE=\"QUANTITY\">one hundred and eleven ( 10)</NUMEX> acres be the same\nmore or less.\nAlsone other piece or parcel of land being and lying on lot No. forty five\n( 45) bounded as follows:- Beginning at the south east corner of and lot No.\nforty five ( 45); thence north on the east line of and lot, <NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains <NUMEX TYPE=\"MONEY\">$14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX>\n<NUMEX TYPE=\"QUANTITY\">( 5)</NUMEX> links; thence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">forty ( 40)</NUMEX> links; thence south parallel with the east line of said lot <NUMEX TYPE=\"QUANTITY\">fourteen\n( 14)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">41</NUMEX>) links to the south line of and lot; thence east on the and\nline thirteen ( <NUMEX TYPE=\"QUANTITY\">13)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 40)</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">nineteen\n6/10</NUMEX> acres be the same more or less and in both pieces hereby conveyed <NUMEX TYPE=\"QUANTITY\">one hundred\nthirty and 50/100</NUMEX> acres of land more or less. Also all that certain tract or parcel of \nland, situate, lying and being in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing a part of lot No. thirty eight ( 38) in the Township bounded as follows:-\nCommencing at the north west corner of land deeded by <ENAMEX TYPE=\"PERSON\">Smith Kimball</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to\n<ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>, <TIMEX TYPE=\"DATE\">July 13th 1871</TIMEX>; thence east by land thus deeded as aforesaid\n<NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">36)</NUMEX> links; thence north on the lot line <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX>\nchains <NUMEX TYPE=\"QUANTITY\">eleven ( 11 ½) and one half</NUMEX> links; thence west <NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 36)</NUMEX>\nlinks; thence south <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven ( 11) and one half</NUMEX> links to the place of\nbeginning; containing <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> acres more or less. Also <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece\nor parcel of land situate in the and <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nand being part of lot No. forty five ( 45) in and town and bounded as follows:- Beginning\n<NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">31</NUMEX>) links north from the south east corner <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">45</NUMEX>); thence north on the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">12</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nthence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains and\n<NUMEX TYPE=\"QUANTITY\">sixty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">65</NUMEX>) links; thence south parallel with the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains\n( <NUMEX TYPE=\"QUANTITY\">129</NUMEX> <NUMEX TYPE=\"QUANTITY\">and forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>); thence east parallel with the south line of said lot;\n<NUMEX TYPE=\"QUANTITY\">thirteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">13</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) to the place of beginning; containing <NUMEX TYPE=\"QUANTITY\">about\nseventeen ( 17)</NUMEX> acres more or less. Also that tract or parcel of land\nsituate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> it being a part of \nLot No. thirty seven ( 37) in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows: Beginning\nat the north east corner of said lot <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37); thence west on and lot line <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> \nchains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty nine ( 49)</NUMEX> links; thence south on a line of lot No. forty four \n( 44) in said Town <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">twenty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">24</NUMEX>) links, thence east\nparallel with the north line of said lot No. <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37) <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> links; thence north on east line of said lot <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">eighty seven</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">37</NUMEX>) links unto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">sixty five ( 65)</NUMEX>\nacres more or less.\nAlso <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece or parcel of land\nsituate in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and being a part of lot No. forty four ( 44)\nin said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows:- Beginning at the north east corner\nof land now owned by <ENAMEX TYPE=\"PERSON\">George Dustin</ENAMEX>; thence west to land formerly owned by\n<ENAMEX TYPE=\"PERSON\">George Holt</ENAMEX>; thence north to land owned by <ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>; thence east to the\nnorth west corner of lot No. thirty seven ( 37); thence south to the place of beginning\ncontaining <NUMEX TYPE=\"QUANTITY\">about eighty ( 80)</NUMEX> acres be the same more or less. The whole of the\nabove described premises to contain <NUMEX TYPE=\"QUANTITY\">three hundred and fifty</NUMEX> acres ( <NUMEX TYPE=\"QUANTITY\">350</NUMEX>) of land\nthe same more or less. These premises are sold subject to a Mortgage\n<ENAMEX TYPE=\"PERSON\">Riley</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jonathan W. Metcalf</ENAMEX> for <NUMEX TYPE=\"MONEY\">four thousand five\nhundred Dollars ( $4500.00</NUMEX> <TIMEX TYPE=\"DATE\">April 15th 1897</TIMEX> which the party of the second assumes and\nagrees to pay\n℗\n<TIMEX TYPE=\"DATE\">1839</TIMEX>)\nin <TIMEX TYPE=\"DATE.non\">June</TIMEX>\nTogether with the appurtenances and all the estate and rights of the said party of the first part in and to said premises.\nTo have and to hold, the above granted premises unto the said party of the second part.\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nand the said <ENAMEX TYPE=\"PERSON\">Lewis C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\ndo covenant with the said party of the second part as follows:\n1 8 Fhed -- That the party of the second part shall quietly enjoy the said premises.\nA-- That the said <ENAMEX TYPE=\"PERSON\">Lewis D. Ells</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nwill forever WARRANT the title to said premises.\nIn witness tubercot, the said party of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nPRESENCE OF\n<ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>. L S.\n<ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>. L S\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">City ⌨⌨ Buffalo</ENAMEX> ⎬\n<TIMEX TYPE=\"DATE\">1 21st Day April\nin the year eighteen hundred and ninety-\nNo</TIMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX> an appeared <ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>\nmon & individual issue, and where the foregoing instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> there\nupon duly\nacknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nexecuted the same.\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> ⎬ ss.\n⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Buffalo</ENAMEX> 1s On the <TIMEX TYPE=\"DATE\">17th day of May in the year Eighteen hundred\nand ninety seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally came <ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>, to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and\nknown to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>\ninstrument and <ENAMEX TYPE=\"COREF\">he</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX> executed the same\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007154726_00381_TXT</UNQ>\n<IMID>007154726_00381</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32833-12846<TIMEX TYPE=\"DATE\">-55</TIMEX></APID>\n<IMGSIZE>4843,4296</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>℗\n<TIMEX TYPE=\"DATE\">1860</TIMEX>)\n<ENAMEX TYPE=\"EVENT.xlife\">WARRANTY DEED</ENAMEX>. Chapter 475, Laws of <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>, <TIMEX TYPE=\"DATE\">1800</TIMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, made this\n<ENAMEX TYPE=\"PERSON\">Juris C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria Ellis</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX>\n<NUMEX TYPE=\"QUANTITY\">eighteen hundred</NUMEX> and ninety-\nwife ⌨ the <ENAMEX TYPE=\"LOCALE\">Town of Marilla</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> party were and\n<ENAMEX TYPE=\"PERSON\">Fisher C. Atherton</ENAMEX>, of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nWitnesseth, That the said parties of the first part, in consideration of\nDollars, lawful money of the <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX>, paid by the part of the second part,\nis hereby grant and release unto the said party of the second part, <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever,\nAll that tract or parcel of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County\nof Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> and being part of lot No. thirty eight ( 38) in the <ENAMEX TYPE=\"LOCALE.notgpe\">eighth Township</ENAMEX> \nin the <ENAMEX TYPE=\"LOCALE.notgpe\">Fifth Range</ENAMEX> of <ENAMEX TYPE=\"LOCALE.notgpe\">township of the Holland Company</ENAMEX>'s land bounded as follows:-\nEast by lot No. thirty ( 30) <NUMEX TYPE=\"QUANTITY\">Eighteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">18</NUMEX>) <NUMEX TYPE=\"QUANTITY\">forty three</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">43</NUMEX>); South by lots No\nthirty seven ( 37)and <NUMEX TYPE=\"QUANTITY\">forty four ( 44) sixty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">60</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">thirty nine</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">39</NUMEX>) links: West by\nlot No. <NUMEX TYPE=\"QUANTITY\">forty five ( 45) eighteen ( 18)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">sixty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">64</NUMEX>) links; North by a line\nparallel with the north bounds of the said lot No thirty <NUMEX TYPE=\"QUANTITY\">eight ( 38) sixty ( 60)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">thirty two</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">32</NUMEX>) links; containing <NUMEX TYPE=\"QUANTITY\">one hundred and eleven ( 10)</NUMEX> acres be the same\nmore or less.\nAlsone other piece or parcel of land being and lying on lot No. forty five\n( 45) bounded as follows:- Beginning at the south east corner of and lot No.\nforty five ( 45); thence north on the east line of and lot, <NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains <NUMEX TYPE=\"MONEY\">$14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX>\n<NUMEX TYPE=\"QUANTITY\">( 5)</NUMEX> links; thence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains\nand <NUMEX TYPE=\"QUANTITY\">forty ( 40)</NUMEX> links; thence south parallel with the east line of said lot <NUMEX TYPE=\"QUANTITY\">fourteen\n( 14)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">41</NUMEX>) links to the south line of and lot; thence east on the and\nline thirteen ( <NUMEX TYPE=\"QUANTITY\">13)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 40)</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">nineteen\n6/10</NUMEX> acres be the same more or less and in both pieces hereby conveyed <NUMEX TYPE=\"QUANTITY\">one hundred\nthirty and 50/100</NUMEX> acres of land more or less. Also all that certain tract or parcel of \nland, situate, lying and being in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing a part of lot No. thirty eight ( 38) in the Township bounded as follows:-\nCommencing at the north west corner of land deeded by <ENAMEX TYPE=\"PERSON\">Smith Kimball</ENAMEX> and <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to\n<ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>, <TIMEX TYPE=\"DATE\">July 13th 1871</TIMEX>; thence east by land thus deeded as aforesaid\n<NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">36)</NUMEX> links; thence north on the lot line <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX>\nchains <NUMEX TYPE=\"QUANTITY\">eleven ( 11 ½) and one half</NUMEX> links; thence west <NUMEX TYPE=\"QUANTITY\">sixty ( 60)</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">thirty six</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 36)</NUMEX>\nlinks; thence south <NUMEX TYPE=\"QUANTITY\">nine ( 9)</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven ( 11) and one half</NUMEX> links to the place of\nbeginning; containing <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> acres more or less. Also <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece\nor parcel of land situate in the and <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nand being part of lot No. forty five ( 45) in and town and bounded as follows:- Beginning\n<NUMEX TYPE=\"QUANTITY\">fourteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">14</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">fifty one</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">31</NUMEX>) links north from the south east corner <NUMEX TYPE=\"QUANTITY\">forty five</NUMEX> <NUMEX TYPE=\"QUANTITY\">( 45</NUMEX>); thence north on the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">12</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nthence west parallel with the south line of said lot <NUMEX TYPE=\"QUANTITY\">thirteen ( 13)</NUMEX> chains and\n<NUMEX TYPE=\"QUANTITY\">sixty five</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">65</NUMEX>) links; thence south parallel with the east line <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains\n( <NUMEX TYPE=\"QUANTITY\">129</NUMEX> <NUMEX TYPE=\"QUANTITY\">and forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>); thence east parallel with the south line of said lot;\n<NUMEX TYPE=\"QUANTITY\">thirteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">13</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> links ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) to the place of beginning; containing <NUMEX TYPE=\"QUANTITY\">about\nseventeen ( 17)</NUMEX> acres more or less. Also that tract or parcel of land\nsituate in the <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> it being a part of \nLot No. thirty seven ( 37) in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows: Beginning\nat the north east corner of said lot <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37); thence west on and lot line <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> \nchains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">forty nine ( 49)</NUMEX> links; thence south on a line of lot No. forty four \n( 44) in said Town <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>) and <NUMEX TYPE=\"QUANTITY\">twenty four</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">24</NUMEX>) links, thence east\nparallel with the north line of said lot No. <NUMEX TYPE=\"QUANTITY\">thirty seven</NUMEX> ( 37) <NUMEX TYPE=\"QUANTITY\">forty</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">40</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">fifty five ( 55)</NUMEX> links; thence north on east line of said lot <NUMEX TYPE=\"QUANTITY\">sixteen</NUMEX> chains ( <NUMEX TYPE=\"QUANTITY\">16</NUMEX>)\nand <NUMEX TYPE=\"QUANTITY\">eighty seven</NUMEX> ( <NUMEX TYPE=\"QUANTITY\">37</NUMEX>) links unto the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">sixty five ( 65)</NUMEX>\nacres more or less.\nAlso <NUMEX TYPE=\"QUANTITY\">one</NUMEX> other piece or parcel of land\nsituate in the said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and being a part of lot No. forty four ( 44)\nin said <ENAMEX TYPE=\"LOCALE\">Town of Holland</ENAMEX> and bounded as follows:- Beginning at the north east corner\nof land now owned by <ENAMEX TYPE=\"PERSON\">George Dustin</ENAMEX>; thence west to land formerly owned by\n<ENAMEX TYPE=\"PERSON\">George Holt</ENAMEX>; thence north to land owned by <ENAMEX TYPE=\"PERSON\">J. W. Metcalf</ENAMEX>; thence east to the\nnorth west corner of lot No. thirty seven ( 37); thence south to the place of beginning\ncontaining <NUMEX TYPE=\"QUANTITY\">about eighty ( 80)</NUMEX> acres be the same more or less. The whole of the\nabove described premises to contain <NUMEX TYPE=\"QUANTITY\">three hundred and fifty</NUMEX> acres ( <NUMEX TYPE=\"QUANTITY\">350</NUMEX>) of land\nthe same more or less. These premises are sold subject to a Mortgage\n<ENAMEX TYPE=\"PERSON\">Riley</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jonathan W. Metcalf</ENAMEX> for <NUMEX TYPE=\"MONEY\">four thousand five\nhundred Dollars ( $4500.00</NUMEX> <TIMEX TYPE=\"DATE\">April 15th 1897</TIMEX> which the party of the second assumes and\nagrees to pay\n℗\n<TIMEX TYPE=\"DATE\">1839</TIMEX>)\nin <TIMEX TYPE=\"DATE.non\">June</TIMEX>\nTogether with the appurtenances and all the estate and rights of the said party of the first part in and to said premises.\nTo have and to hold, the above granted premises unto the said party of the second part.\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever.\nand the said <ENAMEX TYPE=\"PERSON\">Lewis C. Ellis</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\ndo covenant with the said party of the second part as follows:\n1 8 Fhed -- That the party of the second part shall quietly enjoy the said premises.\nA-- That the said <ENAMEX TYPE=\"PERSON\">Lewis D. Ells</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Maria</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>\nwill forever WARRANT the title to said premises.\nIn witness tubercot, the said party of the first part, have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nPRESENCE OF\n<ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>. L S.\n<ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>. L S\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">City ⌨⌨ Buffalo</ENAMEX> ⎬\n<TIMEX TYPE=\"DATE\">1 21st Day April\nin the year eighteen hundred and ninety-\nNo</TIMEX> <ENAMEX TYPE=\"COREF\">me</ENAMEX> an appeared <ENAMEX TYPE=\"PERSON\">Maria Ells</ENAMEX>\nmon & individual issue, and where the foregoing instrument, <ENAMEX TYPE=\"COREF\">who</ENAMEX> there\nupon duly\nacknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX>\nexecuted the same.\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>,\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX> ⎬ ss.\n⌨⌨⌨⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Buffalo</ENAMEX> 1s On the <TIMEX TYPE=\"DATE\">17th day of May in the year Eighteen hundred\nand ninety seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally came <ENAMEX TYPE=\"PERSON\">Lewis C. Ells</ENAMEX>, to <ENAMEX TYPE=\"COREF\">me</ENAMEX> known and\nknown to <ENAMEX TYPE=\"COREF\">me</ENAMEX> to be the individual described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the foregoing\n<ENAMEX TYPE=\"PERSON\">R. F. Penton</ENAMEX>\ninstrument and <ENAMEX TYPE=\"COREF\">he</ENAMEX> thereupon duly acknowledged to <ENAMEX TYPE=\"COREF\">me</ENAMEX> that <ENAMEX TYPE=\"COREF\">he</ENAMEX> executed the same\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007154726_00381_TXT</UNQ>\n<IMID>007154726_00381</IMID>\n<APID>TH-1971-32833-12846-55</APID>\n<IMGSIZE>4843,4296</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[302,444:387,498] ℗\n[1407,576:1498,610] 1860)\n[520,598:646,623] WARRANTY [657,598:721,623] DEED. [735,598:811,623] Chapter [810,598:850,623] 475, [855,598:910,623] Laws [912,598:934,623] of [939,598:964,623] N. [966,598:991,623] Y., [996,598:1047,623] 1800.\n[593,683:689,733] This [720,683:949,733] Indenture, [999,683:1063,733] made [1062,683:1356,733] this\n[1585,669:1695,778] Juris [1698,669:1728,778] C. [1745,669:1835,778] Ellis [1832,669:1888,778] and [1918,669:2035,778] Maria [2045,669:2128,778] Ellis, [2144,669:2355,778] his\n[521,753:630,778] eighteen [637,753:749,778] hundred [753,753:804,778] and [814,753:899,778] ninety-\n[441,744:490,862] wife [486,744:561,862] ⌨ [558,744:613,862] the [616,744:711,862] Town [707,744:750,862] of [773,744:893,862] Marilla, [916,744:1036,862] County [1039,744:1076,862] of [1085,744:1173,862] Erie [1176,744:1264,862] and [1274,744:1388,862] State [1391,744:1434,862] of [1450,744:1518,862] New [1541,744:1635,862] York [1645,744:1759,862] party [1795,744:1928,862] were [1925,744:2259,862] and\n[447,851:548,965] Fisher [564,851:594,965] C. [616,851:776,965] Atherton, [799,851:841,965] of [851,851:913,965] the [922,851:1004,965] City [1007,851:1043,965] of [1059,851:1206,965] Buffalo, [1222,851:1362,965] County [1371,851:1407,965] of [1410,851:1492,965] Erie [1495,851:1557,965] and [1580,851:1700,965] State [1703,851:1752,965] of [1769,851:1837,965] New [1853,851:2244,965] York\n[523,928:708,1024] Witnesseth, [727,928:787,1024] That [785,928:833,1024] the [831,928:887,1024] said [889,928:986,1024] parties [1001,928:1028,1024] of [1026,928:1074,1024] the [1072,928:1128,1024] first [1130,928:1182,1024] part, [1189,928:1219,1024] in [1222,928:1382,1024] consideration [1392,928:2097,1024] of\n[1307,1026:1396,1067] Dollars, [1403,1026:1488,1067] lawful [1500,1026:1581,1067] money [1584,1026:1612,1067] of [1615,1026:1660,1067] the [1663,1026:1753,1067] United [1760,1026:1836,1067] States, [1849,1026:1907,1067] paid [1910,1026:1947,1067] by [1950,1026:1995,1067] the [2003,1026:2101,1067] part [2113,1026:2141,1067] of [2139,1026:2189,1067] the [2192,1026:2277,1067] second [2285,1026:2339,1067] part,\n[517,1044:555,1122] is [608,1044:696,1122] hereby [704,1044:778,1122] grant [777,1044:833,1122] and [836,1044:928,1122] release [932,1044:997,1122] unto [996,1044:1042,1122] the [1046,1044:1101,1122] said [1110,1044:1215,1122] party [1223,1044:1252,1122] of [1251,1044:1297,1122] the [1301,1044:1388,1122] second [1401,1044:1457,1122] part, [1829,1044:1894,1122] heirs [1898,1044:1949,1122] and [1957,1044:2053,1122] assigns [2053,1044:2154,1122] forever,\n[764,1160:834,1224] All [844,1160:954,1224] that [964,1160:1081,1224] tract [1085,1160:1135,1224] or [1145,1160:1281,1224] parcel [1285,1160:1335,1224] of [1345,1160:1448,1224] land [1458,1160:1582,1224] situate [1585,1160:1635,1224] in [1639,1160:1702,1224] the [1705,1160:1795,1224] Town [1799,1160:1836,1224] of [1846,1160:1976,1224] Holland [1972,1160:2311,1224] County\n[441,1215:472,1286] of [483,1215:557,1286] Erie [561,1215:614,1286] and [625,1215:727,1286] State [731,1215:777,1286] of [795,1215:855,1286] New [880,1215:961,1286] York [958,1215:1017,1286] and [1029,1215:1138,1286] being [1142,1215:1237,1286] part [1241,1215:1287,1286] of [1298,1215:1357,1286] lot [1376,1215:1421,1286] No. [1440,1215:1556,1286] thirty [1567,1215:1662,1286] eight [1659,1215:1676,1286] ( [1666,1215:1726,1286] 38) [1744,1215:1790,1286] in [1794,1215:1860,1286] the [1865,1215:1988,1286] eighth [1992,1215:2179,1286] Township [419,1265:443,1333] \n[440,1265:499,1333] in [503,1265:555,1333] the [559,1265:675,1333] Fifth [693,1265:815,1333] Range [819,1265:864,1333] of [868,1265:1054,1333] township [1058,1265:1103,1333] of [1107,1265:1166,1333] the [1177,1265:1341,1333] Holland [1352,1265:1517,1333] Company's [1563,1265:1664,1333] land [1668,1265:1832,1333] bounded [1844,1265:1910,1333] as [1914,1265:2043,1333] follows:-\n[446,1317:540,1383] East [546,1317:617,1383] by [622,1317:693,1383] lot [714,1317:755,1383] No. [775,1317:877,1383] thirty [875,1317:900,1383] ( [890,1317:946,1383] 30) [967,1317:1153,1383] Eighteen [1166,1317:1306,1383] chains [1304,1317:1329,1383] ( [1319,1317:1375,1383] 18) [1396,1317:1513,1383] forty [1526,1317:1659,1383] three [1664,1317:1774,1383] links [1779,1317:1797,1383] ( [1787,1317:1858,1383] 43); [1909,1317:2026,1383] South [2032,1317:2088,1383] by [2093,1317:2157,1383] lots [2177,1317:2341,1383] No\n[445,1365:557,1434] thirty [560,1365:679,1434] seven [676,1365:692,1434] ( [682,1365:740,1434] 37)and [825,1365:937,1434] forty [947,1365:1038,1434] four [1035,1365:1059,1434] ( [1049,1365:1106,1434] 44) [1137,1365:1235,1434] sixty [1245,1365:1378,1434] chains [1374,1365:1391,1434] ( [1381,1365:1432,1434] 60) [1449,1365:1500,1434] and [1510,1365:1615,1434] thirty [1632,1365:1703,1434] nine [1707,1365:1724,1434] ( [1714,1365:1764,1434] 39) [1781,1365:1886,1434] links: [1910,1365:1988,1434] West [1992,1365:2299,1434] by\n[446,1415:511,1472] lot [536,1415:580,1472] No. [598,1415:705,1472] forty [715,1415:794,1472] five [791,1415:815,1472] ( [805,1415:870,1472] 45) [881,1415:1043,1472] eighteen [1040,1415:1064,1472] ( [1054,1415:1105,1472] 18) [1123,1415:1243,1472] chains [1240,1415:1299,1472] and [1302,1415:1423,1472] sixty [1427,1415:1526,1472] four [1523,1415:1547,1472] ( [1537,1415:1602,1472] 64) [1627,1415:1741,1472] links; [1772,1415:1872,1472] North [1883,1415:1934,1472] by [1945,1415:1975,1472] a [1979,1415:2290,1472] line\n[460,1465:627,1522] parallel [640,1465:732,1522] with [745,1465:823,1522] the [843,1465:965,1522] north [978,1465:1138,1522] bounds [1143,1465:1198,1522] of [1211,1465:1288,1522] the [1293,1465:1416,1522] said [1428,1465:1506,1522] lot [1526,1465:1588,1522] No [1593,1465:1716,1522] thirty [1721,1465:1836,1522] eight [1834,1465:1851,1522] ( [1841,1465:1904,1522] 38) [1924,1465:2031,1522] sixty [2036,1465:2054,1522] ( [2044,1465:2092,1522] 60) [2104,1465:2362,1522] chains\n[441,1515:488,1572] and [500,1515:612,1572] thirty [617,1515:693,1572] two [691,1515:715,1572] ( [705,1515:759,1572] 32) [779,1515:892,1572] links; [918,1515:1149,1572] containing [1153,1515:1222,1572] one [1234,1515:1421,1572] hundred [1418,1515:1494,1572] and [1499,1515:1641,1572] eleven [1638,1515:1656,1572] ( [1646,1515:1729,1572] 10) [1748,1515:1869,1572] acres [1881,1515:1942,1572] be [1947,1515:2023,1572] the [2028,1515:2305,1572] same\n[469,1568:556,1618] more [569,1568:609,1618] or [622,1568:724,1618] less.\n[768,1613:962,1675] Alsone [967,1613:1080,1675] other [1092,1613:1198,1675] piece [1202,1613:1256,1675] or [1269,1613:1404,1675] parcel [1408,1613:1455,1675] of [1460,1613:1573,1675] land [1585,1613:1668,1675] being [1666,1613:1713,1675] and [1717,1613:1830,1675] lying [1835,1613:1889,1675] on [1901,1613:1970,1675] lot [1990,1613:2036,1675] No. [2056,1613:2132,1675] forty [2144,1613:2358,1675] five\n[442,1661:467,1718] ( [457,1661:518,1718] 45) [537,1661:706,1718] bounded [718,1661:779,1718] as [784,1661:946,1718] follows:- [1016,1661:1258,1718] Beginning [1270,1661:1331,1718] at [1343,1661:1425,1718] the [1437,1661:1563,1718] south [1575,1661:1672,1718] east [1677,1661:1825,1718] corner [1829,1661:1868,1718] of [1873,1661:1934,1718] and [1938,1661:2006,1718] lot [2025,1661:2086,1718] No.\n[448,1716:535,1768] forty [538,1716:600,1768] five [603,1716:619,1768] ( [609,1716:665,1768] 45); [706,1716:820,1768] thence [829,1716:929,1768] north [932,1716:987,1768] on [990,1716:1045,1768] the [1048,1716:1129,1768] east [1139,1716:1213,1768] line [1216,1716:1246,1768] of [1248,1716:1304,1768] and [1307,1716:1362,1768] lot, [1378,1716:1530,1768] fourteen [1533,1716:1659,1768] chains [1662,1716:1717,1768] $14) [1726,1716:1762,1768] and [1765,1716:1852,1768] fifty [1855,1716:2223,1768] one\n[432,1759:455,1816] ( [445,1759:481,1816] 5) [503,1759:604,1816] links; [620,1759:754,1816] thence [770,1759:858,1816] west [867,1759:1020,1816] parallel [1036,1759:1131,1816] with [1134,1759:1209,1816] the [1218,1759:1345,1816] south [1355,1759:1443,1816] line [1446,1759:1495,1816] of [1498,1759:1586,1816] said [1589,1759:1664,1816] lot [1667,1759:1807,1816] thirteen [1803,1759:1820,1816] ( [1810,1759:1859,1816] 13) [1868,1759:2256,1816] chains\n[440,1814:485,1870] and [496,1814:569,1870] forty [566,1814:590,1870] ( [580,1814:632,1870] 40) [651,1814:759,1870] links; [784,1814:920,1870] thence [931,1814:1060,1870] south [1064,1814:1250,1870] parallel [1261,1814:1369,1870] with [1373,1814:1453,1870] the [1464,1814:1558,1870] east [1562,1814:1657,1870] line [1661,1814:1706,1870] of [1710,1814:1818,1870] said [1822,1814:1895,1870] lot [1899,1814:2273,1870] fourteen\n[442,1861:466,1914] ( [456,1861:503,1914] 14) [529,1861:669,1914] chains [666,1861:726,1914] and [738,1861:835,1914] forty [839,1861:900,1914] one [897,1861:921,1914] ( [911,1861:957,1914] 41) [984,1861:1102,1914] links [1106,1861:1160,1914] to [1171,1861:1239,1914] the [1251,1861:1384,1914] south [1395,1861:1485,1914] line [1489,1861:1521,1914] of [1525,1861:1579,1914] and [1583,1861:1651,1914] lot; [1677,1861:1810,1914] thence [1814,1861:1911,1914] east [1922,1861:1968,1914] on [1973,1861:2033,1914] the [2038,1861:2282,1914] and\n[440,1914:508,1980] line [511,1914:643,1980] thirteen [640,1914:663,1980] ( [653,1914:695,1980] 13) [711,1914:824,1980] chains [820,1914:869,1980] and [879,1914:947,1980] forty [943,1914:959,1980] ( [949,1914:998,1980] 40) [1014,1914:1121,1980] links [1124,1914:1166,1980] to [1169,1914:1237,1980] the [1246,1914:1340,1980] place [1343,1914:1385,1980] of [1394,1914:1585,1980] beginning, [1607,1914:1804,1980] containing [1820,1914:2258,1980] nineteen\n[435,1955:452,2011] 6/10 [520,1955:621,2011] acres [630,1955:686,2011] be [689,1955:751,2011] the [760,1955:880,2011] same [909,1955:997,2011] more [1000,1955:1043,2011] or [1052,1955:1121,2011] less [1124,1955:1179,2011] and [1182,1955:1231,2011] in [1240,1955:1335,2011] both [1344,1955:1452,2011] pieces [1455,1955:1569,2011] hereby [1572,1955:1750,2011] conveyed [1753,1955:1822,2011] one [1825,1955:2277,2011] hundred\n[447,2005:557,2066] thirty [554,2005:600,2066] and [597,2005:636,2066] 50/100 [691,2005:801,2066] acres [806,2005:852,2066] of [863,2005:974,2066] land [1007,2005:1088,2066] more [1100,2005:1146,2066] or [1157,2005:1239,2066] less. [1387,2005:1483,2066] Also [1495,2005:1562,2066] all [1567,2005:1663,2066] that [1667,2005:1821,2066] certain [1825,2005:1936,2066] tract [1940,2005:1979,2066] or [1990,2005:2108,2066] parcel [2112,2005:2209,2066] of [421,2052:438,2107] \n[450,2052:555,2107] land, [575,2052:731,2107] situate, [751,2052:863,2107] lying [860,2052:922,2107] and [934,2052:1046,2107] being [1051,2052:1105,2107] in [1102,2052:1178,2107] the [1183,2052:1288,2107] Town [1292,2052:1339,2107] of [1358,2052:1530,2107] Holland [1542,2052:1676,2107] County [1681,2052:1713,2107] of [1725,2052:1808,2107] Erie [1805,2052:1859,2107] and [1871,2052:1976,2107] State [1981,2052:2028,2107] of [2040,2052:2086,2107] New [2098,2052:2342,2107] York\n[447,2098:541,2162] being [552,2098:583,2162] a [595,2098:696,2162] part [707,2098:752,2162] of [763,2098:836,2162] lot [854,2098:906,2162] No. [938,2098:1061,2162] thirty [1065,2098:1173,2162] eight [1170,2098:1194,2162] ( [1184,2098:1243,2162] 38) [1261,2098:1320,2162] in [1324,2098:1440,2162] the [1444,2098:1664,2162] Township [1668,2098:1847,2162] bounded [1858,2098:1910,2162] as [1914,2098:2050,2162] follows:-\n[435,2146:662,2203] Commencing [670,2146:724,2203] at [726,2146:798,2203] the [806,2146:903,2203] north [918,2146:990,2203] west [992,2146:1114,2203] corner [1116,2146:1163,2203] of [1172,2146:1256,2203] land [1265,2146:1392,2203] deeded [1401,2146:1448,2203] by [1457,2146:1566,2203] Smith [1574,2146:1721,2203] Kimball [1717,2146:1764,2203] and [1772,2146:1838,2203] wife [1841,2146:2234,2203] to\n[465,2203:504,2253] J. [516,2203:555,2253] W. [596,2203:738,2253] Metcalf, [772,2203:869,2253] July [874,2203:993,2253] 13th [998,2203:1088,2253] 1871; [1122,2203:1264,2253] thence [1276,2203:1381,2253] east [1385,2203:1454,2253] by [1458,2203:1585,2253] land [1597,2203:1702,2253] thus [1714,2203:1885,2253] deeded [1889,2203:1950,2253] as [1962,2203:2313,2253] aforesaid\n[435,2253:522,2303] sixty [519,2253:542,2303] ( [532,2253:574,2303] 60) [596,2253:716,2303] chains [712,2253:774,2303] and [783,2253:897,2303] thirty [899,2253:961,2303] six [957,2253:980,2303] ( [970,2253:1026,2303] 36) [1041,2253:1161,2303] links; [1177,2253:1297,2303] thence [1312,2253:1419,2303] north [1422,2253:1477,2303] on [1480,2253:1561,2303] the [1570,2253:1638,2303] lot [1641,2253:1735,2303] line [1751,2253:1826,2303] nine [1822,2253:1845,2303] ( [1835,2253:1864,2303] 9)\n[439,2298:566,2355] chains [575,2298:684,2355] eleven [686,2298:703,2355] ( [693,2298:727,2355] 11 [730,2298:758,2355] ½) [779,2298:833,2355] and [835,2298:894,2355] one [903,2298:987,2355] half [990,2298:1086,2355] links; [1107,2298:1229,2355] thence [1237,2298:1321,2355] west [1330,2298:1420,2355] sixty [1417,2298:1439,2355] ( [1429,2298:1470,2355] 60) [1485,2298:1600,2355] chains [1596,2298:1649,2355] and [1652,2298:1767,2355] thirty [1769,2298:1829,2355] six [1825,2298:1841,2355] ( [1831,2298:1872,2355] 36)\n[446,2348:548,2401] links; [573,2348:703,2401] thence [714,2348:837,2401] south [856,2348:936,2401] nine [933,2348:958,2401] ( [948,2348:979,2401] 9) [997,2348:1149,2401] chains [1153,2348:1276,2401] eleven [1273,2348:1297,2401] ( [1287,2348:1354,2401] 11) [1372,2348:1431,2401] and [1435,2348:1502,2401] one [1513,2348:1615,2401] half [1619,2348:1735,2401] links [1747,2348:1792,2401] to [1796,2348:1863,2401] the [1874,2348:1983,2401] place [1987,2348:2254,2401] of\n[443,2396:649,2451] beginning; [683,2396:918,2451] containing [923,2396:1035,2451] fifty [1047,2396:1122,2451] five [1119,2396:1144,2451] ( [1134,2396:1195,2451] 55) [1221,2396:1341,2451] acres [1367,2396:1450,2451] more [1462,2396:1508,2451] or [1512,2396:1617,2451] less. [1782,2396:1879,2451] Also [1884,2396:1966,2451] one [1971,2396:2083,2451] other [2088,2396:2352,2451] piece\n[438,2444:479,2498] or [481,2444:590,2498] parcel [592,2444:633,2498] of [642,2444:745,2498] land [753,2444:893,2498] situate [895,2444:949,2498] in [957,2444:1011,2498] the [1007,2444:1066,2498] and [1069,2444:1178,2498] Town [1174,2444:1215,2498] of [1223,2444:1363,2498] Holland, [1378,2444:1474,2498] County [1477,2444:1512,2498] of [1514,2444:1573,2498] Erie [1570,2444:1611,2498] and [1625,2444:1722,2498] State [1718,2444:1759,2498] of [1774,2444:1821,2498] New [1829,2444:2243,2498] York\n[444,2489:492,2585] and [506,2489:624,2585] being [637,2489:747,2585] part [753,2489:809,2585] of [822,2489:894,2585] lot [915,2489:948,2585] No. [969,2489:1064,2585] forty [1070,2489:1149,2585] five [1147,2489:1172,2585] ( [1162,2489:1227,2585] 45) [1240,2489:1281,2585] in [1278,2489:1350,2585] and [1356,2489:1466,2585] town [1464,2489:1528,2585] and [1533,2489:1744,2585] bounded [1765,2489:1822,2585] as [1835,2489:1999,2585] follows:- [2074,2489:2368,2585] Beginning\n[450,2539:624,2599] fourteen [628,2539:754,2599] chains [751,2539:775,2599] ( [765,2539:809,2599] 14) [833,2539:891,2599] and [895,2539:987,2599] fifty [997,2539:1055,2599] one [1052,2539:1076,2599] ( [1066,2539:1110,2599] 31) [1134,2539:1247,2599] links [1264,2539:1363,2599] north [1373,2539:1465,2599] from [1469,2539:1534,2599] the [1544,2539:1657,2599] south [1660,2539:1759,2599] east [1763,2539:1882,2599] corner [455,2592:539,2646] forty [543,2592:626,2646] five [624,2592:641,2646] ( [631,2592:692,2646] 45); [741,2592:905,2646] thence [931,2592:1051,2646] north [1063,2592:1132,2646] on [1137,2592:1220,2646] the [1225,2592:1337,2646] east [1342,2592:1447,2646] line [1452,2592:1601,2646] twelve [1613,2592:1755,2646] chains [1759,2592:1777,2646] ( [1767,2592:1821,2646] 12) [1840,2592:1887,2646] and [1899,2592:1989,2646] forty [1994,2592:2099,2646] links [2096,2592:2121,2646] ( [2111,2592:2172,2646] 40)\n[448,2639:567,2692] thence [586,2639:684,2692] west [688,2639:881,2692] parallel [900,2639:998,2692] with [1002,2639:1085,2692] the [1090,2639:1216,2692] south [1228,2639:1326,2692] line [1323,2639:1377,2692] of [1382,2639:1494,2692] said [1506,2639:1581,2692] lot [1586,2639:1764,2692] thirteen [1768,2639:1785,2692] ( [1775,2639:1837,2692] 13) [1863,2639:1997,2692] chains [2002,2639:2258,2692] and\n[455,2687:545,2744] sixty [556,2687:632,2744] five [636,2687:654,2744] ( [644,2687:712,2744] 65) [738,2687:850,2744] links; [883,2687:1039,2744] thence [1051,2687:1191,2744] south [1196,2687:1388,2744] parallel [1407,2687:1518,2744] with [1530,2687:1620,2744] the [1632,2687:1744,2744] east [1755,2687:1845,2744] line [1850,2687:1998,2744] twelve [2002,2687:2332,2744] chains\n[445,2740:462,2790] ( [452,2740:518,2790] 129 [515,2740:574,2790] and [585,2740:672,2790] forty [683,2740:784,2790] links [781,2740:805,2790] ( [795,2740:847,2790] 40); [893,2740:1043,2790] thence [1047,2740:1148,2790] east [1159,2740:1358,2790] parallel [1369,2740:1471,2790] with [1482,2740:1555,2790] the [1566,2740:1695,2790] south [1706,2740:1800,2790] line [1797,2740:1842,2790] of [1846,2740:1954,2790] said [1965,2740:2038,2790] lot;\n[448,2785:589,2844] thirteen [600,2785:727,2844] chains [724,2785:748,2844] ( [738,2785:783,2844] 13) [800,2785:859,2844] and [863,2785:962,2844] forty [966,2785:1080,2844] links [1077,2785:1100,2844] ( [1090,2785:1149,2844] 40) [1173,2785:1225,2844] to [1235,2785:1308,2844] the [1318,2785:1439,2844] place [1443,2785:1487,2844] of [1498,2785:1708,2844] beginning; [1726,2785:1936,2844] containing [1940,2785:2299,2844] about\n[445,2835:611,2890] seventeen [607,2835:624,2890] ( [614,2835:663,2890] 17) [692,2835:812,2890] acres [848,2835:929,2890] more [932,2835:975,2890] or [984,2835:1072,2890] less. [1284,2835:1378,2890] Also [1388,2835:1482,2890] that [1498,2835:1606,2890] tract [1615,2835:1651,2890] or [1661,2835:1795,2890] parcel [1798,2835:1840,2890] of [1843,2835:2255,2890] land\n[447,2878:583,2944] situate [587,2878:646,2944] in [650,2878:716,2944] the [720,2878:828,2944] Town [839,2878:877,2944] of [888,2878:1052,2944] Holland, [1070,2878:1206,2944] County [1210,2878:1248,2944] of [1252,2878:1332,2944] Erie [1336,2878:1395,2944] and [1427,2878:1541,2944] State [1545,2878:1590,2944] of [1608,2878:1674,2944] New [1699,2878:1779,2944] York [1783,2878:1842,2944] it [1853,2878:1947,2944] being [1951,2878:1982,2944] a [1993,2878:2073,2944] part [2077,2878:2164,2944] of [420,2931:444,2988] \n[447,2931:498,2988] Lot [515,2931:552,2988] No. [569,2931:680,2988] thirty [691,2931:795,2988] seven [792,2931:815,2988] ( [805,2931:856,2988] 37) [873,2931:937,2988] in [941,2931:1011,2988] the [1015,2931:1106,2988] said [1110,2931:1228,2988] Town [1231,2931:1275,2988] of [1292,2931:1444,2988] Holland [1447,2931:1505,2988] and [1508,2931:1680,2988] bounded [1691,2931:1741,2988] as [1745,2931:1870,2988] follows: [1887,2931:2301,2988] Beginning\n[453,2979:504,3045] at [507,2979:571,3045] the [588,2979:686,3045] north [696,2979:781,3045] east [791,2979:915,3045] corner [919,2979:963,3045] of [966,2979:1057,3045] said [1067,2979:1138,3045] lot [1148,2979:1266,3045] thirty [1276,2979:1388,3045] seven [1384,2979:1401,3045] ( [1391,2979:1448,3045] 37); [1492,2979:1631,3045] thence [1641,2979:1745,3045] west [1749,2979:1779,3045] on [1776,2979:1833,3045] and [1836,2979:1900,3045] lot [1911,2979:1975,3045] line [1978,2979:2103,3045] forty [423,3029:448,3090] \n[453,3029:596,3090] chains [594,3029:619,3090] ( [609,3029:663,3090] 40) [683,3029:745,3090] and [757,3029:841,3090] forty [861,3029:960,3090] nine [965,3029:990,3090] ( [980,3029:1042,3090] 49) [1076,3029:1205,3090] links; [1232,3029:1398,3090] thence [1403,3029:1554,3090] south [1559,3029:1621,3090] on [1633,3029:1688,3090] a [1693,3029:1799,3090] line [1812,3029:1866,3090] of [1871,3029:1948,3090] lot [1967,3029:2022,3090] No. [2042,3029:2141,3090] forty [2146,3029:2274,3090] four [428,3081:445,3138] \n[442,3081:466,3138] ( [456,3081:515,3138] 44) [533,3081:592,3138] in [596,3081:704,3138] said [715,3081:837,3138] Town [848,3081:1019,3138] sixteen [1023,3081:1173,3138] chains [1170,3081:1194,3138] ( [1184,3081:1243,3138] 16) [1261,3081:1327,3138] and [1338,3081:1481,3138] twenty [1492,3081:1593,3138] four [1590,3081:1614,3138] ( [1604,3081:1656,3138] 24) [1688,3081:1810,3138] links, [1828,3081:1978,3138] thence [1982,3081:2290,3138] east\n[466,3129:649,3186] parallel [662,3129:770,3186] with [775,3129:860,3186] the [888,3129:1011,3186] north [1016,3129:1123,3186] line [1129,3129:1191,3186] of [1196,3129:1334,3186] said [1347,3129:1432,3186] lot [1452,3129:1500,3186] No. [1535,3129:1673,3186] thirty [1685,3129:1808,3186] seven [1806,3129:1831,3186] ( [1821,3129:1868,3186] 37) [1889,3129:1996,3186] forty [2001,3129:2132,3186] chains [2129,3129:2154,3186] ( [2144,3129:2200,3186] 40)\n[446,3176:506,3233] and [517,3176:605,3233] fifty [610,3176:684,3233] five [681,3176:705,3233] ( [695,3176:762,3233] 55) [780,3176:904,3233] links; [923,3176:1061,3233] thence [1079,3176:1196,3233] north [1207,3176:1260,3233] on [1264,3176:1381,3233] east [1392,3176:1487,3233] line [1492,3176:1544,3233] of [1556,3176:1658,3233] said [1669,3176:1751,3233] lot [1755,3176:1914,3233] sixteen [1918,3176:2063,3233] chains [2061,3176:2085,3233] ( [2075,3176:2113,3233] 16)\n[451,3224:491,3286] and [504,3224:634,3286] eighty [639,3224:755,3286] seven [752,3224:770,3286] ( [760,3224:815,3286] 37) [842,3224:965,3286] links [985,3224:1093,3286] unto [1106,3224:1191,3286] the [1204,3224:1334,3286] place [1339,3224:1402,3286] of [1414,3224:1635,3286] beginning, [1655,3224:1906,3286] containing [1918,3224:2011,3286] sixty [2024,3224:2109,3286] five [2106,3224:2132,3286] ( [2122,3224:2177,3286] 65)\n[467,3279:574,3318] acres [616,3279:716,3318] more [728,3279:776,3318] or [788,3279:888,3318] less.\n[1348,3279:1450,3324] Also [1462,3279:1549,3324] one [1561,3279:1701,3324] other [1714,3279:1838,3324] piece [1843,3279:1906,3324] or [1919,3279:2066,3324] parcel [2072,3279:2127,3324] of [2133,3279:2337,3324] land\n[445,3306:578,3386] situate [581,3306:647,3386] in [649,3306:715,3386] the [717,3306:814,3386] said [822,3306:925,3386] Town [928,3306:975,3386] of [990,3306:1130,3386] Holland [1132,3306:1185,3386] and [1194,3306:1297,3386] being [1306,3306:1353,3386] a [1355,3306:1452,3386] part [1454,3306:1501,3386] of [1510,3306:1582,3386] lot [1597,3306:1644,3386] No. [1665,3306:1755,3386] forty [1758,3306:1836,3386] four [1838,3306:1854,3386] ( [1844,3306:1898,3386] 44)\n[443,3368:479,3425] in [475,3368:518,3425] said [521,3368:609,3425] Town [612,3368:648,3425] of [657,3368:797,3425] Holland [800,3368:855,3425] and [865,3368:1031,3425] bounded [1034,3368:1089,3425] as [1099,3368:1251,3425] follows:- [1319,3368:1537,3425] Beginning [1547,3368:1602,3425] at [1605,3368:1680,3425] the [1696,3368:1784,3425] north [1793,3368:1875,3425] east [1884,3368:2293,3425] corner\n[451,3415:488,3493] of [498,3415:608,3493] land [624,3415:701,3493] now [705,3415:855,3493] owned [865,3415:921,3493] by [931,3415:1048,3493] George [1058,3415:1208,3493] Dustin; [1232,3415:1368,3493] thence [1385,3415:1488,3493] west [1492,3415:1542,3493] to [1545,3415:1648,3493] land [1652,3415:1815,3493] formerly [1832,3415:1955,3493] owned [1959,3415:2279,3493] by\n[466,3470:580,3527] George [590,3470:691,3527] Holt; [707,3470:827,3527] thence [843,3470:957,3527] north [960,3470:1009,3527] to [1012,3470:1126,3527] land [1136,3470:1269,3527] owned [1279,3470:1334,3527] by [1337,3470:1367,3527] J. [1389,3470:1425,3527] W. [1454,3470:1587,3527] Metcalf; [1603,3470:1717,3527] thence [1727,3470:1815,3527] east [1824,3470:1873,3527] to [1876,3470:2253,3527] the\n[462,3518:570,3584] north [586,3518:674,3584] west [677,3518:810,3584] corner [813,3518:856,3584] of [865,3518:927,3584] lot [943,3518:986,3584] No. [1008,3518:1116,3584] thirty [1125,3518:1233,3584] seven [1229,3518:1252,3584] ( [1242,3518:1298,3584] 37); [1333,3518:1460,3584] thence [1463,3518:1590,3584] south [1599,3518:1642,3584] to [1645,3518:1707,3584] the [1716,3518:1817,3584] place [1820,3518:1856,3584] of [1859,3518:2281,3584] beginning\n[468,3566:690,3625] containing [695,3566:851,3625] about [856,3566:983,3625] eighty [980,3566:1005,3625] ( [995,3566:1049,3625] 80) [1076,3566:1195,3625] acres [1200,3566:1269,3625] be [1273,3566:1349,3625] the [1361,3566:1488,3625] same [1522,3566:1612,3625] more [1624,3566:1671,3625] or [1676,3566:1781,3625] less. [1829,3566:1905,3625] The [1924,3566:2052,3625] whole [2064,3566:2110,3625] of [2115,3566:2354,3625] the\n[454,3618:561,3675] above [571,3618:750,3675] described [759,3618:951,3675] premises [961,3618:1010,3675] to [1019,3618:1186,3675] contain [1189,3618:1296,3675] three [1299,3618:1478,3675] hundred [1481,3618:1537,3675] and [1540,3618:1634,3675] fifty [1644,3618:1732,3675] acres [1728,3618:1751,3675] ( [1741,3618:1823,3675] 350) [1846,3618:1882,3675] of [1885,3618:2277,3675] land\n[490,3661:556,3752] the [564,3661:686,3752] same [701,3661:791,3752] more [787,3661:822,3752] or [843,3661:921,3752] less. [1016,3661:1144,3752] These [1146,3661:1317,3752] premises [1320,3661:1392,3752] are [1394,3661:1491,3752] sold [1499,3661:1664,3752] subject [1667,3661:1701,3752] to [1710,3661:1739,3752] a [1759,3661:2250,3752] Mortgage\n[950,3713:1070,3764] Riley [1082,3713:1158,3764] by [1185,3713:1393,3764] Jonathan [1412,3713:1444,3764] W. [1485,3713:1664,3764] Metcalf [1669,3713:1745,3764] for [1757,3713:1862,3764] four [1874,3713:2104,3764] thousand [2109,3713:2329,3764] five\n[459,3754:614,3834] hundred [626,3754:782,3834] Dollars [779,3754:804,3834] ( [794,3754:920,3834] $4500.00 [1012,3754:1124,3834] April [1128,3754:1233,3834] 15th [1238,3754:1320,3834] 1897 [1332,3754:1459,3834] which [1463,3754:1539,3834] the [1551,3754:1677,3834] party [1689,3754:1735,3834] of [1740,3754:1808,3834] the [1813,3754:1946,3834] second [1958,3754:2121,3834] assumes [2118,3754:2354,3834] and\n[461,3814:590,3868] agrees [601,3814:659,3868] to [670,3814:855,3868] pay\n[2605,521:2652,810] ℗\n[3637,580:3727,610] 1839)\n[2655,699:2688,1727] in [2698,699:2769,1727] June\n[2753,1176:2906,1213] Together [2917,1176:2972,1213] with [2970,1176:3017,1213] the [3019,1176:3189,1213] appurtenances [3191,1176:3242,1213] and [3245,1176:3279,1213] all [3282,1176:3324,1213] the [3327,1176:3398,1213] estate [3401,1176:3447,1213] and [3450,1176:3525,1213] rights [3528,1176:3554,1213] of [3552,1176:3599,1213] the [3601,1176:3652,1213] said [3659,1176:3747,1213] party [3757,1176:3784,1213] of [3782,1176:3829,1213] the [3827,1176:3882,1213] first [3888,1176:3939,1213] part [3938,1176:3968,1213] in [3975,1176:4021,1213] and [4024,1176:4054,1213] to [4052,1176:4108,1213] said [4110,1176:4214,1213] premises.\n[2764,1213:2806,1256] To [2819,1213:2911,1256] have [2919,1213:2988,1256] and [2992,1213:3039,1256] to [3051,1213:3130,1256] hold, [3147,1213:3189,1256] the [3192,1213:3271,1256] above [3270,1213:3375,1256] granted [3379,1213:3489,1256] premises [3493,1213:3553,1256] unto [3552,1213:3599,1256] the [3598,1213:3653,1256] said [3661,1213:3763,1256] party [3771,1213:3799,1256] of [3798,1213:3844,1256] the [3844,1213:3931,1256] second [3935,1213:3995,1256] part.\n[4224,1226:4286,1254] heirs [4288,1226:4339,1254] and [4341,1226:4434,1254] assigns [4431,1226:4528,1254] forever.\n[2761,1697:2830,1759] and [2827,1697:2874,1759] the [2871,1697:2926,1759] said [2931,1697:3044,1759] Lewis [3056,1697:3088,1759] C. [3108,1697:3191,1759] Ellis [3189,1697:3250,1759] and [3292,1697:3413,1759] Maria [3425,1697:3501,1759] his [3513,1697:3693,1759] wife\n[2759,1754:2796,1795] do [2850,1754:2968,1795] covenant [2981,1754:3036,1795] with [3039,1754:3085,1795] the [3089,1754:3144,1795] said [3152,1754:3239,1795] party [3274,1754:3302,1795] of [3301,1754:3352,1795] the [3351,1754:3442,1795] second [3450,1754:3505,1795] part [3509,1754:3537,1795] as [3540,1754:3641,1795] follows:\n[2646,1736:2698,1984] 1 8 [2851,1795:2924,1841] Fhed [2914,1795:2961,1841] -- [2951,1795:3011,1841] That [3013,1795:3056,1841] the [3063,1795:3151,1841] party [3162,1795:3193,1841] of [3191,1795:3234,1841] the [3237,1795:3317,1841] second [3324,1795:3375,1841] part [3378,1795:3441,1841] shall [3448,1795:3533,1841] quietly [3535,1795:3603,1841] enjoy [3601,1795:3649,1841] the [3651,1795:3702,1841] said [3709,1795:3810,1841] premises.\n[2840,1839:2924,1907] A-- [2972,1839:3027,1907] That [3024,1839:3071,1907] the [3068,1839:3130,1907] said [3134,1839:3248,1907] Lewis [3260,1839:3299,1907] D. [3319,1839:3424,1907] Ells [3429,1839:3498,1907] and [3532,1839:3660,1907] Maria, [3679,1839:3756,1907] his [3775,1839:3982,1907] wife\n[2764,1907:2812,1939] will [2815,1907:2910,1939] forever [2925,1907:3050,1939] WARRANT [3049,1907:3097,1939] the [3100,1907:3157,1939] title [3159,1907:3191,1939] to [3193,1907:3250,1939] said [3257,1907:3369,1939] premises.\n[2760,1943:2804,1993] In [2833,1943:2950,1993] witness [2957,1943:3095,1993] tubercot, [3124,1943:3172,1993] the [3175,1943:3228,1993] said [3235,1943:3331,1993] party [3338,1943:3365,1993] of [3364,1943:3408,1993] the [3407,1943:3464,1993] first [3467,1943:3519,1993] part, [3531,1943:3605,1993] have [3616,1943:3721,1993] hereunto [3724,1943:3789,1993] set [3792,1943:3832,1993] my [3852,1943:3918,1993] hand [3938,1943:3986,1993] and [3989,1943:4076,1993] seal [4079,1943:4123,1993] the [4126,1943:4175,1993] day [4178,1943:4226,1993] and [4229,1943:4286,1993] year [4285,1943:4337,1993] first [4340,1943:4410,1993] above [4422,1943:4608,1993] written\n[2961,1993:3093,2050] PRESENCE [3101,1993:3171,2050] OF\n[4173,2023:4304,2091] Lewis [4316,2023:4357,2091] C. [4392,2023:4500,2091] Ells. [4565,2023:4606,2091] L [4618,2023:4651,2091] S.\n[4209,2077:4343,2130] Maria [4355,2077:4474,2130] Ells. [4545,2077:4591,2130] L [4596,2077:4702,2130] S\n[2867,2250:2972,2287] STATE [2985,2250:3027,2287] OF [3044,2250:3113,2287] NEW [3135,2250:3227,2287] YORK,\n[2907,2287:2975,2387] City [2979,2287:3069,2387] ⌨⌨ [3081,2287:3288,2387] Buffalo [3285,2287:3343,2387] ⎬\n[3042,2417:3188,2476] 1 [3202,2417:3502,2476] 21st [3508,2417:3591,2476] Day [3621,2417:3807,2476] April\n[3998,2419:4029,2476] in [4027,2419:4067,2476] the [4070,2419:4118,2476] year [4121,2419:4216,2476] eighteen [4219,2419:4310,2476] hundred [4308,2419:4352,2476] and [4355,2419:4425,2476] ninety-\n[2759,2471:2821,2539] No [2826,2471:3021,2539] me [3033,2471:3140,2539] an [3144,2471:3377,2539] appeared [3419,2471:3577,2539] Maria [3590,2471:3794,2539] Ells\n[3078,2567:3402,2621] mon [3406,2567:3423,2621] & [3449,2567:3616,2621] individual [3627,2567:3737,2621] issue, [3748,2567:3787,2621] and [3784,2567:3915,2621] where [3919,2567:3965,2621] the [3962,2567:4208,2621] foregoing [4219,2567:4322,2621] instrument, [4369,2567:4414,2621] who [4411,2567:4704,2621] there\n[2710,2603:2822,2758] upon [2833,2603:2968,2758] duly\n[3119,2639:3278,2665] acknowledged [3275,2639:3305,2665] to [3316,2639:3346,2665] me [3343,2639:3400,2665] that [3400,2639:3466,2665] he\n[3650,2637:3753,2655] executed [3751,2637:3793,2655] the [3796,2637:3856,2655] same.\n[4156,2660:4197,2708] R. [4233,2660:4274,2708] F. [4310,2660:4481,2708] Penton,\n[4185,2710:4333,2787] Notary [4349,2710:4510,2787] Public.\n[2720,2756:2827,2856] State [2831,2756:2882,2856] of [2914,2756:2993,2856] New [3018,2756:3117,2856] York [3128,2756:3145,2856] ⎬ [3156,2756:3207,2856] ss.\n[2720,2840:2906,2942] ⌨⌨⌨⌨⌨⌨⌨⌨ [2917,2840:3110,2942] Buffalo [3121,2840:3258,2942] 1s [3269,2840:3350,2942] On [3361,2840:3427,2942] the [3432,2840:3554,2942] 17th [3565,2840:3653,2942] day [3657,2840:3709,2942] of [3749,2840:3829,2942] May [3833,2840:3900,2942] in [3911,2840:3991,2942] the [4009,2840:4111,2942] year [4115,2840:4301,2942] Eighteen [4305,2840:4689,2942] hundred\n[2699,2903:2756,2974] and [2786,2903:2916,2974] ninety [2919,2903:3056,2974] seven [3066,2903:3189,2974] before [3219,2903:3283,2974] me [3293,2903:3516,2974] personally [3533,2903:3670,2974] came [3680,2903:3803,2974] Lewis [3807,2903:3837,2974] C. [3867,2903:3970,2974] Ells, [3987,2903:4030,2974] to [4053,2903:4103,2974] me [4113,2903:4257,2974] known [4260,2903:4615,2974] and\n[2707,2958:2860,3033] known [2871,2958:2921,3033] to [2945,2958:3010,3033] me [3013,2958:3064,3033] to [3075,2958:3139,3033] be [3143,2958:3228,3033] the [3231,2958:3473,3033] individual [3483,2958:3677,3033] described [3680,2958:3731,3033] in [3735,2958:3799,3033] and [3816,2958:3908,3033] who [3918,2958:4112,3033] executed [4116,2958:4194,3033] the [4197,2958:4643,3033] foregoing\n[4331,3051:4370,3095] R. [4389,3051:4420,3095] F. [4446,3051:4680,3095] Penton\n[2702,3006:2937,3101] instrument [2941,3006:3008,3101] and [3019,3006:3078,3101] he [3089,3006:3311,3101] thereupon [3329,3006:3423,3101] duly [3435,3006:3712,3101] acknowledged [3724,3006:3783,3101] to [3815,3006:3874,3101] me [3879,3006:3980,3101] that [3991,3006:4058,3101] he [4062,3006:4269,3101] executed [4273,3006:4354,3101] the [4358,3006:4685,3101] same\n[4321,3092:4479,3181] Notary [4489,3092:4646,3181] Public.\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007154726"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00381"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007154726_00381"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-B17H-N"
+      } ]
+    } ]
+  } ]
+}

@@ -2,212 +2,10 @@
 <meta charset="utf-8">
 <head>
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
-    <link rel="stylesheet" type="text/css" href="enamex-tag-style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="resources/enamex-tag-style.css"> -->
+    <link rel="stylesheet" type="text/css" href="resources/page-style.css">
+    <link rel="icon" href="resources/1200px-Directed.png"> 
 </head>
-<style>
-
-.links line {
-  stroke:#999;
-  stroke-width: 2px;
-}
-
-.nodes circle{
-  /* stroke:#dfdfdf;
-  stroke-width: 2px; */
-}
-
-.hull path{
-  fill: #abbaca;
-  fill-opacity: 1;
-  stroke: #abbaca;
-  stroke-opacity: 1;
-  opacity: .7;
-  /*stroke-width: 67px;*/
-  stroke-linejoin: round;
-}
-
-text {
-    font-family: sans-serif;
-    font-size: 14px;
-    margin: 10px;
-}
-
-.relationship-button {
-  background-color: #757973;
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  font-size: 16px;
-}
-
-.relationship-button:hover {
-  background-color: #309700;
-  color: #fefff0;
-}
-
-#page {
-  background-color: #ffffff;
-  height: 98vh;
-  width: 100%;
-}
-
-#top-panel {
-  display: flex;
-  flex-direction: row;
-  float: top;
-  background-color: #f3f3f3;
-  height: 5%;
-}
-
-#file-io {
-  display: flex;
-  flex-direction: row;
-  width: 40%;
-}
-
-#file-intake {
-  width: 80%;
-  text-align: left;
-  font-size: 16px;
-  padding: 5px 5px;
-}
-
-#export {
-  width: 20%;
-  background-color: rgb(243, 243, 243);
-  border: none;
-  margin: 10px;
-  color:rgb(59, 59, 59);
-  padding: 5px 5px;
-  text-align: center;
-  font-size: 16px;
-  margin-right: auto;
-}
-
-#export:hover {
-  background-color: #00927f;
-  color:#ffffff;
-}
-
-#export:active {
-  background-color: #f24545;
-  color: #ffffff;
-}
-
-#option-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 60%;
-}
-
-#toggle-same-as {
-  width: 15%;
-  background-color: rgb(243, 243, 243);
-  border: none;
-  margin: 10px;
-  color:rgb(59, 59, 59);
-  padding: 5px 5px;
-  text-align: center;
-  font-size: 16px;
-  display: none;
-}
-
-#toggle-same-as:hover {
-  background-color: #3b3b3b;
-  color:#ffffff;
-}
-
-#scissors {
-  width: 15%;
-  background-color: #f3f3f3;
-  border: none;
-  margin: 10px;
-  color:#3b3b3b;
-  padding: 5px 5px;
-  text-align: center;
-  font-size: 16px;
-}
-
-#scissors:hover {
-  background-color: #3b3b3b;
-  color:#ffffff;
-}
-
-#reload-displayedGraph {
-  width: 15%;
-  background-color: #f3f3f3;
-  border: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 20px;
-  color:#3b3b3b;
-  padding: 5px 5px;
-  text-align: center;
-  font-size: 16px;
-}
-
-#reload-displayedGraph:hover {
-  background-color: #3b3b3b;
-  color:#fefff0;
-}
-
-#main {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height:95%;
-  display: flex;
-  flex-direction: row;
-}
-
-#data-display {
-  display: flex;
-  flex-flow: row wrap;
-  width: 90%;
-  height:100%;
-}
-
-#svg-container {
-    background-color: #ffffff;
-    float: left;
-    width: 65%;
-    height:100%;
-}
-
-#text-div {
-  background-color: rgb(255, 255, 255);
-  float: left;
-  width: 35%;
-  height: 100%;
-  overflow-y: scroll;
-  font-size: 18px;
-}
-
-#relationships-panel {
-    background-color: rgb(181, 181, 190);
-    display: flex;
-    flex-direction: column;
-    float: right;
-    width: 200px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-#relationships-panel > div {
-    background-color: lightgrey;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-</style>
-
 <div id = "page">
   <div id = "top-panel">
     <div id="file-io">
@@ -217,6 +15,7 @@ text {
       <button id="export" type="button">Export</button>
     </div>
     <div id="option-buttons">
+      <button id="toggle-viewbox" type="button">Show View Box</button>
       <button id="toggle-same-as" type="button">Show "Same As"</button>
       <button id="scissors" type="button">Scissors</button>
       <button id="reload-displayedGraph" type="button">All Relations</button>
@@ -225,7 +24,9 @@ text {
 
   <div id="main">
     <div id="data-display">
-        <div id="text-div">Labeled text shows up here.</div>
+        <div id="text-container">
+          <div id="text-div" onscroll="viewboxOnScroll()">Labeled text shows up here.</div>
+        </div>
         <div id="svg-container">
           <svg id="simulation-display-space"></svg>
         </div>
@@ -271,16 +72,17 @@ text {
 </div>
   
 <script type="text/javascript" src="resources/nbx-parse.js"></script>
-<script type="text/javascript" src="resources/relation-functions.js"></script>
-<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+<script type="text/javascript" src="resources/relation-types.js"></script>
+<script type="text/javascript" src="resources/relation-filter-functions.js"></script>
+<script type="text/javascript" src="resources/text-viewbox.js"></script>
 <script src="resources/d3-v4-min.js"></script>
+<!-- <script type="text/javascript" src="resources/relation-functions.js"></script> -->
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 <!-- <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script> -->
 
 <script>
 
-var simulation,
-    // node,
-    link;
+var simulation;
 var displayedGraph,
     editedGraph,
     originalGraph,
@@ -293,15 +95,16 @@ var originalRelex,
 // -------------------------------TOP PANEL-----------------------------------------------
 document.getElementById("file-intake-button").addEventListener("change", loadDocument);
 document.getElementById("export").addEventListener("click", exportDocument);
-// document.getElementById("toggle-same-as").addEventListener("click", showSameAsOn);
-// document.getElementById("toggle-same-as").addEventListener("click", showSameAsOff);
-document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonStyle);
+document.getElementById("toggle-viewbox").addEventListener("click", toggleViewbox);
+document.getElementById("toggle-same-as").addEventListener("click", showSameAsButtonActions);
 document.getElementById("scissors").addEventListener("click", toggleScissors);
+document.getElementById("reload-displayedGraph").addEventListener("click", toggleViewboxOff);
+document.getElementById("reload-displayedGraph").addEventListener("click", setToggleViewboxButtonVisibility);
+document.getElementById("reload-displayedGraph").addEventListener("click", setshowSameAsButtonVisibility);
+document.getElementById("reload-displayedGraph").addEventListener("click", setScissorButtonVisibility);
 document.getElementById("reload-displayedGraph").addEventListener("click", loadWholeGraph);
-document.getElementById("reload-displayedGraph").addEventListener("click", setShowSameAsVisibility);
 document.getElementById("reload-displayedGraph").addEventListener("click", reloadDisplayedGraphToggleOn);
 document.getElementById("reload-displayedGraph").addEventListener("click", relButtonStyleOff);
-document.getElementById("reload-displayedGraph").id = document.getElementById("reload-displayedGraph").id;
 // -------------------------------RELATIONSHIP PANEL--------------------------------------
 document.getElementById("has-start-date").addEventListener("click", hasStartDate);
 document.getElementById("has-start-place").addEventListener("click", hasStartPlace);
@@ -341,13 +144,14 @@ document.getElementById("has-title").addEventListener("click", hasTitle);
 
 var relationshipButtonClass = document.getElementsByClassName("relationship-button");
 for (let i = 0; i < relationshipButtonClass.length; i++) {
-  relationshipButtonClass[i].addEventListener("click", setShowSameAsVisibility);
-  relationshipButtonClass[i].addEventListener("click", showSameAs);
+  relationshipButtonClass[i].addEventListener("click", setToggleViewboxButtonVisibility);
+  relationshipButtonClass[i].addEventListener("click", setshowSameAsButtonVisibility);
+  relationshipButtonClass[i].addEventListener("click", setScissorButtonVisibility);
+  relationshipButtonClass[i].addEventListener("click", showSameAsLinks);
   relationshipButtonClass[i].addEventListener("click", relButtonStyle);
   relationshipButtonClass[i].addEventListener("click", relButtonStyleOff);
   relationshipButtonClass[i].addEventListener("click", clearSelection);
   relationshipButtonClass[i].addEventListener("click", reloadDisplayedGraphToggleOff);
-  relationshipButtonClass[i].id = relationshipButtonClass[i].id;
 }
 
 function reloadDisplayedGraphToggleOn() {
@@ -360,38 +164,35 @@ function reloadDisplayedGraphToggleOff() {
   document.getElementById("reload-displayedGraph").style.backgroundColor = "";
   document.getElementById("reload-displayedGraph").style.color = "";
 }
-
-function setShowSameAsVisibility() {
+function setScissorButtonVisibility() {
+  if (getCurrentRelationship() == "UNSELECTED") {
+    document.getElementById("scissors").style.display = "none";
+  } else {
+    document.getElementById("scissors").style.display = "block";
+  }
+}
+function setshowSameAsButtonVisibility() {
   if (getCurrentRelationship() != "R40:IS_SAME_AS" && getCurrentRelationship() != "UNSELECTED") {
     document.getElementById("toggle-same-as").style.display = "block";
   } else {
     document.getElementById("toggle-same-as").style.display = "none";
   }
 }
-function showSameAs() {
-  // If we're already viewing "is same as" or all relations then we don't need to do anything - "UNSELECTED" means no relation filter
+function showSameAsLinks() {
   if (showSameAsToggled()) {
-    // console.log("Showing 'same as' links.");
     showSameAsOn();
-  } else if (!showSameAsToggled()) {
-    // console.log("Hiding 'same as' links.");
-    showSameAsOff();
   }
 }
-function showSameAsButtonStyle() {
+function showSameAsButtonActions() {
   var element = document.querySelector("#toggle-same-as");
   var borderStyle = window.getComputedStyle(element).getPropertyValue("border-top-style");
-  var backgroundColor = window.getComputedStyle(element).getPropertyValue("background-color");
   if (borderStyle == "solid") {
     // untoggle - make it default color
-    // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(243, 243, 243)";
     document.getElementById("toggle-same-as").style.border = "none";
     document.getElementById("toggle-same-as").style.backgroundColor = "";
     document.getElementById("toggle-same-as").style.color = "";
     showSameAsOff();
-  // } else if (borderStyle == "none") {
   } else {
-    // document.getElementById("toggle-same-as").style.backgroundColor = "rgb(204, 51, 51)";
     document.getElementById("toggle-same-as").style.border = "0px solid #cc3333";
     document.getElementById("toggle-same-as").style.backgroundColor = "#40c702";
     document.getElementById("toggle-same-as").style.color = "#ffffff";
@@ -414,12 +215,14 @@ function showSameAsOn() {
       if (isADisplayedEntity(relation.source) && isADisplayedEntity(relation.target)) {
 // we can't push relations directly into displayedGraph, because then editedGraph objects get display elements tied to them.
 // the displayedGraph and editedGraph need to remain separated in their roles. So we make a copy and push that.
-        displayedGraph.relations.push({type : relation.type,
-                                startToken : relation.startToken,
-                                    source : relation.source,
-                                  endToken : relation.endToken,
-                                    target : relation.target,
-                                  distance : linkDistance(relation.type)});
+        displayedGraph.relations.push({
+          linkId : relation.linkId,
+          type : relation.type,
+          startToken : relation.startToken,
+          source : relation.source,
+          endToken : relation.endToken,
+          target : relation.target,
+          distance : linkDistance(relation.type)});
       }
     });
     sameAsRestart();
@@ -469,8 +272,6 @@ function relButtonStyleOff(buttonId) {
     }
   }
 }
-
-
 //uploading a GedcomX
 function loadDocument(event) {
   if (!event || !event.target || !event.target.files || event.target.files.length === 0) { alert("Try another file?"); }
@@ -483,47 +284,38 @@ function loadDocument(event) {
     const extension = file.name.substring(lastDot + 1);
     var content = e.target.result;
     if (extension == "json") {
-      obj = JSON.parse(content);
+      let obj = JSON.parse(content);
       // parsed = parseNbx((obj.records[0].documents[0].text).replace(/ \n/g, " ").replace(/\n/g, " "));
       var parsed = parseNbx((obj.records[0].documents[0].text));
-      // console.log("Parsed:");
-      // console.log(parsed);
-      displayedGraph = buildAllData(parsed);
-      editedGraph = buildAllData(parsed);
-      originalGraph = buildAllData(parsed);
+      editedGraph = makeGraphObject(parsed);
+      displayedGraph = makeGraphObject();
+      displayedGraph.entities = editedGraph.getEntitiesCopy();
+      displayedGraph.relations = editedGraph.getRelationsCopy();
+      originalGraph = makeGraphObject();
+      originalGraph.entities = editedGraph.getEntitiesCopy();
+      originalGraph.relations = editedGraph.getRelationsCopy();
       var relex = obj.records[0].documents[0].text;
       originalRelex = relex;
-      relex = colorizeText(relex);
-        console.log(relex);
+      relex = convertTags(relex);
       document.getElementById("text-div").innerHTML = relex;
-      //displayedGraph = buildAllData(parsed);
-      // console.log("JSON");
-      // console.log(parsed);
     }
     if (extension == "relex") {
       parsed = parseNbx(content);
       offsetChange(parsed);
-      console.log("Parsed:");
-      console.log(parsed);
-      displayedGraph = buildAllData(parsed);
-      editedGraph = buildAllData(parsed);
-      originalGraph = buildAllData(parsed);
+      editedGraph = makeGraphObject(parsed);
+      displayedGraph = makeGraphObject();
+      displayedGraph.entities = editedGraph.getEntitiesCopy();
+      displayedGraph.relations = editedGraph.getRelationsCopy();
+      originalGraph = makeGraphObject();
+      originalGraph.entities = editedGraph.getEntitiesCopy();
+      originalGraph.relations = editedGraph.getRelationsCopy();
       originalRelex = content;
-      var relex = colorizeText(content);
-        console.log(relex);
+      var relex = convertTags(content);
       document.getElementById("text-div").innerHTML = relex;
-      // console.log("RELEX");
-      //console.log(parsed);
     }
-    console.log("Whole Graph:");
-    console.log(originalGraph);
-    // console.log("displayedGraph:");
-    // console.log(displayedGraph);
-    // console.log(displayedGraph.entities);
-    // console.log(displayedGraph.relations);
+    colorizeText(getAllTypes());
     reloadDisplayedGraphToggleOn();
-    //make D3 simulation happen
-    startSimulation();
+    window.setTimeout(startSimulation, 1200);
     enableTextToNodeHighlight();
   };
   reader.readAsText(file);
@@ -614,57 +406,43 @@ function scissorsToggled() {
 }
 function linkMouseOver(d) {
   if (scissorsToggled()) {
+    d3.select("#arrowhead")
+      .attr("refX",0);
     d3.select(this)
-      .style("stroke-width", 6)
-      // .attr("markerWidth",1)  //These two determine arrowhead size
-      // .attr("markerHeight",1)
-      // .attr("refX",14)    //arrow placement:how far it is from node center
+      .transition()
+      .style("stroke-width", 8)
       .style("stroke", "red");
   }
 }
 function linkMouseOut(d) {
   if (scissorsToggled()) {
     d3.select(this)
-      // .attr("markerWidth",3)  //These two determine arrowhead size
-      // .attr("markerHeight",4)
+      .transition()
       .style("stroke", "black")
       .style("stroke-width", 4);
+    d3.select("#arrowhead")
+      .attr("refX",28);
   }
 }
 function linkCut(d) {
   if (scissorsToggled()) {
-    // console.log(d);
     let toCutIndex = displayedGraph.relations.findIndex( function(element) {
       return element == d;
     });
-    console.log("Cutting at index: " + toCutIndex);
-    displayedGraph.relations.splice(toCutIndex,1);
-    restart();
+    console.log("Cutting from displayedGraph:");
+    console.log(displayedGraph.relations.splice(toCutIndex,1));
     // now remove it from editedGraph
-    // toCutIndex = editedGraph.relations.findIndex( function(element) {
-    //   return element == d;
-    // });
-    editedGraph.relations.splice(toCutIndex,1);
-    // console.log(displayedGraph);
-    // console.log(editedGraph);
+    toCutIndex = editedGraph.relations.findIndex( function(element) {
+      return element.linkId == d.linkId;
+    });
+    console.log("Cutting from editedGraph:");
+    console.log(editedGraph.relations.splice(toCutIndex,1));
+    restart();
+    d3.select("#arrowhead")
+      .attr("refX",28);
   }
 }
-
-
-
-  // function highlightNode(id) {
-  //   d3.select("#arrayindex"+id).select("circle")
-  //     .attr("stroke", "#ff0000")
-  //     .attr("stroke-width", "4px")
-  //     .attr("r", getNodeDefaultRadius() * .7);
-  // }
-  // function textEntityClicked(entityID) {
-  //   var correspondingNode = displayedGraph.entities.find(function(entity) {
-  //     return entity.arrayindex == entityID;
-  //   });
-  //   highlightNode(correspondingNode);
-  // }
-  // textEntities refers to the tagged entities in the nbx
+// textEntities refers to the tagged entities in the nbx
 function enableTextToNodeHighlight() {
   let textEntities = document.getElementsByTagName("span");
   for (let i = 0; i < textEntities.length; i++) {
@@ -695,12 +473,6 @@ function enableTextToNodeHighlight() {
           .transition().attr("stroke-width","4px");
     });
     textEntities[i].addEventListener("mouseout", function(mouseEventObj) {
-      // if it's a selected node, we need to leave it in that state when mouseout
-      // current behavior - if I select a node, then mouseover and mouseout on other nodes,
-      // they stay big with a black border
-      // If I select a node, and hover over it, it stays black and bold.
-      // So both of these are caused by the same problem.
-      // I need to:
       // if something is selected, it's previous state must be preserved
       // -- selected stays small and red border
       // -- normal goes back to normal
@@ -722,31 +494,36 @@ function enableTextToNodeHighlight() {
     });
   };
 }
-
-function highlightText(d) {
-  document.getElementById(d.arrayindex).style.fontWeight = "900";
-  document.getElementById(d.arrayindex).style.border = "3px solid #000000";
-  document.getElementById(d.arrayindex).style.backgroundColor = "#ffff00";
-  document.getElementById(d.arrayindex).style.color = "black";
-  autoScrollText(d);
+var nbxHighlight = function(d) {
+  let currentStyleBGColor = document.getElementById(d.arrayindex).style.backgroundColor;
+  let currentStyleColor = document.getElementById(d.arrayindex).style.color;
+  let obj = {
+    highlight() {
+      let element = document.getElementById(d.arrayindex);
+      element.style.fontWeight = "900";
+      element.style.border = "3px solid #000000";
+      element.style.backgroundColor = "#ffff00";
+      element.style.color = "black";
+      if (!document.getElementById("text-viewbox")) {
+        element.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    },
+    unhighlight() {
+      let element = document.getElementById(d.arrayindex);
+      element.style.fontWeight = "normal";
+      element.style.border = "none";
+      applyStyle(element);
+    }
+  };
+  return obj;
 }
-function unhighlightText(d) {
-  document.getElementById(d.arrayindex).style.fontWeight = "normal";
-  document.getElementById(d.arrayindex).style.border = "none";
-  document.getElementById(d.arrayindex).style.backgroundColor = "";
-  document.getElementById(d.arrayindex).style.color = "";
-}
-function autoScrollText(d) {
-  document.getElementById(d.arrayindex).scrollIntoView({behavior: "smooth", block: "center"});
-}
-
 var hover = false;
 function nodeMouseOver(d) {
   // console.log("Hovering over " + d.text);
   if (!scissorsToggled()) {
     document.getElementById("svg-container").style.cursor = "crosshair";
   }
-  highlightText(d);
+  nbxHighlight(d).highlight();
   hover = true;
 }
 function nodeMouseOut(d) {
@@ -754,12 +531,8 @@ function nodeMouseOut(d) {
   if (!scissorsToggled()) {
     document.getElementById("svg-container").style.cursor = "auto";
   }
-  // document.getElementById(d.arrayindex).style.fontWeight = "normal";
-  // document.getElementById(d.arrayindex).style.border = "none";
-  // document.getElementById(d.arrayindex).style.backgroundColor = "";
-  // document.getElementById(d.arrayindex).style.color = "";
   if (!selectedNodes.includes(d)) {
-    unhighlightText(d);
+    nbxHighlight(d).unhighlight();
   }
   hover = false;
 }
@@ -771,24 +544,24 @@ function nodeDoubleClick(d) {
   if (selectedNodes.length > 0) {
     for (i in selectedNodes) {
       var targetNode = d;
-      displayedGraph.relations.push({type : getCurrentRelationship(),
-                      startToken : selectedNodes[i].text,
-                          source : selectedNodes[i].id,
-                        endToken : targetNode.text,
-                          target : targetNode.id,
-                        distance : linkDistance(getCurrentRelationship())});
+      displayedGraph.relations.push({
+        linkId : getLinkId(),
+        type : getCurrentRelationship(),
+        startToken : selectedNodes[i].text,
+        source : selectedNodes[i].id,
+        endToken : targetNode.text,
+        target : targetNode.id,
+        distance : linkDistance(getCurrentRelationship())});
       console.log("Added link between " + selectedNodes[i].text + " and " + targetNode.text);
-      editedGraph.relations.push({type : getCurrentRelationship(),
-                      startToken : selectedNodes[i].text,
-                          source : selectedNodes[i].id,
-                        endToken : targetNode.text,
-                          target : targetNode.id,
-                        distance : linkDistance(getCurrentRelationship())});
+      editedGraph.relations.push({
+        linkId : getLinkId("no increment"),
+        type : getCurrentRelationship(),
+        startToken : selectedNodes[i].text,
+        source : selectedNodes[i].id,
+        endToken : targetNode.text,
+        target : targetNode.id,
+        distance : linkDistance(getCurrentRelationship())});
     }
-    // console.log("Relationships displayedGraph");
-    // console.log(displayedGraph.relations);
-    // console.log("editedGraph relations");
-    // console.log(editedGraph.relations);
     clearSelection();
     restart();
   }
@@ -812,12 +585,10 @@ function nodeClick(d) {
       .attr("stroke-width", "2px")
       .attr("fill", function(d) {return colors(d.type);});
       selectedNodeElements.splice(selectedNodeElements.indexOf(DOMelement),1);
-      unhighlightText(d);
+      nbxHighlight(d).unhighlight();
       console.log("Node unselected");
     } else {
-      highlightText(d);
-      // console.log(this);
-      // console.log(d3.select("#arrayindex"+d.arrayindex));
+      nbxHighlight(d).highlight();
       d3.select(DOMelement).select("circle")
         .transition()
         .attr("stroke", "#ff0000")
@@ -844,7 +615,7 @@ function clearSelection() {
         .attr("fill", function(d) {return colors(d.type);});
     }
     for (i in selectedNodes) {
-      unhighlightText(selectedNodes[i]);
+      nbxHighlight(selectedNodes[i]).unhighlight();
     }
     selectedNodes = [];
     selectedNodeElements = [];
@@ -866,7 +637,7 @@ function onClick() {
     clearSelection();
   }
   if (hover) {
-    console.log("hovering over a node");
+    console.log("Clicked on a node");
   }
 }
 
@@ -896,72 +667,229 @@ function getSimulationDisplaySpaceDimensions() {
     height = window.getComputedStyle(document.querySelector("#svg-container")).getPropertyValue("height").replace(/\..+/, "");
   return [width, height];
 }
-function getNodeDefaultRadius() {
-  return 30; // 30
-}
-function colorizeText(relex) {
+function convertTags(relex) {
   // we replace with "<-span..." because we need to go through after one at a time and
   // add a unique id according to the order the enamex shows up in the text. This is so
   // that we can have text highlighting when a node is hovered over.
   relex = relex
-          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='STRUCTURE_addr'>")
-          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='AGE'>")
-          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ANIMAL'>")
-          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='CHEMICAL'>")
-          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='DURATANNIV'>")
-          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='COREF_gen'>")
-          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='COREF_loc'>")
-          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='COREF_dat'>")
-          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='COREF'>")
-          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='DATE'>")
-          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='DATE_non'>")
-          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='EVENT'>")
-          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='EVENT_rel'>")
-          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='EVENT_xlife'>")
-          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='FAMILYMEMBER'>")
-          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='NONFAMILY'>")
-          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='FOOD_DRINK'>")
-          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='GAME'>")
-          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='HEALTH_CONDITION'>")
-          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='LOCALE'>")
-          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='LOCALE_notgpe'>")
-          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ITE_gpe'>")
-          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ITE_notgpe'>")
-          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ITE_org'>")
-          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='STRUCTURE'>")
-          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='MONEY'>")
-          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='OCCUPATION'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ORGANIZATION'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ORGANIZATION_edu'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ORGANIZATION_mil'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ORGANIZATION_music'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ORGANIZATION_pub'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ORGANIZATION_rel'>")
-          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ORGANIZATION_sports'>")
-          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ETPLACE'>")
-          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='PERCENT'>")
-          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='PERSON'>")
-          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='PHONENUMBER'>")
-          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='FLORA'>")
-          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='QUANTITY'>")
-          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIME'>")
-          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='TITLE'>")
-          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='TITLEFPH'>")
-          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='VEHICLE'>")
-          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='WEAPON'>")
-          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='URL'>")
-          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='WORK_OF_ART'>")
+          .replace(/<ENAMEX TYPE="STRUCTURE.addr">/g, "<-span class='ENAMEX STRUCTURE_addr'>")
+          .replace(/<ENAMEX TYPE="AGE">/g, "<-span class='ENAMEX AGE'>")
+          .replace(/<ENAMEX TYPE="ANIMAL">/g, "<-span class='ENAMEX ANIMAL'>")
+          .replace(/<ENAMEX TYPE="CHEMICAL">/g, "<-span class='ENAMEX CHEMICAL'>")
+          .replace(/<ENAMEX TYPE="DURATANNIV">/g, "<-span class='ENAMEX DURATANNIV'>")
+          .replace(/<ENAMEX TYPE="COREF.gen">/g, "<-span class='ENAMEX COREF_gen'>")
+          .replace(/<ENAMEX TYPE="COREF.loc">/g, "<-span class='ENAMEX COREF_loc'>")
+          .replace(/<TIMEX TYPE="COREF.dat">/g, "<-span class='TIMEX COREF_dat'>")
+          .replace(/<ENAMEX TYPE="COREF">/g, "<-span class='ENAMEX COREF'>")
+          .replace(/<TIMEX TYPE="DATE">/g, "<-span class='TIMEX DATE'>")
+          .replace(/<TIMEX TYPE="DATE.non">/g, "<-span class='TIMEX DATE_non'>")
+          .replace(/<ENAMEX TYPE="EVENT">/g, "<-span class='ENAMEX EVENT'>")
+          .replace(/<ENAMEX TYPE="EVENT.rel">/g, "<-span class='ENAMEX EVENT_rel'>")
+          .replace(/<ENAMEX TYPE="EVENT.xlife">/g, "<-span class='ENAMEX EVENT_xlife'>")
+          .replace(/<ENAMEX TYPE="FAMILYMEMBER">/g, "<-span class='ENAMEX FAMILYMEMBER'>")
+          .replace(/<ENAMEX TYPE="NONFAMILY">/g, "<-span class='ENAMEX NONFAMILY'>")
+          .replace(/<ENAMEX TYPE="FOOD_DRINK">/g, "<-span class='ENAMEX FOOD_DRINK'>")
+          .replace(/<ENAMEX TYPE="GAME">/g, "<-span class='ENAMEX GAME'>")
+          .replace(/<ENAMEX TYPE="HEALTH_CONDITION">/g, "<-span class='ENAMEX HEALTH_CONDITION'>")
+          .replace(/<ENAMEX TYPE="LOCALE">/g, "<-span class='ENAMEX LOCALE'>")
+          .replace(/<ENAMEX TYPE="LOCALE.notgpe">/g, "<-span class='ENAMEX LOCALE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.gpe">/g, "<-span class='ENAMEX ITE_gpe'>")
+          .replace(/<ENAMEX TYPE="ITE.notgpe">/g, "<-span class='ENAMEX ITE_notgpe'>")
+          .replace(/<ENAMEX TYPE="ITE.org">/g, "<-span class='ENAMEX ITE_org'>")
+          .replace(/<ENAMEX TYPE="STRUCTURE">/g, "<-span class='ENAMEX STRUCTURE'>")
+          .replace(/<NUMEX TYPE="MONEY">/g, "<-span class='NUMEX MONEY'>")
+          .replace(/<ENAMEX TYPE="OCCUPATION">/g, "<-span class='ENAMEX OCCUPATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION">/g, "<-span class='ENAMEX ORGANIZATION'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.edu">/g, "<-span class='ENAMEX ORGANIZATION_edu'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.mil">/g, "<-span class='ENAMEX ORGANIZATION_mil'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.music">/g, "<-span class='ENAMEX ORGANIZATION_music'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.pub">/g, "<-span class='ENAMEX ORGANIZATION_pub'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.rel">/g, "<-span class='ENAMEX ORGANIZATION_rel'>")
+          .replace(/<ENAMEX TYPE="ORGANIZATION.sports">/g, "<-span class='ENAMEX ORGANIZATION_sports'>")
+          .replace(/<ENAMEX TYPE="ETPLACE">/g, "<-span class='ENAMEX ETPLACE'>")
+          .replace(/<NUMEX TYPE="PERCENT">/g, "<-span class='NUMEX PERCENT'>")
+          .replace(/<ENAMEX TYPE="PERSON">/g, "<-span class='ENAMEX PERSON'>")
+          .replace(/<ENAMEX TYPE="PHONENUMBER">/g, "<-span class='ENAMEX PHONENUMBER'>")
+          .replace(/<ENAMEX TYPE="FLORA">/g, "<-span class='ENAMEX FLORA'>")
+          .replace(/<NUMEX TYPE="QUANTITY">/g, "<-span class='NUMEX QUANTITY'>")
+          .replace(/<TIMEX TYPE="TIME">/g, "<-span class='TIMEX TIME'>")
+          .replace(/<ENAMEX TYPE="TITLE">/g, "<-span class='ENAMEX TITLE'>")
+          .replace(/<ENAMEX TYPE="TITLEFPH">/g, "<-span class='ENAMEX TITLEFPH'>")
+          .replace(/<ENAMEX TYPE="VEHICLE">/g, "<-span class='ENAMEX VEHICLE'>")
+          .replace(/<ENAMEX TYPE="WEAPON">/g, "<-span class='ENAMEX WEAPON'>")
+          .replace(/<ENAMEX TYPE="URL">/g, "<-span class='ENAMEX URL'>")
+          .replace(/<ENAMEX TYPE="WORK_OF_ART">/g, "<-span class='ENAMEX WORK_OF_ART'>")
           .replace(/<\/ENAMEX>/g, "</span>")
           .replace(/<\/TIMEX>/g, "</span>")
           .replace(/<\/NUMEX>/g, "</span>");
 
-  for (i = 0; i < originalGraph.entities.length; i++) {
+  for (let i = 0; i < originalGraph.entities.length; i++) {
     var replacementString = "<span id='" + i + "'";
     // var included = relex.includes("<span");
     relex = relex.replace("<-span", replacementString);
   }
   return relex;
 }
+function toClassStyle(type) {
+  let classStyle = type.replace(/\./g, "_");
+  classStyle = "." + classStyle;
+  return classStyle;
+}
+function convertEntityTags(relex) {
+  for (type of getAllTypes()) {
+    let replacing = '<ENAMEX TYPE="' + type + '">';
+    let replacement = "<-span class='ENAMEX " + toClassStyle(type) + "'>";
+    relex.replace(/replacing/g, replacement);
+  }
+}
+// need to convert list of types to css format
+// 1. change . to _
+// 2. prepend .
+function toCssClass(typesArray) {
+  var types = [];
+  typesArray.forEach(function(type) {
+    let cssClass = type.replace(/\./g, "_");
+    cssClass = "." + cssClass;
+    types.push(cssClass);
+  });
+  return types;
+}
+function applyStyle(element) {
+  if (element.className == "ENAMEX STRUCTURE_addr") {
+    element.style.backgroundColor = "#999900";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX AGE") {
+    element.style.backgroundColor = "#669AC4";
+  } else if (element.className == "ENAMEX ANIMAL") {
+    element.style.backgroundColor = "#80771F";
+    element.style.backgroundColor = "#ffffff";
+  } else if (element.className == "ENAMEX CHEMICAL") {
+    element.style.backgroundColor = "#AAFF0D";
+  } else if (element.className == "ENAMEX DURATANNIV") {
+    element.style.backgroundColor = "#1E90FF";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX COREF_gen") {
+    element.style.backgroundColor = "#E5CCFF";
+  } else if (element.className == "ENAMEX COREF_loc") {
+    element.style.backgroundColor = "#6a5abd";
+    element.style.color = "#ffffff";
+  } else if (element.className == "TIMEX COREF_dat") {
+    element.style.backgroundColor = "#089977";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX COREF") {
+    element.style.backgroundColor = "#7b68ee";
+    element.style.color = "#ffffff";
+  } else if (element.className == "TIMEX DATE") {
+    element.style.backgroundColor = "#0400ff";
+    element.style.color = "#ffffff";
+  } else if (element.className == "TIMEX DATE_non") {
+    element.style.backgroundColor = "#20b2aa";
+  } else if (element.className == "ENAMEX EVENT") {
+    element.style.backgroundColor = "#00ff51";
+  } else if (element.className == "ENAMEX EVENT_rel") {
+    element.style.backgroundColor = "#99ff99";
+  } else if (element.className == "ENAMEX EVENT_xlife") {
+    element.style.backgroundColor = "#ccffcc";
+  } else if (element.className == "ENAMEX FAMILYMEMBER") {
+    element.style.backgroundColor = "#ee6a69";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX NONFAMILY") {
+    element.style.backgroundColor = "#f5deb3";
+  } else if (element.className == "ENAMEX FOOD_DRINK") {
+    element.style.backgroundColor = "#ff35cc";
+  } else if (element.className == "ENAMEX GAME") {
+    element.style.backgroundColor = "#99004c";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX HEALTH_CONDITION") {
+    element.style.backgroundColor = "#cedcba";
+  } else if (element.className == "ENAMEX LOCALE") {
+    element.style.backgroundColor = "#9c6927";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX LOCALE_notgpe") {
+    element.style.backgroundColor = "#cfaf59";
+  } else if (element.className == "ENAMEX ITE_gpe") {
+    element.style.backgroundColor = "#ff00d0";
+  } else if (element.className == "ENAMEX ITE_notgpe") {
+    element.style.backgroundColor = "#e65ecd";
+  } else if (element.className == "ENAMEX ITE_org") {
+    element.style.backgroundColor = "#eb9ddc";
+  } else if (element.className == "ENAMEX STRUCTURE") {
+    element.style.backgroundColor = "#ffbe0d";
+  } else if (element.className == "NUMEX MONEY") {
+    element.style.backgroundColor = "#fedcba";
+  } else if (element.className == "ENAMEX OCCUPATION") {
+    element.style.backgroundColor = "#ff6a00";
+  } else if (element.className == "ENAMEX ORGANIZATION") {
+    element.style.backgroundColor = "#cc0000";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX ORGANIZATION_edu") {
+    element.style.backgroundColor = "#ff2638";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX ORGANIZATION_mil") {
+    element.style.backgroundColor = "#94323a";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX ORGANIZATION_music") {
+    element.style.backgroundColor = "#fad9dc";
+  } else if (element.className == "ENAMEX ORGANIZATION_pub") {
+    element.style.backgroundColor = "#c36276";
+  } else if (element.className == "ENAMEX ORGANIZATION_rel") {
+    element.style.backgroundColor = "#ed8089";
+  } else if (element.className == "ENAMEX ORGANIZATION_sports") {
+    element.style.backgroundColor = "#e34451";
+  } else if (element.className == "ENAMEX ETPLACE") {
+    element.style.backgroundColor = "#bfbfbf";
+  } else if (element.className == "NUMEX PERCENT") {
+    element.style.backgroundColor = "#005e7d";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX PERSON") {
+    element.style.backgroundColor = "#3f9c05";
+  } else if (element.className == "ENAMEX PHONENUMBER") {
+    element.style.backgroundColor = "#a9a9a9";
+  } else if (element.className == "ENAMEX FLORA") {
+    element.style.backgroundColor = "#abcdef";
+  } else if (element.className == "NUMEX QUANTITY") {
+    element.style.backgroundColor = "#66b2ff";
+  } else if (element.className == "TIMEX TIME") {
+    element.style.backgroundColor = "#6686c4";
+  } else if (element.className == "ENAMEX TITLE") {
+    element.style.backgroundColor = "#ffa266";
+  } else if (element.className == "ENAMEX TITLEFPH") {
+    element.style.backgroundColor = "#ffc266";
+  } else if (element.className == "ENAMEX VEHICLE") {
+    element.style.backgroundColor = "#8e44fc";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX WEAPON") {
+    element.style.backgroundColor = "#6600ff";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX URL") {
+    element.style.backgroundColor = "#606060";
+    element.style.color = "#ffffff";
+  } else if (element.className == "ENAMEX WORK_OF_ART") {
+    element.style.backgroundColor = "#ffff4d";
+  }
+}
+// color the nbx text, only entities relevant to the selected relationship are colored
+function colorizeText(validTypes) {
+  var colorElements = document.querySelectorAll(toCssClass(validTypes).join(","));
+  var allElements = document.querySelectorAll(".ENAMEX, .TIMEX, .NUMEX");
+  function includes(collection, item) {
+    for (thing of collection) {
+      if (thing == item) {
+        return true;
+      }
+    }
+    return false;
+  }
+  allElements.forEach(function(element) {
+    if (includes(colorElements, element)) {
+      applyStyle(element);
+    } else {
+      element.style.backgroundColor = null;
+      element.style.color = null;
+    }
+  });
+}
+
 // for coloring text that sits on nodes
 function textColors(type) {
   if (type == "STRUCTURE.addr") {return "#ffffff"}
@@ -1068,20 +996,36 @@ function colors(type) {
 }
 // Adjusts forceManyBody strength according to number of nodes displayed to fit them into the view window
 function getChargeForceStrength(nodeQuantity) {
-  return -Math.exp(-(nodeQuantity - 100)/19) - 12;
+  return -Math.exp(-(nodeQuantity - 100)/19) - 14;
 }
 // for setting link distance based on relationship type
 function linkDistance(type) {
   if (type == "R40:IS_SAME_AS") {
     return 70;
   } else {
-    return 120;
+    return 130;
+  }
+}
+function getNodeDefaultRadius() {
+  return 32; // 30
+}
+function truncateNodeText(text) {
+  if (text.length > 6) {
+    return text.substr(0,6) + "...";
+  } else {
+    return text;
   }
 }
 function getNodeTextPlacement(text) {
   // [x position, y position]
   // return [Math.log(text.length) / Math.log(1.5) * -3.2, 4];
-  return [Math.log(text.length) / Math.log(.88) * 1, 4];
+  if (text.length > 15) {
+    return [Math.log(text.length) / Math.log(.86) * 1, 4];
+  } else if(text.length > 80) {
+    return [Math.log(text.length) / Math.log(.83) * 1, 4];
+  } else {
+    return [Math.log(text.length) / Math.log(.91) * 1, 4];
+  }
 }
 function groupPath(d) {
     if (d.length === 2) {
@@ -1114,9 +1058,9 @@ function startSimulation() {
   svg.append("svg:defs").selectAll("marker")
     .data(["arrowhead"])    //different link types defined here
     .enter().append("svg:marker")   //section adds the arrows
-    .attr("id", String) //without this no arrows show up
+    .attr("id", "arrowhead") //without this no arrows show up
     .attr("viewBox","0 -5 10 10")   //this cuts off the arrow image - you could use this to show half an arrow
-    .attr("refX",28)    //arrow placement:how far it is from node center
+    .attr("refX",29)    //arrow placement:how far it is from node center
     .attr("refY",0)     //arrow placement:offset from center line of node
     .attr("markerWidth",8)  //These two determine arrowhead size
     .attr("markerHeight",4)
@@ -1128,7 +1072,7 @@ function startSimulation() {
                   .attr("class", "hull")
                 .selectAll("path");
   //draw links
-  link = svg.append("g")
+  var link = svg.append("g")
     .attr("class", "links")
     .selectAll("line")
     .data(displayedGraph.relations)
@@ -1152,11 +1096,6 @@ function startSimulation() {
     .on("click", nodeClick)
     .on("dblclick", nodeDoubleClick);
   
-  //   var m = displayedGraph.entities.length;
-  // node._groups[0].forEach(function(d, i) {
-  //   d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-  //   d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
-  // });
   let m = displayedGraph.entities.length;
   displayedGraph.entities.forEach(function(d) {
     d.x = width/2 + Math.cos(Math.random() * 2*Math.PI) * Math.random() * 300;
@@ -1183,17 +1122,13 @@ function startSimulation() {
       .attr("stroke-width", "2px")
       .attr("r", 0).transition().attr("r", radius)
       .attr("fill", function(d) {return colors(d.type);});
-   
+
   node.append("svg:title")
       .text(function(d) { return d.text; });
   //show text labels next to nodes
   node.append("text")
       .text(function(d) {
-        if (d.text.length > 6) {
-          return d.text.substr(0,5) + "...";
-        } else {
-          return d.text;
-        }
+        return truncateNodeText(d.text);
       })
       .style("fill", function(d) {return textColors(d.type);})
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];})
@@ -1229,7 +1164,7 @@ function startSimulation() {
   hulls.data(groups).enter()
       .append("path");
 
-  simulation.alphaDecay(.02).velocityDecay(.075); // .075
+  simulation.alphaDecay(.02).velocityDecay(.075); // .02 .075
 
   //update circle positions to reflect node updates on each tick of the simulation
   function tickActions() {
@@ -1275,6 +1210,24 @@ function restart() {
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
   
+  if (!showSameAsToggled()) {
+    if (getCurrentRelationship() != "R40:IS_SAME_AS") {
+      console.log("'Show Same As' button is toggled off");
+      for (var i = displayedGraph.relations.length - 1; i >= 0; i--) {
+        if (displayedGraph.relations[i].type == "R40:IS_SAME_AS") {
+          displayedGraph.relations.splice(i,1);
+        }
+      }
+    }
+  }
+
+  // If the text viewbox is already on, we want to show only the boxed entities and relations
+  if (viewboxToggledOn()) {
+    let rebuiltGraph = rebuildDisplayedGraph();
+    displayedGraph.entities = rebuiltGraph[0];
+    displayedGraph.relations = rebuiltGraph[1];
+  }
+
   var node = d3.select(".nodes").selectAll("g");
   node = node.data(displayedGraph.entities, function(d) { return d.id;});
   
@@ -1294,19 +1247,6 @@ function restart() {
     element.__data__.x = width/2 + Math.cos(Math.random() * 2*Math.PI) * Math.random() * 300;
     element.__data__.y = height/2 + Math.sin(Math.random() * 2*Math.PI) * Math.random() * 300;
   });
-  // node.enter()
-  //   .map(function(d) {return d.__data__;}).forEach(function(entity) {
-  //     d.x = width/2 + Math.random() * 100;
-  //     d.y = height/2 + Math.random() * 100;
-  //   });
-    
-  // .attr("transform",
-  //     "translate(" + (width/2 + Math.random() * 100) + 
-  //     ", " + (height/2 + Math.random() * 100) + ")");
-
-  // let m = displayedGraph.entities.length;
-  // let dx = width/2 + Math.random() * 100;
-  // let dy = height/2 + Math.random() * 100;
   
   enter.call(d3.drag()
     .on("start", dragstarted)
@@ -1315,7 +1255,6 @@ function restart() {
   
   enter.attr("id", function(d) {return "arrayindex" + d.arrayindex;})
       .attr("arrayindex", function(d) {return d.arrayindex;});
-
   enter.append("circle")
       .attr("stroke", "#dfdfdf")
       .attr("stroke-width", "2px")
@@ -1327,27 +1266,16 @@ function restart() {
 
   enter.append("text")
       .text(function(d) {
-        if (d.text.length > 6) {
-          return d.text.substr(0,5) + "...";
-        } else {
-          return d.text;
-        }
+        return truncateNodeText(d.text);
       })
       .style("fill", function(d) {return textColors(d.type);})
       .attr("x", function(d) {return getNodeTextPlacement(d.text)[0];} )
       .attr("y", function(d) {return getNodeTextPlacement(d.text)[1];} );
           
   node = enter.merge(node);
-  // node.select("circle")
-  
-  // Try to set intial position near center of svg
-  // var m = displayedGraph.entities.length;
-  //   node._groups[0].forEach(function(d, i) {
-  //     d.x=Math.cos(i/m*2*Math.PI) * 200 + width/2 + Math.random();
-  //     d.y=Math.sin(i/m*2*Math.PI) * 200 + height/2 + Math.random();
-  //   });
-  
+
   // Apply the general update pattern to the links.
+  var link = d3.select(".links").selectAll("line");
   link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
   
   // Keep the exiting links connected to the moving remaining nodes.
@@ -1368,8 +1296,9 @@ function restart() {
       .on("mouseover", linkMouseOver)
       .on("mouseout", linkMouseOut)
       .on("click", linkCut);
-  
-  // console.log(displayedGraph.entities.length);
+  d3.select(".links")
+    .selectAll("line")
+      .attr("id", function(d) {return "linkarrayindex" + d.index;});
   // Update and restart the simulation.
   simulation.force("charge-force", d3.forceManyBody().strength(getChargeForceStrength(displayedGraph.entities.length)));
   simulation.nodes(displayedGraph.entities).on("tick", tickActions);
@@ -1387,6 +1316,7 @@ function restart() {
 
   simulation.alpha(1).restart();
   console.log("Simulation restarted.");
+
   if (showSameAsToggled()) {
     sameAsRestart();
   }
@@ -1425,42 +1355,43 @@ function sameAsRestart() {
     height = getSimulationDisplaySpaceDimensions()[1],
     radius = getNodeDefaultRadius();
   var node = d3.select(".nodes").selectAll("g");
-    var hulls = d3.select(".hull")
-        .selectAll("path");
-    // Apply the general update pattern to the links.
-    link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
-    
-    // Keep the exiting links connected to the moving remaining nodes.
-    link.exit().transition()
-    .attr("stroke-opacity", 0)
-    .attrTween("x1", function(d) { return function() { return d.source.x; }; })
-    .attrTween("x2", function(d) { return function() { return d.target.x; }; })
-    .attrTween("y1", function(d) { return function() { return d.source.y; }; })
-    .attrTween("y2", function(d) { return function() { return d.target.y; }; })
-    .remove();
-    
-    link = link.enter().append("line")
-    .call(function(link) { link.transition().attr("stroke-opacity", .3); })
-    .style("stroke-width", 2)
-    .style("stroke", "black")
-    .merge(link);
-    
-    // Update and restart the simulation.
-    simulation.nodes(displayedGraph.entities).on("tick", tickActions);
-    simulation.force("link").links(displayedGraph.relations);
-    
-    var groups = displayedGraph.getSameAsGroups();
-    hulls
-      .data(groups)
-        .attr("selection","update")
-        .attr("d", function(d) {return groupPath(d);});
-    hulls
-      .data(groups).enter()
-      .append("path")
-        .attr("selection","enter")
-        .attr("d", function(d) {return groupPath(d);})
-        .attr("stroke-width", "0px")
-        .transition().attr("stroke-width", "67px");
+  var hulls = d3.select(".hull")
+      .selectAll("path");
+  // Apply the general update pattern to the links.
+  var link = d3.select(".links").selectAll("line");
+  link = link.data(displayedGraph.relations, function(d) { return d.source.id + "-" + d.target.id; });
+  
+  // Keep the exiting links connected to the moving remaining nodes.
+  link.exit().transition()
+  .attr("stroke-opacity", 0)
+  .attrTween("x1", function(d) { return function() { return d.source.x; }; })
+  .attrTween("x2", function(d) { return function() { return d.target.x; }; })
+  .attrTween("y1", function(d) { return function() { return d.source.y; }; })
+  .attrTween("y2", function(d) { return function() { return d.target.y; }; })
+  .remove();
+  
+  link = link.enter().append("line")
+  .call(function(link) { link.transition().attr("stroke-opacity", .3); })
+  .style("stroke-width", 2)
+  .style("stroke", "black")
+  .merge(link);
+  
+  // Update and restart the simulation.
+  simulation.nodes(displayedGraph.entities).on("tick", tickActions);
+  simulation.force("link").links(displayedGraph.relations);
+  
+  var groups = displayedGraph.getSameAsGroups();
+  hulls
+    .data(groups)
+      .attr("selection","update")
+      .attr("d", function(d) {return groupPath(d);});
+  hulls
+    .data(groups).enter()
+    .append("path")
+      .attr("selection","enter")
+      .attr("d", function(d) {return groupPath(d);})
+      .attr("stroke-width", "0px")
+      .transition().attr("stroke-width", "67px");
     
   simulation.alpha(1).restart();
   console.log("Simulation restarted showing 'same as'.");
@@ -1501,7 +1432,7 @@ function sameAsRestart() {
 
 // key thing about building the displayedGraph is that the entities for each end of a link must
 // exist and match the link names precisely otherwise it errors and doesn't show anything
-function buildAllData(parsedRelex) {
+function makeGraphObject(parsedRelex) {
   var obj = new Object();
   obj.entities = [];
   obj.relations = [];
@@ -1513,7 +1444,7 @@ function buildAllData(parsedRelex) {
       }
     });
     return sameAsRelations;
-  }
+  };
   obj.getSameAsGroups = function() {
     var sameAsGroups = [];
     this.getSameAsRels().forEach(function(relation) {
@@ -1538,71 +1469,102 @@ function buildAllData(parsedRelex) {
       }
     });
     return sameAsGroups;
+  };
+  obj.getEntityById = function(id) {
+    for (let entity of this.entities) {
+      // if 'id' is an entity that has been attached to a node, then we are getting an entire object vs the id
+      // hence we check for id, or id.id
+      if (entity.id == id || entity.id == id.id) {
+        return entity;
+      }
+    }
+    return null;
+  };
+  obj.getEntitiesCopy = function() {
+    let copy = [];
+    for (let entity of this.entities) {
+      copy.push({
+        tag : entity.tag,
+        type : entity.type,
+        text : entity.text,
+        id : entity.id,
+        arrayindex : entity.arrayindex
+      });
+    }
+    return copy;
   }
-  // This array needs to look like the result of d3.nest() to use with d3.polygonHull()
-  // obj.getSameAsGroupsForHull = function() {
-  //   var nestedSameAsGroups = [];
-  //   var sameAsGroups = this.getSameAsGroups();
-  //   for (let i = 0; i < sameAsGroups.length; i++) {
-  //     nestedSameAsGroups.push({key:i.toString(), values:sameAsGroups[i]});
-  //   }
-  //   return nestedSameAsGroups;
-  // }
-  //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
-  for (i in parsedRelex.metadata) {
-    var entity = parsedRelex.metadata[i].content;
-    for (j in entity) {
-      if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
-        var textentity = entity[j].text.replace(/ \n/g, " ").replace(/\n/g, " ");
-        obj.entities.push({tag : entity[j].tag, type : entity[j].type, text : textentity, id : entity[j].offset});
+  obj.getRelationsCopy = function() {
+    let copy = [];
+    for (let relation of this.relations) {
+      copy.push({
+        linkId : relation.linkId,
+        type : relation.type,
+        startToken : relation.startToken,
+        source : relation.source,
+        endToken : relation.endToken,
+        target : relation.target,
+        distance : relation.distance
+      });
+    }
+    return copy;
+  }
+  // return relationships of chosen type
+  obj.filterRelationsByType = function(type) {
+    let filteredRelations = [];
+    if (type == "UNSELECTED") {
+      return this.relations;
+    } else {
+      this.relations.forEach(function(relation) {
+        if (relation.type == type) {
+          filteredRelations.push(relation);
+        }
+      });
+      return filteredRelations;
+    }
+  }
+  
+  // Only add data if parsedRelex is not null, otherwise we make a graph obj with no data
+  if (parsedRelex != null) {
+    // *** Entities ***
+    //We need to look in metadata to add entities because the recognizer sometimes grabs dates and stuff from here
+    for (let i in parsedRelex.metadata) {
+      var entity = parsedRelex.metadata[i].content;
+      for (let j in entity) {
+        if (entity[j].tag == "ENAMEX" || entity[j].tag == "TIMEX" || entity[j].tag == "NUMEX") {
+          var textentity = entity[j].text.replace(/ \n/g, " ").replace(/\n/g, " ");
+          obj.entities.push({tag : entity[j].tag, type : entity[j].type, text : textentity, id : entity[j].offset});
+        }
+      }
+    }
+    for (let i in parsedRelex.sbody) {
+      var entity = parsedRelex.sbody[i];
+      //console.log(entity);
+      if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
+        var textentity = entity.text.replace(/ \n/g, " ").replace(/\n/g, " ");
+        obj.entities.push({tag : entity.tag, type : entity.type, text : textentity, id : entity.offset});
+      }
+    }
+    for (let i in obj.entities) {
+      obj.entities[i].arrayindex = i;
+    }
+    // *****************
+    // *** Relations ***
+    for (let i in parsedRelex.relex) {
+      var relation = parsedRelex.relex[i];
+      //Not sure how to handle the surname relationship thing yet. So just don't add them.
+      if (!/S=\d\+|S=\d/.test(relation.type)) {
+        obj.relations.push({
+          linkId : getLinkId(),
+          type : relation.type,
+          startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "),
+          source : relation.startOffset,
+          endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "),
+          target : relation.endOffset,
+          distance : linkDistance(relation.type)});
       }
     }
   }
-  for (i in parsedRelex.sbody) {
-    var entity = parsedRelex.sbody[i];
-    //console.log(entity);
-    if (entity.tag == "ENAMEX" || entity.tag == "TIMEX" || entity.tag == "NUMEX") {
-      var textentity = entity.text.replace(/ \n/g, " ").replace(/\n/g, " ");
-      obj.entities.push({tag : entity.tag, type : entity.type, text : textentity, id : entity.offset});
-    }
-  }
-  for (i in parsedRelex.relex) {
-    var relation = parsedRelex.relex[i];
-    //Not sure how to handle the surname relationship thing yet. So just don't add them.
-    if (!/S=\d\+|S=\d/.test(relation.type)) {
-      obj.relations.push({type : relation.type,
-                    startToken : relation.startToken.replace(/ \n/g, " ").replace(/\n/g, " "),
-                        source : relation.startOffset,
-                      endToken : relation.endToken.replace(/ \n/g, " ").replace(/\n/g, " "),
-                        target : relation.endOffset,
-                      distance : linkDistance(relation.type)});
-    }
-  }
-  // change node radius depending on number of entities - more => smaller radius, less => larger radius
-
-  // Now we make a copy that adds an index according to the element position in the array, which should follow the order
-  // it shows up in the text (for highlighting on hover both ways)
-  var copy = new Object();
-  copy.entities = [];
-  copy.relations = [];
-  for (i in obj.entities) {
-    var entity = obj.entities[i];
-    copy.entities.push({tag : entity.tag, type : entity.type, text : entity.text, id : entity.id, arrayindex : i});
-  }
-  for (i in obj.relations) {
-    var relation = obj.relations[i];
-    copy.relations.push({ type : relation.type,
-                    startToken : relation.startToken,
-                        source : relation.source,
-                      endToken : relation.endToken,
-                        target : relation.target,
-                      distance : linkDistance(relation.type)});
-  }
-  copy.getSameAsGroups = obj.getSameAsGroups;
-  copy.getSameAsRels = obj.getSameAsRels;
-  // copy.getSameAsGroupsForHull = obj.getSameAsGroupsForHull;
-  // return obj;
-  return copy;
+  // *******************
+  return obj;
 }
-
 </script>

@@ -1,0 +1,1528 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028315302456",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557432342944
+    },
+    "description" : "#s_6917529028315302456",
+    "persons" : [ {
+      "id" : "p_6917529030810166356",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Harison",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Harison",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Harison"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Harison"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3040812,0.10865609,0.3476422,0.14530803",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Harison"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810166456",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "C Framinta D Proctor Farrell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "C Framinta D",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "C Framinta D"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Proctor Farrell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Proctor Farrell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "C Framinta D Proctor Farrell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.05476845,0.13595009,0.06470712,0.16766311",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.06661028,0.13595009,0.09854092,0.16766311",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.09875238,0.13595009,0.13914147,0.16766311",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.14104462,0.13595009,0.15246353,0.16766311",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.15267499,0.13595009,0.18291393,0.16766311",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "C. Farrell Framinta D Proctor"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810166556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Anna",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Anna",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Anna"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Anna"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3319941,0.13595009,0.35884964,0.16766311",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Anna"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810166656",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Benajahy ⎬ Whitney",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Benajahy ⎬",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Benajahy ⎬"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Whitney",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Whitney"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Benajahy ⎬ Whitney"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.15796152,0.1523265,0.20004229,0.18247986",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20025375,0.1523265,0.20850074,0.18247986",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2087122,0.1523265,0.24402621,0.18247986",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Benajahy ⎬ Whitney"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Bruttale",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.26940155,0.1523265,0.2996405,0.18247986",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Bruttale"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810166756",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Maria R Badgley",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Maria R",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Maria R"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Badgley",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Badgley"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Maria R Badgley"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.81877774,0.16896282,0.84711355,0.19235767",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.847325,0.16896282,0.8606471,0.19235767",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8625502,0.16896282,0.904631,0.19235767",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Maria R Badgley"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF9B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810166856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFS9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Clarissa W Robbie",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Clarissa W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Clarissa W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Robbie",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Robbie"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Clarissa W Robbie"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.80609006,0.19417728,0.8403468,0.21055368",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8409812,0.19417728,0.8568408,0.21055368",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clarissa W"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5379573,0.59214973,0.574963,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.57686615,0.59214973,0.5918799,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.593783,0.59214973,0.63057727,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Clarissa W Robbie"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFS9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810166956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFS7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Adaline W O'Harrell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Adaline W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Adaline W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "O'Harrell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "O'Harrell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Adaline W O'Harrell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.80587864,0.21653236,0.83823216,0.23186898",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8403468,0.21653236,0.85366887,0.23186898",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.85578346,0.21653236,0.8623388,0.23186898",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Adaline W. O'Harrell"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFS7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Araminta D Procton",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Araminta D",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Araminta D"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Procton",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Procton"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Araminta D Procton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.80249524,0.23836756,0.8441531,0.2550039",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8464792,0.23836756,0.8587439,0.2550039",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.85916686,0.23836756,0.89532673,0.2550039",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Araminta D Procton"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFS8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Albertus B F Whitney",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Albertus B F",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Albertus B F"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Whitney",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Whitney"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Albertus B F Whitney"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.80566716,0.25942293,0.8407697,0.27787888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8409812,0.25942293,0.85430324,0.27787888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8545147,0.25942293,0.8627617,0.27787888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.86466485,0.25942293,0.8982872,0.27787888",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Albertus B F Whitney"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFS8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Ama E Whitney",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Ama E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Ama E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Whitney",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Whitney"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Ama E Whitney"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.80735886,0.2822979,0.834003,0.30647257",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8359061,0.2822979,0.84922814,0.30647257",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8494396,0.2822979,0.88982874,0.30647257",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Ama E Whitney"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "John W Barnes",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "John W",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "John W"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Barnes",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Barnes"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "John W Barnes"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8530345,0.40577072,0.8627617,0.42552638",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8680482,0.40577072,0.8796786,0.42552638",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8832734,0.40577072,0.92408544,0.42552638",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "J. W. Barnes"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8460562,0.45334026,0.8712201,0.47647518",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8714316,0.45334026,0.88475364,0.47647518",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8866568,0.45334026,0.92598855,0.47647518",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John W Barnes"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lyman C Comstock",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Lyman C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Lyman C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Comstock",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Comstock"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lyman C Comstock"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.54112923,0.44294256,0.57305986,0.46555758",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.574963,0.44294256,0.5849017,0.46555758",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5868048,0.44294256,0.63036585,0.46555758",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lyman C Comstock"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Clerk",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Clerk"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167556",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Signatine",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Signatine",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Signatine"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Signatine"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.75555086,0.49935013,0.7925566,0.53574216",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Signatine"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167656",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "C Comstock",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Comstock",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Comstock"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "C Comstock"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.8441531,0.5427606,0.855572,0.5669353",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.85578346,0.5427606,0.8657221,0.5669353",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8676253,0.5427606,0.92598855,0.5669353",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "C C Comstock"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "State of New - York",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.53711146,0.56147647,0.5620639,0.59059006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.56227535,0.56147647,0.5755974,0.59059006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5758088,0.56147647,0.5923028,0.59059006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5908226,0.56147647,0.5956862,0.59059006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.599281,0.56147647,0.6278283,0.59059006",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_STATE_ORIG",
+              "text" : "State of New - York"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NFSB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF39-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Adaline No O' Farrell",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Adaline No",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Adaline No"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "O' Farrell",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "O' Farrell"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Adaline No O' Farrell"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.63248044,0.59214973,0.67117786,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.673081,0.59214973,0.68471134,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6866145,0.59214973,0.6948615,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.69845635,0.59214973,0.7320787,0.613465",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Adaline No O' Farrell"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF39-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030810167856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF37-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "John E Robie Jr",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "John E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "John E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Robie",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Robie"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Suffix",
+            "value" : "Jr",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Suffix",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SUF",
+                "text" : "Jr"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "John E Robie Jr"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.82406425,0.6327008,0.8490167,0.6490772",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8513428,0.6327008,0.8619158,0.6490772",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8642419,0.6327008,0.8910975,0.6490772",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.89173186,0.6327008,0.90399665,0.6490772",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John E Robie Jr."
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7T-NF37-W"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028315302456",
+      "about" : "#r_6917529028315302456",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TD2F-W" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-99WX-332P",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-99WX-332P" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007151008_00578_TXT</UNQ>\n<IMID>007151008_00578</IMID>\n<APID>TH-1951-32823-3323-36</APID>\n<IMGSIZE>4729,3847</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 1 0\nWARRANT DES.\n& This <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the First\nheria M. ⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Harison</ENAMEX> having <ENAMEX TYPE=\"COREF\">him</ENAMEX> to\n<TIMEX TYPE=\"DATE\">thousand eight hundred and seventy three</TIMEX> <ENAMEX TYPE=\"PERSON\">C. Farrell Framinta D Proctor</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"PERSON\">Anna</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> ⌨⌨⌨⌨ of the first part and at <NUMEX TYPE=\"QUANTITY\">four</NUMEX> of <ENAMEX TYPE=\"PERSON\">Benajahy ⎬ Whitney</ENAMEX> late of <ENAMEX TYPE=\"LOCALE\">Bruttale</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>. of the first part and\n<ENAMEX TYPE=\"PERSON\">Thomas Ramsey</ENAMEX> of for and in consideration of\nof the second part, Witnesseth, that the said party of the first part for no <NUMEX TYPE=\"MONEY\">Hundred and Seventy Dollars</NUMEX>.\nlawful money of the United States-\nof the second part, the receipt whereof is hereby confirmed and acknowledged\n<ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of\nof <ENAMEX TYPE=\"LOCALE\">America</ENAMEX>, to\n<ENAMEX TYPE=\"EVENT.xlife\">bargained sold remised, released aliened, conveyed and confirmed</ENAMEX>, and by these presents do grant bargain, well, remis, release, allen\nhave granted,\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that certain piece or parcel\nconvey and confirm unto the said party of the second part and too <ENAMEX TYPE=\"COREF\">his</ENAMEX>,\nof Land, Situate in the <ENAMEX TYPE=\"LOCALE\">City of Burnalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being\n<ENAMEX TYPE=\"PERSON\">Loring</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Emilie</ENAMEX>\n⌨⌨⌨⌨⌨⌨⌨⌨ number <NUMEX TYPE=\"QUANTITY\">One hundred and Twenty Seven</NUMEX>\nof that part of the <ENAMEX TYPE=\"LOCALE.notgpe\">Bonnals Creek Indian Reservation</ENAMEX> adjoining the City of\n<NUMEX TYPE=\"QUANTITY\">one hundred and forty five</NUMEX> feet thence West and parallel with\n<NUMEX TYPE=\"QUANTITY\">seventy six</NUMEX> and thence North and parallel with the west line of said lot No\nby <NUMEX TYPE=\"QUANTITY\">one hundred and forty one</NUMEX> feet to the place of beginning ---\\+\n<ENAMEX TYPE=\"LOCALE\">Sogether</ENAMEX>, with all and singular the tenements, hereditaments and appurtenances thereunto belonging, or in any wise appertaining, and the reversion\nand reversions, remainder and remainders, rents, issues and profits thereof; and all the estate, right, title, interest, dower and right of dower claim\nand demand whatsoever, of the said party of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said\nhereditaments and appurtenances, to have and to hold, the said premises, as above described, with the appurtenances unto the said party of\nthe second part, and to <ENAMEX TYPE=\"LOCALE\">Mo</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n5 1 1 ed and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant bargain and agree to and with the said party of the second part,) <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nThe above bargained promises, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <NUMEX TYPE=\"QUANTITY\">one</NUMEX> and\nperson or persons lawfully claiming or to claim the whole or any part thereof, <ENAMEX TYPE=\"COREF\">they</ENAMEX> will forever warrant and said\nhere\n☞ Winess whereof, The party, of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in presence of ---\\+\n<ENAMEX TYPE=\"PERSON\">Maria R Badgley</ENAMEX> C S. ✓\n<ENAMEX TYPE=\"PERSON\">Clarissa W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Robie L. S.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Adaline W. O'Harrell</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Araminta D Procton</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Albertus B F Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Ama E Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ntion, said that <ENAMEX TYPE=\"COREF\">he</ENAMEX> rented the within lament <ENAMEX TYPE=\"COREF\">his</ENAMEX> aid as ⌨ for there and <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\nority that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the sad acknowledgement to be the individuals decried in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument\n<ENAMEX TYPE=\"PERSON\">J. W. Barnes</ENAMEX>\n⌨⌨⌨<ENAMEX TYPE=\"LOCALE\">ga County</ENAMEX> <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nIn & for <ENAMEX TYPE=\"LOCALE\">Cayuga County</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Lyman C Comstock</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">County of Cayuga</ENAMEX> and of the\n<ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> being a Court of Record do hereby certify to <ENAMEX TYPE=\"PERSON\">John W Barnes</ENAMEX>\nwhose name is anbocived to the condition of the and thereon written was at the time of taking the same a ⌨⌨⌨⌨⌨ in and for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nand duly authorized to take such proof or be\n=knowledgment and that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nwith <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand writing and verily believe that this <ENAMEX TYPE=\"PERSON\">Signatine</ENAMEX> said instrument is presentine and ⌨⌨⌨⌨⌨⌨⌨⌨hereof <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said\nCounty</ENAMEX> and \" County ⎬ the <TIMEX TYPE=\"DATE\">29\" day of May 1878</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">C C Comstock</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">State of New - York</ENAMEX> so\nOn this <TIMEX TYPE=\"DATE\">Fifteenth day of May 1873</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscribers appeared\n<ENAMEX TYPE=\"PERSON\">Clarissa W Robbie</ENAMEX> <ENAMEX TYPE=\"PERSON\">Adaline No O' Farrell</ENAMEX> of ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">who</ENAMEX> acknowledged\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the\nthat <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the within Instrument and <ENAMEX TYPE=\"COREF\">I</ENAMEX> certify said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the instrument,\n<ENAMEX TYPE=\"PERSON\">John E Robie Jr.</ENAMEX>\nth an Indell\nIn or for ⌨⌨ County.\nDOES ,\n---\\+\n<TIMEX TYPE=\"DATE\">1833</TIMEX>, at <NUMEX TYPE=\"QUANTITY\">4 ½</NUMEX>\n<ENAMEX TYPE=\"COREF\">my</ENAMEX> well ⌨ \n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3744\"_ENDID=\"3757\"_STTOKEN=\"C C Comstock\"_ENDTOKEN=\"State of New - York\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"418\"_ENDID=\"445\"_STTOKEN=\"Benajahy ⎬ Whitney\"_ENDTOKEN=\"Bruttale\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1077\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"143\"_ENDID=\"1142\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2270\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2380\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2481\"_ENDID=\"2586\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2836\"_ENDID=\"1142\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2871\"_ENDID=\"264\"_STTOKEN=\"he\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2899\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2926\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2947\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2966\"_ENDID=\"2789\"_STTOKEN=\"who\"_ENDTOKEN=\"Albertus B F Whitney\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3289\"_ENDID=\"3072\"_STTOKEN=\"John W Barnes\"_ENDTOKEN=\"J. W. Barnes\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3505\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3531\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3636\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3656\"_ENDID=\"2716\"_STTOKEN=\"my\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"371\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3822\"_ENDID=\"2716\"_STTOKEN=\"me\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3850\"_ENDID=\"2716\"_STTOKEN=\"Clarissa W Robbie\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3934\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3971\"_ENDID=\"2586\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4011\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4186\"_ENDID=\"2716\"_STTOKEN=\"my\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"749\"_ENDID=\"2586\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"S=1\"_STID=\"418\"_ENDID=\"418\"_STTOKEN=\"Benajahy ⎬ Whitney\"_ENDTOKEN=\"Benajahy ⎬ Whitney\">\n<RELEX TYPE=\"S=1+\"_STID=\"3577\"_ENDID=\"3577\"_STTOKEN=\"Signatine\"_ENDTOKEN=\"Signatine\">\n<RELEX TYPE=\"S=2\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"C. Farrell Framinta D Proctor\"_ENDTOKEN=\"C. Farrell Framinta D Proctor\">\n<RELEX TYPE=\"S=3\"_STID=\"4109\"_ENDID=\"4109\"_STTOKEN=\"John E Robie Jr.\"_ENDTOKEN=\"John E Robie Jr.\">\n<RELEX TYPE=\"S=3+\"_STID=\"2693\"_ENDID=\"2693\"_STTOKEN=\"Maria R Badgley\"_ENDTOKEN=\"Maria R Badgley\">\n<RELEX TYPE=\"S=3+\"_STID=\"2739\"_ENDID=\"2739\"_STTOKEN=\"Adaline W. O'Harrell\"_ENDTOKEN=\"Adaline W. O'Harrell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2765\"_ENDID=\"2765\"_STTOKEN=\"Araminta D Procton\"_ENDTOKEN=\"Araminta D Procton\">\n<RELEX TYPE=\"S=3+\"_STID=\"2816\"_ENDID=\"2816\"_STTOKEN=\"Ama E Whitney\"_ENDTOKEN=\"Ama E Whitney\">\n<RELEX TYPE=\"S=3+\"_STID=\"3072\"_ENDID=\"3072\"_STTOKEN=\"J. W. Barnes\"_ENDTOKEN=\"J. W. Barnes\">\n<RELEX TYPE=\"S=3+\"_STID=\"3156\"_ENDID=\"3156\"_STTOKEN=\"Lyman C Comstock\"_ENDTOKEN=\"Lyman C Comstock\">\n<RELEX TYPE=\"S=3+\"_STID=\"3289\"_ENDID=\"3289\"_STTOKEN=\"John W Barnes\"_ENDTOKEN=\"John W Barnes\">\n<RELEX TYPE=\"S=3+\"_STID=\"3744\"_ENDID=\"3744\"_STTOKEN=\"C C Comstock\"_ENDTOKEN=\"C C Comstock\">\n<RELEX TYPE=\"S=3+\"_STID=\"3850\"_ENDID=\"3850\"_STTOKEN=\"Clarissa W Robbie\"_ENDTOKEN=\"Clarissa W Robbie\">\n<RELEX TYPE=\"S=3+\"_STID=\"3868\"_ENDID=\"3868\"_STTOKEN=\"Adaline No O' Farrell\"_ENDTOKEN=\"Adaline No O' Farrell\">\n<RELEX TYPE=\"S=3+\"_STID=\"418\"_ENDID=\"418\"_STTOKEN=\"Benajahy ⎬ Whitney\"_ENDTOKEN=\"Benajahy ⎬ Whitney\">\n<RELEX TYPE=\"S=4+\"_STID=\"2789\"_ENDID=\"2789\"_STTOKEN=\"Albertus B F Whitney\"_ENDTOKEN=\"Albertus B F Whitney\">\n<RELEX TYPE=\"S=5+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"C. Farrell Framinta D Proctor\"_ENDTOKEN=\"C. Farrell Framinta D Proctor\">\n<RELEX TYPE=\"Z:EMPLOYED_BY\"_STID=\"3156\"_ENDID=\"3186\"_STTOKEN=\"Lyman C Comstock\"_ENDTOKEN=\"County of Cayuga\">\n<RELEX TYPE=\"Z:EMPLOYED_BY\"_STID=\"3173\"_ENDID=\"3186\"_STTOKEN=\"Clerk\"_ENDTOKEN=\"County of Cayuga\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2270\"_ENDID=\"2170\"_STTOKEN=\"his\"_ENDTOKEN=\"administrators\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2380\"_ENDID=\"2384\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"371\"_ENDID=\"375\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1077\"_ENDID=\"803\"_STTOKEN=\"his\"_ENDTOKEN=\"bargained sold remised, released aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"249\"_ENDID=\"454\"_STTOKEN=\"Harison\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"249\"_ENDID=\"803\"_STTOKEN=\"Harison\"_ENDTOKEN=\"bargained sold remised, released aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"803\"_STTOKEN=\"Anna\"_ENDTOKEN=\"bargained sold remised, released aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"371\"_ENDID=\"454\"_STTOKEN=\"his\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3850\"_ENDID=\"208\"_STTOKEN=\"Clarissa W Robbie\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"366\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Anna\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2693\"_ENDID=\"2693\"_STTOKEN=\"Maria R Badgley\"_ENDTOKEN=\"Maria R Badgley\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"C. Farrell Framinta D Proctor\"_ENDTOKEN=\"C. Farrell Framinta D Proctor\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"366\"_ENDID=\"375\"_STTOKEN=\"Anna\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3156\"_ENDID=\"3173\"_STTOKEN=\"Lyman C Comstock\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1106\"_ENDID=\"1123\"_STTOKEN=\"City of Burnalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1123\"_ENDID=\"1142\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"137\"_ENDID=\"143\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"143\"_ENDID=\"153\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3098\"_ENDID=\"3088\"_STTOKEN=\"Clerks Office\"_ENDTOKEN=\"ga County\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007151008_00578_TXT</UNQ>\n<IMID>007151008_00578</IMID>\n<APID>TH-1951-32823-3323-36</APID>\n<IMGSIZE>4729,3847</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 1 0\nWARRANT DES.\n& This <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the First\nheria M. ⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Harison</ENAMEX> having <ENAMEX TYPE=\"COREF\">him</ENAMEX> to\n<TIMEX TYPE=\"DATE\">thousand eight hundred and seventy three</TIMEX> <ENAMEX TYPE=\"PERSON\">C. Farrell Framinta D Proctor</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"PERSON\">Anna</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> ⌨⌨⌨⌨ of the first part and at <NUMEX TYPE=\"QUANTITY\">four</NUMEX> of <ENAMEX TYPE=\"PERSON\">Benajahy ⎬ Whitney</ENAMEX> late of <ENAMEX TYPE=\"LOCALE\">Bruttale</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>. of the first part and\n<ENAMEX TYPE=\"PERSON\">Thomas Ramsey</ENAMEX> of for and in consideration of\nof the second part, Witnesseth, that the said party of the first part for no <NUMEX TYPE=\"MONEY\">Hundred and Seventy Dollars</NUMEX>.\nlawful money of the United States-\nof the second part, the receipt whereof is hereby confirmed and acknowledged\n<ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of\nof <ENAMEX TYPE=\"LOCALE\">America</ENAMEX>, to\n<ENAMEX TYPE=\"EVENT.xlife\">bargained sold remised, released aliened, conveyed and confirmed</ENAMEX>, and by these presents do grant bargain, well, remis, release, allen\nhave granted,\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that certain piece or parcel\nconvey and confirm unto the said party of the second part and too <ENAMEX TYPE=\"COREF\">his</ENAMEX>,\nof Land, Situate in the <ENAMEX TYPE=\"LOCALE\">City of Burnalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being\n<ENAMEX TYPE=\"PERSON\">Loring</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Emilie</ENAMEX>\n⌨⌨⌨⌨⌨⌨⌨⌨ number <NUMEX TYPE=\"QUANTITY\">One hundred and Twenty Seven</NUMEX>\nof that part of the <ENAMEX TYPE=\"LOCALE.notgpe\">Bonnals Creek Indian Reservation</ENAMEX> adjoining the City of\n<NUMEX TYPE=\"QUANTITY\">one hundred and forty five</NUMEX> feet thence West and parallel with\n<NUMEX TYPE=\"QUANTITY\">seventy six</NUMEX> and thence North and parallel with the west line of said lot No\nby <NUMEX TYPE=\"QUANTITY\">one hundred and forty one</NUMEX> feet to the place of beginning ---\\+\n<ENAMEX TYPE=\"LOCALE\">Sogether</ENAMEX>, with all and singular the tenements, hereditaments and appurtenances thereunto belonging, or in any wise appertaining, and the reversion\nand reversions, remainder and remainders, rents, issues and profits thereof; and all the estate, right, title, interest, dower and right of dower claim\nand demand whatsoever, of the said party of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said\nhereditaments and appurtenances, to have and to hold, the said premises, as above described, with the appurtenances unto the said party of\nthe second part, and to <ENAMEX TYPE=\"LOCALE\">Mo</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n5 1 1 ed and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant bargain and agree to and with the said party of the second part,) <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nThe above bargained promises, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <NUMEX TYPE=\"QUANTITY\">one</NUMEX> and\nperson or persons lawfully claiming or to claim the whole or any part thereof, <ENAMEX TYPE=\"COREF\">they</ENAMEX> will forever warrant and said\nhere\n☞ Winess whereof, The party, of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in presence of ---\\+\n<ENAMEX TYPE=\"PERSON\">Maria R Badgley</ENAMEX> C S. ✓\n<ENAMEX TYPE=\"PERSON\">Clarissa W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Robie L. S.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Adaline W. O'Harrell</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Araminta D Procton</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Albertus B F Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Ama E Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ntion, said that <ENAMEX TYPE=\"COREF\">he</ENAMEX> rented the within lament <ENAMEX TYPE=\"COREF\">his</ENAMEX> aid as ⌨ for there and <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\nority that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the sad acknowledgement to be the individuals decried in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument\n<ENAMEX TYPE=\"PERSON\">J. W. Barnes</ENAMEX>\n⌨⌨⌨<ENAMEX TYPE=\"LOCALE\">ga County</ENAMEX> <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nIn & for <ENAMEX TYPE=\"LOCALE\">Cayuga County</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Lyman C Comstock</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">County of Cayuga</ENAMEX> and of the\n<ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> being a Court of Record do hereby certify to <ENAMEX TYPE=\"PERSON\">John W Barnes</ENAMEX>\nwhose name is anbocived to the condition of the and thereon written was at the time of taking the same a ⌨⌨⌨⌨⌨ in and for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nand duly authorized to take such proof or be\n=knowledgment and that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nwith <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand writing and verily believe that this <ENAMEX TYPE=\"PERSON\">Signatine</ENAMEX> said instrument is presentine and ⌨⌨⌨⌨⌨⌨⌨⌨hereof <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said\nCounty</ENAMEX> and \" County ⎬ the <TIMEX TYPE=\"DATE\">29\" day of May 1878</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">C C Comstock</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">State of New - York</ENAMEX> so\nOn this <TIMEX TYPE=\"DATE\">Fifteenth day of May 1873</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscribers appeared\n<ENAMEX TYPE=\"PERSON\">Clarissa W Robbie</ENAMEX> <ENAMEX TYPE=\"PERSON\">Adaline No O' Farrell</ENAMEX> of ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">who</ENAMEX> acknowledged\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the\nthat <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the within Instrument and <ENAMEX TYPE=\"COREF\">I</ENAMEX> certify said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the instrument,\n<ENAMEX TYPE=\"PERSON\">John E Robie Jr.</ENAMEX>\nth an Indell\nIn or for ⌨⌨ County.\nDOES ,\n---\\+\n<TIMEX TYPE=\"DATE\">1833</TIMEX>, at <NUMEX TYPE=\"QUANTITY\">4 ½</NUMEX>\n<ENAMEX TYPE=\"COREF\">my</ENAMEX> well ⌨ \n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"3744\"_ENDID=\"3757\"_STTOKEN=\"C C Comstock\"_ENDTOKEN=\"State of New - York\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"418\"_ENDID=\"445\"_STTOKEN=\"Benajahy ⎬ Whitney\"_ENDTOKEN=\"Bruttale\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1077\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"143\"_ENDID=\"1142\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2270\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2380\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2481\"_ENDID=\"2586\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2836\"_ENDID=\"1142\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2871\"_ENDID=\"264\"_STTOKEN=\"he\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2899\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2926\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2947\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2966\"_ENDID=\"2789\"_STTOKEN=\"who\"_ENDTOKEN=\"Albertus B F Whitney\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3289\"_ENDID=\"3072\"_STTOKEN=\"John W Barnes\"_ENDTOKEN=\"J. W. Barnes\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3505\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3531\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3636\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3656\"_ENDID=\"2716\"_STTOKEN=\"my\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"371\"_ENDID=\"264\"_STTOKEN=\"his\"_ENDTOKEN=\"him\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3822\"_ENDID=\"2716\"_STTOKEN=\"me\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3850\"_ENDID=\"2716\"_STTOKEN=\"Clarissa W Robbie\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3934\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3971\"_ENDID=\"2586\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4011\"_ENDID=\"2716\"_STTOKEN=\"I\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4186\"_ENDID=\"2716\"_STTOKEN=\"my\"_ENDTOKEN=\"Clarissa W\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"749\"_ENDID=\"2586\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"S=1\"_STID=\"418\"_ENDID=\"418\"_STTOKEN=\"Benajahy ⎬ Whitney\"_ENDTOKEN=\"Benajahy ⎬ Whitney\">\n<RELEX TYPE=\"S=1+\"_STID=\"3577\"_ENDID=\"3577\"_STTOKEN=\"Signatine\"_ENDTOKEN=\"Signatine\">\n<RELEX TYPE=\"S=2\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"C. Farrell Framinta D Proctor\"_ENDTOKEN=\"C. Farrell Framinta D Proctor\">\n<RELEX TYPE=\"S=3\"_STID=\"4109\"_ENDID=\"4109\"_STTOKEN=\"John E Robie Jr.\"_ENDTOKEN=\"John E Robie Jr.\">\n<RELEX TYPE=\"S=3+\"_STID=\"2693\"_ENDID=\"2693\"_STTOKEN=\"Maria R Badgley\"_ENDTOKEN=\"Maria R Badgley\">\n<RELEX TYPE=\"S=3+\"_STID=\"2739\"_ENDID=\"2739\"_STTOKEN=\"Adaline W. O'Harrell\"_ENDTOKEN=\"Adaline W. O'Harrell\">\n<RELEX TYPE=\"S=3+\"_STID=\"2765\"_ENDID=\"2765\"_STTOKEN=\"Araminta D Procton\"_ENDTOKEN=\"Araminta D Procton\">\n<RELEX TYPE=\"S=3+\"_STID=\"2816\"_ENDID=\"2816\"_STTOKEN=\"Ama E Whitney\"_ENDTOKEN=\"Ama E Whitney\">\n<RELEX TYPE=\"S=3+\"_STID=\"3072\"_ENDID=\"3072\"_STTOKEN=\"J. W. Barnes\"_ENDTOKEN=\"J. W. Barnes\">\n<RELEX TYPE=\"S=3+\"_STID=\"3156\"_ENDID=\"3156\"_STTOKEN=\"Lyman C Comstock\"_ENDTOKEN=\"Lyman C Comstock\">\n<RELEX TYPE=\"S=3+\"_STID=\"3289\"_ENDID=\"3289\"_STTOKEN=\"John W Barnes\"_ENDTOKEN=\"John W Barnes\">\n<RELEX TYPE=\"S=3+\"_STID=\"3744\"_ENDID=\"3744\"_STTOKEN=\"C C Comstock\"_ENDTOKEN=\"C C Comstock\">\n<RELEX TYPE=\"S=3+\"_STID=\"3850\"_ENDID=\"3850\"_STTOKEN=\"Clarissa W Robbie\"_ENDTOKEN=\"Clarissa W Robbie\">\n<RELEX TYPE=\"S=3+\"_STID=\"3868\"_ENDID=\"3868\"_STTOKEN=\"Adaline No O' Farrell\"_ENDTOKEN=\"Adaline No O' Farrell\">\n<RELEX TYPE=\"S=3+\"_STID=\"418\"_ENDID=\"418\"_STTOKEN=\"Benajahy ⎬ Whitney\"_ENDTOKEN=\"Benajahy ⎬ Whitney\">\n<RELEX TYPE=\"S=4+\"_STID=\"2789\"_ENDID=\"2789\"_STTOKEN=\"Albertus B F Whitney\"_ENDTOKEN=\"Albertus B F Whitney\">\n<RELEX TYPE=\"S=5+\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"C. Farrell Framinta D Proctor\"_ENDTOKEN=\"C. Farrell Framinta D Proctor\">\n<RELEX TYPE=\"Z:EMPLOYED_BY\"_STID=\"3156\"_ENDID=\"3186\"_STTOKEN=\"Lyman C Comstock\"_ENDTOKEN=\"County of Cayuga\">\n<RELEX TYPE=\"Z:EMPLOYED_BY\"_STID=\"3173\"_ENDID=\"3186\"_STTOKEN=\"Clerk\"_ENDTOKEN=\"County of Cayuga\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2270\"_ENDID=\"2170\"_STTOKEN=\"his\"_ENDTOKEN=\"administrators\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2380\"_ENDID=\"2384\"_STTOKEN=\"his\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"371\"_ENDID=\"375\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"1077\"_ENDID=\"803\"_STTOKEN=\"his\"_ENDTOKEN=\"bargained sold remised, released aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"249\"_ENDID=\"454\"_STTOKEN=\"Harison\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"249\"_ENDID=\"803\"_STTOKEN=\"Harison\"_ENDTOKEN=\"bargained sold remised, released aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"366\"_ENDID=\"803\"_STTOKEN=\"Anna\"_ENDTOKEN=\"bargained sold remised, released aliened, conveyed and confirmed\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"371\"_ENDID=\"454\"_STTOKEN=\"his\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2693\"_ENDID=\"2693\"_STTOKEN=\"Maria R Badgley\"_ENDTOKEN=\"Maria R Badgley\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"312\"_ENDID=\"312\"_STTOKEN=\"C. Farrell Framinta D Proctor\"_ENDTOKEN=\"C. Farrell Framinta D Proctor\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"366\"_ENDID=\"375\"_STTOKEN=\"Anna\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3156\"_ENDID=\"3173\"_STTOKEN=\"Lyman C Comstock\"_ENDTOKEN=\"Clerk\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1106\"_ENDID=\"1123\"_STTOKEN=\"City of Burnalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1123\"_ENDID=\"1142\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"143\"_ENDID=\"153\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"3098\"_ENDID=\"3088\"_STTOKEN=\"Clerks Office\"_ENDTOKEN=\"ga County\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007151008_00578_TXT</UNQ>\n<IMID>007151008_00578</IMID>\n<APID>TH-1951-32823-3323-36</APID>\n<IMGSIZE>4729,3847</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 1 0\nWARRANT DES.\n& This <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the First\nheria M. ⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Harison</ENAMEX> having <ENAMEX TYPE=\"COREF\">him</ENAMEX> to\n<TIMEX TYPE=\"DATE\">thousand eight hundred and seventy three</TIMEX> <ENAMEX TYPE=\"PERSON\">C. Farrell Framinta D Proctor</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"PERSON\">Anna</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> ⌨⌨⌨⌨ of the first part and at <NUMEX TYPE=\"QUANTITY\">four</NUMEX> of <ENAMEX TYPE=\"PERSON\">Benajahy ⎬ Whitney</ENAMEX> late of <ENAMEX TYPE=\"LOCALE\">Bruttale</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>. of the first part and\n<ENAMEX TYPE=\"PERSON\">Thomas Ramsey</ENAMEX> of for and in consideration of\nof the second part, Witnesseth, that the said party of the first part for no <NUMEX TYPE=\"MONEY\">Hundred and Seventy Dollars</NUMEX>.\nlawful money of the United States-\nof the second part, the receipt whereof is hereby confirmed and acknowledged\n<ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of\nof <ENAMEX TYPE=\"LOCALE\">America</ENAMEX>, to\n<ENAMEX TYPE=\"EVENT.xlife\">bargained sold remised, released aliened, conveyed and confirmed</ENAMEX>, and by these presents do grant bargain, well, remis, release, allen\nhave granted,\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that certain piece or parcel\nconvey and confirm unto the said party of the second part and too <ENAMEX TYPE=\"COREF\">his</ENAMEX>,\nof Land, Situate in the <ENAMEX TYPE=\"LOCALE\">City of Burnalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being\n<ENAMEX TYPE=\"PERSON\">Loring</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Emilie</ENAMEX>\n⌨⌨⌨⌨⌨⌨⌨⌨ number <NUMEX TYPE=\"QUANTITY\">One hundred and Twenty Seven</NUMEX>\nof that part of the <ENAMEX TYPE=\"LOCALE.notgpe\">Bonnals Creek Indian Reservation</ENAMEX> adjoining the City of\n<NUMEX TYPE=\"QUANTITY\">one hundred and forty five</NUMEX> feet thence West and parallel with\n<NUMEX TYPE=\"QUANTITY\">seventy six</NUMEX> and thence North and parallel with the west line of said lot No\nby <NUMEX TYPE=\"QUANTITY\">one hundred and forty one</NUMEX> feet to the place of beginning ---\\+\n<ENAMEX TYPE=\"LOCALE\">Sogether</ENAMEX>, with all and singular the tenements, hereditaments and appurtenances thereunto belonging, or in any wise appertaining, and the reversion\nand reversions, remainder and remainders, rents, issues and profits thereof; and all the estate, right, title, interest, dower and right of dower claim\nand demand whatsoever, of the said party of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said\nhereditaments and appurtenances, to have and to hold, the said premises, as above described, with the appurtenances unto the said party of\nthe second part, and to <ENAMEX TYPE=\"LOCALE\">Mo</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n5 1 1 ed and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant bargain and agree to and with the said party of the second part,) <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nThe above bargained promises, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <NUMEX TYPE=\"QUANTITY\">one</NUMEX> and\nperson or persons lawfully claiming or to claim the whole or any part thereof, <ENAMEX TYPE=\"COREF\">they</ENAMEX> will forever warrant and said\nhere\n☞ Winess whereof, The party, of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in presence of ---\\+\n<ENAMEX TYPE=\"PERSON\">Maria R Badgley</ENAMEX> C S. ✓\n<ENAMEX TYPE=\"PERSON\">Clarissa W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Robie L. S.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Adaline W. O'Harrell</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Araminta D Procton</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Albertus B F Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Ama E Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ntion, said that <ENAMEX TYPE=\"COREF\">he</ENAMEX> rented the within lament <ENAMEX TYPE=\"COREF\">his</ENAMEX> aid as ⌨ for there and <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\nority that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the sad acknowledgement to be the individuals decried in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument\n<ENAMEX TYPE=\"PERSON\">J. W. Barnes</ENAMEX>\n⌨⌨⌨<ENAMEX TYPE=\"LOCALE\">ga County</ENAMEX> <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nIn & for <ENAMEX TYPE=\"LOCALE\">Cayuga County</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Lyman C Comstock</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">County of Cayuga</ENAMEX> and of the\n<ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> being a Court of Record do hereby certify to <ENAMEX TYPE=\"PERSON\">John W Barnes</ENAMEX>\nwhose name is anbocived to the condition of the and thereon written was at the time of taking the same a ⌨⌨⌨⌨⌨ in and for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nand duly authorized to take such proof or be\n=knowledgment and that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nwith <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand writing and verily believe that this <ENAMEX TYPE=\"PERSON\">Signatine</ENAMEX> said instrument is presentine and ⌨⌨⌨⌨⌨⌨⌨⌨hereof <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said\nCounty</ENAMEX> and \" County ⎬ the <TIMEX TYPE=\"DATE\">29\" day of May 1878</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">C C Comstock</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">State of New - York</ENAMEX> so\nOn this <TIMEX TYPE=\"DATE\">Fifteenth day of May 1873</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscribers appeared\n<ENAMEX TYPE=\"PERSON\">Clarissa W Robbie</ENAMEX> <ENAMEX TYPE=\"PERSON\">Adaline No O' Farrell</ENAMEX> of ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">who</ENAMEX> acknowledged\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the\nthat <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the within Instrument and <ENAMEX TYPE=\"COREF\">I</ENAMEX> certify said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the instrument,\n<ENAMEX TYPE=\"PERSON\">John E Robie Jr.</ENAMEX>\nth an Indell\nIn or for ⌨⌨ County.\nDOES ,\n---\\+\n<TIMEX TYPE=\"DATE\">1833</TIMEX>, at <NUMEX TYPE=\"QUANTITY\">4 ½</NUMEX>\n<ENAMEX TYPE=\"COREF\">my</ENAMEX> well ⌨ \n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007151008_00578_TXT</UNQ>\n<IMID>007151008_00578</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1951</TIMEX>-32823-<TIMEX TYPE=\"DATE\">3323-36</TIMEX></APID>\n<IMGSIZE>4729,3847</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>5 1 0\nWARRANT DES.\n& This <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made the First\nheria M. ⌨⌨⌨⌨⌨ <ENAMEX TYPE=\"PERSON\">Harison</ENAMEX> having <ENAMEX TYPE=\"COREF\">him</ENAMEX> to\n<TIMEX TYPE=\"DATE\">thousand eight hundred and seventy three</TIMEX> <ENAMEX TYPE=\"PERSON\">C. Farrell Framinta D Proctor</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"PERSON\">Anna</ENAMEX> <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> ⌨⌨⌨⌨ of the first part and at <NUMEX TYPE=\"QUANTITY\">four</NUMEX> of <ENAMEX TYPE=\"PERSON\">Benajahy ⎬ Whitney</ENAMEX> late of <ENAMEX TYPE=\"LOCALE\">Bruttale</ENAMEX> <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>. of the first part and\n<ENAMEX TYPE=\"PERSON\">Thomas Ramsey</ENAMEX> of for and in consideration of\nof the second part, Witnesseth, that the said party of the first part for no <NUMEX TYPE=\"MONEY\">Hundred and Seventy Dollars</NUMEX>.\nlawful money of the United States-\nof the second part, the receipt whereof is hereby confirmed and acknowledged\n<ENAMEX TYPE=\"COREF\">them</ENAMEX>\nin hand paid by the said party of\nof <ENAMEX TYPE=\"LOCALE\">America</ENAMEX>, to\n<ENAMEX TYPE=\"EVENT.xlife\">bargained sold remised, released aliened, conveyed and confirmed</ENAMEX>, and by these presents do grant bargain, well, remis, release, allen\nhave granted,\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that certain piece or parcel\nconvey and confirm unto the said party of the second part and too <ENAMEX TYPE=\"COREF\">his</ENAMEX>,\nof Land, Situate in the <ENAMEX TYPE=\"LOCALE\">City of Burnalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>, being\n<ENAMEX TYPE=\"PERSON\">Loring</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Emilie</ENAMEX>\n⌨⌨⌨⌨⌨⌨⌨⌨ number <NUMEX TYPE=\"QUANTITY\">One hundred and Twenty Seven</NUMEX>\nof that part of the <ENAMEX TYPE=\"LOCALE.notgpe\">Bonnals Creek Indian Reservation</ENAMEX> adjoining the City of\n<NUMEX TYPE=\"QUANTITY\">one hundred and forty five</NUMEX> feet thence West and parallel with\n<NUMEX TYPE=\"QUANTITY\">seventy six</NUMEX> and thence North and parallel with the west line of said lot No\nby <NUMEX TYPE=\"QUANTITY\">one hundred and forty one</NUMEX> feet to the place of beginning ---\\+\n<ENAMEX TYPE=\"LOCALE\">Sogether</ENAMEX>, with all and singular the tenements, hereditaments and appurtenances thereunto belonging, or in any wise appertaining, and the reversion\nand reversions, remainder and remainders, rents, issues and profits thereof; and all the estate, right, title, interest, dower and right of dower claim\nand demand whatsoever, of the said party of the first part, either in Law of Equity, of, in and to the above bargained premises, with the said\nhereditaments and appurtenances, to have and to hold, the said premises, as above described, with the appurtenances unto the said party of\nthe second part, and to <ENAMEX TYPE=\"LOCALE\">Mo</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever. And the said\n5 1 1 ed and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX>, do covenant grant bargain and agree to and with the said party of the second part,) <ENAMEX TYPE=\"COREF\">his</ENAMEX>\nThe above bargained promises, in the quiet and peaceable possession of the said party of the second part, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <NUMEX TYPE=\"QUANTITY\">one</NUMEX> and\nperson or persons lawfully claiming or to claim the whole or any part thereof, <ENAMEX TYPE=\"COREF\">they</ENAMEX> will forever warrant and said\nhere\n☞ Winess whereof, The party, of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>\nSigned, sealed and Delivered in presence of ---\\+\n<ENAMEX TYPE=\"PERSON\">Maria R Badgley</ENAMEX> C S. ✓\n<ENAMEX TYPE=\"PERSON\">Clarissa W</ENAMEX> <ENAMEX TYPE=\"PERSON\">Robie L. S.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Adaline W. O'Harrell</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Araminta D Procton</ENAMEX> L S.\n<ENAMEX TYPE=\"PERSON\">Albertus B F Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"PERSON\">Ama E Whitney</ENAMEX> L. S.\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\ntion, said that <ENAMEX TYPE=\"COREF\">he</ENAMEX> rented the within lament <ENAMEX TYPE=\"COREF\">his</ENAMEX> aid as ⌨ for there and <ENAMEX TYPE=\"COREF\">I</ENAMEX> further\nority that <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the sad acknowledgement to be the individuals decried in, and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within instrument\n<ENAMEX TYPE=\"PERSON\">J. W. Barnes</ENAMEX>\n⌨⌨⌨<ENAMEX TYPE=\"LOCALE\">ga County</ENAMEX> <ENAMEX TYPE=\"STRUCTURE\">Clerks Office</ENAMEX> ⎬ SS.\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>\nIn & for <ENAMEX TYPE=\"LOCALE\">Cayuga County</ENAMEX>.\n<ENAMEX TYPE=\"PERSON\">Lyman C Comstock</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Clerk</ENAMEX> of the <ENAMEX TYPE=\"ORGANIZATION\">County of Cayuga</ENAMEX> and of the\n<ENAMEX TYPE=\"ORGANIZATION\">Supreme Court</ENAMEX> for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX> being a Court of Record do hereby certify to <ENAMEX TYPE=\"PERSON\">John W Barnes</ENAMEX>\nwhose name is anbocived to the condition of the and thereon written was at the time of taking the same a ⌨⌨⌨⌨⌨ in and for <ENAMEX TYPE=\"COREF.loc\">said County</ENAMEX>\nand duly authorized to take such proof or be\n=knowledgment and that <ENAMEX TYPE=\"COREF\">I</ENAMEX> am well acquainted\nwith <ENAMEX TYPE=\"COREF\">his</ENAMEX> hand writing and verily believe that this <ENAMEX TYPE=\"PERSON\">Signatine</ENAMEX> said instrument is presentine and ⌨⌨⌨⌨⌨⌨⌨⌨hereof <ENAMEX TYPE=\"COREF\">I</ENAMEX> have hereunto set <ENAMEX TYPE=\"COREF\">my</ENAMEX> hand and affixed the seal of the <ENAMEX TYPE=\"COREF.loc\">said\nCounty</ENAMEX> and \" County ⎬ the <TIMEX TYPE=\"DATE\">29\" day of May 1878</TIMEX>.\n<ENAMEX TYPE=\"PERSON\">C C Comstock</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">State of New - York</ENAMEX> so\nOn this <TIMEX TYPE=\"DATE\">Fifteenth day of May 1873</TIMEX>, before <ENAMEX TYPE=\"COREF\">me</ENAMEX> the subscribers appeared\n<ENAMEX TYPE=\"PERSON\">Clarissa W Robbie</ENAMEX> <ENAMEX TYPE=\"PERSON\">Adaline No O' Farrell</ENAMEX> of ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, <ENAMEX TYPE=\"COREF\">who</ENAMEX> acknowledged\nthat <ENAMEX TYPE=\"COREF\">I</ENAMEX> know the persons <ENAMEX TYPE=\"COREF\">who</ENAMEX> made the\nthat <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the within Instrument and <ENAMEX TYPE=\"COREF\">I</ENAMEX> certify said acknowledgment to be the individuals described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the instrument,\n<ENAMEX TYPE=\"PERSON\">John E Robie Jr.</ENAMEX>\nth an Indell\nIn or for ⌨⌨ County.\nDOES ,\n---\\+\n<TIMEX TYPE=\"DATE\">1833</TIMEX>, at <NUMEX TYPE=\"QUANTITY\">4 ½</NUMEX>\n<ENAMEX TYPE=\"COREF\">my</ENAMEX> well ⌨ \n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007151008_00578_TXT</UNQ>\n<IMID>007151008_00578</IMID>\n<APID>TH-1951-32823-3323-36</APID>\n<IMGSIZE>4729,3847</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[123,382:300,458] 5 1 0\n[317,401:444,422] WARRANT [435,401:502,422] DES.\n[175,447:254,546] & [271,447:453,546] This [470,447:789,546] Indenture, [822,447:901,546] Made [894,447:972,546] the [981,447:1199,546] First\n[1095,418:1206,559] heria [1210,418:1263,559] M. [1276,418:1425,559] ⌨⌨⌨⌨⌨ [1438,418:1644,559] Harison [1705,418:1825,559] having [1848,418:1987,559] him [2001,418:2179,559] to\n[253,531:373,591] thousand [367,531:438,591] eight [431,531:544,591] hundred [537,531:593,591] and [586,531:714,591] seventy [724,531:820,591] three [259,523:306,645] C. [315,523:466,645] Farrell [467,523:658,645] Framinta [667,523:721,645] D [722,523:865,645] Proctor [874,523:937,645] and [938,523:1465,645] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [1466,523:1569,645] and [1570,523:1697,645] Anna [1753,523:1832,645] his [1849,523:1944,645] wife [1953,523:2064,645] ⌨⌨⌨⌨ [252,586:299,702] of [292,586:339,702] the [340,586:395,702] first [388,586:459,702] part [452,586:523,702] and [523,586:570,702] at [571,586:674,702] four [675,586:738,702] of [747,586:946,702] Benajahy [947,586:986,702] ⎬ [987,586:1154,702] Whitney [1155,586:1233,702] late [1226,586:1273,702] of [1274,586:1417,702] Bruttale [1418,586:1585,702] deceased. [1610,586:1657,702] of [1658,586:1721,702] the [1746,586:1865,702] first [1865,586:1984,702] part [1985,586:2208,702] and\n[701,656:860,753] Thomas [869,656:1051,753] Ramsey [1060,656:1131,753] of [1075,728:1122,766] for [1118,728:1175,766] and [1165,728:1207,766] in [1202,728:1371,766] consideration [1366,728:1469,766] of\n[256,736:295,804] of [296,736:343,804] the [336,736:431,804] second [424,736:486,804] part, [495,736:646,804] Witnesseth, [655,736:718,804] that [711,736:758,804] the [751,736:814,804] said [807,736:886,804] party [879,736:917,804] of [910,736:957,804] the [958,736:1021,804] first [1014,736:1077,804] part [1070,736:1125,804] for [657,787:752,865] no [760,787:959,865] Hundred [968,787:1087,865] and [1095,787:1278,865] Seventy [1287,787:1445,865] Dollars.\n[1638,774:1731,825] lawful [1723,774:1822,825] money [1814,774:1858,825] of [1850,774:1907,825] the [1906,774:1999,825] United [1998,774:2168,825] States-\n[1127,820:1158,879] of [1151,820:1199,879] the [1192,820:1288,879] second [1281,820:1345,879] part, [1346,820:1393,879] the [1395,820:1483,879] receipt [1484,820:1588,879] whereof [1589,820:1620,879] is [1614,820:1710,879] hereby [1711,820:1839,879] confirmed [1833,820:1888,879] and [1889,820:2166,879] acknowledged\n[515,854:680,896] them\n[736,858:773,898] in [769,858:840,898] hand [836,858:902,898] paid [898,858:941,898] by [937,858:985,898] the [981,858:1041,898] said [1032,858:1114,898] party [1115,858:1220,898] of\n[259,888:298,915] of [295,888:401,915] America, [401,888:498,915] to\n[421,854:556,947] bargained [549,854:620,947] sold [613,854:716,947] remised, [725,854:827,947] released [828,854:923,947] aliened, [932,854:1059,947] conveyed [1052,854:1107,947] and [1108,854:1235,947] confirmed, [1244,854:1299,947] and [1300,854:1339,947] by [1340,854:1411,947] these [1412,854:1523,947] presents [1516,854:1563,947] do [1564,854:1643,947] grant [1644,854:1746,947] bargain, [1747,854:1802,947] well, [1803,854:1890,947] remis, [1899,854:1994,947] release, [2003,854:2141,947] allen\n[259,920:326,953] have [320,920:416,953] granted,\n[1350,898:1421,949] heirs [1420,898:1478,949] and [1477,898:1569,949] assigns [1568,898:1668,949] forever, [1681,898:1746,949] all [1738,898:1802,949] that [1794,898:1894,949] certain [1886,898:1964,949] piece [1963,898:1999,949] or [1991,898:2149,949] parcel\n[256,922:351,993] convey [352,922:406,993] and [399,922:510,993] confirm [503,922:566,993] unto [559,922:614,993] the [607,922:670,993] said [663,922:733,993] party [734,922:773,993] of [766,922:813,993] the [806,922:901,993] second [894,922:965,993] part [958,922:1013,993] and [1006,922:1092,993] too [1101,922:1180,993] his,\n[260,939:299,1038] of [300,939:371,1038] Land, [412,939:562,1038] Situate [563,939:642,1038] in [643,939:730,1038] the [739,939:842,1038] City [835,939:898,1038] of [907,939:1058,1038] Burnalo, [1107,939:1233,1038] County [1234,939:1281,1038] of [1290,939:1401,1038] Erie [1410,939:1513,1038] and [1522,939:1633,1038] State [1634,939:1689,1038] of [1698,939:1800,1038] New [1809,939:1904,1038] York, [1937,939:2111,1038] being\n[1643,983:1809,1044] Loring [1811,983:1909,1044] and [1911,983:2132,1044] Emilie\n[260,1006:586,1084] ⌨⌨⌨⌨⌨⌨⌨⌨ [587,1006:746,1084] number [747,1006:882,1084] One [883,1006:1098,1084] hundred [1099,1006:1218,1084] and [1227,1006:1377,1084] Twenty [1386,1006:1664,1084] Seven\n[435,1036:490,1130] of [491,1036:602,1130] that [611,1036:729,1130] part [730,1036:793,1130] of [794,1036:889,1130] the [898,1036:1073,1130] Bonnals [1090,1036:1209,1130] Creek [1218,1036:1353,1130] Indian [1378,1036:1617,1130] Reservation [1617,1036:1808,1130] adjoining [1809,1036:1888,1130] the [1889,1036:1984,1130] City [1993,1036:2098,1130] of\n[240,1263:271,1346]  [272,1263:367,1346] one [376,1263:551,1346] hundred [552,1263:670,1346] and [671,1263:766,1346] forty [767,1263:854,1346] five [855,1263:966,1346] feet [975,1263:1102,1346] thence [1103,1263:1230,1346] West [1239,1263:1334,1346] and [1342,1263:1549,1346] parallel [1550,1263:1731,1346] with\n[272,1293:463,1394] seventy [456,1293:599,1394] six [600,1293:702,1394] and [727,1293:870,1394] thence [871,1293:1030,1394] North [1039,1293:1142,1394] and [1151,1293:1342,1394] parallel [1351,1293:1478,1394] with [1471,1293:1558,1394] the [1567,1293:1677,1394] west [1686,1293:1781,1394] line [1782,1293:1829,1394] of [1830,1293:1925,1394] said [1934,1293:2005,1394] lot [2014,1293:2141,1394] No\n[272,1356:359,1434] by [360,1356:463,1434] one [472,1356:663,1434] hundred [671,1356:782,1434] and [775,1356:886,1434] forty [887,1356:974,1434] one [975,1356:1070,1434] feet [1079,1356:1142,1434] to [1143,1356:1238,1434] the [1247,1356:1366,1434] place [1367,1356:1438,1434] of [1447,1356:2073,1434] beginning ---\\+\n[302,3155:428,3202] Sogether, [439,3155:500,3202] with [491,3155:545,3202] all [537,3155:597,3202] and [589,3155:695,3202] singular [693,3155:748,3202] the [739,3155:872,3202] tenements, [876,3155:1048,3202] hereditaments [1046,3155:1100,3202] and [1098,3155:1283,3202] appurtenances [1274,3155:1400,3202] thereunto [1398,3155:1531,3202] belonging, [1529,3155:1570,3202] or [1561,3155:1602,3202] in [1594,3155:1655,3202] any [1653,3155:1720,3202] wise [1711,3155:1877,3202] appertaining, [1881,3155:1942,3202] and [1940,3155:1994,3202] the [1992,3155:2179,3202] reversion\n[300,3189:362,3231] and [359,3189:485,3231] reversions, [488,3189:620,3231] remainder [617,3189:673,3231] and [670,3189:808,3231] remainders, [810,3189:878,3231] rents, [880,3189:966,3231] issues [963,3189:1019,3231] and [1015,3189:1112,3231] profits [1103,3189:1206,3231] thereof; [1215,3189:1276,3231] and [1273,3189:1317,3231] all [1314,3189:1370,3231] the [1367,3189:1440,3231] estate, [1449,3189:1517,3231] right, [1519,3189:1581,3231] title, [1578,3189:1687,3231] interest, [1695,3189:1780,3231] dower [1777,3189:1839,3231] and [1836,3189:1915,3231] right [1912,3189:1956,3231] of [1953,3189:2044,3231] dower [2041,3189:2183,3231] claim\n[304,3221:361,3265] and [359,3221:466,3265] demand [463,3221:600,3265] whatsoever, [610,3221:649,3265] of [647,3221:698,3265] the [696,3221:753,3265] said [751,3221:833,3265] party [830,3221:870,3265] of [861,3221:919,3265] the [910,3221:980,3265] first [977,3221:1041,3265] part, [1045,3221:1127,3265] either [1124,3221:1164,3265] in [1161,3221:1231,3265] Law [1229,3221:1268,3265] of [1271,3221:1366,3265] Equity, [1370,3221:1409,3265] of, [1412,3221:1452,3265] in [1449,3221:1507,3265] and [1504,3221:1544,3265] to [1541,3221:1599,3265] the [1596,3221:1679,3265] above [1682,3221:1813,3265] bargained [1811,3221:1930,3265] premises, [1939,3221:2009,3265] with [2001,3221:2058,3265] the [2056,3221:2183,3265] said\n[302,3263:480,3309] hereditaments [478,3263:532,3309] and [530,3263:708,3309] appurtenances, [719,3263:767,3309] to [772,3263:852,3309] have [850,3263:904,3309] and [902,3263:950,3309] to [948,3263:1028,3309] hold, [1033,3263:1087,3309] the [1078,3263:1146,3309] said [1144,3263:1256,3309] premises, [1268,3263:1309,3309] as [1300,3263:1387,3309] above [1385,3263:1511,3309] described, [1516,3263:1583,3309] with [1581,3263:1635,3309] the [1633,3263:1824,3309] appurtenances [1822,3263:1896,3309] unto [1888,3263:1948,3309] the [1940,3263:2007,3309] said [2005,3263:2085,3309] party [2083,3263:2187,3309] of\n[301,3307:354,3341] the [349,3307:441,3341] second [435,3307:493,3341] part, [497,3307:551,3341] and [545,3307:651,3341] to [656,3307:843,3341] Mo [842,3307:910,3341] heirs [905,3307:963,3341] and [957,3307:1054,3341] assigns [1048,3307:1140,3341] forever. [1168,3307:1231,3341] And [1226,3307:1279,3341] the [1274,3307:1393,3341] said\n[4350,304:4535,373] 5 1 [2671,409:2720,458] 1 ed [2712,409:2768,458] and [2767,409:2944,458] administrators, [2950,409:3019,458] do [3025,409:3148,458] covenant [3147,409:3223,458] grant [3221,409:3325,458] bargain [3316,409:3372,458] and [3371,409:3447,458] agree [3439,409:3474,458] to [3473,409:3528,458] and [3527,409:3589,458] with [3581,409:3630,458] the [3629,409:3684,458] said [3683,409:3759,458] party [3758,409:3793,458] of [3792,409:3841,458] the [3832,409:3929,458] second [3921,409:3990,458] part,) [4016,409:4146,458] his\n[2609,418:2720,489] The [2713,418:2800,489] above [2801,418:2927,489] bargained [2928,418:3047,489] promises, [3048,418:3087,489] in [3080,418:3127,489] the [3128,418:3207,489] quiet [3200,418:3255,489] and [3256,418:3383,489] peaceable [3376,418:3502,489] possession [3503,418:3534,489] of [3535,418:3582,489] the [3575,418:3638,489] said [3631,418:3710,489] party [3703,418:3742,489] of [3743,418:3790,489] the [3783,418:3878,489] second [3871,418:3934,489] part, [3959,418:4117,489] his [4118,418:4189,489] heirs [4182,418:4229,489] and [4230,418:4285,489] one [4278,418:4395,489] and\n[2719,453:2869,531] person [2862,453:2901,531] or [2894,453:2997,531] persons [2990,453:3101,531] lawfully [3102,453:3213,531] claiming [3214,453:3245,531] or [3246,453:3277,531] to [3278,453:3349,531] claim [3350,453:3397,531] the [3398,453:3476,531] whole [3477,453:3508,531] or [3509,453:3564,531] any [3557,453:3620,531] part [3613,453:3708,531] thereof, [3709,453:3772,531] they [3773,453:3836,531] will [3829,453:3924,531] forever [3925,453:4219,531] warrant [4220,453:4283,531] and [4284,453:4446,531] said\n[4280,515:4421,601] here\n[2520,584:2563,635] ☞ [2569,584:2697,635] Winess [2696,584:2824,635] whereof, [2830,584:2888,635] The [2880,584:2965,635] party, [2978,584:3007,635] of [3007,584:3050,635] the [3049,584:3113,635] first [3105,584:3170,635] part [3162,584:3233,635] have [3232,584:3346,635] hereunto [3345,584:3389,635] set [3388,584:3487,635] their [3487,584:3579,635] hand [3571,584:3629,635] and [3621,584:3699,635] seal [3691,584:3741,635] the [3741,584:3798,635] day [3790,584:3847,635] and [3839,584:3911,635] year [3903,584:3967,635] first [3959,584:4045,635] above [4037,584:4201,635] written\n[2601,688:2700,728] Signed, [2707,688:2800,728] sealed [2796,688:2856,728] and [2857,688:2984,728] Delivered [2980,688:3023,728] in [3019,688:3140,728] presence [3136,688:3268,728] of ---\\+\n[3872,650:4006,740] Maria [4007,650:4070,740] R [4079,650:4278,740] Badgley [4287,650:4326,740] C [4319,650:4357,740] S. [4398,650:4531,740] ✓\n[3812,747:3974,810] Clarissa [3977,747:4052,810] W [4063,747:4225,810] Robie [4236,747:4277,810] L. [4279,747:4320,810] S.\n[3811,833:3964,892] Adaline [3974,833:4037,892] W. [4047,833:4078,892] O'Harrell [4258,833:4305,892] L [4298,833:4338,892] S.\n[3795,917:3992,981] Araminta [4003,917:4061,981] D [4063,917:4234,981] Procton [4245,917:4285,981] L [4296,917:4337,981] S.\n[3810,998:3976,1069] Albertus [3977,998:4040,1069] B [4041,998:4080,1069] F [4089,998:4248,1069] Whitney [4257,998:4287,1069] L. [4288,998:4327,1069] S.\n[3818,1086:3944,1179] Ama [3953,1086:4016,1179] E [4017,1086:4208,1179] Whitney [4217,1086:4256,1179] L. [4265,1086:4303,1179] S.\n[2604,1354:2738,1424] STATE [2731,1354:2786,1424] OF [2787,1354:2873,1424] NEW [2874,1354:2969,1424] YORK.\n[2900,1485:3027,1561] tion, [3036,1485:3187,1561] said [3188,1485:3235,1561] that [3235,1485:3266,1561] he [3275,1485:3370,1561] rented [3363,1485:3410,1561] the [3403,1485:3474,1561] within [3467,1485:3586,1561] lament [3579,1485:3650,1561] his [3651,1485:3698,1561] aid [3707,1485:3778,1561] as [3867,1485:3898,1561] ⌨ [3915,1485:4002,1561] for [4002,1485:4201,1561] there [4194,1485:4241,1561] and [4242,1485:4265,1561] I [4258,1485:4400,1561] further\n[2523,1554:2601,1605] ority [2600,1554:2650,1605] that [2650,1554:2672,1605] I [2671,1554:2735,1605] know [2727,1554:2770,1605] the [2770,1554:2855,1605] persons [2854,1554:2905,1605] who [2904,1554:2968,1605] made [2960,1554:3003,1605] the [2995,1554:3053,1605] sad [3045,1554:3229,1605] acknowledgement [3221,1554:3257,1605] to [3249,1554:3286,1605] be [3278,1554:3328,1605] the [3320,1554:3441,1605] individuals [3433,1554:3533,1605] decried [3532,1554:3561,1605] in, [3567,1554:3617,1605] and [3609,1554:3660,1605] who [3659,1554:3752,1605] executed [3744,1554:3787,1605] the [3786,1554:3850,1605] within [3849,1554:4024,1605] instrument\n[4034,1561:4080,1637] J. [4105,1561:4160,1637] W. [4177,1561:4370,1637] Barnes\n[2536,1599:2702,1713] ⌨⌨⌨ga [2711,1599:2862,1713] County [2863,1599:2997,1713] Clerks [3006,1599:3125,1713] Office [3134,1599:3180,1713] ⎬ [3181,1599:3236,1713] SS.\n[4093,1628:4219,1675] Notary [4217,1628:4404,1675] Public\n[3912,1666:3967,1732] In [3968,1666:3999,1732] & [4015,1666:4086,1732] for [4087,1666:4262,1732] Cayuga [4263,1666:4381,1732] County.\n[2559,1704:2710,1791] Lyman [2719,1704:2766,1791] C [2775,1704:2981,1791] Comstock [2990,1704:3101,1791] Clerk [3102,1704:3165,1791] of [3166,1704:3229,1791] the [3238,1704:3357,1791] County [3358,1704:3413,1791] of [3422,1704:3596,1791] Cayuga [3597,1704:3684,1791] and [3685,1704:3732,1791] of [3733,1704:3851,1791] the\n[2522,1744:2689,1833] Supreme [2698,1744:2833,1833] Court [2834,1744:2897,1833] for [2898,1744:3009,1833] said [3010,1744:3145,1833] County [3146,1744:3249,1833] being [3250,1744:3305,1833] a [3306,1744:3409,1833] Court [3409,1744:3456,1833] of [3465,1744:3608,1833] Record [3617,1744:3664,1833] do [3665,1744:3800,1833] hereby [3809,1744:3936,1833] certify [3937,1744:4000,1833] to [4001,1744:4120,1833] John [4121,1744:4184,1833] W [4193,1744:4379,1833] Barnes\n[2530,1797:2665,1886] whose [2666,1797:2769,1886] name [2770,1797:2825,1886] is [2834,1797:3016,1886] anbocived [3017,1797:3056,1886] to [3057,1797:3136,1886] the [3137,1797:3296,1886] condition [3297,1797:3344,1886] of [3345,1797:3400,1886] the [2536,1845:2623,1928] and [2624,1845:2743,1928] thereon [2760,1845:2887,1928] written [2888,1845:2967,1928] was [2967,1845:3030,1928] at [3039,1845:3110,1928] the [3111,1845:3206,1928] time [3215,1845:3254,1928] of [3255,1845:3390,1928] taking [3391,1845:3470,1928] the [3471,1845:3598,1928] same [3599,1845:3654,1928] a [3663,1845:3949,1928] ⌨⌨⌨⌨⌨ [3950,1845:4013,1928] in [4014,1845:4101,1928] and [4110,1845:4173,1928] for [4174,1845:4261,1928] said [4262,1845:4438,1928] County\n[2530,1909:2629,1970] and [2631,1909:2755,1970] duly [2757,1909:2964,1970] authorized [2966,1909:3023,1970] to [3025,1909:3124,1970] take [3134,1909:3258,1970] such [3260,1909:3367,1970] proof [3368,1909:3425,1970] or [3419,1909:3526,1970] be\n[3428,1881:3727,1940] =knowledgment [3728,1881:3824,1940] and [3818,1881:3914,1940] that [3915,1881:3946,1940] I [3947,1881:4044,1940] am [4045,1881:4141,1940] well [4134,1881:4421,1940] acquainted\n[2526,1921:2629,2061] with [2638,1921:2741,2061] his [2734,1921:2837,2061] hand [2838,1921:3004,2061] writing [3005,1921:3108,2061] and [3117,1921:3220,2061] verily [3229,1921:3372,2061] believe [3381,1921:3476,2061] that [3477,1921:3564,2061] this [3573,1921:3748,2061] Signatine [2776,1968:2895,2044] said [2896,1968:3095,2044] instrument [3096,1968:3143,2044] is [3143,1968:3334,2044] presentine [3335,1968:3422,2044] and [2511,2010:2981,2101] ⌨⌨⌨⌨⌨⌨⌨⌨hereof [2990,2010:3037,2101] I [3038,2010:3157,2101] have [3166,2010:3333,2101] hereunto [3342,2010:3421,2101] set [3430,2010:3517,2101] my [3518,2010:3669,2101] hand [3670,2010:3781,2101] and [3782,2010:3940,2101] affixed [3941,2010:4020,2101] the [4029,2010:4132,2101] seal [4133,2010:4188,2101] of [4189,2010:4260,2101] the [4261,2010:4417,2101] said\n[2539,2082:2666,2158] County [2667,2082:2738,2158] and [2739,2082:2769,2158] \" [2786,2082:2905,2158] County [2898,2082:2929,2158] ⎬ [2930,2082:2993,2158] the [3002,2082:3057,2158] 29\" [3106,2082:3201,2158] day [3202,2082:3249,2158] of [3258,2082:3368,2158] May [3369,2082:3448,2158] 1878.\n[3992,2088:4046,2181] C [4047,2088:4094,2181] C [4103,2088:4379,2181] Comstock\n[2540,2160:2658,2272] State [2659,2160:2722,2272] of [2723,2160:2801,2272] New [2794,2160:2817,2272] - [2834,2160:2969,2272] York [2969,2160:3078,2272] so\n[2945,2217:3016,2307] On [3017,2217:3104,2307] this [3113,2217:3319,2307] Fifteenth [3328,2217:3423,2307] day [3432,2217:3487,2307] of [3488,2217:3591,2307] May [3592,2217:3679,2307] 1873, [3704,2217:3807,2307] before [3808,2217:3879,2307] me [3880,2217:3951,2307] the [3952,2217:4166,2307] subscribers [4175,2217:4421,2307] appeared\n[2544,2278:2719,2360] Clarissa [2728,2278:2799,2360] W [2808,2278:2982,2360] Robbie [2991,2278:3174,2360] Adaline [3183,2278:3238,2360] No [3247,2278:3286,2360] O' [3303,2278:3462,2360] Farrell [3463,2278:3494,2360] of [3487,2278:3989,2360] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨, [4022,2278:4101,2360] who [4110,2278:4421,2360] acknowledged\n[3651,2312:3747,2364] that [3746,2312:3791,2364] I [3790,2312:3900,2364] know [3900,2312:3973,2364] the [3980,2312:4120,2364] persons [4127,2312:4215,2364] who [4215,2312:4317,2364] made [4317,2312:4438,2364] the\n[2536,2333:2639,2398] that [2640,2333:2735,2398] they [2744,2333:2926,2398] executed [2935,2333:3014,2398] the [3015,2333:3158,2398] within [3159,2333:3382,2398] Instrument [3382,2333:3477,2398] and [3478,2333:3525,2398] I [3526,2333:3653,2398] certify [2535,2358:2654,2463] said [2655,2358:3013,2463] acknowledgment [3014,2358:3061,2463] to [3070,2358:3133,2463] be [3134,2358:3205,2463] the [3206,2358:3461,2463] individuals [3462,2358:3653,2463] described [3654,2358:3733,2463] in [3734,2358:3837,2463] and [3846,2358:3924,2463] who [3933,2358:4108,2463] executed [4117,2358:4180,2463] the [2542,2442:2722,2487] instrument,\n[3897,2434:4015,2497] John [4026,2434:4076,2497] E [4087,2434:4214,2497] Robie [4217,2434:4275,2497] Jr.\n[3920,2495:3984,2527] th [3974,2495:4052,2527] an [4055,2495:4239,2527] Indell\n[3709,2497:3764,2601] In [3765,2497:3811,2601] or [3804,2497:3883,2601] for [3892,2497:4027,2601] ⌨⌨ [4028,2497:4162,2601] County.\n[2557,3147:2795,3168] DOES ,\n[2727,3176:2783,3214] ---\\+\n[2449,1792:2495,1780] 1833, [2449,1778:2495,1772] at [2449,1770:2495,1763] 4 [2449,1762:2495,1540] ½\n[2500,761:2352,775] my [2500,777:2352,1301] well ⌨ \n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007151008"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00578"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007151008_00578"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-TD2F-W"
+      } ]
+    } ]
+  } ]
+}

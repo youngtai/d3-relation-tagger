@@ -1,0 +1,1342 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028314028856",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557430243196
+    },
+    "description" : "#s_6917529028314028856",
+    "persons" : [ {
+      "id" : "p_6917529030790762256",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN88-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Sarah ?? Donovan",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Sarah ??",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Sarah ??"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Donovan",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Donovan"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Sarah ?? Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.535561,0.1377345,0.5867566,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.58706313,0.1377345,0.65542614,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2624157,0.5492757,0.2995095,0.5625742",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.301962,0.5492757,0.35315758,0.5625742",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.55518085,0.6483021,0.6030043,0.6620755",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60545677,0.6483021,0.63672596,0.6620755",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.63458,0.6483021,0.74739426,0.6620755",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah ?? Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3467198,0.57041085,0.37798896,0.58275944",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Olean",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.35652974,0.15530753,0.40833846,0.16955593",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Olean"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "23 April 1881",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.46474555,0.12229874,0.51594114,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5187002,0.12229874,0.59411407,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5968731,0.12229874,0.6137339,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6140405,0.12229874,0.63335377,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6361128,0.12229874,0.69865113,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17811158,0.1377345,0.19006744,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.190374,0.1377345,0.20723483,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2050889,0.1377345,0.22930717,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22961374,0.1377345,0.24647455,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24678111,0.1377345,0.28540772,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2832618,0.1377345,0.30993256,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30778664,0.1377345,0.3442673,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3445739,0.1377345,0.3638872,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36664623,0.1377345,0.41538933,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4156959,0.1377345,0.48620477,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "23 April 1881"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN88-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762356",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Jeremiah S Donovan",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Jeremiah S",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Jeremiah S"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Donovan",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Donovan"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Jeremiah S Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6873084,0.1377345,0.7458614,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7559779,0.1377345,0.7933783,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17719191,0.15530753,0.23666462,0.16955593",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jeremiah S Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.535561,0.6592258,0.591355,0.6756115",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jeremiah"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.57418764,0.70339584,0.6425506,0.720019",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.64285713,0.70339584,0.7014102,0.720019",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jeremiah Donovan"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Olean",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.35652974,0.15530753,0.40833846,0.16955593",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Olean"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "23 April 1881",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.46474555,0.12229874,0.51594114,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5187002,0.12229874,0.59411407,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5968731,0.12229874,0.6137339,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6140405,0.12229874,0.63335377,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6361128,0.12229874,0.69865113,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17811158,0.1377345,0.19006744,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.190374,0.1377345,0.20723483,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2050889,0.1377345,0.22930717,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22961374,0.1377345,0.24647455,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24678111,0.1377345,0.28540772,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2832618,0.1377345,0.30993256,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30778664,0.1377345,0.3442673,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3445739,0.1377345,0.3638872,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36664623,0.1377345,0.41538933,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4156959,0.1377345,0.48620477,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "23 April 1881"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "George E Rawaly",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "George E",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "George E"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Rawaly",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Rawaly"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "George E Rawaly"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27130595,0.1733555,0.3197425,0.19591546",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32250154,0.1733555,0.33690986,0.19591546",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3445739,0.1733555,0.40803188,0.19591546",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "George E. Rawaly"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Chester A Tousey",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Chester A",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Chester A"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Tousey",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Tousey"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Chester A Tousey"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4451257,0.1733555,0.49632126,0.19591546",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5015328,0.1733555,0.51594114,0.19591546",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5187002,0.1733555,0.57234824,0.19591546",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Chester A Tousey"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "23 April 1881",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.46474555,0.12229874,0.51594114,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5187002,0.12229874,0.59411407,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5968731,0.12229874,0.6137339,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6140405,0.12229874,0.63335377,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6361128,0.12229874,0.69865113,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17811158,0.1377345,0.19006744,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.190374,0.1377345,0.20723483,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2050889,0.1377345,0.22930717,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22961374,0.1377345,0.24647455,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24678111,0.1377345,0.28540772,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2832618,0.1377345,0.30993256,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30778664,0.1377345,0.3442673,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3445739,0.1377345,0.3638872,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36664623,0.1377345,0.41538933,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4156959,0.1377345,0.48620477,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "23 April 1881"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762656",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Jef Gosseline",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Jef",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Jef"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Gosseline",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Gosseline"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Jef Gosseline"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.64898837,0.25172168,0.6704476,0.26549512",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.68271,0.25172168,0.7498467,0.26549512",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jef. Gosseline"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "D H Bolles",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "D H",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "D H"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Bolles",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Bolles"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "D H Bolles"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.18454936,0.66017574,0.19834457,0.6703871",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2152054,0.66017574,0.27345186,0.6703871",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "D.H. Bolles"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GN8B-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762856",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GND9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Donovan",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Donovan",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Donovan"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Donovan"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.63825876,0.6592258,0.71428573,0.6756115",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Donovan"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GND9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790762956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GND7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Sarah Down",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Sarah",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Sarah"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Down",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Down"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Sarah Down"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.43470263,0.70339584,0.4806867,0.720019",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.48344573,0.70339584,0.54199874,0.720019",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Sarah Down"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Olean",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.35652974,0.15530753,0.40833846,0.16955593",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Olean"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GND7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030790763056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GNDH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "A T Eaton",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "A T",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "A T"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Eaton",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Eaton"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "A T Eaton"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5935009,0.7530278,0.61342734,0.76751363",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.63458,0.7530278,0.7066217,0.76751363",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "A.T. Eaton"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Notary Public",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Notary Public"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-GNDH-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030790763056",
+        "resourceId" : "p_6917529030790763056"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030790762256",
+        "resourceId" : "p_6917529030790762256"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    }, {
+      "type" : "http://gedcomx.org/Couple",
+      "person1" : {
+        "resource" : "#p_6917529030790763056",
+        "resourceId" : "p_6917529030790763056"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030790762356",
+        "resourceId" : "p_6917529030790762356"
+      },
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Marriage"
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Husband",
+          "resource" : "http://gedcomx.org/Couple"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Husband"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Wife"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028314028856",
+      "about" : "#r_6917529028314028856",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "temporal" : {
+          "original" : "23 April 1881",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.46474555,0.12229874,0.51594114,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5187002,0.12229874,0.59411407,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5968731,0.12229874,0.6137339,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6140405,0.12229874,0.63335377,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6361128,0.12229874,0.69865113,0.14604607",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.17811158,0.1377345,0.19006744,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.190374,0.1377345,0.20723483,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2050889,0.1377345,0.22930717,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22961374,0.1377345,0.24647455,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24678111,0.1377345,0.28540772,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.2832618,0.1377345,0.30993256,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.30778664,0.1377345,0.3442673,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3445739,0.1377345,0.3638872,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.36664623,0.1377345,0.41538933,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4156959,0.1377345,0.48620477,0.16076942",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "23 April 1881"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5RF8-T" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9W6-N8G5",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9W6-N8G5" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150379_00824_TXT</UNQ>\n<IMID>007150379_00824</IMID>\n<APID>TH-1971-32806-10584-35</APID>\n<IMGSIZE>3262,4211</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 5 4\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty Third day of April\nof our Lord one thousand eight hundred and Eighty one</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah S\nDonovan</ENAMEX> <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>.\nof the first part, and <ENAMEX TYPE=\"PERSON\">George E. Rawaly</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Chester A Tousey</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Two Thousand three hundred and sixty six Dollars</NUMEX>,\n( <NUMEX TYPE=\"MONEY\">$23660</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof New York</ENAMEX> and which on a map or survey of the <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Jef. Gosseline</ENAMEX> is\nbounded and described as follows: Commencing at the south east corner of lot number\nthree in Block number fifty; thence north <NUMEX TYPE=\"QUANTITY\">five</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX> links to the south\neast corner of <ENAMEX TYPE=\"PERSON\">Leonard</ENAMEX> Lays land thence west <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the center of\n<ENAMEX TYPE=\"STRUCTURE\">Thirteenth Street</ENAMEX>, thence south on the center of <ENAMEX TYPE=\"STRUCTURE\">thirteenth street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">five</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX>\nlinks to the south west corner of lot number three in Block number forty eight thence\neast <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">six</NUMEX> acres and\n<NUMEX TYPE=\"QUANTITY\">about seventy six hundredths</NUMEX> acres, more or less. ( it being distinctly and explicitty understood\nthat the said <ENAMEX TYPE=\"COREF\">grantees</ENAMEX> pay at the rate of <NUMEX TYPE=\"MONEY\">$350</NUMEX> an acre for said premises and no more)\nWith the appurtenances, and all the Estate, Title and Interest therein of the said parties of the first part. And the said parties\nfor <ENAMEX TYPE=\"COREF\">her</ENAMEX> the said <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> one of said parties) of the first part,\ndo hereby covenant and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that at the time of the ensealing\nand delivery of these presents, said <ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> is the lawful owner and that <ENAMEX TYPE=\"COREF\">she</ENAMEX> is well seized of the premises above\nconveyed, free and clear from all incumbrances of every name and nature, legal or equitable and\nthat the premises thus conveyed, in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness Whereof. The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Sarah ⌨⌨ Donovan</ENAMEX> ( L.S)\n<ENAMEX TYPE=\"PERSON\">D.H. Bolles</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Jeremiah</ENAMEX> ⌨⌨ <ENAMEX TYPE=\"PERSON\">Donovan</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of <ENAMEX TYPE=\"LOCALE\">CATTARAUGUS</ENAMEX> 5 s. on the <TIMEX TYPE=\"DATE\">23rd\nday of April\nin the year one thousand eight hundred and\nEighty One</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Sarah Down</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah Donovan</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> in\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\nand <ENAMEX TYPE=\"FAMILYMEMBER\">mother</ENAMEX> and an alknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> scouted the same on a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX>\n<ENAMEX TYPE=\"COREF\">he</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">A.T. Eaton</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n████████ ▓▓▓▓▓▓▓▓▓\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"216\"_ENDID=\"237\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Twenty Third day of April of our Lord one thousand eight hundred and Eighty one\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"2887\"_ENDID=\"2922\"_STTOKEN=\"Sarah Down\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"2902\"_ENDID=\"2922\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"343\"_ENDID=\"377\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"362\"_ENDID=\"377\"_STTOKEN=\"her\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1285\"_ENDID=\"1236\"_STTOKEN=\"thirteenth street\"_ENDTOKEN=\"Thirteenth Street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"881\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1837\"_ENDID=\"2650\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1837\"_ENDID=\"325\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1969\"_ENDID=\"768\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2065\"_ENDID=\"1837\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2065\"_ENDID=\"2650\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2100\"_ENDID=\"2650\"_STTOKEN=\"she\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2348\"_ENDID=\"768\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2373\"_ENDID=\"768\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2556\"_ENDID=\"768\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2650\"_ENDID=\"2065\"_STTOKEN=\"Sarah ⌨⌨ Donovan\"_ENDTOKEN=\"Sarah\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2686\"_ENDID=\"343\"_STTOKEN=\"Jeremiah\"_ENDTOKEN=\"Jeremiah S Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2715\"_ENDID=\"881\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2744\"_ENDID=\"138\"_STTOKEN=\"CATTARAUGUS\"_ENDTOKEN=\"Cattaraugus\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2902\"_ENDID=\"2686\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Jeremiah\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2922\"_ENDID=\"377\"_STTOKEN=\"Olean\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2934\"_ENDID=\"2847\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3042\"_ENDID=\"768\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3092\"_ENDID=\"2847\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3107\"_ENDID=\"2650\"_STTOKEN=\"her\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3143\"_ENDID=\"2650\"_STTOKEN=\"she\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"325\"_ENDID=\"2650\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"362\"_ENDID=\"2650\"_STTOKEN=\"her\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"402\"_ENDID=\"881\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"659\"_ENDID=\"768\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"849\"_ENDID=\"377\"_STTOKEN=\"Olean\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"S=1+\"_STID=\"2698\"_ENDID=\"2698\"_STTOKEN=\"Donovan\"_ENDTOKEN=\"Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"1837\"_ENDID=\"1837\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"2674\"_ENDID=\"2674\"_STTOKEN=\"D.H. Bolles\"_ENDTOKEN=\"D.H. Bolles\">\n<RELEX TYPE=\"S=2+\"_STID=\"2887\"_ENDID=\"2887\"_STTOKEN=\"Sarah Down\"_ENDTOKEN=\"Sarah Down\">\n<RELEX TYPE=\"S=2+\"_STID=\"2902\"_ENDID=\"2902\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Jeremiah Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"3164\"_ENDID=\"3164\"_STTOKEN=\"A.T. Eaton\"_ENDTOKEN=\"A.T. Eaton\">\n<RELEX TYPE=\"S=2+\"_STID=\"325\"_ENDID=\"325\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"960\"_ENDID=\"960\"_STTOKEN=\"Jef. Gosseline\"_ENDTOKEN=\"Jef. Gosseline\">\n<RELEX TYPE=\"S=3+\"_STID=\"2650\"_ENDID=\"2650\"_STTOKEN=\"Sarah ⌨⌨ Donovan\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"S=3+\"_STID=\"343\"_ENDID=\"343\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Jeremiah S Donovan\">\n<RELEX TYPE=\"S=3+\"_STID=\"435\"_ENDID=\"435\"_STTOKEN=\"George E. Rawaly\"_ENDTOKEN=\"George E. Rawaly\">\n<RELEX TYPE=\"S=3+\"_STID=\"456\"_ENDID=\"456\"_STTOKEN=\"Chester A Tousey\"_ENDTOKEN=\"Chester A Tousey\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1824\"_ENDID=\"2354\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1969\"_ENDID=\"1975\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1969\"_ENDID=\"1985\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2348\"_ENDID=\"2354\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2373\"_ENDID=\"2364\"_STTOKEN=\"they\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3143\"_ENDID=\"3155\"_STTOKEN=\"she\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"362\"_ENDID=\"366\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"768\"_ENDID=\"774\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"768\"_ENDID=\"784\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"2650\"_ENDID=\"205\"_STTOKEN=\"Sarah ⌨⌨ Donovan\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"2650\"_ENDID=\"216\"_STTOKEN=\"Sarah ⌨⌨ Donovan\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"325\"_ENDID=\"216\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"343\"_ENDID=\"216\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"456\"_ENDID=\"216\"_STTOKEN=\"Chester A Tousey\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_FEM_FOR\"_STID=\"@GENDER\"_ENDID=\"2650\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"Z:IS_MALE_FOR\"_STID=\"@GENDER\"_ENDID=\"3164\"_STTOKEN=\"@GENDER\"_ENDTOKEN=\"A.T. Eaton\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2902\"_ENDID=\"2902\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Jeremiah Donovan\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"325\"_ENDID=\"325\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"343\"_ENDID=\"343\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Jeremiah S Donovan\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"3164\"_ENDID=\"3155\"_STTOKEN=\"A.T. Eaton\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3092\"_ENDID=\"3175\"_STTOKEN=\"me\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3164\"_ENDID=\"3175\"_STTOKEN=\"A.T. Eaton\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"383\"_ENDID=\"402\"_STTOKEN=\"Cattaraugus County\"_ENDTOKEN=\"New York\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150379_00824_TXT</UNQ>\n<IMID>007150379_00824</IMID>\n<APID>TH-1971-32806-10584-35</APID>\n<IMGSIZE>3262,4211</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 5 4\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty Third day of April\nof our Lord one thousand eight hundred and Eighty one</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah S\nDonovan</ENAMEX> <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>.\nof the first part, and <ENAMEX TYPE=\"PERSON\">George E. Rawaly</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Chester A Tousey</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Two Thousand three hundred and sixty six Dollars</NUMEX>,\n( <NUMEX TYPE=\"MONEY\">$23660</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof New York</ENAMEX> and which on a map or survey of the <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Jef. Gosseline</ENAMEX> is\nbounded and described as follows: Commencing at the south east corner of lot number\nthree in Block number fifty; thence north <NUMEX TYPE=\"QUANTITY\">five</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX> links to the south\neast corner of <ENAMEX TYPE=\"PERSON\">Leonard</ENAMEX> Lays land thence west <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the center of\n<ENAMEX TYPE=\"STRUCTURE\">Thirteenth Street</ENAMEX>, thence south on the center of <ENAMEX TYPE=\"STRUCTURE\">thirteenth street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">five</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX>\nlinks to the south west corner of lot number three in Block number forty eight thence\neast <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">six</NUMEX> acres and\n<NUMEX TYPE=\"QUANTITY\">about seventy six hundredths</NUMEX> acres, more or less. ( it being distinctly and explicitty understood\nthat the said <ENAMEX TYPE=\"COREF\">grantees</ENAMEX> pay at the rate of <NUMEX TYPE=\"MONEY\">$350</NUMEX> an acre for said premises and no more)\nWith the appurtenances, and all the Estate, Title and Interest therein of the said parties of the first part. And the said parties\nfor <ENAMEX TYPE=\"COREF\">her</ENAMEX> the said <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> one of said parties) of the first part,\ndo hereby covenant and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that at the time of the ensealing\nand delivery of these presents, said <ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> is the lawful owner and that <ENAMEX TYPE=\"COREF\">she</ENAMEX> is well seized of the premises above\nconveyed, free and clear from all incumbrances of every name and nature, legal or equitable and\nthat the premises thus conveyed, in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness Whereof. The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Sarah ⌨⌨ Donovan</ENAMEX> ( L.S)\n<ENAMEX TYPE=\"PERSON\">D.H. Bolles</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Jeremiah</ENAMEX> ⌨⌨ <ENAMEX TYPE=\"PERSON\">Donovan</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of <ENAMEX TYPE=\"LOCALE\">CATTARAUGUS</ENAMEX> 5 s. on the <TIMEX TYPE=\"DATE\">23rd\nday of April\nin the year one thousand eight hundred and\nEighty One</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Sarah Down</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah Donovan</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> in\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\nand <ENAMEX TYPE=\"FAMILYMEMBER\">mother</ENAMEX> and an alknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> scouted the same on a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX>\n<ENAMEX TYPE=\"COREF\">he</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">A.T. Eaton</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n████████ ▓▓▓▓▓▓▓▓▓\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"216\"_ENDID=\"237\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Twenty Third day of April of our Lord one thousand eight hundred and Eighty one\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"2887\"_ENDID=\"2922\"_STTOKEN=\"Sarah Down\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"2902\"_ENDID=\"2922\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"343\"_ENDID=\"377\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"362\"_ENDID=\"377\"_STTOKEN=\"her\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1285\"_ENDID=\"1236\"_STTOKEN=\"thirteenth street\"_ENDTOKEN=\"Thirteenth Street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"881\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1837\"_ENDID=\"2650\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1837\"_ENDID=\"325\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1969\"_ENDID=\"768\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2065\"_ENDID=\"1837\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2065\"_ENDID=\"2650\"_STTOKEN=\"Sarah\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2100\"_ENDID=\"2650\"_STTOKEN=\"she\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2348\"_ENDID=\"768\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2373\"_ENDID=\"768\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2556\"_ENDID=\"768\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2650\"_ENDID=\"2065\"_STTOKEN=\"Sarah ⌨⌨ Donovan\"_ENDTOKEN=\"Sarah\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2686\"_ENDID=\"343\"_STTOKEN=\"Jeremiah\"_ENDTOKEN=\"Jeremiah S Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2715\"_ENDID=\"881\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2744\"_ENDID=\"138\"_STTOKEN=\"CATTARAUGUS\"_ENDTOKEN=\"Cattaraugus\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2902\"_ENDID=\"2686\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Jeremiah\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2922\"_ENDID=\"377\"_STTOKEN=\"Olean\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2934\"_ENDID=\"2847\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3042\"_ENDID=\"768\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3092\"_ENDID=\"2847\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3107\"_ENDID=\"2650\"_STTOKEN=\"her\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3143\"_ENDID=\"2650\"_STTOKEN=\"she\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"325\"_ENDID=\"2650\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"362\"_ENDID=\"2650\"_STTOKEN=\"her\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"402\"_ENDID=\"881\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"659\"_ENDID=\"768\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"849\"_ENDID=\"377\"_STTOKEN=\"Olean\"_ENDTOKEN=\"Olean\">\n<RELEX TYPE=\"S=1+\"_STID=\"2698\"_ENDID=\"2698\"_STTOKEN=\"Donovan\"_ENDTOKEN=\"Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"1837\"_ENDID=\"1837\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"2674\"_ENDID=\"2674\"_STTOKEN=\"D.H. Bolles\"_ENDTOKEN=\"D.H. Bolles\">\n<RELEX TYPE=\"S=2+\"_STID=\"2887\"_ENDID=\"2887\"_STTOKEN=\"Sarah Down\"_ENDTOKEN=\"Sarah Down\">\n<RELEX TYPE=\"S=2+\"_STID=\"2902\"_ENDID=\"2902\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Jeremiah Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"3164\"_ENDID=\"3164\"_STTOKEN=\"A.T. Eaton\"_ENDTOKEN=\"A.T. Eaton\">\n<RELEX TYPE=\"S=2+\"_STID=\"325\"_ENDID=\"325\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"S=2+\"_STID=\"960\"_ENDID=\"960\"_STTOKEN=\"Jef. Gosseline\"_ENDTOKEN=\"Jef. Gosseline\">\n<RELEX TYPE=\"S=3+\"_STID=\"2650\"_ENDID=\"2650\"_STTOKEN=\"Sarah ⌨⌨ Donovan\"_ENDTOKEN=\"Sarah ⌨⌨ Donovan\">\n<RELEX TYPE=\"S=3+\"_STID=\"343\"_ENDID=\"343\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Jeremiah S Donovan\">\n<RELEX TYPE=\"S=3+\"_STID=\"435\"_ENDID=\"435\"_STTOKEN=\"George E. Rawaly\"_ENDTOKEN=\"George E. Rawaly\">\n<RELEX TYPE=\"S=3+\"_STID=\"456\"_ENDID=\"456\"_STTOKEN=\"Chester A Tousey\"_ENDTOKEN=\"Chester A Tousey\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1824\"_ENDID=\"2354\"_STTOKEN=\"her\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1969\"_ENDID=\"1975\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1969\"_ENDID=\"1985\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2348\"_ENDID=\"2354\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2373\"_ENDID=\"2364\"_STTOKEN=\"they\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3143\"_ENDID=\"3155\"_STTOKEN=\"she\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"362\"_ENDID=\"366\"_STTOKEN=\"her\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"768\"_ENDID=\"774\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"768\"_ENDID=\"784\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"325\"_ENDID=\"216\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"343\"_ENDID=\"216\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"456\"_ENDID=\"216\"_STTOKEN=\"Chester A Tousey\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2902\"_ENDID=\"2902\"_STTOKEN=\"Jeremiah Donovan\"_ENDTOKEN=\"Jeremiah Donovan\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"325\"_ENDID=\"325\"_STTOKEN=\"Sarah Donovan\"_ENDTOKEN=\"Sarah Donovan\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"343\"_ENDID=\"343\"_STTOKEN=\"Jeremiah S Donovan\"_ENDTOKEN=\"Jeremiah S Donovan\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"3164\"_ENDID=\"3155\"_STTOKEN=\"A.T. Eaton\"_ENDTOKEN=\"husband\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3092\"_ENDID=\"3175\"_STTOKEN=\"me\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"3164\"_ENDID=\"3175\"_STTOKEN=\"A.T. Eaton\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"383\"_ENDID=\"402\"_STTOKEN=\"Cattaraugus County\"_ENDTOKEN=\"New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150379_00824_TXT</UNQ>\n<IMID>007150379_00824</IMID>\n<APID>TH-1971-32806-10584-35</APID>\n<IMGSIZE>3262,4211</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 5 4\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty Third day of April\nof our Lord one thousand eight hundred and Eighty one</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah S\nDonovan</ENAMEX> <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>.\nof the first part, and <ENAMEX TYPE=\"PERSON\">George E. Rawaly</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Chester A Tousey</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Two Thousand three hundred and sixty six Dollars</NUMEX>,\n( <NUMEX TYPE=\"MONEY\">$23660</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof New York</ENAMEX> and which on a map or survey of the <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Jef. Gosseline</ENAMEX> is\nbounded and described as follows: Commencing at the south east corner of lot number\nthree in Block number fifty; thence north <NUMEX TYPE=\"QUANTITY\">five</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX> links to the south\neast corner of <ENAMEX TYPE=\"PERSON\">Leonard</ENAMEX> Lays land thence west <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the center of\n<ENAMEX TYPE=\"STRUCTURE\">Thirteenth Street</ENAMEX>, thence south on the center of <ENAMEX TYPE=\"STRUCTURE\">thirteenth street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">five</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX>\nlinks to the south west corner of lot number three in Block number forty eight thence\neast <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">six</NUMEX> acres and\n<NUMEX TYPE=\"QUANTITY\">about seventy six hundredths</NUMEX> acres, more or less. ( it being distinctly and explicitty understood\nthat the said <ENAMEX TYPE=\"COREF\">grantees</ENAMEX> pay at the rate of <NUMEX TYPE=\"MONEY\">$350</NUMEX> an acre for said premises and no more)\nWith the appurtenances, and all the Estate, Title and Interest therein of the said parties of the first part. And the said parties\nfor <ENAMEX TYPE=\"COREF\">her</ENAMEX> the said <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> one of said parties) of the first part,\ndo hereby covenant and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that at the time of the ensealing\nand delivery of these presents, said <ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> is the lawful owner and that <ENAMEX TYPE=\"COREF\">she</ENAMEX> is well seized of the premises above\nconveyed, free and clear from all incumbrances of every name and nature, legal or equitable and\nthat the premises thus conveyed, in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness Whereof. The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Sarah ⌨⌨ Donovan</ENAMEX> ( L.S)\n<ENAMEX TYPE=\"PERSON\">D.H. Bolles</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Jeremiah</ENAMEX> ⌨⌨ <ENAMEX TYPE=\"PERSON\">Donovan</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of <ENAMEX TYPE=\"LOCALE\">CATTARAUGUS</ENAMEX> 5 s. on the <TIMEX TYPE=\"DATE\">23rd\nday of April\nin the year one thousand eight hundred and\nEighty One</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Sarah Down</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah Donovan</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> in\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\nand <ENAMEX TYPE=\"FAMILYMEMBER\">mother</ENAMEX> and an alknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> scouted the same on a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX>\n<ENAMEX TYPE=\"COREF\">he</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">A.T. Eaton</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n████████ ▓▓▓▓▓▓▓▓▓\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150379_00824_TXT</UNQ>\n<IMID>007150379_00824</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32806-10584-35</APID>\n<IMGSIZE>3262,4211</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>1 5 4\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Twenty Third day of April\nof our Lord one thousand eight hundred and Eighty one</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah S\nDonovan</ENAMEX> <ENAMEX TYPE=\"COREF\">her</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">Cattaraugus County</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>.\nof the first part, and <ENAMEX TYPE=\"PERSON\">George E. Rawaly</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Chester A Tousey</ENAMEX> of the same place.\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">Two Thousand three hundred and sixty six Dollars</NUMEX>,\n( <NUMEX TYPE=\"MONEY\">$23660</NUMEX>)\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these Presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> <ENAMEX TYPE=\"LOCALE\">County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof New York</ENAMEX> and which on a map or survey of the <ENAMEX TYPE=\"LOCALE\">Village of Olean</ENAMEX> made by <ENAMEX TYPE=\"PERSON\">Jef. Gosseline</ENAMEX> is\nbounded and described as follows: Commencing at the south east corner of lot number\nthree in Block number fifty; thence north <NUMEX TYPE=\"QUANTITY\">five</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX> links to the south\neast corner of <ENAMEX TYPE=\"PERSON\">Leonard</ENAMEX> Lays land thence west <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the center of\n<ENAMEX TYPE=\"STRUCTURE\">Thirteenth Street</ENAMEX>, thence south on the center of <ENAMEX TYPE=\"STRUCTURE\">thirteenth street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">five</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">fifty eight</NUMEX>\nlinks to the south west corner of lot number three in Block number forty eight thence\neast <NUMEX TYPE=\"QUANTITY\">twelve</NUMEX> chains and <NUMEX TYPE=\"QUANTITY\">eleven</NUMEX> links to the place of beginning, containing <NUMEX TYPE=\"QUANTITY\">six</NUMEX> acres and\n<NUMEX TYPE=\"QUANTITY\">about seventy six hundredths</NUMEX> acres, more or less. ( it being distinctly and explicitty understood\nthat the said <ENAMEX TYPE=\"COREF\">grantees</ENAMEX> pay at the rate of <NUMEX TYPE=\"MONEY\">$350</NUMEX> an acre for said premises and no more)\nWith the appurtenances, and all the Estate, Title and Interest therein of the said parties of the first part. And the said parties\nfor <ENAMEX TYPE=\"COREF\">her</ENAMEX> the said <ENAMEX TYPE=\"PERSON\">Sarah Donovan</ENAMEX> one of said parties) of the first part,\ndo hereby covenant and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that at the time of the ensealing\nand delivery of these presents, said <ENAMEX TYPE=\"PERSON\">Sarah</ENAMEX> is the lawful owner and that <ENAMEX TYPE=\"COREF\">she</ENAMEX> is well seized of the premises above\nconveyed, free and clear from all incumbrances of every name and nature, legal or equitable and\nthat the premises thus conveyed, in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof.\nIn Witness Whereof. The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Sarah ⌨⌨ Donovan</ENAMEX> ( L.S)\n<ENAMEX TYPE=\"PERSON\">D.H. Bolles</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">Jeremiah</ENAMEX> ⌨⌨ <ENAMEX TYPE=\"PERSON\">Donovan</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\nCounty of <ENAMEX TYPE=\"LOCALE\">CATTARAUGUS</ENAMEX> 5 s. on the <TIMEX TYPE=\"DATE\">23rd\nday of April\nin the year one thousand eight hundred and\nEighty One</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Sarah Down</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Jeremiah Donovan</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Olean</ENAMEX> in\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> known to be the same person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\nand <ENAMEX TYPE=\"FAMILYMEMBER\">mother</ENAMEX> and an alknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> scouted the same on a private examination by <ENAMEX TYPE=\"COREF\">me</ENAMEX>, apart from <ENAMEX TYPE=\"COREF\">her</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>, acknowledged that <ENAMEX TYPE=\"COREF\">she</ENAMEX>\n<ENAMEX TYPE=\"COREF\">he</ENAMEX> said <ENAMEX TYPE=\"FAMILYMEMBER\">husband</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">A.T. Eaton</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX>.\n████████ ▓▓▓▓▓▓▓▓▓\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150379_00824_TXT</UNQ>\n<IMID>007150379_00824</IMID>\n<APID>TH-1971-32806-10584-35</APID>\n<IMGSIZE>3262,4211</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[369,356:528,417] 1 5 4\n[661,430:895,462] WARRANTY [893,430:1009,462] DEED.\n[613,515:844,615] This [853,515:1307,615] Indenture, [1340,515:1419,615] Made [1420,515:1507,615] this [1516,515:1683,615] Twenty [1692,515:1938,615] Third [1947,515:2002,615] day [2003,515:2066,615] of [2075,515:2279,615] April\n[581,580:620,677] of [621,580:676,677] our [669,580:748,677] Lord [749,580:804,677] one [805,580:931,677] thousand [924,580:1011,677] eight [1004,580:1123,677] hundred [1124,580:1187,677] and [1196,580:1355,677] Eighty [1356,580:1586,677] one [1595,580:1746,677] Between [1747,580:1914,677] Sarah [1915,580:2138,677] Donovan [2139,580:2242,677] and [2242,580:2433,677] Jeremiah [2466,580:2588,677] S\n[578,654:772,714] Donovan [781,654:861,714] her [862,654:1072,714] husband [1073,654:1153,714] of [1163,654:1332,714] Olean [1333,654:1632,714] Cattaraugus [1634,654:1787,714] County [1796,654:1884,714] New [1885,654:2014,714] York.\n[581,730:620,825] of [621,730:676,825] the [677,730:748,825] first [749,730:812,825] part, [821,730:876,825] and [885,730:1043,825] George [1052,730:1099,825] E. [1124,730:1331,825] Rawaly [1340,730:1443,825] and [1452,730:1619,825] Chester [1636,730:1683,825] A [1692,730:1867,825] Tousey [1868,730:1906,825] of [1907,730:2002,825] the [2003,730:2130,825] same [2131,730:2282,825] place.\n[2272,847:2317,877] of [2311,847:2372,877] the [2366,847:2465,877] second [2463,847:2525,877] part,\n[583,871:786,929] Witnesseth, [819,871:889,929] That [881,871:936,929] the [936,871:1006,929] said [999,871:1116,929] parties [1109,871:1148,929] of [1149,871:1203,929] the [1196,871:1274,929] first [1267,871:1329,929] part, [1337,871:1384,929] in [1377,871:1557,929] consideration [1557,871:1596,929] of [1597,871:1651,929] the [1644,871:1714,929] sum [1714,871:1753,929] of [1754,871:1824,929] Two [1824,871:1989,929] Thousand [1989,871:2075,929] three [2076,871:2240,929] hundred [2241,871:2295,929] and [2288,871:2366,929] sixty [2367,871:2429,929] six [2422,871:2531,929] Dollars,\n[773,921:794,969] ( [779,921:1006,969] $23660)\n[572,971:618,1016] to [615,971:734,1016] them [731,971:802,1016] duly [799,971:869,1016] paid, [872,971:949,1016] have [946,971:1010,1016] sold, [1019,971:1077,1016] and [1081,971:1126,1016] by [1123,971:1200,1016] these [1203,971:1322,1016] Presents [1320,971:1396,1016] do [1393,971:1475,1016] grant [1473,971:1537,1016] and [1534,971:1635,1016] convey [1632,971:1671,1016] to [1669,971:1727,1016] the [1724,971:1788,1016] said [1785,971:1898,1016] parties [1895,971:1935,1016] of [1932,971:1990,1016] the [1987,971:2088,1016] second [2085,971:2149,1016] part, [2177,971:2296,1016] their [2294,971:2376,1016] heirs [2367,971:2431,1016] and [2428,971:2529,1016] assigns,\n[577,1016:644,1069] ALL [644,1016:719,1069] THAT [718,1016:860,1069] TRACTOR [853,1016:965,1069] PARCEL [965,1016:1009,1069] OF [1002,1016:1084,1069] LAND, [1091,1016:1189,1069] situate [1188,1016:1226,1069] in [1226,1016:1330,1069] the [1345,1016:1614,1069] ⌨own [1614,1016:1659,1069] of [1666,1016:1808,1069] Olean [1808,1016:1957,1069] County [1957,1016:2009,1069] of [2009,1016:2293,1069] Cattaraugus [2293,1016:2390,1069] and [2397,1016:2578,1069] State\n[561,1060:623,1118] of [624,1060:694,1118] New [702,1060:804,1118] York [804,1060:898,1118] and [899,1060:1024,1118] which [1024,1060:1094,1118] on [1095,1060:1142,1118] a [1142,1060:1252,1118] map [1252,1060:1307,1118] or [1307,1060:1448,1118] survey [1441,1060:1487,1118] of [1480,1060:1566,1118] the [1567,1060:1715,1118] Village [1716,1060:1762,1118] of [1763,1060:1904,1118] Olean [1904,1060:2045,1118] made [2046,1060:2116,1118] by [2117,1060:2187,1118] Jef. [2227,1060:2446,1118] Gosseline [2454,1060:2548,1118] is\n[564,1106:766,1157] bounded [765,1106:884,1157] and [883,1106:1099,1157] described [1098,1106:1168,1157] as [1167,1106:1348,1157] follows: [1389,1106:1695,1157] Commencing [1700,1106:1750,1157] at [1749,1106:1840,1157] the [1846,1106:1985,1157] south [1984,1106:2103,1157] east [2109,1106:2263,1157] corner [2261,1106:2311,1157] of [2310,1106:2387,1157] lot [2393,1106:2614,1157] number\n[580,1147:688,1208] three [698,1147:788,1208] in [790,1147:939,1208] Block [941,1147:1124,1208] number [1126,1147:1250,1208] fifty; [1269,1147:1418,1208] thence [1428,1147:1561,1208] north [1563,1147:1670,1208] five [1672,1147:1838,1208] Chains [1840,1147:1947,1208] fifty [1949,1147:2073,1208] eight [2075,1147:2207,1208] links [2209,1147:2266,1208] to [2268,1147:2350,1208] the [2352,1147:2556,1208] south\n[549,1194:647,1244] east [646,1194:779,1244] corner [778,1194:814,1244] of [812,1194:1008,1244] Leonard [1006,1194:1132,1244] Lays [1138,1194:1271,1244] land [1277,1194:1437,1244] thence [1436,1194:1548,1244] west [1554,1194:1700,1244] twelve [1706,1194:1860,1244] chains [1865,1194:1991,1244] eleven [1997,1194:2130,1244] links [2129,1194:2192,1244] to [2191,1194:2275,1244] the [2281,1194:2469,1244] center [2468,1194:2592,1244] of\n[552,1236:779,1292] Thirteenth [780,1236:908,1292] Street, [924,1236:1053,1292] thence [1061,1236:1212,1292] south [1212,1236:1303,1292] on [1304,1236:1387,1292] the [1387,1236:1524,1292] center [1524,1236:1562,1292] of [1562,1236:1767,1292] thirteenth [1767,1236:1896,1292] street [1896,1236:1987,1292] five [1995,1236:2154,1292] chains [2162,1236:2268,1292] and [2268,1236:2382,1292] fifty [2389,1236:2581,1292] eight\n[556,1286:693,1338] links [692,1286:758,1338] to [764,1286:859,1338] the [858,1286:1002,1338] south [1009,1286:1139,1338] west [1138,1286:1283,1338] corner [1282,1286:1341,1338] of [1340,1286:1420,1338] lot [1426,1286:1621,1338] number [1620,1286:1743,1338] three [1743,1286:1830,1338] in [1829,1286:1981,1338] Block [1980,1286:2175,1338] number [2174,1286:2290,1338] forty [2297,1286:2427,1338] eight [2426,1286:2621,1338] thence\n[556,1329:657,1381] east [657,1329:801,1381] twelve [800,1329:959,1381] chains [959,1329:1075,1381] and [1081,1329:1247,1381] eleven [1247,1329:1398,1381] links [1398,1329:1456,1381] to [1455,1329:1528,1381] the [1527,1329:1650,1381] place [1650,1329:1701,1381] of [1700,1329:1909,1381] beginning, [1923,1329:2190,1381] containing [2190,1329:2277,1381] six [2283,1329:2420,1381] acres [2420,1329:2585,1381] and\n[556,1373:725,1433] about [727,1373:880,1433] seventy [881,1373:977,1433] six [978,1373:1229,1433] hundredths [1230,1373:1343,1433] acres, [1360,1373:1465,1433] more [1466,1373:1513,1433] or [1515,1373:1578,1433] less. [1596,1373:1619,1433] ( [1620,1373:1684,1433] it [1685,1373:1798,1433] being [1799,1373:1993,1433] distinctly [1994,1373:2090,1433] and [2092,1373:2293,1433] explicitty [2295,1373:2588,1433] understood\n[559,1418:654,1492] that [655,1418:742,1492] the [743,1418:854,1492] said [863,1418:1030,1492] grantees [1031,1418:1118,1492] pay [1119,1418:1182,1492] at [1183,1418:1254,1492] the [1263,1418:1358,1492] rate [1359,1418:1398,1492] of [1399,1418:1509,1492] $350 [1518,1418:1597,1492] an [1606,1418:1701,1492] acre [1702,1418:1773,1492] for [1774,1418:1885,1492] said [1886,1418:2069,1492] premises [2062,1418:2165,1492] and [2166,1418:2229,1492] no [2230,1418:2333,1492] more)\n[586,2274:691,2324] With [690,2274:767,2324] the [773,2274:1038,2324] appurtenances, [1050,2274:1107,2324] and [1099,2274:1148,2324] all [1147,2274:1197,2324] the [1196,2274:1280,2324] Estate, [1286,2274:1363,2324] Title [1355,2274:1411,2324] and [1410,2274:1522,2324] Interest [1514,2274:1619,2324] therein [1611,2274:1654,2324] of [1653,2274:1702,2324] the [1701,2274:1765,2324] said [1757,2274:1868,2324] parties [1867,2274:1903,2324] of [1902,2274:1952,2324] the [1950,2274:2014,2324] first [2013,2274:2076,2324] part. [2103,2274:2166,2324] And [2158,2274:2222,2324] the [2214,2274:2277,2324] said [2283,2274:2476,2324] parties\n[560,2313:620,2369] for [613,2313:681,2369] her [681,2313:749,2369] the [757,2313:856,2369] said [856,2313:977,2369] Sarah [985,2313:1152,2369] Donovan [1152,2313:1228,2369] one [1228,2313:1281,2369] of [1281,2313:1387,2369] said [1395,2313:1539,2369] parties) [1570,2313:1615,2369] of [1608,2313:1683,2369] the [1684,2313:1790,2369] first [1790,2313:1873,2369] part,\n[577,2361:665,2409] do [664,2361:758,2409] hereby [757,2361:885,2409] covenant [877,2361:932,2409] and [930,2361:1011,2409] agree [1003,2361:1045,2409] to [1036,2361:1098,2409] and [1096,2361:1165,2409] with [1156,2361:1211,2409] the [1203,2361:1271,2409] said [1263,2361:1378,2409] parties [1376,2361:1418,2409] of [1409,2361:1464,2409] the [1456,2361:1558,2409] second [1549,2361:1618,2409] part, [1636,2361:1777,2409] their [1782,2361:1857,2409] heirs [1849,2361:1911,2409] and [1902,2361:1997,2409] assigns, [2002,2361:2077,2409] that [2069,2361:2117,2409] at [2115,2361:2177,2409] the [2175,2361:2257,2409] time [2255,2361:2290,2409] of [2282,2361:2350,2409] the [2348,2361:2563,2409] ensealing\n[556,2402:621,2454] and [620,2402:751,2454] delivery [743,2402:779,2454] of [779,2402:873,2454] these [872,2402:1024,2454] presents, [1038,2402:1132,2454] said [1131,2402:1233,2454] Sarah [1232,2402:1283,2454] is [1282,2402:1355,2454] the [1354,2402:1491,2454] lawful [1484,2402:1607,2454] owner [1606,2402:1707,2454] and [1707,2402:1794,2454] that [1793,2402:1858,2454] she [1865,2402:1923,2454] is [1922,2402:2009,2454] well [2009,2402:2139,2454] seized [2138,2402:2182,2454] of [2181,2402:2254,2454] the [2253,2402:2412,2454] premises [2412,2402:2574,2454] above\n[547,2454:702,2502] conveyed, [714,2454:788,2502] free [787,2454:868,2502] and [867,2454:968,2502] clear [967,2454:1062,2502] from [1060,2454:1135,2502] all [1133,2454:1401,2502] incumbrances [1400,2454:1428,2502] of [1426,2454:1508,2502] every [1506,2454:1621,2502] name [1620,2454:1715,2502] and [1720,2454:1874,2502] nature, [1886,2454:2001,2502] legal [1999,2454:2041,2502] or [2046,2454:2254,2502] equitable [2246,2454:2399,2502] and\n[569,2537:636,2600] that [638,2537:688,2600] the [690,2537:818,2600] premises [811,2537:878,2600] thus [881,2537:1008,2600] conveyed, [1019,2537:1052,2600] in [1054,2537:1112,2600] the [1106,2537:1190,2600] quiet [1184,2537:1242,2600] and [1244,2537:1381,2600] peaceable [1374,2537:1519,2600] possession [1513,2537:1554,2600] of [1556,2537:1606,2600] the [1599,2537:1666,2600] said [1669,2537:1779,2600] parties [1773,2537:1814,2600] of [1816,2537:1866,2600] the [1868,2537:1961,2600] second [1963,2537:2030,2600] part, [2032,2537:2160,2600] their [2162,2537:2247,2600] heirs [2240,2537:2299,2600] and [2301,2537:2394,2600] assigns, [2405,2537:2552,2600] they\n[574,2593:635,2626] will [634,2593:742,2626] forever [741,2593:877,2626] WARRANT [876,2593:943,2626] AND [937,2593:1055,2626] DEFEND [1054,2593:1152,2626] against [1151,2593:1213,2626] any [1207,2593:1311,2626] person [1305,2593:1474,2626] whomsoever [1468,2593:1590,2626] lawfully [1589,2593:1712,2626] claiming [1706,2593:1763,2626] the [1762,2593:1837,2626] same [1836,2593:1879,2626] or [1874,2593:1935,2626] any [1930,2593:2000,2626] part [1995,2593:2098,2626] thereof.\n[629,2695:693,2745] In [699,2695:852,2745] Witness [858,2695:1018,2745] Whereof. [1045,2695:1109,2745] The [1100,2695:1219,2745] parties [1211,2695:1254,2745] of [1253,2695:1303,2745] the [1301,2695:1372,2745] first [1364,2695:1434,2745] part [1426,2695:1517,2745] have [1516,2695:1642,2745] hereunto [1641,2695:1691,2745] set [1689,2695:1843,2745] their [1842,2695:1933,2745] hand [1932,2695:1989,2745] and [1981,2695:2065,2745] seal [2057,2695:2113,2745] the [2112,2695:2169,2745] day [2161,2695:2217,2745] and [2216,2695:2280,2745] year [2272,2695:2342,2745] first [2334,2695:2418,2745] above [2417,2695:2522,2745] written.\n[573,2752:671,2780] Sealed [668,2752:735,2780] and [732,2752:871,2780] Delivered [868,2752:910,2780] in [907,2752:1038,2780] Presence [1031,2752:1125,2780] of\n[1811,2730:1967,2788] Sarah [1975,2730:2077,2788] ⌨⌨ [2070,2730:2438,2788] Donovan [2438,2730:2461,2788] ( [2446,2730:2477,2788] L.S)\n[602,2780:647,2823] D.H. [702,2780:892,2823] Bolles\n[1747,2776:1929,2845] Jeremiah [1938,2776:2073,2845] ⌨⌨ [2082,2776:2330,2845] Donovan\n[2441,2799:2467,2825] [ [2452,2799:2486,2825] L. [2478,2799:2511,2825] S.]\n[574,2884:721,2925] STATE [723,2884:789,2925] OF [791,2884:915,2925] NEW [917,2884:1046,2925] YORK.\n[541,2917:661,2977] County [663,2917:710,2977] of [711,2917:1083,2977] CATTARAUGUS [1085,2917:1148,2977] 5 [1133,2917:1156,2977] s. [1158,2917:1205,2977] on [1198,2917:1278,2977] the [1288,2917:1474,2977] 23rd\n[1543,2915:1604,2971] day [1596,2915:1679,2971] of [1687,2915:1868,2971] April\n[1975,2943:2014,2971] in [2011,2943:2065,2971] the [2062,2943:2125,2971] year [2122,2943:2177,2971] one [2170,2943:2293,2971] thousand [2290,2943:2360,2971] eight [2357,2943:2468,2971] hundred [2461,2943:2567,2971] and\n[554,2962:697,3032] Eighty [698,2962:841,3032] One [850,2962:937,3032] before [930,2962:977,3032] me, [986,2962:1033,3032] the [1026,2962:1161,3032] subscriber, [1170,2962:1297,3032] personally [1290,2962:1417,3032] appeared [1418,2962:1568,3032] Sarah [1577,2962:1768,3032] Down [1769,2962:1872,3032] and [1873,2962:2096,3032] Jeremiah [2097,2962:2288,3032] Donovan [2289,2962:2328,3032] of [2337,2962:2456,3032] Olean [2457,2962:2585,3032] in\n[1551,3030:1591,3066] to [1586,3030:1640,3066] me [1630,3030:1724,3066] known [1719,3030:1758,3066] to [1758,3030:1798,3066] be [1793,3030:1847,3066] the [1842,3030:1911,3066] same [1911,3030:2014,3066] person [2009,3030:2128,3066] described [2123,3030:2167,3066] in [2162,3030:2216,3066] and [2216,3030:2276,3066] who [2275,3030:2389,3066] executed [2384,3030:2438,3066] the [2433,3030:2567,3066] within\n[562,3019:641,3123] and [642,3019:713,3123] mother [722,3019:793,3123] and [842,3019:881,3123] an [882,3019:1057,3123] alknowledged [1050,3019:1112,3123] that [1113,3019:1184,3123] they [1185,3019:1304,3123] scouted [1297,3019:1344,3123] the [1345,3019:1424,3123] same [574,3121:613,3149] on [606,3121:633,3149] a [626,3121:721,3149] private [718,3121:868,3149] examination [865,3121:904,3149] by [897,3121:944,3149] me, [949,3121:1020,3149] apart [1017,3121:1084,3149] from [1081,3121:1132,3149] her [1125,3121:1184,3149] said [1176,3121:1287,3149] husband, [1292,3121:1459,3149] acknowledged [1456,3121:1515,3149] that [1508,3121:1631,3149] she\n[2297,3121:2354,3145] he [2346,3121:2405,3145] said [2401,3121:2509,3145] husband,\n[1936,3171:2001,3232] A.T. [2070,3171:2305,3232] Eaton\n[2101,3221:2283,3318] Notary [2284,3221:2458,3318] Public.\n[2443,3221:2474,3318] ████████ ▓▓▓▓▓▓▓▓▓\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150379"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00824"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150379_00824"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5RF8-T"
+      } ]
+    } ]
+  } ]
+}

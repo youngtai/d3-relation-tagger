@@ -1,0 +1,1015 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028313793156",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557430764883
+    },
+    "description" : "#s_6917529028313793156",
+    "persons" : [ {
+      "id" : "p_6917529030794970656",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG48-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Henry C Scott",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Henry C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Henry C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Scott",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Scott"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Henry C Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.56556374,0.16690648,0.6106005,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6102941,0.16690648,0.6240809,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6237745,0.16690648,0.66452205,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Henry C Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27971813,0.55731416,0.31770834,0.56906474",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.31924018,0.55731416,0.3572304,0.56906474",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Henry Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5435049,0.6522782,0.58118874,0.66330934",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5824142,0.6522782,0.6360294,0.66330934",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Henry Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.4408701,0.7091127,0.4788603,0.7208633",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.48039216,0.7091127,0.51409316,0.7208633",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Henry Scott"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Lyndon",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24938725,0.17553957,0.30484068,0.18657075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Lyndon"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "February 1887",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.49754903,0.1443645,0.5658701,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60539216,0.1443645,0.62469363,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.622549,0.1443645,0.6393995,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.64215684,0.1443645,0.73743874,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7377451,0.1443645,0.75214463,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.752451,0.1443645,0.7693015,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.76715684,0.1443645,0.8091299,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.19301471,0.16690648,0.20435049,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20435049,0.16690648,0.22242647,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22212009,0.16690648,0.24479167,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24479167,0.16690648,0.26286766,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26041666,0.16690648,0.30085784,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.29840687,0.16690648,0.32322302,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32322302,0.16690648,0.3615196,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35906863,0.16690648,0.3792892,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38817403,0.16690648,0.42647058,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4310662,0.16690648,0.50735295,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "February 1887"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG48-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030794970756",
+      "extracted" : true,
+      "principal" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4F-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Bethial C Scott",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Bethial C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Bethial C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Scott",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Scott"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Bethial C Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6911765,0.16690648,0.74080884,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7405025,0.16690648,0.7723652,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.18872549,0.17553957,0.22855392,0.18657075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Bethial C Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.38786766,0.55731416,0.43811274,0.56906474",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.43995097,0.55731416,0.45496324,0.56906474",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4586397,0.55731416,0.49234068,0.56906474",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Bethial C Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5450368,0.6623501,0.5989583,0.67122304",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5989583,0.6623501,0.6130515,0.67122304",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.611826,0.6623501,0.6651348,0.67122304",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Beteare C Scott"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5284926,0.7091127,0.5744485,0.7208633",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5762868,0.7091127,0.59313726,0.7208633",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5928309,0.7091127,0.6452206,0.7208633",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Bethial C Scott"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Residence",
+        "place" : {
+          "original" : "Lyndon",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.24938725,0.17553957,0.30484068,0.18657075",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_RES_CITY_ORIG",
+              "text" : "Lyndon"
+            } ]
+          } ]
+        }
+      }, {
+        "type" : "http://gedcomx.org/Property",
+        "date" : {
+          "original" : "February 1887",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.49754903,0.1443645,0.5658701,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60539216,0.1443645,0.62469363,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.622549,0.1443645,0.6393995,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.64215684,0.1443645,0.73743874,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7377451,0.1443645,0.75214463,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.752451,0.1443645,0.7693015,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.76715684,0.1443645,0.8091299,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.19301471,0.16690648,0.20435049,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20435049,0.16690648,0.22242647,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22212009,0.16690648,0.24479167,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24479167,0.16690648,0.26286766,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26041666,0.16690648,0.30085784,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.29840687,0.16690648,0.32322302,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32322302,0.16690648,0.3615196,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35906863,0.16690648,0.3792892,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38817403,0.16690648,0.42647058,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4310662,0.16690648,0.50735295,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "February 1887"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4F-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030794970856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4V-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Joseph Lockwood",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Joseph",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Joseph"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lockwood",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lockwood"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Joseph Lockwood"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.18412991,0.37194246,0.22457108,0.3846523",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22457108,0.37194246,0.28952205,0.3846523",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Joseph Lockwood"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4V-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030794970956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4L-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "William H Sinfield",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "William H",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "William H"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Sinfield",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Sinfield"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "William H Sinfield"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.3480392,0.37194246,0.39736518,0.3846523",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.39950982,0.37194246,0.4154412,0.3846523",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.41513482,0.37194246,0.46691176,0.3846523",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "William H Sinfield"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4L-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030794971056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4R-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "John O Badger",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "John O",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "John O"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Badger",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Badger"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "John O Badger"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.66023284,0.38369304,0.6917892,0.39928058",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6945466,0.38369304,0.70894605,0.39928058",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7092525,0.38369304,0.7766544,0.39928058",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John O Badger"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4R-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030794971156",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4B-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "J C Leggett",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "J C",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "J C"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Leggett",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Leggett"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "J C Leggett"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5588235,0.73980814,0.575674,0.7556355",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.57598037,0.73980814,0.5903799,0.7556355",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.59313726,0.73980814,0.6617647,0.7556355",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "J. C. Leggett"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7R-YG4B-N"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028313793156",
+      "about" : "#r_6917529028313793156",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Cattaraugus, New York, United States"
+        },
+        "temporal" : {
+          "original" : "February 1887",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.49754903,0.1443645,0.5658701,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.60539216,0.1443645,0.62469363,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.622549,0.1443645,0.6393995,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.64215684,0.1443645,0.73743874,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7377451,0.1443645,0.75214463,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.752451,0.1443645,0.7693015,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.76715684,0.1443645,0.8091299,0.16978417",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.19301471,0.16690648,0.20435049,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.20435049,0.16690648,0.22242647,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.22212009,0.16690648,0.24479167,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.24479167,0.16690648,0.26286766,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.26041666,0.16690648,0.30085784,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.29840687,0.16690648,0.32322302,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.32322302,0.16690648,0.3615196,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.35906863,0.16690648,0.3792892,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.38817403,0.16690648,0.42647058,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.4310662,0.16690648,0.50735295,0.1796163",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_DATE_ORIG",
+              "text" : "February 1887"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5NPF-W" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QS7-L9W6-NGR4",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QS7-L9W6-NGR4" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007150396_01239_TXT</UNQ>\n<IMID>007150396_01239</IMID>\n<APID>TH-1971-32806-20557-39</APID>\n<IMGSIZE>3264,4170</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>▓▓▓▓▓ ---\\+ 5 7 0\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Second__ day of February in the Year\nof our Lord one thousand eight hundred and Eighty Seven</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Henry C Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C\nScott</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Lyndon</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. D</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"LOCALE\">Solmon Nottingham</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Elmora</ENAMEX> Wallingham <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">thirty five hundred Dollars $3500</NUMEX>=\n<ENAMEX TYPE=\"LOCALE\">Delluse</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Lyndon County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing the west part of Lot nine Township four Range <NUMEX TYPE=\"QUANTITY\">three</NUMEX> of the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land</ENAMEX>\nCompanys land bounded west by Lot <NUMEX TYPE=\"QUANTITY\">17 sixty two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">twenty</NUMEX> links north by Lot\n<NUMEX TYPE=\"QUANTITY\">10 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links East by a line parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">sixty\ntwo</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">six</NUMEX> links and south by Township 3 Range <NUMEX TYPE=\"QUANTITY\">3 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links containing\n<NUMEX TYPE=\"QUANTITY\">Seventy five</NUMEX> acres more or less. Also a certain other piece of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of\nIschua</ENAMEX> <ENAMEX TYPE=\"COREF.loc\">County & State aforesaid</ENAMEX> being the North west part of <ENAMEX TYPE=\"LOCALE.notgpe\">Lot sixteen Township</ENAMEX> three\n<ENAMEX TYPE=\"LOCALE.notgpe\">Range three</ENAMEX> bounded west by the west line of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links north by the\nnorth line of Township <NUMEX TYPE=\"QUANTITY\">three fourteen</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> links East by a line parallel to\nthe west bounds of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links and south by a line parallel to the North\nbounds thereof containing <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> acres more or less, being the North half of premises conveyed by\n<ENAMEX TYPE=\"PERSON\">Joseph Lockwood</ENAMEX> & <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">William H Sinfield</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">October 18th 1852</TIMEX> Both of said above\ndescribed pieces being same premises conveyed to the parties of the first part by <ENAMEX TYPE=\"PERSON\">John O Badger</ENAMEX>\nand others by deed dated <TIMEX TYPE=\"DATE\">February 26\" 1880</TIMEX>\nWith the Napurtenanges, and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX> parties of the first part\ndo hereby covenant and agree to and with the said partilt of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof\nIn Witness Whereof, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Beteare C Scott</ENAMEX> ---\\+\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CATERASSUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">County of Allgany</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">2\"\nday of February in the year one thousand eight hundred and\nEighty Seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> & <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">J. C. Leggett</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+\nhands, and an and belo 3rd\nany of <TIMEX TYPE=\"DATE\">February__1887</TIMEX>\n= ---\\+\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"228\"_ENDID=\"249\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Second__ day of February in the Year of our Lord one thousand eight hundred and Eighty Seven\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"350\"_ENDID=\"387\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Lyndon\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"368\"_ENDID=\"387\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Lyndon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"863\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2126\"_ENDID=\"350\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2142\"_ENDID=\"368\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2262\"_ENDID=\"749\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2397\"_ENDID=\"749\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2422\"_ENDID=\"749\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2604\"_ENDID=\"749\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2700\"_ENDID=\"2126\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2721\"_ENDID=\"2142\"_STTOKEN=\"Beteare C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2752\"_ENDID=\"863\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2932\"_ENDID=\"2700\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2946\"_ENDID=\"2721\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Beteare C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2965\"_ENDID=\"2892\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3093\"_ENDID=\"749\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"640\"_ENDID=\"749\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"S=2+\"_STID=\"1768\"_ENDID=\"1768\"_STTOKEN=\"Joseph Lockwood\"_ENDTOKEN=\"Joseph Lockwood\">\n<RELEX TYPE=\"S=2+\"_STID=\"2126\"_ENDID=\"2126\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"S=2+\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"S=2+\"_STID=\"2932\"_ENDID=\"2932\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"1794\"_ENDID=\"1794\"_STTOKEN=\"William H Sinfield\"_ENDTOKEN=\"William H Sinfield\">\n<RELEX TYPE=\"S=3+\"_STID=\"1946\"_ENDID=\"1946\"_STTOKEN=\"John O Badger\"_ENDTOKEN=\"John O Badger\">\n<RELEX TYPE=\"S=3+\"_STID=\"2142\"_ENDID=\"2142\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"2721\"_ENDID=\"2721\"_STTOKEN=\"Beteare C Scott\"_ENDTOKEN=\"Beteare C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"2946\"_ENDID=\"2946\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"3117\"_ENDID=\"3117\"_STTOKEN=\"J. C. Leggett\"_ENDTOKEN=\"J. C. Leggett\">\n<RELEX TYPE=\"S=3+\"_STID=\"350\"_ENDID=\"350\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Henry C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"368\"_ENDID=\"368\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1768\"_ENDID=\"1786\"_STTOKEN=\"Joseph Lockwood\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1794\"_ENDID=\"1786\"_STTOKEN=\"William H Sinfield\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2262\"_ENDID=\"2268\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2262\"_ENDID=\"2278\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2397\"_ENDID=\"2403\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2422\"_ENDID=\"2413\"_STTOKEN=\"they\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"462\"_ENDID=\"466\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"749\"_ENDID=\"755\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"749\"_ENDID=\"765\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"350\"_ENDID=\"217\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"350\"_ENDID=\"228\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"368\"_ENDID=\"228\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"462\"_ENDID=\"228\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2142\"_ENDID=\"2142\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2721\"_ENDID=\"2721\"_STTOKEN=\"Beteare C Scott\"_ENDTOKEN=\"Beteare C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2932\"_ENDID=\"2932\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2946\"_ENDID=\"2946\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"350\"_ENDID=\"350\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Henry C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"368\"_ENDID=\"368\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2771\"_ENDID=\"2752\"_STTOKEN=\"CATERASSUS\"_ENDTOKEN=\"STATE OF NEW YORK\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007150396_01239_TXT</UNQ>\n<IMID>007150396_01239</IMID>\n<APID>TH-1971-32806-20557-39</APID>\n<IMGSIZE>3264,4170</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>▓▓▓▓▓ ---\\+ 5 7 0\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Second__ day of February in the Year\nof our Lord one thousand eight hundred and Eighty Seven</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Henry C Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C\nScott</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Lyndon</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. D</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"LOCALE\">Solmon Nottingham</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Elmora</ENAMEX> Wallingham <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">thirty five hundred Dollars $3500</NUMEX>=\n<ENAMEX TYPE=\"LOCALE\">Delluse</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Lyndon County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing the west part of Lot nine Township four Range <NUMEX TYPE=\"QUANTITY\">three</NUMEX> of the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land</ENAMEX>\nCompanys land bounded west by Lot <NUMEX TYPE=\"QUANTITY\">17 sixty two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">twenty</NUMEX> links north by Lot\n<NUMEX TYPE=\"QUANTITY\">10 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links East by a line parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">sixty\ntwo</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">six</NUMEX> links and south by Township 3 Range <NUMEX TYPE=\"QUANTITY\">3 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links containing\n<NUMEX TYPE=\"QUANTITY\">Seventy five</NUMEX> acres more or less. Also a certain other piece of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of\nIschua</ENAMEX> <ENAMEX TYPE=\"COREF.loc\">County & State aforesaid</ENAMEX> being the North west part of <ENAMEX TYPE=\"LOCALE.notgpe\">Lot sixteen Township</ENAMEX> three\n<ENAMEX TYPE=\"LOCALE.notgpe\">Range three</ENAMEX> bounded west by the west line of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links north by the\nnorth line of Township <NUMEX TYPE=\"QUANTITY\">three fourteen</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> links East by a line parallel to\nthe west bounds of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links and south by a line parallel to the North\nbounds thereof containing <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> acres more or less, being the North half of premises conveyed by\n<ENAMEX TYPE=\"PERSON\">Joseph Lockwood</ENAMEX> & <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">William H Sinfield</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">October 18th 1852</TIMEX> Both of said above\ndescribed pieces being same premises conveyed to the parties of the first part by <ENAMEX TYPE=\"PERSON\">John O Badger</ENAMEX>\nand others by deed dated <TIMEX TYPE=\"DATE\">February 26\" 1880</TIMEX>\nWith the Napurtenanges, and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX> parties of the first part\ndo hereby covenant and agree to and with the said partilt of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof\nIn Witness Whereof, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Beteare C Scott</ENAMEX> ---\\+\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CATERASSUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">County of Allgany</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">2\"\nday of February in the year one thousand eight hundred and\nEighty Seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> & <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">J. C. Leggett</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+\nhands, and an and belo 3rd\nany of <TIMEX TYPE=\"DATE\">February__1887</TIMEX>\n= ---\\+\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"228\"_ENDID=\"249\"_STTOKEN=\"Indenture\"_ENDTOKEN=\"Second__ day of February in the Year of our Lord one thousand eight hundred and Eighty Seven\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"350\"_ENDID=\"387\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Lyndon\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"368\"_ENDID=\"387\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Lyndon\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"151\"_ENDID=\"863\"_STTOKEN=\"New York\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2126\"_ENDID=\"350\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2142\"_ENDID=\"368\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2262\"_ENDID=\"749\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2397\"_ENDID=\"749\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2422\"_ENDID=\"749\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2604\"_ENDID=\"749\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2700\"_ENDID=\"2126\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2721\"_ENDID=\"2142\"_STTOKEN=\"Beteare C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2752\"_ENDID=\"863\"_STTOKEN=\"STATE OF NEW YORK\"_ENDTOKEN=\"State of New York\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2932\"_ENDID=\"2700\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2946\"_ENDID=\"2721\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Beteare C Scott\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2965\"_ENDID=\"2892\"_STTOKEN=\"me\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3093\"_ENDID=\"749\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"640\"_ENDID=\"749\"_STTOKEN=\"them\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"S=2+\"_STID=\"1768\"_ENDID=\"1768\"_STTOKEN=\"Joseph Lockwood\"_ENDTOKEN=\"Joseph Lockwood\">\n<RELEX TYPE=\"S=2+\"_STID=\"2126\"_ENDID=\"2126\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"S=2+\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"S=2+\"_STID=\"2932\"_ENDID=\"2932\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"1794\"_ENDID=\"1794\"_STTOKEN=\"William H Sinfield\"_ENDTOKEN=\"William H Sinfield\">\n<RELEX TYPE=\"S=3+\"_STID=\"1946\"_ENDID=\"1946\"_STTOKEN=\"John O Badger\"_ENDTOKEN=\"John O Badger\">\n<RELEX TYPE=\"S=3+\"_STID=\"2142\"_ENDID=\"2142\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"2721\"_ENDID=\"2721\"_STTOKEN=\"Beteare C Scott\"_ENDTOKEN=\"Beteare C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"2946\"_ENDID=\"2946\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"3117\"_ENDID=\"3117\"_STTOKEN=\"J. C. Leggett\"_ENDTOKEN=\"J. C. Leggett\">\n<RELEX TYPE=\"S=3+\"_STID=\"350\"_ENDID=\"350\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Henry C Scott\">\n<RELEX TYPE=\"S=3+\"_STID=\"368\"_ENDID=\"368\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1768\"_ENDID=\"1786\"_STTOKEN=\"Joseph Lockwood\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"1794\"_ENDID=\"1786\"_STTOKEN=\"William H Sinfield\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2262\"_ENDID=\"2268\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2262\"_ENDID=\"2278\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2397\"_ENDID=\"2403\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2422\"_ENDID=\"2413\"_STTOKEN=\"they\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"462\"_ENDID=\"466\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"749\"_ENDID=\"755\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"749\"_ENDID=\"765\"_STTOKEN=\"their\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"350\"_ENDID=\"228\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"368\"_ENDID=\"228\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"462\"_ENDID=\"228\"_STTOKEN=\"his\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2142\"_ENDID=\"2142\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2700\"_ENDID=\"2700\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2721\"_ENDID=\"2721\"_STTOKEN=\"Beteare C Scott\"_ENDTOKEN=\"Beteare C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2932\"_ENDID=\"2932\"_STTOKEN=\"Henry Scott\"_ENDTOKEN=\"Henry Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2946\"_ENDID=\"2946\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"350\"_ENDID=\"350\"_STTOKEN=\"Henry C Scott\"_ENDTOKEN=\"Henry C Scott\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"368\"_ENDID=\"368\"_STTOKEN=\"Bethial C Scott\"_ENDTOKEN=\"Bethial C Scott\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"151\"_STTOKEN=\"Cattaraugus\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"151\"_ENDID=\"161\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2771\"_ENDID=\"2752\"_STTOKEN=\"CATERASSUS\"_ENDTOKEN=\"STATE OF NEW YORK\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007150396_01239_TXT</UNQ>\n<IMID>007150396_01239</IMID>\n<APID>TH-1971-32806-20557-39</APID>\n<IMGSIZE>3264,4170</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>▓▓▓▓▓ ---\\+ 5 7 0\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Second__ day of February in the Year\nof our Lord one thousand eight hundred and Eighty Seven</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Henry C Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C\nScott</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Lyndon</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. D</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"LOCALE\">Solmon Nottingham</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Elmora</ENAMEX> Wallingham <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">thirty five hundred Dollars $3500</NUMEX>=\n<ENAMEX TYPE=\"LOCALE\">Delluse</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Lyndon County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing the west part of Lot nine Township four Range <NUMEX TYPE=\"QUANTITY\">three</NUMEX> of the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land</ENAMEX>\nCompanys land bounded west by Lot <NUMEX TYPE=\"QUANTITY\">17 sixty two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">twenty</NUMEX> links north by Lot\n<NUMEX TYPE=\"QUANTITY\">10 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links East by a line parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">sixty\ntwo</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">six</NUMEX> links and south by Township 3 Range <NUMEX TYPE=\"QUANTITY\">3 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links containing\n<NUMEX TYPE=\"QUANTITY\">Seventy five</NUMEX> acres more or less. Also a certain other piece of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of\nIschua</ENAMEX> <ENAMEX TYPE=\"COREF.loc\">County & State aforesaid</ENAMEX> being the North west part of <ENAMEX TYPE=\"LOCALE.notgpe\">Lot sixteen Township</ENAMEX> three\n<ENAMEX TYPE=\"LOCALE.notgpe\">Range three</ENAMEX> bounded west by the west line of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links north by the\nnorth line of Township <NUMEX TYPE=\"QUANTITY\">three fourteen</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> links East by a line parallel to\nthe west bounds of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links and south by a line parallel to the North\nbounds thereof containing <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> acres more or less, being the North half of premises conveyed by\n<ENAMEX TYPE=\"PERSON\">Joseph Lockwood</ENAMEX> & <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">William H Sinfield</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">October 18th 1852</TIMEX> Both of said above\ndescribed pieces being same premises conveyed to the parties of the first part by <ENAMEX TYPE=\"PERSON\">John O Badger</ENAMEX>\nand others by deed dated <TIMEX TYPE=\"DATE\">February 26\" 1880</TIMEX>\nWith the Napurtenanges, and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX> parties of the first part\ndo hereby covenant and agree to and with the said partilt of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof\nIn Witness Whereof, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Beteare C Scott</ENAMEX> ---\\+\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CATERASSUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">County of Allgany</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">2\"\nday of February in the year one thousand eight hundred and\nEighty Seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> & <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">J. C. Leggett</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+\nhands, and an and belo 3rd\nany of <TIMEX TYPE=\"DATE\">February__1887</TIMEX>\n= ---\\+\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007150396_01239_TXT</UNQ>\n<IMID>007150396_01239</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1971</TIMEX>-32806-20557-39</APID>\n<IMGSIZE>3264,<TIMEX TYPE=\"DATE\">4170</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Cattaraugus</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>▓▓▓▓▓ ---\\+ 5 7 0\nWARRANTY <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this <TIMEX TYPE=\"DATE\">Second__ day of February in the Year\nof our Lord one thousand eight hundred and Eighty Seven</TIMEX> Between <ENAMEX TYPE=\"PERSON\">Henry C Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C\nScott</ENAMEX> of <ENAMEX TYPE=\"LOCALE\">Lyndon</ENAMEX> <ENAMEX TYPE=\"LOCALE\">N. D</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"LOCALE\">Solmon Nottingham</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">Elmora</ENAMEX> Wallingham <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> of the same place\nof the second part,\nWitnesseth, That the said parties of the first part, in consideration of the sum of <NUMEX TYPE=\"MONEY\">thirty five hundred Dollars $3500</NUMEX>=\n<ENAMEX TYPE=\"LOCALE\">Delluse</ENAMEX>,\nto <ENAMEX TYPE=\"COREF\">them</ENAMEX> duly paid, have sold, and by these presents do grant and convey to the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nALL THAT <ENAMEX TYPE=\"VEHICLE\">TRACTOR</ENAMEX> PARCEL OF LAND, situate in the ⌨own of <ENAMEX TYPE=\"LOCALE\">Lyndon County of Cattaraugus</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State of New York</ENAMEX>\nbeing the west part of Lot nine Township four Range <NUMEX TYPE=\"QUANTITY\">three</NUMEX> of the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land</ENAMEX>\nCompanys land bounded west by Lot <NUMEX TYPE=\"QUANTITY\">17 sixty two</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">twenty</NUMEX> links north by Lot\n<NUMEX TYPE=\"QUANTITY\">10 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links East by a line parallel to the first mentioned boundary <NUMEX TYPE=\"QUANTITY\">sixty\ntwo</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">six</NUMEX> links and south by Township 3 Range <NUMEX TYPE=\"QUANTITY\">3 twelve</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">Eight</NUMEX> links containing\n<NUMEX TYPE=\"QUANTITY\">Seventy five</NUMEX> acres more or less. Also a certain other piece of land situate in the <ENAMEX TYPE=\"LOCALE\">Town of\nIschua</ENAMEX> <ENAMEX TYPE=\"COREF.loc\">County & State aforesaid</ENAMEX> being the North west part of <ENAMEX TYPE=\"LOCALE.notgpe\">Lot sixteen Township</ENAMEX> three\n<ENAMEX TYPE=\"LOCALE.notgpe\">Range three</ENAMEX> bounded west by the west line of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links north by the\nnorth line of Township <NUMEX TYPE=\"QUANTITY\">three fourteen</NUMEX> Chains <NUMEX TYPE=\"QUANTITY\">ninety two</NUMEX> links East by a line parallel to\nthe west bounds of said Lot <NUMEX TYPE=\"QUANTITY\">ten</NUMEX> chains <NUMEX TYPE=\"QUANTITY\">five</NUMEX> links and south by a line parallel to the North\nbounds thereof containing <NUMEX TYPE=\"QUANTITY\">fifteen</NUMEX> acres more or less, being the North half of premises conveyed by\n<ENAMEX TYPE=\"PERSON\">Joseph Lockwood</ENAMEX> & <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX> to <ENAMEX TYPE=\"PERSON\">William H Sinfield</ENAMEX> by deed dated <TIMEX TYPE=\"DATE\">October 18th 1852</TIMEX> Both of said above\ndescribed pieces being same premises conveyed to the parties of the first part by <ENAMEX TYPE=\"PERSON\">John O Badger</ENAMEX>\nand others by deed dated <TIMEX TYPE=\"DATE\">February 26\" 1880</TIMEX>\nWith the Napurtenanges, and all the Estate, Title and Interest therein of the said parties of the first part. And the said\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX> parties of the first part\ndo hereby covenant and agree to and with the said partilt of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>,\nthat the premises thus conveyed in the quiet and peaceable possession of the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, <ENAMEX TYPE=\"COREF\">they</ENAMEX>\nwill forever WARRANT AND DEFEND against any person <ENAMEX TYPE=\"COREF\">whomsoever</ENAMEX> lawfully claiming the same or any part thereof\nIn Witness Whereof, The parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hands and seals the <TIMEX TYPE=\"COREF.dat\">day and year first above written</TIMEX>.\nSealed and Delivered in Presence of\n<ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX>\n[ L. S.]\n<ENAMEX TYPE=\"PERSON\">Beteare C Scott</ENAMEX> ---\\+\n[ L. S.]\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>,\n<ENAMEX TYPE=\"LOCALE\">CATERASSUS</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">County of Allgany</ENAMEX> ⎬ On this <TIMEX TYPE=\"DATE\">2\"\nday of February in the year one thousand eight hundred and\nEighty Seven</TIMEX> before <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber, personally appeared <ENAMEX TYPE=\"PERSON\">Henry Scott</ENAMEX> & <ENAMEX TYPE=\"PERSON\">Bethial C Scott</ENAMEX>\nto <ENAMEX TYPE=\"COREF\">me</ENAMEX> personally known to be the same persons described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the within\ninstrument, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same.\n<ENAMEX TYPE=\"PERSON\">J. C. Leggett</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+\nhands, and an and belo 3rd\nany of <TIMEX TYPE=\"DATE\">February__1887</TIMEX>\n= ---\\+\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007150396_01239_TXT</UNQ>\n<IMID>007150396_01239</IMID>\n<APID>TH-1971-32806-20557-39</APID>\n<IMGSIZE>3264,4170</IMGSIZE>\n<PLACE>Cattaraugus, New York, United States</PLACE>\n<SBODY>[412,453:579,521] ▓▓▓▓▓ ---\\+ 5 7 0\n[779,534:1009,562] WARRANTY [1005,534:1124,562] DEED.\n[697,602:920,708] This [929,602:1384,708] Indenture, [1417,602:1504,708] Made [1497,602:1608,708] this [1624,602:1847,708] Second__ [1976,602:2039,708] day [2032,602:2087,708] of [2096,602:2407,708] February [2408,602:2455,708] in [2456,602:2511,708] the [2504,602:2641,708] Year\n[630,696:667,749] of [667,696:726,749] our [725,696:799,749] Lord [799,696:858,749] one [850,696:982,749] thousand [974,696:1055,749] eight [1055,696:1180,749] hundred [1172,696:1238,749] and [1267,696:1392,749] Eighty [1407,696:1656,749] Seven [1663,696:1839,749] Between [1846,696:1993,749] Henry [1992,696:2037,749] C [2036,696:2169,749] Scott [2168,696:2249,749] and [2256,696:2418,749] Bethial [2417,696:2521,749] C\n[616,732:746,778] Scott [744,732:810,778] of [814,732:995,778] Lyndon [999,732:1040,778] N. [1044,732:1137,778] D\n[625,815:664,886] of [665,815:712,886] the [713,815:784,886] first [785,815:848,886] part, [857,815:928,886] and [937,815:1119,886] Solmon [1136,815:1399,886] Nottingham [1400,815:1487,886] and [1488,815:1671,886] Elmora [1680,815:1951,886] Wallingham [1960,815:2031,886] his [2039,815:2134,886] wife [2135,815:2190,886] of [2191,815:2262,886] the [2271,815:2390,886] same [2391,815:2546,886] place\n[2308,932:2350,964] of [2348,932:2402,964] the [2400,932:2499,964] second [2497,932:2560,964] part,\n[658,942:863,1002] Witnesseth, [881,942:953,1002] That [955,942:1003,1002] the [1004,942:1069,1002] said [1070,942:1176,1002] parties [1178,942:1218,1002] of [1219,942:1267,1002] the [1269,942:1333,1002] first [1335,942:1399,1002] part, [1401,942:1441,1002] in [1442,942:1622,1002] consideration [1616,942:1664,1002] of [1657,942:1713,1002] the [1706,942:1779,1002] sum [1781,942:1837,1002] of [1838,942:1961,1002] thirty [1971,942:2060,1002] five [2061,942:2258,1002] hundred [2260,942:2407,1002] Dollars [2417,942:2637,1002] $3500=\n[2458,1017:2559,1046] Delluse,\n[614,1037:667,1092] to [667,1037:789,1092] them [789,1037:865,1092] duly [865,1037:925,1092] paid, [933,1037:1016,1092] have [1017,1037:1085,1092] sold, [1085,1037:1146,1092] and [1138,1037:1183,1092] by [1184,1037:1259,1092] these [1260,1037:1373,1092] presents [1374,1037:1457,1092] do [1457,1037:1540,1092] grant [1533,1037:1594,1092] and [1586,1037:1685,1092] convey [1685,1037:1723,1092] to [1715,1037:1768,1092] the [1761,1037:1829,1092] said [1822,1037:1935,1092] parties [1928,1037:1973,1092] of [1973,1037:2019,1092] the [2019,1037:2118,1092] second [2110,1037:2178,1092] part, [2201,1037:2338,1092] their [2338,1037:2414,1092] heirs [2406,1037:2467,1092] and [2459,1037:2566,1092] assigns,\n[627,1085:689,1142] ALL [690,1085:768,1142] THAT [760,1085:901,1142] TRACTOR [894,1085:1003,1142] PARCEL [996,1085:1043,1142] OF [1036,1085:1113,1142] LAND, [1114,1085:1216,1142] situate [1208,1085:1247,1142] in [1240,1085:1294,1142] the [1295,1085:1396,1142] ⌨own [1397,1085:1436,1142] of [1436,1085:1585,1142] Lyndon [1586,1085:1742,1142] County [1743,1085:1797,1142] of [1813,1085:2049,1142] Cattaraugus [2049,1085:2159,1142] and [2167,1085:2276,1142] State [2277,1085:2324,1142] of [2332,1085:2426,1142] New [2426,1085:2575,1142] York\n[611,1123:732,1178] being [740,1123:815,1178] the [823,1123:952,1178] west [967,1123:1096,1178] part [1104,1123:1157,1178] of [1157,1123:1256,1178] Lot [1271,1123:1400,1178] nine [1408,1123:1605,1178] Township [1613,1123:1726,1178] four [1734,1123:1901,1178] Range [1901,1123:2038,1178] three [2038,1123:2091,1178] of [2091,1123:2159,1178] the [2167,1123:2341,1178] Holland [2349,1123:2510,1178] Land\n[605,1162:827,1222] Companys [836,1162:967,1222] land [977,1162:1157,1222] bounded [1159,1162:1281,1222] west [1291,1162:1355,1222] by [1357,1162:1438,1222] Lot [1448,1162:1520,1222] 17 [1530,1162:1644,1222] sixty [1646,1162:1735,1222] two [1737,1162:1892,1222] chains [1894,1162:2041,1222] twenty [2051,1162:2173,1222] links [2183,1162:2297,1222] north [2307,1162:2380,1222] by [2389,1162:2521,1222] Lot\n[602,1210:672,1266] 10 [680,1210:805,1266] twelve [814,1210:947,1266] chains [956,1210:1088,1266] Eight [1089,1210:1214,1266] links [1215,1210:1324,1266] East [1333,1210:1395,1266] by [1404,1210:1458,1266] a [1459,1210:1568,1266] line [1576,1210:1741,1266] parallel [1749,1210:1804,1266] to [1804,1210:1882,1266] the [1883,1210:1984,1266] first [1985,1210:2204,1266] mentioned [2205,1210:2393,1266] boundary [2402,1210:2561,1266] sixty\n[597,1248:680,1310] two [682,1248:834,1310] chains [853,1248:944,1310] six [947,1248:1072,1310] links [1083,1248:1175,1310] and [1185,1248:1311,1310] south [1322,1248:1388,1310] by [1399,1248:1584,1310] Township [1595,1248:1644,1310] 3 [1646,1248:1781,1310] Range [1783,1248:1832,1310] 3 [1834,1248:1960,1310] twelve [1962,1248:2113,1310] chains [2115,1248:2233,1310] Eight [2235,1248:2361,1310] links [2363,1248:2590,1310] containing\n[604,1294:757,1353] Seventy [767,1294:863,1353] five [864,1294:985,1353] acres [994,1294:1099,1353] more [1100,1294:1148,1353] or [1157,1294:1229,1353] less. [1271,1294:1367,1353] Also [1376,1294:1424,1353] a [1425,1294:1587,1353] certain [1596,1294:1709,1353] other [1710,1294:1839,1353] piece [1840,1294:1904,1353] of [1905,1294:2017,1353] land [2027,1294:2172,1353] situate [2181,1294:2245,1353] in [2246,1294:2318,1353] the [2319,1294:2456,1353] Town [2458,1294:2554,1353] of\n[584,1329:759,1395] Ischua [768,1329:919,1395] County [928,1329:951,1395] & [976,1329:1095,1395] State [1096,1329:1303,1395] aforesaid [1304,1329:1423,1395] being [1432,1329:1502,1395] the [1511,1329:1606,1395] North [1607,1329:1710,1395] west [1711,1329:1814,1395] part [1815,1329:1870,1395] of [1871,1329:1958,1395] Lot [1959,1329:2118,1395] sixteen [2127,1329:2318,1395] Township [2319,1329:2463,1395] three\n[603,1377:743,1433] Range [752,1377:877,1433] three [878,1377:1058,1433] bounded [1059,1377:1168,1433] west [1177,1377:1239,1433] by [1240,1377:1310,1433] the [1310,1377:1428,1433] west [1436,1377:1545,1433] line [1546,1377:1608,1433] of [1609,1377:1718,1433] said [1719,1377:1813,1433] Lot [1821,1377:1899,1433] ten [1908,1377:2057,1433] chains [2057,1377:2151,1433] five [2152,1377:2292,1433] links [2301,1377:2426,1433] north [2435,1377:2489,1433] by [2490,1377:2605,1433] the\n[603,1424:725,1479] north [732,1424:831,1479] line [831,1424:907,1479] of [915,1424:1127,1479] Township [1127,1424:1256,1479] three [1264,1424:1446,1479] fourteen [1446,1424:1598,1479] Chains [1598,1424:1742,1479] ninety [1743,1424:1826,1479] two [1834,1424:1963,1479] links [1963,1424:2077,1479] East [2077,1424:2153,1479] by [2153,1424:2206,1479] a [2206,1424:2320,1479] line [2320,1424:2487,1479] parallel [2495,1424:2594,1479] to\n[601,1472:673,1518] the [671,1472:776,1518] west [773,1472:929,1518] bounds [933,1472:986,1518] of [984,1472:1089,1518] said [1093,1472:1191,1518] Lot [1195,1472:1280,1518] ten [1285,1472:1434,1518] chains [1438,1472:1543,1518] five [1547,1472:1670,1518] links [1668,1472:1753,1518] and [1758,1472:1881,1518] south [1885,1472:1952,1518] by [1956,1472:2009,1518] a [2013,1472:2124,1518] line [2128,1472:2290,1518] parallel [2295,1472:2361,1518] to [2358,1472:2437,1518] the [2435,1472:2597,1518] North\n[596,1511:733,1569] bounds [734,1511:855,1569] thereof [864,1511:1082,1569] containing [1092,1511:1245,1569] fifteen [1246,1511:1358,1569] acres [1368,1511:1480,1569] more [1482,1511:1537,1569] or [1547,1511:1618,1569] less, [1636,1511:1756,1569] being [1758,1511:1830,1569] the [1839,1511:1943,1569] North [1953,1511:2049,1569] half [2042,1511:2106,1569] of [2115,1511:2285,1569] premises [2294,1511:2471,1569] conveyed [2473,1511:2575,1569] by\n[601,1551:733,1604] Joseph [733,1551:945,1604] Lockwood [945,1551:967,1604] & [989,1551:1070,1604] wife [1077,1551:1129,1604] to [1136,1551:1297,1604] William [1304,1551:1356,1604] H [1355,1551:1524,1604] Sinfield [1531,1551:1598,1604] by [1597,1551:1693,1604] deed [1693,1551:1803,1604] dated [1810,1551:1949,1604] October [1949,1551:2037,1604] 18th [2030,1551:2133,1604] 1852 [2140,1551:2243,1604] Both [2242,1551:2301,1604] of [2301,1551:2404,1604] said [2403,1551:2543,1604] above\n[597,1600:780,1665] described [781,1600:900,1665] pieces [901,1600:1012,1665] being [1020,1600:1139,1665] same [1140,1600:1315,1665] premises [1324,1600:1499,1665] conveyed [1500,1600:1547,1665] to [1548,1600:1619,1665] the [1620,1600:1755,1665] parties [1756,1600:1811,1665] of [1812,1600:1867,1665] the [1876,1600:1979,1665] first [1980,1600:2082,1665] part [2083,1600:2146,1665] by [2155,1600:2258,1665] John [2267,1600:2314,1665] O [2315,1600:2535,1665] Badger\n[592,1637:681,1687] and [680,1637:797,1687] others [795,1637:858,1687] by [863,1637:953,1687] deed [958,1637:1068,1687] dated [1073,1637:1238,1687] February [1243,1637:1305,1687] 26\" [1324,1637:1468,1687] 1880\n[619,2272:722,2325] With [721,2272:802,2325] the [802,2272:1081,2325] Napurtenanges, [1088,2272:1147,2325] and [1146,2272:1191,2325] all [1190,2272:1242,2325] the [1242,2272:1330,2325] Estate, [1344,2272:1418,2325] Title [1410,2272:1469,2325] and [1469,2272:1586,2325] Interest [1579,2272:1682,2325] therein [1681,2272:1726,2325] of [1718,2272:1777,2325] the [1769,2272:1835,2325] said [1835,2272:1945,2325] parties [1945,2272:1982,2325] of [1982,2272:2026,2325] the [2026,2272:2092,2325] first [2084,2272:2150,2325] part. [2172,2272:2238,2325] And [2231,2272:2282,2325] the [2282,2272:2393,2325] said\n[913,2324:1037,2373] Henry [1042,2324:1166,2373] Scott [1171,2324:1261,2373] and [1266,2324:1430,2373] Bethial [1436,2324:1485,2373] C [1497,2324:1607,2373] Scott [1612,2324:1729,2373] parties [1728,2324:1770,2373] of [1768,2324:1824,2373] the [1830,2324:1933,2373] first [1931,2324:2076,2373] part\n[611,2369:699,2410] do [695,2369:800,2410] hereby [796,2369:923,2410] covenant [919,2369:979,2410] and [975,2369:1057,2410] agree [1059,2369:1096,2410] to [1092,2369:1158,2410] and [1154,2369:1225,2410] with [1221,2369:1281,2410] the [1277,2369:1342,2410] said [1338,2369:1448,2410] partilt [1450,2369:1493,2410] of [1484,2369:1538,2410] the [1534,2369:1627,2410] second [1623,2369:1689,2410] part, [1713,2369:1856,2410] their [1858,2369:1935,2410] heirs [1925,2369:1985,2410] and [1981,2369:2080,2410] assigns,\n[604,2538:667,2588] that [665,2538:714,2588] the [713,2538:837,2588] premises [828,2538:898,2588] thus [890,2538:1027,2588] conveyed [1025,2538:1061,2588] in [1059,2538:1108,2588] the [1107,2538:1183,2588] quiet [1182,2538:1237,2588] and [1229,2538:1366,2588] peaceable [1358,2538:1496,2588] possession [1494,2538:1536,2588] of [1528,2538:1584,2588] the [1576,2538:1638,2588] said [1637,2538:1747,2588] parties [1745,2538:1788,2588] of [1779,2538:1835,2588] the [1827,2538:1923,2588] second [1922,2538:1985,2588] part, [1997,2538:2120,2588] their [2119,2538:2195,2588] heirs [2187,2538:2249,2588] and [2241,2538:2338,2588] assigns, [2343,2538:2459,2588] they\n[605,2584:668,2623] will [663,2584:779,2623] forever [775,2584:912,2623] WARRANT [908,2584:976,2623] AND [972,2584:1088,2623] DEFEND [1084,2584:1189,2623] against [1185,2584:1248,2623] any [1244,2584:1344,2623] person [1340,2584:1509,2623] whomsoever [1505,2584:1626,2623] lawfully [1622,2584:1749,2623] claiming [1739,2584:1797,2623] the [1792,2584:1871,2623] same [1872,2584:1914,2623] or [1909,2584:1972,2623] any [1968,2584:2036,2623] part [2032,2584:2189,2623] thereof\n[667,2661:733,2715] In [740,2661:902,2715] Witness [901,2661:1063,2715] Whereof, [1077,2661:1136,2715] The [1128,2661:1246,2715] parties [1238,2661:1283,2715] of [1282,2661:1327,2715] the [1326,2661:1393,2715] first [1385,2661:1451,2715] part [1444,2661:1532,2715] have [1531,2661:1656,2715] hereunto [1649,2661:1715,2715] set [1715,2661:1854,2715] their [1854,2661:1949,2715] hands [1949,2661:2008,2715] and [2000,2661:2074,2715] seals [2074,2661:2125,2715] the [2125,2661:2184,2715] day [2176,2661:2235,2715] and [2227,2661:2294,2715] year [2286,2661:2352,2715] first [2352,2661:2433,2715] above [2433,2661:2535,2715] written.\n[613,2724:709,2749] Sealed [706,2724:773,2749] and [769,2724:911,2749] Delivered [907,2724:952,2749] in [948,2724:1078,2749] Presence [1074,2724:1173,2749] of\n[1774,2720:1897,2766] Henry [1901,2720:2076,2766] Scott\n[2454,2731:2481,2760] [ [2466,2731:2501,2760] L. [2495,2731:2530,2760] S.]\n[1779,2762:1955,2799] Beteare [1955,2762:2001,2799] C [1997,2762:2171,2799] Scott ---\\+\n[2450,2773:2482,2803] [ [2467,2773:2502,2803] L. [2496,2773:2531,2803] S.]\n[647,2834:804,2883] STATE [810,2834:886,2883] OF [884,2834:1021,2883] NEW [1027,2834:1164,2883] YORK,\n[779,2880:1031,2900] CATERASSUS\n[724,2918:838,2966] County [837,2918:878,2966] of [877,2918:1171,2966] Allgany [1170,2918:1245,2966] ⎬ [1250,2918:1291,2966] On [1283,2918:1338,2966] this [1423,2918:1464,2966] 2\"\n[1641,2918:1690,2968] day [1688,2918:1730,2968] of [1742,2918:2042,2968] February [2041,2918:2076,2968] in [2075,2918:2117,2968] the [2116,2918:2178,2968] year [2170,2918:2226,2968] one [2217,2918:2327,2968] thousand [2319,2918:2389,2968] eight [2387,2918:2490,2968] hundred [2482,2918:2586,2968] and\n[611,2957:728,3006] Eighty [740,2957:891,3006] Seven [889,2957:972,3006] before [971,2957:1013,3006] me, [1018,2957:1061,3006] the [1059,2957:1183,3006] subscriber, [1188,2957:1305,3006] personally [1304,2957:1434,3006] appeared [1439,2957:1563,3006] Henry [1568,2957:1678,3006] Scott [1677,2957:1706,3006] & [1725,2957:1875,3006] Bethial [1881,2957:1936,3006] C [1935,2957:2106,3006] Scott\n[1528,3017:1565,3049] to [1559,3017:1605,3049] me [1598,3017:1719,3049] personally [1717,3017:1802,3049] known [1796,3017:1837,3049] to [1831,3017:1868,3049] be [1862,3017:1912,3049] the [1906,3017:1973,3049] same [1967,3017:2070,3049] persons [2068,3017:2180,3049] described [2174,3017:2210,3049] in [2204,3017:2259,3049] and [2253,3017:2311,3049] who [2305,3017:2412,3049] executed [2406,3017:2456,3049] the [2450,3017:2586,3049] within\n[598,3056:727,3093] instrument, [733,3056:784,3093] and [780,3056:888,3093] severally [884,3056:1044,3093] acknowledged [1039,3056:1101,3093] that [1096,3056:1174,3093] they [1169,3056:1278,3093] executed [1268,3056:1319,3093] the [1315,3056:1381,3093] same.\n[1824,3085:1879,3151] J. [1880,3085:1927,3151] C. [1936,3085:2160,3151] Leggett\n[1967,3129:2075,3177] Notary [2079,3129:2240,3177] Public ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+ ---\\+\n[430,3296:506,3287] hands, [430,3285:506,3276] and [430,3276:506,3272] an [430,3271:506,3255] and [430,3256:506,3229] belo [430,3228:506,2593] 3rd\n[437,2554:492,2549] any [437,2548:492,2544] of [437,2543:492,2522] February__1887\n[437,2514:492,2120] = ---\\+\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007150396"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "01239"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007150396_01239"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNS6-5NPF-W"
+      } ]
+    } ]
+  } ]
+}

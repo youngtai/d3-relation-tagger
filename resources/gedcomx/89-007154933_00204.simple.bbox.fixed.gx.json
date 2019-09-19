@@ -1,0 +1,1330 @@
+{
+  "records" : [ {
+    "id" : "r_6917529028318519956",
+    "attribution" : {
+      "contributor" : {
+        "resource" : "fs:AutomatedContentExtraction"
+      },
+      "created" : 1557435187219
+    },
+    "description" : "#s_6917529028318519956",
+    "persons" : [ {
+      "id" : "p_6917529030836066956",
+      "extracted" : true,
+      "principal" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXCB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Executon",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Executon",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Executon"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Executon"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.1243148,0.12553091,0.1591621,0.1321378",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "EXECUTON"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXCB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZ9-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Smith",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Smith",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Smith"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Smith"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.39506656,0.14535157,0.43069693,0.17059934",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Smith"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZ9-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067156",
+      "extracted" : true,
+      "principal" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZ7-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Frederick Schmitt",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Frederick",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Frederick"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Schmitt",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Schmitt"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Frederick Schmitt"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.13508223,0.17815007,0.17854346,0.19726285",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.1803054,0.17815007,0.21769772,0.19726285",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Frederick Schmitt"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.21417384,0.50991035,0.2719264,0.52359605",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.27368835,0.50991035,0.31871575,0.52359605",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Frederick Schmitt"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7597886,0.37116563,0.8007048,0.38367155",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.80207515,0.37116563,0.83711827,0.38367155",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Frederick Schmitt"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.81871575,0.45021236,0.8639389,0.47357243",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.86570084,0.45021236,0.9028974,0.47357243",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Frederick Schmitt"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Property",
+        "place" : {
+          "original" : "Erie, STATE OF NEW YORK",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/City",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_CITY_ORIG",
+              "text" : "Erie"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/State",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.57498044,0.37989616,0.59416604,0.386975",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5937745,0.37989616,0.603563,0.386975",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.6023884,0.37989616,0.6182459,0.386975",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.61785436,0.37989616,0.63429916,0.386975",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "EVENT_STATE_ORIG",
+              "text" : "STATE OF NEW YORK"
+            } ]
+          } ]
+        },
+        "primary" : true
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZ7-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067256",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZH-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Charles Lorence",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Charles",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Charles"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lorence",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lorence"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Charles Lorence"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.17678152,0.20009439,0.20947534,0.22251062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.21123728,0.20009439,0.25019577,0.22251062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Charles Lorence"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZH-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067356",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Female",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Female"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZ8-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Margaret Lorence",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Margaret",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Margaret"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lorence",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lorence"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Margaret Lorence"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.27388412,0.20009439,0.31734535,0.22251062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.3191073,0.20009439,0.35023493,0.22251062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Margaret Lorence"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZ8-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067456",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZF-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "C F Wilmer",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "C F",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "C F"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Wilmer",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Wilmer"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "C F Wilmer"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.2535239,0.3624351,0.26331246,0.37730062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.263704,0.3624351,0.27173063,0.37730062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.27564603,0.3624351,0.32086924,0.37730062",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "C. F. Wilmer"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Surveyor",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Surveyor"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZF-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067556",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZV-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Jacob Bonner",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Jacob",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Jacob"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Bonner",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Bonner"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Jacob Bonner"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.33770555,0.50991035,0.3703994,0.52359605",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.37216133,0.50991035,0.42208302,0.52359605",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Jacob Bonner"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZV-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067656",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZL-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Shated",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Shated",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Shated"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Shated"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.5673453,0.33010855,0.58574784,0.33671543",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "SHATED"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZL-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067756",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZR-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "John M Smith",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "John M",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "John M"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Smith",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Smith"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "John M Smith"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.79326546,0.3244455,0.821065,0.3475696",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8228269,0.3244455,0.83516055,0.3475696",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8400548,0.3244455,0.87881756,0.3475696",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "John M. Smith"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZR-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067856",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZB-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Louis ⎬ Smith",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Louis ⎬",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Louis ⎬"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Smith",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Smith"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Louis ⎬ Smith"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7946359,0.33718735,0.8216523,0.35040113",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8218481,0.33718735,0.8367267,0.35040113",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.8382929,0.33718735,0.88312453,0.35040113",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Louis ⎬ Smith"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VXZB-N"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836067956",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VX89-T" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Frederick Schimite",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Frederick",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Frederick"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Schimite",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Schimite"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Frederick Schimite"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.6967502,0.42756018,0.7372749,0.4440774",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7374706,0.42756018,0.7764291,0.4440774",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Frederick Schimite"
+            } ]
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VX89-T"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836068056",
+      "extracted" : true,
+      "gender" : {
+        "type" : "http://gedcomx.org/Male",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Gender",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_SEX_CODE_ORIG",
+            "text" : "Male"
+          } ]
+        } ]
+      },
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VX87-W" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Eugene P Ouchie",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Given",
+            "value" : "Eugene P",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Given",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_GN",
+                "text" : "Eugene P"
+              } ]
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Ouchie",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Ouchie"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Eugene P Ouchie"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.7433438,0.4726286,0.7793657,0.48584238",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.77956146,0.4726286,0.78856695,0.48584238",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.7901331,0.4726286,0.83574784,0.48584238",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Eugene P. Ouchie"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Occupation",
+        "value" : "Notary Public",
+        "fields" : [ {
+          "type" : "http://gedcomx.org/Occupation",
+          "values" : [ {
+            "type" : "http://gedcomx.org/Original",
+            "labelId" : "PR_OCCUPATION_ORIG",
+            "text" : "Notary Public"
+          } ]
+        } ]
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VX87-W"
+        } ]
+      } ]
+    }, {
+      "id" : "p_6917529030836068156",
+      "extracted" : true,
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VX8H-N" ]
+      },
+      "names" : [ {
+        "nameForms" : [ {
+          "fullText" : "Lout",
+          "parts" : [ {
+            "type" : "http://gedcomx.org/Surname",
+            "value" : "Lout",
+            "fields" : [ {
+              "type" : "http://gedcomx.org/Surname",
+              "values" : [ {
+                "type" : "http://gedcomx.org/Interpreted",
+                "labelId" : "PR_NAME_SURN",
+                "text" : "Lout"
+              } ]
+            } ]
+          } ],
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Name",
+            "values" : [ {
+              "type" : "http://gedcomx.org/Interpreted",
+              "labelId" : "PR_NAME",
+              "text" : "Lout"
+            } ]
+          }, {
+            "type" : "http://gedcomx.org/Name",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.53660923,0.15125059,0.52505875,0.20882492",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_NAME_ORIG",
+              "text" : "Lout"
+            } ]
+          } ]
+        } ]
+      } ],
+      "facts" : [ {
+        "type" : "http://gedcomx.org/Birth",
+        "date" : {
+          "original" : "1909",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.53034455,0.60169894,0.541112,0.6007551",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53034455,0.59414816,0.541112,0.59202456",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53034455,0.5917886,0.541112,0.53775364",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.52682066,0.4143464,0.5383712,0.41080698",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5321065,0.48655027,0.541112,0.48560643",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_BIR_DATE_ORIG",
+              "text" : "1909"
+            } ]
+          } ]
+        }
+      } ],
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/FsArk",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "FS_PR_ARK",
+          "text" : "https://familysearch.org/ark:/61903/1:1:6MXT-TN7Y-VX8H-N"
+        } ]
+      } ]
+    } ],
+    "relationships" : [ {
+      "type" : "http://familysearch.org/types/relationships/NonRelative",
+      "person1" : {
+        "resource" : "#p_6917529030836067856",
+        "resourceId" : "p_6917529030836067856"
+      },
+      "person2" : {
+        "resource" : "#p_6917529030836067156",
+        "resourceId" : "p_6917529030836067156"
+      },
+      "fields" : [ {
+        "type" : "http://familysearch.org/types/fields/RelativeType",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE",
+          "text" : "Non-Relative",
+          "resource" : "http://familysearch.org/types/relationships/NonRelative"
+        }, {
+          "type" : "http://gedcomx.org/Original",
+          "labelId" : "REL_TYPE_ORIG",
+          "text" : "Nonrelative"
+        } ]
+      }, {
+        "type" : "http://familysearch.org/types/fields/RelativeTypeInverse",
+        "values" : [ {
+          "type" : "http://gedcomx.org/Interpreted",
+          "labelId" : "REL_TYPE_INV",
+          "text" : "Non-Relative"
+        } ]
+      } ]
+    } ],
+    "sourceDescriptions" : [ {
+      "id" : "s_6917529028318519956",
+      "about" : "#r_6917529028318519956",
+      "componentOf" : {
+        "description" : "#sd_c_2739057"
+      },
+      "resourceType" : "http://gedcomx.org/Record",
+      "coverage" : [ {
+        "spatial" : {
+          "original" : "Erie, New York, United States"
+        },
+        "temporal" : {
+          "original" : "1909",
+          "fields" : [ {
+            "type" : "http://gedcomx.org/Date",
+            "sources" : [ {
+              "description" : "#sd_img",
+              "qualifiers" : [ {
+                "value" : "0.53034455,0.60169894,0.541112,0.6007551",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53034455,0.59414816,0.541112,0.59202456",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.53034455,0.5917886,0.541112,0.53775364",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.52682066,0.4143464,0.5383712,0.41080698",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              }, {
+                "value" : "0.5321065,0.48655027,0.541112,0.48560643",
+                "name" : "http://gedcomx.org/RectangleRegion"
+              } ]
+            } ],
+            "values" : [ {
+              "type" : "http://gedcomx.org/Original",
+              "labelId" : "PR_BIR_DATE_ORIG",
+              "text" : "1909"
+            } ]
+          } ]
+        },
+        "recordType" : "http://gedcomx.org/Land"
+      } ],
+      "sources" : [ {
+        "description" : "#sd_relexPostRules",
+        "descriptionId" : "sd_relexPostRules"
+      } ],
+      "identifiers" : {
+        "http://gedcomx.org/Persistent" : [ "https://familysearch.org/ark:/61903/1:2:6MXT-TNSX-M8RF-W" ]
+      }
+    }, {
+      "id" : "sd_c_2739057",
+      "about" : "http://familysearch.org/platform/records/collections/2739057",
+      "resourceType" : "http://gedcomx.org/Collection",
+      "identifiers" : {
+        "http://gedcomx.org/Primary" : [ "http://familysearch.org/platform/records/collections/2739057" ]
+      }
+    }, {
+      "id" : "sd_relexPostRules",
+      "about" : "#relexPostRules",
+      "sources" : [ {
+        "description" : "#sd_relexPreRules",
+        "descriptionId" : "sd_relexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPostRules"
+      } ]
+    }, {
+      "id" : "sd_relexPreRules",
+      "about" : "#relexPreRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPostRules",
+        "descriptionId" : "sd_enamexPostRules"
+      } ],
+      "titles" : [ {
+        "value" : "RelexPreRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPostRules",
+      "about" : "#enamexPostRules",
+      "sources" : [ {
+        "description" : "#sd_enamexPreRules",
+        "descriptionId" : "sd_enamexPreRules"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPostRules"
+      } ]
+    }, {
+      "id" : "sd_enamexPreRules",
+      "about" : "#enamexPreRules",
+      "sources" : [ {
+        "description" : "#sd_nbx",
+        "descriptionId" : "sd_nbx"
+      } ],
+      "titles" : [ {
+        "value" : "EnamexPreRules"
+      } ]
+    }, {
+      "id" : "sd_nbx",
+      "about" : "#nbx",
+      "sources" : [ {
+        "description" : "#sd_img"
+      } ],
+      "titles" : [ {
+        "value" : "Original NBX"
+      } ]
+    }, {
+      "id" : "sd_img",
+      "about" : "https://familysearch.org/ark:/61903/3:1:3QSQ-G9WN-M99L-3",
+      "resourceType" : "http://gedcomx.org/DigitalArtifact",
+      "identifiers" : {
+        "$" : [ "https://familysearch.org/ark:/61903/3:1:3QSQ-G9WN-M99L-3" ]
+      }
+    } ],
+    "documents" : [ {
+      "id" : "relexPostRules",
+      "text" : "<NBX>\n<UNQ>007154933_00204_TXT</UNQ>\n<IMID>007154933_00204</IMID>\n<APID>TH-1942-32880-28533-42</APID>\n<IMGSIZE>5108,4238</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 0 0\n( 1086 )\n4, <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">EXECUTON</ENAMEX>'S <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this 12th\n<ENAMEX TYPE=\"PERSON\">Smith</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, late of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\n<ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Charles Lorence</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Margaret Lorence</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Erie\nCounty</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>,\nof the second part,\n⌨⌨⌨⌨⌨ and for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Twenty four hundred and twenty-five Dollars</NUMEX> paid \nby the said part in, of the second part, the receipt whereof is hereby acknowledged, has granted barsinned sold and conveyor, and by these presents\ndo grant bargain, all and convay unto the said parties of the second part, and to <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that Tract or\nparcel of Land, situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> being part of Lot 71 and 72 <ENAMEX TYPE=\"LOCALE.notgpe\">Township Seven</ENAMEX>, <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX>\nof the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> Survey; and in a subdivision of\npart of said Lots 71 and 72 made for the main <ENAMEX TYPE=\"ORGANIZATION\">Street Land and\nImprovement Company</ENAMEX> by <ENAMEX TYPE=\"PERSON\">C. F. Wilmer</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, a map of which sub-\ndivision is on file in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> under Cover 292, the\npremises hereby conveyed are designated as lot Fifteen ( 15) in Block\n\"B\" and are described as follows:-\nBeginning at a point in the southerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Heath street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">four hundred and twenty ( 20)</NUMEX> feet easterly from its\nintersection with the easterly line of <ENAMEX TYPE=\"STRUCTURE\">Cornell Street</ENAMEX>, running thence\neasterly along said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty ( 30)</NUMEX> feet;\nthence southerly at right angles to <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet; thence westerly parallel with <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty\n130</NUMEX> feet; and thence northerly at right angles <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet to the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX>, at the\nplace of beginning, and being the same premises conveyed with other\npremises to said <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jacob Bonner</ENAMEX> by deed dated\n<TIMEX TYPE=\"DATE\">June 12, 1895</TIMEX>, recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 802 of\nDeeds</ENAMEX> at page 96, <TIMEX TYPE=\"DATE\">July 2, 1895</TIMEX>.\n4 0 1\n( 1086 )\nCogether with all and singular the tenements, hereditaments and appurtenances thereto belonging or in anywise appertaining, and the reversions\nand remainders, rents, issues and profits thereon. And all the estate, right, title, interest\n<ENAMEX TYPE=\"COREF\">ham</ENAMEX> and demand whatsoever, which the said <ENAMEX TYPE=\"COREF\">testator</ENAMEX> had in <ENAMEX TYPE=\"COREF\">his</ENAMEX> use use, and at the time of <ENAMEX TYPE=\"CHEMICAL\">mercury</ENAMEX>, and when the said party\nof the first part have by virtue of the said last will and testament or otherwise, of, in and to the above described premises, and every part and parcel\nthereof, with the appurtenances, to have and to hold forever. And the said part is of the first part, for themselk\nand for <ENAMEX TYPE=\"COREF\">their</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX> do\ncovenant promise and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that <ENAMEX TYPE=\"COREF\">they</ENAMEX> have not made done committed\nexecuted or suffered any act or acts, thing or things whatsoever,\nwhereby, or by means whereof, the above mentioned and described premises, or any part or parcel thereof, now are, or at any time hereafter shall or may\nbe impeached, charged or encumbered in any way or manner whatsoever.\nM Whess Whereof. The said parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the day and year first above written\n<ENAMEX TYPE=\"PERSON\">SHATED</ENAMEX> AND DENEARD IN THE PRESENCE OF\n<ENAMEX TYPE=\"PERSON\">John M. Smith</ENAMEX> ℗\n<ENAMEX TYPE=\"PERSON\">Louis ⎬ Smith</ENAMEX>\nas <ENAMEX TYPE=\"NONFAMILY\">Trustees</ENAMEX> under and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the\n<ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">County of Erie Cond</ENAMEX>\non <ENAMEX TYPE=\"COREF\">thee</ENAMEX> <TIMEX TYPE=\"DATE\">12th</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber untimely use appeared ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨e known to be\nthe <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last will</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schimite</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> and to be the same \nlart of the person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the wooden frament, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same. as <ENAMEX TYPE=\"PERSON\">Peter</ENAMEX> \nunder and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Eugene P. Ouchie</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> in and for\n<ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>, <ENAMEX TYPE=\"COREF\">My</ENAMEX>.\n__<TIMEX TYPE=\"DATE\">12__ day of\nSc __1909</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lout</ENAMEX> --\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"4124\"_ENDID=\"4102\"_STTOKEN=\"Lout\"_ENDTOKEN=\"12__ day of Sc __1909\">\n<RELEX TYPE=\"E1:HAS_ST_PL\"_STID=\"227\"_ENDID=\"138\"_STTOKEN=\"DEED\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"480\"_ENDID=\"1074\"_STTOKEN=\"his\"_ENDTOKEN=\"Holland Land Companys\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1002\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1279\"_ENDID=\"502\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1652\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1720\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1799\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1931\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2037\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2112\"_ENDID=\"502\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2124\"_ENDID=\"1291\"_STTOKEN=\"Clerk's Office\"_ENDTOKEN=\"Clerk's Office\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2497\"_ENDID=\"2481\"_STTOKEN=\"his\"_ENDTOKEN=\"testator\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2838\"_ENDID=\"874\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2959\"_ENDID=\"874\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2989\"_ENDID=\"874\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3380\"_ENDID=\"874\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3571\"_ENDID=\"2037\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3571\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3641\"_ENDID=\"3571\"_STTOKEN=\"thee\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3646\"_ENDID=\"4102\"_STTOKEN=\"12th\"_ENDTOKEN=\"12__ day of Sc __1909\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"385\"_ENDID=\"3618\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie Cond\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3924\"_ENDID=\"874\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"401\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4012\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4012\"_ENDID=\"3571\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4083\"_ENDID=\"502\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4096\"_ENDID=\"3658\"_STTOKEN=\"My\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"493\"_ENDID=\"201\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"515\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"957\"_ENDID=\"368\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"974\"_ENDID=\"3618\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie Cond\">\n<RELEX TYPE=\"S=1+\"_STID=\"216\"_ENDID=\"216\"_STTOKEN=\"EXECUTON\"_ENDTOKEN=\"EXECUTON\">\n<RELEX TYPE=\"S=1+\"_STID=\"3437\"_ENDID=\"3437\"_STTOKEN=\"SHATED\"_ENDTOKEN=\"SHATED\">\n<RELEX TYPE=\"S=1+\"_STID=\"4124\"_ENDID=\"4124\"_STTOKEN=\"Lout\"_ENDTOKEN=\"Lout\">\n<RELEX TYPE=\"S=2+\"_STID=\"2037\"_ENDID=\"2037\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"2058\"_ENDID=\"2058\"_STTOKEN=\"Jacob Bonner\"_ENDTOKEN=\"Jacob Bonner\">\n<RELEX TYPE=\"S=2+\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"3571\"_ENDID=\"3571\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"3774\"_ENDID=\"3774\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"Frederick Schimite\">\n<RELEX TYPE=\"S=2+\"_STID=\"4012\"_ENDID=\"4012\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"442\"_ENDID=\"442\"_STTOKEN=\"Charles Lorence\"_ENDTOKEN=\"Charles Lorence\">\n<RELEX TYPE=\"S=2+\"_STID=\"462\"_ENDID=\"462\"_STTOKEN=\"Margaret Lorence\"_ENDTOKEN=\"Margaret Lorence\">\n<RELEX TYPE=\"S=3+\"_STID=\"1213\"_ENDID=\"1213\"_STTOKEN=\"C. F. Wilmer\"_ENDTOKEN=\"C. F. Wilmer\">\n<RELEX TYPE=\"S=3+\"_STID=\"3475\"_ENDID=\"3475\"_STTOKEN=\"John M. Smith\"_ENDTOKEN=\"John M. Smith\">\n<RELEX TYPE=\"S=3+\"_STID=\"3491\"_ENDID=\"3491\"_STTOKEN=\"Louis ⎬ Smith\"_ENDTOKEN=\"Louis ⎬ Smith\">\n<RELEX TYPE=\"S=3+\"_STID=\"4041\"_ENDID=\"4041\"_STTOKEN=\"Eugene P. Ouchie\"_ENDTOKEN=\"Eugene P. Ouchie\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2838\"_ENDID=\"2844\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2838\"_ENDID=\"2851\"_STTOKEN=\"their\"_ENDTOKEN=\"executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2959\"_ENDID=\"2965\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2989\"_ENDID=\"2975\"_STTOKEN=\"they\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"337\"_ENDID=\"293\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3774\"_ENDID=\"3744\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"480\"_ENDID=\"484\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"874\"_ENDID=\"880\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"264\"_ENDID=\"410\"_STTOKEN=\"Smith\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"337\"_ENDID=\"227\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"DEED\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"337\"_ENDID=\"238\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Indenture\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"337\"_ENDID=\"310\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"337\"_ENDID=\"3544\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"337\"_ENDID=\"3590\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3571\"_ENDID=\"3544\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3571\"_ENDID=\"3590\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3774\"_ENDID=\"3761\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"last will\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3774\"_ENDID=\"3794\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"4012\"_ENDID=\"3985\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"4012\"_ENDID=\"4031\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2037\"_ENDID=\"2037\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3571\"_ENDID=\"3571\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"4012\"_ENDID=\"4012\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"3491\"_ENDID=\"3508\"_STTOKEN=\"Louis ⎬ Smith\"_ENDTOKEN=\"Trustees\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"1213\"_ENDID=\"1226\"_STTOKEN=\"C. F. Wilmer\"_ENDTOKEN=\"Surveyor\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"4041\"_ENDID=\"4058\"_STTOKEN=\"Eugene P. Ouchie\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1291\"_ENDID=\"1279\"_STTOKEN=\"Clerk's Office\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"138\"_ENDID=\"144\"_STTOKEN=\"Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"201\"_ENDID=\"210\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"N. Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2124\"_ENDID=\"2112\"_STTOKEN=\"Clerk's Office\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"368\"_ENDID=\"385\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"385\"_ENDID=\"401\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"493\"_ENDID=\"502\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"502\"_ENDID=\"515\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"974\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"993\"_ENDID=\"1002\"_STTOKEN=\"State\\nof\"_ENDTOKEN=\"New York\">\n"
+    }, {
+      "id" : "relexPreRules",
+      "text" : "<NBX>\n<UNQ>007154933_00204_TXT</UNQ>\n<IMID>007154933_00204</IMID>\n<APID>TH-1942-32880-28533-42</APID>\n<IMGSIZE>5108,4238</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 0 0\n( 1086 )\n4, <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">EXECUTON</ENAMEX>'S <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this 12th\n<ENAMEX TYPE=\"PERSON\">Smith</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, late of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\n<ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Charles Lorence</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Margaret Lorence</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Erie\nCounty</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>,\nof the second part,\n⌨⌨⌨⌨⌨ and for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Twenty four hundred and twenty-five Dollars</NUMEX> paid \nby the said part in, of the second part, the receipt whereof is hereby acknowledged, has granted barsinned sold and conveyor, and by these presents\ndo grant bargain, all and convay unto the said parties of the second part, and to <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that Tract or\nparcel of Land, situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> being part of Lot 71 and 72 <ENAMEX TYPE=\"LOCALE.notgpe\">Township Seven</ENAMEX>, <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX>\nof the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> Survey; and in a subdivision of\npart of said Lots 71 and 72 made for the main <ENAMEX TYPE=\"ORGANIZATION\">Street Land and\nImprovement Company</ENAMEX> by <ENAMEX TYPE=\"PERSON\">C. F. Wilmer</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, a map of which sub-\ndivision is on file in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> under Cover 292, the\npremises hereby conveyed are designated as lot Fifteen ( 15) in Block\n\"B\" and are described as follows:-\nBeginning at a point in the southerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Heath street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">four hundred and twenty ( 20)</NUMEX> feet easterly from its\nintersection with the easterly line of <ENAMEX TYPE=\"STRUCTURE\">Cornell Street</ENAMEX>, running thence\neasterly along said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty ( 30)</NUMEX> feet;\nthence southerly at right angles to <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet; thence westerly parallel with <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty\n130</NUMEX> feet; and thence northerly at right angles <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet to the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX>, at the\nplace of beginning, and being the same premises conveyed with other\npremises to said <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jacob Bonner</ENAMEX> by deed dated\n<TIMEX TYPE=\"DATE\">June 12, 1895</TIMEX>, recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 802 of\nDeeds</ENAMEX> at page 96, <TIMEX TYPE=\"DATE\">July 2, 1895</TIMEX>.\n4 0 1\n( 1086 )\nCogether with all and singular the tenements, hereditaments and appurtenances thereto belonging or in anywise appertaining, and the reversions\nand remainders, rents, issues and profits thereon. And all the estate, right, title, interest\n<ENAMEX TYPE=\"COREF\">ham</ENAMEX> and demand whatsoever, which the said <ENAMEX TYPE=\"COREF\">testator</ENAMEX> had in <ENAMEX TYPE=\"COREF\">his</ENAMEX> use use, and at the time of <ENAMEX TYPE=\"CHEMICAL\">mercury</ENAMEX>, and when the said party\nof the first part have by virtue of the said last will and testament or otherwise, of, in and to the above described premises, and every part and parcel\nthereof, with the appurtenances, to have and to hold forever. And the said part is of the first part, for themselk\nand for <ENAMEX TYPE=\"COREF\">their</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX> do\ncovenant promise and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that <ENAMEX TYPE=\"COREF\">they</ENAMEX> have not made done committed\nexecuted or suffered any act or acts, thing or things whatsoever,\nwhereby, or by means whereof, the above mentioned and described premises, or any part or parcel thereof, now are, or at any time hereafter shall or may\nbe impeached, charged or encumbered in any way or manner whatsoever.\nM Whess Whereof. The said parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the day and year first above written\n<ENAMEX TYPE=\"PERSON\">SHATED</ENAMEX> AND DENEARD IN THE PRESENCE OF\n<ENAMEX TYPE=\"PERSON\">John M. Smith</ENAMEX> ℗\n<ENAMEX TYPE=\"PERSON\">Louis ⎬ Smith</ENAMEX>\nas <ENAMEX TYPE=\"NONFAMILY\">Trustees</ENAMEX> under and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the\n<ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">County of Erie Cond</ENAMEX>\non <ENAMEX TYPE=\"COREF\">thee</ENAMEX> <TIMEX TYPE=\"DATE\">12th</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber untimely use appeared ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨e known to be\nthe <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last will</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schimite</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> and to be the same \nlart of the person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the wooden frament, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same. as <ENAMEX TYPE=\"PERSON\">Peter</ENAMEX> \nunder and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Eugene P. Ouchie</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> in and for\n<ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>, <ENAMEX TYPE=\"COREF\">My</ENAMEX>.\n__<TIMEX TYPE=\"DATE\">12__ day of\nSc __1909</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lout</ENAMEX> --\n</SBODY>\n</NBX>\n\n<RELEX TYPE=\"E1:HAS_STDATE\"_STID=\"4124\"_ENDID=\"4102\"_STTOKEN=\"Lout\"_ENDTOKEN=\"12__ day of Sc __1909\">\n<RELEX TYPE=\"E1:HAS_ST_PL\"_STID=\"227\"_ENDID=\"138\"_STTOKEN=\"DEED\"_ENDTOKEN=\"Erie\">\n<RELEX TYPE=\"E2:HAS_RESPL\"_STID=\"480\"_ENDID=\"1074\"_STTOKEN=\"his\"_ENDTOKEN=\"Holland Land Companys\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1002\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1279\"_ENDID=\"502\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"144\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1652\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1720\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1799\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"1931\"_ENDID=\"1478\"_STTOKEN=\"Heath Street\"_ENDTOKEN=\"Heath street\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2037\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2112\"_ENDID=\"502\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2124\"_ENDID=\"1291\"_STTOKEN=\"Clerk's Office\"_ENDTOKEN=\"Clerk's Office\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2497\"_ENDID=\"2481\"_STTOKEN=\"his\"_ENDTOKEN=\"testator\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2838\"_ENDID=\"874\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2959\"_ENDID=\"874\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"2989\"_ENDID=\"874\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3380\"_ENDID=\"874\"_STTOKEN=\"their\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3571\"_ENDID=\"2037\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3641\"_ENDID=\"3571\"_STTOKEN=\"thee\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3646\"_ENDID=\"4102\"_STTOKEN=\"12th\"_ENDTOKEN=\"12__ day of Sc __1909\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"385\"_ENDID=\"3618\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie Cond\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"3924\"_ENDID=\"874\"_STTOKEN=\"they\"_ENDTOKEN=\"their\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"401\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4012\"_ENDID=\"3571\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4083\"_ENDID=\"502\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"4096\"_ENDID=\"3658\"_STTOKEN=\"My\"_ENDTOKEN=\"me\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"493\"_ENDID=\"201\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"515\"_ENDID=\"3599\"_STTOKEN=\"New York\"_ENDTOKEN=\"STATE OF NEW YORK\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"957\"_ENDID=\"368\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"City of Buffalo\">\n<RELEX TYPE=\"R40:IS_SAME_AS\"_STID=\"974\"_ENDID=\"3618\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"County of Erie Cond\">\n<RELEX TYPE=\"S=1+\"_STID=\"216\"_ENDID=\"216\"_STTOKEN=\"EXECUTON\"_ENDTOKEN=\"EXECUTON\">\n<RELEX TYPE=\"S=1+\"_STID=\"3437\"_ENDID=\"3437\"_STTOKEN=\"SHATED\"_ENDTOKEN=\"SHATED\">\n<RELEX TYPE=\"S=1+\"_STID=\"4124\"_ENDID=\"4124\"_STTOKEN=\"Lout\"_ENDTOKEN=\"Lout\">\n<RELEX TYPE=\"S=2+\"_STID=\"2037\"_ENDID=\"2037\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"2058\"_ENDID=\"2058\"_STTOKEN=\"Jacob Bonner\"_ENDTOKEN=\"Jacob Bonner\">\n<RELEX TYPE=\"S=2+\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"3571\"_ENDID=\"3571\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"3774\"_ENDID=\"3774\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"Frederick Schimite\">\n<RELEX TYPE=\"S=2+\"_STID=\"4012\"_ENDID=\"4012\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"S=2+\"_STID=\"442\"_ENDID=\"442\"_STTOKEN=\"Charles Lorence\"_ENDTOKEN=\"Charles Lorence\">\n<RELEX TYPE=\"S=2+\"_STID=\"462\"_ENDID=\"462\"_STTOKEN=\"Margaret Lorence\"_ENDTOKEN=\"Margaret Lorence\">\n<RELEX TYPE=\"S=3+\"_STID=\"1213\"_ENDID=\"1213\"_STTOKEN=\"C. F. Wilmer\"_ENDTOKEN=\"C. F. Wilmer\">\n<RELEX TYPE=\"S=3+\"_STID=\"3475\"_ENDID=\"3475\"_STTOKEN=\"John M. Smith\"_ENDTOKEN=\"John M. Smith\">\n<RELEX TYPE=\"S=3+\"_STID=\"3491\"_ENDID=\"3491\"_STTOKEN=\"Louis ⎬ Smith\"_ENDTOKEN=\"Louis ⎬ Smith\">\n<RELEX TYPE=\"S=3+\"_STID=\"4041\"_ENDID=\"4041\"_STTOKEN=\"Eugene P. Ouchie\"_ENDTOKEN=\"Eugene P. Ouchie\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2838\"_ENDID=\"2844\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2838\"_ENDID=\"2851\"_STTOKEN=\"their\"_ENDTOKEN=\"executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2959\"_ENDID=\"2965\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"2989\"_ENDID=\"2975\"_STTOKEN=\"they\"_ENDTOKEN=\"assigns\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"337\"_ENDID=\"293\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"3774\"_ENDID=\"3744\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"executors\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"480\"_ENDID=\"484\"_STTOKEN=\"his\"_ENDTOKEN=\"wife\">\n<RELEX TYPE=\"Z:HASFAMMEMLST\"_STID=\"874\"_ENDID=\"880\"_STTOKEN=\"their\"_ENDTOKEN=\"heirs\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"264\"_ENDID=\"410\"_STTOKEN=\"Smith\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"337\"_ENDID=\"310\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3571\"_ENDID=\"3544\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3571\"_ENDID=\"3590\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3774\"_ENDID=\"3761\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"last will\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"3774\"_ENDID=\"3794\"_STTOKEN=\"Frederick Schimite\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"4012\"_ENDID=\"3985\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"last Will and Testament\">\n<RELEX TYPE=\"Z:HAS_EVENT\"_STID=\"4012\"_ENDID=\"4031\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"deceased\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"2037\"_ENDID=\"2037\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"337\"_ENDID=\"337\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"3571\"_ENDID=\"3571\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:IS_PRINCIPAL\"_STID=\"4012\"_ENDID=\"4012\"_STTOKEN=\"Frederick Schmitt\"_ENDTOKEN=\"Frederick Schmitt\">\n<RELEX TYPE=\"Z:MEMBER_OF\"_STID=\"3491\"_ENDID=\"3508\"_STTOKEN=\"Louis ⎬ Smith\"_ENDTOKEN=\"Trustees\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"1213\"_ENDID=\"1226\"_STTOKEN=\"C. F. Wilmer\"_ENDTOKEN=\"Surveyor\">\n<RELEX TYPE=\"Z:OCCUPATION_OF\"_STID=\"4041\"_ENDID=\"4058\"_STTOKEN=\"Eugene P. Ouchie\"_ENDTOKEN=\"Notary Public\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"1291\"_ENDID=\"1279\"_STTOKEN=\"Clerk's Office\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"144\"_ENDID=\"154\"_STTOKEN=\"New York\"_ENDTOKEN=\"United States\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"201\"_ENDID=\"210\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"N. Y.\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"2124\"_ENDID=\"2112\"_STTOKEN=\"Clerk's Office\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"368\"_ENDID=\"385\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"385\"_ENDID=\"401\"_STTOKEN=\"County of Erie\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"493\"_ENDID=\"502\"_STTOKEN=\"Buffalo\"_ENDTOKEN=\"Erie County\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"502\"_ENDID=\"515\"_STTOKEN=\"Erie County\"_ENDTOKEN=\"New York\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"957\"_ENDID=\"974\"_STTOKEN=\"City of Buffalo\"_ENDTOKEN=\"County of Erie\">\n<RELEX TYPE=\"Z:SUBPLACE_OF\"_STID=\"993\"_ENDID=\"1002\"_STTOKEN=\"State\\nof\"_ENDTOKEN=\"New York\">\n"
+    }, {
+      "id" : "enamexPostRules",
+      "text" : "<NBX>\n<UNQ>007154933_00204_TXT</UNQ>\n<IMID>007154933_00204</IMID>\n<APID>TH-1942-32880-28533-42</APID>\n<IMGSIZE>5108,4238</IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 0 0\n( 1086 )\n4, <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">EXECUTON</ENAMEX>'S <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this 12th\n<ENAMEX TYPE=\"PERSON\">Smith</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, late of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\n<ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Charles Lorence</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Margaret Lorence</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Erie\nCounty</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>,\nof the second part,\n⌨⌨⌨⌨⌨ and for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Twenty four hundred and twenty-five Dollars</NUMEX> paid \nby the said part in, of the second part, the receipt whereof is hereby acknowledged, has granted barsinned sold and conveyor, and by these presents\ndo grant bargain, all and convay unto the said parties of the second part, and to <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that Tract or\nparcel of Land, situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> being part of Lot 71 and 72 <ENAMEX TYPE=\"LOCALE.notgpe\">Township Seven</ENAMEX>, <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX>\nof the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> Survey; and in a subdivision of\npart of said Lots 71 and 72 made for the main <ENAMEX TYPE=\"ORGANIZATION\">Street Land and\nImprovement Company</ENAMEX> by <ENAMEX TYPE=\"PERSON\">C. F. Wilmer</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, a map of which sub-\ndivision is on file in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> under Cover 292, the\npremises hereby conveyed are designated as lot Fifteen ( 15) in Block\n\"B\" and are described as follows:-\nBeginning at a point in the southerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Heath street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">four hundred and twenty ( 20)</NUMEX> feet easterly from its\nintersection with the easterly line of <ENAMEX TYPE=\"STRUCTURE\">Cornell Street</ENAMEX>, running thence\neasterly along said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty ( 30)</NUMEX> feet;\nthence southerly at right angles to <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet; thence westerly parallel with <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty\n130</NUMEX> feet; and thence northerly at right angles <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet to the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX>, at the\nplace of beginning, and being the same premises conveyed with other\npremises to said <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jacob Bonner</ENAMEX> by deed dated\n<TIMEX TYPE=\"DATE\">June 12, 1895</TIMEX>, recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 802 of\nDeeds</ENAMEX> at page 96, <TIMEX TYPE=\"DATE\">July 2, 1895</TIMEX>.\n4 0 1\n( 1086 )\nCogether with all and singular the tenements, hereditaments and appurtenances thereto belonging or in anywise appertaining, and the reversions\nand remainders, rents, issues and profits thereon. And all the estate, right, title, interest\n<ENAMEX TYPE=\"COREF\">ham</ENAMEX> and demand whatsoever, which the said <ENAMEX TYPE=\"COREF\">testator</ENAMEX> had in <ENAMEX TYPE=\"COREF\">his</ENAMEX> use use, and at the time of <ENAMEX TYPE=\"CHEMICAL\">mercury</ENAMEX>, and when the said party\nof the first part have by virtue of the said last will and testament or otherwise, of, in and to the above described premises, and every part and parcel\nthereof, with the appurtenances, to have and to hold forever. And the said part is of the first part, for themselk\nand for <ENAMEX TYPE=\"COREF\">their</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX> do\ncovenant promise and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that <ENAMEX TYPE=\"COREF\">they</ENAMEX> have not made done committed\nexecuted or suffered any act or acts, thing or things whatsoever,\nwhereby, or by means whereof, the above mentioned and described premises, or any part or parcel thereof, now are, or at any time hereafter shall or may\nbe impeached, charged or encumbered in any way or manner whatsoever.\nM Whess Whereof. The said parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the day and year first above written\n<ENAMEX TYPE=\"PERSON\">SHATED</ENAMEX> AND DENEARD IN THE PRESENCE OF\n<ENAMEX TYPE=\"PERSON\">John M. Smith</ENAMEX> ℗\n<ENAMEX TYPE=\"PERSON\">Louis ⎬ Smith</ENAMEX>\nas <ENAMEX TYPE=\"NONFAMILY\">Trustees</ENAMEX> under and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the\n<ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">County of Erie Cond</ENAMEX>\non <ENAMEX TYPE=\"COREF\">thee</ENAMEX> <TIMEX TYPE=\"DATE\">12th</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber untimely use appeared ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨e known to be\nthe <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last will</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schimite</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> and to be the same \nlart of the person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the wooden frament, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same. as <ENAMEX TYPE=\"PERSON\">Peter</ENAMEX> \nunder and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Eugene P. Ouchie</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> in and for\n<ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>, <ENAMEX TYPE=\"COREF\">My</ENAMEX>.\n__<TIMEX TYPE=\"DATE\">12__ day of\nSc __1909</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lout</ENAMEX> --\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "enamexPreRules",
+      "text" : "<NBX>\n<UNQ>007154933_00204_TXT</UNQ>\n<IMID>007154933_00204</IMID>\n<APID><TIMEX TYPE=\"DATE\">TH-1942</TIMEX>-32880-28533-42</APID>\n<IMGSIZE>5108<TIMEX TYPE=\"DATE\">,4238</TIMEX></IMGSIZE>\n<PLACE><ENAMEX TYPE=\"LOCALE\">Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">United States</ENAMEX></PLACE>\n<SBODY>4 0 0\n( 1086 )\n4, <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">N. Y.</ENAMEX>\n<ENAMEX TYPE=\"PERSON\">EXECUTON</ENAMEX>'S <ENAMEX TYPE=\"EVENT.xlife\">DEED</ENAMEX>.\nThis <ENAMEX TYPE=\"EVENT.xlife\">Indenture</ENAMEX>, Made this 12th\n<ENAMEX TYPE=\"PERSON\">Smith</ENAMEX> and ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX>\nof <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, late of the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>\n<ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\nof the first part, and <ENAMEX TYPE=\"PERSON\">Charles Lorence</ENAMEX> and <ENAMEX TYPE=\"PERSON\">Margaret Lorence</ENAMEX>, <ENAMEX TYPE=\"COREF\">his</ENAMEX> <ENAMEX TYPE=\"FAMILYMEMBER\">wife</ENAMEX>, of <ENAMEX TYPE=\"LOCALE\">Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">Erie\nCounty</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX>,\nof the second part,\n⌨⌨⌨⌨⌨ and for and in consideration of the sum of <NUMEX TYPE=\"MONEY\">Twenty four hundred and twenty-five Dollars</NUMEX> paid \nby the said part in, of the second part, the receipt whereof is hereby acknowledged, has granted barsinned sold and conveyor, and by these presents\ndo grant bargain, all and convay unto the said parties of the second part, and to <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX> forever, all that Tract or\nparcel of Land, situate in the <ENAMEX TYPE=\"LOCALE\">City of Buffalo</ENAMEX>, <ENAMEX TYPE=\"LOCALE\">County of Erie</ENAMEX> and <ENAMEX TYPE=\"LOCALE\">State\nof</ENAMEX> <ENAMEX TYPE=\"LOCALE\">New York</ENAMEX> being part of Lot 71 and 72 <ENAMEX TYPE=\"LOCALE.notgpe\">Township Seven</ENAMEX>, <ENAMEX TYPE=\"LOCALE.notgpe\">Range Eight</ENAMEX>\nof the <ENAMEX TYPE=\"LOCALE.notgpe\">Holland Land Companys</ENAMEX> Survey; and in a subdivision of\npart of said Lots 71 and 72 made for the main <ENAMEX TYPE=\"ORGANIZATION\">Street Land and\nImprovement Company</ENAMEX> by <ENAMEX TYPE=\"PERSON\">C. F. Wilmer</ENAMEX> <ENAMEX TYPE=\"OCCUPATION\">Surveyor</ENAMEX>, a map of which sub-\ndivision is on file in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> under Cover 292, the\npremises hereby conveyed are designated as lot Fifteen ( 15) in Block\n\"B\" and are described as follows:-\nBeginning at a point in the southerly line of\n<ENAMEX TYPE=\"STRUCTURE\">Heath street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">four hundred and twenty ( 20)</NUMEX> feet easterly from its\nintersection with the easterly line of <ENAMEX TYPE=\"STRUCTURE\">Cornell Street</ENAMEX>, running thence\neasterly along said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty ( 30)</NUMEX> feet;\nthence southerly at right angles to <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet; thence westerly parallel with <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX> <NUMEX TYPE=\"QUANTITY\">thirty\n130</NUMEX> feet; and thence northerly at right angles <NUMEX TYPE=\"QUANTITY\">one hundred and\nfifteen ( 15)</NUMEX> feet to the said southerly line of <ENAMEX TYPE=\"STRUCTURE\">Heath Street</ENAMEX>, at the\nplace of beginning, and being the same premises conveyed with other\npremises to said <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX> by <ENAMEX TYPE=\"PERSON\">Jacob Bonner</ENAMEX> by deed dated\n<TIMEX TYPE=\"DATE\">June 12, 1895</TIMEX>, recorded in <ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX> <ENAMEX TYPE=\"ORGANIZATION\">Clerk's Office</ENAMEX> in <ENAMEX TYPE=\"WORK_OF_ART\">Liber 802 of\nDeeds</ENAMEX> at page 96, <TIMEX TYPE=\"DATE\">July 2, 1895</TIMEX>.\n4 0 1\n( 1086 )\nCogether with all and singular the tenements, hereditaments and appurtenances thereto belonging or in anywise appertaining, and the reversions\nand remainders, rents, issues and profits thereon. And all the estate, right, title, interest\n<ENAMEX TYPE=\"COREF\">ham</ENAMEX> and demand whatsoever, which the said <ENAMEX TYPE=\"COREF\">testator</ENAMEX> had in <ENAMEX TYPE=\"COREF\">his</ENAMEX> use use, and at the time of <ENAMEX TYPE=\"CHEMICAL\">mercury</ENAMEX>, and when the said party\nof the first part have by virtue of the said last will and testament or otherwise, of, in and to the above described premises, and every part and parcel\nthereof, with the appurtenances, to have and to hold forever. And the said part is of the first part, for themselk\nand for <ENAMEX TYPE=\"COREF\">their</ENAMEX>\n<ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX>, <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">administrators</ENAMEX> do\ncovenant promise and agree to and with the said parties of the second part, <ENAMEX TYPE=\"COREF\">their</ENAMEX> <ENAMEX TYPE=\"NONFAMILY\">heirs</ENAMEX> and <ENAMEX TYPE=\"NONFAMILY\">assigns</ENAMEX>, that <ENAMEX TYPE=\"COREF\">they</ENAMEX> have not made done committed\nexecuted or suffered any act or acts, thing or things whatsoever,\nwhereby, or by means whereof, the above mentioned and described premises, or any part or parcel thereof, now are, or at any time hereafter shall or may\nbe impeached, charged or encumbered in any way or manner whatsoever.\nM Whess Whereof. The said parties of the first part have hereunto set <ENAMEX TYPE=\"COREF\">their</ENAMEX> hand and seal the day and year first above written\n<ENAMEX TYPE=\"PERSON\">SHATED</ENAMEX> AND DENEARD IN THE PRESENCE OF\n<ENAMEX TYPE=\"PERSON\">John M. Smith</ENAMEX> ℗\n<ENAMEX TYPE=\"PERSON\">Louis ⎬ Smith</ENAMEX>\nas <ENAMEX TYPE=\"NONFAMILY\">Trustees</ENAMEX> under and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the\n<ENAMEX TYPE=\"EVENT.xlife\">Last Will and Testament</ENAMEX> of\n<ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>\n<ENAMEX TYPE=\"LOCALE\">STATE OF NEW YORK</ENAMEX>.\n<ENAMEX TYPE=\"LOCALE\">County of Erie Cond</ENAMEX>\non <ENAMEX TYPE=\"COREF\">thee</ENAMEX> <TIMEX TYPE=\"DATE\">12th</TIMEX>\nbefore <ENAMEX TYPE=\"COREF\">me</ENAMEX>, the subscriber untimely use appeared ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨e known to be\nthe <ENAMEX TYPE=\"NONFAMILY\">executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last will</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schimite</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX> and to be the same \nlart of the person described in and <ENAMEX TYPE=\"COREF\">who</ENAMEX> executed the wooden frament, and severally acknowledged that <ENAMEX TYPE=\"COREF\">they</ENAMEX> executed the same. as <ENAMEX TYPE=\"PERSON\">Peter</ENAMEX> \nunder and <ENAMEX TYPE=\"NONFAMILY\">Executors</ENAMEX> of the <ENAMEX TYPE=\"EVENT.xlife\">last Will and Testament</ENAMEX> of <ENAMEX TYPE=\"PERSON\">Frederick Schmitt</ENAMEX>, <ENAMEX TYPE=\"EVENT.rel\">deceased</ENAMEX>,\n<ENAMEX TYPE=\"PERSON\">Eugene P. Ouchie</ENAMEX>\n<ENAMEX TYPE=\"OCCUPATION\">Notary Public</ENAMEX> in and for\n<ENAMEX TYPE=\"LOCALE\">Erie County</ENAMEX>, <ENAMEX TYPE=\"COREF\">My</ENAMEX>.\n__<TIMEX TYPE=\"DATE\">12__ day of\nSc __1909</TIMEX>\n<ENAMEX TYPE=\"PERSON\">Lout</ENAMEX> --\n</SBODY>\n</NBX>\n"
+    }, {
+      "id" : "nbx",
+      "text" : "<NBX>\n<UNQ>007154933_00204_TXT</UNQ>\n<IMID>007154933_00204</IMID>\n<APID>TH-1942-32880-28533-42</APID>\n<IMGSIZE>5108,4238</IMGSIZE>\n<PLACE>Erie, New York, United States</PLACE>\n<SBODY>[379,423:579,500] 4 0 0\n[1482,504:1514,534] ( [1499,504:1588,534] 1086 [1573,504:1660,534] )\n[2357,504:2381,525] 4, [2378,504:2438,525] Buffalo, [2432,504:2462,525] N. [2453,504:2549,525] Y.\n[635,532:813,560] EXECUTON'S [838,532:932,560] DEED.\n[703,611:797,681] This [806,611:989,681] Indenture, [998,611:1060,681] Made [1053,611:1188,681] this [1197,611:1386,681] 12th\n[2018,616:2200,723] Smith [2201,616:2320,723] and [639,688:1349,778] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨ [1350,688:1453,778] and [1454,688:1676,778] Executors [1677,688:1740,778] of [1749,688:1844,778] the [1853,688:1980,778] last [1989,688:2124,778] Will [2125,688:2243,778] and [2244,688:2527,778] Testament\n[618,755:681,836] of [690,755:912,836] Frederick [921,755:1112,836] Schmitt, [1137,755:1240,836] late [1241,755:1320,836] of [1329,755:1432,836] the [1441,755:1551,836] City [1552,755:1591,836] of [1592,755:1783,836] Buffalo, [1808,755:1999,836] County [2000,755:2055,836] of [2064,755:2150,836] Erie, [2183,755:2286,836] New [2287,755:2458,836] York\n[620,823:885,871] deceased\n[632,848:671,943] of [664,848:711,943] the [704,848:767,943] first [768,848:823,943] part, [832,848:894,943] and [903,848:1070,943] Charles [1079,848:1278,943] Lorence [1279,848:1398,943] and [1399,848:1621,943] Margaret [1630,848:1789,943] Lorence, [1814,848:1893,943] his [1902,848:1997,943] wife, [2030,848:2093,943] of [2102,848:2284,943] Buffalo, [2325,848:2486,943] Erie\n[620,913:794,1006] County, [835,913:954,1006] New [955,913:1057,1006] York,\n[2271,1073:2309,1106] of [2303,1073:2351,1106] the [2345,1073:2429,1106] second [2423,1073:2480,1106] part,\n[577,1183:608,1269]  [601,1183:832,1269] ⌨⌨⌨⌨⌨ [825,1183:896,1269] and [897,1183:960,1269] for [961,1183:1048,1269] and [1048,1183:1103,1269] in [1104,1183:1383,1269] consideration [1384,1183:1431,1269] of [1432,1183:1511,1269] the [1512,1183:1623,1269] sum [1624,1183:1655,1269] of [1656,1183:1767,1269] Twenty [1768,1183:1847,1269] four [1848,1183:2015,1269] hundred [2016,1183:2086,1269] and [2087,1183:2206,1269] twenty-five [2271,1183:2446,1269] Dollars [2439,1183:2550,1269] paid [580,1245:635,1303] \n[636,1245:675,1303] by [676,1245:723,1303] the [716,1245:771,1303] said [772,1245:835,1303] part [836,1245:883,1303] in, [900,1245:939,1303] of [940,1245:987,1303] the [980,1245:1074,1303] second [1067,1245:1130,1303] part, [1131,1245:1178,1303] the [1171,1245:1266,1303] receipt [1267,1245:1370,1303] whereof [1363,1245:1394,1303] is [1387,1245:1474,1303] hereby [1467,1245:1642,1303] acknowledged, [1651,1245:1754,1303] has [1755,1245:1858,1303] granted [1859,1245:1986,1303] barsinned [1987,1245:2042,1303] sold [2035,1245:2089,1303] and [2082,1245:2209,1303] conveyor, [2218,1245:2281,1303] and [2282,1245:2321,1303] by [2322,1245:2393,1303] these [2394,1245:2554,1303] presents\n[644,1296:723,1355] do [724,1296:811,1355] grant [812,1296:906,1355] bargain, [907,1296:970,1355] all [963,1296:1010,1355] and [1003,1296:1098,1355] convay [1091,1296:1154,1355] unto [1147,1296:1194,1355] the [1195,1296:1250,1355] said [1251,1296:1354,1355] parties [1355,1296:1386,1355] of [1387,1296:1434,1355] the [1427,1296:1522,1355] second [1515,1296:1577,1355] part, [1578,1296:1633,1355] and [1626,1296:1665,1355] to [1666,1296:1761,1355] their [1762,1296:1833,1355] heirs, [1834,1296:1889,1355] and [1882,1296:1977,1355] assigns [1978,1296:2073,1355] forever, [2074,1296:2137,1355] all [2138,1296:2264,1355] that [2273,1296:2400,1355] Tract [2409,1296:2508,1355] or\n[612,1338:763,1403] parcel [764,1338:819,1403] of [820,1338:954,1403] Land, [995,1338:1186,1403] situate [1195,1338:1282,1403] in [1291,1338:1394,1403] the [1395,1338:1506,1403] City [1507,1338:1569,1403] of [1578,1338:1777,1403] Buffalo, [1810,1338:1993,1403] County [1994,1338:2065,1403] of [2074,1338:2200,1403] Erie [2201,1338:2312,1403] and [2329,1338:2499,1403] State\n[621,1392:687,1452] of [689,1392:804,1452] New [806,1392:938,1452] York [949,1392:1098,1452] being [1100,1392:1215,1452] part [1217,1392:1282,1452] of [1284,1392:1383,1452] Lot [1393,1392:1450,1452] 71 [1452,1392:1576,1452] and [1586,1392:1676,1452] 72 [1687,1392:1920,1452] Township [1930,1392:2096,1452] Seven, [2123,1392:2305,1452] Range [2307,1392:2513,1452] Eight\n[613,1438:676,1510] of [677,1438:764,1510] the [765,1438:1004,1510] Holland [1005,1438:1171,1510] Land [1180,1438:1475,1510] Companys [1484,1438:1643,1510] Survey; [1684,1438:1827,1510] and [1836,1438:1915,1510] in [1916,1438:1979,1510] a [1987,1438:2330,1510] subdivision [2339,1438:2458,1510] of\n[634,1482:745,1547] part [746,1482:809,1547] of [818,1482:952,1547] said [961,1482:1072,1547] Lots [1081,1482:1136,1547] 71 [1137,1482:1280,1547] and [1297,1482:1384,1547] 72 [1385,1482:1567,1547] made [1576,1482:1679,1547] for [1680,1482:1799,1547] the [1808,1482:1991,1547] main [1992,1482:2151,1547] Street [2152,1482:2302,1547] Land [2303,1482:2490,1547] and\n[620,1536:964,1599] Improvement [966,1536:1206,1599] Company [1217,1536:1284,1599] by [1295,1536:1345,1599] C. [1347,1536:1388,1599] F. [1408,1536:1639,1599] Wilmer [1659,1536:1855,1599] Surveyor, [1901,1536:1968,1599] a [1970,1536:2124,1599] map [2135,1536:2210,1599] of [2213,1536:2383,1599] which [2386,1536:2470,1599] sub-\n[612,1582:820,1643] division [830,1582:896,1643] is [906,1582:988,1643] on [990,1582:1097,1643] file [1107,1582:1181,1643] in [1183,1582:1323,1643] Erie [1334,1582:1533,1643] County [1535,1582:1634,1643] Clerk's [1703,1582:1869,1643] Office [1879,1582:2070,1643] under [2080,1582:2221,1643] Cover [2223,1582:2330,1643] 292, [2365,1582:2508,1643] the\n[631,1626:870,1705] premises [879,1626:1037,1705] hereby [1046,1626:1285,1705] conveyed [1294,1626:1381,1705] are [1390,1626:1684,1705] designated [1693,1626:1780,1705] as [1789,1626:1900,1705] lot [1909,1626:2108,1705] Fifteen [2109,1626:2132,1705] ( [2117,1626:2180,1705] 15) [2236,1626:2323,1705] in [2340,1626:2536,1705] Block\n[593,1685:624,1743] \"B\" [704,1685:815,1743] and [816,1685:919,1743] are [920,1685:1134,1743] described [1143,1685:1222,1743] as [1215,1685:1405,1743] follows:-\n[1281,1722:1564,1784] Beginning [1575,1722:1642,1784] at [1653,1722:1685,1784] a [1696,1722:1849,1784] point [1860,1722:1953,1784] in [1956,1722:2066,1784] the [2068,1722:2282,1784] southerly [2293,1722:2403,1784] line [2405,1722:2522,1784] of\n[607,1777:758,1847] Heath [767,1777:941,1847] street [942,1777:1085,1847] four [1094,1777:1365,1847] hundred [1374,1777:1509,1847] and [1517,1777:1668,1847] twenty [1669,1777:1708,1847] ( [1693,1777:1804,1847] 20) [1845,1777:1964,1847] feet [1973,1777:2172,1847] easterly [2180,1777:2339,1847] from [2340,1777:2499,1847] its\n[626,1826:929,1884] intersection [938,1826:1072,1884] with [1081,1826:1200,1884] the [1209,1826:1424,1884] easterly [1433,1826:1568,1884] line [1569,1826:1664,1884] of [1673,1826:1896,1884] Cornell [1905,1826:2032,1884] Street, [2056,1826:2335,1884] running [2344,1826:2545,1884] thence\n[621,1875:829,1935] easterly [831,1875:971,1935] along [982,1875:1122,1935] said [1133,1875:1399,1935] southerly [1401,1875:1584,1935] line [1594,1875:1659,1935] of [1669,1875:1852,1935] Heath [1871,1875:2028,1935] Street [2038,1875:2188,1935] thirty [2189,1875:2213,1935] ( [2198,1875:2280,1935] 30) [2315,1875:2422,1935] feet;\n[625,1919:833,1980] thence [843,1919:1068,1980] southerly [1070,1919:1144,1980] at [1145,1919:1311,1980] right [1347,1919:1546,1980] angles [1548,1919:1614,1980] to [1624,1919:1807,1980] Heath [1817,1919:2000,1980] Street [2010,1919:2126,1980] one [2144,1919:2403,1980] hundred [2396,1919:2559,1980] and\n[623,1975:798,2033] fifteen [799,1975:830,2033] ( [815,1975:909,2033] 15) [958,1975:1077,2033] feet; [1118,1975:1309,2033] thence [1318,1975:1517,2033] westerly [1533,1975:1772,2033] parallel [1781,1975:1932,2033] with [1933,1975:2116,2033] Heath [2125,1975:2307,2033] Street [2316,1975:2504,2033] thirty\n[609,2019:712,2084] 130 [721,2019:840,2084] feet; [872,2019:983,2084] and [984,2019:1207,2084] thence [1224,2019:1471,2084] northerly [1480,2019:1550,2084] at [1559,2019:1718,2084] right [1727,2019:1910,2084] angles [1911,2019:2006,2084] one [2015,2019:2277,2084] hundred [2286,2019:2472,2084] and\n[625,2070:799,2131] fifteen [793,2070:824,2131] ( [809,2070:900,2131] 15) [944,2070:1068,2131] feet [1069,2070:1143,2131] to [1153,2070:1269,2131] the [1271,2070:1445,2131] said [1455,2070:1688,2131] southerly [1698,2070:1822,2131] line [1824,2070:1889,2131] of [1900,2070:2066,2131] Heath [2084,2070:2258,2131] Street, [2285,2070:2351,2131] at [2352,2070:2508,2131] the\n[633,2112:777,2175] place [788,2112:855,2175] of [866,2112:1124,2175] beginning, [1143,2112:1271,2175] and [1282,2112:1453,2175] being [1464,2112:1574,2175] the [1585,2112:1756,2175] same [1767,2112:2007,2175] premises [2018,2112:2232,2175] conveyed [2251,2112:2370,2175] with [2373,2112:2536,2175] other\n[631,2161:854,2219] premises [863,2161:933,2219] to [934,2161:1085,2219] said [1094,2161:1389,2219] Frederick [1398,2161:1628,2219] Schmitt [1637,2161:1716,2219] by [1725,2161:1892,2219] Jacob [1901,2161:2156,2219] Bonner [2157,2161:2243,2219] by [2244,2161:2379,2219] deed [2380,2161:2554,2219] dated\n[634,2212:769,2293] June [770,2212:817,2293] 12, [842,2212:937,2293] 1895, [962,2212:1192,2293] recorded [1201,2212:1312,2293] in [1321,2212:1440,2293] Erie [1449,2212:1648,2293] County [1665,2212:1776,2293] Clerk's [1857,2212:2023,2293] Office [2032,2212:2103,2293] in [2112,2212:2255,2293] Liber [2264,2212:2367,2293] 802 [2376,2212:2495,2293] of\n[643,2268:826,2354] Deeds [834,2268:937,2354] at [938,2268:1081,2354] page [1090,2268:1153,2354] 96, [1178,2268:1289,2354] July [1298,2268:1337,2354] 2, [1370,2268:1456,2354] 1895.\n[4592,397:4793,472] 4 0 1\n[3651,497:3687,534] ( [3672,497:3759,534] 1086 [3744,497:3836,534] )\n[2790,632:2976,669] Cogether [2977,632:3033,669] with [3029,632:3069,669] all [3065,632:3116,669] and [3112,632:3225,669] singular [3221,632:3277,669] the [3273,632:3397,669] tenements, [3402,632:3578,669] hereditaments [3574,632:3630,669] and [3631,632:3812,669] appurtenances [3807,632:3911,669] thereto [3906,632:4046,669] belonging [4046,632:4087,669] or [4088,632:4129,669] in [4124,632:4232,669] anywise [4233,632:4388,669] appertaining, [4404,632:4461,669] and [4456,632:4513,669] the [4508,632:4702,669] reversions\n[2791,681:2840,716] and [2840,681:2978,716] remainders, [2983,681:3057,716] rents, [3056,681:3140,716] issues [3135,681:3190,716] and [3184,681:3268,716] profits [3263,681:3362,716] thereon. [3386,681:3475,716] And [3470,681:3509,716] all [3504,681:3554,716] the [3553,681:3632,716] estate, [3632,681:3706,716] right, [3711,681:3770,716] title, [3775,681:3940,716] interest\n[2789,683:2868,769] ham [2861,683:2916,769] and [2909,683:3012,769] demand [3005,683:3148,769] whatsoever, [3157,683:3227,769] which [3220,683:3275,769] the [3268,683:3331,769] said [3324,683:3491,769] testator [3484,683:3539,769] had [3532,683:3579,769] in [3580,683:3675,769] his [3676,683:3731,769] use [3732,683:3795,769] use, [3804,683:3851,769] and [3844,683:3883,769] at [3876,683:3923,769] the [3924,683:3987,769] time [3980,683:4027,769] of [4140,683:4274,769] mercury, [4283,683:4330,769] and [4323,683:4394,769] when [4395,683:4442,769] the [4435,683:4498,769] said [4499,683:4707,769] party\n[2790,776:2831,813] of [2821,776:2872,813] the [2868,776:2929,813] first [2925,776:2986,813] part [2977,776:3106,813] have [3101,776:3142,813] by [3138,776:3220,813] virtue [3215,776:3251,813] of [3241,776:3293,813] the [3288,776:3345,813] said [3340,776:3402,813] last [3397,776:3454,813] will [3449,776:3500,813] and [3496,776:3625,813] testament [3620,776:3656,813] or [3652,776:3776,813] otherwise, [3781,776:3817,813] of, [3818,776:3853,813] in [3849,776:3900,813] and [3896,776:3937,813] to [3932,776:3978,813] the [3973,776:4051,813] above [4046,776:4170,813] described [4171,776:4279,813] premises, [4295,776:4352,813] and [4352,776:4435,813] every [4430,776:4502,813] part [4498,776:4554,813] and [4555,776:4702,813] parcel\n[2790,823:2889,862] thereof, [2890,823:2956,862] with [2952,823:3000,862] the [2997,823:3174,862] appurtenances, [3187,823:3246,862] to [3242,823:3341,862] have [3338,823:3420,862] and [3416,823:3459,862] to [3455,823:3554,862] hold [3550,823:3649,862] forever. [3667,823:3749,862] And [3746,823:3794,862] the [3790,823:3844,862] said [3841,823:3906,862] part [3897,823:3945,862] is [3941,823:3979,862] of [3975,823:4023,862] the [4020,823:4079,862] first [4075,823:4135,862] part, [4143,823:4197,862] for [4198,823:4515,862] themselk\n[3094,911:3148,950] and [3145,911:3204,950] for [3211,911:3398,950] their\n[3530,920:3601,948] heirs, [3606,920:3728,948] executors [3721,920:3772,948] and [3769,920:3947,948] administrators [3940,920:4045,948] do\n[2789,955:2916,1039] covenant [2909,955:3020,1039] promise [3013,955:3068,1039] and [3061,955:3140,1039] agree [3133,955:3172,1039] to [3165,955:3220,1039] and [3212,955:3275,1039] with [3276,955:3323,1039] the [3316,955:3379,1039] said [3372,955:3531,1039] parties [3524,955:3563,1039] of [3564,955:3611,1039] the [3604,955:3691,1039] second [3692,955:3755,1039] part, [3788,955:3883,1039] their [3884,955:3955,1039] heirs [3948,955:4003,1039] and [3996,955:4091,1039] assigns, [4092,955:4155,1039] that [4148,955:4203,1039] they [4203,955:4306,1039] have [4299,955:4354,1039] not [4347,955:4426,1039] made [4427,955:4498,1039] done [4499,955:4698,1039] committed\n[2792,1018:2908,1048] executed [2901,1018:2934,1048] or [2932,1018:3035,1048] suffered [3033,1018:3083,1048] any [3081,1018:3127,1048] act [3125,1018:3162,1048] or [3156,1018:3215,1048] acts, [3222,1018:3294,1048] thing [3287,1018:3324,1048] or [3323,1018:3403,1048] things [3401,1018:3539,1048] whatsoever,\n[2796,1208:2904,1241] whereby, [2912,1208:2946,1241] or [2940,1208:2983,1241] by [2977,1208:3062,1241] means [3057,1208:3160,1241] whereof, [3164,1208:3216,1241] the [3210,1208:3286,1241] above [3280,1208:3412,1241] mentioned [3406,1208:3458,1241] and [3453,1208:3570,1241] described [3565,1208:3677,1241] premises, [3686,1208:3719,1241] or [3714,1208:3766,1241] any [3760,1208:3817,1241] part [3812,1208:3855,1241] or [3854,1208:3943,1241] parcel [3937,1208:4032,1241] thereof, [4035,1208:4097,1241] now [4091,1208:4143,1241] are, [4147,1208:4185,1241] or [4184,1208:4227,1241] at [4226,1208:4279,1241] any [4278,1208:4349,1241] time [4348,1208:4474,1241] hereafter [4473,1208:4544,1241] shall [4543,1208:4586,1241] or [4581,1208:4707,1241] may\n[2796,1259:2834,1292] be [2828,1259:2960,1292] impeached, [2963,1259:3067,1292] charged [3061,1259:3094,1292] or [3089,1259:3234,1292] encumbered [3228,1259:3262,1292] in [3256,1259:3313,1292] any [3307,1259:3364,1292] way [3358,1259:3397,1292] or [3391,1259:3485,1292] manner [3479,1259:3620,1292] whatsoever.\n[2862,1327:2909,1392] M [2910,1327:3013,1392] Whess [3014,1327:3117,1392] Whereof. [3142,1327:3197,1392] The [3190,1327:3245,1392] said [3246,1327:3388,1392] parties [3389,1327:3428,1392] of [3421,1327:3468,1392] the [3461,1327:3524,1392] first [3517,1327:3580,1392] part [3573,1327:3700,1392] have [3693,1327:3812,1392] hereunto [3805,1327:3860,1392] set [3861,1327:3980,1392] their [3981,1327:4084,1392] hand [4085,1327:4132,1392] and [4125,1327:4204,1392] seal [4205,1327:4251,1392] the [4252,1327:4299,1392] day [4300,1327:4347,1392] and [4340,1327:4411,1392] year [4404,1327:4467,1392] first [4460,1327:4539,1392] above [4540,1327:4707,1392] written\n[2898,1399:2992,1427] SHATED [2989,1399:3048,1427] AND [3041,1399:3180,1427] DENEARD [3173,1399:3208,1427] IN [3205,1399:3263,1427] THE [3256,1399:3383,1427] PRESENCE [3376,1399:3480,1427] OF\n[4052,1375:4194,1473] John [4203,1375:4266,1473] M. [4291,1375:4489,1473] Smith [4490,1375:4638,1473] ℗\n[4059,1429:4197,1485] Louis [4198,1429:4274,1485] ⎬ [4282,1429:4511,1485] Smith\n[3879,1468:3942,1552] as [3943,1468:4141,1552] Trustees [4142,1468:4301,1552] under [4301,1468:4404,1552] and [4413,1468:4628,1552] Executors [4621,1468:4675,1552] of [4676,1468:4802,1552] the\n[3881,1524:3986,1578] Last [3993,1524:4112,1578] Will [4112,1524:4238,1578] and [4238,1524:4506,1578] Testament [4506,1524:4611,1578] of\n[3881,1573:4090,1626] Frederick [4097,1573:4276,1626] Schmitt, [4290,1573:4588,1626] deceased\n[2937,1610:3035,1640] STATE [3033,1610:3083,1640] OF [3077,1610:3158,1640] NEW [3156,1610:3240,1640] YORK.\n[2844,1610:3010,1710] County [3011,1610:3066,1710] of [3067,1610:3225,1710] Erie [3226,1610:3457,1710] Cond\n[3026,1712:3072,1768] on [3064,1712:3164,1768] thee [3172,1712:3352,1768] 12th\n[2798,1712:2885,1822] before [2878,1712:2925,1822] me, [2926,1712:2973,1822] the [2974,1712:3101,1822] subscriber [3110,1712:3221,1822] untimely [3230,1712:3292,1822] use [3293,1712:3492,1822] appeared [3509,1712:4491,1822] ⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨⌨e [4492,1712:4659,1822] known [4660,1712:4707,1822] to [4716,1712:4839,1822] be\n[2808,1812:2903,1882] the [2904,1812:3127,1882] executors [3128,1812:3191,1882] of [3192,1812:3278,1882] the [3287,1812:3406,1882] last [3407,1812:3518,1882] will [3519,1812:3558,1882] of [3559,1812:3766,1882] Frederick [3767,1812:3966,1882] Schimite, [3983,1812:4198,1882] deceased [4199,1812:4309,1882] and [4310,1812:4365,1882] to [4366,1812:4453,1882] be [4454,1812:4565,1882] the [4566,1812:4757,1882] same [2752,1863:2802,1915] \n[2802,1863:3113,1915] lart [3105,1863:3148,1915] of [3140,1863:3183,1915] the [3183,1863:3282,1915] person [3281,1863:3395,1915] described [3387,1863:3430,1915] in [3423,1863:3473,1915] and [3472,1863:3529,1915] who [3521,1863:3635,1915] executed [3627,1863:3670,1915] the [3670,1863:3769,1915] wooden [3768,1863:3889,1915] frament, [3888,1863:3939,1915] and [3938,1863:4066,1915] severally [4058,1863:4221,1915] acknowledged [4220,1863:4277,1915] that [4269,1863:4355,1915] they [4347,1863:4461,1915] executed [4453,1863:4503,1915] the [4495,1863:4560,1915] same. [4573,1863:4623,1915] as [4622,1863:4778,1915] Peter [2752,1908:2791,2007] \n[2800,1908:2967,2007] under [2968,1908:3079,2007] and [3079,1908:3326,2007] Executors [3327,1908:3382,2007] of [3391,1908:3486,2007] the [3495,1908:3614,2007] last [3623,1908:3742,2007] Will [3743,1908:3853,2007] and [3854,1908:4109,2007] Testament [4110,1908:4173,2007] of [4182,1908:4413,2007] Frederick [4422,1908:4612,2007] Schmitt, [4629,1908:4764,2007] deceased,\n[3797,2003:3981,2059] Eugene [3982,2003:4028,2059] P. [4036,2003:4269,2059] Ouchie\n[3906,2047:4073,2105] Notary [4074,2047:4248,2105] Public [4257,2047:4328,2105] in [4337,2047:4463,2105] and [4464,2047:4597,2105] for\n[3952,2100:4110,2182] Erie [4119,2100:4293,2182] County, [4334,2100:4420,2182] My.\n[2709,2550:2764,2546] __12__ [2709,2518:2764,2509] day [2709,2508:2764,2279] of\n[2691,1756:2750,1741] Sc [2718,2062:2764,2058] __1909\n[2741,641:2682,885] Lout --\n</SBODY>\n</NBX>\n"
+    } ],
+    "fields" : [ {
+      "type" : "http://familysearch.org/types/fields/FsModelVer",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_MODEL_VER",
+        "text" : "1"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/SystemOfOrigin",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_SYSTEM_OF_ORIGIN",
+        "text" : "Dexter"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/CollectionId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_COLLECTION_ID",
+        "text" : "2739057"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/DigitalFilmNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DIGITAL_FILM_NBR",
+        "text" : "007154933"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageNumber",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_NBR",
+        "text" : "00204"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/ImageId",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_IMAGE_ID",
+        "text" : "007154933_00204"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/EventType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "EVENT_TYPE",
+        "text" : "Property"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/RecordGroup",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_GROUP",
+        "text" : "OutputDeliveryAllRobo"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsDisplayType",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_DISPLAY_TYPE",
+        "text" : "Person"
+      } ]
+    }, {
+      "type" : "http://familysearch.org/types/fields/FsArk",
+      "values" : [ {
+        "type" : "http://gedcomx.org/Interpreted",
+        "labelId" : "FS_RECORD_ARK",
+        "text" : "https://familysearch.org/ark:/61903/1:2:6MXT-TNSX-M8RF-W"
+      } ]
+    } ]
+  } ]
+}
